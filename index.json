@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-15T00:00:00Z",
+  "total_cases": 1,
+  "cases_by_specialty": {
+    "cardiology": { "beginner": 1, "intermediate": 0, "advanced": 0 },
+    "pulmonology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "neurology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "endocrinology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "gastroenterology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "nephrology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "hematology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "infectious": { "beginner": 0, "intermediate": 0, "advanced": 0 }
+  },
+  "cases": [
+    {
+      "id": "cardio_beginner_001",
+      "title": "Acute Chest Pain - Anteroseptal STEMI",
+      "specialty": "cardiology",
+      "difficulty": "beginner",
+      "path": "cases/cardiology/beginner/stemi_anteroseptal.json"
+    }
+  ]
+}
