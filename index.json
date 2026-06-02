@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2025-01-15T00:00:00Z",
-  "total_cases": 1,
+  "version": "1.1.0",
+  "last_updated": "2025-06-02T00:00:00Z",
+  "total_cases": 5,
   "cases_by_specialty": {
-    "cardiology": { "beginner": 1, "intermediate": 0, "advanced": 0 },
-    "pulmonology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
+    "cardiology": { "beginner": 1, "intermediate": 1, "advanced": 1 },
+    "pulmonology": { "beginner": 1, "intermediate": 1, "advanced": 0 },
     "neurology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
     "endocrinology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
     "gastroenterology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
@@ -13,12 +13,10 @@
     "infectious": { "beginner": 0, "intermediate": 0, "advanced": 0 }
   },
   "cases": [
-    {
-      "id": "cardio_beginner_001",
-      "title": "Acute Chest Pain - Anteroseptal STEMI",
-      "specialty": "cardiology",
-      "difficulty": "beginner",
-      "path": "cases/cardiology/beginner/stemi_anteroseptal.json"
-    }
+    { "id": "cardio_beginner_001", "title": "Acute Chest Pain - Anteroseptal STEMI", "specialty": "cardiology", "difficulty": "beginner", "path": "cases/cardiology/beginner/stemi_anteroseptal.json" },
+    { "id": "cardio_intermediate_001", "title": "Palpitations - Atrial Fibrillation", "specialty": "cardiology", "difficulty": "intermediate", "path": "cases/cardiology/intermediate/atrial_fibrillation.json" },
+    { "id": "cardio_advanced_001", "title": "Progressive Dyspnea - Decompensated HF", "specialty": "cardiology", "difficulty": "advanced", "path": "cases/cardiology/advanced/heart_failure.json" },
+    { "id": "pulmo_beginner_001", "title": "Cough and Fever - Pneumonia", "specialty": "pulmonology", "difficulty": "beginner", "path": "cases/pulmonology/beginner/pneumonia.json" },
+    { "id": "pulmo_intermediate_001", "title": "Wheezing - Moderate Asthma", "specialty": "pulmonology", "difficulty": "intermediate", "path": "cases/pulmonology/intermediate/asthma.json" }
   ]
 }

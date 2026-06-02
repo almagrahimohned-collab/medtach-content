@@ -1,0 +1,22 @@
+{
+  "id": "pulmo_beginner_001",
+  "specialty": "pulmonology",
+  "difficulty": "beginner",
+  "title": "Productive Cough and Fever - Community-Acquired Pneumonia",
+  "department": "Emergency Department",
+  "patient": { "age": 25, "gender": "male", "name": "Mr. Karim", "persona": "ill, cooperative" },
+  "chief_complaint": "Productive cough with green sputum for 5 days, fever, right-sided chest pain",
+  "vitals": { "bp": "120/75 mmHg", "hr": 105, "rr": 24, "spo2": "92%", "temp": "38.8°C" },
+  "physical_exam": { "chest": "Dullness right lower lobe, bronchial breath sounds" },
+  "hidden_data": {
+    "cbc": "Hb: 14.2, WBC: 16.5, neutrophils 85%",
+    "cxr": "Right lower lobe consolidation with air bronchograms",
+    "crp": "CRP: 145 (elevated)"
+  },
+  "media": {},
+  "correct_diagnosis": "Community-Acquired Pneumonia (Right Lower Lobe)",
+  "differential_diagnoses": ["Acute Bronchitis", "Pulmonary Embolism", "Tuberculosis"],
+  "key_learning_points": ["CURB-65 severity score", "Typical vs atypical coverage", "Repeat CXR after 6 weeks"],
+  "patient_responses": { "smoking": "No, never", "sputum": "Greenish, thick" },
+  "hints": { "cxr_hint": "Check right lower zone" }
+}

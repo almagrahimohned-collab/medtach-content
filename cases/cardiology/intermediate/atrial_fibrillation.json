@@ -1,0 +1,23 @@
+{
+  "id": "cardio_intermediate_001",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "title": "Palpitations and Dizziness - Atrial Fibrillation",
+  "department": "Cardiology Clinic",
+  "patient": { "age": 45, "gender": "female", "name": "Mrs. Sara Khalid", "persona": "worried, cooperative" },
+  "chief_complaint": "Palpitations and dizziness for 3 days, occasional chest discomfort",
+  "vitals": { "bp": "110/70 mmHg", "hr": 130, "rr": 18, "spo2": "98%", "temp": "36.8°C" },
+  "physical_exam": { "general": "Alert, anxious", "heart": "Irregularly irregular rhythm, no murmurs" },
+  "hidden_data": {
+    "cbc": "Hb: 12.8, WBC: 7.1, Platelets: 280",
+    "ecg": "Absent P waves, irregularly irregular rhythm, ventricular rate ~130 bpm",
+    "echo": "Normal LV function, left atrial enlargement, no valvular abnormalities",
+    "tsh": "TSH: 2.1 (normal)"
+  },
+  "media": {},
+  "correct_diagnosis": "Atrial Fibrillation with Rapid Ventricular Response",
+  "differential_diagnoses": ["Atrial Flutter", "Multifocal Atrial Tachycardia", "Sinus Tachycardia with Anxiety"],
+  "key_learning_points": ["Check thyroid function", "Rate vs rhythm control", "CHA₂DS₂-VASc for stroke risk"],
+  "patient_responses": { "palpitations_start": "3 days ago, it just started suddenly", "caffeine": "I drink a lot of coffee" },
+  "hints": { "ecg_hint": "Look for P waves", "management": "Control rate first" }
+}

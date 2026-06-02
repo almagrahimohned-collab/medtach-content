@@ -1,0 +1,24 @@
+{
+  "id": "cardio_advanced_001",
+  "specialty": "cardiology",
+  "difficulty": "advanced",
+  "title": "Progressive Dyspnea - Acute Decompensated Heart Failure",
+  "department": "Emergency Department",
+  "patient": { "age": 72, "gender": "male", "name": "Mr. Youssef Ali", "persona": "fatigued, dyspneic" },
+  "chief_complaint": "Progressive shortness of breath over 3 months, now at rest, orthopnea, leg swelling",
+  "vitals": { "bp": "100/65 mmHg", "hr": 98, "rr": 28, "spo2": "89%", "temp": "36.5°C" },
+  "physical_exam": { "general": "Respiratory distress", "chest": "Bilateral crackles", "extremities": "Bilateral pitting edema" },
+  "hidden_data": {
+    "cbc": "Hb: 10.1, WBC: 9.8",
+    "cmp": "Na: 132, K: 5.4, Creatinine: 2.1, BUN: 78",
+    "bnp": "BNP: 1850 (severely elevated)",
+    "cxr": "Cardiomegaly, bilateral pleural effusions, pulmonary congestion",
+    "echo": "Severe LV systolic dysfunction, EF 25%, global hypokinesis"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute Decompensated Heart Failure with Reduced Ejection Fraction",
+  "differential_diagnoses": ["Pneumonia", "COPD Exacerbation", "Pulmonary Embolism"],
+  "key_learning_points": ["Fluid restriction and diuretics", "Check renal function before ACEi", "Daily weights"],
+  "patient_responses": { "orthopnea": "I need 3 pillows to sleep", "meds": "I stopped my water pill last week" },
+  "hints": { "cxr_hint": "Look for pleural effusions", "bnp_hint": "Very high BNP suggests heart failure" }
+}

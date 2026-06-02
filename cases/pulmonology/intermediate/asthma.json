@@ -1,0 +1,22 @@
+{
+  "id": "pulmo_intermediate_001",
+  "specialty": "pulmonology",
+  "difficulty": "intermediate",
+  "title": "Wheezing and Chest Tightness - Moderate Persistent Asthma",
+  "department": "Pulmonology Clinic",
+  "patient": { "age": 35, "gender": "female", "name": "Mrs. Laila", "persona": "anxious" },
+  "chief_complaint": "Recurrent episodes of wheezing, chest tightness, dry cough especially at night",
+  "vitals": { "bp": "115/72", "hr": 88, "rr": 20, "spo2": "95%", "temp": "36.7" },
+  "physical_exam": { "chest": "Bilateral expiratory wheezes" },
+  "hidden_data": {
+    "cbc": "Eosinophils 8% (elevated)",
+    "pft": "FEV1 65% predicted, FEV1/FVC 0.68, significant reversibility post-bronchodilator (+12%)",
+    "cxr": "Hyperinflation, no consolidation"
+  },
+  "media": {},
+  "correct_diagnosis": "Moderate Persistent Asthma with Allergic Component",
+  "differential_diagnoses": ["COPD", "Vocal Cord Dysfunction", "Heart Failure"],
+  "key_learning_points": ["Stepwise therapy (GINA)", "Inhaled corticosteroid first-line", "Peak flow monitoring"],
+  "patient_responses": { "triggers": "Cold air and dust", "night_symptoms": "I wake up coughing at 2 AM" },
+  "hints": { "pft_hint": "Look for reversibility" }
+}
