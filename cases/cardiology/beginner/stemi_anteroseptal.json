@@ -2,73 +2,32 @@
   "id": "cardio_beginner_001",
   "specialty": "cardiology",
   "difficulty": "beginner",
-  "version": "1.0.0",
   "title": "Acute Chest Pain - Anteroseptal STEMI",
   "department": "Emergency Department",
-  "patient": {
-    "age": 60,
-    "gender": "male",
-    "name": "Mr. Ahmed Hassan",
-    "persona": "anxious, cooperative, speaks simply"
-  },
-  "chief_complaint": "Severe central chest pain radiating to left arm for 2 hours, associated with shortness of breath and sweating",
-  "vitals": {
-    "bp": "160/95 mmHg",
-    "hr": 110,
-    "rr": 22,
-    "spo2": "94% on room air",
-    "temp": "37.1°C"
-  },
-  "physical_exam": {
-    "general": "Anxious, diaphoretic, clutching chest",
-    "chest": "Clear breath sounds bilaterally, no wheezes or crackles",
-    "heart": "Tachycardic, regular rhythm, no murmurs, no rubs",
-    "extremities": "Warm, no edema, pulses equal bilaterally"
-  },
+  "patient": { "age": 60, "gender": "male", "name": "Mr. Ahmed Hassan", "persona": "anxious, cooperative" },
+  "chief_complaint": "Severe central chest pain radiating to left arm for 2 hours, with shortness of breath and sweating",
+  "vitals": { "bp": "160/95 mmHg", "hr": 110, "rr": 22, "spo2": "94% on room air", "temp": "37.1°C" },
+  "physical_exam": { "general": "Anxious, diaphoretic", "chest": "Clear breath sounds", "heart": "Tachycardic, regular, no murmurs" },
   "hidden_data": {
-    "cbc": "Hemoglobin: 13.5 g/dL, WBC: 8.2 x10⁹/L, Platelets: 250 x10⁹/L",
-    "troponin": "Troponin I: 1.2 ng/mL (Elevated, Normal < 0.04 ng/mL)",
-    "ck_mb": "CK-MB: 15 ng/mL (Elevated, Normal < 5 ng/mL)",
-    "cmp": "Sodium: 138, Potassium: 4.1, BUN: 18, Creatinine: 1.1, Glucose: 180",
-    "lipid_profile": "LDL: 160, HDL: 35, Triglycerides: 200",
-    "ecg": "Sinus tachycardia at 110 bpm. ST-segment elevation of 3mm in leads V1-V4. Reciprocal ST depression in leads II, III, aVF.",
-    "cxr": "Mild cardiomegaly. No pulmonary edema. No pleural effusion."
+    "cbc": "Hemoglobin: 13.5 g/dL\nWBC: 8.2 x10⁹/L\nPlatelets: 250 x10⁹/L",
+    "troponin": "Troponin I: 1.2 ng/mL (Elevated)\nNormal: < 0.04 ng/mL",
+    "cmp": "Sodium: 138\nPotassium: 4.1\nCreatinine: 1.1\nGlucose: 180",
+    "ecg": "Sinus tachycardia 110 bpm\nST elevation 3mm in V1-V4\nReciprocal ST depression in II, III, aVF",
+    "cxr": "Mild cardiomegaly\nNo pulmonary edema\nNo consolidation"
   },
   "media": {
-    "ecg": "media/images/ecg/stemi_anteroseptal_v1v4.jpg",
-    "cxr": "media/images/xray/cardiomegaly_mild.jpg"
+    "ecg": "media/images/ecg/stemi_anteroseptal.svg",
+    "cxr": "media/images/xray/cardiomegaly_mild.svg"
   },
   "correct_diagnosis": "Anteroseptal ST-Elevation Myocardial Infarction (STEMI)",
-  "differential_diagnoses": [
-    "Unstable Angina",
-    "Aortic Dissection",
-    "Acute Pericarditis",
-    "Pulmonary Embolism"
-  ],
-  "key_learning_points": [
-    "ECG must be obtained within 10 minutes of presentation for any patient with chest pain",
-    "ST elevation in V1-V4 indicates anteroseptal wall involvement, typically LAD artery occlusion",
-    "Door-to-balloon time goal is less than 90 minutes",
-    "Always check right-sided leads (V4R) and posterior leads (V7-V9) if inferior STEMI suspected"
-  ],
+  "differential_diagnoses": ["Unstable Angina", "Aortic Dissection", "Pericarditis"],
+  "key_learning_points": ["ECG within 10 minutes for chest pain", "ST elevation V1-V4 = LAD occlusion", "Door-to-balloon < 90 min"],
   "patient_responses": {
-    "pain_onset": "It started suddenly about 2 hours ago. I was just sitting watching TV.",
-    "pain_character": "It's like a heavy weight on my chest, crushing me. It goes to my left shoulder and arm.",
-    "pain_severity": "On a scale of 1 to 10, it's a 9. It's the worst pain I've ever felt.",
-    "associated_symptoms": "I feel like I can't catch my breath, and I've been sweating like crazy.",
-    "smoking": "Yes, I smoke. About a pack a day for the last 30 years.",
-    "past_history": "I have high blood pressure, but I don't always take my medication. I also have sugar diabetes.",
-    "medications": "The doctor gave me something for blood pressure and sugar, but I don't remember the names.",
-    "family_history": "My father died of a heart attack when he was 55. My brother also has heart problems.",
-    "allergies": "No, I'm not allergic to any medicines as far as I know.",
-    "last_meal": "I had lunch about 3 hours ago. Just a sandwich.",
-    "alcohol": "No, I don't drink alcohol.",
-    "drugs": "No, never."
+    "pain_onset": "It started suddenly about 2 hours ago while watching TV",
+    "pain_character": "Heavy crushing weight on my chest, goes to left shoulder",
+    "smoking": "Yes, a pack a day for 30 years",
+    "past_history": "High blood pressure and sugar diabetes, meds not regular",
+    "family_history": "My father died of heart attack at 55"
   },
-  "hints": {
-    "initial_approach": "Start with ABC assessment and obtain vital signs immediately.",
-    "ecg_hint": "This is the most important initial test. Look at the anterior leads carefully.",
-    "troponin_hint": "Remember that troponin may be normal in the first 2-4 hours. This patient is at 2 hours.",
-    "management_hint": "Think about MONA protocol: Morphine, Oxygen, Nitroglycerin, Aspirin. But also prepare for reperfusion."
-  }
+  "hints": { "initial_approach": "ABCs, vitals, IV access, oxygen", "ecg_hint": "Look at anterior leads V1-V4", "troponin_hint": "May be normal in first 2-4 hours" }
 }

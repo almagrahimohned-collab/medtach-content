@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <rect width="600" height="300" fill="#0F172A"/>
+  <text x="20" y="30" fill="#38BDF8" font-size="16" font-family="monospace" font-weight="bold">ECG - Lead V2</text>
+  
+  <!-- Grid -->
+  <line x1="50" y1="50" x2="550" y2="50" stroke="#1E293B" stroke-width="0.5"/>
+  <line x1="50" y1="100" x2="550" y2="100" stroke="#1E293B" stroke-width="0.5"/>
+  <line x1="50" y1="150" x2="550" y2="150" stroke="#1E293B" stroke-width="0.5"/>
+  <line x1="50" y1="200" x2="550" y2="200" stroke="#1E293B" stroke-width="0.5"/>
+  <line x1="50" y1="250" x2="550" y2="250" stroke="#1E293B" stroke-width="0.5"/>
+  
+  <!-- Normal beats first -->
+  <polyline points="60,150 80,150 85,140 90,170 95,150 115,150" stroke="#10B981" stroke-width="2" fill="none"/>
+  <polyline points="120,150 140,150 145,140 150,170 155,150 175,150" stroke="#10B981" stroke-width="2" fill="none"/>
+  
+  <!-- ST Elevation -->
+  <polyline points="180,150 200,150 205,140 210,170 215,155 220,155 225,175 230,180 240,180 250,155 260,150" stroke="#EF4444" stroke-width="3" fill="none"/>
+  
+  <!-- Highlight box -->
+  <rect x="220" y="130" width="40" height="60" stroke="#F59E0B" stroke-width="2" fill="none" stroke-dasharray="4"/>
+  <text x="230" y="125" fill="#F59E0B" font-size="10" font-family="monospace">ST↑</text>
+  
+  <!-- More beats -->
+  <polyline points="265,150 285,150 290,140 295,170 300,155 305,155 310,175 315,180 325,180 335,155 345,150" stroke="#EF4444" stroke-width="3" fill="none"/>
+  <polyline points="350,150 370,150 375,140 380,170 385,155 390,155 395,175 400,180 410,180 420,155 430,150" stroke="#EF4444" stroke-width="3" fill="none"/>
+  
+  <!-- Legend -->
+  <text x="50" y="285" fill="#94A3B8" font-size="10" font-family="monospace">25mm/s  10mm/mV  ST ELEVATION V1-V4</text>
+</svg>

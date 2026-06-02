@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#0F172A"/>
+  <text x="20" y="30" fill="#38BDF8" font-size="14" font-family="monospace" font-weight="bold">Chest X-Ray - PA View</text>
+  
+  <!-- Chest outline -->
+  <ellipse cx="250" cy="280" rx="180" ry="200" stroke="#334155" stroke-width="2" fill="#1E293B30"/>
+  
+  <!-- Normal left lung -->
+  <ellipse cx="180" cy="270" rx="80" ry="120" stroke="#10B98130" stroke-width="1" fill="#10B98110"/>
+  
+  <!-- Right lung with opacity -->
+  <ellipse cx="320" cy="270" rx="80" ry="120" stroke="#10B98130" stroke-width="1" fill="#10B98110"/>
+  
+  <!-- RLL Consolidation -->
+  <path d="M290,320 L350,320 L360,380 L280,380 Z" fill="#FFFFFF40" stroke="#F59E0B" stroke-width="2"/>
+  <text x="300" y="350" fill="#F59E0B" font-size="11" font-family="monospace" font-weight="bold">CONSOLIDATION</text>
+  
+  <!-- Air bronchogram lines -->
+  <line x1="300" y1="330" x2="340" y2="340" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="310" y1="350" x2="350" y2="355" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3"/>
+  
+  <text x="50" y="480" fill="#94A3B8" font-size="9" font-family="monospace">Right Lower Lobe Consolidation - Air Bronchograms</text>
+</svg>
