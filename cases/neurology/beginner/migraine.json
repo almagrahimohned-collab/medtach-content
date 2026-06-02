@@ -1,0 +1,26 @@
+{
+  "id": "neuro_beginner_001",
+  "specialty": "neurology",
+  "difficulty": "beginner",
+  "title": "Severe Headache - Migraine with Aura",
+  "department": "Neurology Clinic",
+  "patient": { "age": 28, "gender": "female", "name": "Ms. Laila", "persona": "in pain, photophobic" },
+  "chief_complaint": "Severe unilateral headache for 6 hours, throbbing, with nausea and visual disturbances (flashing lights)",
+  "vitals": { "bp": "125/78 mmHg", "hr": 72, "rr": 16, "spo2": "99%", "temp": "36.6°C" },
+  "physical_exam": { "neuro": "No focal deficits, normal fundoscopy", "general": "Prefers dark room, photophobic" },
+  "hidden_data": {
+    "ct_head": "Normal CT brain, no hemorrhage, no mass effect",
+    "cbc": "Hb: 12.5, WBC: 7.2, Platelets: 280"
+  },
+  "media": {},
+  "correct_diagnosis": "Migraine with Aura",
+  "differential_diagnoses": ["Tension Headache", "Cluster Headache", "Subarachnoid Hemorrhage"],
+  "key_learning_points": ["Aura typically lasts 5-60 minutes", "Photophobia and nausea are common", "Triptans are first-line for acute attacks"],
+  "patient_responses": {
+    "headache_start": "It started this morning when I woke up, about 6 hours ago",
+    "visual_symptoms": "I saw flashing zigzag lights in my right eye for about 20 minutes before the pain started",
+    "similar_episodes": "Yes, I get these headaches about once a month, usually with my period",
+    "pain_location": "It's on the left side of my head, behind my eye"
+  },
+  "hints": { "history": "Ask about aura symptoms", "triggers": "Common triggers: stress, hormones, certain foods" }
+}

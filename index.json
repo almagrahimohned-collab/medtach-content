@@ -1,22 +1,23 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "last_updated": "2025-06-02T00:00:00Z",
-  "total_cases": 5,
+  "total_cases": 10,
   "cases_by_specialty": {
     "cardiology": { "beginner": 1, "intermediate": 1, "advanced": 1 },
     "pulmonology": { "beginner": 1, "intermediate": 1, "advanced": 0 },
-    "neurology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
-    "endocrinology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
-    "gastroenterology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
-    "nephrology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
-    "hematology": { "beginner": 0, "intermediate": 0, "advanced": 0 },
-    "infectious": { "beginner": 0, "intermediate": 0, "advanced": 0 }
+    "neurology": { "beginner": 1, "intermediate": 1, "advanced": 1 },
+    "endocrinology": { "beginner": 1, "intermediate": 1, "advanced": 0 }
   },
   "cases": [
-    { "id": "cardio_beginner_001", "title": "Acute Chest Pain - Anteroseptal STEMI", "specialty": "cardiology", "difficulty": "beginner", "path": "cases/cardiology/beginner/stemi_anteroseptal.json" },
-    { "id": "cardio_intermediate_001", "title": "Palpitations - Atrial Fibrillation", "specialty": "cardiology", "difficulty": "intermediate", "path": "cases/cardiology/intermediate/atrial_fibrillation.json" },
-    { "id": "cardio_advanced_001", "title": "Progressive Dyspnea - Decompensated HF", "specialty": "cardiology", "difficulty": "advanced", "path": "cases/cardiology/advanced/heart_failure.json" },
-    { "id": "pulmo_beginner_001", "title": "Cough and Fever - Pneumonia", "specialty": "pulmonology", "difficulty": "beginner", "path": "cases/pulmonology/beginner/pneumonia.json" },
-    { "id": "pulmo_intermediate_001", "title": "Wheezing - Moderate Asthma", "specialty": "pulmonology", "difficulty": "intermediate", "path": "cases/pulmonology/intermediate/asthma.json" }
+    { "id": "cardio_beginner_001", "title": "STEMI", "specialty": "cardiology", "difficulty": "beginner", "path": "cases/cardiology/beginner/stemi_anteroseptal.json" },
+    { "id": "cardio_intermediate_001", "title": "Atrial Fibrillation", "specialty": "cardiology", "difficulty": "intermediate", "path": "cases/cardiology/intermediate/atrial_fibrillation.json" },
+    { "id": "cardio_advanced_001", "title": "Heart Failure", "specialty": "cardiology", "difficulty": "advanced", "path": "cases/cardiology/advanced/heart_failure.json" },
+    { "id": "pulmo_beginner_001", "title": "Pneumonia", "specialty": "pulmonology", "difficulty": "beginner", "path": "cases/pulmonology/beginner/pneumonia.json" },
+    { "id": "pulmo_intermediate_001", "title": "Asthma", "specialty": "pulmonology", "difficulty": "intermediate", "path": "cases/pulmonology/intermediate/asthma.json" },
+    { "id": "neuro_beginner_001", "title": "Migraine", "specialty": "neurology", "difficulty": "beginner", "path": "cases/neurology/beginner/migraine.json" },
+    { "id": "neuro_intermediate_001", "title": "Stroke", "specialty": "neurology", "difficulty": "intermediate", "path": "cases/neurology/intermediate/stroke.json" },
+    { "id": "neuro_advanced_001", "title": "Guillain-Barré", "specialty": "neurology", "difficulty": "advanced", "path": "cases/neurology/advanced/guillain_barre.json" },
+    { "id": "endo_beginner_001", "title": "Type 2 Diabetes", "specialty": "endocrinology", "difficulty": "beginner", "path": "cases/endocrinology/beginner/diabetes.json" },
+    { "id": "endo_intermediate_001", "title": "Graves Disease", "specialty": "endocrinology", "difficulty": "intermediate", "path": "cases/endocrinology/intermediate/hyperthyroidism.json" }
   ]
 }
