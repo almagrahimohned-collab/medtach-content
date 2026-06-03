@@ -1,0 +1,19 @@
+{
+  "id": "q_nephro_003",
+  "subject": "Nephrology",
+  "system": "Renal",
+  "topic": "Electrolyte Disorders",
+  "difficulty": "beginner",
+  "question": "A dialysis patient misses 2 sessions and presents with muscle weakness. ECG shows peaked T waves. K+ 7.2 mEq/L. What is the MOST urgent treatment?",
+  "options": [
+    { "id": "A", "text": "IV Calcium gluconate", "isCorrect": true, "explanation": "Calcium gluconate is FIRST priority in hyperkalemia with ECG changes. It stabilizes cardiac membrane (does NOT lower K+). Cardioprotective. Give within minutes. Then shift K+ (insulin+glucose, bicarb, beta-agonists) and eliminate (dialysis, kayexalate)." },
+    { "id": "B", "text": "IV insulin + D50", "isCorrect": false, "explanation": "Insulin+glucose shifts K+ intracellularly (lowers K+ 0.5-1.0 mEq/L) but does NOT protect heart from arrhythmias. Calcium must be given FIRST if ECG changes present." },
+    { "id": "C", "text": "Sodium polystyrene sulfonate (Kayexalate)", "isCorrect": false, "explanation": "Kayexalate slowly eliminates K+ via gut (takes hours). Not for acute management with ECG changes. Risk of colonic necrosis." },
+    { "id": "D", "text": "Emergency hemodialysis", "isCorrect": false, "explanation": "Dialysis is definitive treatment but takes time to arrange. Calcium must be given IMMEDIATELY to prevent fatal arrhythmias while preparing for dialysis." },
+    { "id": "E", "text": "Albuterol nebulization", "isCorrect": false, "explanation": "Beta-agonists shift K+ intracellularly (lowers 0.5-1.0) but do NOT protect heart. Calcium first if ECG changes. Albuterol is adjunct, not primary." }
+  ],
+  "educationalObjective": "Treat hyperkalemia with ECG changes: Calcium gluconate FIRST for cardioprotection, then shift K+ (insulin+glucose), then eliminate (dialysis).",
+  "keyTakeaway": "K+ >6.5 + ECG changes: Ca gluconate FIRST → then insulin+D50 → then dialysis. Ca does NOT lower K+, it stabilizes membrane.",
+  "references": ["AHA Hyperkalemia Guidelines 2024"],
+  "stats": { "correctPercentage": 55, "avgTimeSeconds": 70 }
+}

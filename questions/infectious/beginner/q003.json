@@ -1,0 +1,19 @@
+{
+  "id": "q_id_003",
+  "subject": "Infectious Disease",
+  "system": "Respiratory",
+  "topic": "Tuberculosis",
+  "difficulty": "beginner",
+  "question": "A 35-year-old immigrant from India presents with 2 months of productive cough, night sweats, weight loss, and hemoptysis. CXR shows right upper lobe cavitary lesion. Sputum AFB positive. What is the standard initial treatment regimen?",
+  "options": [
+    { "id": "A", "text": "RIPE: Rifampin + Isoniazid + Pyrazinamide + Ethambutol for 2 months, then RI for 4 months", "isCorrect": true, "explanation": "Standard 6-month regimen: 2 months RIPE (4 drugs), then 4 months RI (2 drugs). Pyridoxine (B6) given with INH to prevent neuropathy. DOT recommended. Check LFTs monthly." },
+    { "id": "B", "text": "Rifampin + Isoniazid for 9 months", "isCorrect": false, "explanation": "9-month RI regimen is for LATENT TB (prophylaxis), not active pulmonary TB. Active TB requires 4-drug initial therapy to prevent resistance." },
+    { "id": "C", "text": "Ciprofloxacin + Amoxicillin for 2 weeks", "isCorrect": false, "explanation": "Fluoroquinolones are second-line TB drugs (MDR-TB). Not first-line. Community-acquired pneumonia antibiotics are ineffective against TB. Quinolone monotherapy breeds resistance." },
+    { "id": "D", "text": "Isoniazid alone for 6 months", "isCorrect": false, "explanation": "INH monotherapy is for latent TB only. Active TB requires multi-drug therapy. Monotherapy rapidly breeds resistance." },
+    { "id": "E", "text": "Streptomycin + Isoniazid for 12 months", "isCorrect": false, "explanation": "Streptomycin is an injectable second-line agent for MDR-TB. Not first-line due to ototoxicity and nephrotoxicity. RIPE is standard initial therapy." }
+  ],
+  "educationalObjective": "Treat active pulmonary TB with RIPE regimen: 2 months of 4 drugs, then 4 months of 2 drugs. Always use directly observed therapy.",
+  "keyTakeaway": "Active TB: RIPE x 2mo → RI x 4mo. Pyridoxine with INH. Check LFTs. DOT recommended. Latent TB: Rifampin x 4mo or INH x 9mo.",
+  "references": ["CDC TB Treatment Guidelines 2024"],
+  "stats": { "correctPercentage": 68, "avgTimeSeconds": 75 }
+}

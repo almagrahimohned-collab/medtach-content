@@ -6,14 +6,14 @@
   "difficulty": "beginner",
   "question": "A 40-year-old woman presents with fatigue, weight gain, cold intolerance, and constipation for 6 months. TSH 18 mIU/L (elevated), Free T4 0.6 ng/dL (low). What is the most appropriate treatment?",
   "options": [
-    { "id": "A", "text": "Levothyroxine 1.6 mcg/kg/day", "isCorrect": true, "explanation": "Primary hypothyroidism (↑TSH, ↓T4) is treated with levothyroxine (T4). Starting dose 1.6 mcg/kg/day in healthy adults. Recheck TSH in 6-8 weeks, adjust dose. Take on empty stomach, 30-60 min before breakfast." },
-    { "id": "B", "text": "Liothyronine (T3) 25mcg daily", "isCorrect": false, "explanation": "T3 monotherapy is not standard for hypothyroidism. Levothyroxine (T4) is preferred. T4 is converted to T3 peripherally, providing stable levels. T3 has short half-life requiring multiple daily dosing." },
-    { "id": "C", "text": "Methimazole 10mg daily", "isCorrect": false, "explanation": "Methimazole is for HYPERTHYROIDISM (Graves disease), not hypothyroidism. It blocks thyroid hormone synthesis. Would worsen this patient's hypothyroidism." },
-    { "id": "D", "text": "Radioactive iodine ablation", "isCorrect": false, "explanation": "Radioactive iodine is for hyperthyroidism or thyroid cancer, not hypothyroidism. It destroys thyroid tissue, which would worsen hypothyroidism requiring higher levothyroxine doses." },
-    { "id": "E", "text": "Prednisone 40mg daily", "isCorrect": false, "explanation": "Prednisone is not indicated for primary hypothyroidism. It is used for subacute thyroiditis (painful, viral) causing transient hyperthyroidism. This patient has primary hypothyroidism needing T4 replacement." }
+    { "id": "A", "text": "Levothyroxine 1.6 mcg/kg/day", "isCorrect": true, "explanation": "Primary hypothyroidism (↑TSH, ↓T4) is treated with levothyroxine. Starting dose 1.6 mcg/kg/day. Recheck TSH in 6-8 weeks, adjust by 12.5-25mcg. Take on empty stomach, 30-60 min before breakfast." },
+    { "id": "B", "text": "Liothyronine (T3) 25mcg daily", "isCorrect": false, "explanation": "T3 monotherapy not standard. Levothyroxine (T4) preferred as it provides stable physiologic levels via peripheral conversion. T3 has short half-life requiring multiple daily dosing." },
+    { "id": "C", "text": "Methimazole 10mg daily", "isCorrect": false, "explanation": "Methimazole is for HYPERTHYROIDISM (blocks thyroid hormone synthesis). Would worsen hypothyroidism." },
+    { "id": "D", "text": "Radioactive iodine ablation", "isCorrect": false, "explanation": "RAI destroys thyroid tissue - used for hyperthyroidism or cancer. Would worsen hypothyroidism." },
+    { "id": "E", "text": "Prednisone 40mg daily", "isCorrect": false, "explanation": "Prednisone not indicated for primary hypothyroidism. Used for subacute (viral) thyroiditis causing transient hyperthyroidism." }
   ],
-  "educationalObjective": "Treat primary hypothyroidism (↑TSH, ↓T4) with levothyroxine 1.6 mcg/kg/day. Recheck TSH in 6-8 weeks. Adjust dose in 12.5-25mcg increments.",
-  "keyTakeaway": "Hypothyroidism: Levothyroxine 1.6 mcg/kg/day. Take on empty stomach. Recheck TSH in 6-8 weeks. Goal TSH 0.5-2.5.",
-  "references": ["ATA Hypothyroidism Guidelines 2024", "UpToDate: Hypothyroidism Treatment"],
+  "educationalObjective": "Treat primary hypothyroidism (↑TSH, ↓T4) with levothyroxine 1.6 mcg/kg/day. Recheck TSH in 6-8 weeks.",
+  "keyTakeaway": "Hypothyroidism: Levothyroxine 1.6 mcg/kg/day on empty stomach. Goal TSH 0.5-2.5. Recheck q6-8 weeks.",
+  "references": ["ATA Hypothyroidism Guidelines 2024"],
   "stats": { "correctPercentage": 90, "avgTimeSeconds": 50 }
 }

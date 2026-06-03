@@ -1,0 +1,19 @@
+{
+  "id": "q_gastro_003",
+  "subject": "Gastroenterology",
+  "system": "Digestive",
+  "topic": "Peptic Ulcer Disease",
+  "difficulty": "beginner",
+  "question": "A 50-year-old man on daily ibuprofen for back pain presents with epigastric burning pain relieved by food. Stool guaiac positive. What is the most appropriate next step?",
+  "options": [
+    { "id": "A", "text": "Stop ibuprofen, start PPI, test for H. pylori", "isCorrect": true, "explanation": "NSAID-induced peptic ulcer: Stop NSAID, start PPI (omeprazole 20mg BID), test for H. pylori (urea breath test or stool antigen). If H. pylori positive, treat with triple therapy (PPI + clarithromycin + amoxicillin)." },
+    { "id": "B", "text": "Start sucralfate only", "isCorrect": false, "explanation": "Sucralfate is less effective than PPIs for ulcer healing. PPIs are first-line. Sucralfate used as adjunct or in stress ulcer prophylaxis." },
+    { "id": "C", "text": "Upper endoscopy urgently", "isCorrect": false, "explanation": "Endoscopy indicated for alarm symptoms (dysphagia, weight loss, vomiting) or age >60 with new symptoms. Not routinely required for typical PUD in younger patients." },
+    { "id": "D", "text": "Continue ibuprofen, add misoprostol", "isCorrect": false, "explanation": "Ibuprofen must be STOPPED if causing active ulcer. Misoprostol prevents NSAID ulcers but does not heal active ulcers. Stop offending agent first." },
+    { "id": "E", "text": "Surgical consultation", "isCorrect": false, "explanation": "Surgery reserved for complications: perforation, uncontrolled bleeding, gastric outlet obstruction. Not for uncomplicated PUD managed medically." }
+  ],
+  "educationalObjective": "Manage NSAID-induced PUD: stop offending agent, PPI therapy, test and treat H. pylori if present.",
+  "keyTakeaway": "NSAID ulcer: STOP NSAID → PPI → Test H. pylori → Treat if positive with triple therapy (PPI + 2 antibiotics).",
+  "references": ["ACG PUD Guidelines 2024"],
+  "stats": { "correctPercentage": 78, "avgTimeSeconds": 65 }
+}

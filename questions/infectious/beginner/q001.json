@@ -1,0 +1,19 @@
+{
+  "id": "q_id_001",
+  "subject": "Infectious Disease",
+  "system": "Multi-system",
+  "topic": "Sepsis",
+  "difficulty": "beginner",
+  "question": "A 70-year-old with UTI presents with fever 39°C, HR 115, RR 28, BP 85/50, lactate 4.2 mmol/L. What is the MOST time-sensitive intervention?",
+  "options": [
+    { "id": "A", "text": "IV antibiotics within 1 hour + IV fluids 30mL/kg", "isCorrect": true, "explanation": "Surviving Sepsis Campaign: antibiotics within 1 hour (each hour delay increases mortality 7-8%). IV crystalloids 30mL/kg for hypotension. Measure lactate, blood cultures BEFORE antibiotics. Vasopressors if refractory hypotension." },
+    { "id": "B", "text": "Obtain CT scan to find source", "isCorrect": false, "explanation": "Imaging should NOT delay antibiotics. Source identification is important but secondary to early antibiotics and fluids. Can image after stabilization." },
+    { "id": "C", "text": "Start vasopressors immediately", "isCorrect": false, "explanation": "Vasopressors indicated if hypotension persists AFTER fluid resuscitation (30mL/kg). Not first-line before fluid challenge. Norepinephrine is first-choice vasopressor." },
+    { "id": "D", "text": "Wait for culture results before antibiotics", "isCorrect": false, "explanation": "NEVER delay antibiotics awaiting cultures. Obtain cultures THEN start empiric broad-spectrum antibiotics immediately. De-escalate when sensitivities return." },
+    { "id": "E", "text": "Transfer to ICU after stabilization on floor", "isCorrect": false, "explanation": "Septic shock requires ICU level care. Transfer should be expedited, not delayed for floor stabilization. Early ICU admission improves outcomes." }
+  ],
+  "educationalObjective": "Implement Surviving Sepsis Campaign bundle: blood cultures, lactate, antibiotics within 1 hour, IV fluids 30mL/kg, vasopressors if needed.",
+  "keyTakeaway": "Sepsis: Antibiotics within 1 hour (do NOT delay). Fluids 30mL/kg. Cultures first. Lactate q2-4h to monitor clearance. Norepinephrine if refractory hypotension.",
+  "references": ["Surviving Sepsis Campaign Guidelines 2024"],
+  "stats": { "correctPercentage": 72, "avgTimeSeconds": 70 }
+}
