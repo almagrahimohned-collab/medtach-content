@@ -1,0 +1,18 @@
+{
+  "id": "q_hema_003",
+  "subject": "Hematology",
+  "system": "Hematologic",
+  "topic": "Thromboembolic Disease",
+  "question": "A 60-year-old woman 3 days post-hip replacement develops unilateral leg swelling and pain. Wells score is 4. What is the best next step?",
+  "options": [
+    { "id": "A", "text": "Start empiric anticoagulation + order Doppler ultrasound", "isCorrect": true, "explanation": "Wells score ≥2 indicates likely DVT. Start empiric anticoagulation (DOAC or LMWH) while awaiting diagnostic confirmation. Doppler ultrasound confirms. Early treatment prevents PE." },
+    { "id": "B", "text": "Wait for Doppler ultrasound before treatment", "isCorrect": false, "explanation": "NEVER delay anticoagulation awaiting ultrasound if high clinical suspicion (Wells ≥2). Start treatment immediately. Ultrasound may take hours. Risk of fatal PE during delay." },
+    { "id": "C", "text": "Check D-dimer first", "isCorrect": false, "explanation": "D-dimer is for LOW probability (Wells ≤1). Wells ≥2 = high probability, skip D-dimer, go straight to imaging and treatment. D-dimer will be elevated post-surgery regardless." },
+    { "id": "D", "text": "Aspirin 325mg", "isCorrect": false, "explanation": "Aspirin is NOT adequate for DVT treatment. Requires therapeutic anticoagulation (DOAC, warfarin, or LMWH). Aspirin is for arterial thrombosis, not venous." },
+    { "id": "E", "text": "Compression stockings only", "isCorrect": false, "explanation": "Compression stockings are for PREVENTION of post-thrombotic syndrome, not acute DVT treatment. May dislodge thrombus and cause PE if used without anticoagulation." }
+  ],
+  "educationalObjective": "Start empiric anticoagulation immediately if high probability DVT (Wells ≥2). Do not delay treatment for diagnostic confirmation.",
+  "keyTakeaway": "DVT: Wells ≥2 = start anticoagulation NOW + order Doppler. DOAC first-line. LMWH/warfarin if DOAC contraindicated. Treat 3-6 months.",
+  "references": ["ACCP VTE Guidelines 2024"],
+  "stats": { "correctPercentage": 74, "avgTimeSeconds": 70 }
+}

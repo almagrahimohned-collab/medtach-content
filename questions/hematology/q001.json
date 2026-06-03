@@ -1,0 +1,18 @@
+{
+  "id": "q_hema_001",
+  "subject": "Hematology",
+  "system": "Hematologic",
+  "topic": "Anemia",
+  "question": "A 35-year-old woman with heavy menstrual periods presents with fatigue and pallor. Hb 8.5 g/dL, MCV 72 fL, RDW high. What is the most likely diagnosis and treatment?",
+  "options": [
+    { "id": "A", "text": "Iron deficiency anemia - Oral ferrous sulfate", "isCorrect": true, "explanation": "Microcytic anemia (MCV <80) + high RDW + menorrhagia = iron deficiency. Treat with ferrous sulfate 325mg TID. Check response in 2-4 weeks (Hb should rise 1g/dL). Continue 3-6 months after normalization." },
+    { "id": "B", "text": "Thalassemia trait - No treatment needed", "isCorrect": false, "explanation": "Thalassemia shows microcytosis with NORMAL RDW and normal iron studies. RDW is high in iron deficiency (anisocytosis). Menorrhagia suggests iron loss." },
+    { "id": "C", "text": "Anemia of chronic disease - Treat underlying cause", "isCorrect": false, "explanation": "ACD is normocytic (MCV 80-100). Microcytic anemia with high RDW and blood loss history is iron deficiency." },
+    { "id": "D", "text": "Vitamin B12 deficiency - IM cyanocobalamin", "isCorrect": false, "explanation": "B12 deficiency causes MACROcytic anemia (MCV >100) with hypersegmented neutrophils and neurological symptoms. Not microcytic." },
+    { "id": "E", "text": "Folate deficiency - Oral folic acid", "isCorrect": false, "explanation": "Folate deficiency is also macrocytic (MCV >100), not microcytic. Seen in alcoholics, malnutrition, pregnancy." }
+  ],
+  "educationalObjective": "Differentiate causes of anemia by MCV: microcytic (iron deficiency, thalassemia), normocytic (ACD), macrocytic (B12/folate).",
+  "keyTakeaway": "Iron deficiency = microcytic + high RDW + low ferritin. Treat with oral iron. Check response in 2-4 weeks.",
+  "references": ["ASH Anemia Guidelines"],
+  "stats": { "correctPercentage": 82, "avgTimeSeconds": 60 }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "q_derm_002",
+  "subject": "Dermatology",
+  "system": "Integumentary",
+  "topic": "Skin Infections",
+  "question": "A 50-year-old diabetic man presents with a red, warm, swollen, tender area on his right lower leg with poorly demarcated borders. Temperature 38.5°C. What is the most likely diagnosis and treatment?",
+  "options": [
+    { "id": "A", "text": "Cellulitis - Cephalexin or clindamycin", "isCorrect": true, "explanation": "Cellulitis presents as spreading erythema with poorly defined borders, warmth, tenderness, and systemic symptoms. Most common organisms: S. pyogenes (GAS) and S. aureus. Treat with cephalexin 500mg QID or clindamycin. Cover MRSA if risk factors present." },
+    { "id": "B", "text": "Erysipelas - Penicillin VK", "isCorrect": false, "explanation": "Erysipelas has WELL-DEMARCATED raised borders, bright red, involves superficial lymphatics (face common). Cellulitis borders are poorly defined." },
+    { "id": "C", "text": "Deep vein thrombosis - Anticoagulation", "isCorrect": false, "explanation": "DVT presents with unilateral swelling/pain but without erythema and warmth unless phlegmasia. This has fever and redness suggesting infection." },
+    { "id": "D", "text": "Contact dermatitis - Topical steroids", "isCorrect": false, "explanation": "Contact dermatitis is pruritic, not painful. No fever or systemic symptoms. Well-demarcated borders matching allergen contact pattern." },
+    { "id": "E", "text": "Necrotizing fasciitis - Emergency surgery", "isCorrect": false, "explanation": "NF presents with severe pain out of proportion, crepitus, bullae, rapid progression, and systemic toxicity. This is mild cellulitis without these features." }
+  ],
+  "educationalObjective": "Diagnose cellulitis by spreading erythema + poorly defined borders + systemic symptoms. Treat with cephalexin or clindamycin.",
+  "keyTakeaway": "Cellulitis: poorly demarcated, warm, tender, erythematous. Treat with anti-strep/staph antibiotics. Mark borders to monitor progression.",
+  "references": ["IDSA Skin Infection Guidelines 2024"],
+  "stats": { "correctPercentage": 85, "avgTimeSeconds": 55 }
+}
