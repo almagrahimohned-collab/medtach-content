@@ -1,16 +1,23 @@
 {
-  "version": "2.0.0",
-  "total_questions": 5,
+  "version": "2.1.0",
+  "total_questions": 11,
   "subjects": [
-    { "id": "cardiology", "name": "Cardiology", "icon": "heart-outline", "count": 2 },
+    { "id": "cardiology", "name": "Cardiology", "icon": "heart-outline", "count": 5 },
     { "id": "neurology", "name": "Neurology", "icon": "brain-outline", "count": 2 },
-    { "id": "pulmonology", "name": "Pulmonology", "icon": "leaf-outline", "count": 1 }
+    { "id": "pulmonology", "name": "Pulmonology", "icon": "leaf-outline", "count": 3 },
+    { "id": "endocrinology", "name": "Endocrinology", "icon": "flask-outline", "count": 3 }
   ],
   "questions": [
     { "id": "q_cardio_001", "subject": "Cardiology", "topic": "ACS", "difficulty": "beginner", "path": "questions/cardiology/beginner/q001.json" },
     { "id": "q_cardio_002", "subject": "Cardiology", "topic": "Arrhythmias", "difficulty": "beginner", "path": "questions/cardiology/beginner/q002.json" },
+    { "id": "q_cardio_003", "subject": "Cardiology", "topic": "Heart Failure", "difficulty": "beginner", "path": "questions/cardiology/beginner/q003.json" },
+    { "id": "q_cardio_004", "subject": "Cardiology", "topic": "Hypertension", "difficulty": "beginner", "path": "questions/cardiology/beginner/q004.json" },
+    { "id": "q_cardio_005", "subject": "Cardiology", "topic": "Endocarditis", "difficulty": "beginner", "path": "questions/cardiology/beginner/q005.json" },
     { "id": "q_neuro_001", "subject": "Neurology", "topic": "Headache", "difficulty": "beginner", "path": "questions/neurology/beginner/q004.json" },
     { "id": "q_neuro_002", "subject": "Neurology", "topic": "Stroke", "difficulty": "beginner", "path": "questions/neurology/beginner/q005.json" },
-    { "id": "q_pulmo_001", "subject": "Pulmonology", "topic": "Pneumonia", "difficulty": "beginner", "path": "questions/pulmonology/beginner/q003.json" }
+    { "id": "q_pulmo_001", "subject": "Pulmonology", "topic": "Pneumonia", "difficulty": "beginner", "path": "questions/pulmonology/beginner/q003.json" },
+    { "id": "q_pulmo_002", "subject": "Pulmonology", "topic": "COPD", "difficulty": "beginner", "path": "questions/pulmonology/beginner/q002.json" },
+    { "id": "q_pulmo_003", "subject": "Pulmonology", "topic": "Asthma", "difficulty": "beginner", "path": "questions/pulmonology/beginner/q004.json" },
+    { "id": "q_endo_001", "subject": "Endocrinology", "topic": "Diabetes", "difficulty": "beginner", "path": "questions/endocrinology/beginner/q001.json" }
   ]
 }

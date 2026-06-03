@@ -1,0 +1,19 @@
+{
+  "id": "q_endo_001",
+  "subject": "Endocrinology",
+  "system": "Endocrine",
+  "topic": "Diabetes Mellitus",
+  "difficulty": "beginner",
+  "question": "A 45-year-old obese man (BMI 32) presents with polyuria, polydipsia, and 8 kg weight loss over 3 months. Fasting glucose 210 mg/dL, HbA1c 9.2%. What is the best initial pharmacotherapy?",
+  "options": [
+    { "id": "A", "text": "Metformin 500mg BID + lifestyle modifications", "isCorrect": true, "explanation": "Metformin is first-line for type 2 diabetes. It decreases hepatic glucose production and improves insulin sensitivity. Start 500mg BID, titrate up. Combined with diet and exercise. Check eGFR (contraindicated if <30). HbA1c target <7%." },
+    { "id": "B", "text": "Insulin glargine 10 units at bedtime", "isCorrect": false, "explanation": "Insulin is indicated if HbA1c >10% with catabolic symptoms (weight loss) or if oral agents fail. This patient can start with oral metformin first. Insulin reserved for severe hyperglycemia or failure of oral agents." },
+    { "id": "C", "text": "Glipizide 5mg daily", "isCorrect": false, "explanation": "Sulfonylureas (glipizide) are second-line or add-on therapy. They cause weight gain and hypoglycemia. Metformin is preferred first-line due to efficacy, safety, weight neutrality, and cardiovascular benefits." },
+    { "id": "D", "text": "Empagliflozin 10mg daily", "isCorrect": false, "explanation": "SGLT2 inhibitors are second-line (add-on) or first-line if cardiovascular disease or CKD. This patient has no CVD/CKD. Metformin remains first-line. SGLT2i added later for cardiovascular/renal benefits." },
+    { "id": "E", "text": "No medication, lifestyle only", "isCorrect": false, "explanation": "HbA1c 9.2% requires pharmacotherapy in addition to lifestyle. Lifestyle alone appropriate for prediabetes (HbA1c 5.7-6.4%) or very mild diabetes. This patient needs metformin + lifestyle." }
+  ],
+  "educationalObjective": "Initiate first-line pharmacotherapy for type 2 diabetes: metformin + lifestyle. Consider SGLT2i or GLP-1 RA if CVD/CKD. Insulin if severe hyperglycemia (HbA1c >10%).",
+  "keyTakeaway": "Metformin first-line for T2DM. HbA1c target <7%. Add SGLT2i/GLP-1 RA for CVD/CKD. Insulin if HbA1c >10% or catabolic symptoms.",
+  "references": ["ADA Diabetes Guidelines 2024", "UKPDS Metformin Trial"],
+  "stats": { "correctPercentage": 85, "avgTimeSeconds": 60 }
+}

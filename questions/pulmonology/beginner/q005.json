@@ -1,23 +1,19 @@
 {
-  "id": "q_pulmo_001",
-  "specialty": "pulmonology",
+  "id": "q_pulmo_005",
+  "subject": "Pulmonology",
+  "system": "Respiratory",
+  "topic": "Pleural Disease",
   "difficulty": "beginner",
-  "question": "A 25-year-old man presents with productive cough, fever 39°C, and right-sided pleuritic chest pain. CXR shows right lower lobe consolidation. WBC is 16.5. What is the most likely diagnosis?",
+  "question": "A 60-year-old man with heart failure presents with right-sided pleural effusion. Thoracentesis shows: Protein 2.1 g/dL (serum 6.5), LDH 120 U/L (serum 220 U/L). What type of effusion is this?",
   "options": [
-    { "id": "A", "text": "Acute Bronchitis" },
-    { "id": "B", "text": "Community-Acquired Pneumonia" },
-    { "id": "C", "text": "Pulmonary Tuberculosis" },
-    { "id": "D", "text": "Pulmonary Embolism" },
-    { "id": "E", "text": "Lung Abscess" }
+    { "id": "A", "text": "Transudative effusion due to heart failure", "isCorrect": true, "explanation": "Light's criteria: Pleural protein/serum protein ratio = 2.1/6.5 = 0.32 (<0.5 = transudate). Pleural LDH/serum LDH = 120/220 = 0.55 (<0.6 = transudate). Transudates are caused by increased hydrostatic pressure (HF) or decreased oncotic pressure (cirrhosis, nephrotic syndrome)." },
+    { "id": "B", "text": "Exudative effusion due to pneumonia", "isCorrect": false, "explanation": "Exudate would have protein ratio >0.5 or LDH ratio >0.6. This effusion meets transudate criteria. Parapneumonic effusion is exudative with high LDH and low glucose." },
+    { "id": "C", "text": "Exudative effusion due to malignancy", "isCorrect": false, "explanation": "Malignant effusion is exudative with high protein and LDH. Often bloody. This is transudate. Cytology would be needed to confirm malignancy." },
+    { "id": "D", "text": "Hemothorax", "isCorrect": false, "explanation": "Hemothorax requires pleural fluid hematocrit >50% of blood hematocrit. Not present here. This is a transudate." },
+    { "id": "E", "text": "Chylothorax", "isCorrect": false, "explanation": "Chylothorax has milky fluid with high triglycerides (>110 mg/dL). Not present here. Usually due to thoracic duct injury (trauma, malignancy)." }
   ],
-  "correct": "B",
-  "explanations": {
-    "correct": "CAP presents with fever, productive cough, pleuritic pain, CXR consolidation, and leukocytosis. CURB-65 score guides management.",
-    "A": "Acute bronchitis has normal CXR and no consolidation.",
-    "C": "TB typically has upper lobe involvement, night sweats, weight loss, and slower onset.",
-    "D": "PE may cause pleuritic pain but CXR is typically normal or shows Hampton hump.",
-    "E": "Lung abscess develops over weeks with cavitation on CXR."
-  },
-  "learningPearl": "Start empiric antibiotics within 4 hours of CAP diagnosis. Cover typical and atypical organisms.",
-  "topic": "Respiratory Infections"
+  "educationalObjective": "Apply Light's criteria to differentiate transudative from exudative pleural effusions. Transudate: protein ratio <0.5 and LDH ratio <0.6.",
+  "keyTakeaway": "Light's criteria: Transudate = protein ratio <0.5 AND LDH ratio <0.6. Exudate = either ratio above threshold. Heart failure = most common transudate.",
+  "references": ["Light's Criteria (1972)", "BTS Pleural Disease Guidelines 2023"],
+  "stats": { "correctPercentage": 72, "avgTimeSeconds": 75 }
 }

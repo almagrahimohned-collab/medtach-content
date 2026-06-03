@@ -1,0 +1,19 @@
+{
+  "id": "q_cardio_004",
+  "subject": "Cardiology",
+  "system": "Cardiovascular",
+  "topic": "Hypertension",
+  "difficulty": "beginner",
+  "question": "A 55-year-old African American man is diagnosed with stage 1 hypertension (BP 145/92 on 3 readings). He has no comorbidities and normal renal function. What is the most appropriate first-line antihypertensive agent?",
+  "options": [
+    { "id": "A", "text": "Lisinopril (ACE inhibitor)", "isCorrect": false, "explanation": "ACE inhibitors are first-line in non-African American patients or those with CKD/diabetes. In African Americans, they are less effective as monotherapy due to lower renin levels. Either a CCB or thiazide is preferred first-line." },
+    { "id": "B", "text": "Amlodipine (Calcium Channel Blocker)", "isCorrect": true, "explanation": "CCBs are first-line for African American patients with hypertension. They are equally effective regardless of renin status. Amlodipine is well-tolerated, once-daily dosing. Thiazide diuretics are also first-line in this population." },
+    { "id": "C", "text": "Atenolol (Beta-blocker)", "isCorrect": false, "explanation": "Beta-blockers are NOT first-line for uncomplicated hypertension. They are reserved for patients with compelling indications: CAD, heart failure, arrhythmias. They are less effective for stroke prevention compared to other agents." },
+    { "id": "D", "text": "Losartan (ARB)", "isCorrect": false, "explanation": "Like ACE inhibitors, ARBs are less effective as monotherapy in African American patients due to lower renin levels. CCB or thiazide preferred first-line. ARBs are used when ACEi intolerant (cough)." },
+    { "id": "E", "text": "Hydralazine", "isCorrect": false, "explanation": "Hydralazine is a third or fourth-line agent, not first-line. Used in resistant hypertension or in combination with nitrates in HFrEF in African Americans (A-HeFT trial). Causes reflex tachycardia and fluid retention." }
+  ],
+  "educationalObjective": "Select first-line antihypertensive based on patient demographics: CCB or thiazide for African Americans, ACEi/ARB or CCB for non-African Americans.",
+  "keyTakeaway": "In African Americans with HTN: CCB or thiazide first-line. ACEi/ARB less effective as monotherapy. Add ACEi/ARB if proteinuric CKD.",
+  "references": ["ACC/AHA HTN Guidelines 2017", "JNC 8 Guidelines"],
+  "stats": { "correctPercentage": 55, "avgTimeSeconds": 80 }
+}
