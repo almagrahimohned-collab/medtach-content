@@ -1,0 +1,23 @@
+{
+  "id": "q_neuro_001",
+  "specialty": "neurology",
+  "difficulty": "beginner",
+  "question": "A 28-year-old woman presents with unilateral throbbing headache with nausea and photophobia. She sees flashing lights before the headache starts. Neurological exam is normal. What is the diagnosis?",
+  "options": [
+    { "id": "A", "text": "Tension Headache" },
+    { "id": "B", "text": "Migraine with Aura" },
+    { "id": "C", "text": "Cluster Headache" },
+    { "id": "D", "text": "Subarachnoid Hemorrhage" },
+    { "id": "E", "text": "Meningitis" }
+  ],
+  "correct": "B",
+  "explanations": {
+    "correct": "Migraine with aura presents with visual disturbances (flashing lights) followed by unilateral throbbing headache with nausea and photophobia.",
+    "A": "Tension headache is bilateral, pressing, without aura or nausea.",
+    "C": "Cluster headache is unilateral with autonomic symptoms (lacrimation, rhinorrhea), not visual aura.",
+    "D": "SAH presents with thunderclap headache, often with neck stiffness and altered consciousness.",
+    "E": "Meningitis presents with fever, neck stiffness, and photophobia, not visual aura."
+  },
+  "learningPearl": "Triptans are first-line for acute migraine attacks. Give within 1 hour of onset.",
+  "topic": "Headache"
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "total_questions": 5,
+  "questions": [
+    { "id": "q_cardio_001", "specialty": "cardiology", "difficulty": "beginner", "path": "questions/cardiology/beginner/q001.json" },
+    { "id": "q_cardio_002", "specialty": "cardiology", "difficulty": "beginner", "path": "questions/cardiology/beginner/q002.json" },
+    { "id": "q_cardio_003", "specialty": "cardiology", "difficulty": "intermediate", "path": "questions/cardiology/intermediate/q003.json" },
+    { "id": "q_neuro_001", "specialty": "neurology", "difficulty": "beginner", "path": "questions/neurology/beginner/q004.json" },
+    { "id": "q_pulmo_001", "specialty": "pulmonology", "difficulty": "beginner", "path": "questions/pulmonology/beginner/q005.json" }
+  ]
+}

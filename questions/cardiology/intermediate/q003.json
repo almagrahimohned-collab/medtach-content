@@ -1,0 +1,23 @@
+{
+  "id": "q_cardio_003",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "question": "A 72-year-old man with history of CABG presents with progressive dyspnea, orthopnea, and bilateral leg edema. BNP is 1850 pg/mL. Echo shows LVEF of 25%. What is the best initial management?",
+  "options": [
+    { "id": "A", "text": "IV Furosemide + ACE inhibitor" },
+    { "id": "B", "text": "Metoprolol + Digoxin" },
+    { "id": "C", "text": "Emergency CABG" },
+    { "id": "D", "text": "Aspirin + Clopidogrel" },
+    { "id": "E", "text": "Verapamil" }
+  ],
+  "correct": "A",
+  "explanations": {
+    "correct": "Acute decompensated heart failure requires diuresis (furosemide) and afterload reduction (ACE inhibitor). Beta-blockers are added after stabilization.",
+    "B": "Beta-blockers should be started after patient is stable and euvolemic, not during acute decompensation.",
+    "C": "CABG is not indicated for acute heart failure without ongoing ischemia.",
+    "D": "Antiplatelet therapy is for ACS, not for acute heart failure management.",
+    "E": "Verapamil is contraindicated in HFrEF due to negative inotropic effects."
+  },
+  "learningPearl": "In acute decompensated HF: diurese first, then add ACEi/ARB, then beta-blockers when stable.",
+  "topic": "Heart Failure"
+}

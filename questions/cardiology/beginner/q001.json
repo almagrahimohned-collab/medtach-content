@@ -1,0 +1,27 @@
+{
+  "id": "q_cardio_001",
+  "specialty": "cardiology",
+  "difficulty": "beginner",
+  "question": "A 60-year-old man with hypertension and diabetes presents with crushing chest pain radiating to the left arm for 2 hours. ECG shows ST elevation in V1-V4. What is the most likely diagnosis?",
+  "media": {
+    "type": "ecg",
+    "description": "ECG shows ST elevation 3mm in V1-V4"
+  },
+  "options": [
+    { "id": "A", "text": "Unstable Angina" },
+    { "id": "B", "text": "Anteroseptal STEMI" },
+    { "id": "C", "text": "Aortic Dissection" },
+    { "id": "D", "text": "Acute Pericarditis" },
+    { "id": "E", "text": "Pulmonary Embolism" }
+  ],
+  "correct": "B",
+  "explanations": {
+    "correct": "ST elevation in V1-V4 indicates anteroseptal STEMI. This is a medical emergency requiring immediate reperfusion therapy. Door-to-balloon time should be < 90 minutes.",
+    "A": "Unstable Angina presents without ST elevation. ECG may show ST depression or T-wave inversion, but not ST elevation.",
+    "C": "Aortic dissection may cause chest pain but ECG typically does not show ST elevation unless coronary ostia are involved. Would expect widened mediastinum on CXR.",
+    "D": "Acute pericarditis shows diffuse ST elevation (not localized to V1-V4) and PR depression.",
+    "E": "Pulmonary embolism may cause chest pain but ECG shows S1Q3T3 pattern or right heart strain, not anterior ST elevation."
+  },
+  "learningPearl": "Door-to-balloon time in STEMI should be less than 90 minutes for optimal outcomes.",
+  "topic": "Acute Coronary Syndrome"
+}

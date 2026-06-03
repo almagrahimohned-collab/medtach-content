@@ -1,0 +1,23 @@
+{
+  "id": "q_pulmo_001",
+  "specialty": "pulmonology",
+  "difficulty": "beginner",
+  "question": "A 25-year-old man presents with productive cough, fever 39°C, and right-sided pleuritic chest pain. CXR shows right lower lobe consolidation. WBC is 16.5. What is the most likely diagnosis?",
+  "options": [
+    { "id": "A", "text": "Acute Bronchitis" },
+    { "id": "B", "text": "Community-Acquired Pneumonia" },
+    { "id": "C", "text": "Pulmonary Tuberculosis" },
+    { "id": "D", "text": "Pulmonary Embolism" },
+    { "id": "E", "text": "Lung Abscess" }
+  ],
+  "correct": "B",
+  "explanations": {
+    "correct": "CAP presents with fever, productive cough, pleuritic pain, CXR consolidation, and leukocytosis. CURB-65 score guides management.",
+    "A": "Acute bronchitis has normal CXR and no consolidation.",
+    "C": "TB typically has upper lobe involvement, night sweats, weight loss, and slower onset.",
+    "D": "PE may cause pleuritic pain but CXR is typically normal or shows Hampton hump.",
+    "E": "Lung abscess develops over weeks with cavitation on CXR."
+  },
+  "learningPearl": "Start empiric antibiotics within 4 hours of CAP diagnosis. Cover typical and atypical organisms.",
+  "topic": "Respiratory Infections"
+}

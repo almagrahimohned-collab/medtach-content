@@ -1,0 +1,23 @@
+{
+  "id": "q_cardio_002",
+  "specialty": "cardiology",
+  "difficulty": "beginner",
+  "question": "A 45-year-old woman presents with palpitations and irregular pulse. ECG shows absent P waves with irregularly irregular rhythm. What is the diagnosis?",
+  "options": [
+    { "id": "A", "text": "Atrial Flutter" },
+    { "id": "B", "text": "Atrial Fibrillation" },
+    { "id": "C", "text": "Ventricular Tachycardia" },
+    { "id": "D", "text": "Sinus Tachycardia" },
+    { "id": "E", "text": "Supraventricular Tachycardia" }
+  ],
+  "correct": "B",
+  "explanations": {
+    "correct": "Atrial fibrillation shows absent P waves with irregularly irregular rhythm. Risk of stroke requires CHA₂DS₂-VASc assessment.",
+    "A": "Atrial flutter shows sawtooth flutter waves, not absent P waves.",
+    "C": "Ventricular tachycardia shows wide QRS complexes, not absent P waves.",
+    "D": "Sinus tachycardia has normal P waves before each QRS.",
+    "E": "SVT typically has regular rhythm with hidden P waves."
+  },
+  "learningPearl": "Always calculate CHA₂DS₂-VASc score in AF to determine need for anticoagulation.",
+  "topic": "Arrhythmias"
+}
