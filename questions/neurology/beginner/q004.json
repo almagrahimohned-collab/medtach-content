@@ -1,23 +1,20 @@
 {
   "id": "q_neuro_001",
-  "specialty": "neurology",
+  "subject": "Neurology",
+  "system": "Nervous System",
+  "topic": "Headache Disorders",
   "difficulty": "beginner",
-  "question": "A 28-year-old woman presents with unilateral throbbing headache with nausea and photophobia. She sees flashing lights before the headache starts. Neurological exam is normal. What is the diagnosis?",
+  "question": "A 28-year-old woman presents with unilateral throbbing headache associated with nausea, vomiting, and photophobia. Before the headache, she experienced flashing zigzag lights in her right visual field for 20 minutes. Similar episodes occur monthly around her menses. Neurological examination is normal. What is the most appropriate acute treatment?",
+  "media": { "type": "none", "url": "", "description": "" },
   "options": [
-    { "id": "A", "text": "Tension Headache" },
-    { "id": "B", "text": "Migraine with Aura" },
-    { "id": "C", "text": "Cluster Headache" },
-    { "id": "D", "text": "Subarachnoid Hemorrhage" },
-    { "id": "E", "text": "Meningitis" }
+    { "id": "A", "text": "Sumatriptan 50mg PO at onset of headache", "isCorrect": true, "explanation": "Triptans are first-line for moderate-severe migraine. They are 5-HT1B/1D agonists that inhibit neurogenic inflammation and vasoconstriction. Best taken within 1 hour of headache onset. Contraindicated in cardiovascular disease." },
+    { "id": "B", "text": "Propranolol 80mg daily for prevention", "isCorrect": false, "explanation": "Propranolol is for migraine PROPHYLAXIS (prevention), not acute treatment. Prophylaxis indicated if >4 attacks/month or attacks are disabling. This patient needs acute treatment for current attack." },
+    { "id": "C", "text": "Ibuprofen 400mg PO", "isCorrect": false, "explanation": "NSAIDs are effective for MILD migraine but less effective for moderate-severe migraine with aura. Triptans are first-line for moderate-severe attacks. NSAIDs can be used as adjunct or for mild attacks." },
+    { "id": "D", "text": "CT head without contrast", "isCorrect": false, "explanation": "Neuroimaging is not indicated for typical migraine with normal neurological exam. Imaging reserved for atypical features: thunderclap onset, focal deficits, or change in pattern. This is classic migraine with aura." },
+    { "id": "E", "text": "Oxygen 100% via non-rebreather mask", "isCorrect": false, "explanation": "High-flow oxygen is first-line for CLUSTER headache, not migraine. Cluster headache presents with unilateral autonomic symptoms (lacrimation, rhinorrhea, Horner syndrome) and restlessness." }
   ],
-  "correct": "B",
-  "explanations": {
-    "correct": "Migraine with aura presents with visual disturbances (flashing lights) followed by unilateral throbbing headache with nausea and photophobia.",
-    "A": "Tension headache is bilateral, pressing, without aura or nausea.",
-    "C": "Cluster headache is unilateral with autonomic symptoms (lacrimation, rhinorrhea), not visual aura.",
-    "D": "SAH presents with thunderclap headache, often with neck stiffness and altered consciousness.",
-    "E": "Meningitis presents with fever, neck stiffness, and photophobia, not visual aura."
-  },
-  "learningPearl": "Triptans are first-line for acute migraine attacks. Give within 1 hour of onset.",
-  "topic": "Headache"
+  "educationalObjective": "Differentiate migraine from other headache disorders and select appropriate acute treatment (triptans first-line for moderate-severe attacks).",
+  "keyTakeaway": "Triptans are first-line acute treatment for moderate-severe migraine. Take early in attack. Prophylaxis (beta-blockers, topiramate, CGRP antagonists) if >4 attacks/month.",
+  "references": ["AAN Migraine Guidelines 2024", "IHS Classification ICHD-3"],
+  "stats": { "correctPercentage": 78, "avgTimeSeconds": 70 }
 }

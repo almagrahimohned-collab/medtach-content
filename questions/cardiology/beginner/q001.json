@@ -1,27 +1,20 @@
 {
   "id": "q_cardio_001",
-  "specialty": "cardiology",
+  "subject": "Cardiology",
+  "system": "Cardiovascular",
+  "topic": "Acute Coronary Syndrome",
   "difficulty": "beginner",
-  "question": "A 60-year-old man with hypertension and diabetes presents with crushing chest pain radiating to the left arm for 2 hours. ECG shows ST elevation in V1-V4. What is the most likely diagnosis?",
-  "media": {
-    "type": "ecg",
-    "description": "ECG shows ST elevation 3mm in V1-V4"
-  },
+  "question": "A 60-year-old man with hypertension and diabetes presents with crushing substernal chest pain radiating to the left arm for 2 hours. He is diaphoretic and anxious. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF. Vital signs: BP 160/95, HR 110, SpO2 94%. What is the most likely diagnosis?",
+  "media": { "type": "ecg", "url": "", "description": "ECG: ST elevation 3mm in V1-V4, reciprocal ST depression in II, III, aVF" },
   "options": [
-    { "id": "A", "text": "Unstable Angina" },
-    { "id": "B", "text": "Anteroseptal STEMI" },
-    { "id": "C", "text": "Aortic Dissection" },
-    { "id": "D", "text": "Acute Pericarditis" },
-    { "id": "E", "text": "Pulmonary Embolism" }
+    { "id": "A", "text": "Unstable Angina", "isCorrect": false, "explanation": "Unstable angina presents WITHOUT ST elevation on ECG. May have ST depression, T-wave inversion, or normal ECG. Troponin is not elevated. Treatment includes antiplatelet and anticoagulation, not emergency reperfusion." },
+    { "id": "B", "text": "Anteroseptal ST-Elevation Myocardial Infarction (STEMI)", "isCorrect": true, "explanation": "ST elevation in V1-V4 indicates anteroseptal STEMI due to LAD artery occlusion. This is a medical emergency requiring immediate reperfusion via PCI (door-to-balloon < 90 min) or thrombolysis if PCI unavailable within 120 min. MONA protocol: Morphine, Oxygen, Nitroglycerin, Aspirin." },
+    { "id": "C", "text": "Aortic Dissection", "isCorrect": false, "explanation": "Aortic dissection presents with severe tearing interscapular pain, often with pulse deficit or BP differential between arms. CXR shows widened mediastinum. ECG typically does NOT show ST elevation unless coronary ostia are involved. CT angiography is diagnostic." },
+    { "id": "D", "text": "Acute Pericarditis", "isCorrect": false, "explanation": "Pericarditis shows DIFFUSE ST elevation (not localized to V1-V4) in multiple leads, often with PR depression. Pain is pleuritic and positional (worse lying flat, better leaning forward). Friction rub may be heard. Treatment is NSAIDs + colchicine." },
+    { "id": "E", "text": "Massive Pulmonary Embolism", "isCorrect": false, "explanation": "PE presents with sudden dyspnea, pleuritic pain, and possibly hemoptysis. ECG may show S1Q3T3 pattern or right heart strain (not anterior ST elevation). Risk factors include DVT, immobility, recent surgery. CT pulmonary angiography is diagnostic." }
   ],
-  "correct": "B",
-  "explanations": {
-    "correct": "ST elevation in V1-V4 indicates anteroseptal STEMI. This is a medical emergency requiring immediate reperfusion therapy. Door-to-balloon time should be < 90 minutes.",
-    "A": "Unstable Angina presents without ST elevation. ECG may show ST depression or T-wave inversion, but not ST elevation.",
-    "C": "Aortic dissection may cause chest pain but ECG typically does not show ST elevation unless coronary ostia are involved. Would expect widened mediastinum on CXR.",
-    "D": "Acute pericarditis shows diffuse ST elevation (not localized to V1-V4) and PR depression.",
-    "E": "Pulmonary embolism may cause chest pain but ECG shows S1Q3T3 pattern or right heart strain, not anterior ST elevation."
-  },
-  "learningPearl": "Door-to-balloon time in STEMI should be less than 90 minutes for optimal outcomes.",
-  "topic": "Acute Coronary Syndrome"
+  "educationalObjective": "Recognize ECG findings of acute STEMI (ST elevation in anatomical leads) and understand the critical importance of timely reperfusion therapy to minimize myocardial damage.",
+  "keyTakeaway": "Door-to-balloon time should be less than 90 minutes for optimal outcomes in STEMI. If PCI unavailable within 120 minutes, administer thrombolytics.",
+  "references": ["AHA/ACC STEMI Guidelines 2023", "UpToDate: Acute STEMI Management"],
+  "stats": { "correctPercentage": 72, "avgTimeSeconds": 85 }
 }
