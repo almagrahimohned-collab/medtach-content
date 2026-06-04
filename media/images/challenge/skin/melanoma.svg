@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0F172A"/>
+  <text x="20" y="25" fill="#38BDF8" font-size="12" font-family="monospace" font-weight="bold">Dermatology - Malignant Melanoma (ABCDE)</text>
+  <path d="M150,100 Q180,80 220,110 Q250,140 230,180 Q200,210 160,190 Q130,160 150,100" fill="#3C1A1A" stroke="#EF4444" stroke-width="2"/>
+  <path d="M170,120 Q190,110 200,130" fill="#1A1A1A" stroke="none"/>
+  <path d="M180,160 Q200,150 210,170" fill="#2C2C2C" stroke="none"/>
+  <path d="M160,140 Q165,145 170,140" fill="#4A4A4A" stroke="none"/>
+  <text x="135" y="85" fill="#F59E0B" font-size="8" font-weight="bold">A - Asymmetry</text>
+  <text x="260" y="120" fill="#F59E0B" font-size="8">B - Border irregular</text>
+  <text x="260" y="150" fill="#F59E0B" font-size="8">C - Color variation</text>
+  <text x="260" y="180" fill="#F59E0B" font-size="8">D - Diameter &gt;6mm</text>
+  <text x="260" y="210" fill="#F59E0B" font-size="8">E - Evolving</text>
+  <text x="30" y="285" fill="#94A3B8" font-size="8">ABCDE: ASYMMETRY | BORDER IRREGULARITY | COLOR VARIATION | DIAMETER &gt;6mm | EVOLVING</text>
+</svg>

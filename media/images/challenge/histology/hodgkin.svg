@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0F172A"/>
+  <text x="20" y="25" fill="#38BDF8" font-size="12" font-family="monospace" font-weight="bold">Histology - Hodgkin Lymphoma (Reed-Sternberg Cells)</text>
+  <circle cx="170" cy="150" r="35" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="230" cy="150" r="35" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="170" cy="150" r="20" fill="#8B5CF620" stroke="#8B5CF6" stroke-width="3"/>
+  <circle cx="230" cy="150" r="20" fill="#8B5CF620" stroke="#8B5CF6" stroke-width="3"/>
+  <circle cx="165" cy="145" r="5" fill="#8B5CF6"/>
+  <circle cx="175" cy="145" r="5" fill="#8B5CF6"/>
+  <circle cx="225" cy="145" r="5" fill="#8B5CF6"/>
+  <circle cx="235" cy="145" r="5" fill="#8B5CF6"/>
+  <text x="145" y="110" fill="#8B5CF6" font-size="9" font-weight="bold">Owl-Eye</text>
+  <text x="145" y="122" fill="#8B5CF6" font-size="9" font-weight="bold">Nucleoli</text>
+  <text x="200" y="90" fill="#F59E0B" font-size="10" font-weight="bold">Reed-Sternberg Cells</text>
+  <text x="30" y="285" fill="#94A3B8" font-size="8">BINUCLEATED RS CELLS | OWL-EYE NUCLEOLI | CD30+ CD15+ | INFLAMMATORY BACKGROUND</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0F172A"/>
+  <text x="20" y="25" fill="#38BDF8" font-size="12" font-family="monospace" font-weight="bold">Dermatology - Cellulitis</text>
+  <rect x="100" y="60" width="200" height="190" rx="15" fill="#EF444415" stroke="#EF4444" stroke-width="2" stroke-dasharray="8"/>
+  <text x="130" y="100" fill="#EF4444" font-size="10" font-weight="bold">Erythema</text>
+  <text x="130" y="118" fill="#EF4444" font-size="10" font-weight="bold">Warmth</text>
+  <text x="130" y="136" fill="#EF4444" font-size="10" font-weight="bold">Tenderness</text>
+  <text x="130" y="160" fill="#F59E0B" font-size="8">Poorly defined</text>
+  <text x="130" y="176" fill="#F59E0B" font-size="8">borders</text>
+  <text x="30" y="285" fill="#94A3B8" font-size="8">ERYTHEMA | WARMTH | TENDERNESS | POORLY DEFINED BORDERS | FEVER</text>
+</svg>
