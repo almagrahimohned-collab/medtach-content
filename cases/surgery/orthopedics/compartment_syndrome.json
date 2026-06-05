@@ -1,0 +1,18 @@
+{
+  "id": "surg_ortho_004",
+  "specialty": "surgery", "difficulty": "advanced",
+  "title": "Severe Leg Pain After Fracture - Compartment Syndrome",
+  "department": "Orthopedic Emergency",
+  "patient": { "age": 25, "gender": "male", "name": "Mr. Adam Khalil", "persona": "severe pain, motorcycle accident" },
+  "chief_complaint": "25-year-old male involved in motorcycle accident 6 hours ago. Closed tibial shaft fracture splinted. Now severe progressive leg pain out of proportion to injury, not relieved by opioids. Tense swollen leg.",
+  "vitals": { "bp": "130/80 mmHg", "hr": 110, "rr": 22, "spo2": "98%", "temp": "36.8°C" },
+  "physical_exam": { "leg": "Tense, swollen anterior compartment, pain with passive stretch of toes, decreased sensation first web space (deep peroneal nerve), dorsalis pedis pulse weakly palpable, capillary refill 4 seconds" },
+  "hidden_data": { "compartment_pressure": "Anterior compartment: 65 mmHg (critical, normal <10-15, delta pressure <30 = fasciotomy)", "xray_leg": "Comminuted midshaft tibia and fibula fracture" },
+  "media": {},
+  "correct_diagnosis": "Acute Compartment Syndrome (Anterior Leg) with Tibia-Fibula Fracture",
+  "differential_diagnoses": ["Vascular Injury", "Nerve Injury", "Severe Soft Tissue Injury", "DVT"],
+  "key_learning_points": ["6 Ps: Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia (LATE signs)", "Pain out of proportion + pain with passive stretch = EARLY signs", "Delta pressure <30 mmHg = fasciotomy", "Four-compartment fasciotomy of leg", "Time is muscle - irreversible damage in 4-6 hours"],
+  "patient_responses": { "pain": "The pain is unbearable, morphine didn't help", "numbness": "I can't feel between my big toe and second toe", "accident": "Motorcycle hit a car, my leg took the impact" },
+  "hints": { "diagnosis": "Compartment pressure measurement", "treatment": "Emergency fasciotomy" },
+  "feedback": { "correct_message": "Excellent! Compartment syndrome is a true orthopedic emergency.", "incorrect_message": "This is compartment syndrome. The pain out of proportion + compartment pressures confirm it.", "test_evaluation": { "compartment_pressure": { "necessity": "essential", "comment": "Diagnostic - >30 mmHg or delta <30." } }, "attending_note": "Compartment syndrome: Emergency four-compartment fasciotomy. Do NOT wait for pulselessness (late sign). Leave wounds open, return to OR in 48-72h for closure or skin graft. Irreversible muscle and nerve damage occurs in 4-6 hours." }
+}

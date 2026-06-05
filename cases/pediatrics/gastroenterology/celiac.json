@@ -1,0 +1,18 @@
+{
+  "id": "ped_gastro_003",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Chronic Diarrhea and Poor Growth - Celiac Disease",
+  "department": "Pediatric Gastroenterology",
+  "patient": { "age": 3, "gender": "female", "name": "Child Lina (3 years)", "persona": "irritable, bloated, poor growth" },
+  "chief_complaint": "3-year-old with chronic diarrhea (foul-smelling, greasy stools), abdominal distension, poor weight gain (dropped from 50th to 5th percentile), and irritability for 6 months. Symptoms started after introduction of wheat.",
+  "vitals": { "bp": "85/50 mmHg", "hr": 100, "rr": 22, "spo2": "99%", "temp": "36.6°C" },
+  "physical_exam": { "abdomen": "Distended, tympanic, no hepatosplenomegaly", "growth": "Weight: 10.5 kg (<5th percentile), Height: 85 cm (10th percentile)", "general": "Wasted buttocks, thin limbs, protuberant abdomen" },
+  "hidden_data": { "ttg_iga": "Anti-tTG IgA: >100 U/mL (strongly positive, normal <4)", "ema": "Anti-endomysial IgA: Positive", "total_iga": "Normal (rules out IgA deficiency)", "duodenal_biopsy": "Villous atrophy with crypt hyperplasia and intraepithelial lymphocytosis (Marsh 3b)" },
+  "media": {},
+  "correct_diagnosis": "Celiac Disease (Gluten-Sensitive Enteropathy)",
+  "differential_diagnoses": ["Cow Milk Protein Allergy", "Cystic Fibrosis", "Inflammatory Bowel Disease", "Giardiasis"],
+  "key_learning_points": ["Anti-tTG IgA is screening test of choice", "Confirm with duodenal biopsy (gold standard)", "Strict gluten-free diet for life", "Monitor growth and antibody levels", "Associated with other autoimmune conditions"],
+  "patient_responses": { "diarrhea": "Her stools are pale, greasy, and smell terrible", "growth": "She was growing well until we started wheat", "family": "Her aunt has celiac disease" },
+  "hints": { "antibodies": "Anti-tTG IgA", "biopsy": "Duodenal biopsy confirms" },
+  "feedback": { "correct_message": "Well diagnosed! Celiac disease with classic malabsorption.", "incorrect_message": "This is celiac disease. The positive antibodies + biopsy confirm it.", "test_evaluation": { "ttg_iga": { "necessity": "essential", "comment": "Highly sensitive and specific." }, "duodenal_biopsy": { "necessity": "essential", "comment": "Gold standard - Marsh 3b." } }, "attending_note": "Celiac disease: Strict gluten-free diet for life. Refer to dietitian. Monitor growth, tTG levels annually. Check iron, vitamin D, B12. Screen family members. Osteoporosis prevention. Most children show rapid improvement within weeks of GFD." }
+}

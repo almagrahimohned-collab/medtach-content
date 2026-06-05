@@ -1,0 +1,18 @@
+{
+  "id": "surg_plastic_002",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Non-Healing Wound - Skin Graft",
+  "department": "Plastic Surgery Clinic",
+  "patient": { "age": 55, "gender": "male", "name": "Mr. Samir Fadi", "persona": "diabetic, chronic wound" },
+  "chief_complaint": "55-year-old diabetic male with 4x3cm non-healing ulcer on left lower leg for 3 months. Failed conservative treatment with dressings. Good granulation tissue now present.",
+  "vitals": { "bp": "140/85 mmHg", "hr": 82, "rr": 16, "spo2": "98%", "temp": "36.6°C" },
+  "physical_exam": { "leg": "4x3cm ulcer with healthy granulation tissue, no purulence, no exposed bone or tendon, surrounding skin normal" },
+  "hidden_data": { "cbc": "Normal", "hba1c": "7.8%", "wound_culture": "No growth", "doppler_us": "Adequate perfusion, ABI 0.9" },
+  "media": {},
+  "correct_diagnosis": "Chronic Non-Healing Leg Ulcer - Candidate for Split-Thickness Skin Graft",
+  "differential_diagnoses": ["Primary Closure", "Healing by Secondary Intention", "Flap Coverage", "Negative Pressure Therapy"],
+  "key_learning_points": ["STSG for wounds with good granulation tissue", "Donor site: thigh (heals in 7-14 days)", "Graft take requires: vascular bed, no infection, immobilization", "Monitor HbA1c for wound healing", "Offloading and compression after healing"],
+  "patient_responses": { "wound": "It's been there for 3 months, not getting smaller", "diabetes": "Type 2 for 10 years, on metformin", "pain": "Mild pain" },
+  "hints": { "indication": "Good granulation = ready for graft", "technique": "Split-thickness skin graft" },
+  "feedback": { "correct_message": "Well assessed! This wound is ready for STSG.", "incorrect_message": "This wound needs a skin graft. Good granulation tissue is the indication.", "test_evaluation": { "hba1c": { "necessity": "essential", "comment": "Optimize before surgery." }, "doppler_us": { "necessity": "essential", "comment": "Confirms adequate perfusion." } }, "attending_note": "STSG: Harvest from thigh (0.012-0.015 inch), mesh 1:1.5, apply to wound bed, bolster dressing for 5 days. Donor site: transparent film dressing. Post-op: leg elevation, offloading, compression after graft take. Optimize diabetes control." }
+}

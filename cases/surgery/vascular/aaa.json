@@ -1,0 +1,18 @@
+{
+  "id": "surg_vasc_001",
+  "specialty": "surgery", "difficulty": "advanced",
+  "title": "Pulsatile Abdominal Mass - Abdominal Aortic Aneurysm",
+  "department": "Vascular Surgery",
+  "patient": { "age": 72, "gender": "male", "name": "Mr. Walid Hamdan", "persona": "smoker, pulsatile mass" },
+  "chief_complaint": "72-year-old male smoker with pulsatile abdominal mass found on routine examination. Asymptomatic. Ultrasound shows 6.2cm infrarenal AAA. History of hypertension and COPD.",
+  "vitals": { "bp": "145/85 mmHg", "hr": 78, "rr": 18, "spo2": "95%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Pulsatile, expansile mass in epigastrium, nontender" },
+  "hidden_data": { "us_abd": "Infrarenal AAA 6.2cm, no thrombus", "ct_angiogram": "Infrarenal AAA 6.2cm, suitable neck 2cm, no iliac involvement", "pft": "FEV1 65% predicted" },
+  "media": {},
+  "correct_diagnosis": "Large Infrarenal Abdominal Aortic Aneurysm (6.2cm) - Elective Repair Indicated",
+  "differential_diagnoses": ["Watchful Waiting", "EVAR", "Open Repair", "Medical Management"],
+  "key_learning_points": ["AAA screening: one-time US for men 65-75 with smoking history", "Repair indicated: size >5.5cm, growth >1cm/year, symptomatic", "EVAR preferred for high-risk surgical candidates", "Open repair for young/low-risk patients (more durable)", "Rupture risk: 6cm = 10-15% per year"],
+  "patient_responses": { "symptoms": "No pain, found on routine checkup", "smoking": "1 pack/day for 50 years", "family": "My brother had an aneurysm" },
+  "hints": { "size": ">5.5cm = repair indicated", "options": "EVAR vs open repair" },
+  "feedback": { "correct_message": "Well diagnosed! 6.2cm AAA needs elective repair.", "incorrect_message": "This is a large AAA. Size >5.5cm = repair indicated to prevent rupture.", "test_evaluation": { "ct_angiogram": { "necessity": "essential", "comment": "Defines anatomy for repair planning." }, "pft": { "necessity": "essential", "comment": "Assesses operative risk." } }, "attending_note": "AAA 6.2cm: Elective repair. EVAR if anatomy suitable and high surgical risk (COPD). Open repair if low risk (more durable). Smoking cessation. Control HTN. Annual surveillance of remaining aorta." }
+}

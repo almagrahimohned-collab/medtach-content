@@ -1,0 +1,18 @@
+{
+  "id": "surg_gen_001",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "RLQ Pain - Acute Appendicitis",
+  "department": "Surgical Emergency",
+  "patient": { "age": 22, "gender": "male", "name": "Mr. Youssef Ali", "persona": "in pain, nauseous" },
+  "chief_complaint": "Abdominal pain that started around umbilicus 12 hours ago, now shifted to right lower quadrant. Nausea, anorexia, low-grade fever.",
+  "vitals": { "bp": "125/80 mmHg", "hr": 100, "rr": 20, "spo2": "98%", "temp": "38.1°C" },
+  "physical_exam": { "abdomen": "Tenderness at McBurney point, rebound tenderness, Rovsing sign positive, psoas sign positive" },
+  "hidden_data": { "cbc": "WBC: 14,200, Neutrophils: 82%", "crp": "CRP: 45 mg/L", "us_abd": "Non-compressible tubular structure in RLQ, 8mm diameter with surrounding fluid, appendicolith present" },
+  "media": {},
+  "correct_diagnosis": "Acute Appendicitis with Appendicolith",
+  "differential_diagnoses": ["Mesenteric Adenitis", "Ureteral Stone", "Meckel Diverticulitis", "Crohn Disease"],
+  "key_learning_points": ["Classic: periumbilical pain → RLQ (visceral → somatic)", "McBurney point tenderness = most reliable sign", "Ultrasound first in young/thin patients, CT if unclear", "Laparoscopic appendectomy within 24h", "Preoperative antibiotics reduce wound infection"],
+  "patient_responses": { "pain_start": "It started around my belly button last night, now it's on the right side", "appetite": "I don't want to eat anything, feel sick", "nausea": "I feel like vomiting" },
+  "hints": { "exam": "McBurney point + Rovsing + psoas signs", "imaging": "Ultrasound is diagnostic" },
+  "feedback": { "correct_message": "Well diagnosed! Classic appendicitis with migration of pain.", "incorrect_message": "This is acute appendicitis. The RLQ pain + leukocytosis + ultrasound confirm it.", "test_evaluation": { "us_abd": { "necessity": "essential", "comment": "Diagnostic - shows inflamed appendix." }, "cbc": { "necessity": "essential", "comment": "Leukocytosis supports diagnosis." } }, "attending_note": "Appendicitis: Laparoscopic appendectomy within 24h. Preoperative antibiotics (cefoxitin or cefazolin + metronidazole). Non-operative management with antibiotics for selected uncomplicated cases. Good outcome with early surgery." }
+}

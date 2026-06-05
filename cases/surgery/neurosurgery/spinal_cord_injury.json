@@ -1,0 +1,18 @@
+{
+  "id": "surg_neuro_003",
+  "specialty": "surgery", "difficulty": "advanced",
+  "title": "Paralysis After Trauma - Spinal Cord Injury",
+  "department": "Neurosurgical Emergency",
+  "patient": { "age": 22, "gender": "male", "name": "Mr. Ali Hassan", "persona": "diving accident, paralyzed" },
+  "chief_complaint": "22-year-old male dove into shallow pool, hit head on bottom. Now unable to move arms or legs. Loss of sensation below shoulders. Priapism noted.",
+  "vitals": { "bp": "85/50 mmHg", "hr": 48, "rr": 20, "spo2": "94%", "temp": "36.0°C" },
+  "physical_exam": { "neuro": "Flaccid paralysis all 4 limbs (quadriplegia), sensory level at C6, loss of rectal tone, priapism, diaphragmatic breathing only, hypotension with bradycardia (neurogenic shock)" },
+  "hidden_data": { "ct_cervical_spine": "Burst fracture C5 with retropulsion of bone fragments into spinal canal, cord compression at C5-C6", "mri_cervical": "Spinal cord contusion and edema at C5-C6 with intramedullary hemorrhage" },
+  "media": {},
+  "correct_diagnosis": "Complete Spinal Cord Injury at C5-C6 (ASIA A) with Neurogenic Shock",
+  "differential_diagnoses": ["Spinal Shock", "Cord Contusion", "Vertebral Artery Dissection", "Cauda Equina Syndrome"],
+  "key_learning_points": ["Immobilize spine immediately", "Neurogenic shock = hypotension + bradycardia (loss of sympathetic tone)", "Methylprednisolone NOT routinely recommended", "Early surgical decompression within 24h", "MAP >85 for cord perfusion", "VTE prophylaxis essential"],
+  "patient_responses": { "accident": "I dove into the shallow end of the pool", "symptoms": "I can't feel or move anything below my shoulders", "breathing": "I feel like I can't take a deep breath" },
+  "hints": { "shock": "Neurogenic shock = hypotension + bradycardia", "management": "MAP >85, early surgery, steroids controversial" },
+  "feedback": { "correct_message": "Well diagnosed! Complete SCI with neurogenic shock.", "incorrect_message": "This is a spinal cord injury. The paralysis + sensory level + imaging confirm it.", "test_evaluation": { "ct_cervical_spine": { "necessity": "essential", "comment": "Shows fracture and cord compression." }, "mri_cervical": { "necessity": "essential", "comment": "Confirms cord injury." } }, "attending_note": "SCI management: Spine immobilization, MAP >85 (vasopressors if needed, dopamine or norepinephrine), early surgical decompression within 24h, DVT prophylaxis, stress ulcer prophylaxis, bowel/bladder program, rehabilitation. Steroids NOT routinely recommended per current guidelines." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_id_002",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Vesicles on Hands and Mouth - HFMD",
+  "department": "Pediatric Clinic",
+  "patient": { "age": 3, "gender": "male", "name": "Child Adam (3 years)", "persona": "irritable, oral lesions, drooling" },
+  "chief_complaint": "3-year-old with fever 38.5°C, sore throat, drooling, and painful oral ulcers for 2 days. Today developed vesicular rash on palms and soles.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 120, "rr": 24, "spo2": "99%", "temp": "38.5°C" },
+  "physical_exam": { "mouth": "Multiple small vesicles and ulcers on tongue, buccal mucosa, and soft palate", "skin": "Small oval vesicles on palms, soles, and between fingers, some on buttocks. Non-pruritic." },
+  "hidden_data": { "cbc": "WBC: 8,500, Lymphocytes: 55%" },
+  "media": {},
+  "correct_diagnosis": "Hand, Foot, and Mouth Disease (Coxsackie A16)",
+  "differential_diagnoses": ["Herpangina", "Herpes Gingivostomatitis", "Varicella", "Erythema Multiforme"],
+  "key_learning_points": ["Vesicles on hands + feet + mouth = HFMD", "Coxsackie A16 most common cause", "Self-limited - resolves in 7-10 days", "Supportive care: hydration, analgesia", "Contagious - contact precautions"],
+  "patient_responses": { "eating": "He refuses to eat because his mouth hurts", "fever": "Fever for 2 days, not too high", "rash": "The blisters appeared today on his hands and feet", "daycare": "Other kids at daycare have similar symptoms" },
+  "hints": { "distribution": "Hands + feet + mouth = classic", "treatment": "Supportive care only" },
+  "feedback": { "correct_message": "Well diagnosed! Classic HFMD presentation.", "incorrect_message": "This is HFMD. The vesicles on hands, feet, and mouth are pathognomonic.", "test_evaluation": { "cbc": { "necessity": "optional", "comment": "Not necessary for diagnosis." } }, "attending_note": "HFMD management: Supportive care - acetaminophen/ibuprofen for pain and fever. Encourage cold fluids, popsicles. Magic mouthwash (Maalox + Benadryl) for severe oral pain. Return if dehydration (no urine >8h). Exclude from daycare until fever-free and vesicles crusted." }
+}

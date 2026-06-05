@@ -1,0 +1,18 @@
+{
+  "id": "surg_ent_001",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Recurrent Sore Throat - Chronic Tonsillitis",
+  "department": "ENT Clinic",
+  "patient": { "age": 12, "gender": "female", "name": "Child Sara (12 years)", "persona": "recurrent infections, large tonsils" },
+  "chief_complaint": "12-year-old with recurrent tonsillitis: 7 episodes in past year with fever, sore throat, and cervical lymphadenopathy. Enlarged tonsils causing snoring and difficulty swallowing. Afebrile today.",
+  "vitals": { "bp": "105/65 mmHg", "hr": 80, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "throat": "Enlarged tonsils (3+), cryptic, no exudate currently, uvula midline", "neck": "Bilateral cervical lymphadenopathy 1cm, mobile" },
+  "hidden_data": { "rapid_strep": "Negative (between episodes)", "cbc": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Chronic Recurrent Tonsillitis - Surgical Candidate (Tonsillectomy)",
+  "differential_diagnoses": ["Peritonsillar Abscess", "Tonsillar Hypertrophy", "Allergic Rhinitis", "GERD"],
+  "key_learning_points": ["Paradise criteria: >7 episodes/year, >5/year x2, >3/year x3", "Tonsillectomy reduces frequency and severity", "Post-op risks: hemorrhage (primary <24h, secondary 5-10 days)", "Adequate analgesia crucial", "Hydration is key to recovery"],
+  "patient_responses": { "infections": "I get strep throat almost every month", "school": "I've missed 20 days of school this year", "snoring": "My sister says I snore loudly" },
+  "hints": { "criteria": "Paradise criteria for tonsillectomy", "procedure": "Coblation or dissection tonsillectomy" },
+  "feedback": { "correct_message": "Well assessed! She meets criteria for tonsillectomy.", "incorrect_message": "This is chronic recurrent tonsillitis meeting Paradise criteria for surgery.", "test_evaluation": { "rapid_strep": { "necessity": "optional", "comment": "Negative between episodes." } }, "attending_note": "Tonsillectomy: Meets Paradise criteria (>7 episodes/year). Advise parents about post-op pain (7-10 days), risk of hemorrhage (2-5%), and importance of hydration. Avoid NSAIDs post-op (aspirin/ibuprofen) - use acetaminophen." }
+}

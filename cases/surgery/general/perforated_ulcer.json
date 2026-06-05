@@ -1,0 +1,18 @@
+{
+  "id": "surg_gen_004",
+  "specialty": "surgery", "difficulty": "intermediate",
+  "title": "Acute Abdomen - Perforated Peptic Ulcer",
+  "department": "Surgical Emergency",
+  "patient": { "age": 65, "gender": "male", "name": "Mr. Farid Habib", "persona": "in severe pain, lying still" },
+  "chief_complaint": "Sudden severe epigastric pain that spread to entire abdomen 4 hours ago. Lies very still as any movement worsens pain. History of NSAID use for arthritis.",
+  "vitals": { "bp": "90/60 mmHg", "hr": 120, "rr": 28, "spo2": "93%", "temp": "38.8°C" },
+  "physical_exam": { "abdomen": "Board-like rigidity, rebound tenderness, absent bowel sounds" },
+  "hidden_data": { "cxr": "Free air under both diaphragms", "cbc": "WBC: 18,000", "ct_abdomen": "Free air and fluid, perforated duodenal ulcer" },
+  "media": {},
+  "correct_diagnosis": "Perforated Duodenal Ulcer with Generalized Peritonitis",
+  "differential_diagnoses": ["Acute Pancreatitis", "Ruptured AAA", "Mesenteric Ischemia", "Acute Cholecystitis"],
+  "key_learning_points": ["Free air under diaphragm = perforated viscus until proven", "Board-like rigidity = peritonitis", "Emergency laparotomy indicated", "Resuscitation + broad-spectrum antibiotics + surgery"],
+  "patient_responses": { "pain_onset": "It started suddenly in my stomach and now my whole belly hurts", "nsaid": "I take diclofenac daily for arthritis", "movement": "Any movement makes it worse" },
+  "hints": { "imaging": "Look for free air under diaphragm", "exam": "Board-like rigidity = surgical abdomen" },
+  "feedback": { "correct_message": "Excellent! Perforated viscus is a surgical emergency.", "incorrect_message": "This is a perforated ulcer. The free air + board-like rigidity are diagnostic.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Shows free air - diagnostic." }, "ct_abdomen": { "necessity": "essential", "comment": "Confirms site." } }, "attending_note": "Perforated ulcer: Resuscitate, broad-spectrum antibiotics, emergency laparotomy with omental patch repair (Graham patch). Time to OR is critical. Good outcome with prompt surgery." }
+}

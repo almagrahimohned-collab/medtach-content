@@ -1,0 +1,18 @@
+{
+  "id": "ped_gastro_002",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Currant Jelly Stools - Intussusception",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 1, "gender": "male", "name": "Child Tariq (9 months)", "persona": "colicky abdominal pain, drawing up legs" },
+  "chief_complaint": "9-month-old with sudden episodes of severe colicky abdominal pain, drawing legs up, occurring every 15-20 minutes. Between episodes appears normal. Now passed currant jelly stool (blood and mucus).",
+  "vitals": { "bp": "85/50 mmHg", "hr": 145, "rr": 32, "spo2": "97%", "temp": "37.5°C" },
+  "physical_exam": { "abdomen": "Sausage-shaped mass in right upper quadrant, emptiness in right lower quadrant (Dance sign), mild distension" },
+  "hidden_data": { "us_abd": "Target sign (pseudokidney sign) in right upper quadrant, ileocolic intussusception, no free fluid, good vascular flow" },
+  "media": {},
+  "correct_diagnosis": "Ileocolic Intussusception",
+  "differential_diagnoses": ["Gastroenteritis", "Volvulus", "Appendicitis", "Meckel Diverticulitis"],
+  "key_learning_points": ["Triad: colicky pain + currant jelly stools + abdominal mass", "Target sign on ultrasound", "Air enema for reduction (diagnostic + therapeutic)", "Surgical reduction if enema fails or peritonitis", "Most common in 3-12 months"],
+  "patient_responses": { "pain": "He screams and pulls his legs up, then seems fine for a while", "stool": "He just passed something that looks like red jelly", "feeding": "He vomited after the last feed" },
+  "hints": { "imaging": "Target sign on ultrasound", "treatment": "Air enema reduction" },
+  "feedback": { "correct_message": "Excellent! Intussusception with classic triad.", "incorrect_message": "This is intussusception. The currant jelly stool + ultrasound target sign confirm it.", "test_evaluation": { "us_abd": { "necessity": "essential", "comment": "Target sign is diagnostic." } }, "attending_note": "Intussusception: Air enema under fluoroscopic guidance is both diagnostic and therapeutic. Success rate >80%. Surgical reduction if enema fails or peritonitis. NPO, IV fluids, NG tube. Time is critical - risk of bowel ischemia increases with delay." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_002",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Yellow Skin in Newborn - Neonatal Jaundice",
+  "department": "Nursery",
+  "patient": { "age": 0, "gender": "male", "name": "Baby Karim (Day 3)", "persona": "jaundiced, feeding well" },
+  "chief_complaint": "Full-term newborn (39 weeks), now Day 3 of life, with yellow discoloration of skin and eyes noticed by mother. Breastfeeding well. ABO compatible.",
+  "vitals": { "bp": "65/35 mmHg", "hr": 140, "rr": 44, "spo2": "98%", "temp": "36.8°C" },
+  "physical_exam": { "skin": "Jaundice to abdomen (Kramer zone 3), no pallor, no petechiae", "general": "Active, good suck, normal tone" },
+  "hidden_data": { "bilirubin": "Total Bilirubin: 16.5 mg/dL, Direct: 0.4 mg/dL (indirect hyperbilirubinemia)", "cbc": "Hb: 16.5, Reticulocytes: 4%, blood type B+ (mother O+)", "coombs": "Direct Coombs: Negative", "g6pd": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Physiologic Neonatal Jaundice (Indirect Hyperbilirubinemia)",
+  "differential_diagnoses": ["ABO Hemolytic Disease", "G6PD Deficiency", "Breast Milk Jaundice", "Biliary Atresia"],
+  "key_learning_points": ["Indirect = unconjugated (physiologic, breast milk, hemolysis)", "Plot on Bhutani nomogram for risk", "Phototherapy if above threshold", "Check bilirubin levels based on age in hours"],
+  "patient_responses": { "feeding": "He breastfeeds every 2-3 hours, good latch", "stools": "Yellow seedy stools, 4-5 per day", "urine": "Wet diapers, clear urine" },
+  "hints": { "bilirubin": "Check total and direct bilirubin", "nomogram": "Plot on Bhutani nomogram" },
+  "feedback": { "correct_message": "Well diagnosed! Physiologic jaundice in a healthy term infant.", "incorrect_message": "This is physiologic neonatal jaundice. The indirect hyperbilirubinemia without hemolysis is characteristic.", "test_evaluation": { "bilirubin": { "necessity": "essential", "comment": "Shows indirect hyperbilirubinemia." }, "cbc": { "necessity": "essential", "comment": "Normal - rules out hemolysis." }, "coombs": { "necessity": "essential", "comment": "Negative - no isoimmune hemolysis." } }, "attending_note": "Physiologic jaundice: Plot bilirubin on Bhutani nomogram. Phototherapy if above threshold. Encourage frequent breastfeeding (8-12x/day). Recheck bilirubin 12-24h after starting phototherapy. Most cases resolve without intervention." }
+}

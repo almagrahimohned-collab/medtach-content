@@ -1,0 +1,18 @@
+{
+  "id": "surg_neuro_001",
+  "specialty": "surgery", "difficulty": "advanced",
+  "title": "Lucid Interval After Head Trauma - Epidural Hematoma",
+  "department": "Neurosurgical Emergency",
+  "patient": { "age": 25, "gender": "male", "name": "Mr. Tariq Hassan", "persona": "head injury, deteriorating consciousness" },
+  "chief_complaint": "25-year-old male hit head in motor vehicle accident. Initially conscious, then became confused, now unresponsive with right pupil dilated. Lucid interval of 2 hours.",
+  "vitals": { "bp": "160/90 mmHg", "hr": 55, "rr": 12, "spo2": "92%", "temp": "36.5°C" },
+  "physical_exam": { "neuro": "GCS 6 (E1 V2 M3), right pupil fixed and dilated, left hemiparesis, Cushing triad (HTN, bradycardia, irregular breathing)" },
+  "hidden_data": { "ct_head": "Biconvex (lens-shaped) hyperdensity right temporoparietal region, midline shift 12mm left, uncal herniation" },
+  "media": {},
+  "correct_diagnosis": "Acute Epidural Hematoma with Uncal Herniation (MMA Rupture)",
+  "differential_diagnoses": ["Subdural Hematoma", "Intracerebral Hemorrhage", "Cerebral Contusion", "Diffuse Axonal Injury"],
+  "key_learning_points": ["Lucid interval = classic for EDH", "Biconvex (lens-shaped) on CT", "Middle meningeal artery rupture", "Emergency craniotomy and evacuation", "Cushing triad = ↑ICP (HTN, bradycardia, irregular breathing)"],
+  "patient_responses": { "accident": "Car accident, he hit his head on the windshield", "lucid": "He was talking after the accident, then suddenly deteriorated" },
+  "hints": { "imaging": "Biconvex hyperdensity = EDH", "exam": "Cushing triad + blown pupil = herniation" },
+  "feedback": { "correct_message": "Excellent! EDH with herniation - neurosurgical emergency.", "incorrect_message": "This is an epidural hematoma. The lucid interval + CT findings are classic.", "test_evaluation": { "ct_head": { "necessity": "essential", "comment": "Biconvex hyperdensity - classic EDH." } }, "attending_note": "EDH with herniation: Emergency craniotomy and evacuation. Mannitol 1g/kg IV. Hyperventilation to PaCO2 30-35. Elevate head of bed 30°. Excellent prognosis if evacuated promptly before irreversible brainstem damage." }
+}

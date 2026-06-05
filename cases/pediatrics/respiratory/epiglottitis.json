@@ -1,0 +1,18 @@
+{
+  "id": "ped_resp_002",
+  "specialty": "pediatrics", "difficulty": "advanced",
+  "title": "Drooling and Stridor - Epiglottitis",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 4, "gender": "male", "name": "Child Hassan (4 years)", "persona": "toxic, drooling, tripod position" },
+  "chief_complaint": "4-year-old with acute onset high fever 40°C, severe sore throat, drooling, muffled voice, and inspiratory stridor. Sitting in tripod position, refusing to lie down. Unvaccinated against Hib.",
+  "vitals": { "bp": "85/45 mmHg", "hr": 165, "rr": 40, "spo2": "89%", "temp": "40.0°C" },
+  "physical_exam": { "general": "Toxic-appearing, anxious, sitting forward in tripod position, drooling, inspiratory stridor", "neck": "Tender over larynx" },
+  "hidden_data": { "cxr_lateral_neck": "Thumb sign (enlarged epiglottis)", "blood_culture": "Haemophilus influenzae type b (Hib) positive", "cbc": "WBC: 22,000, Neutrophils: 88%" },
+  "media": {},
+  "correct_diagnosis": "Acute Epiglottitis (Hib) - Airway Emergency",
+  "differential_diagnoses": ["Croup", "Bacterial Tracheitis", "Peritonsillar Abscess", "Retropharyngeal Abscess"],
+  "key_learning_points": ["Tripod position + drooling + stridor = epiglottitis until proven", "DO NOT examine throat (may precipitate complete obstruction)", "Secure airway FIRST (OR with anesthesia/ENT)", "IV antibiotics: ceftriaxone or cefotaxime", "Hib vaccine has dramatically reduced incidence"],
+  "patient_responses": { "symptoms": "Started with fever this morning, now he can't swallow his saliva", "immunization": "He hasn't received any vaccines" },
+  "hints": { "presentation": "Tripod + drooling + toxic = epiglottitis", "management": "Secure airway FIRST, then antibiotics" },
+  "feedback": { "correct_message": "Excellent! Epiglottitis is a life-threatening airway emergency.", "incorrect_message": "This is epiglottitis. The tripod position + drooling + stridor are classic.", "test_evaluation": { "cxr_lateral_neck": { "necessity": "optional", "comment": "Thumb sign - but do NOT delay airway management for imaging." }, "blood_culture": { "necessity": "essential", "comment": "Hib positive." } }, "attending_note": "Epiglottitis: Secure airway in OR with anesthesia and ENT. Do NOT examine throat, do NOT lay child flat, do NOT cause agitation. IV ceftriaxone 50mg/kg/day. Steroids controversial. Extubate when leak demonstrated (24-48h). Hib vaccine prevents this disease." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_gen_004",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Fever Without Source - Pediatric UTI",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 1, "gender": "female", "name": "Child Sara (18 months)", "persona": "irritable, febrile" },
+  "chief_complaint": "18-month-old girl with fever 39.5°C for 2 days, irritability, decreased appetite, and foul-smelling urine. No cough, no diarrhea.",
+  "vitals": { "bp": "85/50 mmHg", "hr": 150, "rr": 32, "spo2": "99%", "temp": "39.5°C" },
+  "physical_exam": { "general": "Irritable but consolable", "abdomen": "Mild suprapubic tenderness", "back": "No CVA tenderness" },
+  "hidden_data": { "ua": "Leukocyte esterase: Positive, Nitrites: Positive, WBC: 25/HPF, Bacteria: Many", "urine_culture": "E. coli >100,000 CFU/mL", "cbc": "WBC: 18,000", "renal_us": "Normal kidneys, no hydronephrosis" },
+  "media": {},
+  "correct_diagnosis": "Febrile Urinary Tract Infection (Pyelonephritis vs Cystitis)",
+  "differential_diagnoses": ["Viral Syndrome", "Pneumonia", "Appendicitis", "Gastroenteritis"],
+  "key_learning_points": ["UTI = most common cause of fever without source in young children", "Catheterized specimen for accurate diagnosis", "Treat empirically with cephalosporin", "Renal US after first febrile UTI", "Consider VCUG if abnormal US or recurrent"],
+  "patient_responses": { "fever": "She's been burning up for 2 days", "urine": "Her diapers smell really strong and foul", "drinking": "She's not drinking as much as usual" },
+  "hints": { "urine": "Check urinalysis and culture", "imaging": "Renal ultrasound after first febrile UTI" },
+  "feedback": { "correct_message": "Well diagnosed! Febrile UTI in a young child.", "incorrect_message": "This is a UTI. The positive UA + culture confirm it.", "test_evaluation": { "ua": { "necessity": "essential", "comment": "Shows pyuria and bacteriuria." }, "urine_culture": { "necessity": "essential", "comment": "Confirms organism and sensitivities." }, "renal_us": { "necessity": "essential", "comment": "Normal - reassuring." } }, "attending_note": "Febrile UTI: Treat with cephalexin or cefixime for 7-14 days. Renal US after first febrile UTI to rule out anatomical abnormalities. VCUG if abnormal US or recurrent UTIs. Encourage hydration and frequent voiding." }
+}

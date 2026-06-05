@@ -1,0 +1,18 @@
+{
+  "id": "surg_uro_001",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Urinary Retention - Benign Prostatic Hyperplasia",
+  "department": "Urology Clinic",
+  "patient": { "age": 68, "gender": "male", "name": "Mr. Hassan Ali", "persona": "elderly, urinary symptoms" },
+  "chief_complaint": "68-year-old male with progressive difficulty urinating: hesitancy, weak stream, nocturia x4, and feeling of incomplete emptying for 1 year. Today unable to urinate for 12 hours with suprapubic pain.",
+  "vitals": { "bp": "140/85 mmHg", "hr": 78, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Distended bladder palpable to umbilicus, dull to percussion, tender", "rectal": "Enlarged prostate 60g, smooth, no nodules, no induration" },
+  "hidden_data": { "psa": "PSA: 3.2 ng/mL (slightly elevated, consistent with BPH)", "cmp": "Cr: 1.2, normal", "us_bladder": "Distended bladder, post-void residual 450mL, bilateral hydronephrosis mild" },
+  "media": {},
+  "correct_diagnosis": "Acute Urinary Retention due to Benign Prostatic Hyperplasia",
+  "differential_diagnoses": ["Prostate Cancer", "Urethral Stricture", "Neurogenic Bladder", "Bladder Stone"],
+  "key_learning_points": ["Acute retention = emergency catheterization", "Start alpha-blocker (tamsulosin) for symptom relief", "5-ARI (finasteride) for large prostates >40g", "TURP = gold standard surgical treatment", "PSA monitoring for prostate cancer screening"],
+  "patient_responses": { "urination": "I haven't been able to pee since last night", "stream": "My stream has been weak for a year", "nocturia": "I get up 4 times at night" },
+  "hints": { "management": "Catheterize first", "medical": "Alpha-blocker + 5-ARI" },
+  "feedback": { "correct_message": "Well diagnosed! Acute retention from BPH.", "incorrect_message": "This is BPH with acute retention. Catheterize and start medical therapy.", "test_evaluation": { "psa": { "necessity": "essential", "comment": "Elevated - consistent with BPH." }, "cmp": { "necessity": "essential", "comment": "Check renal function." } }, "attending_note": "BPH with retention: Urethral catheterization (16-18F). Start tamsulosin 0.4mg daily. Trial of void after 3-7 days. If fails, TURP. Finasteride 5mg daily for prostates >40g. Monitor PSA annually." }
+}

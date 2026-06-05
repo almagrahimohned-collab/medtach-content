@@ -1,0 +1,18 @@
+{
+  "id": "surg_ct_002",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Sudden Dyspnea - Tension Pneumothorax",
+  "department": "Cardiothoracic Emergency",
+  "patient": { "age": 22, "gender": "male", "name": "Mr. Youssef Nour", "persona": "tall, thin, breathless" },
+  "chief_complaint": "Sudden sharp left chest pain and severe shortness of breath while playing basketball. Tall thin male. Trachea deviated to right, distended neck veins.",
+  "vitals": { "bp": "85/50 mmHg", "hr": 130, "rr": 36, "spo2": "84%", "temp": "36.8°C" },
+  "physical_exam": { "chest": "Absent breath sounds left side, hyperresonance to percussion, trachea deviated to right", "neck": "Distended neck veins", "general": "Cyanotic, diaphoretic" },
+  "hidden_data": { "cxr": "Large left pneumothorax with complete lung collapse, mediastinal shift to right, depressed left diaphragm" },
+  "media": {},
+  "correct_diagnosis": "Tension Pneumothorax (Left, Spontaneous)",
+  "differential_diagnoses": ["Pulmonary Embolism", "Myocardial Infarction", "Aortic Dissection", "Spontaneous PTX without tension"],
+  "key_learning_points": ["Tension PTX = tracheal deviation AWAY + hypotension + distended neck veins", "Immediate needle decompression (14G, 2nd ICS MCL)", "Follow with chest tube (5th ICS MAL)", "Do NOT wait for CXR if unstable", "Tall thin males at risk for spontaneous PTX"],
+  "patient_responses": { "onset": "Sudden pain while playing basketball", "breathing": "I can't breathe", "past": "I've never had this before" },
+  "hints": { "diagnosis": "Clinical diagnosis - do not wait for CXR", "treatment": "Needle decompression then chest tube" },
+  "feedback": { "correct_message": "Excellent! Tension pneumothorax is immediately life-threatening.", "incorrect_message": "This is tension pneumothorax. Clinical diagnosis - treat immediately.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Confirms - but don't delay treatment for unstable patients." } }, "attending_note": "Tension PTX: Immediate needle decompression (14G cannula, 2nd ICS MCL), then chest tube (28-32F, 5th ICS MAL). Connect to underwater seal. Pleurodesis if recurrent. No flying for 2-4 weeks after resolution." }
+}

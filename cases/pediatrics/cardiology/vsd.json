@@ -1,0 +1,18 @@
+{
+  "id": "ped_cardio_001",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Heart Murmur in Infant - Ventricular Septal Defect",
+  "department": "Pediatric Cardiology",
+  "patient": { "age": 0, "gender": "female", "name": "Baby Hala (2 months)", "persona": "feeding difficulty, failure to thrive" },
+  "chief_complaint": "2-month-old with poor weight gain, tachypnea during feeding, and diaphoresis. Loud holosystolic murmur heard at left lower sternal border since birth.",
+  "vitals": { "bp": "80/50 mmHg", "hr": 155, "rr": 55, "spo2": "96%", "temp": "36.8°C" },
+  "physical_exam": { "heart": "Grade 4/6 holosystolic murmur at LLSB with thrill, loud P2, displaced apex", "liver": "Hepatomegaly 3cm below costal margin", "general": "Tachypneic, diaphoretic with feeds" },
+  "hidden_data": { "echo": "Large perimembranous VSD 8mm with left-to-right shunt, Qp:Qs 3:1, dilated LA and LV, pulmonary hypertension (RVSP 50mmHg)", "cxr": "Cardiomegaly, increased pulmonary vascular markings", "ecg": "Biventricular hypertrophy" },
+  "media": {},
+  "correct_diagnosis": "Large Ventricular Septal Defect with Pulmonary Hypertension and Heart Failure",
+  "differential_diagnoses": ["Atrial Septal Defect", "Patent Ductus Arteriosus", "AV Canal Defect", "Tetralogy of Fallot"],
+  "key_learning_points": ["Holosystolic murmur at LLSB = VSD", "Qp:Qs >2 = significant shunt", "Treat heart failure: furosemide + digoxin", "Surgical closure if failure to thrive or pulmonary hypertension", "Small VSDs may close spontaneously"],
+  "patient_responses": { "feeding": "She gets tired and sweaty during feeds, takes only 2oz", "weight": "She was 3.5kg at birth, now only 4.2kg at 2 months", "breathing": "She breathes fast all the time" },
+  "hints": { "murmur": "Holosystolic at LLSB = VSD", "echo": "Echo is diagnostic" },
+  "feedback": { "correct_message": "Excellent! Large VSD causing heart failure.", "incorrect_message": "This is a large VSD. The holosystolic murmur + echo findings confirm it.", "test_evaluation": { "echo": { "necessity": "essential", "comment": "Diagnostic - shows VSD size and shunt." }, "cxr": { "necessity": "essential", "comment": "Shows cardiomegaly and increased pulmonary flow." }, "ecg": { "necessity": "essential", "comment": "Shows biventricular hypertrophy." } }, "attending_note": "Large VSD with CHF: Furosemide 1mg/kg BID, digoxin, increased caloric density feeds. Surgical closure indicated for failure to thrive, pulmonary hypertension, or Qp:Qs >2. Refer to pediatric cardiac surgery. Good catch." }
+}

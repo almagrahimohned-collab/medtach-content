@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_004",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Jittery Newborn - Neonatal Hypoglycemia",
+  "department": "Nursery",
+  "patient": { "age": 0, "gender": "female", "name": "Baby Laila (6 hours)", "persona": "jittery, irritable" },
+  "chief_complaint": "6-hour-old infant born to diabetic mother (LGA, 4.2kg). Jittery, irritable, and poor feeding. Blood glucose check shows 28 mg/dL.",
+  "vitals": { "bp": "60/32 mmHg", "hr": 155, "rr": 50, "spo2": "97%", "temp": "36.5°C" },
+  "physical_exam": { "general": "Jittery, exaggerated Moro reflex, irritable cry", "weight": "4.2 kg (>90th percentile)", "neuro": "Tremulous, but tone normal" },
+  "hidden_data": { "glucose": "Blood glucose: 28 mg/dL (severe hypoglycemia)", "calcium": "Normal", "magnesium": "Normal", "insulin": "Elevated" },
+  "media": {},
+  "correct_diagnosis": "Neonatal Hypoglycemia (Infant of Diabetic Mother)",
+  "differential_diagnoses": ["Hypocalcemia", "Neonatal Sepsis", "Hypoxic-Ischemic Encephalopathy", "Drug Withdrawal"],
+  "key_learning_points": ["IDM at risk for hypoglycemia (hyperinsulinemia)", "Screen glucose at 1, 2, 4, 6 hours of life", "Treat with early feeding or IV dextrose if severe", "LGA infants at higher risk"],
+  "patient_responses": { "mother": "Mother has gestational diabetes, poorly controlled", "feeding": "She's not latching well, seems too jittery", "birth": "Vaginal delivery at 39 weeks, Apgar 8/9" },
+  "hints": { "risk": "Infant of diabetic mother", "glucose": "Check blood glucose immediately" },
+  "feedback": { "correct_message": "Well diagnosed! Hypoglycemia in IDM from hyperinsulinemia.", "incorrect_message": "This is neonatal hypoglycemia. The diabetic mother + LGA + low glucose confirm it.", "test_evaluation": { "glucose": { "necessity": "essential", "comment": "Confirms hypoglycemia." } }, "attending_note": "Neonatal hypoglycemia: If BG <40 mg/dL and symptomatic, IV D10W 2mL/kg bolus then continuous infusion at 6-8mg/kg/min. If asymptomatic, encourage early feeding. Monitor glucose q1h until stable. Most resolve in 24-48h." }
+}

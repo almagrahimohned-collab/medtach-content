@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_007",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Delayed Milestones - Cerebral Palsy",
+  "department": "Pediatric Neurology",
+  "patient": { "age": 2, "gender": "male", "name": "Child Mahmoud (2 years)", "persona": "stiff limbs, delayed walking" },
+  "chief_complaint": "2-year-old not yet walking independently. Stiff legs, scissoring gait when supported. Born at 30 weeks, had Grade 3 IVH in NICU. Delayed motor milestones.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 100, "rr": 22, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "neuro": "Spastic diplegia: increased tone in lower limbs > upper limbs, hyperreflexia, clonus at ankles, scissoring gait, toe walking when supported. Upper limbs normal.", "development": "Sits independently, pulls to stand but cannot walk alone. Speech: 10 words (mild delay)" },
+  "hidden_data": { "mri_brain": "Periventricular leukomalacia (PVL) bilateral, consistent with previous IVH" },
+  "media": {},
+  "correct_diagnosis": "Spastic Diplegic Cerebral Palsy (Prematurity-related PVL)",
+  "differential_diagnoses": ["Hereditary Spastic Paraplegia", "Spinal Cord Lesion", "Metabolic Disorder", "Muscular Dystrophy"],
+  "key_learning_points": ["CP = permanent disorder of movement and posture", "Spastic diplegia = legs > arms (PVL)", "Prematurity + IVH = major risk factors", "Multidisciplinary care: PT, OT, speech, orthopedics", "Botox or baclofen for spasticity"],
+  "patient_responses": { "birth": "He was born at 30 weeks, had bleeding in the brain", "milestones": "He sat at 12 months, crawled at 18 months, not walking yet", "stiffness": "His legs are very stiff, hard to put in a diaper" },
+  "hints": { "history": "Prematurity + IVH", "imaging": "MRI shows PVL" },
+  "feedback": { "correct_message": "Well diagnosed! Spastic diplegic CP from PVL.", "incorrect_message": "This is cerebral palsy. The prematurity + IVH + MRI findings confirm it.", "test_evaluation": { "mri_brain": { "necessity": "essential", "comment": "Shows PVL - consistent with history." } }, "attending_note": "CP management: Physical therapy (stretching, strengthening, gait training), occupational therapy, orthotics (AFOs). Botox for focal spasticity, oral baclofen or intrathecal baclofen pump for generalized. Regular follow-up with orthopedics for hip surveillance." }
+}

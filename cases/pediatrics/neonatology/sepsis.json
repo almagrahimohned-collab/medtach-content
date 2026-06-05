@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_003",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Lethargy and Hypothermia - Neonatal Sepsis",
+  "department": "NICU",
+  "patient": { "age": 0, "gender": "female", "name": "Baby Nour (Day 5)", "persona": "lethargic, poor feeding" },
+  "chief_complaint": "5-day-old full-term infant with lethargy, poor feeding, temperature instability (hypothermia 35.8°C), and grunting. Mother had prolonged rupture of membranes (28 hours).",
+  "vitals": { "bp": "50/28 mmHg", "hr": 175, "rr": 68, "spo2": "90%", "temp": "35.8°C" },
+  "physical_exam": { "general": "Lethargic, mottled skin, capillary refill 4 seconds, weak cry", "chest": "Grunting, bilateral crackles" },
+  "hidden_data": { "cbc": "WBC: 4,200 (leukopenia), Neutrophils: 45%, Band forms: 15%, PLT: 95,000", "crp": "CRP: 85 mg/L (elevated)", "blood_culture": "Group B Streptococcus (GBS) positive", "csf": "WBC: 350, Protein: 150, Glucose: 30, Gram stain: Gram-positive cocci" },
+  "media": {},
+  "correct_diagnosis": "Early-Onset Neonatal Sepsis with Meningitis (GBS)",
+  "differential_diagnoses": ["Congenital Pneumonia", "Hypoxic-Ischemic Encephalopathy", "Metabolic Disorder", "Congenital Heart Disease"],
+  "key_learning_points": ["GBS = most common cause of early-onset sepsis", "Prolonged ROM >18h is risk factor", "Ampicillin + Gentamicin for empiric coverage", "LP indicated in suspected sepsis", "Intrapartum antibiotic prophylaxis for GBS+ mothers"],
+  "patient_responses": { "pregnancy": "Mother was GBS positive, did not receive antibiotics before delivery", "membranes": "Water broke 28 hours before delivery", "feeding": "She stopped breastfeeding yesterday" },
+  "hints": { "risk_factors": "GBS+ mother without prophylaxis + prolonged ROM", "workup": "Blood culture + LP + CRP" },
+  "feedback": { "correct_message": "Excellent! Neonatal sepsis with meningitis - this is a neonatal emergency.", "incorrect_message": "This is neonatal sepsis. The risk factors + leukopenia + positive cultures confirm it.", "test_evaluation": { "blood_culture": { "necessity": "essential", "comment": "Identifies causative organism." }, "csf": { "necessity": "essential", "comment": "Shows meningitis." }, "crp": { "necessity": "essential", "comment": "Elevated - supports infection." } }, "attending_note": "Neonatal sepsis: Ampicillin 100mg/kg + Gentamicin 4mg/kg or Cefotaxime for meningitis. Supportive care: maintain temperature, fluids, respiratory support. Duration: 14-21 days for meningitis. Good outcome with prompt treatment." }
+}

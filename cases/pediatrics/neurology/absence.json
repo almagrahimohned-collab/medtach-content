@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_006",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Staring Spells - Childhood Absence Epilepsy",
+  "department": "Pediatric Neurology",
+  "patient": { "age": 7, "gender": "female", "name": "Child Dina (7 years)", "persona": "staring spells, school difficulties" },
+  "chief_complaint": "7-year-old girl with frequent staring spells lasting 10-15 seconds, occurring 20-30 times per day. Teacher reports she 'zones out' and misses instructions. No convulsions.",
+  "vitals": { "bp": "100/65 mmHg", "hr": 88, "rr": 18, "spo2": "99%", "temp": "36.8°C" },
+  "physical_exam": { "neuro": "Normal examination between spells, during spell: blank stare, unresponsive, eyelid fluttering, no motor activity, immediate return to baseline" },
+  "hidden_data": { "eeg": "3Hz generalized spike-and-wave discharges, hyperventilation provokes seizures", "mri_brain": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Childhood Absence Epilepsy",
+  "differential_diagnoses": ["Daydreaming/Inattention", "Complex Partial Seizures", "ADHD", "Learning Disability"],
+  "key_learning_points": ["3Hz spike-and-wave on EEG = pathognomonic", "Hyperventilation provokes spells", "Ethosuximide first-line", "Good prognosis - most outgrow by adolescence", "No convulsions = absence"],
+  "patient_responses": { "spells": "She just stares blankly for a few seconds, then continues like nothing happened", "frequency": "The teacher says it happens many times a day", "school": "Her grades have dropped this year" },
+  "hints": { "eeg": "3Hz spike-and-wave is diagnostic", "provocation": "Hyperventilation during EEG" },
+  "feedback": { "correct_message": "Excellent! Childhood absence epilepsy diagnosed correctly.", "incorrect_message": "This is absence epilepsy. The 3Hz spike-and-wave on EEG confirms it.", "test_evaluation": { "eeg": { "necessity": "essential", "comment": "3Hz spike-and-wave is pathognomonic." }, "mri_brain": { "necessity": "optional", "comment": "Normal - rules out structural lesion." } }, "attending_note": "Absence epilepsy: Ethosuximide 15-20mg/kg/day first-line. Valproic acid if also has GTCs. Avoid carbamazepine (worsens). Good prognosis - 80% outgrow by adolescence. Monitor school performance. Safety precautions during spells." }
+}

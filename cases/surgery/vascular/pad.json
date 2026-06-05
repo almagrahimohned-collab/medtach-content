@@ -1,0 +1,18 @@
+{
+  "id": "surg_vasc_003",
+  "specialty": "surgery", "difficulty": "intermediate",
+  "title": "Leg Pain When Walking - Peripheral Arterial Disease",
+  "department": "Vascular Surgery Clinic",
+  "patient": { "age": 68, "gender": "male", "name": "Mr. Ali Hassan", "persona": "smoker, claudication" },
+  "chief_complaint": "68-year-old male smoker with progressive right calf pain when walking 100 meters, relieved by rest. Cool right foot, hair loss on leg. Diabetes and hypertension.",
+  "vitals": { "bp": "155/85 mmHg", "hr": 78, "rr": 16, "spo2": "98%", "temp": "36.6°C" },
+  "physical_exam": { "legs": "Cool right foot, hair loss right leg, thickened nails, pallor on elevation, rubor on dependency, right femoral bruit, right DP and PT pulses absent, left palpable" },
+  "hidden_data": { "abi": "Right ABI: 0.45 (moderate-severe PAD), Left ABI: 0.9", "ct_angiogram": "Right superficial femoral artery 80% stenosis at Hunter canal, popliteal artery patent, three-vessel runoff", "lipid": "LDL: 160" },
+  "media": {},
+  "correct_diagnosis": "Peripheral Arterial Disease (Right SFA Stenosis) with Claudication",
+  "differential_diagnoses": ["Spinal Stenosis", "DVT", "Baker Cyst", "Muscle Strain"],
+  "key_learning_points": ["ABI <0.9 = PAD, <0.4 = severe", "Claudication: reproducible pain with exercise, relieved by rest", "Medical: antiplatelet + statin + exercise therapy", "Revascularization if disabling claudication or CLI", "Smoking cessation = most important intervention"],
+  "patient_responses": { "pain": "My right calf cramps after walking a block, goes away when I stop", "smoking": "1 pack/day for 45 years", "diabetes": "Type 2 for 15 years" },
+  "hints": { "diagnosis": "ABI is screening test", "imaging": "CTA for anatomy" },
+  "feedback": { "correct_message": "Well diagnosed! PAD with classic claudication.", "incorrect_message": "This is PAD. The ABI <0.9 + symptoms confirm it.", "test_evaluation": { "abi": { "necessity": "essential", "comment": "Diagnostic - <0.9 = PAD." }, "ct_angiogram": { "necessity": "essential", "comment": "Defines anatomy." } }, "attending_note": "PAD management: Aspirin 81mg + Atorvastatin 80mg. Supervised exercise therapy (30-45min, 3x/week). Cilostazol for symptom relief. Smoking cessation critical. Revascularization (angioplasty/stent or bypass) if disabling claudication or CLI." }
+}

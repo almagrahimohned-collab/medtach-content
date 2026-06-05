@@ -1,0 +1,18 @@
+{
+  "id": "ped_id_003",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Paroxysmal Cough - Pertussis (Whooping Cough)",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 0, "gender": "female", "name": "Baby Noor (2 months)", "persona": "coughing paroxysms, apnea" },
+  "chief_complaint": "2-month-old infant with 2 weeks of cough that has become paroxysmal with inspiratory whoop, post-tussive emesis, and cyanosis during coughing spells. Afebrile. Mother has chronic cough.",
+  "vitals": { "bp": "75/45 mmHg", "hr": 165, "rr": 48, "spo2": "91%", "temp": "37.0°C" },
+  "physical_exam": { "chest": "Paroxysmal cough with inspiratory whoop, clear between spells, no wheeze", "general": "Well-appearing between coughing spells" },
+  "hidden_data": { "cbc": "WBC: 35,000 (severe lymphocytosis), Lymphocytes: 70%", "cxr": "Peribronchial thickening, no pneumonia", "pertussis_pcr": "Bordetella pertussis PCR: Positive", "mother_cough": "Mother has chronic cough for 4 weeks" },
+  "media": {},
+  "correct_diagnosis": "Pertussis (Whooping Cough) - Bordetella pertussis",
+  "differential_diagnoses": ["Viral Bronchiolitis", "Chlamydia Pneumonia", "Foreign Body Aspiration", "Adenovirus"],
+  "key_learning_points": ["Catarrhal → Paroxysmal → Convalescent phases", "Severe lymphocytosis = classic for pertussis", "Azithromycin for treatment and prophylaxis", "Infants <4 months at highest risk for apnea and death", "Tdap vaccine in pregnancy for prevention"],
+  "patient_responses": { "cough": "She coughs so hard she turns blue and stops breathing", "vomiting": "She vomits after coughing spells", "immunization": "She is only 2 months old, hasn't received DTaP yet", "mother": "I've been coughing for a month, thought it was just a cold" },
+  "hints": { "labs": "Lymphocytosis is classic", "treatment": "Macrolide antibiotics" },
+  "feedback": { "correct_message": "Excellent! Pertussis with classic lymphocytosis.", "incorrect_message": "This is pertussis. The paroxysmal cough + lymphocytosis + PCR confirm it.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Severe lymphocytosis is classic." }, "pertussis_pcr": { "necessity": "essential", "comment": "Diagnostic." }, "cxr": { "necessity": "essential", "comment": "Rules out pneumonia." } }, "attending_note": "Pertussis management: Azithromycin 10mg/kg/day x5 days. Droplet precautions. Monitor for apnea (continuous pulse oximetry). Supportive care: oxygen, suctioning. Treat close contacts with azithromycin prophylaxis. Tdap in each pregnancy to protect newborns." }
+}
