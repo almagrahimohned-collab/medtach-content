@@ -1,0 +1,18 @@
+{
+  "id": "cardio_advanced_006",
+  "specialty": "cardiology", "difficulty": "advanced",
+  "title": "Fever and New Murmur - Infective Endocarditis",
+  "department": "Cardiology Ward",
+  "patient": { "age": 65, "gender": "male", "name": "Mr. Nabil Qasim", "persona": "febrile, fatigued" },
+  "chief_complaint": "Fever 39°C for 2 weeks, night sweats, fatigue, and new-onset shortness of breath. Known mitral valve prolapse. Recent dental procedure without prophylaxis.",
+  "vitals": { "bp": "110/65 mmHg", "hr": 100, "rr": 22, "spo2": "93%", "temp": "39.2°C" },
+  "physical_exam": { "heart": "New holosystolic murmur at apex radiating to axilla, grade 4/6", "skin": "Janeway lesions on palms, splinter hemorrhages in nails", "fundoscopy": "Roth spots on retinal exam" },
+  "hidden_data": { "cbc": "WBC: 16,000, Hb: 10.5, PLT: 200", "crp": "CRP: 180 mg/L", "blood_cx": "Streptococcus viridans in 3/3 bottles", "echo": "Large vegetation on mitral valve (1.5cm) with severe mitral regurgitation", "esr": "ESR: 95 mm/hr" },
+  "media": {},
+  "correct_diagnosis": "Infective Endocarditis (Mitral Valve, Streptococcus viridans)",
+  "differential_diagnoses": ["Rheumatic Fever", "Nonbacterial Thrombotic Endocarditis", "Atrial Myxoma", "Systemic Lupus Erythematosus"],
+  "key_learning_points": ["Duke criteria for diagnosis", "Blood cultures BEFORE antibiotics", "TEE more sensitive than TTE", "Prolonged IV antibiotics (4-6 weeks)"],
+  "patient_responses": { "fever": "It comes and goes, mostly at night", "dental": "I had a tooth extraction 3 weeks ago, no antibiotics", "breathing": "I get short of breath walking to the bathroom" },
+  "hints": { "history": "Recent dental procedure without prophylaxis is key", "diagnosis": "Apply Duke criteria - major and minor" },
+  "feedback": { "correct_message": "Excellent diagnosis, Doctor. IE with classic peripheral signs.", "incorrect_message": "This is infective endocarditis. The fever + new murmur + dental procedure + positive blood cultures = Duke criteria met.", "test_evaluation": { "blood_cx": { "necessity": "essential", "comment": "Diagnostic - shows causative organism." }, "echo": { "necessity": "essential", "comment": "Shows vegetation and valve dysfunction." }, "cbc": { "necessity": "essential", "comment": "Anemia of chronic disease." } }, "attending_note": "IE management: Prolonged IV antibiotics (4-6 weeks) guided by sensitivities. Surgical consultation for large vegetation (>1cm), severe regurgitation, or heart failure. Remember prophylaxis for high-risk patients before dental procedures." }
+}

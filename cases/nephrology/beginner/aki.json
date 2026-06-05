@@ -1,0 +1,18 @@
+{
+  "id": "nephro_beginner_001",
+  "specialty": "nephrology", "difficulty": "beginner",
+  "title": "Oliguria - Acute Kidney Injury",
+  "department": "Nephrology Consult",
+  "patient": { "age": 70, "gender": "male", "name": "Mr. Fadi Karam", "persona": "oliguric, confused" },
+  "chief_complaint": "Elderly patient post-colonoscopy prep with decreased urine output for 24 hours, confusion, and creatinine rise from 1.0 to 3.2 mg/dL.",
+  "vitals": { "bp": "85/50 mmHg", "hr": 110, "rr": 22, "spo2": "95%", "temp": "36.5°C" },
+  "physical_exam": { "general": "Dry mucous membranes, decreased skin turgor, orthostatic hypotension", "abdomen": "Soft, non-tender, no distension" },
+  "hidden_data": { "cmp": "BUN: 80, Cr: 3.2, BUN/Cr: 25, Na: 140, K: 4.8", "ua": "Specific gravity: 1.030, No casts, No protein", "urine_lytes": "Urine Na: 12, FENa: 0.5%", "us_renal": "Normal kidneys, no hydronephrosis" },
+  "media": {},
+  "correct_diagnosis": "Pre-renal Acute Kidney Injury (Hypovolemia)",
+  "differential_diagnoses": ["Acute Tubular Necrosis", "Acute Interstitial Nephritis", "Post-renal AKI", "Glomerulonephritis"],
+  "key_learning_points": ["BUN/Cr >20, UNa <20, FENa <1% = pre-renal", "IV fluids are treatment", "Monitor urine output", "Identify and treat underlying cause"],
+  "patient_responses": { "bowel_prep": "I drank the whole bottle of colonoscopy prep", "urine": "I haven't peed since yesterday", "dizziness": "I feel dizzy when I stand" },
+  "hints": { "indices": "Calculate BUN/Cr ratio, FENa", "imaging": "Renal US rules out obstruction" },
+  "feedback": { "correct_message": "Well diagnosed! Pre-renal AKI from hypovolemia.", "incorrect_message": "This is pre-renal AKI. The BUN/Cr >20, UNa <20, and FENa <1% confirm it.", "test_evaluation": { "cmp": { "necessity": "essential", "comment": "Shows BUN/Cr elevation." }, "urine_lytes": { "necessity": "essential", "comment": "FENa <1% diagnostic." }, "us_renal": { "necessity": "essential", "comment": "Rules out obstruction." } }, "attending_note": "Pre-renal AKI: IV fluids (NS bolus), monitor urine output, hold nephrotoxins. FENa <1% is key. Most cases reversible with timely fluid resuscitation. Good catch." }
+}

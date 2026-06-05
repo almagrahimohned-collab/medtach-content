@@ -1,0 +1,18 @@
+{
+  "id": "neuro_intermediate_005",
+  "specialty": "neurology", "difficulty": "intermediate",
+  "title": "Fatigable Weakness - Myasthenia Gravis",
+  "department": "Neurology Clinic",
+  "patient": { "age": 30, "gender": "female", "name": "Mrs. Dina Fawzi", "persona": "fatigued, droopy eyelids" },
+  "chief_complaint": "Drooping eyelids and double vision for 2 months, worse in the evening. Difficulty chewing and swallowing late in the day.",
+  "vitals": { "bp": "120/80 mmHg", "hr": 80, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "neuro": "Bilateral ptosis worsening with sustained upward gaze, diplopia on lateral gaze, fatiguable weakness of proximal muscles, normal reflexes, no sensory deficits" },
+  "hidden_data": { "achr_antibodies": "Anti-AChR antibodies: Positive (8.5 nmol/L)", "tensilon_test": "Positive - improvement with edrophonium", "ct_chest": "Anterior mediastinal mass consistent with thymoma", "pft": "Normal spirometry" },
+  "media": {},
+  "correct_diagnosis": "Myasthenia Gravis with Thymoma",
+  "differential_diagnoses": ["Lambert-Eaton Myasthenic Syndrome", "Botulism", "Mitochondrial Myopathy", "Brainstem Stroke"],
+  "key_learning_points": ["Fatigability = hallmark of MG", "Anti-AChR antibodies in 85%", "Thymoma in 10-15%", "Avoid aminoglycosides, fluoroquinolones, beta-blockers"],
+  "patient_responses": { "ptosis": "My eyelids droop, especially when I'm tired", "diplopia": "I see double when I read or watch TV", "chewing": "I can't finish a meal, my jaw gets tired" },
+  "hints": { "antibodies": "Check anti-AChR antibodies", "imaging": "CT chest for thymoma" },
+  "feedback": { "correct_message": "Excellent diagnosis! MG with thymoma - important to identify.", "incorrect_message": "This is myasthenia gravis. The fatiguable weakness and positive antibodies confirm it.", "test_evaluation": { "achr_antibodies": { "necessity": "essential", "comment": "Diagnostic for MG." }, "ct_chest": { "necessity": "essential", "comment": "Identifies thymoma." }, "tensilon_test": { "necessity": "optional", "comment": "Historical - antibodies more commonly used." } }, "attending_note": "MG management: Pyridostigmine for symptoms, immunosuppression (prednisone + azathioprine), thymectomy for thymoma. Avoid MG-exacerbating drugs. Monitor respiratory function for myasthenic crisis." }
+}

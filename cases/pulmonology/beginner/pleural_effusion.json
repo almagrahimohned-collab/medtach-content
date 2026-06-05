@@ -1,0 +1,18 @@
+{
+  "id": "pulmo_beginner_005",
+  "specialty": "pulmonology", "difficulty": "beginner",
+  "title": "Dyspnea and Dullness - Pleural Effusion",
+  "department": "Pulmonology Clinic",
+  "patient": { "age": 58, "gender": "female", "name": "Mrs. Huda Salem", "persona": "breathless, fatigued" },
+  "chief_complaint": "Progressive shortness of breath for 2 weeks, right-sided chest heaviness, dry cough. Weight loss of 5 kg in 2 months.",
+  "vitals": { "bp": "125/80 mmHg", "hr": 95, "rr": 26, "spo2": "91%", "temp": "37.2°C" },
+  "physical_exam": { "chest": "Decreased breath sounds right base, dullness to percussion, decreased vocal fremitus, trachea shifted left" },
+  "hidden_data": { "cxr": "Large right pleural effusion with contralateral mediastinal shift", "thoracentesis": "Exudative: Protein 5.2 g/dL (serum 7.0), LDH 350 (serum 220), cytology positive for adenocarcinoma" },
+  "media": {},
+  "correct_diagnosis": "Malignant Pleural Effusion (Lung Adenocarcinoma)",
+  "differential_diagnoses": ["Parapneumonic Effusion", "Tuberculous Effusion", "Heart Failure", "Pulmonary Embolism"],
+  "key_learning_points": ["Light's criteria: exudate vs transudate", "Exudate = protein ratio >0.5 or LDH ratio >0.6", "Cytology diagnostic for malignancy", "Therapeutic thoracentesis for symptomatic relief"],
+  "patient_responses": { "smoking": "Yes, 30 pack-years", "weight_loss": "I've lost weight without trying", "breathing": "I can't lie flat, I need 2 pillows" },
+  "hints": { "criteria": "Apply Light's criteria", "diagnosis": "Thoracentesis with cytology" },
+  "feedback": { "correct_message": "Well diagnosed! Malignant effusion - the cytology is key.", "incorrect_message": "This is a malignant pleural effusion. The exudative nature and positive cytology confirm it.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Shows effusion size." }, "thoracentesis": { "necessity": "essential", "comment": "Diagnostic - Light's criteria + cytology." } }, "attending_note": "Malignant effusion: therapeutic thoracentesis for symptom relief. Consider tunneled pleural catheter for recurrent effusions. Refer to oncology. The smoking history is significant." }
+}
