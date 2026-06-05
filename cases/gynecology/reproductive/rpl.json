@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_repro_004",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Three Miscarriages - Recurrent Pregnancy Loss",
+  "department": "Reproductive Endocrinology",
+  "patient": { "age": 33, "gender": "female", "name": "Mrs. Nour Hassan", "persona": "anxious, multiple losses" },
+  "chief_complaint": "33-year-old with 3 consecutive first-trimester miscarriages at 7, 8, and 9 weeks. All confirmed on ultrasound with fetal cardiac activity initially, then demise. No living children.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 78, "rr": 16, "spo2": "100%", "temp": "36.6°C" },
+  "physical_exam": { "pelvic": "Normal", "general": "Normal" },
+  "hidden_data": { "apla": "Lupus anticoagulant: Positive (2 occasions, 12 weeks apart)", "anticardiolipin": "Anti-cardiolipin IgG: 45 GPL (high), IgM: 30 MPL (high)", "karyotype": "Both partners: Normal", "us_pelvis": "Normal uterine cavity", "tsh": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Antiphospholipid Syndrome (Recurrent Pregnancy Loss)",
+  "differential_diagnoses": ["Chromosomal (products of conception)", "Anatomic (septate uterus)", "Endocrine (hypothyroidism)", "Unexplained"],
+  "key_learning_points": ["RPL: ≥2-3 losses (varies by guideline)", "APS: LA + aCL or anti-β2-GPI on 2 occasions", "Treatment: LDA + LMWH (prophylactic dose) during pregnancy", "Increases live birth rate from 20% to 70-80%", "Screen for APS in all women with RPL"],
+  "patient_responses": { "losses": "Three miscarriages, all after seeing heartbeat", "testing": "Never been tested before", "family": "My sister has lupus" },
+  "hints": { "testing": "Antiphospholipid antibodies", "treatment": "Aspirin + heparin" },
+  "feedback": { "correct_message": "Excellent! APS is a treatable cause of RPL.", "incorrect_message": "This is antiphospholipid syndrome. The positive LA + aCL confirm it.", "test_evaluation": { "apla": { "necessity": "essential", "comment": "Positive on 2 occasions." }, "anticardiolipin": { "necessity": "essential", "comment": "Elevated." } }, "attending_note": "APS in pregnancy: LDA 81mg daily + LMWH (enoxaparin 40mg daily) from positive pregnancy test until 6 weeks postpartum. Increases live birth rate significantly. Monitor for preeclampsia and IUGR." }
+}

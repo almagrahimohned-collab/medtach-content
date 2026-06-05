@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_repro_001",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Inability to Conceive - Unexplained Infertility",
+  "department": "Reproductive Endocrinology",
+  "patient": { "age": 34, "gender": "female", "name": "Mrs. Rana Omar", "persona": "frustrated, trying to conceive" },
+  "chief_complaint": "34-year-old female trying to conceive for 2 years without success. Regular menstrual cycles (28-30 days). Partner's semen analysis normal. HSG shows patent tubes. Ovarian reserve normal.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 76, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "pelvic": "Normal exam", "general": "BMI 24" },
+  "hidden_data": { "amh": "AMH: 2.5 ng/mL (normal)", "fsh": "FSH: 6.5 IU/L (normal)", "hcg": "HSG: Bilateral patent tubes", "semen_analysis": "Partner: Count 45 million, motility 55%, morphology 8% (all normal)", "tsh": "1.8 (normal)", "prolactin": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Unexplained Infertility (Primary)",
+  "differential_diagnoses": ["Male Factor", "Tubal Factor", "Diminished Ovarian Reserve", "Endometriosis"],
+  "key_learning_points": ["Infertility: >1 year unprotected intercourse without conception (<35 years)", "Basic workup: semen analysis, HSG, ovarian reserve", "Unexplained = all tests normal", "Treatment: ovulation induction + IUI for 3-4 cycles, then IVF", "Age is most important prognostic factor"],
+  "patient_responses": { "trying": "We've been trying for 2 years, tracking ovulation", "cycles": "Regular 28-day cycles", "partner": "Husband tested, all normal" },
+  "hints": { "workup": "Semen + HSG + ovarian reserve", "treatment": "IUI then IVF" },
+  "feedback": { "correct_message": "Well assessed! Unexplained infertility.", "incorrect_message": "This is unexplained infertility. All tests are normal.", "test_evaluation": { "amh": { "necessity": "essential", "comment": "Normal ovarian reserve." }, "hcg": { "necessity": "essential", "comment": "Patent tubes." }, "semen_analysis": { "necessity": "essential", "comment": "Normal." } }, "attending_note": "Unexplained infertility: Clomiphene or letrozole + IUI for 3-4 cycles. If unsuccessful, IVF. Success rates: IUI 10-15%/cycle, IVF 40-50%/cycle at age 34. Lifestyle: healthy weight, folic acid, smoking cessation." }
+}

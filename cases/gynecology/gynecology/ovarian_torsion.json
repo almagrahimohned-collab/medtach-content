@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_004",
+  "specialty": "gynecology", "difficulty": "advanced",
+  "title": "Severe Acute Pelvic Pain - Ovarian Torsion",
+  "department": "Gynecology Emergency",
+  "patient": { "age": 15, "gender": "female", "name": "Ms. Hala (15 years)", "persona": "severe pain, vomiting" },
+  "chief_complaint": "15-year-old with sudden severe right lower quadrant pain, nausea, vomiting. Pain is constant, severe, and woke her from sleep. No fever.",
+  "vitals": { "bp": "110/70 mmHg", "hr": 110, "rr": 22, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Severe RLQ tenderness with guarding, rebound", "pelvic": "Extremely tender right adnexal mass 8cm" },
+  "hidden_data": { "us_pelvis": "Enlarged right ovary 8cm with multiple peripheral follicles, absent Doppler flow (no arterial or venous flow), normal left ovary", "cbc": "WBC: 13,000", "bhcg": "Negative" },
+  "media": {},
+  "correct_diagnosis": "Right Ovarian Torsion (8cm Mass)",
+  "differential_diagnoses": ["Appendicitis", "Ruptured Ovarian Cyst", "Ectopic Pregnancy", "PID"],
+  "key_learning_points": ["Sudden severe pain + ovarian mass + absent flow = torsion", "Time is ovary - detorsion within 6-8h for salvage", "Laparoscopy for diagnosis and treatment", "Ovarian conservation (detorsion + cystectomy) if viable", "Oophoropexy to prevent recurrence"],
+  "patient_responses": { "pain": "Worst pain of my life, came suddenly", "nausea": "I've vomited 3 times", "onset": "It woke me from sleep" },
+  "hints": { "imaging": "Doppler US - absent flow", "management": "Emergency laparoscopy" },
+  "feedback": { "correct_message": "Excellent! Ovarian torsion is a surgical emergency.", "incorrect_message": "This is ovarian torsion. The absent Doppler flow + mass confirm it.", "test_evaluation": { "us_pelvis": { "necessity": "essential", "comment": "Absent flow diagnostic." }, "bhcg": { "necessity": "essential", "comment": "Rules out ectopic." } }, "attending_note": "Ovarian torsion: Emergency laparoscopy. Detorsion and ovarian conservation if viable. Cystectomy for underlying mass. Oophoropexy to prevent recurrence. Time is critical - salvage rate decreases after 6-8 hours." }
+}

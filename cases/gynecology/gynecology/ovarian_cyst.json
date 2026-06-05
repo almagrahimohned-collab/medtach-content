@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_002",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Acute Pelvic Pain - Ruptured Ovarian Cyst",
+  "department": "Gynecology Emergency",
+  "patient": { "age": 22, "gender": "female", "name": "Ms. Amal Nasser", "persona": "acute pelvic pain" },
+  "chief_complaint": "22-year-old with sudden onset right lower quadrant pain mid-cycle. Pain sharp, now improving. No fever. No vaginal bleeding. Regular menstrual cycles.",
+  "vitals": { "bp": "110/70 mmHg", "hr": 88, "rr": 16, "spo2": "100%", "temp": "36.8°C" },
+  "physical_exam": { "abdomen": "Mild RLQ tenderness, no rebound, no guarding", "pelvic": "Right adnexal mild tenderness, no masses" },
+  "hidden_data": { "us_pelvis": "Free fluid in pelvis, collapsed 4cm cyst right ovary with internal debris, normal left ovary", "bhcg": "Negative", "cbc": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Ruptured Hemorrhagic Ovarian Cyst",
+  "differential_diagnoses": ["Appendicitis", "Ectopic Pregnancy", "Ovarian Torsion", "PID"],
+  "key_learning_points": ["Mid-cycle pain + free fluid = ruptured cyst", "Rule out ectopic (hCG)", "Usually self-limited - resolves in 24-48h", "NSAIDs for pain", "Surgery only if hemodynamically unstable or torsion suspected"],
+  "patient_responses": { "pain": "Sudden sharp pain that's getting better now", "cycle": "I'm mid-cycle, day 14", "pregnancy": "Not pregnant, on birth control" },
+  "hints": { "diagnosis": "Ultrasound + negative hCG", "treatment": "Supportive - self-limited" },
+  "feedback": { "correct_message": "Well diagnosed! Ruptured ovarian cyst - self-limited.", "incorrect_message": "This is a ruptured cyst. The free fluid + collapsed cyst confirm it.", "test_evaluation": { "us_pelvis": { "necessity": "essential", "comment": "Diagnostic." }, "bhcg": { "necessity": "essential", "comment": "Rules out ectopic." } }, "attending_note": "Ruptured cyst: Supportive care with NSAIDs. Usually resolves in 24-48h. Follow-up US in 6 weeks to confirm resolution. Surgery only if hemodynamically unstable." }
+}

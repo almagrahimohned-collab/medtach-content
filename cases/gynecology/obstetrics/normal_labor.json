@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_001",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Term Pregnancy in Labor - Normal Vaginal Delivery",
+  "department": "Labor & Delivery",
+  "patient": { "age": 28, "gender": "female", "name": "Mrs. Reem Ali (40 weeks)", "persona": "in labor, contractions every 3 minutes" },
+  "chief_complaint": "28-year-old G2P1 at 40 weeks with regular painful contractions every 3 minutes for 4 hours. Membranes intact. Fetal movement normal. Previous normal vaginal delivery.",
+  "vitals": { "bp": "120/75 mmHg", "hr": 88, "rr": 18, "spo2": "99%", "temp": "36.8°C" },
+  "physical_exam": { "cervix": "6cm dilated, 80% effaced, -1 station, vertex presentation, membranes intact", "fetal_heart": "145 bpm, accelerations present, no decelerations" },
+  "hidden_data": { "cbc": "Hb: 11.5, PLT: 220", "gbbs": "GBS: Negative", "antenatal": "Uncomplicated pregnancy, all scans normal" },
+  "media": {},
+  "correct_diagnosis": "Active Phase of Labor (Term Pregnancy, Vertex Presentation)",
+  "differential_diagnoses": ["False Labor", "Preterm Labor", "Placental Abruption", "Uterine Rupture"],
+  "key_learning_points": ["Active labor: regular contractions + cervical change", "Partogram to monitor progress", "Intermittent auscultation for low-risk", "Pain management options discussed", "Active management of third stage (oxytocin)"],
+  "patient_responses": { "contractions": "Every 3 minutes, lasting 45 seconds", "pain": "Severe but manageable", "fetal_movement": "Baby is moving normally" },
+  "hints": { "assessment": "Check cervical dilation", "monitoring": "Partogram" },
+  "feedback": { "correct_message": "Well assessed! Normal active labor progressing well.", "incorrect_message": "This is normal active labor. Monitor progress with partogram.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Baseline hemoglobin." } }, "attending_note": "Normal labor: Monitor progress with partogram. Intermittent fetal auscultation. Encourage mobilization and hydration. Pain management per patient preference. Active management of third stage with oxytocin 10 IU IM after delivery." }
+}

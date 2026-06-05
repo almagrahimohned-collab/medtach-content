@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_003",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Painless Vaginal Bleeding - Placenta Previa",
+  "department": "OB/GYN Emergency",
+  "patient": { "age": 30, "gender": "female", "name": "Mrs. Huda (32 weeks)", "persona": "bleeding, scared" },
+  "chief_complaint": "30-year-old G3P2 at 32 weeks with sudden onset painless bright red vaginal bleeding. No trauma. No contractions. Previous C-sections x2.",
+  "vitals": { "bp": "105/65 mmHg", "hr": 105, "rr": 22, "spo2": "97%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Soft, non-tender, uterus relaxed, fetal heart 150 bpm", "speculum": "Bright red blood in vaginal vault, closed cervix, no active bleeding currently" },
+  "hidden_data": { "us_abd": "Placenta completely covering internal os (complete previa), no retroplacental clot", "cbc": "Hb: 10.5, PLT: 200", "nst": "Reactive" },
+  "media": {},
+  "correct_diagnosis": "Complete Placenta Previa with Antepartum Hemorrhage",
+  "differential_diagnoses": ["Placental Abruption", "Vasa Previa", "Cervical Polyp", "Bloody Show"],
+  "key_learning_points": ["Painless bleeding in third trimester = previa until proven", "Previous C-section = risk factor (placenta accreta spectrum)", "NO digital cervical exam (may precipitate hemorrhage)", "Delivery by C-section at 36-37 weeks", "Admit, IV access, crossmatch blood"],
+  "patient_responses": { "bleeding": "I woke up in a pool of blood, no pain", "contractions": "No contractions", "previous": "I had 2 C-sections before" },
+  "hints": { "diagnosis": "Ultrasound for placental location", "management": "No vaginal exam, prepare for C-section" },
+  "feedback": { "correct_message": "Well diagnosed! Placenta previa - NO digital exam.", "incorrect_message": "This is placenta previa. Painless bleeding + US findings confirm it.", "test_evaluation": { "us_abd": { "necessity": "essential", "comment": "Diagnostic." }, "cbc": { "necessity": "essential", "comment": "Assess blood loss." } }, "attending_note": "Complete previa: Admit, IV access, type and crossmatch 2 units. Betamethasone if <34 weeks. NO vaginal exams. Elective C-section at 36-37 weeks. Emergency C-section if heavy bleeding. Risk of placenta accreta with prior C-sections." }
+}

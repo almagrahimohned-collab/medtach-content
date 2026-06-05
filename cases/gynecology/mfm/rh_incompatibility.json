@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_mfm_003",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Rh-Negative Mother - Rh Isoimmunization Prevention",
+  "department": "OB/GYN Clinic",
+  "patient": { "age": 28, "gender": "female", "name": "Mrs. Dana (28 weeks)", "persona": "Rh-negative, routine visit" },
+  "chief_complaint": "28-year-old G2P1 Rh-negative mother at 28 weeks for routine antenatal visit. First baby Rh-positive, received Rhogam after delivery. Now pregnant again. Antibody screen negative.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 80, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Gravid uterus at 28cm, fetal heart 145 bpm" },
+  "hidden_data": { "antibody_screen": "Negative (no anti-D antibodies)", "blood_type": "Mother: O negative, Father: O positive", "us": "Normal fetus, no signs of hydrops" },
+  "media": {},
+  "correct_diagnosis": "Rh-Negative Pregnancy - Routine Antepartum Rhogam Prophylaxis",
+  "differential_diagnoses": ["Alloimmunization", "ABO Incompatibility", "Fetal Anemia", "Immune Hydrops"],
+  "key_learning_points": ["Rh-negative mothers receive Rhogam at 28 weeks and within 72h of delivery", "Also after: miscarriage, abortion, ectopic, amniocentesis, trauma", "Rhogam prevents anti-D antibody formation", "If already sensitized (antibodies present), Rhogam is NOT effective", "Monitor with MCA Dopplers if sensitized"],
+  "patient_responses": { "first_baby": "First baby was Rh-positive, I got Rhogam after", "bleeding": "No bleeding this pregnancy", "trauma": "No falls or trauma" },
+  "hints": { "prophylaxis": "Rhogam 300mcg at 28 weeks", "testing": "Antibody screen" },
+  "feedback": { "correct_message": "Well managed! Routine Rhogam prophylaxis at 28 weeks.", "incorrect_message": "This is routine Rh prophylaxis. Rhogam at 28 weeks.", "test_evaluation": { "antibody_screen": { "necessity": "essential", "comment": "Negative - no sensitization." } }, "attending_note": "Rh-negative: Rhogam 300mcg IM at 28 weeks and within 72h of delivery if baby Rh-positive. Also give after any sensitizing event. Prevents Rh isoimmunization in >99% of cases." }
+}

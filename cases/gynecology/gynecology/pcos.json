@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_006",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Irregular Periods and Hirsutism - PCOS",
+  "department": "Gynecology Clinic",
+  "patient": { "age": 24, "gender": "female", "name": "Ms. Farah Ali", "persona": "irregular periods, facial hair" },
+  "chief_complaint": "24-year-old with irregular periods since menarche (every 2-3 months), excessive facial hair growth, acne, and weight gain. BMI 30. Trying to conceive for 8 months without success.",
+  "vitals": { "bp": "125/80 mmHg", "hr": 78, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "skin": "Hirsutism (Ferriman-Gallwey score 18), acanthosis nigricans, acne", "pelvic": "Normal exam" },
+  "hidden_data": { "us_pelvis": "Polycystic ovaries: >12 follicles per ovary, ovarian volume >10mL", "hormones": "LH/FSH ratio: 2.5, Testosterone: 85 ng/dL (elevated), DHEAS: normal", "glucose": "Fasting: 105, 2h OGTT: 155 (impaired glucose tolerance)", "tsh": "Normal", "prolactin": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Polycystic Ovary Syndrome (Rotterdam Criteria: 3/3)",
+  "differential_diagnoses": ["Congenital Adrenal Hyperplasia", "Cushing Syndrome", "Hypothyroidism", "Androgen-Secreting Tumor"],
+  "key_learning_points": ["Rotterdam: 2 of 3 = oligo/anovulation + hyperandrogenism + polycystic ovaries", "Insulin resistance common", "Lifestyle: weight loss improves all parameters", "OCPs for menstrual regulation and hirsutism", "Letrozole or clomiphene for ovulation induction", "Metformin for metabolic abnormalities"],
+  "patient_responses": { "periods": "I get my period every 2-3 months since I was 14", "hair": "I have dark hair on my face and chest", "weight": "I gained 15 kg in 2 years" },
+  "hints": { "criteria": "Rotterdam criteria", "treatment": "Weight loss + OCPs + metformin" },
+  "feedback": { "correct_message": "Well diagnosed! PCOS meeting all 3 Rotterdam criteria.", "incorrect_message": "This is PCOS. Rotterdam criteria are met.", "test_evaluation": { "us_pelvis": { "necessity": "essential", "comment": "Polycystic ovaries." }, "hormones": { "necessity": "essential", "comment": "Elevated testosterone." } }, "attending_note": "PCOS: Weight loss 5-10% (first-line). OCPs for menstrual regulation + hirsutism. Metformin 1500-2000mg for insulin resistance. Letrozole 2.5-5mg for ovulation induction. Screen for OSA, lipids, glucose annually." }
+}

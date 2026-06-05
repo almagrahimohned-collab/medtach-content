@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_004",
+  "specialty": "gynecology", "difficulty": "advanced",
+  "title": "Difficulty Delivering Shoulders - Shoulder Dystocia",
+  "department": "Labor & Delivery",
+  "patient": { "age": 35, "gender": "female", "name": "Mrs. Nada (39 weeks)", "persona": "in labor, emergency" },
+  "chief_complaint": "35-year-old G2P1 diabetic mother in active labor. Fetal head delivered but shoulders stuck. Turtle sign noted. Baby not delivered after 60 seconds.",
+  "vitals": { "bp": "140/85 mmHg", "hr": 110, "rr": 22, "spo2": "98%", "temp": "37.0°C" },
+  "physical_exam": { "delivery": "Fetal head delivered, retracted against perineum (turtle sign), shoulders impacted, unable to deliver with gentle downward traction" },
+  "hidden_data": { "antenatal": "GDM on insulin, macrosomia suspected (EFW 4.2kg)", "fetal_heart": "Fetal bradycardia 80 bpm" },
+  "media": {},
+  "correct_diagnosis": "Shoulder Dystocia (Macrosomic Infant of Diabetic Mother)",
+  "differential_diagnoses": ["Normal Delivery", "Breech Delivery", "Cord Prolapse", "Uterine Rupture"],
+  "key_learning_points": ["Turtle sign = shoulder dystocia", "HELPERR mnemonic: Help, Episiotomy, Legs (McRoberts), Pressure (suprapubic), Enter (Rubin/Woods), Remove posterior arm, Roll (Gaskin)", "Do NOT: fundal pressure, excessive traction, panic", "Neonatal complications: brachial plexus injury, clavicle fracture, HIE", "Document time of head delivery and maneuvers"],
+  "patient_responses": { "diabetes": "I have gestational diabetes on insulin", "labor": "Labor progressed quickly" },
+  "hints": { "mnemonic": "HELPERR", "maneuvers": "McRoberts + suprapubic pressure first" },
+  "feedback": { "correct_message": "Excellent! Shoulder dystocia - time is critical.", "incorrect_message": "This is shoulder dystocia. Turtle sign is diagnostic.", "test_evaluation": {}, "attending_note": "Shoulder dystocia: Call for help! McRoberts maneuver + suprapubic pressure (first-line, 90% success). Then rotational maneuvers (Rubin II, Woods screw). Gaskin maneuver (all-fours). Document time and maneuvers. Brachial plexus exam of newborn." }
+}

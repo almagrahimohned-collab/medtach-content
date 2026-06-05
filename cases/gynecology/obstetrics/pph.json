@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_005",
+  "specialty": "gynecology", "difficulty": "advanced",
+  "title": "Heavy Bleeding After Delivery - Postpartum Hemorrhage",
+  "department": "Labor & Delivery",
+  "patient": { "age": 30, "gender": "female", "name": "Mrs. Amina (post-delivery)", "persona": "heavy bleeding, hypotensive" },
+  "chief_complaint": "30-year-old G1P1 30 minutes after vaginal delivery with heavy vaginal bleeding (estimated 800mL), boggy uterus, and hypotension. Delivered 4.2kg baby after prolonged labor.",
+  "vitals": { "bp": "85/50 mmHg", "hr": 125, "rr": 26, "spo2": "95%", "temp": "36.5°C" },
+  "physical_exam": { "abdomen": "Boggy, soft uterus above umbilicus, heavy vaginal bleeding with clots" },
+  "hidden_data": { "cbc": "Hb: 8.5 (from 12 baseline), PLT: 180, INR: 1.4, Fibrinogen: 120 (low)", "blood_loss": "Estimated 1200mL total" },
+  "media": {},
+  "correct_diagnosis": "Primary Postpartum Hemorrhage (Uterine Atony)",
+  "differential_diagnoses": ["Retained Placenta", "Genital Tract Trauma", "Coagulopathy", "Uterine Rupture"],
+  "key_learning_points": ["4 Ts: Tone (atony), Trauma, Tissue, Thrombin", "Uterine atony = most common cause", "Fundal massage + uterotonics (oxytocin, methergine, hemabate, misoprostol)", "Bimanual compression", "Bakri balloon or surgical if medical fails", "Massive transfusion protocol if >1500mL"],
+  "patient_responses": { "bleeding": "Heavy bleeding, soaking pads", "labor": "Labor was 18 hours, she was exhausted" },
+  "hints": { "diagnosis": "Boggy uterus = atony", "management": "Fundal massage + oxytocin" },
+  "feedback": { "correct_message": "Well diagnosed! PPH from uterine atony.", "incorrect_message": "This is PPH from atony. The boggy uterus confirms it.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Shows acute anemia." }, "inr": { "necessity": "essential", "comment": "Rule out DIC." } }, "attending_note": "PPH: Fundal massage + oxytocin 10 IU IM + oxytocin infusion 40 IU in 500mL. If fails: methergine 0.2mg IM (if no HTN), hemabate 250mcg IM (if no asthma), misoprostol 800mcg PR. Bakri balloon if medical fails. Activate MTP if >1500mL." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_005",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Dysmenorrhea and Infertility - Endometriosis",
+  "department": "Gynecology Clinic",
+  "patient": { "age": 30, "gender": "female", "name": "Mrs. Dina Omar", "persona": "chronic pelvic pain, infertility" },
+  "chief_complaint": "30-year-old with severe dysmenorrhea (pain with periods) since age 16, deep dyspareunia, and 2-year history of infertility. Pain progressively worsening. Cyclic rectal pain during menses.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 78, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "pelvic": "Tender nodularity uterosacral ligaments, fixed retroverted uterus, tender adnexa bilaterally" },
+  "hidden_data": { "us_pelvis": "Bilateral endometriomas (chocolate cysts) 4cm right, 3cm left, obliterated cul-de-sac", "laparoscopy": "Multiple endometriotic implants on peritoneum, ovaries, and uterosacral ligaments, stage IV" },
+  "media": {},
+  "correct_diagnosis": "Stage IV Endometriosis with Endometriomas",
+  "differential_diagnoses": ["PID", "Irritable Bowel Syndrome", "Interstitial Cystitis", "Ovarian Cancer"],
+  "key_learning_points": ["Triad: dysmenorrhea + dyspareunia + infertility", "Laparoscopy = gold standard for diagnosis", "Endometriomas (chocolate cysts) on US", "Medical: NSAIDs, OCPs, GnRH agonists", "Surgical: laparoscopic excision of lesions", "IVF for infertility"],
+  "patient_responses": { "pain": "Pain with periods since I was a teenager, getting worse", "sex": "Sex is very painful", "pregnancy": "We've been trying for 2 years, no success" },
+  "hints": { "imaging": "Endometriomas on US", "diagnosis": "Laparoscopy confirms" },
+  "feedback": { "correct_message": "Well diagnosed! Stage IV endometriosis.", "incorrect_message": "This is endometriosis. The symptoms + endometriomas confirm it.", "test_evaluation": { "us_pelvis": { "necessity": "essential", "comment": "Shows endometriomas." }, "laparoscopy": { "necessity": "essential", "comment": "Gold standard." } }, "attending_note": "Endometriosis: NSAIDs + OCPs for pain. Laparoscopic excision of lesions and endometriomas. GnRH agonists for 3-6 months post-op. IVF for infertility. Multidisciplinary pain management." }
+}

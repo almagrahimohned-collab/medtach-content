@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_008",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Contractions at 30 Weeks - Preterm Labor",
+  "department": "Labor & Delivery",
+  "patient": { "age": 25, "gender": "female", "name": "Mrs. Sara (30 weeks)", "persona": "contractions, worried" },
+  "chief_complaint": "25-year-old G1P0 at 30 weeks with regular painful contractions every 5 minutes for 3 hours. Cervix 2cm dilated, 50% effaced. Membranes intact. History of UTI last week.",
+  "vitals": { "bp": "110/70 mmHg", "hr": 90, "rr": 18, "spo2": "99%", "temp": "37.2°C" },
+  "physical_exam": { "cervix": "2cm dilated, 50% effaced, -2 station, membranes intact", "fetal_heart": "150 bpm, reactive", "contractions": "q5min, moderate" },
+  "hidden_data": { "ua": "Leukocyte esterase positive, nitrites positive (UTI confirmed)", "ffn": "Fetal fibronectin: Positive", "us_cervix": "Cervical length 20mm (short)" },
+  "media": {},
+  "correct_diagnosis": "Preterm Labor at 30 Weeks (UTI-related)",
+  "differential_diagnoses": ["Braxton Hicks Contractions", "Cervical Insufficiency", "Placental Abruption", "Round Ligament Pain"],
+  "key_learning_points": ["Preterm labor: regular contractions + cervical change <37 weeks", "Betamethasone for fetal lung maturity (24-34 weeks)", "MgSO4 for neuroprotection (24-32 weeks)", "Tocolysis (nifedipine) for 48h to complete steroids", "Treat underlying cause (UTI)", "GBS prophylaxis if delivery imminent"],
+  "patient_responses": { "contractions": "They started this morning, getting stronger", "urine": "I had burning with urination last week", "fluid": "No leaking" },
+  "hints": { "steroids": "Betamethasone for lung maturity", "tocolysis": "Nifedipine for 48h" },
+  "feedback": { "correct_message": "Well diagnosed! Preterm labor at 30 weeks.", "incorrect_message": "This is preterm labor. The cervical change + contractions confirm it.", "test_evaluation": { "ua": { "necessity": "essential", "comment": "UTI is likely trigger." }, "ffn": { "necessity": "essential", "comment": "Positive - high risk." } }, "attending_note": "Preterm labor: Betamethasone 12mg IM q24h x2 doses. MgSO4 for neuroprotection (4g bolus then 1g/hr). Nifedipine 20mg PO then 10-20mg q6-8h for tocolysis. Treat UTI with antibiotics. GBS prophylaxis. Neonatology consultation." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_007",
+  "specialty": "gynecology", "difficulty": "advanced",
+  "title": "Abnormal Pap Smear - Cervical Cancer",
+  "department": "Gynecologic Oncology",
+  "patient": { "age": 42, "gender": "female", "name": "Mrs. Layla Said", "persona": "worried, abnormal Pap" },
+  "chief_complaint": "42-year-old G3P3 with abnormal Pap smear showing HSIL. Colposcopy with biopsy shows CIN3/CIS. HPV 16 positive. No symptoms. No postcoital bleeding.",
+  "vitals": { "bp": "120/75 mmHg", "hr": 78, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "pelvic": "Cervix appears normal, no visible lesions, no parametrial involvement" },
+  "hidden_data": { "pap": "HSIL", "hpv": "HPV 16 positive", "colposcopy_biopsy": "CIN3/CIS (carcinoma in situ), margins positive", "cone_biopsy": "Microinvasive squamous cell carcinoma, depth 2mm, width 5mm, LVSI negative" },
+  "media": {},
+  "correct_diagnosis": "Microinvasive Cervical Cancer (Stage IA1)",
+  "differential_diagnoses": ["CIN3", "Adenocarcinoma in Situ", "Stage IA2", "Stage IB1"],
+  "key_learning_points": ["HPV 16/18 = 70% of cervical cancers", "Stage IA1: depth <3mm, width <7mm, LVSI negative", "Treatment: cone biopsy or simple hysterectomy if fertility not desired", "Stage IA2+: radical hysterectomy + lymphadenectomy", "HPV vaccination prevents most cases"],
+  "patient_responses": { "pap": "I haven't had a Pap smear in 5 years", "symptoms": "No bleeding or discharge", "fertility": "I've completed my family" },
+  "hints": { "staging": "Depth of invasion determines stage", "treatment": "Cone biopsy vs hysterectomy" },
+  "feedback": { "correct_message": "Well diagnosed! Stage IA1 - excellent prognosis.", "incorrect_message": "This is microinvasive cervical cancer. The cone biopsy confirms it.", "test_evaluation": { "cone_biopsy": { "necessity": "essential", "comment": "Diagnostic and therapeutic." }, "hpv": { "necessity": "essential", "comment": "HPV 16 is causative." } }, "attending_note": "Stage IA1: Simple hysterectomy (if fertility not desired) or cone biopsy with negative margins (if fertility desired). Excellent prognosis - 5-year survival >99%. HPV vaccination for children." }
+}

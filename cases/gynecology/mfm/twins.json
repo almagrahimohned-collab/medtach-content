@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_mfm_002",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Twin Pregnancy - Dichorionic Diamniotic Twins",
+  "department": "Maternal-Fetal Medicine",
+  "patient": { "age": 35, "gender": "female", "name": "Mrs. Lina (12 weeks)", "persona": "excited, twins" },
+  "chief_complaint": "35-year-old G1P0 at 12 weeks with twin pregnancy on ultrasound. Dichorionic diamniotic (DCDA) twins. Conceived via IVF (2 embryos transferred). Mild morning sickness.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 85, "rr": 16, "spo2": "99%", "temp": "36.8°C" },
+  "physical_exam": { "abdomen": "Uterus larger than dates, 14 weeks size" },
+  "hidden_data": { "us_12week": "DCDA twins, both CRL consistent with 12 weeks, NT normal, nasal bones present", "papp_a": "Normal", "bhcg": "Normal for twins" },
+  "media": {},
+  "correct_diagnosis": "Dichorionic Diamniotic Twin Pregnancy (IVF Conception)",
+  "differential_diagnoses": ["Monochorionic Twins", "Molar Pregnancy", "Fibroids", "Inaccurate Dates"],
+  "key_learning_points": ["DCDA = lowest risk twin pregnancy (separate placentas + sacs)", "Chorionicity determines monitoring and delivery timing", "DCDA: deliver at 38 weeks", "Increased risk: preeclampsia, GDM, preterm labor, IUGR", "Serial growth scans q4 weeks", "Iron and folic acid supplementation"],
+  "patient_responses": { "conception": "IVF with 2 embryos transferred", "symptoms": "More nausea than expected", "family": "My mother is a twin" },
+  "hints": { "chorionicity": "DCDA = lambda sign on US", "monitoring": "Serial growth q4 weeks" },
+  "feedback": { "correct_message": "Well assessed! DCDA twin pregnancy.", "incorrect_message": "This is a DCDA twin pregnancy. The US findings confirm it.", "test_evaluation": { "us_12week": { "necessity": "essential", "comment": "Confirms chorionicity." } }, "attending_note": "DCDA twins: Serial growth scans q4 weeks. Increased iron (60-100mg) and folic acid (1mg). Screen for GDM and preeclampsia. Deliver at 38 weeks. Vaginal delivery possible if presenting twin cephalic." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_001",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Pelvic Pain and Fever - PID",
+  "department": "Gynecology Clinic",
+  "patient": { "age": 25, "gender": "female", "name": "Ms. Lina Hassan", "persona": "pelvic pain, discharge" },
+  "chief_complaint": "25-year-old sexually active female with lower abdominal pain, purulent vaginal discharge, fever 38.5°C, and dyspareunia for 5 days. Multiple sexual partners, inconsistent condom use.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 100, "rr": 18, "spo2": "99%", "temp": "38.5°C" },
+  "physical_exam": { "pelvic": "Purulent cervical discharge, cervical motion tenderness, bilateral adnexal tenderness, no masses" },
+  "hidden_data": { "cbc": "WBC: 14,500, Neutrophils: 82%", "crp": "CRP: 85 mg/L", "cervical_swab": "Chlamydia trachomatis PCR: Positive, Gonorrhea: Negative", "us_pelvis": "No tubo-ovarian abscess, fluid in cul-de-sac" },
+  "media": {},
+  "correct_diagnosis": "Pelvic Inflammatory Disease (Chlamydia)",
+  "differential_diagnoses": ["Appendicitis", "Ectopic Pregnancy", "Ovarian Cyst Rupture", "UTI"],
+  "key_learning_points": ["CDC criteria: uterine/cervical motion tenderness + adnexal tenderness", "Treat empirically: ceftriaxone + doxycycline + metronidazole", "Partner treatment essential", "Complications: infertility, ectopic, chronic pain", "Abstain from intercourse until treatment complete"],
+  "patient_responses": { "pain": "Lower abdominal pain, worse with sex", "discharge": "Yellow-green discharge, foul smell", "partners": "I have 2 partners, don't always use condoms" },
+  "hints": { "criteria": "CDC diagnostic criteria", "treatment": "Ceftriaxone + Doxycycline + Metronidazole" },
+  "feedback": { "correct_message": "Well diagnosed! PID - treat empirically.", "incorrect_message": "This is PID. The cervical motion tenderness + adnexal tenderness confirm it.", "test_evaluation": { "cervical_swab": { "necessity": "essential", "comment": "Identifies organism." }, "crp": { "necessity": "essential", "comment": "Elevated." } }, "attending_note": "PID: Ceftriaxone 500mg IM once + Doxycycline 100mg BID x14 days + Metronidazole 500mg BID x14 days. Partner treatment. Abstain until treatment complete. Follow-up in 72h. Reportable disease." }
+}

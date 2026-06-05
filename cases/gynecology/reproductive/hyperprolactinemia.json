@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_repro_003",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Galactorrhea and Amenorrhea - Prolactinoma",
+  "department": "Reproductive Endocrinology",
+  "patient": { "age": 28, "gender": "female", "name": "Mrs. Sara Ali", "persona": "milky discharge, no periods" },
+  "chief_complaint": "28-year-old with milky breast discharge (galactorrhea) and amenorrhea for 6 months. No periods since stopping OCPs 1 year ago. Occasional headaches. Not pregnant.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 76, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "breast": "Bilateral expressible galactorrhea, no masses", "neuro": "Visual fields: normal to confrontation" },
+  "hidden_data": { "prolactin": "Prolactin: 185 ng/mL (severely elevated, normal <25)", "fsh": "FSH: 3.2 (low), LH: 2.1 (low)", "tsh": "Normal", "mri_brain": "8mm pituitary microadenoma, no chiasmal compression" },
+  "media": {},
+  "correct_diagnosis": "Prolactinoma (Microadenoma 8mm)",
+  "differential_diagnoses": ["Medication-Induced", "Hypothyroidism", "Macroprolactinemia", "Chest Wall Stimulation"],
+  "key_learning_points": ["Galactorrhea + amenorrhea + ↑prolactin = prolactinoma", "MRI to assess size and chiasmal compression", "Cabergoline or bromocriptine (dopamine agonists)", "Microadenomas (<10mm): medical treatment", "Macroadenomas (>10mm) or compressive symptoms: surgery"],
+  "patient_responses": { "discharge": "Milky discharge from both breasts", "periods": "I haven't had a period in 6 months", "headaches": "Mild headaches, no vision problems" },
+  "hints": { "labs": "Prolactin level", "imaging": "MRI pituitary" },
+  "feedback": { "correct_message": "Well diagnosed! Prolactinoma - microadenoma.", "incorrect_message": "This is a prolactinoma. The ↑prolactin + MRI confirm it.", "test_evaluation": { "prolactin": { "necessity": "essential", "comment": "Severely elevated." }, "mri_brain": { "necessity": "essential", "comment": "Shows adenoma." } }, "attending_note": "Microprolactinoma: Cabergoline 0.25mg twice weekly (titrate up). Normalizes prolactin in 80-90%. Tumor shrinkage in majority. Restores fertility. Follow prolactin q3 months. MRI annually. Stop treatment after 2 years if prolactin normal and tumor resolved." }
+}
