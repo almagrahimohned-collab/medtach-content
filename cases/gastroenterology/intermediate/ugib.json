@@ -1,0 +1,18 @@
+{
+  "id": "gastro_intermediate_008",
+  "specialty": "gastroenterology", "difficulty": "intermediate",
+  "title": "Hematemesis - Upper GI Bleed",
+  "department": "Emergency Department",
+  "patient": { "age": 55, "gender": "male", "name": "Mr. Adel Mahmoud", "persona": "weak, dizzy" },
+  "chief_complaint": "Vomiting blood (coffee ground and fresh red) for 3 hours, black tarry stools. Known NSAID use for chronic back pain.",
+  "vitals": { "bp": "90/60 mmHg", "hr": 115, "rr": 22, "spo2": "94%", "temp": "36.5°C" },
+  "physical_exam": { "abdomen": "Epigastric tenderness, no rebound", "skin": "Pale, cool", "rectal": "Melena on DRE" },
+  "hidden_data": { "cbc": "Hb: 8.5 g/dL (low), PLT: 250", "bun": "BUN: 45 (elevated - suggests UGIB)", "inr": "INR: 1.1", "endoscopy": "Duodenal ulcer with visible vessel, Forrest IIa" },
+  "media": {},
+  "correct_diagnosis": "Upper GI Bleed - Duodenal Ulcer (NSAID-induced)",
+  "differential_diagnoses": ["Esophageal Varices", "Mallory-Weiss Tear", "Gastric Ulcer", "Erosive Gastritis"],
+  "key_learning_points": ["Resuscitate before endoscopy", "IV PPI bolus + infusion", "Rockall score for risk stratification", "Stop NSAIDs, start PPI"],
+  "patient_responses": { "vomiting": "I vomited dark blood first, then bright red", "nsaid_use": "I take ibuprofen every day for my back pain", "stools": "My stools have been black and sticky for 2 days" },
+  "hints": { "resuscitation": "ABC first - 2 large bore IVs", "diagnosis": "Elevated BUN suggests UGIB" },
+  "feedback": { "correct_message": "Well diagnosed! UGIB from duodenal ulcer. The elevated BUN was a key clue.", "incorrect_message": "This is an upper GI bleed. The BUN:Cr ratio and melena point to UGIB.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Shows anemia from blood loss." }, "bun": { "necessity": "essential", "comment": "Elevated BUN suggests UGIB." }, "endoscopy": { "necessity": "essential", "comment": "Diagnostic and therapeutic." } }, "attending_note": "UGIB management: 1) Resuscitate with IV fluids, 2) IV PPI 80mg bolus then 8mg/hr, 3) Endoscopy within 24h, 4) Stop NSAIDs. Good case, Doctor." }
+}

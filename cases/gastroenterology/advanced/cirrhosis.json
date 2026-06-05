@@ -1,0 +1,18 @@
+{
+  "id": "gastro_advanced_007",
+  "specialty": "gastroenterology", "difficulty": "advanced",
+  "title": "Abdominal Distension - Decompensated Cirrhosis",
+  "department": "Gastroenterology Ward",
+  "patient": { "age": 58, "gender": "male", "name": "Mr. Walid Fathi", "persona": "fatigued, jaundiced" },
+  "chief_complaint": "Progressive abdominal distension over 2 weeks, yellow discoloration of eyes, and easy bruising. Known alcoholic liver disease.",
+  "vitals": { "bp": "100/60 mmHg", "hr": 95, "rr": 20, "spo2": "95%", "temp": "36.8°C" },
+  "physical_exam": { "abdomen": "Distended, shifting dullness, fluid wave positive", "skin": "Spider angiomata, palmar erythema, jaundice", "general": "Gynecomastia, muscle wasting" },
+  "hidden_data": { "lft": "AST: 120, ALT: 80, AST/ALT: 1.5, ALP: 180, Bilirubin: 5.5", "albumin": "Albumin: 2.5 g/dL (low)", "inr": "INR: 1.8 (elevated)", "us_abd": "Nodular liver, ascites, splenomegaly, no focal lesions", "ascitic_fluid": "WBC: 80 (PMN: 20), SAAG: 1.8 (portal hypertension)", "cbc": "Platelets: 75,000 (thrombocytopenia)" },
+  "media": {},
+  "correct_diagnosis": "Decompensated Alcoholic Cirrhosis with Ascites",
+  "differential_diagnoses": ["Spontaneous Bacterial Peritonitis", "Hepatocellular Carcinoma", "Budd-Chiari Syndrome", "Heart Failure"],
+  "key_learning_points": ["SAAG >1.1 = portal hypertension", "MELD score for prognosis", "SBP prophylaxis if indicated", "Screen for HCC every 6 months"],
+  "patient_responses": { "alcohol": "I've been drinking heavily for 25 years", "abdominal_swelling": "My belly has been getting bigger for 2 weeks", "bruising": "I bruise very easily now" },
+  "hints": { "ascites": "Calculate SAAG", "complications": "Always rule out SBP with paracentesis" },
+  "feedback": { "correct_message": "Excellent diagnosis, Doctor. Decompensated cirrhosis with ascites is correct.", "incorrect_message": "This is decompensated cirrhosis. The SAAG >1.1 confirms portal hypertension.", "test_evaluation": { "lft": { "necessity": "essential", "comment": "Shows hepatocellular injury pattern." }, "us_abd": { "necessity": "essential", "comment": "Shows nodular liver, ascites, splenomegaly." }, "ascitic_fluid": { "necessity": "essential", "comment": "Diagnostic paracentesis - SAAG >1.1 confirms portal hypertension." } }, "attending_note": "Decompensated cirrhosis requires comprehensive management: sodium restriction, diuretics (spironolactone + furosemide), SBP prophylaxis, HCC screening, and transplant evaluation. Well done." }
+}

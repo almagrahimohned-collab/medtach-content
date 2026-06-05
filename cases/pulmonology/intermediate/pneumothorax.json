@@ -1,0 +1,18 @@
+{
+  "id": "pulmo_intermediate_004",
+  "specialty": "pulmonology", "difficulty": "intermediate",
+  "title": "Sudden Chest Pain - Spontaneous Pneumothorax",
+  "department": "Emergency Department",
+  "patient": { "age": 22, "gender": "male", "name": "Mr. Youssef Nour", "persona": "tall, thin, in pain" },
+  "chief_complaint": "Sudden sharp left chest pain and shortness of breath while playing basketball",
+  "vitals": { "bp": "120/75 mmHg", "hr": 105, "rr": 26, "spo2": "91%", "temp": "36.8°C" },
+  "physical_exam": { "chest": "Decreased breath sounds on left side, hyperresonance to percussion", "trachea": "Slightly deviated to the right" },
+  "hidden_data": { "cxr": "Large left pneumothorax with visible pleural line, tracheal deviation to right" },
+  "media": {},
+  "correct_diagnosis": "Left Tension Pneumothorax",
+  "differential_diagnoses": ["Spontaneous Pneumothorax", "Pulmonary Embolism", "Myocardial Infarction", "Costochondritis"],
+  "key_learning_points": ["Tall thin males at risk for spontaneous PTX", "Needle decompression if tension", "Chest tube for large PTX", "No flying for 2-4 weeks after resolution"],
+  "patient_responses": { "onset": "It happened suddenly while I was playing basketball", "pain": "Sharp pain on the left side, worse with breathing", "smoking": "I smoke occasionally" },
+  "hints": { "exam_hint": "Check for tracheal deviation", "imaging": "CXR will show the pleural line" },
+  "feedback": { "correct_message": "Well diagnosed! This is a tension pneumothorax - a medical emergency.", "incorrect_message": "This is a tension pneumothorax. Look at the tracheal deviation and absent breath sounds.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Diagnostic - shows pneumothorax and mediastinal shift." } }, "attending_note": "Tension pneumothorax: immediate needle decompression at 2nd ICS midclavicular line, then chest tube. Do not wait for CXR if patient is unstable." }
+}

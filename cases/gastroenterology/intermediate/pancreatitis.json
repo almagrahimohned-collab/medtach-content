@@ -1,0 +1,18 @@
+{
+  "id": "gastro_intermediate_006",
+  "specialty": "gastroenterology", "difficulty": "intermediate",
+  "title": "Severe Epigastric Pain - Acute Pancreatitis",
+  "department": "Emergency Department",
+  "patient": { "age": 45, "gender": "male", "name": "Mr. Samir Hadi", "persona": "in severe pain, alcoholic" },
+  "chief_complaint": "Severe epigastric pain radiating to back for 12 hours, associated with nausea and vomiting. Heavy alcohol consumption over the weekend.",
+  "vitals": { "bp": "100/65 mmHg", "hr": 112, "rr": 24, "spo2": "95%", "temp": "38.3°C" },
+  "physical_exam": { "abdomen": "Severe epigastric tenderness with guarding, decreased bowel sounds, Cullen sign negative, Grey Turner sign negative" },
+  "hidden_data": { "lipase": "Lipase: 3500 U/L (severely elevated)", "amylase": "Amylase: 1200 U/L", "cmp": "BUN: 28, Cr: 1.4, Glucose: 200, Calcium: 7.8", "ct_abdomen": "Diffuse pancreatic enlargement with peripancreatic fluid, consistent with acute interstitial pancreatitis", "us_abd": "Gallbladder normal, no stones, pancreas obscured by bowel gas" },
+  "media": {},
+  "correct_diagnosis": "Acute Pancreatitis (Alcohol-Induced)",
+  "differential_diagnoses": ["Perforated Peptic Ulcer", "Acute Cholecystitis", "Bowel Obstruction", "Myocardial Infarction"],
+  "key_learning_points": ["Lipase >3x normal = diagnostic", "Aggressive IV fluids (LR preferred)", "NPO + pain control", "Ranson criteria for severity"],
+  "patient_responses": { "alcohol": "I drank heavily all weekend, maybe 15-20 drinks", "pain": "The pain is terrible, it goes straight through to my back", "vomiting": "I've been vomiting all morning" },
+  "hints": { "labs": "Check lipase - more specific than amylase", "fluids": "Aggressive hydration is key" },
+  "feedback": { "correct_message": "Excellent! Acute pancreatitis diagnosed correctly. The lipase is diagnostic.", "incorrect_message": "This is acute pancreatitis. The lipase >3x normal is diagnostic, and the alcohol history is key.", "test_evaluation": { "lipase": { "necessity": "essential", "comment": "Diagnostic - more specific than amylase." }, "cmp": { "necessity": "essential", "comment": "Important for Ranson criteria." }, "ct_abdomen": { "necessity": "essential", "comment": "Confirms diagnosis and rules out complications." } }, "attending_note": "Good case. Remember: aggressive IV fluids (250-500mL/hr LR), NPO, pain control, and monitor for complications. Ranson score helps predict severity." }
+}

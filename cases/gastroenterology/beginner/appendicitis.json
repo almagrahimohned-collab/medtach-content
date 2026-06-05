@@ -1,0 +1,18 @@
+{
+  "id": "gastro_beginner_005",
+  "specialty": "gastroenterology", "difficulty": "beginner",
+  "title": "RLQ Pain - Acute Appendicitis",
+  "department": "Emergency Department",
+  "patient": { "age": 22, "gender": "male", "name": "Mr. Ali Nasser", "persona": "in pain, nauseous" },
+  "chief_complaint": "Abdominal pain that started around umbilicus 12 hours ago, now shifted to right lower quadrant. Nausea, anorexia.",
+  "vitals": { "bp": "125/80 mmHg", "hr": 100, "rr": 20, "spo2": "98%", "temp": "38.1°C" },
+  "physical_exam": { "abdomen": "Tenderness at McBurney point, rebound tenderness, Rovsing sign positive" },
+  "hidden_data": { "cbc": "WBC: 14,200, Neutrophils: 82%", "crp": "CRP: 45 mg/L", "us_abd": "Non-compressible tubular structure in RLQ, 8mm diameter with surrounding fluid" },
+  "media": {},
+  "correct_diagnosis": "Acute Appendicitis",
+  "differential_diagnoses": ["Mesenteric Adenitis", "Ureteral Stone", "Meckel Diverticulitis", "Ovarian Cyst (if female)"],
+  "key_learning_points": ["Classic: periumbilical pain → RLQ", "McBurney point tenderness", "Ultrasound first in young patients", "CT if ultrasound inconclusive"],
+  "patient_responses": { "pain_start": "It started around my belly button last night", "appetite": "I don't want to eat, I feel sick", "nausea": "I feel like vomiting" },
+  "hints": { "exam_hint": "Check McBurney point and Rovsing sign", "imaging": "Ultrasound is first-line in young patients" },
+  "feedback": { "correct_message": "Well diagnosed! Acute appendicitis with classic migration of pain.", "incorrect_message": "This is acute appendicitis. The migration of pain from umbilicus to RLQ is classic.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Shows leukocytosis." }, "crp": { "necessity": "essential", "comment": "Elevated in inflammation." }, "us_abd": { "necessity": "essential", "comment": "Diagnostic in this case." } }, "attending_note": "Classic appendicitis presentation. Early surgical consultation is key. Laparoscopic appendectomy within 24 hours is standard." }
+}
