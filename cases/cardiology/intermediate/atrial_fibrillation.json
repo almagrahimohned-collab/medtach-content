@@ -19,5 +19,18 @@
   "differential_diagnoses": ["Atrial Flutter", "Multifocal Atrial Tachycardia", "Sinus Tachycardia with Anxiety"],
   "key_learning_points": ["Check thyroid function", "Rate vs rhythm control", "CHA₂DS₂-VASc for stroke risk"],
   "patient_responses": { "palpitations_start": "3 days ago, it just started suddenly", "caffeine": "I drink a lot of coffee" },
-  "hints": { "ecg_hint": "Look for P waves", "management": "Control rate first" }
+  "hints": { "ecg_hint": "Look for P waves", "management": "Control rate first" },
+  "feedback": {
+    "correct_message": "Well diagnosed, Doctor. Atrial fibrillation with RVR is exactly right. You recognized the classic ECG pattern.",
+    "incorrect_message": "This ECG shows atrial fibrillation with RVR. Look at the absent P waves and irregularly irregular rhythm.",
+    "partially_correct_message": "You recognized the tachyarrhythmia, but the specific diagnosis is atrial fibrillation with RVR.",
+    "test_evaluation": {
+      "ecg": { "necessity": "essential", "comment": "Essential for diagnosis. You identified the rhythm correctly." },
+      "tsh": { "necessity": "essential", "comment": "Excellent. Thyroid dysfunction is a common reversible cause of AF." },
+      "echo": { "necessity": "essential", "comment": "Important to assess for structural heart disease and guide management." },
+      "cbc": { "necessity": "optional", "comment": "Reasonable to check for anemia, though not critical for diagnosis." }
+    },
+    "missing_tests": ["Electrolytes (K+, Mg2+)"],
+    "attending_note": "Good case, Doctor. Now that you've diagnosed AF with RVR, the next step is determining rate vs rhythm control. Since she's stable, start with rate control using a beta-blocker or calcium channel blocker. Don't forget to calculate her CHA₂DS₂-VASc score for stroke risk."
+  }
 }
