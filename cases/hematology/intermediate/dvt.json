@@ -1,0 +1,18 @@
+{
+  "id": "hema_intermediate_002",
+  "specialty": "hematology", "difficulty": "intermediate",
+  "title": "Leg Swelling - Deep Vein Thrombosis",
+  "department": "Emergency Department",
+  "patient": { "age": 55, "gender": "female", "name": "Mrs. Nada Sami", "persona": "leg pain, worried" },
+  "chief_complaint": "Left calf pain and swelling for 2 days. Recently returned from a 10-hour flight. On oral contraceptive pills. No chest pain or dyspnea.",
+  "vitals": { "bp": "135/85 mmHg", "hr": 85, "rr": 18, "spo2": "97%", "temp": "37.1°C" },
+  "physical_exam": { "legs": "Left calf swelling (3cm larger than right), tenderness, warmth, Homan sign positive" },
+  "hidden_data": { "d_dimer": "D-Dimer: 850 ng/mL (elevated)", "doppler_us": "Non-compressible thrombus in left popliteal and peroneal veins", "cbc": "Normal, PLT: 280" },
+  "media": {},
+  "correct_diagnosis": "Deep Vein Thrombosis (Left Popliteal-Peronial)",
+  "differential_diagnoses": ["Cellulitis", "Baker Cyst Rupture", "Muscle Strain", "Lymphedema"],
+  "key_learning_points": ["Wells criteria for pre-test probability", "D-Dimer if low probability, US if high", "Start anticoagulation immediately", "DOACs first-line (rivaroxaban, apixaban)", "Treat for 3-6 months"],
+  "patient_responses": { "travel": "I just flew back from Europe, 10 hours", "ocp": "I've been on birth control pills for years", "pain": "My calf is tender and feels tight" },
+  "hints": { "criteria": "Calculate Wells score", "imaging": "Doppler US is diagnostic" },
+  "feedback": { "correct_message": "Well diagnosed! DVT in the setting of OCP + prolonged travel.", "incorrect_message": "This is DVT. The risk factors + positive Doppler confirm it.", "test_evaluation": { "doppler_us": { "necessity": "essential", "comment": "Diagnostic - shows thrombus." }, "d_dimer": { "necessity": "essential", "comment": "Elevated - supports diagnosis." } }, "attending_note": "DVT management: Start DOAC (rivaroxaban 15mg BID x3 weeks then 20mg daily or apixaban 10mg BID x7 days then 5mg BID). Treat for 3-6 months. Compression stockings for symptoms. No bed rest - early mobilization." }
+}
