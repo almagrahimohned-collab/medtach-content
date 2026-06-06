@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
   "last_updated": "2025-06-05T00:00:00Z",
-  "total_cases": 80,
+  "total_cases": 54,
   "cases_by_specialty": {
     "cardiology": { "beginner": 2, "intermediate": 3, "advanced": 2 },
     "pulmonology": { "beginner": 2, "intermediate": 3, "advanced": 1 },
@@ -13,9 +13,9 @@
     "hematology": { "beginner": 1, "intermediate": 1, "advanced": 0 },
     "rheumatology": { "beginner": 1, "intermediate": 1, "advanced": 0 },
     "dermatology": { "beginner": 1, "intermediate": 1, "advanced": 0 },
-    "pediatrics": { "beginner": 12, "intermediate": 10, "advanced": 3 },
-    "surgery": { "beginner": 10, "intermediate": 8, "advanced": 7 },
-    "gynecology": { "beginner": 10, "intermediate": 9, "advanced": 6 }
+    "pediatrics": { "beginner": 3, "intermediate": 2, "advanced": 0 },
+    "surgery": { "beginner": 3, "intermediate": 2, "advanced": 0 },
+    "gynecology": { "beginner": 3, "intermediate": 2, "advanced": 0 }
   },
   "cases": [
     {"id":"cardio_beginner_001","title":"STEMI","specialty":"cardiology","difficulty":"beginner","path":"cases/cardiology/beginner/stemi_anteroseptal.json"},
