@@ -1,0 +1,84 @@
+{
+  "id": "cardio_intermediate_wpw",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "title": "Wolff-Parkinson-White Syndrome",
+  "department": "Cardiology",
+  "patient": {
+    "age": 28,
+    "gender": "male",
+    "name": "David Kim",
+    "persona": "athletic, competitive cyclist, concerned about impact on training"
+  },
+  "chief_complaint": "My heart suddenly started racing while I was sitting at my desk. It felt like it was going to jump out of my chest. It lasted about 10 minutes and stopped suddenly.",
+  "vitals": {
+    "BP": "125/80",
+    "HR": "72",
+    "RR": "16",
+    "SpO2": "99%",
+    "Temp": "36.7°C"
+  },
+  "physical_exam": {
+    "General": "Fit young male, no acute distress",
+    "Cardiac": "Regular rate and rhythm. No murmurs, rubs, or gallops. PMI normal.",
+    "Lungs": "Clear",
+    "Neck": "No JVD, thyroid normal"
+  },
+  "hidden_data": {
+    "ecg_sinus": "Sinus rhythm 72 bpm. Short PR interval (100ms). Delta wave in leads I, aVL, V5-V6. Wide QRS (120ms). Positive delta wave in V1 (Type A WPW - left-sided accessory pathway). No ST changes.",
+    "ecg_tachycardia": "Orthodromic AVRT - Narrow complex tachycardia 180 bpm. No visible P waves. Rate-related ST depression.",
+    "echo": "Normal LV size and function. EF 65%. No structural heart disease. No valvular abnormalities.",
+    "cbc": "WBC 6,800, Hb 15.2, Platelets 220,000",
+    "cmp": "Normal electrolytes, Creatinine 0.9, Glucose 95",
+    "tsh": "TSH 2.1, normal thyroid function",
+    "troponin": "Troponin I <0.01 ng/mL"
+  },
+  "media": {},
+  "correct_diagnosis": "Wolff-Parkinson-White (WPW) Syndrome with Orthodromic AVRT",
+  "differential_diagnoses": [
+    "Paroxysmal Supraventricular Tachycardia (AVNRT)",
+    "Atrial Fibrillation with WPW",
+    "Atrial Flutter",
+    "Ventricular Tachycardia",
+    "Anxiety/Panic Attack",
+    "Hyperthyroidism"
+  ],
+  "key_learning_points": [
+    "WPW syndrome = short PR interval + delta wave + wide QRS on sinus ECG + symptomatic tachycardia",
+    "WPW pattern = ECG findings only without symptoms (lower risk)",
+    "Orthodromic AVRT is the most common arrhythmia in WPW (95%): antegrade via AV node, retrograde via accessory pathway → narrow QRS tachycardia",
+    "Atrial fibrillation with WPW is dangerous: rapid conduction via accessory pathway → wide QRS irregular tachycardia → can degenerate to VF",
+    "Definitive treatment is catheter ablation of accessory pathway. Flecainide or Propafenone for medical management."
+  ],
+  "patient_responses": {
+    "episodes": "This has happened 4-5 times in the past 3 months. Always starts suddenly, no clear trigger. Stops suddenly too. I've never passed out.",
+    "during episode": "I can feel my heart pounding, a little dizzy but never lost consciousness. I can still function but it's very uncomfortable.",
+    "between episodes": "Completely normal. I cycle 100km on weekends without any issues.",
+    "family history": "No one in my family has heart problems that I know of.",
+    "caffeine": "I drink maybe 2 espressos a day. No energy drinks."
+  },
+  "hints": {
+    "history": "Sudden onset/offset suggests re-entrant tachycardia. Ask about syncope (risk factor for sudden death). Family history of WPW or sudden death.",
+    "examination": "Usually normal between episodes. Listen for murmur of associated congenital heart disease (Ebstein anomaly).",
+    "labs": "ECG during sinus rhythm is key - look for delta wave. Holter/event monitor if episodes infrequent. Echo to rule out structural disease.",
+    "imaging": "Echo essential to rule out associated anomalies. EP study for risk stratification and ablation planning."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You recognized the classic WPW pattern on sinus ECG (short PR, delta wave, wide QRS) and correctly identified the tachycardia as orthodromic AVRT. Catheter ablation is curative and recommended for symptomatic patients.",
+    "partially_correct_message": "Good catch on the SVT! However, the sinus ECG shows WPW pattern (delta wave, short PR). This is WPW syndrome with orthodromic AVRT, not simple AVNRT. The distinction matters for management - certain drugs (AV nodal blockers) can be dangerous in WPW.",
+    "incorrect_message": "The sinus ECG clearly shows WPW pattern: short PR interval, delta wave, and wide QRS. With paroxysmal tachycardia, this is WPW syndrome. The narrow complex tachycardia is orthodromic AVRT. AV nodal blockers (verapamil, digoxin) should be avoided as they can precipitate AF with rapid ventricular response.",
+    "clinical_pearls": [
+      "AV nodal blocking agents (Verapamil, Digoxin, Adenosine) can cause 1:1 conduction via accessory pathway during AF → VF risk",
+      "Orthodromic AVRT = narrow QRS (antegrade via AV node). Antidromic AVRT = wide QRS (antegrade via pathway) - much rarer",
+      "Catheter ablation success rate >95% with <1% complication risk - curative for most patients"
+    ],
+    "test_evaluation": {
+      "ecg_sinus": {"necessity": "essential", "comment": "Pathognomonic findings: short PR, delta wave, wide QRS. Type A (positive V1) = left-sided pathway"},
+      "echo": {"necessity": "essential", "comment": "Rules out structural heart disease and Ebstein anomaly (associated with WPW)"},
+      "tsh": {"necessity": "essential", "comment": "Hyperthyroidism can trigger tachyarrhythmias including in WPW patients"},
+      "troponin": {"necessity": "optional", "comment": "Normal in uncomplicated SVT. Useful if chest pain during episode to rule out ischemia"}
+    },
+    "missing_tests": ["EP Study - for risk stratification. Inducible AF with rapid conduction via pathway = high risk for sudden death"],
+    "attending_note": "Doctor, this is classic WPW syndrome. Refer for EP study and catheter ablation which is curative. Avoid AV nodal blockers (verapamil, digoxin) as they can precipitate dangerous AF with rapid ventricular response. Beta-blockers can be used cautiously if needed. No competitive sports until risk stratified. Educate patient about signs of AF (irregular, very fast pulse) which requires emergency care."
+  }
+}

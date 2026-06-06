@@ -1,0 +1,83 @@
+{
+  "id": "cardio_beginner_hypertension",
+  "specialty": "cardiology",
+  "difficulty": "beginner",
+  "title": "Essential Hypertension",
+  "department": "Cardiology",
+  "patient": {
+    "age": 45,
+    "gender": "male",
+    "name": "James Wilson",
+    "persona": "busy executive, dismissive of health concerns"
+  },
+  "chief_complaint": "I came for a routine check-up. I feel fine. My blood pressure was high at a work health fair last week.",
+  "vitals": {
+    "BP": "162/98",
+    "HR": "82",
+    "RR": "16",
+    "SpO2": "99%",
+    "Temp": "36.6°C"
+  },
+  "physical_exam": {
+    "General": "Obese male (BMI 32), well-appearing",
+    "Fundoscopic": "Arteriolar narrowing, no hemorrhages or papilledema",
+    "Cardiac": "Regular rhythm, S4 gallop present, PMI sustained",
+    "Lungs": "Clear",
+    "Abdomen": "Obese, no bruits"
+  },
+  "hidden_data": {
+    "ecg": "Sinus rhythm, left ventricular hypertrophy (LVH) pattern - Sokolow-Lyon criteria positive",
+    "echo": "Left ventricular hypertrophy, EF 60%, diastolic dysfunction grade 1",
+    "cbc": "WBC 7,500, Hb 15.0, Platelets 280,000",
+    "cmp": "Glucose 110, Creatinine 1.1, K+ 4.0, Na+ 139",
+    "urinalysis": "No proteinuria, no hematuria",
+    "lipid_panel": "LDL 140, HDL 35, Triglycerides 200",
+    "hba1c": "5.8% (pre-diabetes)"
+  },
+  "media": {},
+  "correct_diagnosis": "Essential Hypertension Stage 2 with Left Ventricular Hypertrophy",
+  "differential_diagnoses": [
+    "Secondary Hypertension (Renal artery stenosis, Primary aldosteronism, Pheochromocytoma)",
+    "White Coat Hypertension",
+    "Masked Hypertension",
+    "Hypertensive Urgency"
+  ],
+  "key_learning_points": [
+    "Hypertension is diagnosed when BP ≥130/80 (ACC/AHA 2017) on 2 separate occasions",
+    "Stage 2 HTN: SBP ≥140 or DBP ≥90 - requires pharmacologic therapy in addition to lifestyle modifications",
+    "LVH on ECG or Echo is evidence of end-organ damage and indicates long-standing uncontrolled HTN",
+    "First-line agents: ACEi/ARB, CCB, or thiazide diuretic. Beta-blockers are no longer first-line for uncomplicated HTN",
+    "Secondary causes should be considered in young patients (<30), resistant HTN, or sudden onset"
+  ],
+  "patient_responses": {
+    "lifestyle": "I work 60 hours a week. I eat out a lot, don't exercise. I drink 3-4 cups of coffee and maybe 2-3 beers on weekends.",
+    "family history": "My mother has high blood pressure. My father had a stroke at 68.",
+    "symptoms": "I honestly feel fine. No headaches, no vision problems. Maybe a little more tired than usual.",
+    "medications": "None regularly. I take ibuprofen for occasional back pain."
+  },
+  "hints": {
+    "history": "Screen for symptoms of secondary HTN: headaches, palpitations, sweating (pheochromocytoma), muscle weakness (hyperaldosteronism)",
+    "examination": "Fundoscopic exam for retinopathy, cardiac exam for LVH, abdominal bruits for renal artery stenosis",
+    "labs": "CMP, lipid panel, HbA1c, urinalysis for proteinuria. TSH, renal ultrasound if suspecting secondary causes.",
+    "imaging": "Echo to evaluate for LVH. ECG shows LVH pattern. Ambulatory BP monitoring if white coat HTN suspected."
+  },
+  "feedback": {
+    "correct_message": "Well done! You identified Stage 2 essential hypertension with LVH - evidence of end-organ damage. This requires aggressive lifestyle modification and pharmacologic therapy to reduce cardiovascular risk.",
+    "partially_correct_message": "Good thinking, but this is essential hypertension with end-organ damage, not just elevated BP numbers. The LVH on ECG indicates long-standing uncontrolled HTN requiring treatment.",
+    "incorrect_message": "This patient has Stage 2 essential hypertension with LVH on ECG. The presence of end-organ damage makes this more urgent - lifestyle changes alone are insufficient. Pharmacologic therapy is indicated.",
+    "clinical_pearls": [
+      "S4 gallop suggests decreased LV compliance from hypertrophy - a sign of chronic HTN",
+      "First-line anti-hypertensives: ACEi/ARB, CCB, or thiazide. Choose based on comorbidities",
+      "ACEi/ARB are preferred in patients with LVH as they promote LVH regression"
+    ],
+    "test_evaluation": {
+      "ecg": {"necessity": "essential", "comment": "Identifies LVH pattern and old MI. Critical for risk stratification"},
+      "echo": {"necessity": "essential", "comment": "Confirms LVH, assesses EF, and evaluates diastolic function"},
+      "cmp": {"necessity": "essential", "comment": "Evaluates renal function and potassium before starting ACEi/ARB"},
+      "hba1c": {"necessity": "essential", "comment": "Screens for diabetes - common comorbidity with HTN"},
+      "lipid_panel": {"necessity": "essential", "comment": "Guides statin therapy initiation. Most HTN patients benefit from statin"}
+    },
+    "missing_tests": ["Urine microalbumin - Early marker of hypertensive nephropathy"],
+    "attending_note": "Doctor, excellent workup. Start Amlodipine 5mg daily + Lisinopril 10mg daily (ACEi for LVH regression). Advise DASH diet, sodium <2g/day, exercise 150min/week, and limit alcohol. Follow-up BP in 4 weeks."
+  }
+}

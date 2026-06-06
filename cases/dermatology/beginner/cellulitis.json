@@ -1,0 +1,84 @@
+{
+  "id": "derm_beginner_cellulitis",
+  "specialty": "dermatology",
+  "difficulty": "beginner",
+  "title": "Lower Extremity Cellulitis",
+  "department": "Dermatology",
+  "patient": {
+    "age": 56,
+    "gender": "female",
+    "name": "Patricia Davis",
+    "persona": "diabetic, scratched her leg gardening, worried about infection"
+  },
+  "chief_complaint": "My right leg is red, swollen, and feels hot. It started as a small scratch from gardening 3 days ago and now it's spread up to my knee. I have a fever and chills.",
+  "vitals": {
+    "BP": "130/80",
+    "HR": "98",
+    "RR": "18",
+    "SpO2": "97%",
+    "Temp": "38.5°C"
+  },
+  "physical_exam": {
+    "General": "Uncomfortable, diaphoretic",
+    "Right Leg": "Erythema extending from ankle to mid-calf, well-demarcated borders. Warm to touch. Mild non-pitting edema. Small 2cm healing scratch on lateral ankle. No fluctuance, no crepitus, no bullae. Lymphangitic streaking to popliteal fossa.",
+    "Lymphatic": "Enlarged tender right inguinal lymph nodes.",
+    "Neurologic": "Sensation intact, capillary refill <2 seconds, pulses 2+."
+  },
+  "hidden_data": {
+    "cbc": "WBC 16,500 with 82% neutrophils and 8% bands, Hb 13.2, Platelets 210,000",
+    "cmp": "Glucose 210, Creatinine 1.0",
+    "hba1c": "HbA1c 8.2%",
+    "crp": "CRP 120 mg/L",
+    "wound_swab": "Methicillin-sensitive Staphylococcus aureus (MSSA)",
+    "xray_leg": "Soft tissue swelling without gas in tissues. No osteomyelitis. No foreign body.",
+    "venous_doppler": "No DVT."
+  },
+  "media": {},
+  "correct_diagnosis": "Lower Extremity Cellulitis with Lymphangitis, caused by MSSA, in Patient with Poorly Controlled Diabetes",
+  "differential_diagnoses": [
+    "Necrotizing Fasciitis",
+    "Deep Vein Thrombosis",
+    "Erysipelas",
+    "Contact Dermatitis",
+    "Stasis Dermatitis",
+    "Osteomyelitis"
+  ],
+  "key_learning_points": [
+    "Cellulitis = acute bacterial infection of dermis and subcutaneous tissue. Most common: Streptococcus pyogenes and Staphylococcus aureus",
+    "Lymphangitis indicates bacterial spread through lymphatics - marker of more severe infection",
+    "Diabetics have 2-3× increased risk of cellulitis and complications",
+    "Treatment: Antibiotics covering Streptococcus and Staphylococcus. Outpatient: Cephalexin or Clindamycin. Inpatient: Cefazolin IV or Vancomycin IV if MRSA",
+    "Mark erythema borders to monitor progression. Pain out of proportion = necrotizing fasciitis"
+  ],
+  "patient_responses": {
+    "onset": "I was gardening without gloves 3 days ago and scratched my ankle. I cleaned it but it got red the next day. Now it's spreading and I feel terrible.",
+    "symptoms": "My leg hurts when I walk. It's throbbing even at rest. I feel hot and cold, achy all over.",
+    "diabetes": "I've had diabetes for 12 years. My last HbA1c was over 8.",
+    "medications": "Metformin 1000mg BID, Glipizide 10mg BID. No allergies to antibiotics."
+  },
+  "hints": {
+    "history": "Break in skin barrier + spreading erythema + fever = cellulitis. Ask about diabetes and immunosuppression",
+    "examination": "Demarcate borders, look for fluctuance, crepitus, bullae. Check pulses and lymph nodes",
+    "labs": "CBC, CRP, blood cultures if systemic symptoms, wound swab if purulent. HbA1c if diabetic",
+    "imaging": "X-ray if foreign body, gas, or osteomyelitis suspected. Doppler if DVT in differential"
+  },
+  "feedback": {
+    "correct_message": "Well done! You correctly diagnosed cellulitis with lymphangitis in a diabetic patient. IV antibiotics and glucose control are appropriate.",
+    "partially_correct_message": "Good recognition of cellulitis! The lymphangitis and systemic symptoms indicate moderate-severe infection requiring IV antibiotics, not oral.",
+    "incorrect_message": "This is purulent cellulitis with lymphangitis. The portal of entry, spreading erythema, fever, and MSSA on culture confirm the diagnosis. IV antibiotics and strict diabetes control are indicated.",
+    "clinical_pearls": [
+      "Pain OUT OF PROPORTION to exam = necrotizing fasciitis until proven otherwise",
+      "Mark erythema borders with timestamp to monitor progression",
+      "Diabetics need broader antibiotic coverage and stricter monitoring"
+    ],
+    "test_evaluation": {
+      "cbc": {"necessity": "essential", "comment": "WBC 16.5K with bandemia confirms significant bacterial infection"},
+      "wound_swab": {"necessity": "essential", "comment": "MSSA confirms pathogen and guides antibiotic therapy"},
+      "xray_leg": {"necessity": "essential", "comment": "No gas in tissues rules out necrotizing fasciitis"},
+      "venous_doppler": {"necessity": "essential", "comment": "Negative for DVT"},
+      "hba1c": {"necessity": "essential", "comment": "HbA1c 8.2% = poorly controlled diabetes"}
+    },
+    "missing_tests": [],
+    "attending_note": "Admit for IV Cefazolin 2g IV q8h. Strict glucose control with sliding scale insulin. Elevate leg. Mark erythema borders. Monitor q4h. Transition to oral Cephalexin when improving. Total 7-10 days antibiotics."
+  }
+}

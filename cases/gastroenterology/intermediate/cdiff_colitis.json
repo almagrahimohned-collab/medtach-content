@@ -1,0 +1,83 @@
+{
+  "id": "gastro_intermediate_cdiff",
+  "specialty": "gastroenterology",
+  "difficulty": "intermediate",
+  "title": "Clostridioides difficile Colitis",
+  "department": "Gastroenterology",
+  "patient": {
+    "age": 72,
+    "gender": "female",
+    "name": "Margaret Wilson",
+    "persona": "retired nurse, hospitalized 2 weeks ago for pneumonia, frustrated with persistent diarrhea"
+  },
+  "chief_complaint": "I've had terrible watery diarrhea 8-10 times a day for the past 4 days. It smells awful. My stomach is cramping and I feel feverish. I just finished antibiotics for pneumonia last week.",
+  "vitals": {
+    "BP": "100/65",
+    "HR": "108",
+    "RR": "20",
+    "SpO2": "96%",
+    "Temp": "38.8°C"
+  },
+  "physical_exam": {
+    "General": "Elderly female, appears ill, dry mucous membranes",
+    "Abdomen": "Diffuse tenderness, more pronounced in lower quadrants. Distended. Hypoactive bowel sounds. No rebound or guarding.",
+    "Cardiac": "Tachycardia, regular",
+    "Rectal": "Watery stool in vault, hemoccult negative"
+  },
+  "hidden_data": {
+    "stool_cdiff": "C. difficile PCR positive (toxin B gene detected). EIA for toxins A and B: Positive.",
+    "cbc": "WBC 22,000 with bandemia (15% bands), Hb 11.5, Platelets 160,000",
+    "cmp": "Creatinine 1.6 (baseline 0.9), BUN 42, Albumin 2.8, Lactate 2.8 mmol/L",
+    "abdominal_xr": "Colonic dilation without toxic megacolon (transverse colon 5.5cm). No free air. Thumbprinting in transverse colon suggesting mucosal edema.",
+    "ct_abdomen": "Diffuse colonic wall thickening from cecum to sigmoid. Pericolonic fat stranding. Ascites. No perforation. No abscess."
+  },
+  "media": {},
+  "correct_diagnosis": "Severe Clostridioides difficile Colitis (Fulminant)",
+  "differential_diagnoses": [
+    "Antibiotic-associated diarrhea (mild, non-infectious)",
+    "Infectious colitis (Salmonella, Shigella, Campylobacter, E. coli O157:H7)",
+    "Ischemic colitis",
+    "Inflammatory Bowel Disease flare",
+    "Viral gastroenteritis",
+    "Drug-induced diarrhea (laxatives, metformin, colchicine)"
+  ],
+  "key_learning_points": [
+    "C. difficile infection = antibiotic disruption of gut microbiome → C. diff overgrowth → toxin production → colonic inflammation",
+    "Risk factors: Recent antibiotics (especially clindamycin, fluoroquinolones, cephalosporins, PPIs), age >65, hospitalization, immunosuppression",
+    "Severe CDI criteria (IDSA/SHEA): WBC >15,000 OR Creatinine >1.5mg/dL. Fulminant: Hypotension, shock, ileus, megacolon",
+    "First-line treatment: Oral Vancomycin 125mg PO QID ×10 days (preferred over Metronidazole per 2021 guidelines)",
+    "Fulminant CDI: Vancomycin 500mg PO/NG QID + IV Metronidazole 500mg q8h. Surgical consultation for toxic megacolon."
+  ],
+  "patient_responses": {
+    "diarrhea": "It started 4 days ago. Watery, brownish, with a very foul smell. I'm going 8-10 times a day, sometimes just mucus. There's no blood.",
+    "antibiotics": "I was in the hospital 2 weeks ago for pneumonia. They gave me Levaquin (levofloxacin) for 10 days. I finished it last Monday.",
+    "other_meds": "I take omeprazole for reflux (PPI). Also lisinopril for blood pressure. I've been taking Imodium but it's not helping.",
+    "symptoms": "My stomach cramps before each bowel movement. I feel nauseous but haven't vomited. I'm very weak and dizzy when I stand up.",
+    "previous_cdiff": "I had C. diff once before, 2 years ago after taking clindamycin for a dental infection."
+  },
+  "hints": {
+    "history": "Recent antibiotics + watery diarrhea + foul stool odor = C. diff until proven otherwise. Ask about previous CDI (recurrence risk 20-60%).",
+    "examination": "Assess hydration status and hemodynamics. Abdominal distension + pain out of proportion suggests fulminant colitis or toxic megacolon.",
+    "labs": "C. diff PCR/EIA for diagnosis. WBC >15,000 + Cr >1.5 = severe CDI. Lactate elevated in fulminant disease. Stool cultures if other pathogens suspected.",
+    "imaging": "CT abdomen shows extent of colitis, rules out toxic megacolon and perforation. Abdominal XR for ileus/megacolon monitoring."
+  },
+  "feedback": {
+    "correct_message": "Excellent diagnosis! You correctly identified severe/fulminant C. difficile colitis based on recent antibiotic exposure, characteristic diarrhea, marked leukocytosis (WBC 22K), AKI (Cr 1.6), and positive C. diff testing. This requires aggressive treatment with high-dose oral Vancomycin + IV Metronidazole and surgical consultation.",
+    "partially_correct_message": "Good recognition of C. difficile! However, the WBC 22,000, elevated creatinine, and CT findings indicate severe/fulminant disease, not mild CDI. This requires Vancomycin 500mg PO QID (not 125mg) + IV Metronidazole. Surgical consultation is indicated given the severity.",
+    "incorrect_message": "This is severe/fulminant C. difficile colitis. The triad of recent levofloxacin use, WBC 22,000 with bandemia, and AKI (Cr 1.6 from baseline 0.9) meets criteria for severe disease. The CT shows diffuse colitis without perforation. Treat with Vancomycin 500mg PO QID + IV Metronidazole. Surgical consultation for possible colectomy if deterioration.",
+    "clinical_pearls": [
+      "Oral Vancomycin is now first-line for ALL CDI episodes (2021 IDSA/SHEA guidelines). Metronidazole is only an alternative for non-severe CDI when Vancomycin unavailable",
+      "Fidaxomicin reduces recurrence rates compared to Vancomycin but is more expensive - consider for high-risk patients or first recurrence",
+      "DO NOT use anti-motility agents (loperamide, opioids) in CDI - may precipitate toxic megacolon"
+    ],
+    "test_evaluation": {
+      "stool_cdiff": {"necessity": "essential", "comment": "PCR+ and toxin EIA+ confirms active toxin-producing C. diff infection"},
+      "cbc": {"necessity": "essential", "comment": "WBC 22K with bandemia indicates severe disease and systemic inflammatory response"},
+      "cmp": {"necessity": "essential", "comment": "Cr 1.6 (from 0.9) defines severe CDI. Hypoalbuminemia is poor prognostic factor"},
+      "ct_abdomen": {"necessity": "essential", "comment": "Diffuse colitis without perforation. Rules out toxic megacolon"},
+      "lactate": {"necessity": "essential", "comment": "Lactate 2.8 indicates significant tissue hypoperfusion and severe disease"}
+    },
+    "missing_tests": [],
+    "attending_note": "Doctor, this is severe/fulminant CDI. Start Vancomycin 500mg PO QID (via NG if ileus develops) + Metronidazole 500mg IV q8h. Discontinue PPI (increases CDI risk). Strict contact isolation. IV fluids for resuscitation (likely need 2-3L). Surgical consultation now for possible colectomy if deterioration. Monitor for toxic megacolon (serial abdominal exams + XRs). If no improvement in 48-72h: Consider Fidaxomicin or fecal microbiota transplant (FMT)."
+  }
+}

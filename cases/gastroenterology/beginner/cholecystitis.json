@@ -1,0 +1,82 @@
+{
+  "id": "gastro_beginner_cholecystitis",
+  "specialty": "gastroenterology",
+  "difficulty": "beginner",
+  "title": "Acute Cholecystitis",
+  "department": "Gastroenterology",
+  "patient": {
+    "age": 45,
+    "gender": "female",
+    "name": "Fatima Rahman",
+    "persona": "mother of 3, anxious, has been ignoring symptoms for weeks"
+  },
+  "chief_complaint": "I have severe pain in my right upper stomach. It started after I ate a heavy dinner last night. I've been nauseous and can't keep anything down. I've had milder episodes before but nothing like this.",
+  "vitals": {
+    "BP": "138/85",
+    "HR": "102",
+    "RR": "18",
+    "SpO2": "98%",
+    "Temp": "38.6°C"
+  },
+  "physical_exam": {
+    "General": "Obese female (BMI 34), lying still, appears uncomfortable, diaphoretic",
+    "Abdomen": "RUQ tenderness with voluntary guarding. Positive Murphy sign (inspiratory arrest on RUQ palpation). No rebound tenderness. Bowel sounds hypoactive.",
+    "Cardiac": "Tachycardia, regular",
+    "Lungs": "Clear"
+  },
+  "hidden_data": {
+    "us_abdomen": "Gallbladder wall thickening 6mm. Multiple gallstones in gallbladder lumen. Pericholecystic fluid. Sonographic Murphy sign positive. CBD 4mm (normal). No intrahepatic biliary dilation.",
+    "cbc": "WBC 15,200 with 82% neutrophils (left shift), Hb 13.8, Platelets 280,000",
+    "cmp": "Total Bilirubin 1.8, Direct Bilirubin 0.6, AST 65, ALT 72, ALP 180, GGT 210, Amylase 85 (normal), Lipase 55 (normal)",
+    "lipase": "55 U/L (normal <160)",
+    "cxr": "No free air under diaphragm",
+    "ecg": "Sinus tachycardia, no ST changes"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute Calculous Cholecystitis",
+  "differential_diagnoses": [
+    "Biliary Colic",
+    "Choledocholithiasis with Cholangitis",
+    "Acute Pancreatitis",
+    "Peptic Ulcer Disease",
+    "Acute Hepatitis",
+    "Right Lower Lobe Pneumonia"
+  ],
+  "key_learning_points": [
+    "Acute cholecystitis = gallstone impaction in cystic duct → gallbladder distension, inflammation, and secondary infection",
+    "Classic presentation: RUQ pain (often postprandial) + fever + Murphy sign + leukocytosis",
+    "Ultrasound findings: Gallstones + wall thickening >4mm + pericholecystic fluid + sonographic Murphy sign (diagnostic criteria)",
+    "Mild cases (Tokyo Grade I): Early laparoscopic cholecystectomy within 72h is preferred over delayed surgery",
+    "Antibiotics cover Gram-negative and anaerobes: Ceftriaxone + Metronidazole or Piperacillin-Tazobactam"
+  ],
+  "patient_responses": {
+    "pain": "It's a constant, severe pain right here (points to RUQ). It goes through to my back and my right shoulder. Nothing makes it better. Moving makes it worse.",
+    "history": "I've had 'gallbladder attacks' for about 6 months - pain after fatty meals that would go away after a few hours. This is different - it's constant and much worse.",
+    "nausea": "I've vomited 4 times since last night. Nothing helps. Even water makes me nauseous.",
+    "risk_factors": "I've had 3 children. My mother had her gallbladder removed. I've been trying to lose weight - I lost 20 pounds on a keto diet recently."
+  },
+  "hints": {
+    "history": "RUQ pain after fatty meals is classic for biliary colic. Persistent pain >6h with fever suggests cholecystitis. Ask about jaundice, dark urine (choledocholithiasis).",
+    "examination": "Murphy sign is specific for cholecystitis. Check for peritoneal signs (perforation). Look for jaundice (CBD stone).",
+    "labs": "WBC with left shift indicates infection. LFTs: AST/ALT/ALP elevated from inflammation, not necessarily CBD obstruction. Lipase to rule out pancreatitis.",
+    "imaging": "RUQ ultrasound is first-line. CT if complications suspected (perforation, abscess). HIDA scan if US inconclusive."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly diagnosed acute cholecystitis based on the classic history of biliary colic progressing to constant pain, Murphy sign, fever, leukocytosis, and confirmatory ultrasound findings. Early laparoscopic cholecystectomy is the standard of care.",
+    "partially_correct_message": "Good job identifying gallbladder disease! However, the Murphy sign, fever, and leukocytosis differentiate acute cholecystitis from simple biliary colic. This requires antibiotics and urgent surgical consultation, not just pain management.",
+    "incorrect_message": "The clinical triad of RUQ pain + fever + Murphy sign with leukocytosis and ultrasound showing gallbladder wall thickening and pericholecystic fluid is classic acute cholecystitis. This requires IV antibiotics, NPO, IV fluids, and urgent cholecystectomy within 24-72h.",
+    "clinical_pearls": [
+      "Early cholecystectomy (<72h) reduces hospital stay, complications, and conversion to open surgery vs delayed (6-12 week) surgery",
+      "CBD diameter >6mm + elevated bilirubin/ALP suggests choledocholithiasis - perform MRCP or intraoperative cholangiogram",
+      "Tokyo Guidelines grade severity: Grade I (mild) = early surgery, Grade II (moderate) = antibiotics + early surgery, Grade III (severe) = percutaneous drainage + delayed surgery"
+    ],
+    "test_evaluation": {
+      "us_abdomen": {"necessity": "essential", "comment": "Wall thickening 6mm + pericholecystic fluid + sonographic Murphy sign = diagnostic for acute cholecystitis"},
+      "cbc": {"necessity": "essential", "comment": "WBC 15,200 with left shift confirms infection/severe inflammation"},
+      "cmp": {"necessity": "essential", "comment": "Mild LFT elevation from inflammation. Normal lipase rules out pancreatitis"},
+      "lipase": {"necessity": "essential", "comment": "Normal lipase excludes pancreatitis - important for surgical planning"}
+    },
+    "missing_tests": [],
+    "attending_note": "Doctor, admit for IV fluids (NPO), Ceftriaxone 2g IV q24h + Metronidazole 500mg IV q8h, analgesia (Ketorolac if no CKD), antiemetics. Surgical consult for laparoscopic cholecystectomy within 24-48h. NPO until surgery. Convert to open if gangrenous or perforated gallbladder found."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "pulmo_advanced_pulmonary_hypertension",
+  "specialty": "pulmonology",
+  "difficulty": "advanced",
+  "title": "Pulmonary Arterial Hypertension",
+  "department": "Pulmonology",
+  "patient": {
+    "age": 42,
+    "gender": "female",
+    "name": "Laura Mitchell",
+    "persona": "previously healthy yoga instructor, frustrated by progressive limitations"
+  },
+  "chief_complaint": "I can't teach my yoga classes anymore. I get so short of breath just walking up one flight of stairs. My legs are swelling and I feel like I'm going to pass out when I exert myself.",
+  "vitals": {
+    "BP": "105/70",
+    "HR": "96",
+    "RR": "22",
+    "SpO2": "94%",
+    "Temp": "36.6°C"
+  },
+  "physical_exam": {
+    "General": "Thin female, mild tachypnea at rest",
+    "Cardiac": "Loud P2 component of S2, right ventricular heave, holosystolic murmur at left lower sternal border (tricuspid regurgitation), JVD 3cm",
+    "Lungs": "Clear to auscultation",
+    "Abdomen": "Hepatomegaly, hepatojugular reflux positive",
+    "Extremities": "Bilateral pitting edema to mid-calf, cool extremities, no clubbing",
+    "Skin": "No rashes, no sclerodactyly, no telangiectasias"
+  },
+  "hidden_data": {
+    "echo": "Severely dilated right ventricle. RV hypertrophy. RV systolic pressure (RVSP) estimated 85 mmHg (severe pulmonary hypertension). D-shaped septum in systole and diastole. Reduced RV function. Severe tricuspid regurgitation. Pericardial effusion (small). Left ventricle underfilled but normal function. EF 60%.",
+    "right_heart_cath": "mPAP 52 mmHg (normal <20). PVR 12 Wood units (normal <3). PCWP 10 mmHg (normal <12). Cardiac output 3.5 L/min (low). Vasodilator testing: Negative (no response to nitric oxide).",
+    "ecg": "Right axis deviation. Right ventricular hypertrophy (R wave > S wave in V1). Right atrial enlargement (P pulmonale). T wave inversion V1-V4.",
+    "cxr": "Enlarged main pulmonary artery (prominent PAM). Right ventricular enlargement. Clear lung fields. No interstitial edema.",
+    "abg": "pH 7.45, PaCO2 30, PaO2 72, SaO2 94% (respiratory alkalosis, mild hypoxemia)",
+    "pft": "Mild restrictive pattern (FVC 75% predicted). DLCO severely reduced (35% predicted). FEV1/FVC normal.",
+    "cbc": "WBC 7,800, Hb 14.5, Platelets 195,000",
+    "cmp": "Normal electrolytes, Creatinine 0.8, normal LFTs",
+    "autoimmune": "ANA positive 1:320, Anti-Scl-70 negative, Anti-centromere negative, Anti-RNP positive",
+    "hiv": "Negative",
+    "vq_scan": "No perfusion defects. Rules out CTEPH.",
+    "sleep_study": "No sleep apnea (AHI 2)."
+  },
+  "media": {},
+  "correct_diagnosis": "Pulmonary Arterial Hypertension (PAH) associated with Connective Tissue Disease (Mixed Connective Tissue Disease - MCTD)",
+  "differential_diagnoses": [
+    "Chronic Thromboembolic Pulmonary Hypertension (CTEPH)",
+    "Pulmonary Venous Hypertension (Left Heart Disease)",
+    "Pulmonary Hypertension due to Lung Disease (COPD, ILD)",
+    "Idiopathic Pulmonary Arterial Hypertension (IPAH)",
+    "Portopulmonary Hypertension",
+    "Pulmonary Veno-occlusive Disease (PVOD)"
+  ],
+  "key_learning_points": [
+    "PAH = mPAP >20 mmHg + PCWP ≤15 mmHg + PVR >3 Wood units on right heart catheterization (gold standard)",
+    "WHO Group 1 PAH includes: Idiopathic, Heritable, Drug-induced, and Associated with CTD, HIV, portal HTN, congenital heart disease",
+    "Echocardiographic screening: Estimate RVSP from TR jet velocity. RV dilation, hypertrophy, and septal flattening suggest chronic PH",
+    "Right heart catheterization is MANDATORY before starting PAH-specific therapy to confirm diagnosis and assess vasoreactivity",
+    "Treatment: PDE-5 inhibitors (Sildenafil), ERA (Bosentan, Macitentan), Prostacyclins (Epoprostenol), Soluble GC stimulators (Riociguat)"
+  ],
+  "patient_responses": {
+    "onset": "It started about a year ago. I noticed I couldn't keep up in my advanced yoga class. Now I can barely do gentle stretches without getting winded.",
+    "symptoms": "Shortness of breath with minimal activity, chest pressure when I push myself, palpitations. I've fainted twice in the past month - once while demonstrating a pose.",
+    "legs": "My ankles started swelling about 3 months ago. Now it's up to my knees. My shoes don't fit anymore.",
+    "other": "My fingers sometimes turn white and blue when it's cold (Raynaud). I've had some joint pain and rashes on my knuckles. I was told I have 'mixed connective tissue disease' a few years ago but never followed up.",
+    "medications": "No regular medications. I take ibuprofen occasionally."
+  },
+  "hints": {
+    "history": "Progressive exertional dyspnea in a young woman. Ask about Raynaud phenomenon, joint pain, rashes, and autoimmune symptoms. Syncope is a red flag.",
+    "examination": "Look for right heart failure signs: Elevated JVP, RV heave, loud P2, TR murmur, hepatomegaly, edema. Examine for CTD stigmata.",
+    "labs": "Echo estimates pulmonary pressures. Right heart cath is mandatory. Autoimmune panel, HIV, liver function. V/Q scan to rule out CTEPH. PFTs show disproportionate DLCO reduction.",
+    "imaging": "Echo is screening tool. Right heart cath confirms diagnosis. V/Q scan rules out CTEPH. HRCT for lung parenchyma."
+  },
+  "feedback": {
+    "correct_message": "Outstanding diagnosis! You correctly identified severe PAH (WHO Group 1) from the clinical presentation, echo findings, and right heart catheterization data. The association with MCTD (Raynaud, joint pain, anti-RNP positive) makes this CTD-associated PAH. This requires aggressive PAH-specific combination therapy and rheumatology co-management.",
+    "partially_correct_message": "Good recognition of pulmonary hypertension! However, the right heart catheterization and V/Q scan differentiate this as PAH (WHO Group 1) not CTEPH (Group 4). The negative V/Q scan rules out chronic thromboembolic disease. The correct classification is critical as treatment differs completely.",
+    "incorrect_message": "This is severe WHO Group 1 PAH associated with MCTD. The diagnosis requires: mPAP >20 + PCWP ≤15 + PVR >3 on right heart cath (all present here). The negative V/Q scan rules out CTEPH. Without PAH-specific therapy, median survival is <3 years. Refer to accredited PH center for prostacyclin therapy and transplant evaluation.",
+    "clinical_pearls": [
+      "Disproportionately reduced DLCO with normal lung volumes suggests pulmonary vascular disease (not airway or parenchymal disease)",
+      "Negative vasoreactivity testing means calcium channel blockers are CONTRAINDICATED (can cause hypotension and worsen outcomes)",
+      "Pericardial effusion in PAH is a poor prognostic sign indicating right heart failure"
+    ],
+    "test_evaluation": {
+      "echo": {"necessity": "essential", "comment": "RVSP 85 mmHg indicates severe PH. RV dilation/dysfunction and pericardial effusion are high-risk features"},
+      "right_heart_cath": {"necessity": "essential", "comment": "Gold standard diagnostic test. mPAP 52, PVR 12, PCWP 10 confirms pre-capillary PAH"},
+      "vq_scan": {"necessity": "essential", "comment": "Normal V/Q scan rules out CTEPH. Essential before diagnosing PAH"},
+      "autoimmune_panel": {"necessity": "essential", "comment": "Anti-RNP positive with clinical features confirms MCTD-associated PAH"},
+      "pft": {"necessity": "essential", "comment": "Disproportionate DLCO reduction (35%) with mild restriction suggests pulmonary vascular disease"}
+    },
+    "missing_tests": ["BNP/NT-proBNP - Biomarker of RV wall stress. Elevated levels correlate with poor prognosis"],
+    "attending_note": "Doctor, this is severe PAH (WHO FC III). Refer to accredited Pulmonary Hypertension center immediately. Start Sildenafil 20mg TID + Macitentan 10mg daily (dual oral therapy). If no improvement, add IV/SC Treprostinil. Diuretics for RV failure (Furosemide 40mg BID). Supplemental O2 if SpO2 <90%. Anticoagulation controversial in CTD-PAH. Rheumatology co-management for MCTD. Transplant evaluation given high-risk features (pericardial effusion, FC III, severe hemodynamics)."
+  }
+}

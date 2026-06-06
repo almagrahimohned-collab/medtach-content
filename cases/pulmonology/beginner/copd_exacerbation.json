@@ -1,0 +1,86 @@
+{
+  "id": "pulmo_beginner_copd",
+  "specialty": "pulmonology",
+  "difficulty": "beginner",
+  "title": "COPD Exacerbation",
+  "department": "Pulmonology",
+  "patient": {
+    "age": 68,
+    "gender": "male",
+    "name": "George Thompson",
+    "persona": "retired construction worker, 45 pack-year smoker, recently quit"
+  },
+  "chief_complaint": "I can't catch my breath. My cough is worse and my phlegm has turned green. I've been using my inhaler every hour but it's not helping.",
+  "vitals": {
+    "BP": "142/86",
+    "HR": "104",
+    "RR": "26",
+    "SpO2": "88%",
+    "Temp": "37.8°C"
+  },
+  "physical_exam": {
+    "General": "Tripoding, pursed-lip breathing, using accessory muscles",
+    "Lungs": "Diffuse wheezing, prolonged expiratory phase, decreased breath sounds at bases, coarse rhonchi",
+    "Cardiac": "Tachycardia, regular, no murmurs",
+    "Extremities": "No edema, mild digital clubbing, nicotine stains",
+    "Neck": "No JVD, trachea midline"
+  },
+  "hidden_data": {
+    "abg": "pH 7.32, PaCO2 58 mmHg, PaO2 55 mmHg, HCO3 30 mmol/L, SaO2 87%",
+    "cxr": "Hyperinflated lungs with flattened diaphragms. Increased AP diameter. No infiltrates. No pneumothorax. Prominent bronchovascular markings.",
+    "cbc": "WBC 13,500, Hb 16.2 (compensatory polycythemia), Platelets 280,000",
+    "cmp": "Normal electrolytes, Creatinine 0.9",
+    "ecg": "Sinus tachycardia 104 bpm, right axis deviation, P pulmonale, no acute ST changes",
+    "sputum_culture": "Pending",
+    "pft_baseline": "FEV1 45% predicted, FEV1/FVC 0.58 (obstructive pattern), no significant bronchodilator response"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute COPD Exacerbation with Acute-on-Chronic Hypercapnic Respiratory Failure",
+  "differential_diagnoses": [
+    "Pneumonia",
+    "Pneumothorax",
+    "Pulmonary Embolism",
+    "Acute Heart Failure",
+    "Asthma Exacerbation",
+    "Bronchiectasis exacerbation"
+  ],
+  "key_learning_points": [
+    "COPD exacerbation = acute worsening of dyspnea, cough, and/or sputum beyond normal day-to-day variation",
+    "Most common triggers: Respiratory infections (50-70%), environmental irritants, medication non-adherence",
+    "ABG shows acute-on-chronic respiratory acidosis: pH <7.35 + elevated PaCO2 + elevated HCO3 (metabolic compensation)",
+    "Oxygen therapy target: SpO2 88-92%. Avoid over-oxygenation (can suppress respiratory drive and worsen hypercapnia)",
+    "Triple therapy for exacerbation: Bronchodilators (SABA + SAMA), Systemic corticosteroids, Antibiotics if purulent sputum"
+  ],
+  "patient_responses": {
+    "history": "I've had COPD for 10 years. This is my third exacerbation this year. It started 3 days ago with a cold.",
+    "sputum": "It used to be white but now it's thick and green. I'm coughing up a lot more than usual.",
+    "inhalers": "I use Spiriva and Symbicort every day. I've been using my rescue inhaler (albuterol) every hour since last night.",
+    "smoking": "I quit 2 years ago after 45 years. The damage is done though.",
+    "home_oxygen": "I have oxygen at home, 2 liters. I turned it up to 4 today but it didn't help much."
+  },
+  "hints": {
+    "history": "Quantify baseline exercise tolerance. Ask about previous exacerbations, hospitalizations, and intubations. Home oxygen use?",
+    "examination": "Assess severity: Use of accessory muscles, pursed-lip breathing, tripod position. Check for cyanosis and asterixis (CO2 narcosis).",
+    "labs": "ABG is critical - determines need for NIV. CBC for infection markers. Sputum culture if purulent. Theophylline levels if on therapy.",
+    "imaging": "CXR to rule out pneumonia, pneumothorax, or heart failure. CT if not improving or suspected alternative diagnosis."
+  },
+  "feedback": {
+    "correct_message": "Well done! You correctly diagnosed an acute COPD exacerbation with acute-on-chronic hypercapnic respiratory failure. Your ABG interpretation was spot-on. Appropriate management includes controlled O2, bronchodilators, steroids, antibiotics, and consideration of NIV.",
+    "partially_correct_message": "Good assessment of COPD exacerbation! However, the ABG shows hypercapnic respiratory failure (PaCO2 58, pH 7.32) requiring NIV. This is more than just a mild exacerbation - the patient needs BiPAP and ICU admission.",
+    "incorrect_message": "This is a severe COPD exacerbation with hypercapnic respiratory failure. The ABG clearly shows respiratory acidosis (pH 7.32, PaCO2 58). The patient requires BiPAP, controlled oxygen, bronchodilators, IV steroids, and antibiotics for purulent sputum. ICU admission is indicated.",
+    "clinical_pearls": [
+      "Target SpO2 88-92% in COPD - excessive oxygen can suppress hypoxic respiratory drive and worsen hypercapnia",
+      "NIV (BiPAP) reduces mortality and intubation rates in COPD with respiratory acidosis (pH <7.35, PaCO2 >45)",
+      "Oral prednisone is equally effective as IV methylprednisolone and reduces length of stay"
+    ],
+    "test_evaluation": {
+      "abg": {"necessity": "essential", "comment": "Definitive diagnosis of respiratory failure. Guides need for NIV vs intubation"},
+      "cxr": {"necessity": "essential", "comment": "Rules out pneumonia, pneumothorax, and heart failure"},
+      "cbc": {"necessity": "essential", "comment": "Leukocytosis supports infection as trigger. Polycythemia indicates chronic hypoxemia"},
+      "ecg": {"necessity": "essential", "comment": "Rules out cardiac ischemia. Right heart strain pattern common in severe COPD"},
+      "sputum_culture": {"necessity": "optional", "comment": "Identifies bacterial pathogen. Not routinely needed but helpful if recurrent or severe"}
+    },
+    "missing_tests": ["Procalcitonin - Helps differentiate bacterial from viral exacerbation and guide antibiotic use"],
+    "attending_note": "Doctor, start BiPAP (IPAP 12, EPAP 5, FiO2 titrated to SpO2 88-92%). Albuterol/Ipratropium nebulized q1h initially. Methylprednisolone 125mg IV or Prednisone 40mg PO. Azithromycin 500mg day 1 then 250mg ×4 days for purulent sputum. Admit to ICU/step-down for NIV monitoring. Pulmonary rehab referral before discharge."
+  }
+}

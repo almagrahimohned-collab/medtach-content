@@ -1,0 +1,91 @@
+{
+  "id": "nephro_beginner_ckd",
+  "specialty": "nephrology",
+  "difficulty": "beginner",
+  "title": "Chronic Kidney Disease Stage 4",
+  "department": "Nephrology",
+  "patient": {
+    "age": 65,
+    "gender": "male",
+    "name": "William Brown",
+    "persona": "retired factory worker, diabetic and hypertensive, missed multiple follow-up appointments"
+  },
+  "chief_complaint": "I've been feeling more tired than usual. My legs are swollen and I can't fit into my shoes. I don't pee as much as I used to. My doctor said something about my 'kidney numbers' being bad.",
+  "vitals": {
+    "BP": "168/94",
+    "HR": "82",
+    "RR": "16",
+    "SpO2": "97%",
+    "Temp": "36.5°C"
+  },
+  "physical_exam": {
+    "General": "Fatigued-appearing male, pale conjunctiva",
+    "Cardiac": "Regular rate, S4 gallop, no murmurs or rubs",
+    "Lungs": "Clear, no crackles",
+    "Abdomen": "No bruits, no masses, no CVA tenderness",
+    "Extremities": "Bilateral pitting edema to knees. No asterixis. No pericardial rub.",
+    "Skin": "Dry, scaly. No rash. Uremic frost absent.",
+    "Neurologic": "Alert, oriented. No asterixis. Mild cognitive slowing."
+  },
+  "hidden_data": {
+    "cmp": "Sodium 138, Potassium 5.6, Chloride 105, HCO3 18, BUN 65, Creatinine 4.2, Glucose 180, Calcium 8.2, Phosphorus 5.8",
+    "eGFR": "eGFR 16 mL/min/1.73m² (CKD Stage 4 - severely decreased kidney function)",
+    "cbc": "WBC 6,500, Hb 9.2 (anemia of CKD - normocytic), Hct 28%, Platelets 175,000",
+    "iron_studies": "Ferritin 180, Transferrin saturation 18% (functional iron deficiency)",
+    "urinalysis": "Proteinuria 3+ (nephrotic range), No hematuria, No casts, Specific gravity 1.010 (isosthenuria - fixed)",
+    "urine_protein_creatinine": "UPCR 4.2 g/g (nephrotic range proteinuria >3.5 g/day)",
+    "renal_us": "Bilateral small, echogenic kidneys (Right 8.2cm, Left 8.5cm). Cortical thinning. Loss of corticomedullary differentiation. No hydronephrosis. No stones.",
+    "hba1c": "HbA1c 9.2% (poorly controlled diabetes)",
+    "lipid": "LDL 160, HDL 32, Triglycerides 250",
+    "pth": "PTH 280 pg/mL (secondary hyperparathyroidism from CKD-MBD)",
+    "vitamin_d": "25-OH Vitamin D 15 ng/mL (deficient)"
+  },
+  "media": {},
+  "correct_diagnosis": "Chronic Kidney Disease Stage 4 due to Diabetic Nephropathy and Hypertensive Nephrosclerosis, with Secondary Hyperparathyroidism and Anemia of CKD",
+  "differential_diagnoses": [
+    "Acute Kidney Injury superimposed on CKD",
+    "Diabetic Nephropathy alone",
+    "Hypertensive Nephrosclerosis alone",
+    "Glomerulonephritis (Rapidly Progressive GN)",
+    "Obstructive Nephropathy",
+    "Multiple Myeloma (light chain nephropathy)"
+  ],
+  "key_learning_points": [
+    "CKD = kidney damage or GFR <60 mL/min for ≥3 months. Staged by GFR: Stage 1 (≥90), Stage 2 (60-89), Stage 3 (30-59), Stage 4 (15-29), Stage 5 (<15 = ESRD)",
+    "Most common causes: Diabetes (40%), Hypertension (30%), Glomerulonephritis, Polycystic kidney disease",
+    "Complications of CKD: Anemia (decreased EPO), CKD-MBD (phosphate retention → secondary hyperparathyroidism), Hyperkalemia, Metabolic acidosis, Volume overload",
+    "Small, echogenic kidneys on ultrasound = chronic irreversible disease (not acute)",
+    "Management: BP control (target <130/80), ACEi/ARB for proteinuria, glycemic control (HbA1c <7%), treat complications, nephrology referral for CKD Stage 4"
+  ],
+  "patient_responses": {
+    "history": "I've had diabetes for 20 years and high blood pressure for 15. I admit I don't check my sugar much. I take my meds but I've missed my last 3 appointments.",
+    "symptoms": "I'm tired all the time. I get short of breath walking to the mailbox. My legs swell by evening. I don't have much appetite. Food tastes metallic.",
+    "urine": "I used to pee a lot, especially at night. Now I don't go as much. It's foamy - my wife noticed bubbles in the toilet.",
+    "medications": "Metformin 1000mg BID, Glipizide 10mg BID, Lisinopril 20mg, Amlodipine 10mg, Furosemide 40mg BID. I take ibuprofen for my knee pain almost daily."
+  },
+  "hints": {
+    "history": "Long-standing DM and HTN are the most common causes of CKD. Ask about NSAID use (nephrotoxic!). Symptoms of uremia: fatigue, anorexia, metallic taste, pruritus.",
+    "examination": "Look for volume overload (edema, crackles, JVD), anemia (pallor), uremia (asterixis, pericardial rub, encephalopathy), and CKD-MBD (bone pain).",
+    "labs": "CMP (elevated BUN/Cr, hyperkalemia, low HCO3, high phosphorus, low calcium). CBC (anemia). Urinalysis (proteinuria, hematuria, casts). HbA1c. PTH, vitamin D.",
+    "imaging": "Renal ultrasound: Small kidneys = chronic disease. Normal/large kidneys with AKI suggests acute or acute-on-chronic. Rule out obstruction."
+  },
+  "feedback": {
+    "correct_message": "Well done! You correctly diagnosed Stage 4 CKD from the markedly elevated creatinine (4.2), small echogenic kidneys on US, nephrotic-range proteinuria, and complications (anemia, hyperkalemia, metabolic acidosis, secondary hyperparathyroidism). The long-standing DM and HTN with poor control are the underlying causes. Nephrology referral is appropriate.",
+    "partially_correct_message": "Good recognition of renal failure! However, the small echogenic kidneys on ultrasound and chronic symptoms indicate this is CKD Stage 4, not AKI. The complications (anemia, CKD-MBD, acidosis) are typical of chronic disease. AKI would show normal/large kidneys and lack anemia/hyperparathyroidism.",
+    "incorrect_message": "This is Stage 4 CKD (eGFR 16) from diabetic nephropathy and hypertensive nephrosclerosis. The small echogenic kidneys, nephrotic-range proteinuria (UPCR 4.2), anemia (Hb 9.2), and secondary hyperparathyroidism (PTH 280) confirm chronic irreversible disease. STOP metformin (contraindicated when eGFR <30) and ibuprofen (nephrotoxic). Refer to nephrology for renal replacement therapy planning.",
+    "clinical_pearls": [
+      "STOP metformin when eGFR <30 (risk of lactic acidosis). STOP NSAIDs in all CKD patients (reduce renal blood flow, worsen function)",
+      "Anemia of CKD is primarily from decreased EPO production. Iron deficiency must be corrected BEFORE starting ESA therapy",
+      "CKD-MBD: Phosphorus binders (calcium acetate) + vitamin D replacement (calcitriol) to control PTH and prevent renal osteodystrophy"
+    ],
+    "test_evaluation": {
+      "cmp": {"necessity": "essential", "comment": "Creatinine 4.2 (eGFR 16) = Stage 4 CKD. K+ 5.6 needs urgent management. HCO3 18 = metabolic acidosis. Ca 8.2, P 5.8 = CKD-MBD"},
+      "cbc": {"necessity": "essential", "comment": "Hb 9.2 = anemia of CKD. Iron studies show functional iron deficiency. Will need ESA ± iron supplementation"},
+      "urinalysis": {"necessity": "essential", "comment": "Nephrotic-range proteinuria (UPCR 4.2) confirms diabetic nephropathy. No hematuria/casts argues against glomerulonephritis"},
+      "renal_us": {"necessity": "essential", "comment": "Small echogenic kidneys with cortical thinning = chronic irreversible disease. Rules out obstruction"},
+      "hba1c": {"necessity": "essential", "comment": "HbA1c 9.2% = poorly controlled diabetes. Target <7% to slow CKD progression"}
+    },
+    "missing_tests": ["Hepatitis B/C, HIV - Required for dialysis planning. Serum immunofixation if suspecting multiple myeloma"],
+    "attending_note": "Doctor, this is Stage 4 CKD approaching ESRD. Immediate: STOP metformin and ibuprofen. Start sodium bicarbonate 650mg TID for acidosis. Kayexalate or Lokelma for K+ 5.6. Start calcium acetate 667mg with meals for phosphorus. Calcitriol 0.25mcg daily for vitamin D deficiency and PTH suppression. Iron sucrose IV + Epogen for anemia when iron replete. ACEi (Lisinopril) continue for proteinuria reduction. Strict BP <130/80. Low potassium diet, fluid restriction 1.5L/day. Urgent nephrology referral for dialysis access planning (AV fistula). Discuss renal replacement options (hemodialysis, peritoneal dialysis, transplant)."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cardio_beginner_stable_angina",
+  "specialty": "cardiology",
+  "difficulty": "beginner",
+  "title": "Stable Angina",
+  "department": "Cardiology",
+  "patient": {
+    "age": 62,
+    "gender": "male",
+    "name": "Robert Chen",
+    "persona": "worried, detail-oriented accountant"
+  },
+  "chief_complaint": "Chest tightness when walking uphill for the past 3 months. It goes away when I rest. Today it happened while walking to the mailbox.",
+  "vitals": {
+    "BP": "138/85",
+    "HR": "76",
+    "RR": "16",
+    "SpO2": "98%",
+    "Temp": "36.8°C"
+  },
+  "physical_exam": {
+    "General": "Well-appearing male, no acute distress",
+    "Cardiac": "Regular rate and rhythm, no murmurs, rubs, or gallops",
+    "Lungs": "Clear to auscultation bilaterally",
+    "Extremities": "No edema, pulses 2+ bilaterally"
+  },
+  "hidden_data": {
+    "ecg": "Normal sinus rhythm, no ST-T changes. No Q waves. Left axis deviation.",
+    "troponin": "Troponin I <0.01 ng/mL (Reference: <0.04 ng/mL)",
+    "cbc": "WBC 7,200, Hb 14.2, Platelets 245,000",
+    "cmp": "Glucose 105, Creatinine 0.9, normal electrolytes",
+    "lipid_panel": "LDL 155, HDL 38, Triglycerides 180, Total Cholesterol 220",
+    "cxr": "Normal cardiac silhouette. Clear lung fields. No pleural effusion.",
+    "stress_test": "Exercise stress test positive for inducible ischemia at 7 METs. 2mm ST depression in leads V4-V6 at peak exercise, resolving within 3 minutes of rest."
+  },
+  "media": {},
+  "correct_diagnosis": "Stable Angina Pectoris due to Coronary Artery Disease",
+  "differential_diagnoses": [
+    "Unstable Angina",
+    "Prinzmetal (Variant) Angina",
+    "Microvascular Angina",
+    "GERD",
+    "Costochondritis",
+    "Anxiety"
+  ],
+  "key_learning_points": [
+    "Stable angina is predictable chest pain triggered by exertion or stress, relieved by rest or nitroglycerin within minutes",
+    "Unstable angina is new-onset, crescendo, or occurring at rest - this is an ACS equivalent requiring urgent management",
+    "Exercise stress testing is the first-line diagnostic test for stable CAD in patients with intermediate pre-test probability",
+    "Lipid management with high-intensity statin is indicated for all patients with CAD regardless of baseline LDL",
+    "Anti-anginal therapy (beta-blockers, calcium channel blockers, nitrates) improves symptoms but does not reduce mortality"
+  ],
+  "patient_responses": {
+    "what brings you": "I get this tightness in my chest when I walk uphill or when I'm stressed at work. It's like someone is sitting on my chest. It goes away after I sit down for a few minutes.",
+    "pain details": "It's a pressure, not sharp. No radiation. It lasts maybe 3-5 minutes. Today it happened just walking to the mailbox which worried me.",
+    "associated symptoms": "No shortness of breath, no nausea, no sweating. Just the chest pressure.",
+    "risk factors": "I have high cholesterol, my father had a heart attack at 65. I sit at a desk all day. I used to smoke but quit 10 years ago.",
+    "medications": "I take atorvastatin 20mg daily. That's it."
+  },
+  "hints": {
+    "history": "Ask about character, duration, triggers, and relieving factors of chest pain. Quantify exercise tolerance (METs).",
+    "examination": "Look for signs of heart failure, valvular disease, and peripheral vascular disease.",
+    "labs": "ECG, troponin, lipid panel, CBC, CMP. Stress testing is key for diagnosis.",
+    "imaging": "CXR to rule out other causes. Stress echo adds sensitivity. Coronary CTA or angiography for definitive diagnosis."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly recognized stable angina from the history - exertional chest pressure relieved by rest with normal ECG and troponin. This is classic stable CAD requiring risk stratification and medical optimization.",
+    "partially_correct_message": "Good effort! The presentation of exertional chest pain with normal biomarkers is consistent with stable angina, not ACS. Remember: Unstable angina is defined by new-onset, crescendo pattern, or rest pain.",
+    "incorrect_message": "This presentation is classic for stable angina - exertional chest pressure relieved by rest. The normal ECG and troponin rule out ACS. Stress testing is the appropriate next step for diagnosis and risk stratification.",
+    "clinical_pearls": [
+      "Beta-blockers are first-line anti-anginal therapy and reduce mortality post-MI, but do NOT reduce mortality in stable CAD without prior MI",
+      "High-intensity statin (Atorvastatin 80mg) is indicated for ALL patients with CAD regardless of baseline LDL",
+      "Aspirin 81mg daily reduces cardiovascular events in secondary prevention"
+    ],
+    "test_evaluation": {
+      "ecg": {"necessity": "essential", "comment": "ECG within 10 minutes of presentation is mandatory for all chest pain to rule out STEMI"},
+      "troponin": {"necessity": "essential", "comment": "Rules out NSTEMI. Negative troponin at 0h and 3h rules out acute coronary syndrome"},
+      "lipid_panel": {"necessity": "essential", "comment": "Identifies dyslipidemia requiring aggressive statin therapy"},
+      "stress_test": {"necessity": "essential", "comment": "Diagnostic gold standard for stable CAD. Determines functional capacity and ischemia burden"},
+      "cxr": {"necessity": "optional", "comment": "Helpful to rule out other causes of chest pain but not diagnostic for CAD"}
+    },
+    "missing_tests": ["HbA1c - Screen for diabetes, a major CAD risk factor"],
+    "attending_note": "Doctor, you managed this case well. Remember that stable angina is a clinical diagnosis based on history. The key is distinguishing it from unstable angina which requires urgent hospitalization. Focus on aggressive risk factor modification - statin, aspirin, blood pressure control, and lifestyle changes. Refer for stress testing and cardiology follow-up."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "neuro_intermediate_status_epilepticus",
+  "specialty": "neurology",
+  "difficulty": "intermediate",
+  "title": "Status Epilepticus",
+  "department": "Neurology",
+  "patient": {
+    "age": 34,
+    "gender": "male",
+    "name": "Michael Torres",
+    "persona": "known epilepsy, medication non-adherent, brought by EMS after prolonged seizure"
+  },
+  "chief_complaint": "EMS report: 34-year-old male with history of epilepsy. Generalized tonic-clonic seizure ongoing for 8 minutes prior to EMS arrival. EMS administered midazolam 10mg IM en route. Seizure stopped briefly but resumed. Total seizure time now approximately 25 minutes.",
+  "vitals": {
+    "BP": "168/96",
+    "HR": "132",
+    "RR": "24",
+    "SpO2": "91%",
+    "Temp": "38.2°C"
+  },
+  "physical_exam": {
+    "General": "Unresponsive, ongoing generalized convulsions. Frothing at mouth. Incontinent of urine.",
+    "Airway": "Sonorous respirations, jaw clenched, airway adjunct (OPA) in place by EMS. Suctioning required.",
+    "Lungs": "Coarse breath sounds, rhonchi. SpO2 91% on non-rebreather 15L.",
+    "Cardiac": "Tachycardia, regular, no murmurs",
+    "Neurologic": "GCS 3 (E1V1M1) during seizure. Pupils 4mm, sluggish, equal. No focal signs during seizure. Hyperreflexia with clonus.",
+    "Extremities": "Warm, diaphoretic. IV access established ×2 by EMS."
+  },
+  "hidden_data": {
+    "glucose": "Point-of-care glucose: 128 mg/dL (normal)",
+    "abg": "pH 7.08, PaCO2 62, PaO2 58, HCO3 16, SaO2 89%. Severe mixed respiratory and metabolic acidosis.",
+    "cbc": "WBC 18,500 (stress/demargination), Hb 14.2, Platelets 260,000",
+    "cmp": "Sodium 138, Potassium 4.8, BUN 18, Creatinine 1.1, Calcium 9.0, Magnesium 1.8, Glucose 130",
+    "ck": "Creatine Kinase 850 U/L (elevated from muscle breakdown - rhabdomyolysis risk)",
+    "lactate": "Lactate 6.5 mmol/L (elevated from prolonged muscle activity + hypoperfusion)",
+    "tox_screen": "Negative for cocaine, amphetamines, PCP, opioids, benzodiazepines",
+    "antiepileptic_levels": "Levetiracetam (Keppra): Undetectable (non-adherent to prescribed medication)",
+    "ct_head": "No acute hemorrhage. No mass. No midline shift. Old right temporal encephalomalacia (likely from prior trauma or prior seizure-related injury).",
+    "eeg": "Continuous epileptiform discharges from right temporal lobe (focal onset with secondary generalization). Consistent with nonconvulsive status epilepticus after convulsions controlled.",
+    "cxr": "Bilateral patchy infiltrates concerning for aspiration pneumonitis. No gross aspiration."
+  },
+  "media": {},
+  "correct_diagnosis": "Convulsive Status Epilepticus secondary to Medication Non-Adherence in Known Epilepsy, complicated by Respiratory Failure, Metabolic Acidosis, Aspiration Pneumonitis, and evolving Nonconvulsive Status Epilepticus",
+  "differential_diagnoses": [
+    "Psychogenic Non-Epileptic Seizures (PNES)",
+    "Eclampsia (if undiagnosed pregnancy)",
+    "Hypoxic-Ischemic Encephalopathy",
+    "Intracranial Hemorrhage",
+    "Meningitis/Encephalitis",
+    "Drug-Induced Seizure (intoxication or withdrawal)"
+  ],
+  "key_learning_points": [
+    "Status epilepticus = continuous seizure >5 minutes OR recurrent seizures without return to baseline between episodes. It is a MEDICAL EMERGENCY with 10-20% mortality",
+    "Treatment follows a time-based protocol: 0-5 min: ABCs, check glucose, IV access. 5-20 min: Benzodiazepines (Lorazepam IV or Midazolam IM). 20-40 min: Second-line agents (Fosphenytoin, Valproate, Levetiracetam, Phenobarbital). >40 min: Refractory - ICU, continuous EEG, anesthetic agents (Propofol, Midazolam infusion, Pentobarbital)",
+    "After convulsions stop, 14-48% of patients have nonconvulsive status epilepticus on EEG (ongoing seizure activity without motor manifestations). Continuous EEG monitoring is essential",
+    "Complications: Respiratory failure (aspiration, apnea from benzodiazepines), metabolic acidosis, rhabdomyolysis, hyperthermia, cardiac arrhythmias, permanent neuronal injury",
+    "Common causes: Medication non-adherence in known epilepsy (most common), alcohol withdrawal, CNS infection, stroke, tumor, trauma, metabolic derangements"
+  ],
+  "patient_responses": {
+    "from_family": "He's had epilepsy since a car accident in his 20s. He takes Keppra but he hasn't been taking it for about a week because he ran out and couldn't get a refill. He was fine this morning, then suddenly collapsed and started shaking.",
+    "seizure_history": "He usually has one seizure every 3-4 months. They last 1-2 minutes and stop on their own. This has NEVER happened before where it doesn't stop.",
+    "medications": "Levetiracetam (Keppra) 1500mg BID. No other medications. No allergies.",
+    "EMS_report": "Seizure ongoing at arrival. Midazolam 10mg IM given. Seizure stopped for 2 minutes then resumed. Unable to obtain IV access initially, IO placed. Currently seizing for total 25 minutes."
+  },
+  "hints": {
+    "history": "Seizure >5 minutes = status epilepticus. Ask about epilepsy history, anti-epileptic medications and adherence, last seizure, baseline seizure frequency, and potential triggers (missed doses, infection, sleep deprivation, alcohol).",
+    "examination": "ABCs FIRST. Protect airway (recovery position, suction, OPA/NPA). Check vitals including SpO2 and temperature. Rapid neurologic assessment between convulsions if possible.",
+    "labs": "Point-of-care glucose (rule out hypoglycemia). CBC, CMP, AED levels, toxicology screen, CK (rhabdomyolysis), lactate, ABG. CT head to rule out structural lesion. LP if febrile or first seizure.",
+    "imaging": "CT Head without contrast (urgently, to rule out hemorrhage, mass, stroke). MRI later when stabilized. Continuous EEG after convulsions controlled."
+  },
+  "feedback": {
+    "correct_message": "Excellent management! You correctly recognized status epilepticus and followed the appropriate algorithm: ABCs, benzodiazepines (Lorazepam IV), and second-line AED loading (Fosphenytoin/Keppra). Recognizing the need for continuous EEG to detect nonconvulsive status and identifying medication non-adherence as the trigger shows strong clinical reasoning.",
+    "partially_correct_message": "Good job starting benzodiazepines! However, this is status epilepticus (25 minutes of seizing) - benzodiazepines alone are insufficient after 5-10 minutes. You must proceed to second-line agents (Fosphenytoin, Valproate, or Levetiracetam IV load) and prepare for refractory management including ICU admission and continuous EEG.",
+    "incorrect_message": "This is life-threatening status epilepticus. Lorazepam 4mg IV NOW (repeat once if still seizing in 5 minutes). If seizure persists after 2 doses of benzodiazepines: Load Fosphenytoin 20mg PE/kg IV (or Keppra 60mg/kg IV, or Valproate 40mg/kg IV). If still seizing after 40 minutes: ICU, intubate for airway protection, start continuous EEG, and induce burst suppression with Propofol or Midazolam infusion. Mortality is 10-20% without aggressive treatment.",
+    "clinical_pearls": [
+      "Lorazepam IV is the gold standard benzodiazepine. If no IV access: Midazolam 10mg IM (auto-injector or nasal) - RAMPART trial showed IM midazolam is as effective as IV lorazepam",
+      "Fosphenytoin can cause hypotension and cardiac arrhythmias - infuse slowly (max 150mg PE/min) with cardiac monitoring",
+      "After convulsions stop, ALWAYS order continuous EEG. 14-48% of patients have ongoing nonconvulsive status epilepticus which causes permanent brain damage if untreated"
+    ],
+    "test_evaluation": {
+      "glucose": {"necessity": "essential", "comment": "Normal glucose 128 rules out hypoglycemia as cause. Must check immediately in all seizure patients"},
+      "ct_head": {"necessity": "essential", "comment": "No acute hemorrhage, no mass. Old right temporal encephalomalacia explains seizure focus"},
+      "abg": {"necessity": "essential", "comment": "Severe mixed acidosis (pH 7.08, PaCO2 62, HCO3 16). Respiratory from hypoventilation + metabolic from lactate (seizure activity). Intubation indicated"},
+      "antiepileptic_levels": {"necessity": "essential", "comment": "Undetectable Keppra levels confirm medication non-adherence as trigger"}
+    },
+    "missing_tests": ["Continuous EEG monitoring after convulsions stop to detect nonconvulsive status epilepticus. MRI brain after stabilization to evaluate seizure focus"],
+    "attending_note": "Doctor, this is status epilepticus requiring immediate intervention: 1) Lorazepam 4mg IV push NOW (repeat in 5 min if still seizing). 2) Load Fosphenytoin 20mg PE/kg IV (or Levetiracetam 60mg/kg IV over 15 min). 3) If seizure persists after benzodiazepine + second agent: Intubate for airway protection and start Propofol infusion with continuous EEG monitoring. Target burst suppression on EEG. 4) Identify and treat trigger: Medication non-adherence - reload Keppra. 5) Monitor for complications: Serial CK for rhabdomyolysis, IV fluids to prevent ATN from myoglobinuria, treat hyperthermia with cooling blankets. 6) ICU admission for continuous EEG and ventilatory support. Neurology consultation."
+  }
+}

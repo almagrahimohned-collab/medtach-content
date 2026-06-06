@@ -1,0 +1,82 @@
+{
+  "id": "rheum_intermediate_gout",
+  "specialty": "rheumatology",
+  "difficulty": "intermediate",
+  "title": "Acute Gouty Arthritis",
+  "department": "Rheumatology",
+  "patient": {
+    "age": 52,
+    "gender": "male",
+    "name": "James Thompson",
+    "persona": "business executive, heavy red meat eater, daily alcohol, frustrated by recurrent attacks"
+  },
+  "chief_complaint": "My big toe is on fire! I woke up at 3am with the worst pain I've ever felt in my left big toe. I can't even bear the weight of a sheet on it. I have a presentation tomorrow and I can't walk!",
+  "vitals": {
+    "BP": "148/92",
+    "HR": "92",
+    "RR": "18",
+    "SpO2": "99%",
+    "Temp": "37.2°C"
+  },
+  "physical_exam": {
+    "General": "Uncomfortable, holding left foot, unable to bear weight",
+    "Left Foot": "First MTP joint: Swollen, erythematous, exquisitely tender to touch. Warmth over the joint. Skin shiny, peeling. No ulceration or drainage. Range of motion severely limited by pain.",
+    "Other Joints": "No other joints affected. No tophi visible. No olecranon bursitis.",
+    "Vitals": "Mild hypertension. No fever."
+  },
+  "hidden_data": {
+    "arthrocentesis": "Synovial fluid analysis: WBC 25,000/µL (85% neutrophils). Negatively birefringent needle-shaped crystals under polarized light microscopy. Gram stain: No organisms. Culture pending.",
+    "uric_acid": "Serum uric acid 9.8 mg/dL (normal <7.0). Significantly elevated.",
+    "cbc": "WBC 11,500, Hb 14.8, Platelets 280,000",
+    "cmp": "Creatinine 1.2, BUN 18, Glucose 105, normal electrolytes. Normal LFTs.",
+    "xray_foot": "Soft tissue swelling around left 1st MTP joint. No erosions. No chondrocalcinosis. Joint space preserved. Chronic findings: Small erosion with overhanging edge (classic gouty erosion).",
+    "esr": "ESR 45 mm/hr (elevated)",
+    "crp": "CRP 35 mg/L (elevated)"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute Gouty Arthritis of Left First Metatarsophalangeal Joint (Podagra)",
+  "differential_diagnoses": [
+    "Septic Arthritis (must be ruled out)",
+    "Pseudogout (CPPD deposition disease)",
+    "Cellulitis",
+    "Trauma/Fracture",
+    "Reactive Arthritis",
+    "Osteoarthritis flare"
+  ],
+  "key_learning_points": [
+    "Gout = monosodium urate crystal deposition in joints due to hyperuricemia. Classic presentation: Acute-onset severe monoarticular arthritis, often involving first MTP (podagra)",
+    "Definitive diagnosis: Synovial fluid analysis with negatively birefringent needle-shaped crystals on polarized light microscopy",
+    "Acute treatment: NSAIDs (first-line), Colchicine (low-dose 1.2mg then 0.6mg 1h later), or Corticosteroids",
+    "Urate-lowering therapy (Allopurinol/Febuxostat): Start AFTER acute flare resolves. Target uric acid <6.0 mg/dL",
+    "Dietary triggers: Red meat, shellfish, alcohol (especially beer), fructose. Diuretics increase uric acid"
+  ],
+  "patient_responses": {
+    "pain": "It's excruciating - 10 out of 10. I can't put any weight on it. Even the bedsheet touching it is agony.",
+    "onset": "I had a big steak dinner with clients last night, a few glasses of red wine and whiskey. I woke up at 3am with this pain. This has happened before - usually once or twice a year for the past 3 years.",
+    "previous_attacks": "Usually my big toe. Once it was my ankle. Each attack lasts about a week then goes away on its own.",
+    "diet": "I travel a lot for work so I eat at steakhouses regularly. I drink whiskey most evenings and wine with dinner.",
+    "medications": "I take hydrochlorothiazide for blood pressure. That's it."
+  },
+  "hints": {
+    "history": "Sudden-onset severe monoarticular arthritis in a middle-aged man with dietary triggers = gout until proven otherwise",
+    "examination": "Podagra (1st MTP) is classic. Look for tophi. Check for signs of infection to rule out septic arthritis",
+    "labs": "Arthrocentesis is diagnostic gold standard. Serum uric acid may be normal during acute attack",
+    "imaging": "X-ray: May show erosions with overhanging edges (chronic finding)"
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly diagnosed acute gouty arthritis based on the classic presentation and negatively birefringent crystals on synovial fluid analysis.",
+    "partially_correct_message": "Good recognition of gout! However, arthrocentesis is critical to rule out septic arthritis which can coexist or mimic gout.",
+    "incorrect_message": "The classic presentation with synovial fluid showing negatively birefringent crystals is definitive gout. Acute management with NSAIDs/Colchicine/Steroids and long-term urate-lowering therapy are indicated.",
+    "clinical_pearls": [
+      "Low-dose colchicine is as effective as high-dose with significantly fewer GI side effects",
+      "NEVER start allopurinol during an acute attack - wait 2-4 weeks after resolution",
+      "Serum uric acid can be NORMAL during an acute attack"
+    ],
+    "test_evaluation": {
+      "arthrocentesis": {"necessity": "essential", "comment": "Negatively birefringent crystals = gout. Gram stain negative rules out septic arthritis"},
+      "uric_acid": {"necessity": "essential", "comment": "Serum uric acid 9.8 confirms hyperuricemia"}
+    },
+    "missing_tests": [],
+    "attending_note": "Acute management: Naproxen 500mg BID or Colchicine low-dose. Prednisone 30-40mg daily if NSAIDs contraindicated. Consider changing HCTZ to Losartan. After flare resolves: Start Allopurinol 100mg daily, titrate to uric acid <6.0. Colchicine prophylaxis ×6 months. Dietary counseling: Reduce red meat, alcohol, fructose. Weight loss goal: 10% body weight."
+  }
+}

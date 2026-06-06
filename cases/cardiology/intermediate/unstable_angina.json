@@ -1,0 +1,83 @@
+{
+  "id": "cardio_intermediate_unstable_angina",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "title": "Unstable Angina",
+  "department": "Cardiology",
+  "patient": {
+    "age": 58,
+    "gender": "female",
+    "name": "Patricia Williams",
+    "persona": "anxious, post-menopausal, health-conscious"
+  },
+  "chief_complaint": "Chest pressure started at rest this morning. It's different from my usual. It lasted 20 minutes and went away on its own. Now it's back.",
+  "vitals": {
+    "BP": "148/88",
+    "HR": "92",
+    "RR": "18",
+    "SpO2": "97%",
+    "Temp": "36.9°C"
+  },
+  "physical_exam": {
+    "General": "Anxious-appearing female, diaphoretic",
+    "Cardiac": "Regular tachycardia, no murmurs. S4 present.",
+    "Lungs": "Clear bilaterally",
+    "Extremities": "No edema"
+  },
+  "hidden_data": {
+    "ecg": "Sinus tachycardia 94 bpm. ST depression 1mm in leads V4-V6. T wave inversion in leads I, aVL. No ST elevation.",
+    "troponin_0h": "Troponin I 0.02 ng/mL (Reference: <0.04 ng/mL)",
+    "troponin_3h": "Troponin I 0.03 ng/mL (Reference: <0.04 ng/mL)",
+    "cbc": "WBC 9,200, Hb 13.5, Platelets 230,000",
+    "cmp": "Glucose 130, Creatinine 0.8, normal electrolytes",
+    "cxr": "Normal cardiac size. Mild pulmonary vascular congestion.",
+    "echo": "Mild hypokinesis of anterior wall. EF 50%."
+  },
+  "media": {},
+  "correct_diagnosis": "Unstable Angina / Non-ST Elevation Acute Coronary Syndrome (NSTE-ACS)",
+  "differential_diagnoses": [
+    "NSTEMI",
+    "STEMI",
+    "Aortic Dissection",
+    "Pulmonary Embolism",
+    "Pericarditis",
+    "Stress Cardiomyopathy"
+  ],
+  "key_learning_points": [
+    "Unstable angina is defined as new-onset angina, angina at rest, or crescendo angina (increasing frequency/duration)",
+    "It is an ACS equivalent requiring urgent hospitalization, antiplatelet therapy, and cardiology consultation",
+    "ECG may show ST depression, T wave inversion, or be normal in UA. It does NOT show ST elevation (that would be STEMI)",
+    "Negative troponin differentiates UA from NSTEMI. UA has lower mortality but still requires aggressive management",
+    "GRACE score stratifies risk and guides management in NSTE-ACS"
+  ],
+  "patient_responses": {
+    "pain details": "It woke me up this morning. Pressure in the center of my chest. It went away for 2 hours and now it's back but milder.",
+    "compared to usual": "I've had chest discomfort before when I exercise, but never at rest. This feels more intense and scary.",
+    "risk factors": "I have diabetes type 2, high blood pressure. Smoked for 20 years, quit 5 years ago. My brother had a heart attack at 55.",
+    "medications": "Metformin 1000mg BID, Lisinopril 20mg. No aspirin."
+  },
+  "hints": {
+    "history": "Distinguish between stable vs unstable angina. Key: rest pain, new onset, or crescendo pattern = unstable.",
+    "examination": "Look for signs of heart failure (S3, crackles, JVD). Assess hemodynamic stability.",
+    "labs": "Serial troponin q3-6h. If negative ×2, UA confirmed. If elevated, NSTEMI. GRACE score for risk stratification.",
+    "imaging": "Echo to assess LV function and wall motion. Cath within 24h for high-risk features."
+  },
+  "feedback": {
+    "correct_message": "Correct diagnosis! This is classic unstable angina - rest pain with dynamic ST-T changes but negative troponins. You recognized this as an ACS equivalent requiring urgent management and cardiology consultation.",
+    "partially_correct_message": "You're close! This is unstable angina, not stable angina. The key differentiating factors are: pain at rest, longer duration (20 min), and ST-T changes on ECG. This requires hospitalization.",
+    "incorrect_message": "This presentation is unstable angina/NSTE-ACS: rest pain >20 minutes with dynamic ECG changes. Even with negative troponins, this is an emergency requiring antiplatelet therapy, anticoagulation, and urgent cardiology consultation.",
+    "clinical_pearls": [
+      "Unstable angina and NSTEMI are on the same spectrum - differentiated only by troponin elevation",
+      "GRACE score >140 indicates high risk requiring early invasive strategy (cath within 24h)",
+      "DAPT (Aspirin + P2Y12 inhibitor) is essential in ACS management"
+    ],
+    "test_evaluation": {
+      "ecg": {"necessity": "essential", "comment": "ST depression in V4-V6 with T inversion indicates anterior ischemia - high-risk finding"},
+      "troponin_serial": {"necessity": "essential", "comment": "Negative troponins differentiate UA from NSTEMI. Must check 3h delta"},
+      "echo": {"necessity": "essential", "comment": "Wall motion abnormality confirms ischemia. EF guides management"},
+      "cxr": {"necessity": "optional", "comment": "Shows pulmonary congestion suggesting LV dysfunction"}
+    },
+    "missing_tests": ["GRACE score calculation - Stratifies risk and guides invasive vs conservative strategy"],
+    "attending_note": "Doctor, this is unstable angina - an ACS equivalent. Start Aspirin 324mg chewed, Ticagrelor 180mg loading dose, Enoxaparin 1mg/kg SC, and high-intensity statin. Cardiology consult for urgent catheterization within 24 hours given high-risk features (ST depression, elevated GRACE score, diabetes)."
+  }
+}

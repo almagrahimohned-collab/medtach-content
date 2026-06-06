@@ -1,0 +1,90 @@
+{
+  "id": "endo_intermediate_cushing",
+  "specialty": "endocrinology",
+  "difficulty": "intermediate",
+  "title": "Cushing Syndrome",
+  "department": "Endocrinology",
+  "patient": {
+    "age": 38,
+    "gender": "female",
+    "name": "Jennifer Adams",
+    "persona": "frustrated with weight gain, bruising, and mood swings, thinks it's 'just stress'"
+  },
+  "chief_complaint": "I've gained 40 pounds in 6 months but only in my belly and face. My arms and legs are thin. I'm getting these weird purple stretch marks and I bruise if you just look at me. I can't sleep and I feel like I'm losing my mind.",
+  "vitals": {
+    "BP": "162/98",
+    "HR": "88",
+    "RR": "16",
+    "SpO2": "98%",
+    "Temp": "36.8°C"
+  },
+  "physical_exam": {
+    "General": "Moon facies, central obesity, dorsocervical fat pad (buffalo hump), supraclavicular fullness",
+    "Skin": "Thin, fragile skin. Multiple ecchymoses at various stages. Wide purplish striae (>1cm) on abdomen and thighs. Facial plethora. Hirsutism on upper lip and chin. Acne.",
+    "Abdomen": "Central obesity with thin extremities. No organomegaly.",
+    "Extremities": "Muscle wasting in upper arms and thighs. No edema.",
+    "Neurologic": "Proximal muscle weakness (unable to rise from squat). Mood: anxious, tearful."
+  },
+  "hidden_data": {
+    "dexamethasone_suppression": "1mg overnight DST: Cortisol 18 mcg/dL (normal <1.8). FAILED suppression.",
+    "urinary_free_cortisol": "24h UFC 420 mcg/24h (normal <50). Severely elevated ×8 upper limit.",
+    "late_night_salivary_cortisol": "2.5 mcg/dL (normal <0.09). Markedly elevated.",
+    "acth": "ACTH 85 pg/mL (normal 10-60). ACTH-DEPENDENT (not suppressed).",
+    "mri_pituitary": "4mm microadenoma in left pituitary gland. No mass effect on optic chiasm.",
+    "petrosal_sinus_sampling": "IPSS: Central-to-peripheral ACTH ratio >2 at baseline, >3 after CRH stimulation. Confirms pituitary source.",
+    "cbc": "WBC 10,200, Hb 15.5, Platelets 230,000",
+    "cmp": "Glucose 165 fasting, Potassium 3.2, Sodium 142, Creatinine 0.9",
+    "hba1c": "HbA1c 7.2% (steroid-induced diabetes)",
+    "lipid": "LDL 180, HDL 30, Triglycerides 280",
+    "dexa": "DEXA scan: Osteoporosis (T-score -2.8 at lumbar spine, -2.5 at femoral neck)"
+  },
+  "media": {},
+  "correct_diagnosis": "ACTH-Dependent Cushing Syndrome (Cushing Disease) due to Pituitary Microadenoma",
+  "differential_diagnoses": [
+    "Ectopic ACTH Syndrome (Small cell lung cancer, Bronchial carcinoid)",
+    "Adrenal Cushing Syndrome (Adrenal adenoma, carcinoma)",
+    "Exogenous Cushing Syndrome (Chronic steroid use)",
+    "Metabolic Syndrome",
+    "Depression with Psychogenic Hypercortisolism",
+    "PCOS (Polycystic Ovary Syndrome)"
+  ],
+  "key_learning_points": [
+    "Cushing syndrome = chronic glucocorticoid excess. Cushing DISEASE = pituitary ACTH overproduction (70% of endogenous cases)",
+    "Classic features: Central obesity, moon face, buffalo hump, purple striae, thin skin, easy bruising, proximal muscle weakness, osteoporosis, HTN, diabetes",
+    "Diagnostic approach: 1) Confirm hypercortisolism (DST, UFC, LNSC), 2) Determine ACTH-dependence (ACTH level), 3) Localize source (MRI, IPSS)",
+    "Low-dose DST: Failure to suppress cortisol to <1.8 mcg/dL confirms Cushing syndrome. High-dose DST + ACTH differentiates pituitary vs ectopic",
+    "Treatment: Transsphenoidal adenomectomy is first-line for Cushing disease. Ketoconazole or Metyrapone for medical management if surgery not possible."
+  ],
+  "patient_responses": {
+    "weight": "I've always been thin! This weight gain started suddenly 6 months ago. My face is so round my kids don't recognize me in old photos. My arms and legs are still skinny though.",
+    "mood": "I cry at everything. I can't sleep - I'm exhausted but wired at night. My husband says my personality has completely changed. I'm anxious and irritable all the time.",
+    "bruising": "I get these huge bruises from the slightest bump. These purple stretch marks appeared on my stomach and they're getting wider. My skin feels like paper.",
+    "strength": "I can't get up from a chair without using my arms anymore. I dropped my coffee cup this morning because my grip is so weak. Climbing stairs is exhausting.",
+    "medications": "No steroids, no hormones. I don't take any medications regularly. I use ibuprofen for headaches."
+  },
+  "hints": {
+    "history": "Rapid onset of central obesity with thin extremities, skin changes (striae, bruising), proximal myopathy, and mood changes is classic for Cushing. Rule out exogenous steroid use FIRST.",
+    "examination": "Look for pathognomonic signs: Purple striae >1cm, proximal muscle weakness (objective testing), dorsocervical fat pad, facial plethora.",
+    "labs": "Confirm hypercortisolism first (DST, UFC, LNSC). Then measure ACTH (low = adrenal, normal/high = pituitary/ectopic). IPSS for equivocal cases.",
+    "imaging": "MRI pituitary (gold standard for pituitary adenoma). CT chest/abdomen if ectopic ACTH suspected. Adrenal CT if adrenal source."
+  },
+  "feedback": {
+    "correct_message": "Excellent diagnosis! You correctly identified Cushing disease from the classic clinical presentation, confirmed hypercortisolism with positive DST and elevated UFC, and determined pituitary source with elevated ACTH and positive MRI. Transsphenoidal adenomectomy is the treatment of choice.",
+    "partially_correct_message": "Good recognition of Cushing syndrome! However, the elevated ACTH (85 pg/mL) indicates this is ACTH-DEPENDENT Cushing, not adrenal. The pituitary microadenoma on MRI confirms Cushing disease. IPSS could further confirm if diagnosis is equivocal. Treatment is surgical, not medical.",
+    "incorrect_message": "The clinical picture (central obesity, moon face, striae, proximal myopathy) with positive DST (cortisol 18), elevated UFC (420 mcg/24h), and elevated ACTH (85) is classic Cushing disease. The pituitary MRI shows a 4mm adenoma. This requires neurosurgical referral for transsphenoidal resection, not just 'stress management'.",
+    "clinical_pearls": [
+      "Proximal muscle weakness (inability to rise from squat) is the most specific clinical finding for Cushing syndrome",
+      "Purple striae >1cm are pathognomonic. Pink/white fine striae are common in obesity and not indicative of Cushing",
+      "IPSS (Inferior Petrosal Sinus Sampling) is the gold standard for differentiating pituitary vs ectopic ACTH source when MRI is equivocal"
+    ],
+    "test_evaluation": {
+      "dexamethasone_suppression": {"necessity": "essential", "comment": "Cortisol 18 after 1mg DST (>1.8) confirms hypercortisolism. Sensitivity 95%, specificity 80%"},
+      "urinary_free_cortisol": {"necessity": "essential", "comment": "UFC 420 (>4× ULN) confirms significant hypercortisolism. Rules out pseudo-Cushing states"},
+      "acth": {"necessity": "essential", "comment": "ACTH 85 (normal-high) = ACTH-dependent. Adrenal source would show suppressed ACTH <10"},
+      "mri_pituitary": {"necessity": "essential", "comment": "4mm microadenoma confirms pituitary source. 10% of population have incidentalomas - IPSS if needed"},
+      "dexa": {"necessity": "essential", "comment": "Osteoporosis (T-score -2.8) from chronic glucocorticoid excess. Will improve after treatment"}
+    },
+    "missing_tests": ["High-dose DST - Pituitary adenomas suppress (cortisol decreases >50%), ectopic ACTH does not"],
+    "attending_note": "Doctor, refer to neurosurgery for transsphenoidal adenomectomy. Pre-operative: Control HTN (lisinopril), diabetes (metformin ± insulin), start Ketoconazole 200mg BID to lower cortisol pre-operatively. Post-operative: Stress-dose steroids until HPA axis recovery (can take 6-12 months). DEXA scan for osteoporosis (bisphosphonates if indicated). PJP prophylaxis if severely hypercortisolemic. Endocrinology follow-up for life."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "endo_beginner_dka",
+  "specialty": "endocrinology",
+  "difficulty": "beginner",
+  "title": "Diabetic Ketoacidosis",
+  "department": "Endocrinology",
+  "patient": {
+    "age": 22,
+    "gender": "male",
+    "name": "Ahmed Hassan",
+    "persona": "university student, type 1 diabetes, non-compliant with insulin"
+  },
+  "chief_complaint": "I've been vomiting all day. My stomach hurts. I feel so weak and thirsty. I can't catch my breath.",
+  "vitals": {
+    "BP": "95/60",
+    "HR": "118",
+    "RR": "32",
+    "SpO2": "98%",
+    "Temp": "36.2°C"
+  },
+  "physical_exam": {
+    "General": "Thin young male, Kussmaul respirations (deep, rapid breathing), fruity odor on breath, dry mucous membranes, poor skin turgor",
+    "Abdomen": "Diffuse tenderness, no guarding or rebound, hypoactive bowel sounds",
+    "Cardiac": "Tachycardia, regular",
+    "Lungs": "Clear",
+    "Neurologic": "Alert, GCS 15, no focal deficits"
+  },
+  "hidden_data": {
+    "glucose": "Blood glucose 485 mg/dL",
+    "abg": "pH 7.12, PaCO2 22 mmHg, PaO2 98 mmHg, HCO3 8 mmol/L, SaO2 98%",
+    "serum_ketones": "Beta-hydroxybutyrate 5.8 mmol/L (normal <0.6)",
+    "urinalysis": "Glucose 4+, Ketones 3+, No leukocytes or nitrites",
+    "cbc": "WBC 18,500 (stress leukocytosis), Hb 15.8 (hemoconcentration), Platelets 260,000",
+    "cmp": "Sodium 128 (corrected Na: 134 - pseudohyponatremia from hyperglycemia), Potassium 5.8, Chloride 98, HCO3 8, BUN 32, Creatinine 1.4, Glucose 485",
+    "anion_gap": "Anion Gap 22 (Na - (Cl + HCO3) = 128 - 106 = 22)",
+    "serum_osmolality": "Calculated serum osmolality 305 mOsm/kg (normal 275-295)",
+    "cxr": "Clear lungs, no infiltrates",
+    "ecg": "Sinus tachycardia. Peaked T waves (hyperkalemia). No ST changes.",
+    "hba1c": "HbA1c 11.2% (poorly controlled diabetes)"
+  },
+  "media": {},
+  "correct_diagnosis": "Diabetic Ketoacidosis (DKA) precipitated by Infection/Non-compliance",
+  "differential_diagnoses": [
+    "Hyperosmolar Hyperglycemic State (HHS)",
+    "Alcoholic Ketoacidosis",
+    "Starvation Ketosis",
+    "Acute Pancreatitis",
+    "Sepsis",
+    "Lactic Acidosis"
+  ],
+  "key_learning_points": [
+    "DKA triad: Hyperglycemia (glucose >250 mg/dL) + Ketosis (beta-hydroxybutyrate >3 mmol/L or urine ketones ≥2+) + Metabolic acidosis (pH <7.3, HCO3 <15)",
+    "Anion gap metabolic acidosis = Na - (Cl + HCO3) >12. DKA produces high anion gap from ketoacids (acetoacetate, beta-hydroxybutyrate)",
+    "Kussmaul respirations = compensatory respiratory alkalosis for metabolic acidosis. Deep, rapid breathing to blow off CO2",
+    "Potassium is always depleted (3-5 mEq/kg deficit) despite initial serum K+ often being elevated (insulin deficiency → K+ shifts extracellularly)",
+    "Treatment: IV fluids (0.9% NaCl), IV insulin infusion, potassium replacement, and identify/treat precipitating cause"
+  ],
+  "patient_responses": {
+    "onset": "I ran out of my insulin pump supplies 3 days ago. I thought I could manage without until my appointment next week. I started feeling sick yesterday.",
+    "symptoms": "I've been vomiting since this morning. Can't keep anything down. My mouth is so dry. I'm peeing constantly. I feel like I can't breathe normally.",
+    "diabetes": "I've been type 1 diabetic since I was 12. I use an insulin pump with Novolog. My last HbA1c was 9.5%. I admit I don't check my sugars as often as I should.",
+    "precipitant": "I've been stressed with finals. I might have a cold - my roommate was sick. I haven't been eating well, just pizza and energy drinks."
+  },
+  "hints": {
+    "history": "Polyuria, polydipsia, weight loss, vomiting, abdominal pain in known diabetic. Ask about insulin non-compliance, infection symptoms, and recent stressors.",
+    "examination": "Look for Kussmaul respirations (pathognomonic for severe acidosis), fruity breath odor (acetone), signs of dehydration (tachycardia, hypotension, dry membranes).",
+    "labs": "Glucose, ABG (pH, HCO3, PaCO2), serum ketones (beta-hydroxybutyrate), electrolytes (anion gap, K+, Na+), BUN/Cr, serum osmolality, HbA1c.",
+    "imaging": "CXR to evaluate for pneumonia. ECG for hyperkalemia. CT abdomen if pancreatitis suspected (lipase elevated)."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly diagnosed DKA based on hyperglycemia (485 mg/dL), anion gap metabolic acidosis (pH 7.12, HCO3 8, AG 22), and elevated beta-hydroxybutyrate (5.8 mmol/L). The Kussmaul respirations were the key clinical clue. Management requires IV fluids, insulin infusion, and careful potassium monitoring.",
+    "partially_correct_message": "Good job recognizing hyperglycemia! However, the ABG shows severe anion gap metabolic acidosis with elevated ketones - this is DKA, not just hyperglycemia or HHS. HHS presents with hyperglycemia and hyperosmolality WITHOUT significant ketosis or acidosis. DKA requires IV insulin, not just fluids.",
+    "incorrect_message": "This is classic DKA: Hyperglycemia (485) + anion gap metabolic acidosis (pH 7.12, HCO3 8, AG 22) + ketosis (BHB 5.8) + Kussmaul respirations. The patient needs immediate IV fluids (0.9% NaCl 1L/hr initially), IV regular insulin (0.1 U/kg/hr), and potassium replacement once K+ <5.3. Admit to ICU for hourly glucose monitoring.",
+    "clinical_pearls": [
+      "Correction formula for Na in hyperglycemia: For every 100 mg/dL glucose above 100, add 2.4 mEq/L to measured Na",
+      "Potassium falls rapidly with insulin therapy (insulin drives K+ into cells). Start K+ replacement when serum K+ <5.3 mEq/L",
+      "Transition to subcutaneous insulin ONLY when anion gap closed, HCO3 >15, pH >7.3, and patient tolerating PO"
+    ],
+    "test_evaluation": {
+      "glucose": {"necessity": "essential", "comment": "Hyperglycemia 485 confirms diabetes as cause. Must check hourly during DKA management"},
+      "abg": {"necessity": "essential", "comment": "pH 7.12, HCO3 8, PaCO2 22 = severe anion gap metabolic acidosis with appropriate respiratory compensation (Winter formula: expected PaCO2 = 1.5(HCO3)+8±2 = 18-22)"},
+      "serum_ketones": {"necessity": "essential", "comment": "Beta-hydroxybutyrate 5.8 confirms ketosis. Will trend to monitor DKA resolution"},
+      "cmp": {"necessity": "essential", "comment": "Anion gap 22, K+ 5.8 (will drop with insulin), Cr 1.4 (pre-renal from dehydration), corrected Na 134"},
+      "ecg": {"necessity": "essential", "comment": "Peaked T waves from hyperkalemia. Monitor for changes during therapy"}
+    },
+    "missing_tests": ["Blood cultures if febrile, Urine culture if UTI symptoms, Lipase if abdominal pain severe - to identify precipitating infection"],
+    "attending_note": "Doctor, DKA protocol: 1) IV 0.9% NaCl 1L over first hour, then 500mL/hr ×4h, then 250mL/hr. 2) IV Regular insulin 0.1 U/kg bolus then 0.1 U/kg/hr infusion. 3) When glucose <250, add D5½NS. 4) K+ replacement when K+ <5.3. 5) Hourly glucose, q2h electrolytes initially. Admit to ICU. Identify precipitant (infection, non-compliance). Diabetes education before discharge."
+  }
+}
