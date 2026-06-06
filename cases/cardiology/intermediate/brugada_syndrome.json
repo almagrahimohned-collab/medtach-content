@@ -1,0 +1,45 @@
+{
+  "id": "cardio_intermediate_brugada",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "title": "Brugada Syndrome",
+  "patient": { "age": 32, "gender": "male", "name": "Carlos Mendez" },
+  "chief_complaint": "My brother died suddenly in his sleep at age 30. The autopsy was negative. I've had episodes where I wake up gasping for air at night. I'm scared the same thing will happen to me.",
+  "vitals": { "BP": "118/75", "HR": "72", "RR": "16", "SpO2": "98%", "Temp": "36.6°C" },
+  "physical_exam": {
+    "General": "Anxious young male, otherwise well-appearing",
+    "Cardiac": "Regular rhythm, no murmurs, no rubs, no gallops. PMI normal.",
+    "Lungs": "Clear",
+    "Neurologic": "Normal exam. No focal deficits."
+  },
+  "hidden_data": {
+    "ecg_baseline": "Sinus rhythm 72 bpm. Type 1 Brugada pattern: Coved ST elevation ≥2mm in V1-V2 followed by T wave inversion. QRS 110ms. Normal QT interval.",
+    "ecg_flecainide": "Provocative test with Flecainide IV: Type 1 Brugada pattern becomes more pronounced. No arrhythmias induced.",
+    "echo": "Structurally normal heart. EF 65%. No valvular disease. Normal RV and LV dimensions.",
+    "ep_study": "Programmed ventricular stimulation induces polymorphic VT degenerating to VF. Patient successfully defibrillated.",
+    "genetic_test": "SCN5A mutation (loss-of-function) - pathogenic variant. Confirms Brugada Syndrome Type 1.",
+    "cbc": "Normal",
+    "cmp": "Normal electrolytes, K+ 4.2, Mg 2.0, Ca 9.4",
+    "troponin": "Negative"
+  },
+  "media": {},
+  "correct_diagnosis": "Brugada Syndrome Type 1 (SCN5A Mutation Positive) with Family History of Sudden Cardiac Death and Spontaneous Type 1 ECG Pattern",
+  "differential_diagnoses": ["Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)", "Long QT Syndrome", "Early Repolarization Syndrome", "Short QT Syndrome", "Catecholaminergic Polymorphic VT (CPVT)", "Idiopathic VF"],
+  "key_learning_points": [
+    "Brugada syndrome = autosomal dominant sodium channelopathy (SCN5A mutation in 20-30%) causing increased risk of sudden cardiac death from polymorphic VT/VF",
+    "Type 1 ECG pattern (diagnostic): Coved ST elevation ≥2mm in ≥1 right precordial lead (V1-V3) followed by T wave inversion. Can be spontaneous or drug-induced",
+    "Clinical presentation: Syncope, nocturnal agonal respiration, sudden cardiac death (often during sleep or rest). Male predominance (8:1)",
+    "Risk factors for SCD: Spontaneous Type 1 ECG + history of syncope or aborted SCD, family history of SCD, inducible VT on EP study",
+    "Treatment: ICD is the ONLY proven therapy to prevent sudden death in high-risk patients. Quinidine for medical management. Avoid triggers: Certain drugs (www.brugadadrugs.org), fever, alcohol, large meals"
+  ],
+  "patient_responses": {
+    "episodes": "About once a month I wake up suddenly at night feeling like I can't breathe. It lasts a few seconds and then I'm fine. I thought it was just nightmares or sleep apnea.",
+    "brother": "He was 30, completely healthy. Went to bed and never woke up. The autopsy said 'sudden unexplained death'. No one could tell us why. He had similar nighttime episodes.",
+    "symptoms": "No palpitations, no chest pain, no fainting. I exercise regularly with no problems.",
+    "medications": "None. I avoid drugs completely after what happened to my brother."
+  },
+  "feedback": {
+    "correct_message": "Outstanding diagnosis! The spontaneous Type 1 Brugada ECG pattern with positive Flecainide challenge, family history of sudden unexplained death, and inducible VT on EP study confirms high-risk Brugada syndrome. ICD implantation is life-saving. Genetic counseling for family members is essential.",
+    "attending_note": "Implant dual-chamber ICD urgently. Educate about fever management (aggressive antipyretics - fever unmasks Brugada pattern). Avoid medications on Brugada drug list. Quinidine 600-900mg daily may reduce ICD shocks if recurrent. Screen all first-degree relatives with ECG ± Flecainide challenge. Genetic testing for family members (SCN5A cascade screening). No competitive sports. Follow-up EP clinic q6 months."
+  }
+}

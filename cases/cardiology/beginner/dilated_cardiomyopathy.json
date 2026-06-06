@@ -1,0 +1,48 @@
+{
+  "id": "cardio_beginner_dcm",
+  "specialty": "cardiology",
+  "difficulty": "beginner",
+  "title": "Dilated Cardiomyopathy",
+  "patient": { "age": 48, "gender": "male", "name": "Robert Taylor" },
+  "chief_complaint": "I can't breathe when I lie flat. I have to sleep sitting up with 3 pillows. My legs are swollen and I've gained 10 pounds in a week.",
+  "vitals": { "BP": "100/72", "HR": "108", "RR": "24", "SpO2": "94%", "Temp": "36.8°C" },
+  "physical_exam": {
+    "General": "Tachypneic, sitting upright, pale",
+    "Cardiac": "Tachycardia, S3 gallop, displaced PMI to 6th ICS anterior axillary line, holosystolic murmur at apex radiating to axilla (functional MR)",
+    "Lungs": "Bibasilar crackles, dullness at bases",
+    "Extremities": "Bilateral pitting edema to knees, cool extremities",
+    "Neck": "JVD 8cm at 45 degrees"
+  },
+  "hidden_data": {
+    "echo": "Severely dilated LV (LVEDD 6.8cm). Global hypokinesis. EF 20%. Severe functional mitral regurgitation. Moderate pulmonary hypertension (RVSP 55mmHg). No pericardial effusion.",
+    "ecg": "Sinus tachycardia 108 bpm. LBBB (QRS 145ms). Poor R wave progression. LA enlargement.",
+    "cxr": "Cardiomegaly (CTR 0.65). Pulmonary vascular congestion. Small bilateral pleural effusions.",
+    "cbc": "WBC 8,200, Hb 12.5, Platelets 230,000",
+    "cmp": "Sodium 132, Potassium 3.8, Creatinine 1.3, BUN 30, normal LFTs",
+    "bmp": "BNP 2,800 pg/mL (severely elevated)",
+    "troponin": "Troponin I 0.06 ng/mL (mildly elevated)",
+    "cath": "Normal coronary arteries. No significant CAD.",
+    "tsh": "TSH 2.5, normal",
+    "iron_studies": "Normal iron studies"
+  },
+  "media": {},
+  "correct_diagnosis": "Dilated Cardiomyopathy (Non-Ischemic) with Acute Decompensated Heart Failure (Wet-Warm Profile)",
+  "differential_diagnoses": ["Ischemic Cardiomyopathy", "Alcoholic Cardiomyopathy", "Viral Myocarditis", "Thyrotoxicosis-induced HF", "Tachycardia-induced Cardiomyopathy", "Stress Cardiomyopathy"],
+  "key_learning_points": [
+    "DCM = LV dilation + systolic dysfunction (EF <40%) without CAD, valvular disease, or congenital heart disease. Most common cause of heart failure in patients <50",
+    "Causes: Idiopathic (50%), Viral myocarditis, Alcohol, Genetic (30% familial), Pregnancy (peripartum), Tachycardia-induced, Autoimmune",
+    "Acute decompensated HF treatment: IV diuretics (Furosemide), vasodilators (Nitroglycerin if HTN), inotropes if shock (Dobutamine/Milrinone)",
+    "GDMT for chronic HFrEF: ARNI/ACEi/ARB + Beta-blocker + MRA + SGLT2i (4 pillars reduce mortality 50-60%)",
+    "LBBB with QRS >150ms + EF ≤35% = indication for CRT-D (reduces mortality 36% in MADIT-CRT trial)"
+  ],
+  "patient_responses": {
+    "onset": "I was fine until about 3 months ago. I started getting short of breath walking. Now I can't even walk to the bathroom without gasping.",
+    "history": "I used to drink heavily in my 20s and 30s but I've been sober for 10 years. No heart problems before this.",
+    "medications": "None regularly. I took ibuprofen for back pain occasionally.",
+    "family": "My uncle died of 'heart problems' at 45. My father has an enlarged heart."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly diagnosed non-ischemic DCM causing acute decompensated HF. The echo shows severe LV dilation with EF 20%, normal coronaries on cath rule out ischemic etiology. GDMT including ARNI, beta-blocker, MRA, and SGLT2i is indicated, along with CRT-D evaluation.",
+    "attending_note": "Admit for IV Furosemide 80mg IV BID, strict I/O, daily weights. Start GDMT: Sacubitril/Valsartan 24/26mg BID, Carvedilol 3.125mg BID (when euvolemic), Spironolactone 25mg daily, Dapagliflozin 10mg daily. Cardiac MRI to evaluate for myocarditis/scar. Refer for CRT-D (LBBB, QRS >150ms, EF ≤35%). Genetic testing for familial DCM. Family screening with echo."
+  }
+}
