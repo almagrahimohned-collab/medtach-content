@@ -1,6 +1,6 @@
 {
   "version": "4.0.0",
-  "last_updated": "2026-06-06T13:55:03Z",
+  "last_updated": "2026-06-06T18:05:38Z",
   "total_cases": 254,
   "cases_by_specialty": {
     "cardiology": { "beginner": 5, "intermediate": 8, "advanced": 6 }
