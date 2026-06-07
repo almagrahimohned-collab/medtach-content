@@ -1,1 +1,41 @@
-{"id":"surg_ct_tamponade","specialty":"surgery","difficulty":"cardiothoracic","title":"Cardiac Tamponade - Penetrating Trauma","patient":{"age":25,"gender":"male","name":"Derek Phillips"},"chief_complaint":"Gunshot wound to chest. Gasping for air. Losing consciousness.","vitals":{"BP":"65/40","HR":"130","RR":"35","SpO2":"85%","Temp":"35.8°C"},"physical_exam":{"Chest":"GSW entry: Left parasternal 4th intercostal space. Exit: Left posterior axillary line 7th ICS.","Cardiac":"BECK TRIAD: Hypotension + Muffled heart sounds + Distended neck veins (JVD). Pulsus paradoxus >15mmHg.","Lungs":"Equal breath sounds bilaterally (differentiates from tension PTX).","eFAST":"Large pericardial fluid collection (blood). Right ventricular diastolic collapse. Dilated IVC."},"correct_diagnosis":"Cardiac Tamponade from Penetrating Cardiac Injury - EMERGENCY RESUSCITATIVE THORACOTOMY","key_learning_points":["Cardiac tamponade = accumulation of fluid/blood in pericardial space → compression of heart → decreased diastolic filling → decreased cardiac output → obstructive shock","Beck triad (present in only 30%): Hypotension + Muffled heart sounds + JVD. Pulsus paradoxus >10mmHg (decrease in SBP >10 during inspiration). Kussmaul sign (paradoxical JVP rise with inspiration) - constrictive pericarditis, NOT tamponade","eFAST: Pericardial fluid, RV diastolic collapse (specific), IVC plethora. CT if stable. Pericardiocentesis: Temporizing measure for non-traumatic tamponade. Aspiration of 10-50mL can dramatically improve hemodynamics","Traumatic tamponade: EMERGENCY RESUSCITATIVE THORACOTOMY (ED thoracotomy). Indications: Penetrating chest trauma + signs of life (<10 min from loss of vital signs). Left anterolateral thoracotomy 4th-5th ICS. Open pericardium vertically (avoid phrenic nerve). Evacuate clot. Control cardiac injury (Foley catheter balloon tamponade, finger occlusion, Satinsky clamp, staple or suture repair). Internal cardiac massage. Cross-clamp aorta for refractory shock","Non-traumatic tamponade: Pericardiocentesis (subxiphoid approach, aim toward left shoulder at 15°). Pericardial window if recurrent (malignant effusion). Treat underlying cause","Prognosis: Penetrating cardiac trauma survival: Stab wounds 30-50%, GSW 10-15% if signs of life on arrival. If require ED thoracotomy for blunt trauma: <2% survival"]}
+{
+  "id": "surg_ct_tamponade",
+  "specialty": "surgery",
+  "difficulty": "cardiothoracic",
+  "title": "Cardiac Tamponade - Penetrating Trauma",
+  "patient": {
+    "age": 25,
+    "gender": "male",
+    "name": "Derek Phillips"
+  },
+  "chief_complaint": "Gunshot wound to chest. Gasping for air. Losing consciousness.",
+  "vitals": {
+    "BP": "65/40",
+    "HR": "130",
+    "RR": "35",
+    "SpO2": "85%",
+    "Temp": "35.8\u00b0C"
+  },
+  "physical_exam": {
+    "Chest": "GSW entry: Left parasternal 4th intercostal space. Exit: Left posterior axillary line 7th ICS.",
+    "Cardiac": "BECK TRIAD: Hypotension + Muffled heart sounds + Distended neck veins (JVD). Pulsus paradoxus >15mmHg.",
+    "Lungs": "Equal breath sounds bilaterally (differentiates from tension PTX).",
+    "eFAST": "Large pericardial fluid collection (blood). Right ventricular diastolic collapse. Dilated IVC."
+  },
+  "correct_diagnosis": "Cardiac Tamponade from Penetrating Cardiac Injury - EMERGENCY RESUSCITATIVE THORACOTOMY",
+  "key_learning_points": [
+    "Cardiac tamponade = accumulation of fluid/blood in pericardial space \u2192 compression of heart \u2192 decreased diastolic filling \u2192 decreased cardiac output \u2192 obstructive shock",
+    "Beck triad (present in only 30%): Hypotension + Muffled heart sounds + JVD. Pulsus paradoxus >10mmHg (decrease in SBP >10 during inspiration). Kussmaul sign (paradoxical JVP rise with inspiration) - constrictive pericarditis, NOT tamponade",
+    "eFAST: Pericardial fluid, RV diastolic collapse (specific), IVC plethora. CT if stable. Pericardiocentesis: Temporizing measure for non-traumatic tamponade. Aspiration of 10-50mL can dramatically improve hemodynamics",
+    "Traumatic tamponade: EMERGENCY RESUSCITATIVE THORACOTOMY (ED thoracotomy). Indications: Penetrating chest trauma + signs of life (<10 min from loss of vital signs). Left anterolateral thoracotomy 4th-5th ICS. Open pericardium vertically (avoid phrenic nerve). Evacuate clot. Control cardiac injury (Foley catheter balloon tamponade, finger occlusion, Satinsky clamp, staple or suture repair). Internal cardiac massage. Cross-clamp aorta for refractory shock",
+    "Non-traumatic tamponade: Pericardiocentesis (subxiphoid approach, aim toward left shoulder at 15\u00b0). Pericardial window if recurrent (malignant effusion). Treat underlying cause",
+    "Prognosis: Penetrating cardiac trauma survival: Stab wounds 30-50%, GSW 10-15% if signs of life on arrival. If require ED thoracotomy for blunt trauma: <2% survival"
+  ],
+  "hidden_data": {
+    "cbc": "WBC: 12,500 /\u00b5L | RBC: 4.5 M/\u00b5L | Hb: 13.8 g/dL | Hct: 41% | MCV: 88 fL | Platelets: 250,000 /\u00b5L",
+    "cmp": "Na: 140 mmol/L | K: 4.0 mmol/L | Cl: 103 mmol/L | HCO3: 24 mmol/L | BUN: 15 mg/dL | Cr: 1.0 mg/dL | Glucose: 100 mg/dL | Ca: 9.5 mg/dL | Alb: 4.2 g/dL | AST: 28 U/L | ALT: 32 U/L | ALP: 75 U/L | T.Bil: 0.7 mg/dL",
+    "ecg": "Low voltage QRS, electrical alternans, sinus tachycardia",
+    "echo": "Large pericardial effusion with RV diastolic collapse",
+    "cxr": "Enlarged cardiac silhouette, clear lung fields"
+  }
+}

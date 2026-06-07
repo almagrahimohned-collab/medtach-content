@@ -1,1 +1,43 @@
-{"id":"ped_general_kawasaki","specialty":"pediatrics","difficulty":"general","title":"Refractory Kawasaki Disease","patient":{"age":"3 years","gender":"male","name":"Lucas Chen"},"chief_complaint":"Fever for 7 days (39-40°C). Developed red eyes, red cracked lips, strawberry tongue, rash on trunk, swollen hands and feet, and swollen lymph node on one side of neck. Given IVIG 2g/kg on day 6 but still febrile 36 hours later.","vitals":{"BP":"100/65","HR":"140","RR":"28","SpO2":"97%","Temp":"39.5°C"},"physical_exam":{"Eyes":"Bilateral bulbar conjunctival injection (no exudate)","Oral":"Erythematous cracked lips. Strawberry tongue. Diffuse oropharyngeal erythema.","Extremities":"Erythema and edema of hands and feet (acute phase). Periungual desquamation beginning.","Skin":"Polymorphous rash on trunk (maculopapular). No vesicles.","Neck":"Unilateral right cervical lymphadenopathy (>1.5cm), tender.","Cardiac":"Tachycardia. No murmur currently. No gallop.","Labs":"CRP 180, ESR 95, WBC 18,500, Albumin 2.5, Platelets 650,000. Echo: Normal coronaries (Z-score <2) on day 5. Repeat echo day 10: RCA Z-score 3.5 (dilated)."},"correct_diagnosis":"Kawasaki Disease - Refractory (IVIG-Resistant) with Early Coronary Artery Dilation","key_learning_points":["Kawasaki = acute medium-vessel vasculitis of unknown etiology. Leading cause of acquired heart disease in children in developed countries","Diagnosis: Fever ≥5 days + ≥4 of 5 criteria (Conjunctivitis, Oral changes, Rash, Extremity changes, Cervical lymphadenopathy). Incomplete Kawasaki: Fever + <4 criteria + echo or lab findings suggestive","IVIG 2g/kg single infusion within 10 days reduces coronary aneurysm risk from 25% to 5%. PLUS Aspirin 80-100mg/kg/day divided QID (high dose) until afebrile, then 3-5mg/kg/day (antiplatelet)","Refractory (IVIG-resistant): Persistent or recrudescent fever ≥36h after IVIG. 10-20% of patients. Second dose IVIG 2g/kg. If still refractory: Corticosteroids (Methylprednisolone 30mg/kg IV ×1-3 days) or Infliximab (TNF inhibitor)","Coronary risk stratification: Z-score <2 (no involvement), 2-2.5 (dilation only), 2.5-5 (small aneurysm), 5-10 (medium aneurysm), >10 (giant aneurysm). Aspirin alone for Z<2.5. Add Clopidogrel or Warfarin for medium-giant aneurysms. Echo at diagnosis, 2 weeks, 6-8 weeks, 6 months, 1 year"]}
+{
+  "id": "ped_general_kawasaki",
+  "specialty": "pediatrics",
+  "difficulty": "general",
+  "title": "Refractory Kawasaki Disease",
+  "patient": {
+    "age": "3 years",
+    "gender": "male",
+    "name": "Lucas Chen"
+  },
+  "chief_complaint": "Fever for 7 days (39-40\u00b0C). Developed red eyes, red cracked lips, strawberry tongue, rash on trunk, swollen hands and feet, and swollen lymph node on one side of neck. Given IVIG 2g/kg on day 6 but still febrile 36 hours later.",
+  "vitals": {
+    "BP": "100/65",
+    "HR": "140",
+    "RR": "28",
+    "SpO2": "97%",
+    "Temp": "39.5\u00b0C"
+  },
+  "physical_exam": {
+    "Eyes": "Bilateral bulbar conjunctival injection (no exudate)",
+    "Oral": "Erythematous cracked lips. Strawberry tongue. Diffuse oropharyngeal erythema.",
+    "Extremities": "Erythema and edema of hands and feet (acute phase). Periungual desquamation beginning.",
+    "Skin": "Polymorphous rash on trunk (maculopapular). No vesicles.",
+    "Neck": "Unilateral right cervical lymphadenopathy (>1.5cm), tender.",
+    "Cardiac": "Tachycardia. No murmur currently. No gallop.",
+    "Labs": "CRP 180, ESR 95, WBC 18,500, Albumin 2.5, Platelets 650,000. Echo: Normal coronaries (Z-score <2) on day 5. Repeat echo day 10: RCA Z-score 3.5 (dilated)."
+  },
+  "correct_diagnosis": "Kawasaki Disease - Refractory (IVIG-Resistant) with Early Coronary Artery Dilation",
+  "key_learning_points": [
+    "Kawasaki = acute medium-vessel vasculitis of unknown etiology. Leading cause of acquired heart disease in children in developed countries",
+    "Diagnosis: Fever \u22655 days + \u22654 of 5 criteria (Conjunctivitis, Oral changes, Rash, Extremity changes, Cervical lymphadenopathy). Incomplete Kawasaki: Fever + <4 criteria + echo or lab findings suggestive",
+    "IVIG 2g/kg single infusion within 10 days reduces coronary aneurysm risk from 25% to 5%. PLUS Aspirin 80-100mg/kg/day divided QID (high dose) until afebrile, then 3-5mg/kg/day (antiplatelet)",
+    "Refractory (IVIG-resistant): Persistent or recrudescent fever \u226536h after IVIG. 10-20% of patients. Second dose IVIG 2g/kg. If still refractory: Corticosteroids (Methylprednisolone 30mg/kg IV \u00d71-3 days) or Infliximab (TNF inhibitor)",
+    "Coronary risk stratification: Z-score <2 (no involvement), 2-2.5 (dilation only), 2.5-5 (small aneurysm), 5-10 (medium aneurysm), >10 (giant aneurysm). Aspirin alone for Z<2.5. Add Clopidogrel or Warfarin for medium-giant aneurysms. Echo at diagnosis, 2 weeks, 6-8 weeks, 6 months, 1 year"
+  ],
+  "hidden_data": {
+    "cbc": "WBC: 12,500 /\u00b5L | RBC: 4.5 M/\u00b5L | Hb: 13.8 g/dL | Hct: 41% | MCV: 88 fL | Platelets: 250,000 /\u00b5L",
+    "cmp": "Na: 140 mmol/L | K: 4.0 mmol/L | Cl: 103 mmol/L | HCO3: 24 mmol/L | BUN: 15 mg/dL | Cr: 1.0 mg/dL | Glucose: 100 mg/dL | Ca: 9.5 mg/dL | Alb: 4.2 g/dL | AST: 28 U/L | ALT: 32 U/L | ALP: 75 U/L | T.Bil: 0.7 mg/dL",
+    "echo": "RCA Z-score 3.5, mild coronary dilation",
+    "crp": "CRP: 180 mg/L",
+    "esr": "ESR: 95 mm/hr"
+  }
+}
