@@ -1,8 +1,0 @@
-{
-  "image": "pneumonia_6.png",
-  "pattern": "pneumonia",
-  "source": "synthetic",
-  "generated": "2026-06-07T16:25:17.678548",
-  "modality": "cxr",
-  "version": "2.0"
-}
