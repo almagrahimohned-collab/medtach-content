@@ -1,0 +1,48 @@
+{
+  "ct_brain": {},
+  "ct_chest": {},
+  "cxr": {
+    "cardiomegaly": [
+      "cardiomegaly_1.png",
+      "cardiomegaly_2.png",
+      "cardiomegaly_3.png",
+      "cardiomegaly_4.png"
+    ],
+    "effusion": [
+      "effusion_1.png",
+      "effusion_2.png",
+      "effusion_3.png",
+      "effusion_4.png",
+      "effusion_5.png"
+    ],
+    "normal": [
+      "normal_1.png",
+      "normal_2.png",
+      "normal_3.png",
+      "normal_4.png",
+      "normal_5.png",
+      "normal_6.png",
+      "normal_7.png",
+      "normal_8.png"
+    ],
+    "pneumonia": [
+      "pneumonia_1.png",
+      "pneumonia_2.png",
+      "pneumonia_3.png",
+      "pneumonia_4.png",
+      "pneumonia_5.png",
+      "pneumonia_6.png",
+      "pneumonia_7.png",
+      "pneumonia_8.png"
+    ],
+    "pneumothorax": [
+      "pneumothorax_1.png",
+      "pneumothorax_2.png",
+      "pneumothorax_3.png",
+      "pneumothorax_4.png",
+      "pneumothorax_5.png"
+    ]
+  },
+  "mri_brain": {},
+  "us_abd": {}
+}

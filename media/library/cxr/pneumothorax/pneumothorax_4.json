@@ -1,0 +1,8 @@
+{
+  "image": "pneumothorax_4.png",
+  "pattern": "pneumothorax",
+  "source": "synthetic",
+  "generated": "2026-06-07T16:25:25.784836",
+  "modality": "cxr",
+  "version": "2.0"
+}
