@@ -1,0 +1,2352 @@
+[
+  {
+    "id": "inte_pulm_001_4eacd5",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_002_d47555",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_003_ee1411",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_004_5e684b",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_005_61921c",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_006_7d4e81",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_007_814799",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 72-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_008_4a924f",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_009_109362",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_010_12a851",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 45-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_011_b598c7",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_012_e19d90",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_013_28e423",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_014_266259",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_015_9791b9",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_016_af81d0",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 65-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_017_a2e006",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 72-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_018_cb346d",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 55-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_019_374233",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_020_438392",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 45-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_021_b5d27c",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_022_9272c5",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_023_3c001c",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_024_49a6d3",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_025_604809",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 35-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_026_3110e9",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_027_1d4966",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_028_2fb665",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_029_5caa76",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_030_bce2f5",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_031_1e759f",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_032_97e278",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_033_350607",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_034_274e01",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_035_a4c07e",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_036_4745b0",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_037_3d38d0",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_038_73d2b2",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_039_7e5ec4",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_040_0df74c",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_041_24e662",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 65-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_042_3e4b92",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_043_27a693",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_044_c226d0",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 65-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_045_797f7c",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_046_c9e53d",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_047_346527",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Community-Acquired Pneumonia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_wrong": {
+        "COPD": "COPD has hyperinflation, not consolidation.",
+        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
+        "Abscess": "Abscess has cavity with air-fluid level.",
+        "Bronchitis": "Bronchitis has normal CXR."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "infection",
+      "cxr",
+      "fever"
+    ]
+  },
+  {
+    "id": "inte_pulm_048_c107ab",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_049_ec7509",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  },
+  {
+    "id": "inte_pulm_050_c0052e",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Acute Coronary Syndrome",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
+        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
+        "ACS": "ACS has ECG changes + troponin elevation.",
+        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea",
+      "dvt"
+    ]
+  }
+]

@@ -1,0 +1,2352 @@
+[
+  {
+    "id": "surg_gene_001_8a27cb",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_002_6212b9",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_003_e97296",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_004_6c3c41",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_005_44caf9",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_006_8413b6",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_007_22a6af",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 45-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_008_bd196a",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_009_377da3",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_010_937711",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 55-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_011_f4725d",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 35-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_012_03e862",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_013_3e0b70",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 35-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_014_afd659",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_015_abc21f",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_016_f8876a",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_017_f8c978",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_018_25d406",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_019_2ede5f",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_020_a72115",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 55-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_021_6a6878",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_022_9eb49d",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 65-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_023_60fc77",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 65-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_024_e164a0",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_025_74014f",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 72-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_026_c80ad3",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_027_e9083a",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_028_74dcce",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_029_1af9d1",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_030_61dbae",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_031_a75025",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_032_f77ac2",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 55-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_033_ac0c90",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_034_3e1806",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_035_361416",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_036_879ba4",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_037_02e427",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_038_521a87",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 65-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_039_f048c9",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_040_12c159",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old woman with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_041_15b1a6",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_042_0207a3",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_043_19c1f8",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_044_92b601",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_045_f0579a",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_046_a6120c",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 35-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_047_9f633c",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_048_a397d7",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  },
+  {
+    "id": "surg_gene_049_2a9300",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Appendicitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Mesenteric Adenitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ureteral Stone",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
+      "why_wrong": {
+        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
+        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
+        "Stone": "Ureteral stone has flank pain + hematuria.",
+        "Diverticulitis": "Diverticulitis is LLQ, older patients."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "appendicitis",
+      "acute_abdomen",
+      "surgery",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_gene_050_03ecd8",
+    "specialty": "surgery",
+    "subspecialty": "general_surgery",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 45-year-old man with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Cholecystitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Biliary Colic",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Choledocholithiasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pancreatitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
+      "why_wrong": {
+        "Biliary Colic": "Colic has transient pain, normal US.",
+        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
+        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
+        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "cholecystitis",
+      "surgery",
+      "ultrasound",
+      "ruq_pain"
+    ]
+  }
+]

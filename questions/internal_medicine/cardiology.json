@@ -1,0 +1,2352 @@
+[
+  {
+    "id": "inte_card_001_ae5fec",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_002_b1d36e",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_003_a70ae3",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_004_2c8135",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 35-year-old man with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_005_c43030",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 35-year-old man with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_006_eb3598",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_007_1d99d2",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old man with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_008_315c45",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_009_d368f7",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_010_5ca45e",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old man with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_011_0e8590",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_012_a0e510",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old woman with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_013_6ce95f",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_014_182897",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_015_246cbe",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_016_5acad7",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_017_9df423",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_018_400d43",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_019_b60514",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_020_5a3e9b",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_021_d556c7",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_022_422a02",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_023_d33251",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_024_073516",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_025_2effc7",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 65-year-old woman with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_026_64b629",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_027_0e03f8",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 65-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_028_b769c8",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old man with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_029_bf411c",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 45-year-old woman with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_030_680b3b",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_031_4aeefd",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old man presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_032_e53000",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_033_cb6918",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_034_b62884",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old man with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_035_33f4d5",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old man with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_036_7fdf36",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_037_94548c",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_038_d95500",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_039_6ca7b1",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 65-year-old man with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systolic Heart Failure",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Diastolic Heart Failure",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "COPD Exacerbation",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pulmonary Embolism",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
+      "why_wrong": {
+        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
+        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
+        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
+        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "heart_failure",
+      "dyspnea",
+      "edema",
+      "echo"
+    ]
+  },
+  {
+    "id": "inte_card_040_9dce0e",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_041_8c5e12",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_042_bce735",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 65-year-old man with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atrial Fibrillation with RVR",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Atrial Flutter",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "SVT",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ventricular Tachycardia",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
+      "why_wrong": {
+        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
+        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
+        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
+        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "arrhythmia",
+      "afib",
+      "ecg",
+      "palpitations"
+    ]
+  },
+  {
+    "id": "inte_card_043_7b3e37",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_044_f99e13",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old woman with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_045_dd25c6",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_046_0db80b",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Brugada Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Long QT Syndrome",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Hypertrophic Cardiomyopathy",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
+      "why_wrong": {
+        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
+        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
+        "HCM": "HCM has LVH on echo, not RV involvement.",
+        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "syncope",
+      "arrhythmia",
+      "genetic",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_047_7e7752",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cardiac Tamponade",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Tension Pneumothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Massive PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
+      "why_wrong": {
+        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
+        "Massive PE": "PE has RV strain on ECG, clear lungs.",
+        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
+        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "emergency",
+      "shock",
+      "tamponade",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_048_029666",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_049_a345e6",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  },
+  {
+    "id": "inte_card_050_b0c2c5",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old woman presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anterior STEMI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "NSTEMI",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Unstable Angina",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pericarditis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
+      "why_wrong": {
+        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
+        "Unstable Angina": "UA has normal troponin + no ST elevation.",
+        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
+        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
+      }
+    },
+    "trap_type": "ecg_misread",
+    "tags": [
+      "chest_pain",
+      "stemi",
+      "emergency",
+      "ecg"
+    ]
+  }
+]

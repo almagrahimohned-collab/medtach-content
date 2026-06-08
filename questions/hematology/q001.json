@@ -48,7 +48,7 @@
   "specialty": "internal_medicine",
   "subspecialty": "Hematology",
   "condition": "Anemia",
-  "concept": "",
+  "concept": "Diagnosis",
   "cognitive_level": "decision_making",
   "tags": [
     "diagnosis",

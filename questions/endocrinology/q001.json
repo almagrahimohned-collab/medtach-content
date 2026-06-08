@@ -49,8 +49,8 @@
   },
   "specialty": "internal_medicine",
   "subspecialty": "Endocrinology",
-  "condition": "Diabetes Mellitus",
-  "concept": "",
+  "condition": "Diabetes",
+  "concept": "Management",
   "cognitive_level": "decision_making",
   "tags": [
     "treatment"

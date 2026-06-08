@@ -1,428 +1,167 @@
 {
-  "version": "2.0",
-  "total_questions": 30,
+  "version": 3,
+  "total_questions": 600,
   "subjects": {
     "internal_medicine": {
-      "count": 30,
+      "name": "Internal Medicine",
+      "icon": "heart-outline",
+      "color": "#3B82F6",
       "subspecialties": {
-        "Cardiology": 5,
-        "Neurology": 2,
-        "Pulmonology": 3,
-        "Endocrinology": 3,
-        "Gastroenterology": 4,
-        "Nephrology": 3,
-        "Infectious Disease": 3,
-        "Hematology": 3,
-        "Rheumatology": 2,
-        "Dermatology": 2
+        "cardiology": {
+          "file": "internal_medicine/cardiology.json",
+          "count": 50,
+          "concepts": ["ecg_interpretation", "diagnosis", "management", "emergency_reasoning"],
+          "conceptDistribution": {
+            "ecg_interpretation": 15,
+            "diagnosis": 15,
+            "management": 10,
+            "emergency_reasoning": 10
+          },
+          "tags": ["chest_pain", "arrhythmia", "acs", "heart_failure", "valvular"]
+        },
+        "pulmonology": {
+          "file": "internal_medicine/pulmonology.json",
+          "count": 50,
+          "concepts": ["diagnosis", "imaging_interpretation", "management"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "imaging_interpretation": 15,
+            "management": 15
+          },
+          "tags": ["pneumonia", "copd", "asthma", "pe", "respiratory"]
+        },
+        "gastroenterology": {
+          "file": "internal_medicine/gastroenterology.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "imaging_interpretation"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "management": 20,
+            "imaging_interpretation": 10
+          },
+          "tags": ["liver", "gi_bleeding", "pancreatitis", "ibd"]
+        }
+      }
+    },
+    "surgery": {
+      "name": "Surgery",
+      "icon": "cut-outline",
+      "color": "#EF4444",
+      "subspecialties": {
+        "general_surgery": {
+          "file": "surgery/general_surgery.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "emergency_reasoning"],
+          "conceptDistribution": {
+            "diagnosis": 15,
+            "management": 20,
+            "emergency_reasoning": 15
+          },
+          "tags": ["appendicitis", "hernia", "cholecystitis", "obstruction"]
+        },
+        "trauma": {
+          "file": "surgery/trauma.json",
+          "count": 50,
+          "concepts": ["emergency_reasoning", "management", "diagnosis"],
+          "conceptDistribution": {
+            "emergency_reasoning": 25,
+            "management": 15,
+            "diagnosis": 10
+          },
+          "tags": ["atls", "shock", "hemorrhage", "fracture"]
+        },
+        "vascular": {
+          "file": "surgery/vascular.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "imaging_interpretation"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "management": 15,
+            "imaging_interpretation": 15
+          },
+          "tags": ["aneurysm", "dvt", "pe", "ischemia"]
+        }
+      }
+    },
+    "pediatrics": {
+      "name": "Pediatrics",
+      "icon": "happy-outline",
+      "color": "#F59E0B",
+      "subspecialties": {
+        "neonatology": {
+          "file": "pediatrics/neonatology.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "emergency_reasoning"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "management": 15,
+            "emergency_reasoning": 15
+          },
+          "tags": ["prematurity", "respiratory_distress", "sepsis", "jaundice"]
+        },
+        "pediatric_infectious": {
+          "file": "pediatrics/pediatric_infectious.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "pharmacology"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "management": 15,
+            "pharmacology": 15
+          },
+          "tags": ["fever", "meningitis", "pneumonia", "uti"]
+        },
+        "pediatric_emergency": {
+          "file": "pediatrics/pediatric_emergency.json",
+          "count": 50,
+          "concepts": ["emergency_reasoning", "management", "diagnosis"],
+          "conceptDistribution": {
+            "emergency_reasoning": 25,
+            "management": 15,
+            "diagnosis": 10
+          },
+          "tags": ["shock", "respiratory_failure", "seizure", "dehydration"]
+        }
+      }
+    },
+    "obgyn": {
+      "name": "OB/GYN",
+      "icon": "female-outline",
+      "color": "#8B5CF6",
+      "subspecialties": {
+        "obstetrics": {
+          "file": "obgyn/obstetrics.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "emergency_reasoning"],
+          "conceptDistribution": {
+            "diagnosis": 15,
+            "management": 20,
+            "emergency_reasoning": 15
+          },
+          "tags": ["pregnancy", "labor", "preeclampsia", "hemorrhage"]
+        },
+        "gynecology": {
+          "file": "obgyn/gynecology.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "imaging_interpretation"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "management": 15,
+            "imaging_interpretation": 15
+          },
+          "tags": ["menstrual", "pid", "endometriosis", "fibroids"]
+        },
+        "reproductive": {
+          "file": "obgyn/reproductive.json",
+          "count": 50,
+          "concepts": ["diagnosis", "management", "pharmacology"],
+          "conceptDistribution": {
+            "diagnosis": 20,
+            "management": 15,
+            "pharmacology": 15
+          },
+          "tags": ["infertility", "pcos", "menopause", "contraception"]
+        }
       }
     }
-  },
-  "questions": [
-    {
-      "id": "q_cardio_001",
-      "subject": "Cardiology",
-      "topic": "ACS",
-      "path": "questions/cardiology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Cardiology",
-      "condition": "Acute Coronary Syndrome",
-      "tags": [
-        "ecg",
-        "diagnosis"
-      ],
-      "cognitive_level": "interpretation"
-    },
-    {
-      "id": "q_cardio_002",
-      "subject": "Cardiology",
-      "topic": "Arrhythmias",
-      "path": "questions/cardiology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Cardiology",
-      "condition": "Arrhythmias",
-      "tags": [
-        "ecg",
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_cardio_003",
-      "subject": "Cardiology",
-      "topic": "Heart Failure",
-      "path": "questions/cardiology/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Cardiology",
-      "condition": "Heart Failure",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_cardio_004",
-      "subject": "Cardiology",
-      "topic": "Hypertension",
-      "path": "questions/cardiology/q004.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Cardiology",
-      "condition": "Hypertension",
-      "tags": [
-        "imaging",
-        "diagnosis"
-      ],
-      "cognitive_level": "interpretation"
-    },
-    {
-      "id": "q_cardio_005",
-      "subject": "Cardiology",
-      "topic": "Endocarditis",
-      "path": "questions/cardiology/q005.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Cardiology",
-      "condition": "Valvular Disease",
-      "tags": [
-        "diagnosis",
-        "treatment",
-        "pharmacology"
-      ],
-      "cognitive_level": "recall"
-    },
-    {
-      "id": "q_neuro_001",
-      "subject": "Neurology",
-      "topic": "Headache",
-      "path": "questions/neurology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Neurology",
-      "condition": "Headache Disorders",
-      "tags": [
-        "treatment",
-        "emergency"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_neuro_002",
-      "subject": "Neurology",
-      "topic": "Stroke",
-      "path": "questions/neurology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Neurology",
-      "condition": "Cerebrovascular Disease",
-      "tags": [
-        "imaging"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_pulmo_001",
-      "subject": "Pulmonology",
-      "topic": "Pneumonia",
-      "path": "questions/pulmonology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Pulmonology",
-      "condition": "Respiratory Infections",
-      "tags": [
-        "imaging"
-      ],
-      "cognitive_level": "interpretation"
-    },
-    {
-      "id": "q_pulmo_002",
-      "subject": "Pulmonology",
-      "topic": "COPD",
-      "path": "questions/pulmonology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Pulmonology",
-      "condition": "COPD",
-      "tags": [
-        "imaging",
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_pulmo_003",
-      "subject": "Pulmonology",
-      "topic": "Asthma",
-      "path": "questions/pulmonology/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Pulmonology",
-      "condition": "Asthma",
-      "tags": [
-        "imaging",
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_endo_001",
-      "subject": "Endocrinology",
-      "topic": "Diabetes",
-      "path": "questions/endocrinology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Endocrinology",
-      "condition": "Diabetes Mellitus",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_endo_002",
-      "subject": "Endocrinology",
-      "topic": "Thyroid",
-      "path": "questions/endocrinology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Endocrinology",
-      "condition": "Thyroid Disorders",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_endo_003",
-      "subject": "Endocrinology",
-      "topic": "DKA",
-      "path": "questions/endocrinology/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Endocrinology",
-      "condition": "Diabetic Ketoacidosis",
-      "tags": [
-        "diagnosis"
-      ],
-      "cognitive_level": "recall"
-    },
-    {
-      "id": "q_gastro_001",
-      "subject": "Gastroenterology",
-      "topic": "Cirrhosis",
-      "path": "questions/gastroenterology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Gastroenterology",
-      "condition": "Liver Disease",
-      "tags": [
-        "laboratory"
-      ],
-      "cognitive_level": "recall"
-    },
-    {
-      "id": "q_gastro_002",
-      "subject": "Gastroenterology",
-      "topic": "Pancreatitis",
-      "path": "questions/gastroenterology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Gastroenterology",
-      "condition": "Pancreatic Disease",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_gastro_003",
-      "subject": "Gastroenterology",
-      "topic": "PUD",
-      "path": "questions/gastroenterology/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Gastroenterology",
-      "condition": "Peptic Ulcer Disease",
-      "tags": [
-        "diagnosis"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_gastro_004",
-      "subject": "Gastroenterology",
-      "topic": "GI Bleed",
-      "path": "questions/gastroenterology/q004.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Gastroenterology",
-      "condition": "GI Bleeding",
-      "tags": [
-        "diagnosis"
-      ],
-      "cognitive_level": "recall"
-    },
-    {
-      "id": "q_nephro_001",
-      "subject": "Nephrology",
-      "topic": "AKI",
-      "path": "questions/nephrology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Nephrology",
-      "condition": "Acute Kidney Injury",
-      "tags": [
-        "laboratory"
-      ],
-      "cognitive_level": "recall"
-    },
-    {
-      "id": "q_nephro_002",
-      "subject": "Nephrology",
-      "topic": "CKD",
-      "path": "questions/nephrology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Nephrology",
-      "condition": "Chronic Kidney Disease",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_nephro_003",
-      "subject": "Nephrology",
-      "topic": "Hyperkalemia",
-      "path": "questions/nephrology/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Nephrology",
-      "condition": "Electrolyte Disorders",
-      "tags": [
-        "ecg",
-        "treatment",
-        "emergency"
-      ],
-      "cognitive_level": "emergency_reasoning"
-    },
-    {
-      "id": "q_id_001",
-      "subject": "Infectious Disease",
-      "topic": "Sepsis",
-      "path": "questions/infectious/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Infectious Disease",
-      "condition": "Sepsis",
-      "tags": [
-        "imaging"
-      ],
-      "cognitive_level": "interpretation"
-    },
-    {
-      "id": "q_id_002",
-      "subject": "Infectious Disease",
-      "topic": "Meningitis",
-      "path": "questions/infectious/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Infectious Disease",
-      "condition": "Meningitis",
-      "tags": [
-        "imaging"
-      ],
-      "cognitive_level": "interpretation"
-    },
-    {
-      "id": "q_id_003",
-      "subject": "Infectious Disease",
-      "topic": "Tuberculosis",
-      "path": "questions/infectious/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Infectious Disease",
-      "condition": "Tuberculosis",
-      "tags": [
-        "imaging",
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_hema_001",
-      "subject": "Hematology",
-      "topic": "Anemia",
-      "path": "questions/hematology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Hematology",
-      "condition": "Anemia",
-      "tags": [
-        "diagnosis",
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_hema_002",
-      "subject": "Hematology",
-      "topic": "Sickle Cell",
-      "path": "questions/hematology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Hematology",
-      "condition": "Hemoglobinopathies",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_hema_003",
-      "subject": "Hematology",
-      "topic": "DVT/PE",
-      "path": "questions/hematology/q003.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Hematology",
-      "condition": "Thromboembolic Disease",
-      "tags": [
-        "diagnosis"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_rheum_001",
-      "subject": "Rheumatology",
-      "topic": "RA",
-      "path": "questions/rheumatology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Rheumatology",
-      "condition": "Rheumatoid Arthritis",
-      "tags": [
-        "diagnosis"
-      ],
-      "cognitive_level": "recall"
-    },
-    {
-      "id": "q_rheum_002",
-      "subject": "Rheumatology",
-      "topic": "Gout",
-      "path": "questions/rheumatology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Rheumatology",
-      "condition": "Crystal Arthropathies",
-      "tags": [
-        "treatment",
-        "emergency"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_derm_001",
-      "subject": "Dermatology",
-      "topic": "Psoriasis",
-      "path": "questions/dermatology/q001.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Dermatology",
-      "condition": "Papulosquamous Disorders",
-      "tags": [
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    },
-    {
-      "id": "q_derm_002",
-      "subject": "Dermatology",
-      "topic": "Cellulitis",
-      "path": "questions/dermatology/q002.json",
-      "specialty": "internal_medicine",
-      "subspecialty": "Dermatology",
-      "condition": "Skin Infections",
-      "tags": [
-        "diagnosis",
-        "treatment"
-      ],
-      "cognitive_level": "decision_making"
-    }
-  ],
-  "schema": "specialty/subspecialty/condition/concept"
+  }
 }

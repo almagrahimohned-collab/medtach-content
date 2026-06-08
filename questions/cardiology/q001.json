@@ -55,7 +55,7 @@
   "specialty": "internal_medicine",
   "subspecialty": "Cardiology",
   "condition": "Acute Coronary Syndrome",
-  "concept": "",
+  "concept": "ECG interpretation",
   "cognitive_level": "interpretation",
   "tags": [
     "ecg",

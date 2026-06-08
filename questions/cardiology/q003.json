@@ -50,7 +50,7 @@
   "specialty": "internal_medicine",
   "subspecialty": "Cardiology",
   "condition": "Heart Failure",
-  "concept": "",
+  "concept": "Diagnosis",
   "cognitive_level": "decision_making",
   "tags": [
     "treatment"
