@@ -42,7 +42,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_002_058bbb",
@@ -87,7 +92,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_003_427398",
@@ -132,7 +142,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_004_9724a8",
@@ -177,7 +192,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_005_d1d795",
@@ -222,7 +242,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_006_ca0226",
@@ -267,7 +292,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_007_d68b1f",
@@ -312,7 +342,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_008_2aff79",
@@ -357,7 +392,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_009_aa2676",
@@ -402,7 +442,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_010_fc1851",
@@ -447,7 +492,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_011_c84900",
@@ -492,7 +542,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_012_72cee1",
@@ -537,7 +592,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_013_1325bd",
@@ -582,7 +642,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_014_71200a",
@@ -627,7 +692,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_015_54ae54",
@@ -672,7 +742,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_016_55e81b",
@@ -717,7 +792,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_017_0b6532",
@@ -762,7 +842,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_018_4fbf82",
@@ -807,7 +892,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_019_d9a8ab",
@@ -852,7 +942,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_020_1499aa",
@@ -897,7 +992,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_021_c72a9e",
@@ -942,7 +1042,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_022_a22f24",
@@ -987,7 +1092,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_023_396795",
@@ -1032,7 +1142,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_024_7a4e7b",
@@ -1077,7 +1192,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_025_ca0322",
@@ -1122,7 +1242,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_026_d087fa",
@@ -1167,7 +1292,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_027_38d913",
@@ -1212,7 +1342,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_028_3ab819",
@@ -1257,7 +1392,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_029_7b47c2",
@@ -1302,7 +1442,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_030_645d18",
@@ -1347,7 +1492,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_031_b6a8b5",
@@ -1392,7 +1542,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_032_fb0f6f",
@@ -1437,7 +1592,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_033_e973a9",
@@ -1482,7 +1642,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_034_bf31b3",
@@ -1527,7 +1692,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_035_cb3071",
@@ -1572,7 +1742,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_036_17be5e",
@@ -1617,7 +1792,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_037_d92ac9",
@@ -1662,7 +1842,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_038_d50735",
@@ -1707,7 +1892,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_039_8b3029",
@@ -1752,7 +1942,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_040_4c15a7",
@@ -1797,7 +1992,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_041_b24f6a",
@@ -1842,7 +2042,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_042_afe5bc",
@@ -1887,7 +2092,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_043_4ea6eb",
@@ -1932,7 +2142,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_044_953c24",
@@ -1977,7 +2192,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_045_fee01d",
@@ -2022,7 +2242,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_046_812a36",
@@ -2067,7 +2292,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_047_2a4301",
@@ -2112,7 +2342,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_048_81fe35",
@@ -2157,7 +2392,12 @@
       "croup",
       "stridor",
       "pediatric"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_pedi_049_db9d93",
@@ -2202,7 +2442,12 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "pedi_pedi_050_4d67e0",
@@ -2247,6 +2492,11 @@
       "meningitis",
       "fever",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   }
 ]

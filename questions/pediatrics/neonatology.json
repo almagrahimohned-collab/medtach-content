@@ -42,7 +42,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_002_aa8252",
@@ -87,7 +92,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_003_0a4a4e",
@@ -132,7 +142,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_4.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_004_d7e484",
@@ -177,7 +192,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_005_81aef4",
@@ -222,7 +242,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_4.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_006_5fe01d",
@@ -267,7 +292,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_007_ce0747",
@@ -312,7 +342,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_008_fa2d8f",
@@ -357,7 +392,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_6.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_009_f20f53",
@@ -402,7 +442,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_010_d8e8f5",
@@ -447,7 +492,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_011_e36d3d",
@@ -492,7 +542,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_012_5e0217",
@@ -537,7 +592,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_013_fbfa1e",
@@ -582,7 +642,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_10.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_014_b49ba6",
@@ -627,7 +692,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_3.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_015_02e119",
@@ -672,7 +742,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_3.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_016_55ac06",
@@ -717,7 +792,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_017_f3cbe3",
@@ -762,7 +842,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_018_0a8891",
@@ -807,7 +892,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_019_d3dfc9",
@@ -852,7 +942,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_3.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_020_44d3e5",
@@ -897,7 +992,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_6.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_021_4aca6f",
@@ -942,7 +1042,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_022_cfe80a",
@@ -987,7 +1092,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_5.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_023_d211af",
@@ -1032,7 +1142,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_4.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_024_53b93a",
@@ -1077,7 +1192,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_025_d0a23c",
@@ -1122,7 +1242,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_026_446d9f",
@@ -1167,7 +1292,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_3.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_027_3d3698",
@@ -1212,7 +1342,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_10.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_028_0ce462",
@@ -1257,7 +1392,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_029_eac91c",
@@ -1302,7 +1442,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_030_360b76",
@@ -1347,7 +1492,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_9.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_031_05de55",
@@ -1392,7 +1542,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_2.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_032_a709ef",
@@ -1437,7 +1592,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_1.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_033_ae909c",
@@ -1482,7 +1642,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_034_301601",
@@ -1527,7 +1692,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_6.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_035_afba74",
@@ -1572,7 +1742,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_036_11fa35",
@@ -1617,7 +1792,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_037_d29acf",
@@ -1662,7 +1842,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_2.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_038_cc93b6",
@@ -1707,7 +1892,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_039_b55889",
@@ -1752,7 +1942,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_6.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_040_92ca78",
@@ -1797,7 +1992,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_041_b498fe",
@@ -1842,7 +2042,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_9.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_042_de62bd",
@@ -1887,7 +2092,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_9.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_043_6e9f13",
@@ -1932,7 +2142,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_4.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_044_ff6bb3",
@@ -1977,7 +2192,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_045_3e37a1",
@@ -2022,7 +2242,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_046_70542e",
@@ -2067,7 +2292,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_047_59fa31",
@@ -2112,7 +2342,12 @@
       "neonate",
       "obstruction",
       "vomiting"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "pedi_neon_048_0365df",
@@ -2157,7 +2392,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_049_e6b139",
@@ -2202,7 +2442,12 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_3.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "pedi_neon_050_cd9252",
@@ -2247,6 +2492,11 @@
       "neonate",
       "respiratory",
       "prematurity"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   }
 ]

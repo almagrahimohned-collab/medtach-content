@@ -42,7 +42,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_002_6b06f8",
@@ -87,7 +92,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_003_d6cee5",
@@ -132,7 +142,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_004_34f4c8",
@@ -177,7 +192,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_005_7b9df0",
@@ -222,7 +242,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_006_5a8c71",
@@ -267,7 +292,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_007_ba75b8",
@@ -312,7 +342,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_008_3b6b44",
@@ -357,7 +392,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_009_406f02",
@@ -402,7 +442,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_010_d2a025",
@@ -447,7 +492,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_011_b4cfcf",
@@ -492,7 +542,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_012_56f526",
@@ -537,7 +592,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_013_f5c8f4",
@@ -582,7 +642,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_014_c1882d",
@@ -627,7 +692,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_015_8b03d1",
@@ -672,7 +742,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_016_093166",
@@ -717,7 +792,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_017_99265c",
@@ -762,7 +842,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_018_2c650a",
@@ -807,7 +892,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_019_e35b03",
@@ -852,7 +942,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_020_b8bb28",
@@ -897,7 +992,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_021_f527e0",
@@ -942,7 +1042,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_022_5a6d47",
@@ -987,7 +1092,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_023_4c7e92",
@@ -1032,7 +1142,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_024_fc9c33",
@@ -1077,7 +1192,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_025_1e6138",
@@ -1122,7 +1242,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_026_9bc64e",
@@ -1167,7 +1292,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_027_eb6f85",
@@ -1212,7 +1342,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_028_e8cbab",
@@ -1257,7 +1392,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_029_1dea2a",
@@ -1302,7 +1442,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_030_9fab36",
@@ -1347,7 +1492,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_031_82f6de",
@@ -1392,7 +1542,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_032_38d159",
@@ -1437,7 +1592,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_033_8da3f0",
@@ -1482,7 +1642,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_034_99cc35",
@@ -1527,7 +1692,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_035_4d212e",
@@ -1572,7 +1742,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_036_5ba134",
@@ -1617,7 +1792,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_037_7e8aea",
@@ -1662,7 +1842,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_038_880aa7",
@@ -1707,7 +1892,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_039_f161b8",
@@ -1752,7 +1942,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_040_708acc",
@@ -1797,7 +1992,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_041_acd91d",
@@ -1842,7 +2042,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_042_e58020",
@@ -1887,7 +2092,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_043_2f1700",
@@ -1932,7 +2142,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_044_a39b84",
@@ -1977,7 +2192,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_045_18a331",
@@ -2022,7 +2242,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_046_0631c5",
@@ -2067,7 +2292,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_047_461186",
@@ -2112,7 +2342,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_048_6e9a93",
@@ -2157,7 +2392,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_049_a9e907",
@@ -2202,7 +2442,12 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_gyne_050_86ce14",
@@ -2247,6 +2492,11 @@
       "ectopic",
       "emergency",
       "gynecology"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   }
 ]

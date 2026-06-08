@@ -42,7 +42,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_002_37e8a2",
@@ -87,7 +92,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_003_4f9dea",
@@ -132,7 +142,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_004_bfdc7d",
@@ -177,7 +192,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_005_ca0eb7",
@@ -222,7 +242,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_006_40ab1c",
@@ -267,7 +292,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_007_39758d",
@@ -312,7 +342,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_008_af70d2",
@@ -357,7 +392,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_009_071efc",
@@ -402,7 +442,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_010_b372dd",
@@ -447,7 +492,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_011_81265b",
@@ -492,7 +542,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_012_6cd1b6",
@@ -537,7 +592,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_013_ffdcc9",
@@ -582,7 +642,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_014_6dd0e1",
@@ -627,7 +692,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_015_83ebf8",
@@ -672,7 +742,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_016_625bcf",
@@ -717,7 +792,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_017_e73fbd",
@@ -762,7 +842,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_018_7e61d1",
@@ -807,7 +892,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_019_b185b7",
@@ -852,7 +942,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_020_3dba52",
@@ -897,7 +992,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_021_75b8f5",
@@ -942,7 +1042,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_022_cc1051",
@@ -987,7 +1092,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_023_739e5c",
@@ -1032,7 +1142,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_024_5c4ae0",
@@ -1077,7 +1192,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_025_f30ff4",
@@ -1122,7 +1242,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_026_01e2a3",
@@ -1167,7 +1292,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_027_05510d",
@@ -1212,7 +1342,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_028_2ddced",
@@ -1257,7 +1392,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_029_6130cf",
@@ -1302,7 +1442,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_030_f1c1f6",
@@ -1347,7 +1492,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_031_b66305",
@@ -1392,7 +1542,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_032_88b38e",
@@ -1437,7 +1592,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_033_2fc41d",
@@ -1482,7 +1642,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_034_06bc67",
@@ -1527,7 +1692,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_035_7ba80a",
@@ -1572,7 +1742,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_036_04449b",
@@ -1617,7 +1792,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_037_3153d6",
@@ -1662,7 +1842,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_038_7062ad",
@@ -1707,7 +1892,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_039_1c77fe",
@@ -1752,7 +1942,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_040_6869c3",
@@ -1797,7 +1992,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_041_3d25ed",
@@ -1842,7 +2042,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_042_9c8be6",
@@ -1887,7 +2092,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_043_b7e919",
@@ -1932,7 +2142,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_044_d3755e",
@@ -1977,7 +2192,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_045_9c4fd2",
@@ -2022,7 +2242,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_046_2cfbcc",
@@ -2067,7 +2292,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_047_afdd84",
@@ -2112,7 +2342,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_048_f8756a",
@@ -2157,7 +2392,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_049_62b0b1",
@@ -2202,7 +2442,12 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_repr_050_ef57fa",
@@ -2247,6 +2492,11 @@
       "pcos",
       "infertility",
       "hormones"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   }
 ]

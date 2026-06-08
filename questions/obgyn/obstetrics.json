@@ -42,7 +42,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_002_9db9b4",
@@ -87,7 +92,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_003_d14fe3",
@@ -132,7 +142,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_004_f4ff03",
@@ -177,7 +192,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_005_a423f5",
@@ -222,7 +242,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_006_21cb9a",
@@ -267,7 +292,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_007_6e0016",
@@ -312,7 +342,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_008_cae980",
@@ -357,7 +392,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_009_f8bc37",
@@ -402,7 +442,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_010_601372",
@@ -447,7 +492,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_011_a3aeba",
@@ -492,7 +542,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_012_52d5e3",
@@ -537,7 +592,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_013_ea1b85",
@@ -582,7 +642,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_014_784eb5",
@@ -627,7 +692,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_015_76101d",
@@ -672,7 +742,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_016_fdf438",
@@ -717,7 +792,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_017_892a22",
@@ -762,7 +842,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_018_f23814",
@@ -807,7 +892,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_019_bea14d",
@@ -852,7 +942,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_020_502c9f",
@@ -897,7 +992,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_021_0620f7",
@@ -942,7 +1042,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_022_6b15b9",
@@ -987,7 +1092,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_023_a22092",
@@ -1032,7 +1142,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_024_914457",
@@ -1077,7 +1192,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_025_0529fc",
@@ -1122,7 +1242,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_026_96bff5",
@@ -1167,7 +1292,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_027_1a5c24",
@@ -1212,7 +1342,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_028_a208d3",
@@ -1257,7 +1392,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_029_e41b2a",
@@ -1302,7 +1442,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_030_49963e",
@@ -1347,7 +1492,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_031_af8460",
@@ -1392,7 +1542,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_032_dba823",
@@ -1437,7 +1592,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_033_b8a8ec",
@@ -1482,7 +1642,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_034_c92c3f",
@@ -1527,7 +1692,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_035_2d7cab",
@@ -1572,7 +1742,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_036_79aa9f",
@@ -1617,7 +1792,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_037_397e45",
@@ -1662,7 +1842,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_038_413dbc",
@@ -1707,7 +1892,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_039_fc40cf",
@@ -1752,7 +1942,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_040_86e1a3",
@@ -1797,7 +1992,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_041_9e1897",
@@ -1842,7 +2042,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_042_31ec91",
@@ -1887,7 +2092,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_043_d1351e",
@@ -1932,7 +2142,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_044_b6b7bd",
@@ -1977,7 +2192,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_045_f2f7d1",
@@ -2022,7 +2242,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_046_5b7ed8",
@@ -2067,7 +2292,12 @@
       "abortion",
       "pregnancy",
       "bleeding"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "obgy_obst_047_e3a853",
@@ -2112,7 +2342,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_048_13b797",
@@ -2157,7 +2392,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_049_d1bb9a",
@@ -2202,7 +2442,12 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "obgy_obst_050_14e2e1",
@@ -2247,6 +2492,11 @@
       "preeclampsia",
       "pregnancy",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   }
 ]

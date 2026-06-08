@@ -42,7 +42,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_2.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_002_b88395",
@@ -87,7 +92,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_10.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_003_d05411",
@@ -132,7 +142,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_004_545400",
@@ -177,7 +192,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_005_1e4fe5",
@@ -222,7 +242,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_006_460a79",
@@ -267,7 +292,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_007_3e7c94",
@@ -312,7 +342,12 @@
       "gi_bleed",
       "emergency",
       "shock"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_gast_008_b3d902",
@@ -357,7 +392,12 @@
       "gi_bleed",
       "emergency",
       "shock"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_gast_009_1fcbd5",
@@ -402,7 +442,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_010_701433",
@@ -447,7 +492,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_011_a8839c",
@@ -492,7 +542,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_5.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_012_aec52a",
@@ -537,7 +592,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_013_ec841a",
@@ -582,7 +642,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_014_393b84",
@@ -627,7 +692,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_015_b3a80f",
@@ -672,7 +742,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_016_3fba03",
@@ -717,7 +792,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_017_777553",
@@ -762,7 +842,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_018_744f4d",
@@ -807,7 +892,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_019_3cf14f",
@@ -852,7 +942,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_020_0a9d8c",
@@ -897,7 +992,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_021_c5f05a",
@@ -942,7 +1042,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_2.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_022_661684",
@@ -987,7 +1092,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_023_e55fb0",
@@ -1032,7 +1142,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_024_ad1013",
@@ -1077,7 +1192,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_025_8a280c",
@@ -1122,7 +1242,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_026_08bf46",
@@ -1167,7 +1292,12 @@
       "gi_bleed",
       "emergency",
       "shock"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_gast_027_95cb86",
@@ -1212,7 +1342,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_028_f19df1",
@@ -1257,7 +1392,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_029_739a39",
@@ -1302,7 +1442,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_030_08f6d8",
@@ -1347,7 +1492,12 @@
       "gi_bleed",
       "emergency",
       "shock"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_gast_031_9d6fca",
@@ -1392,7 +1542,12 @@
       "gi_bleed",
       "emergency",
       "shock"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_gast_032_086288",
@@ -1437,7 +1592,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_033_dac16b",
@@ -1482,7 +1642,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_034_b401d8",
@@ -1527,7 +1692,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_5.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_035_8553a0",
@@ -1572,7 +1742,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_036_d7fc45",
@@ -1617,7 +1792,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_037_0a2a46",
@@ -1662,7 +1842,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_038_5168f6",
@@ -1707,7 +1892,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_039_a4a224",
@@ -1752,7 +1942,12 @@
       "gi_bleed",
       "emergency",
       "shock"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_gast_040_62932a",
@@ -1797,7 +1992,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_041_1e635d",
@@ -1842,7 +2042,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_042_165ed1",
@@ -1887,7 +2092,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_043_1bb1c4",
@@ -1932,7 +2142,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_044_f6919f",
@@ -1977,7 +2192,12 @@
       "cholecystitis",
       "surgery",
       "ruq_pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_2.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_gast_045_18cf5e",
@@ -2022,7 +2242,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_046_1f985f",
@@ -2067,7 +2292,12 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_047_3d0ef5",
@@ -2112,7 +2342,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_048_d2d6a2",
@@ -2157,7 +2392,12 @@
       "pancreatitis",
       "lipase",
       "pain"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_049_ce0165",
@@ -2202,7 +2442,12 @@
       "cirrhosis",
       "liver",
       "jaundice"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_gast_050_5741e4",
@@ -2247,6 +2492,11 @@
       "ibd",
       "diarrhea",
       "colitis"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   }
 ]

@@ -42,7 +42,12 @@
       "arrhythmia",
       "afib",
       "palpitations"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_13.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_002_ea6b51",
@@ -87,7 +92,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_003_da0631",
@@ -132,7 +142,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_004_9f1dc7",
@@ -177,7 +192,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_005_5dbd03",
@@ -222,7 +242,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_10.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_006_dedeeb",
@@ -267,7 +292,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_007_34778f",
@@ -312,7 +342,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_4.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_008_981efc",
@@ -357,7 +392,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_3.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_009_65bd7c",
@@ -402,7 +442,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_010_86e43d",
@@ -447,7 +492,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_011_8d5b29",
@@ -492,7 +542,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_012_f431a3",
@@ -537,7 +592,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_6.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_013_533f9a",
@@ -582,7 +642,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_014_d6f77c",
@@ -627,7 +692,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_015_00515e",
@@ -672,7 +742,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_8.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_016_c52869",
@@ -717,7 +792,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_017_74f1e4",
@@ -762,7 +842,12 @@
       "arrhythmia",
       "afib",
       "palpitations"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_6.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_018_64bda7",
@@ -807,7 +892,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_019_64418b",
@@ -852,7 +942,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_020_f30848",
@@ -897,7 +992,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_021_6e8ef9",
@@ -942,7 +1042,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_022_96477d",
@@ -987,7 +1092,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_023_b4f01d",
@@ -1032,7 +1142,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_16.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_024_03e6f8",
@@ -1077,7 +1192,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_025_22f2d3",
@@ -1122,7 +1242,12 @@
       "arrhythmia",
       "afib",
       "palpitations"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_6.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_026_b00f1c",
@@ -1167,7 +1292,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_027_0d7299",
@@ -1212,7 +1342,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_028_be2f61",
@@ -1257,7 +1392,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_14.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_029_e73e9c",
@@ -1302,7 +1442,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_030_f6235f",
@@ -1347,7 +1492,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_031_702cf1",
@@ -1392,7 +1542,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_15.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_032_9b8e94",
@@ -1437,7 +1592,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_033_51919e",
@@ -1482,7 +1642,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_034_3b52ec",
@@ -1527,7 +1692,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_2.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_035_0f6236",
@@ -1572,7 +1742,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_036_d5d8d6",
@@ -1617,7 +1792,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_037_5c7683",
@@ -1662,7 +1842,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_038_2a513e",
@@ -1707,7 +1892,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_039_e31668",
@@ -1752,7 +1942,12 @@
       "arrhythmia",
       "afib",
       "palpitations"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_4.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_040_9c4a9d",
@@ -1797,7 +1992,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_1.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_041_01d217",
@@ -1842,7 +2042,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_042_8ab4d2",
@@ -1887,7 +2092,12 @@
       "arrhythmia",
       "afib",
       "palpitations"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_15.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_043_bbf3cf",
@@ -1932,7 +2142,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_044_3a228f",
@@ -1977,7 +2192,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_7.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_045_0db719",
@@ -2022,7 +2242,12 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_9.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_046_6f858a",
@@ -2067,7 +2292,12 @@
       "emergency",
       "shock",
       "tamponade"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_card_047_c08ac1",
@@ -2112,7 +2342,12 @@
       "arrhythmia",
       "afib",
       "palpitations"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_8.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_048_583017",
@@ -2157,7 +2392,12 @@
       "heart_failure",
       "dyspnea",
       "edema"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_card_049_b0b371",
@@ -2202,7 +2442,12 @@
       "chest_pain",
       "stemi",
       "emergency"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/normal/normal_1.png",
+      "description": "12-Lead ECG - Interpret the rhythm and findings"
+    }
   },
   {
     "id": "inte_card_050_3f1aa6",
@@ -2247,6 +2492,11 @@
       "syncope",
       "arrhythmia",
       "genetic"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   }
 ]

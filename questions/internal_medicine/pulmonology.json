@@ -87,7 +87,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_10.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_003_c87a11",
@@ -132,7 +137,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_2.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_004_344149",
@@ -177,7 +187,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_6.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_005_a3fd7f",
@@ -222,7 +237,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_006_d6c9f4",
@@ -267,7 +287,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_007_168819",
@@ -312,7 +337,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_008_f85a2a",
@@ -357,7 +387,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_009_3b4c2a",
@@ -402,7 +437,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_010_70a27f",
@@ -447,7 +487,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_1.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_011_2d5590",
@@ -537,7 +582,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_013_9d417f",
@@ -582,7 +632,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_014_9f3d7a",
@@ -627,7 +682,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_015_32a67e",
@@ -672,7 +732,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_016_9ffd79",
@@ -717,7 +782,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_3.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_017_1ad295",
@@ -762,7 +832,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_6.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_018_76c1da",
@@ -807,7 +882,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_019_f3f085",
@@ -852,7 +932,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_020_b668ad",
@@ -987,7 +1072,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/brugada_1.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_023_5fe48f",
@@ -1032,7 +1122,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_024_c843f0",
@@ -1077,7 +1172,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_025_41c8a0",
@@ -1122,7 +1222,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_10.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_026_6f1861",
@@ -1167,7 +1272,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_4.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_027_dab47c",
@@ -1212,7 +1322,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_028_c6134d",
@@ -1257,7 +1372,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/cardiomegaly/cardiomegaly_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_029_517cc9",
@@ -1302,7 +1422,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_030_304233",
@@ -1392,7 +1517,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_032_54d392",
@@ -1482,7 +1612,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_034_8e4b66",
@@ -1527,7 +1662,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumonia/pneumonia_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_035_1a4479",
@@ -1572,7 +1712,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_1.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_036_f39dfb",
@@ -1617,7 +1762,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/pneumothorax/pneumothorax_7.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_037_fd4e27",
@@ -1662,7 +1812,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_038_4b0768",
@@ -1707,7 +1862,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_2.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_039_17f540",
@@ -1752,7 +1912,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_10.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_040_83c2f4",
@@ -1797,7 +1962,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/stemi_anterior_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_041_2899ad",
@@ -1842,7 +2012,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_4.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_042_286aff",
@@ -1887,7 +2062,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_5.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_043_df10bb",
@@ -1932,7 +2112,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_044_982cca",
@@ -2022,7 +2207,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_1.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_046_489a0c",
@@ -2067,7 +2257,12 @@
       "pneumonia",
       "fever",
       "cxr"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/effusion/effusion_8.png",
+      "description": "Chest X-Ray - Identify the radiological findings"
+    }
   },
   {
     "id": "inte_pulm_047_d598ff",
@@ -2112,7 +2307,12 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_048_3edc6a",
@@ -2157,7 +2357,12 @@
       "copd",
       "smoking",
       "wheezing"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/library/cxr/normal/normal_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   },
   {
     "id": "inte_pulm_049_d9b600",
@@ -2202,7 +2407,12 @@
       "ptx",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/vtach_2.png",
+      "description": "Emergency ECG - Identify the life-threatening rhythm"
+    }
   },
   {
     "id": "inte_pulm_050_1ced5d",
@@ -2247,6 +2457,11 @@
       "pe",
       "emergency",
       "dyspnea"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main/media/ecg/abnormal/afib_3.png",
+      "description": "Clinical image - Use to guide your diagnosis"
+    }
   }
 ]
