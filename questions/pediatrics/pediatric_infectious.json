@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "pedi_pedi_001_60f9f7",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_002_058bbb",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_003_427398",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_004_9724a8",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_005_d1d795",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_006_ca0226",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_007_d68b1f",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_008_2aff79",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_009_aa2676",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_010_fc1851",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_011_c84900",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_012_72cee1",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_013_1325bd",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_014_71200a",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_015_54ae54",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_016_55e81b",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_017_0b6532",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_018_4fbf82",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_019_d9a8ab",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_020_1499aa",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_021_c72a9e",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_022_a22f24",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_023_396795",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_024_7a4e7b",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_025_ca0322",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_026_d087fa",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_027_38d913",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_028_3ab819",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_029_7b47c2",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_030_645d18",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_031_b6a8b5",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_032_fb0f6f",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_033_e973a9",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_034_bf31b3",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_035_cb3071",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_036_17be5e",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_037_d92ac9",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_038_d50735",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_039_8b3029",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_040_4c15a7",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_041_b24f6a",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_042_afe5bc",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_043_4ea6eb",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_044_953c24",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_045_fee01d",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_046_812a36",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_047_2a4301",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_048_81fe35",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 3-year-old with stridor, barking cough, respiratory distress.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Croup",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Epiglottitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Foreign Body",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Croup. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Epiglottitis": "Epiglottitis has different presentation and findings than Croup.",
+        "Asthma": "Asthma has different presentation and findings than Croup.",
+        "Foreign Body": "Foreign Body has different presentation and findings than Croup."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "croup",
+      "stridor",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "pedi_pedi_049_db9d93",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  },
+  {
+    "id": "pedi_pedi_050_4d67e0",
+    "specialty": "pediatrics",
+    "subspecialty": "pediatric_infectious",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 6-month-old with fever 40\u00b0C, bulging fontanelle, neck stiffness.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacterial Meningitis",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Viral Meningitis",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Encephalitis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Febrile Seizure",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Bacterial Meningitis. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Viral Meningitis": "Viral Meningitis has different presentation and findings than Bacterial Meningitis.",
+        "Encephalitis": "Encephalitis has different presentation and findings than Bacterial Meningitis.",
+        "Febrile Seizure": "Febrile Seizure has different presentation and findings than Bacterial Meningitis."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "meningitis",
+      "fever",
+      "emergency"
+    ]
+  }
+]

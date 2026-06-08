@@ -1,308 +1,71 @@
 [
   {
-    "id": "inte_pulm_001_4eacd5",
+    "id": "inte_pulm_001_82f570",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
-    "concept": "diagnosis",
+    "concept": "management",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "intermediate",
-    "question": "A 65-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 55-year-old man with asthma history, wheezing, tachypnea, SpO2 88%.",
     "options": [
       {
         "id": "a",
-        "text": "Pulmonary Embolism",
+        "text": "Acute Asthma Exacerbation",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "Pneumonia",
+        "text": "COPD",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "Anaphylaxis",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "PE",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
+      "asthma",
+      "wheezing",
+      "emergency"
     ]
   },
   {
-    "id": "inte_pulm_002_d47555",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_003_ee1411",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "advanced",
-    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_004_5e684b",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_005_61921c",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_006_7d4e81",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "advanced",
-    "question": "A 45-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_007_814799",
+    "id": "inte_pulm_002_eeb20a",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "imaging_interpretation",
     "cognitive_level": "interpretation",
     "difficulty": "advanced",
-    "question": "A 72-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "question": "A 45-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "CAP",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "COPD",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "PE",
         "isCorrect": false
       },
       {
@@ -312,171 +75,253 @@
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
       }
     },
     "trap_type": "imaging_misinterpretation",
     "tags": [
       "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
+      "fever",
+      "cxr"
     ]
   },
   {
-    "id": "inte_pulm_008_4a924f",
+    "id": "inte_pulm_003_c87a11",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_004_344149",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_005_a3fd7f",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_006_d6c9f4",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
     "difficulty": "beginner",
-    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 55-year-old woman smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
     "options": [
       {
         "id": "a",
-        "text": "Pulmonary Embolism",
+        "text": "COPD",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "Pneumonia",
+        "text": "Asthma",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "Bronchiectasis",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "CHF",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_007_168819",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old woman with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
-      "pe",
+      "ptx",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_009_109362",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_010_12a851",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "beginner",
-    "question": "A 45-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_011_b598c7",
+    "id": "inte_pulm_008_f85a2a",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "intermediate",
-    "question": "A 65-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 25-year-old woman with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -490,134 +335,38 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_012_e19d90",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_013_28e423",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_014_266259",
+    "id": "inte_pulm_009_3b4c2a",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "advanced",
-    "question": "A 55-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 65-year-old woman with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -631,148 +380,52 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_015_9791b9",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "beginner",
-    "question": "A 72-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_016_af81d0",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "advanced",
-    "question": "A 65-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_017_a2e006",
+    "id": "inte_pulm_010_70a27f",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "imaging_interpretation",
     "cognitive_level": "interpretation",
     "difficulty": "advanced",
-    "question": "A 72-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "CAP",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "COPD",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "PE",
         "isCorrect": false
       },
       {
@@ -782,829 +435,73 @@
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
       }
     },
     "trap_type": "imaging_misinterpretation",
     "tags": [
       "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
+      "fever",
+      "cxr"
     ]
   },
   {
-    "id": "inte_pulm_018_cb346d",
+    "id": "inte_pulm_011_2d5590",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
     "difficulty": "advanced",
-    "question": "A 55-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "question": "A 25-year-old man with asthma history, wheezing, tachypnea, SpO2 88%.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "Acute Asthma Exacerbation",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "COPD",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "Anaphylaxis",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Lung Abscess",
+        "text": "PE",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_019_374233",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
+      "asthma",
+      "wheezing",
+      "emergency"
     ]
   },
   {
-    "id": "inte_pulm_020_438392",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "beginner",
-    "question": "A 45-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_021_b5d27c",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "intermediate",
-    "question": "A 55-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_022_9272c5",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "intermediate",
-    "question": "A 65-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_023_3c001c",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 45-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_024_49a6d3",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "beginner",
-    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_025_604809",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "beginner",
-    "question": "A 35-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_026_3110e9",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 45-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_027_1d4966",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_028_2fb665",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_029_5caa76",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 65-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_030_bce2f5",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "beginner",
-    "question": "A 72-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_031_1e759f",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
-    "cognitive_level": "interpretation",
-    "difficulty": "beginner",
-    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Community-Acquired Pneumonia",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "COPD Exacerbation",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pulmonary Embolism",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Lung Abscess",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-      "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
-      }
-    },
-    "trap_type": "imaging_misinterpretation",
-    "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
-    ]
-  },
-  {
-    "id": "inte_pulm_032_97e278",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_033_350607",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 72-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_034_274e01",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_035_a4c07e",
+    "id": "inte_pulm_012_177440",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "advanced",
-    "question": "A 35-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 35-year-old woman with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -1618,40 +515,38 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_036_4745b0",
+    "id": "inte_pulm_013_9d417f",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
-    "difficulty": "beginner",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -1665,54 +560,187 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_037_3d38d0",
+    "id": "inte_pulm_014_9f3d7a",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
+    "concept": "diagnosis",
     "cognitive_level": "interpretation",
-    "difficulty": "intermediate",
-    "question": "A 65-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "difficulty": "beginner",
+    "question": "A 45-year-old woman smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "COPD",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "Asthma",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_015_32a67e",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_016_9ffd79",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_017_1ad295",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 45-year-old woman with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
         "isCorrect": false
       },
       {
@@ -1722,30 +750,28 @@
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
       }
     },
     "trap_type": "imaging_misinterpretation",
     "tags": [
       "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
+      "fever",
+      "cxr"
     ]
   },
   {
-    "id": "inte_pulm_038_73d2b2",
+    "id": "inte_pulm_018_76c1da",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
-    "difficulty": "beginner",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -1759,40 +785,938 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_039_7e5ec4",
+    "id": "inte_pulm_019_f3f085",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_020_b668ad",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 65-year-old woman with asthma history, wheezing, tachypnea, SpO2 88%.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Asthma Exacerbation",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Anaphylaxis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "asthma",
+      "wheezing",
+      "emergency"
+    ]
+  },
+  {
+    "id": "inte_pulm_021_c15592",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with asthma history, wheezing, tachypnea, SpO2 88%.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Asthma Exacerbation",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Anaphylaxis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "asthma",
+      "wheezing",
+      "emergency"
+    ]
+  },
+  {
+    "id": "inte_pulm_022_af5493",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_023_5fe48f",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 35-year-old woman with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_024_c843f0",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 25-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_025_41c8a0",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 65-year-old woman with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_026_6f1861",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 65-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_027_dab47c",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulmonary Embolism",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "ACS",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "pe",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_028_c6134d",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 45-year-old woman with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_029_517cc9",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 35-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_030_304233",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old woman with asthma history, wheezing, tachypnea, SpO2 88%.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Asthma Exacerbation",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Anaphylaxis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "asthma",
+      "wheezing",
+      "emergency"
+    ]
+  },
+  {
+    "id": "inte_pulm_031_ba502a",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_032_54d392",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old man with asthma history, wheezing, tachypnea, SpO2 88%.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Asthma Exacerbation",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Anaphylaxis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "asthma",
+      "wheezing",
+      "emergency"
+    ]
+  },
+  {
+    "id": "inte_pulm_033_be4738",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 65-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_034_8e4b66",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_035_1a4479",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_036_f39dfb",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Lung Abscess",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "pneumonia",
+      "fever",
+      "cxr"
+    ]
+  },
+  {
+    "id": "inte_pulm_037_fd4e27",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_038_4b0768",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_039_17f540",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "advanced",
-    "question": "A 35-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 45-year-old woman with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -1806,134 +1730,128 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_040_0df74c",
+    "id": "inte_pulm_040_83c2f4",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
+    "concept": "diagnosis",
     "cognitive_level": "interpretation",
     "difficulty": "intermediate",
-    "question": "A 65-year-old man with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "question": "A 65-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "COPD",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "Asthma",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "Bronchiectasis",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Lung Abscess",
+        "text": "CHF",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
       }
     },
     "trap_type": "imaging_misinterpretation",
     "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
+      "copd",
+      "smoking",
+      "wheezing"
     ]
   },
   {
-    "id": "inte_pulm_041_24e662",
+    "id": "inte_pulm_041_2899ad",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
-    "concept": "imaging_interpretation",
+    "concept": "diagnosis",
     "cognitive_level": "interpretation",
-    "difficulty": "beginner",
-    "question": "A 65-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "COPD",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "Asthma",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "Bronchiectasis",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Lung Abscess",
+        "text": "CHF",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
       }
     },
     "trap_type": "imaging_misinterpretation",
     "tags": [
-      "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
+      "copd",
+      "smoking",
+      "wheezing"
     ]
   },
   {
-    "id": "inte_pulm_042_3e4b92",
+    "id": "inte_pulm_042_286aff",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
-    "difficulty": "beginner",
-    "question": "A 55-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -1947,40 +1865,128 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_043_27a693",
+    "id": "inte_pulm_043_df10bb",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_044_982cca",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with asthma history, wheezing, tachypnea, SpO2 88%.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute Asthma Exacerbation",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "COPD",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Anaphylaxis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Acute Asthma Exacerbation. This is a management case requiring prompt recognition.",
+      "why_wrong": {
+        "COPD": "COPD has different presentation and findings than Acute Asthma Exacerbation.",
+        "Anaphylaxis": "Anaphylaxis has different presentation and findings than Acute Asthma Exacerbation.",
+        "PE": "PE has different presentation and findings than Acute Asthma Exacerbation."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "asthma",
+      "wheezing",
+      "emergency"
+    ]
+  },
+  {
+    "id": "inte_pulm_045_06674e",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "advanced",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 35-year-old man with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -1994,195 +2000,52 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_044_c226d0",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "beginner",
-    "question": "A 65-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_045_797f7c",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 35-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_046_c9e53d",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "advanced",
-    "question": "A 55-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_047_346527",
+    "id": "inte_pulm_046_489a0c",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "imaging_interpretation",
     "cognitive_level": "interpretation",
     "difficulty": "intermediate",
-    "question": "A 72-year-old woman with productive cough, fever 39\u00b0C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
+    "question": "A 72-year-old man with productive cough, fever 39\u00b0C, CXR: RLL consolidation.",
     "options": [
       {
         "id": "a",
-        "text": "Community-Acquired Pneumonia",
+        "text": "CAP",
         "isCorrect": true
       },
       {
         "id": "b",
-        "text": "COPD Exacerbation",
+        "text": "COPD",
         "isCorrect": false
       },
       {
         "id": "c",
-        "text": "Pulmonary Embolism",
+        "text": "PE",
         "isCorrect": false
       },
       {
@@ -2192,30 +2055,28 @@
       }
     ],
     "explanation": {
-      "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
+      "why_correct": "The presentation is classic for CAP. This is a imaging_interpretation case requiring prompt recognition.",
       "why_wrong": {
-        "COPD": "COPD has hyperinflation, not consolidation.",
-        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-        "Abscess": "Abscess has cavity with air-fluid level.",
-        "Bronchitis": "Bronchitis has normal CXR."
+        "COPD": "COPD has different presentation and findings than CAP.",
+        "PE": "PE has different presentation and findings than CAP.",
+        "Lung Abscess": "Lung Abscess has different presentation and findings than CAP."
       }
     },
     "trap_type": "imaging_misinterpretation",
     "tags": [
       "pneumonia",
-      "infection",
-      "cxr",
-      "fever"
+      "fever",
+      "cxr"
     ]
   },
   {
-    "id": "inte_pulm_048_c107ab",
+    "id": "inte_pulm_047_d598ff",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "intermediate",
-    "question": "A 72-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 25-year-old man with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -2229,40 +2090,128 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   },
   {
-    "id": "inte_pulm_049_ec7509",
+    "id": "inte_pulm_048_3edc6a",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "diagnosis",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "COPD",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Asthma",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Bronchiectasis",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "CHF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for COPD. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Asthma": "Asthma has different presentation and findings than COPD.",
+        "Bronchiectasis": "Bronchiectasis has different presentation and findings than COPD.",
+        "CHF": "CHF has different presentation and findings than COPD."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "copd",
+      "smoking",
+      "wheezing"
+    ]
+  },
+  {
+    "id": "inte_pulm_049_d9b600",
+    "specialty": "internal_medicine",
+    "subspecialty": "pulmonology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with acute dyspnea, absent breath sounds left side, tracheal deviation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "PE",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PTX simple",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Tamponade",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "PE": "PE has different presentation and findings than Tension Pneumothorax.",
+        "PTX simple": "PTX simple has different presentation and findings than Tension Pneumothorax.",
+        "Tamponade": "Tamponade has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ptx",
+      "emergency",
+      "dyspnea"
+    ]
+  },
+  {
+    "id": "inte_pulm_050_1ced5d",
     "specialty": "internal_medicine",
     "subspecialty": "pulmonology",
     "concept": "diagnosis",
     "cognitive_level": "clinical_reasoning",
     "difficulty": "intermediate",
-    "question": "A 35-year-old woman with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
+    "question": "A 35-year-old woman with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.",
     "options": [
       {
         "id": "a",
@@ -2276,77 +2225,28 @@
       },
       {
         "id": "c",
-        "text": "Pneumothorax",
+        "text": "PTX",
         "isCorrect": false
       },
       {
         "id": "d",
-        "text": "Acute Coronary Syndrome",
+        "text": "ACS",
         "isCorrect": false
       }
     ],
     "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
+      "why_correct": "The presentation is classic for Pulmonary Embolism. This is a diagnosis case requiring prompt recognition.",
       "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
+        "Pneumonia": "Pneumonia has different presentation and findings than Pulmonary Embolism.",
+        "PTX": "PTX has different presentation and findings than Pulmonary Embolism.",
+        "ACS": "ACS has different presentation and findings than Pulmonary Embolism."
       }
     },
     "trap_type": "diagnostic_confusion",
     "tags": [
       "pe",
       "emergency",
-      "dyspnea",
-      "dvt"
-    ]
-  },
-  {
-    "id": "inte_pulm_050_c0052e",
-    "specialty": "internal_medicine",
-    "subspecialty": "pulmonology",
-    "concept": "diagnosis",
-    "cognitive_level": "clinical_reasoning",
-    "difficulty": "intermediate",
-    "question": "A 55-year-old man with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-    "options": [
-      {
-        "id": "a",
-        "text": "Pulmonary Embolism",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "text": "Pneumonia",
-        "isCorrect": false
-      },
-      {
-        "id": "c",
-        "text": "Pneumothorax",
-        "isCorrect": false
-      },
-      {
-        "id": "d",
-        "text": "Acute Coronary Syndrome",
-        "isCorrect": false
-      }
-    ],
-    "explanation": {
-      "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-      "why_wrong": {
-        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-        "ACS": "ACS has ECG changes + troponin elevation.",
-        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-      }
-    },
-    "trap_type": "diagnostic_confusion",
-    "tags": [
-      "pe",
-      "emergency",
-      "dyspnea",
-      "dvt"
+      "dyspnea"
     ]
   }
 ]

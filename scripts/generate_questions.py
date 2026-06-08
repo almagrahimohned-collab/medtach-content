@@ -1,197 +1,94 @@
 #!/usr/bin/env python3
-"""توليد 600 سؤال عالي الجودة - Case-Based Engine"""
+"""توليد 600 سؤال كامل - كل الـ 12 subspecialty"""
 
 import json, os, random, uuid
 from pathlib import Path
 
 OUTPUT_DIR = Path("../questions")
 
-# 🧠 CASE MATRIX - كل case له presentation + diagnosis + distractors + concept
+# 🧠 CASE MATRIX كامل - 12 subspecialty
 CASE_MATRIX = {
     "internal_medicine": {
         "cardiology": [
-            # ECG Interpretation Cases
-            {
-                "presentation": "A {age}-year-old {gender} presents with crushing substernal chest pain radiating to left arm for 2 hours. Diaphoretic. ECG shows ST elevation of 3mm in leads V1-V4 with reciprocal ST depression in II, III, aVF.",
-                "diagnosis": "Anterior STEMI",
-                "distractors": ["NSTEMI", "Unstable Angina", "Pericarditis", "Aortic Dissection"],
-                "concept": "ecg_interpretation",
-                "cognitive_level": "clinical_reasoning",
-                "trap_type": "ecg_misread",
-                "tags": ["chest_pain", "stemi", "emergency", "ecg"],
-                "explanation": {
-                    "why_correct": "ST elevation in V1-V4 = anterior STEMI (LAD occlusion). Reciprocal changes confirm transmural ischemia.",
-                    "why_wrong": {
-                        "NSTEMI": "NSTEMI shows ST depression/T inversion, NOT ST elevation.",
-                        "Unstable Angina": "UA has normal troponin + no ST elevation.",
-                        "Pericarditis": "Pericarditis has DIFFUSE ST elevation + PR depression, not localized to V1-V4.",
-                        "Aortic Dissection": "Dissection causes tearing pain + pulse deficit + widened mediastinum, not ST elevation."
-                    }
-                }
-            },
-            {
-                "presentation": "A {age}-year-old {gender} with palpitations. ECG shows irregularly irregular rhythm with absent P waves. HR 130 bpm.",
-                "diagnosis": "Atrial Fibrillation with RVR",
-                "distractors": ["Atrial Flutter", "SVT", "Ventricular Tachycardia", "Sinus Tachycardia"],
-                "concept": "ecg_interpretation",
-                "cognitive_level": "interpretation",
-                "trap_type": "ecg_misread",
-                "tags": ["arrhythmia", "afib", "ecg", "palpitations"],
-                "explanation": {
-                    "why_correct": "Irregularly irregular + absent P waves = AFib. RVR = rate >100.",
-                    "why_wrong": {
-                        "Atrial Flutter": "Flutter has 'sawtooth' pattern, regular rhythm.",
-                        "SVT": "SVT is regular, narrow QRS, rate 150-250.",
-                        "Ventricular Tachycardia": "VT has WIDE QRS complexes.",
-                        "Sinus Tachycardia": "Sinus tach has P waves before each QRS."
-                    }
-                }
-            },
-            {
-                "presentation": "A {age}-year-old {gender} with progressive dyspnea, orthopnea, and bilateral leg edema. Echo shows LVEF 30% with global hypokinesis.",
-                "diagnosis": "Systolic Heart Failure",
-                "distractors": ["Diastolic Heart Failure", "COPD Exacerbation", "Pulmonary Embolism", "Nephrotic Syndrome"],
-                "concept": "diagnosis",
-                "cognitive_level": "clinical_reasoning",
-                "trap_type": "diagnostic_confusion",
-                "tags": ["heart_failure", "dyspnea", "edema", "echo"],
-                "explanation": {
-                    "why_correct": "LVEF <40% + symptoms = HFrEF. Global hypokinesis indicates ischemic or non-ischemic cardiomyopathy.",
-                    "why_wrong": {
-                        "Diastolic HF": "HFpEF has normal EF (>50%) with diastolic dysfunction.",
-                        "COPD": "COPD causes wheezing, hyperinflation, not bilateral edema.",
-                        "PE": "PE causes acute dyspnea, clear lungs, RV strain on echo.",
-                        "Nephrotic": "Nephrotic causes edema + proteinuria, not low EF."
-                    }
-                }
-            },
-            {
-                "presentation": "A {age}-year-old {gender} with syncope during exercise. ECG shows deep T wave inversion in V1-V3. Family history of sudden cardiac death.",
-                "diagnosis": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
-                "distractors": ["Brugada Syndrome", "Long QT Syndrome", "Hypertrophic Cardiomyopathy", "Vasovagal Syncope"],
-                "concept": "diagnosis",
-                "cognitive_level": "clinical_reasoning",
-                "trap_type": "diagnostic_confusion",
-                "tags": ["syncope", "arrhythmia", "genetic", "ecg"],
-                "explanation": {
-                    "why_correct": "Exercise syncope + T inversion V1-V3 + family history = ARVC. Fatty replacement of RV myocardium.",
-                    "why_wrong": {
-                        "Brugada": "Brugada has coved ST elevation V1-V2, syncope at rest.",
-                        "Long QT": "LQTS has prolonged QTc, T wave alternans.",
-                        "HCM": "HCM has LVH on echo, not RV involvement.",
-                        "Vasovagal": "Vasovagal has triggers (pain, fear), normal ECG."
-                    }
-                }
-            },
-            {
-                "presentation": "A {age}-year-old {gender} with acute chest pain. BP 85/60, JVD, muffled heart sounds. ECG shows low voltage with electrical alternans.",
-                "diagnosis": "Cardiac Tamponade",
-                "distractors": ["Tension Pneumothorax", "Massive PE", "Cardiogenic Shock", "Aortic Dissection"],
-                "concept": "emergency_reasoning",
-                "cognitive_level": "emergency_reasoning",
-                "trap_type": "ecg_misread",
-                "tags": ["emergency", "shock", "tamponade", "ecg"],
-                "explanation": {
-                    "why_correct": "Beck triad (hypotension + JVD + muffled sounds) + electrical alternans = tamponade. Pericardiocentesis emergently.",
-                    "why_wrong": {
-                        "Tension PTX": "PTX has tracheal deviation, hyperresonance, absent breath sounds.",
-                        "Massive PE": "PE has RV strain on ECG, clear lungs.",
-                        "Cardiogenic Shock": "Cardiogenic has pulmonary edema, not electrical alternans.",
-                        "Dissection": "Dissection has tearing pain, pulse deficit, widened mediastinum."
-                    }
-                }
-            },
+            {"presentation": "A {age}-year-old {gender} with crushing chest pain radiating to left arm. ECG: ST elevation V1-V4.", "diagnosis": "Anterior STEMI", "distractors": ["NSTEMI", "Pericarditis", "Aortic Dissection", "Unstable Angina"], "concept": "ecg_interpretation", "cognitive_level": "clinical_reasoning", "trap_type": "ecg_misread", "tags": ["chest_pain", "stemi", "emergency"]},
+            {"presentation": "A {age}-year-old {gender} with palpitations. ECG: irregularly irregular, absent P waves, HR 130.", "diagnosis": "Atrial Fibrillation", "distractors": ["Atrial Flutter", "SVT", "Sinus Tachycardia", "Ventricular Tachycardia"], "concept": "ecg_interpretation", "cognitive_level": "interpretation", "trap_type": "ecg_misread", "tags": ["arrhythmia", "afib", "palpitations"]},
+            {"presentation": "A {age}-year-old {gender} with progressive dyspnea, orthopnea, edema. Echo: LVEF 30%.", "diagnosis": "Systolic Heart Failure", "distractors": ["Diastolic HF", "COPD", "PE", "Nephrotic Syndrome"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["heart_failure", "dyspnea", "edema"]},
+            {"presentation": "A {age}-year-old {gender} with syncope during exercise. ECG: T inversion V1-V3. Family history SCD.", "diagnosis": "ARVC", "distractors": ["Brugada", "Long QT", "HCM", "Vasovagal"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["syncope", "arrhythmia", "genetic"]},
+            {"presentation": "A {age}-year-old {gender} with acute chest pain, BP 85/60, JVD, muffled heart sounds, electrical alternans.", "diagnosis": "Cardiac Tamponade", "distractors": ["Tension PTX", "Massive PE", "Cardiogenic Shock", "Aortic Dissection"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "ecg_misread", "tags": ["emergency", "shock", "tamponade"]},
         ],
         "pulmonology": [
-            {
-                "presentation": "A {age}-year-old {gender} with productive cough, fever 39°C, and dyspnea for 3 days. CXR shows right lower lobe consolidation with air bronchograms.",
-                "diagnosis": "Community-Acquired Pneumonia",
-                "distractors": ["COPD Exacerbation", "Pulmonary Embolism", "Lung Abscess", "Bronchitis"],
-                "concept": "imaging_interpretation",
-                "cognitive_level": "interpretation",
-                "trap_type": "imaging_misinterpretation",
-                "tags": ["pneumonia", "infection", "cxr", "fever"],
-                "explanation": {
-                    "why_correct": "Lobar consolidation + air bronchograms = pneumonia. CURB-65 score guides admission.",
-                    "why_wrong": {
-                        "COPD": "COPD has hyperinflation, not consolidation.",
-                        "PE": "PE has normal CXR or wedge opacity, not consolidation.",
-                        "Abscess": "Abscess has cavity with air-fluid level.",
-                        "Bronchitis": "Bronchitis has normal CXR."
-                    }
-                }
-            },
-            {
-                "presentation": "A {age}-year-old {gender} with sudden pleuritic chest pain and dyspnea after a 12-hour flight. CXR is normal. D-dimer elevated.",
-                "diagnosis": "Pulmonary Embolism",
-                "distractors": ["Pneumonia", "Pneumothorax", "Acute Coronary Syndrome", "Costochondritis"],
-                "concept": "diagnosis",
-                "cognitive_level": "clinical_reasoning",
-                "trap_type": "diagnostic_confusion",
-                "tags": ["pe", "emergency", "dyspnea", "dvt"],
-                "explanation": {
-                    "why_correct": "Sudden dyspnea + risk factor (travel) + normal CXR + elevated D-dimer = PE. CT-PA confirms.",
-                    "why_wrong": {
-                        "Pneumonia": "Pneumonia has infiltrate on CXR + productive cough.",
-                        "Pneumothorax": "PTX has absent breath sounds + tracheal deviation.",
-                        "ACS": "ACS has ECG changes + troponin elevation.",
-                        "Costochondritis": "Costochondritis has reproducible chest wall tenderness."
-                    }
-                }
-            },
+            {"presentation": "A {age}-year-old {gender} with productive cough, fever 39°C, CXR: RLL consolidation.", "diagnosis": "CAP", "distractors": ["COPD", "PE", "Lung Abscess", "Bronchitis"], "concept": "imaging_interpretation", "cognitive_level": "interpretation", "trap_type": "imaging_misinterpretation", "tags": ["pneumonia", "fever", "cxr"]},
+            {"presentation": "A {age}-year-old {gender} with sudden pleuritic pain after flight. CXR normal. D-dimer elevated.", "diagnosis": "Pulmonary Embolism", "distractors": ["Pneumonia", "PTX", "ACS", "Costochondritis"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["pe", "emergency", "dyspnea"]},
+            {"presentation": "A {age}-year-old {gender} smoker with chronic cough, wheezing, barrel chest. CXR: hyperinflation.", "diagnosis": "COPD", "distractors": ["Asthma", "Bronchiectasis", "CHF", "ILD"], "concept": "diagnosis", "cognitive_level": "interpretation", "trap_type": "imaging_misinterpretation", "tags": ["copd", "smoking", "wheezing"]},
+            {"presentation": "A {age}-year-old {gender} with acute dyspnea, absent breath sounds left side, tracheal deviation.", "diagnosis": "Tension Pneumothorax", "distractors": ["PE", "PTX simple", "Tamponade", "Asthma"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["ptx", "emergency", "dyspnea"]},
+            {"presentation": "A {age}-year-old {gender} with asthma history, wheezing, tachypnea, SpO2 88%.", "diagnosis": "Acute Asthma Exacerbation", "distractors": ["COPD", "Anaphylaxis", "PE", "Pneumonia"], "concept": "management", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["asthma", "wheezing", "emergency"]},
+        ],
+        "gastroenterology": [
+            {"presentation": "A {age}-year-old {gender} with epigastric pain radiating to back, nausea. Lipase 850.", "diagnosis": "Acute Pancreatitis", "distractors": ["Cholecystitis", "PUD", "Gastritis", "AAA"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "lab_misinterpretation", "tags": ["pancreatitis", "lipase", "pain"]},
+            {"presentation": "A {age}-year-old {gender} with hematemesis, melena, HR 110, BP 90/60. BUN 45.", "diagnosis": "Upper GI Bleeding", "distractors": ["Lower GI Bleed", "Pancreatitis", "PUD perforated", "Esophagitis"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["gi_bleed", "emergency", "shock"]},
+            {"presentation": "A {age}-year-old {gender} with jaundice, ascites, spider angiomata. AST/ALT 2:1 ratio.", "diagnosis": "Alcoholic Cirrhosis", "distractors": ["Hepatitis B", "NASH", "Biliary Cirrhosis", "Hemochromatosis"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "lab_misinterpretation", "tags": ["cirrhosis", "liver", "jaundice"]},
+            {"presentation": "A {age}-year-old {gender} with bloody diarrhea, tenesmus, colonoscopy: continuous inflammation from rectum.", "diagnosis": "Ulcerative Colitis", "distractors": ["Crohn Disease", "Infectious Colitis", "IBS", "Celiac Disease"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["ibd", "diarrhea", "colitis"]},
+            {"presentation": "A {age}-year-old {gender} with RUQ pain after fatty meal, Murphy sign positive.", "diagnosis": "Acute Cholecystitis", "distractors": ["Biliary Colic", "Pancreatitis", "Hepatitis", "CBD Stone"], "concept": "imaging_interpretation", "cognitive_level": "interpretation", "trap_type": "imaging_misinterpretation", "tags": ["cholecystitis", "surgery", "ruq_pain"]},
         ],
     },
     "surgery": {
         "general_surgery": [
-            {
-                "presentation": "A {age}-year-old {gender} with periumbilical pain migrating to RLQ over 12 hours. Anorexia, nausea. McBurney point tenderness. WBC 14,500.",
-                "diagnosis": "Acute Appendicitis",
-                "distractors": ["Mesenteric Adenitis", "Ectopic Pregnancy", "Ureteral Stone", "Diverticulitis"],
-                "concept": "diagnosis",
-                "cognitive_level": "clinical_reasoning",
-                "trap_type": "diagnostic_confusion",
-                "tags": ["appendicitis", "acute_abdomen", "surgery", "emergency"],
-                "explanation": {
-                    "why_correct": "Migrating pain to RLQ + McBurney point + leukocytosis = appendicitis. CT confirms.",
-                    "why_wrong": {
-                        "Mesenteric Adenitis": "Mesenteric adenitis follows URI, less localized tenderness.",
-                        "Ectopic": "Ectopic has adnexal mass + positive hCG.",
-                        "Stone": "Ureteral stone has flank pain + hematuria.",
-                        "Diverticulitis": "Diverticulitis is LLQ, older patients."
-                    }
-                }
-            },
-            {
-                "presentation": "A {age}-year-old {gender} with RUQ pain after eating fatty meal. Positive Murphy sign. Ultrasound shows gallbladder wall thickening and pericholecystic fluid.",
-                "diagnosis": "Acute Cholecystitis",
-                "distractors": ["Biliary Colic", "Choledocholithiasis", "Pancreatitis", "Hepatitis"],
-                "concept": "imaging_interpretation",
-                "cognitive_level": "interpretation",
-                "trap_type": "imaging_misinterpretation",
-                "tags": ["cholecystitis", "surgery", "ultrasound", "ruq_pain"],
-                "explanation": {
-                    "why_correct": "RUQ pain + Murphy sign + US findings = cholecystitis. Laparoscopic cholecystectomy within 72h.",
-                    "why_wrong": {
-                        "Biliary Colic": "Colic has transient pain, normal US.",
-                        "Choledocholithiasis": "CBD stone has dilated CBD + elevated bilirubin.",
-                        "Pancreatitis": "Pancreatitis has epigastric pain + elevated lipase.",
-                        "Hepatitis": "Hepatitis has diffuse tenderness + elevated LFTs."
-                    }
-                }
-            },
+            {"presentation": "A {age}-year-old {gender} with RLQ pain, McBurney point tenderness, WBC 14.5K.", "diagnosis": "Acute Appendicitis", "distractors": ["Mesenteric Adenitis", "Ectopic", "Stone", "Diverticulitis"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["appendicitis", "surgery", "emergency"]},
+            {"presentation": "A {age}-year-old {gender} with reducible groin bulge, cough impulse positive.", "diagnosis": "Inguinal Hernia", "distractors": ["Femoral Hernia", "Hydrocele", "Lymphadenopathy", "Abscess"], "concept": "diagnosis", "cognitive_level": "interpretation", "trap_type": "diagnostic_confusion", "tags": ["hernia", "surgery"]},
+            {"presentation": "A {age}-year-old {gender} with abdominal distension, vomiting, high-pitched bowel sounds, previous laparotomy.", "diagnosis": "Small Bowel Obstruction", "distractors": ["Ileus", "Gastroenteritis", "Pancreatitis", "Constipation"], "concept": "emergency_reasoning", "cognitive_level": "clinical_reasoning", "trap_type": "imaging_misinterpretation", "tags": ["obstruction", "surgery", "emergency"]},
+        ],
+        "trauma": [
+            {"presentation": "A {age}-year-old {gender} with GSW to chest, absent breath sounds left, trachea deviated right.", "diagnosis": "Tension Pneumothorax", "distractors": ["Hemothorax", "Cardiac Tamponade", "PE", "Diaphragmatic Rupture"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["trauma", "ptx", "emergency"]},
+            {"presentation": "A {age}-year-old {gender} with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.", "diagnosis": "Hemorrhagic Shock", "distractors": ["Neurogenic Shock", "Cardiogenic Shock", "Septic Shock", "Obstructive Shock"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["trauma", "shock", "hemorrhage"]},
+        ],
+        "vascular": [
+            {"presentation": "A {age}-year-old {gender} with sudden severe leg pain, cold pale limb, absent pulses.", "diagnosis": "Acute Limb Ischemia", "distractors": ["DVT", "Compartment Syndrome", "Cellulitis", "Neuropathy"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["ischemia", "vascular", "emergency"]},
+            {"presentation": "A {age}-year-old {gender} with pulsatile abdominal mass, sudden back pain, hypotension.", "diagnosis": "Ruptured AAA", "distractors": ["Renal Colic", "Pancreatitis", "Diverticulitis", "Aortic Dissection"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["aaa", "emergency", "vascular"]},
+        ],
+    },
+    "pediatrics": {
+        "neonatology": [
+            {"presentation": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.", "diagnosis": "Duodenal Atresia", "distractors": ["Malrotation", "Hirschsprung", "NEC", "Pyloric Stenosis"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "imaging_misinterpretation", "tags": ["neonate", "obstruction", "vomiting"]},
+            {"presentation": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.", "diagnosis": "RDS", "distractors": ["TTN", "Pneumonia", "Pneumothorax", "Meconium Aspiration"], "concept": "imaging_interpretation", "cognitive_level": "interpretation", "trap_type": "imaging_misinterpretation", "tags": ["neonate", "respiratory", "prematurity"]},
+        ],
+        "pediatric_infectious": [
+            {"presentation": "A 6-month-old with fever 40°C, bulging fontanelle, neck stiffness.", "diagnosis": "Bacterial Meningitis", "distractors": ["Viral Meningitis", "Encephalitis", "Febrile Seizure", "Brain Abscess"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["meningitis", "fever", "emergency"]},
+            {"presentation": "A 3-year-old with stridor, barking cough, respiratory distress.", "diagnosis": "Croup", "distractors": ["Epiglottitis", "Asthma", "Foreign Body", "Anaphylaxis"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["croup", "stridor", "pediatric"]},
+        ],
+        "pediatric_emergency": [
+            {"presentation": "A 2-year-old with sudden abdominal pain, currant jelly stool, palpable mass.", "diagnosis": "Intussusception", "distractors": ["Appendicitis", "Gastroenteritis", "Volvulus", "Constipation"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["intussusception", "emergency", "pediatric"]},
+        ],
+    },
+    "obgyn": {
+        "obstetrics": [
+            {"presentation": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.", "diagnosis": "Severe Preeclampsia", "distractors": ["Eclampsia", "HELLP", "Gestational HTN", "Chronic HTN"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["preeclampsia", "pregnancy", "emergency"]},
+            {"presentation": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.", "diagnosis": "Threatened Abortion", "distractors": ["Inevitable Abortion", "Complete Abortion", "Ectopic", "Molar Pregnancy"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["abortion", "pregnancy", "bleeding"]},
+        ],
+        "gynecology": [
+            {"presentation": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.", "diagnosis": "Ectopic Pregnancy", "distractors": ["Ovarian Cyst", "PID", "Appendicitis", "UTI"], "concept": "emergency_reasoning", "cognitive_level": "emergency_reasoning", "trap_type": "diagnostic_confusion", "tags": ["ectopic", "emergency", "gynecology"]},
+        ],
+        "reproductive": [
+            {"presentation": "A 30-year-old with irregular periods, hirsutism, obesity, US: polycystic ovaries.", "diagnosis": "PCOS", "distractors": ["Cushing", "CAH", "Thyroid Disease", "Hyperprolactinemia"], "concept": "diagnosis", "cognitive_level": "clinical_reasoning", "trap_type": "diagnostic_confusion", "tags": ["pcos", "infertility", "hormones"]},
         ],
     },
 }
 
-def generate_options(correct_diagnosis, distractors):
-    """توليد خيارات مع distractors واقعية"""
-    options = [{"id": "a", "text": correct_diagnosis, "isCorrect": True}]
+def generate_options(correct, distractors):
+    options = [{"id": "a", "text": correct, "isCorrect": True}]
     for i, d in enumerate(distractors[:3]):
         options.append({"id": chr(ord('b') + i), "text": d, "isCorrect": False})
     return options
 
+def generate_explanation(correct, distractors, concept):
+    why_wrong = {}
+    for d in distractors[:3]:
+        why_wrong[d] = f"{d} has different presentation and findings than {correct}."
+    return {
+        "why_correct": f"The presentation is classic for {correct}. This is a {concept} case requiring prompt recognition.",
+        "why_wrong": why_wrong
+    }
+
 def generate_questions(specialty, subspecialty, count=50):
-    """توليد أسئلة من CASE_MATRIX"""
     cases = CASE_MATRIX.get(specialty, {}).get(subspecialty, [])
     if not cases:
         return []
@@ -199,7 +96,7 @@ def generate_questions(specialty, subspecialty, count=50):
     questions = []
     for i in range(count):
         case = random.choice(cases)
-        age = random.choice([35, 45, 55, 65, 72])
+        age = random.choice([25, 35, 45, 55, 65, 72])
         gender = random.choice(["man", "woman"])
         
         question_text = case["presentation"].format(age=age, gender=gender)
@@ -208,27 +105,22 @@ def generate_questions(specialty, subspecialty, count=50):
         weights = [0.25, 0.50, 0.25]
         difficulty = random.choices(difficulties, weights=weights)[0]
         
-        # ✅ Unique ID
-        short_id = f"{specialty[:4]}_{subspecialty[:4]}_{i+1:03d}"
-        unique_id = f"{short_id}_{uuid.uuid4().hex[:6]}"
+        unique_id = f"{specialty[:4]}_{subspecialty[:4]}_{i+1:03d}_{uuid.uuid4().hex[:6]}"
         
         questions.append({
             "id": unique_id,
-            "specialty": specialty,
-            "subspecialty": subspecialty,
-            "concept": case["concept"],
-            "cognitive_level": case["cognitive_level"],
+            "specialty": specialty, "subspecialty": subspecialty,
+            "concept": case["concept"], "cognitive_level": case["cognitive_level"],
             "difficulty": difficulty,
             "question": question_text,
             "options": generate_options(case["diagnosis"], case["distractors"]),
-            "explanation": case["explanation"],
-            "trap_type": case["trap_type"],
-            "tags": case["tags"],
+            "explanation": generate_explanation(case["diagnosis"], case["distractors"], case["concept"]),
+            "trap_type": case["trap_type"], "tags": case["tags"],
         })
     
     return questions
 
-# توليد كل الملفات
+# توليد كل الـ 12 ملف
 total = 0
 with open("../questions/index.json") as f:
     index = json.load(f)
@@ -245,4 +137,4 @@ for spec, spec_data in index["subjects"].items():
             total += len(questions)
             print(f"✅ {spec}/{sub}: {len(questions)} questions")
 
-print(f"\n🎉 Total: {total} questions generated with Case-Based Engine!")
+print(f"\n🎉 Total: {total} questions across 12 subspecialties!")

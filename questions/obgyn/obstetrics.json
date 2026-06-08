@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "obgy_obst_001_07b2a8",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_002_9db9b4",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_003_d14fe3",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_004_f4ff03",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_005_a423f5",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_006_21cb9a",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_007_6e0016",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_008_cae980",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_009_f8bc37",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_010_601372",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_011_a3aeba",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_012_52d5e3",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_013_ea1b85",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_014_784eb5",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_015_76101d",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_016_fdf438",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_017_892a22",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_018_f23814",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_019_bea14d",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_020_502c9f",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_021_0620f7",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_022_6b15b9",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_023_a22092",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_024_914457",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_025_0529fc",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_026_96bff5",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_027_1a5c24",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_028_a208d3",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_029_e41b2a",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_030_49963e",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_031_af8460",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_032_dba823",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_033_b8a8ec",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_034_c92c3f",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_035_2d7cab",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_036_79aa9f",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_037_397e45",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_038_413dbc",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_039_fc40cf",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_040_86e1a3",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_041_9e1897",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_042_31ec91",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_043_d1351e",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_044_b6b7bd",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_045_f2f7d1",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_046_5b7ed8",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 32-year-old at 8 weeks with vaginal bleeding, cramping, closed cervix.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Threatened Abortion",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Inevitable Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Complete Abortion",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Ectopic",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Threatened Abortion. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Inevitable Abortion": "Inevitable Abortion has different presentation and findings than Threatened Abortion.",
+        "Complete Abortion": "Complete Abortion has different presentation and findings than Threatened Abortion.",
+        "Ectopic": "Ectopic has different presentation and findings than Threatened Abortion."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "abortion",
+      "pregnancy",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "obgy_obst_047_e3a853",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_048_13b797",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_049_d1bb9a",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "obgy_obst_050_14e2e1",
+    "specialty": "obgyn",
+    "subspecialty": "obstetrics",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 28-year-old G1P0 at 36 weeks with severe headache, BP 170/110, proteinuria 3+.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Severe Preeclampsia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Eclampsia",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "HELLP",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Gestational HTN",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Severe Preeclampsia. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Eclampsia": "Eclampsia has different presentation and findings than Severe Preeclampsia.",
+        "HELLP": "HELLP has different presentation and findings than Severe Preeclampsia.",
+        "Gestational HTN": "Gestational HTN has different presentation and findings than Severe Preeclampsia."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "preeclampsia",
+      "pregnancy",
+      "emergency"
+    ]
+  }
+]

@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "obgy_gyne_001_0218be",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_002_6b06f8",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_003_d6cee5",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_004_34f4c8",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_005_7b9df0",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_006_5a8c71",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_007_ba75b8",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_008_3b6b44",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_009_406f02",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_010_d2a025",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_011_b4cfcf",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_012_56f526",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_013_f5c8f4",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_014_c1882d",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_015_8b03d1",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_016_093166",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_017_99265c",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_018_2c650a",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_019_e35b03",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_020_b8bb28",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_021_f527e0",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_022_5a6d47",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_023_4c7e92",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_024_fc9c33",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_025_1e6138",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_026_9bc64e",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_027_eb6f85",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_028_e8cbab",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_029_1dea2a",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_030_9fab36",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_031_82f6de",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_032_38d159",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_033_8da3f0",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_034_99cc35",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_035_4d212e",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_036_5ba134",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_037_7e8aea",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_038_880aa7",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_039_f161b8",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_040_708acc",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_041_acd91d",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_042_e58020",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_043_2f1700",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_044_a39b84",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_045_18a331",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_046_0631c5",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_047_461186",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_048_6e9a93",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_049_a9e907",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  },
+  {
+    "id": "obgy_gyne_050_86ce14",
+    "specialty": "obgyn",
+    "subspecialty": "gynecology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 24-year-old with acute unilateral pelvic pain, adnexal mass, positive hCG.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ectopic Pregnancy",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Ovarian Cyst",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "PID",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Appendicitis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Ectopic Pregnancy. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Ovarian Cyst": "Ovarian Cyst has different presentation and findings than Ectopic Pregnancy.",
+        "PID": "PID has different presentation and findings than Ectopic Pregnancy.",
+        "Appendicitis": "Appendicitis has different presentation and findings than Ectopic Pregnancy."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "ectopic",
+      "emergency",
+      "gynecology"
+    ]
+  }
+]

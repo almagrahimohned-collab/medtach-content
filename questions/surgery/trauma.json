@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "surg_trau_001_c4af25",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_002_51859c",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_003_840053",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_004_20b514",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_005_151e8d",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_006_b80527",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_007_f80c96",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 25-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_008_2bcaee",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_009_38ae02",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_010_38b2bd",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_011_bbd1fa",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_012_e46f88",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_013_5cf17b",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 35-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_014_2bb559",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_015_6c2021",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 65-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_016_a217f7",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_017_73cf89",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_018_fef4bf",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_019_78aceb",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_020_d03f6f",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_021_2aeef1",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_022_fc1cb4",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_023_debeed",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_024_b7a177",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 65-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_025_d76bc8",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 35-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_026_80151b",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_027_eccea2",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_028_c5b040",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_029_a164ff",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 45-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_030_de21b5",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_031_05a849",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_032_f33190",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 25-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_033_6c838e",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_034_1f876d",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_035_200a73",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 72-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_036_41029c",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 35-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_037_70bb1a",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 25-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_038_44a69c",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_039_9e3a42",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_040_d20f4d",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_041_071f11",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_042_7c8f0c",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_043_5289b1",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 35-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_044_c78226",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "beginner",
+    "question": "A 72-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_045_9ed113",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 45-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_046_f84a15",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 25-year-old man with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_047_2e4926",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_048_9eea27",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 55-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg_trau_049_564e13",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old woman with pelvic fracture after MVA, BP 80/50, HR 130, FAST positive.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hemorrhagic Shock",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Neurogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiogenic Shock",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Septic Shock",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Hemorrhagic Shock. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Neurogenic Shock": "Neurogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Cardiogenic Shock": "Cardiogenic Shock has different presentation and findings than Hemorrhagic Shock.",
+        "Septic Shock": "Septic Shock has different presentation and findings than Hemorrhagic Shock."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "surg_trau_050_45ce6e",
+    "specialty": "surgery",
+    "subspecialty": "trauma",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old woman with GSW to chest, absent breath sounds left, trachea deviated right.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tension Pneumothorax",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Hemothorax",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Cardiac Tamponade",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "PE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Tension Pneumothorax. This is a emergency_reasoning case requiring prompt recognition.",
+      "why_wrong": {
+        "Hemothorax": "Hemothorax has different presentation and findings than Tension Pneumothorax.",
+        "Cardiac Tamponade": "Cardiac Tamponade has different presentation and findings than Tension Pneumothorax.",
+        "PE": "PE has different presentation and findings than Tension Pneumothorax."
+      }
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": [
+      "trauma",
+      "ptx",
+      "emergency"
+    ]
+  }
+]

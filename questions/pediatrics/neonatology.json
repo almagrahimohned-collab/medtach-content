@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "pedi_neon_001_6d7444",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_002_aa8252",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_003_0a4a4e",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_004_d7e484",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_005_81aef4",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_006_5fe01d",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_007_ce0747",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_008_fa2d8f",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_009_f20f53",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_010_d8e8f5",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_011_e36d3d",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_012_5e0217",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_013_fbfa1e",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_014_b49ba6",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_015_02e119",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_016_55ac06",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_017_f3cbe3",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_018_0a8891",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_019_d3dfc9",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_020_44d3e5",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_021_4aca6f",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_022_cfe80a",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_023_d211af",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_024_53b93a",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_025_d0a23c",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_026_446d9f",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_027_3d3698",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_028_0ce462",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_029_eac91c",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_030_360b76",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_031_05de55",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_032_a709ef",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_033_ae909c",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_034_301601",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_035_afba74",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_036_11fa35",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_037_d29acf",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_038_cc93b6",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_039_b55889",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_040_92ca78",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_041_b498fe",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_042_de62bd",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_043_6e9f13",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_044_ff6bb3",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_045_3e37a1",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_046_70542e",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_047_59fa31",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 2-day-old with bilious vomiting, abdominal distension. XR: double bubble sign.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duodenal Atresia",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "Malrotation",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Hirschsprung",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "NEC",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for Duodenal Atresia. This is a diagnosis case requiring prompt recognition.",
+      "why_wrong": {
+        "Malrotation": "Malrotation has different presentation and findings than Duodenal Atresia.",
+        "Hirschsprung": "Hirschsprung has different presentation and findings than Duodenal Atresia.",
+        "NEC": "NEC has different presentation and findings than Duodenal Atresia."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "obstruction",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "pedi_neon_048_0365df",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_049_e6b139",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "advanced",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  },
+  {
+    "id": "pedi_neon_050_cd9252",
+    "specialty": "pediatrics",
+    "subspecialty": "neonatology",
+    "concept": "imaging_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "intermediate",
+    "question": "A 32-week preemie with respiratory distress, grunting, nasal flaring. CXR: ground glass.",
+    "options": [
+      {
+        "id": "a",
+        "text": "RDS",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "TTN",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "Pneumonia",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "Pneumothorax",
+        "isCorrect": false
+      }
+    ],
+    "explanation": {
+      "why_correct": "The presentation is classic for RDS. This is a imaging_interpretation case requiring prompt recognition.",
+      "why_wrong": {
+        "TTN": "TTN has different presentation and findings than RDS.",
+        "Pneumonia": "Pneumonia has different presentation and findings than RDS.",
+        "Pneumothorax": "Pneumothorax has different presentation and findings than RDS."
+      }
+    },
+    "trap_type": "imaging_misinterpretation",
+    "tags": [
+      "neonate",
+      "respiratory",
+      "prematurity"
+    ]
+  }
+]
