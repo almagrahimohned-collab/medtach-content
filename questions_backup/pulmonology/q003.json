@@ -1,0 +1,19 @@
+{
+  "id": "q_pulmo_004",
+  "subject": "Pulmonology",
+  "system": "Respiratory",
+  "topic": "Asthma",
+  "difficulty": "beginner",
+  "question": "A 22-year-old woman presents with recurrent episodes of wheezing, chest tightness, and dry cough, especially at night. Symptoms are triggered by cold air and exercise. PFT shows FEV1 65% predicted with 15% improvement after bronchodilator. What is the best initial maintenance therapy?",
+  "options": [
+    { "id": "A", "text": "Short-acting beta-agonist (SABA) as needed only", "isCorrect": false, "explanation": "SABA alone is for intermittent asthma (symptoms <2x/week). This patient has persistent symptoms (nighttime, frequent). GINA no longer recommends SABA-only for safety reasons. Low-dose ICS is first-line for persistent asthma." },
+    { "id": "B", "text": "Low-dose inhaled corticosteroid (ICS) daily", "isCorrect": true, "explanation": "Persistent asthma requires daily controller medication. Low-dose ICS is first-line for mild persistent asthma. Reduces airway inflammation, prevents exacerbations. Can use ICS-formoterol as both maintenance and reliever (SMART therapy per GINA)." },
+    { "id": "C", "text": "Oral montelukast", "isCorrect": false, "explanation": "Montelukast (leukotriene receptor antagonist) is second-line or add-on therapy, not first-line. Less effective than ICS for airway inflammation. Used for exercise-induced or allergic asthma as adjunct. ICS first-line." },
+    { "id": "D", "text": "Long-acting beta-agonist (LABA) monotherapy", "isCorrect": false, "explanation": "LABA monotherapy without ICS is CONTRAINDICATED in asthma due to increased risk of asthma-related death (SMART trial). LABAs must always be combined with ICS in asthma." },
+    { "id": "E", "text": "Omalizumab (anti-IgE)", "isCorrect": false, "explanation": "Omalizumab is for severe allergic asthma not controlled with high-dose ICS+LABA. Step 5 therapy. Not first-line for mild-moderate persistent asthma. Reserved for refractory cases." }
+  ],
+  "educationalObjective": "Initiate appropriate step-wise therapy for persistent asthma: low-dose ICS first-line. Never use LABA without ICS. SABA alone no longer recommended by GINA.",
+  "keyTakeaway": "Asthma: ICS first-line for persistent symptoms. LABA only with ICS (never alone). SMART therapy (ICS-formoterol) for maintenance + reliever.",
+  "references": ["GINA Asthma Guidelines 2024", "NAEPP Asthma Guidelines"],
+  "stats": { "correctPercentage": 68, "avgTimeSeconds": 85 }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q_pulmo_001",
+  "subject": "Pulmonology",
+  "system": "Respiratory",
+  "topic": "Respiratory Infections",
+  "difficulty": "beginner",
+  "question": "A 25-year-old previously healthy man presents with productive cough with green sputum, fever to 39°C, and right-sided pleuritic chest pain for 5 days. CXR shows right lower lobe consolidation with air bronchograms. WBC 16,500, CRP 145. What is the most appropriate initial antibiotic regimen?",
+  "media": { "type": "xray", "url": "", "description": "CXR: Right lower lobe consolidation with air bronchograms" },
+  "options": [
+    { "id": "A", "text": "Ceftriaxone + Azithromycin", "isCorrect": true, "explanation": "For non-ICU CAP, ceftriaxone (covers typical bacteria: S. pneumoniae, H. influenzae) + azithromycin (covers atypicals: Mycoplasma, Chlamydia, Legionella) is standard. CURB-65 score 0 = outpatient management possible. Start antibiotics within 4 hours." },
+    { "id": "B", "text": "Vancomycin + Piperacillin-Tazobactam", "isCorrect": false, "explanation": "This is for healthcare-associated or hospital-acquired pneumonia (HCAP/HAP), or severe CAP with risk factors for MRSA/Pseudomonas. Unnecessary broad-spectrum coverage for community-acquired pneumonia in a healthy young patient." },
+    { "id": "C", "text": "Amoxicillin alone", "isCorrect": false, "explanation": "Amoxicillin alone does NOT cover atypical organisms (Mycoplasma, Chlamydia, Legionella) which are common in CAP in young adults. Combination therapy with a macrolide or doxycycline is recommended for atypical coverage." },
+    { "id": "D", "text": "Oseltamivir monotherapy", "isCorrect": false, "explanation": "Oseltamivir is antiviral for influenza, not antibacterial. CAP is bacterial (consolidation, leukocytosis, CRP). Antiviral only if influenza suspected during flu season, and bacterial coverage still needed." },
+    { "id": "E", "text": "Isoniazid + Rifampin + Pyrazinamide + Ethambutol", "isCorrect": false, "explanation": "This is the RIPE regimen for tuberculosis. TB typically has upper lobe involvement, cavitation, night sweats, weight loss, and slower onset over weeks-months, not acute presentation with lobar consolidation." }
+  ],
+  "educationalObjective": "Select appropriate empiric antibiotics for community-acquired pneumonia: cover typical bacteria AND atypical organisms. Use CURB-65 to determine treatment setting.",
+  "keyTakeaway": "CAP treatment: Cover typicals (ceftriaxone) + atypicals (azithromycin). Start antibiotics within 4 hours. CURB-65 determines outpatient vs inpatient management.",
+  "references": ["IDSA/ATS CAP Guidelines 2023", "UpToDate: Community-Acquired Pneumonia"],
+  "stats": { "correctPercentage": 70, "avgTimeSeconds": 90 }
+}

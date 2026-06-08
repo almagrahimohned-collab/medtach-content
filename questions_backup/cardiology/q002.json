@@ -1,0 +1,20 @@
+{
+  "id": "q_cardio_002",
+  "subject": "Cardiology",
+  "system": "Cardiovascular",
+  "topic": "Arrhythmias",
+  "difficulty": "beginner",
+  "question": "A 45-year-old woman presents with palpitations and irregular heartbeat for 3 days. She drinks 4 cups of coffee daily. ECG shows absent P waves with irregularly irregular ventricular response at 130 bpm. What is the most appropriate next step in management?",
+  "media": { "type": "ecg", "url": "", "description": "ECG: Absent P waves, irregularly irregular rhythm at 130 bpm" },
+  "options": [
+    { "id": "A", "text": "Immediate electrical cardioversion", "isCorrect": false, "explanation": "Cardioversion is indicated for UNSTABLE patients (hypotension, altered mental status, chest pain). This patient is stable. Rate control is first-line. If cardioversion needed, must exclude atrial thrombus if >48h onset." },
+    { "id": "B", "text": "Rate control with beta-blocker or calcium channel blocker", "isCorrect": true, "explanation": "For stable atrial fibrillation with RVR, rate control is first-line. Beta-blockers (metoprolol) or non-dihydropyridine CCBs (diltiazem) are preferred. Rhythm control reserved for refractory symptoms. CHA₂DS₂-VASc score guides anticoagulation." },
+    { "id": "C", "text": "Start amiodarone for rhythm control", "isCorrect": false, "explanation": "Amiodarone is a rhythm control agent, not first-line. Rate control is preferred initially for stable AF. Amiodarone has significant toxicity (pulmonary fibrosis, thyroid dysfunction, liver toxicity) limiting long-term use." },
+    { "id": "D", "text": "Start warfarin immediately", "isCorrect": false, "explanation": "Anticoagulation is indicated based on CHA₂DS₂-VASc score, not automatically. Calculate score first. If score ≥2 in females or ≥1 in males, anticoagulation indicated. DOACs preferred over warfarin." },
+    { "id": "E", "text": "Refer for catheter ablation", "isCorrect": false, "explanation": "Ablation is reserved for symptomatic AF refractory to medical therapy or as second-line. First episode management is rate control. Ablation is not the initial approach for new-onset AF." }
+  ],
+  "educationalObjective": "Understand the management of stable atrial fibrillation: rate control first, calculate stroke risk with CHA₂DS₂-VASc, and determine need for anticoagulation.",
+  "keyTakeaway": "In stable AF with RVR: rate control first (beta-blocker or CCB). Anticoagulate based on CHA₂DS₂-VASc score. Cardioversion only if unstable.",
+  "references": ["AHA/ACC/HRS AF Guidelines 2023", "ESC AF Guidelines 2024"],
+  "stats": { "correctPercentage": 65, "avgTimeSeconds": 95 }
+}

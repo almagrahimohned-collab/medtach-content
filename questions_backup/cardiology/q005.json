@@ -1,0 +1,19 @@
+{
+  "id": "q_cardio_005",
+  "subject": "Cardiology",
+  "system": "Cardiovascular",
+  "topic": "Valvular Disease",
+  "difficulty": "beginner",
+  "question": "A 30-year-old IV drug user presents with fever 39.5°C, chills, and new-onset holosystolic murmur at the left sternal border. Blood cultures grow Staphylococcus aureus. What is the most likely diagnosis?",
+  "options": [
+    { "id": "A", "text": "Rheumatic Heart Disease", "isCorrect": false, "explanation": "Rheumatic heart disease is caused by Group A Streptococcus (not S. aureus), typically affects mitral valve causing regurgitation or stenosis. Develops years after rheumatic fever. Not acute presentation with S. aureus bacteremia." },
+    { "id": "B", "text": "Infective Endocarditis", "isCorrect": true, "explanation": "IV drug use + fever + new murmur + S. aureus bacteremia = infective endocarditis until proven otherwise. S. aureus is the most common cause in IVDU. Tricuspid valve commonly affected (left sternal border murmur). Treat with prolonged IV antibiotics (4-6 weeks)." },
+    { "id": "C", "text": "Acute Pericarditis", "isCorrect": false, "explanation": "Pericarditis presents with pleuritic chest pain, pericardial friction rub (not holosystolic murmur), and diffuse ST elevation on ECG. Blood cultures typically negative. Not associated with new valvular murmur." },
+    { "id": "D", "text": "Septic Shock without endocarditis", "isCorrect": false, "explanation": "While S. aureus bacteremia can cause sepsis, the presence of a NEW MURMUR strongly suggests endocarditis with valvular involvement. Echo is needed to confirm vegetations. Treatment differs: prolonged IV antibiotics for endocarditis." },
+    { "id": "E", "text": "Dilated Cardiomyopathy", "isCorrect": false, "explanation": "Dilated cardiomyopathy presents with heart failure symptoms, S3 gallop, and cardiomegaly on CXR. Not associated with acute fever, bacteremia, or new holosystolic murmur. Develops over months-years." }
+  ],
+  "educationalObjective": "Recognize infective endocarditis in at-risk populations: IV drug use, prosthetic valves, congenital heart disease. S. aureus is most common cause in IVDU.",
+  "keyTakeaway": "IVDU + fever + new murmur + S. aureus = Infective endocarditis. Treat with prolonged IV antibiotics (4-6 weeks). Echo diagnostic.",
+  "references": ["AHA Infective Endocarditis Guidelines 2023", "Duke Criteria for Endocarditis"],
+  "stats": { "correctPercentage": 80, "avgTimeSeconds": 65 }
+}

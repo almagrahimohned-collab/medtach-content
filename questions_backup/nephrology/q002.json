@@ -1,0 +1,19 @@
+{
+  "id": "q_nephro_002",
+  "subject": "Nephrology",
+  "system": "Renal",
+  "topic": "Chronic Kidney Disease",
+  "difficulty": "beginner",
+  "question": "A 65-year-old diabetic woman has eGFR 28 mL/min, urine albumin 450 mg/g. What is her CKD stage and most important management?",
+  "options": [
+    { "id": "A", "text": "Stage 4 CKD - ACEi/ARB + prepare for RRT", "isCorrect": true, "explanation": "eGFR 28 = Stage 4 (15-29). Start ACEi/ARB for proteinuria (A3: >300 mg/g). Nephrology referral. Prepare for renal replacement therapy: AV fistula when eGFR <20. Anemia and bone management." },
+    { "id": "B", "text": "Stage 3 CKD - Dietary modification only", "isCorrect": false, "explanation": "eGFR 28 is Stage 4, not Stage 3 (30-59). Stage 4 requires more aggressive management including RRT preparation." },
+    { "id": "C", "text": "Stage 5 CKD - Start dialysis", "isCorrect": false, "explanation": "Stage 5 = eGFR <15 or dialysis. At eGFR 28, dialysis not yet indicated. Prepare (AV fistula) but don't start until eGFR <15 or uremic symptoms." },
+    { "id": "D", "text": "Stage 2 CKD - Monitor annually", "isCorrect": false, "explanation": "Stage 2 = eGFR 60-89 with kidney damage markers. This is Stage 4 requiring intensive management." },
+    { "id": "E", "text": "Normal renal function - No intervention", "isCorrect": false, "explanation": "eGFR 28 is severely reduced. This patient needs immediate nephrology referral and CKD management." }
+  ],
+  "educationalObjective": "Stage CKD by eGFR and albuminuria. Stage 4 requires nephrology referral, RRT preparation, and complication management.",
+  "keyTakeaway": "CKD Stage 4: eGFR 15-29. ACEi/ARB for proteinuria. AV fistula when eGFR <20. Manage anemia, bone disease, acidosis.",
+  "references": ["KDIGO CKD Guidelines 2024"],
+  "stats": { "correctPercentage": 70, "avgTimeSeconds": 80 }
+}
