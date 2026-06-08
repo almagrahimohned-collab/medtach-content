@@ -1,0 +1,58 @@
+[
+  {
+    "id": "uw_cardio_001",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 62-year-old man with a history of hypertension and type 2 diabetes presents to the emergency department with acute-onset substernal chest pressure that began 90 minutes ago while he was eating dinner. The pain is described as 'an elephant sitting on my chest' and radiates to his left shoulder. He is diaphoretic and nauseated. His blood pressure is 150/92 mm Hg, heart rate is 104 bpm, respiratory rate is 22/min, and oxygen saturation is 94% on room air. On examination, he has an S4 gallop but no murmurs. An ECG shows ST-segment elevation of 3 mm in leads V1 through V4 with reciprocal ST depression in leads II, III, and aVF. What is the most appropriate next step in management?",
+    "options": [
+      {"id": "a", "text": "Administer aspirin 324 mg chewed, ticagrelor 180 mg, heparin bolus, and activate the cardiac catheterization laboratory for primary percutaneous coronary intervention", "isCorrect": true},
+      {"id": "b", "text": "Administer aspirin 324 mg chewed, start a nitroglycerin infusion, and admit to the telemetry unit for observation and stress testing in the morning", "isCorrect": false},
+      {"id": "c", "text": "Administer tenecteplase (TNK) immediately because the patient is within the 3-hour window for thrombolysis", "isCorrect": false},
+      {"id": "d", "text": "Obtain a CT angiogram of the chest to rule out aortic dissection before initiating any antiplatelet therapy", "isCorrect": false},
+      {"id": "e", "text": "Start aspirin and clopidogrel, admit to the coronary care unit, and schedule cardiac catheterization for the next morning", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient presents with classic ST-elevation myocardial infarction (STEMI): acute substernal chest pressure, ST elevation in V1-V4 (indicating anterior wall/LAD territory), and reciprocal changes. The standard of care for STEMI is immediate reperfusion via primary percutaneous coronary intervention (PCI). The patient should receive dual antiplatelet therapy (aspirin 324 mg chewed + P2Y12 inhibitor such as ticagrelor 180 mg), anticoagulation (unfractionated heparin), and emergent activation of the cardiac catheterization laboratory. The goal door-to-balloon time is ≤90 minutes. Primary PCI is preferred over thrombolysis when it can be performed within 120 minutes of first medical contact, as it provides superior rates of reperfusion, lower rates of intracranial hemorrhage, and lower mortality.",
+      "why_wrong": {
+        "b": "This approach is appropriate for unstable angina or NSTEMI, not STEMI. ST elevation on ECG mandates emergent reperfusion, not observation and delayed stress testing. Every 30-minute delay increases 1-year mortality by 7.5%. Nitroglycerin provides symptomatic relief but does not treat the underlying occlusion.",
+        "c": "Thrombolytics are indicated when primary PCI cannot be performed within 120 minutes of first medical contact. In this scenario, the patient presented within 90 minutes and PCI is available, making it the preferred strategy. Thrombolytics have higher rates of intracranial hemorrhage (1% vs 0.1%), lower rates of TIMI 3 flow (50-60% vs 90-95%), and higher rates of re-occlusion compared to primary PCI.",
+        "d": "While aortic dissection can cause ST elevation (if the dissection involves the coronary ostia), this patient's presentation is classic for STEMI rather than dissection. He has no tearing interscapular pain, pulse deficits, or widened mediastinum. Obtaining a CT angiogram would delay life-saving reperfusion therapy. The ECG findings are typical for anterior STEMI, not dissection.",
+        "e": "Delaying PCI to the next morning is inappropriate for STEMI. The standard of care is emergent PCI within 90 minutes of presentation. Delaying reperfusion increases myocardial necrosis, reduces the chance of myocardial salvage, and increases mortality and the risk of mechanical complications (papillary muscle rupture, ventricular septal defect, free wall rupture)."
+      },
+      "clinical_pearl": "Time is myocardium. The 2013 ACCF/AHA STEMI guidelines emphasize: (1) Door-to-balloon time ≤90 minutes for primary PCI, (2) If PCI cannot be performed within 120 minutes, administer fibrinolytic therapy within 30 minutes of presentation (door-to-needle time), (3) Every 30-minute delay in reperfusion increases relative mortality by 7.5% at 1 year. Remember: the ECG diagnosis of STEMI is made by ST elevation ≥1 mm in ≥2 contiguous limb leads or ≥2 mm in ≥2 contiguous precordial leads."
+    },
+    "trap_type": "management_choice",
+    "tags": ["stemi", "emergency", "pci", "reperfusion", "antiplatelet"]
+  },
+  {
+    "id": "uw_cardio_002",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old woman with no significant past medical history presents to the emergency department with sharp, pleuritic chest pain that began 24 hours ago. She reports that the pain is worse when lying flat and improves when sitting forward. She had an upper respiratory infection 1 week ago. Vital signs show temperature 38.1°C, blood pressure 110/70 mm Hg, heart rate 98 bpm. Examination reveals a triphasic pericardial friction rub best heard at the left lower sternal border. ECG shows diffuse ST-segment elevation (concave-up) in leads I, II, III, aVF, and V2-V6 with PR-segment depression in lead II. There are no reciprocal ST-segment changes. Troponin I is 2.5 ng/mL (elevated). What is the most likely diagnosis and most appropriate initial treatment?",
+    "options": [
+      {"id": "a", "text": "Acute pericarditis; ibuprofen 600 mg three times daily plus colchicine 0.5 mg twice daily for 3 months", "isCorrect": true},
+      {"id": "b", "text": "Acute myocardial infarction; aspirin, heparin, and emergent cardiac catheterization", "isCorrect": false},
+      {"id": "c", "text": "Myocarditis; prednisone 60 mg daily with rapid taper over 2 weeks", "isCorrect": false},
+      {"id": "d", "text": "Pulmonary embolism; low-molecular-weight heparin and CT pulmonary angiography", "isCorrect": false},
+      {"id": "e", "text": "Costochondritis; reassurance and acetaminophen as needed", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has classic acute pericarditis: pleuritic chest pain that improves with sitting forward, pericardial friction rub, diffuse concave-up ST elevation without reciprocal changes, PR depression, and elevated troponin (indicating myocardial involvement = myopericarditis). The likely etiology is viral given the preceding URI. First-line treatment is NSAIDs (ibuprofen 600 mg TID for 1-2 weeks) plus colchicine 0.5 mg BID for 3 months. Colchicine reduces recurrence rates by 50% (COPE and ICAP trials). A PPI should be added for gastric protection.",
+      "why_wrong": {
+        "b": "This patient's ECG shows diffuse ST elevation without reciprocal changes - classic for pericarditis, not STEMI. STEMI would show localized ST elevation with reciprocal ST depression. Additionally, the pleuritic nature of the pain and positional relief are characteristic of pericarditis. Emergent catheterization is not indicated.",
+        "c": "While myocarditis can present similarly (chest pain, elevated troponin, viral prodrome), the presence of a friction rub and classic ECG findings favor pericarditis. Myopericarditis (pericarditis with myocardial involvement) is the more precise diagnosis. Corticosteroids are NOT first-line for pericarditis and are reserved for refractory cases because they increase recurrence rates.",
+        "d": "PE would present with dyspnea, hypoxia, and often a normal ECG or right heart strain pattern (S1Q3T3). The pleuritic pain of PE is not positional. The diffuse ST elevation and friction rub are not consistent with PE. CT angiography is not indicated without clinical suspicion for PE.",
+        "e": "Costochondritis causes reproducible chest wall tenderness on palpation. It does NOT cause diffuse ST elevation, PR depression, pericardial friction rub, or elevated troponin. These findings are specific for pericarditis/myopericarditis."
+      },
+      "clinical_pearl": "The COPE trial demonstrated that colchicine added to conventional therapy for acute pericarditis reduced the recurrence rate from 32% to 10%. The ICAP trial confirmed these findings with colchicine 0.5 mg BID for 3 months. Corticosteroids should be avoided as first-line therapy because they increase the risk of recurrent pericarditis. Pericarditis ECG evolves through 4 stages: Stage 1 (diffuse ST elevation + PR depression), Stage 2 (pseudonormalization), Stage 3 (diffuse T wave inversion), Stage 4 (normalization)."
+    },
+    "trap_type": "ecg_misread",
+    "tags": ["pericarditis", "ecg", "chest_pain", "colchicine"]
+  }
+]

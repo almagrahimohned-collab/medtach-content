@@ -1,0 +1,114 @@
+[
+  {
+    "id": "uw_cardio_001",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 62-year-old man with hypertension and diabetes presents with acute substernal chest pressure for 90 minutes. BP 150/92, HR 104. ECG shows ST elevation of 3mm in V1-V4 with reciprocal ST depression in II, III, aVF. What is the most appropriate next step?",
+    "options": [
+      {"id": "a", "text": "Aspirin 324mg chewed + ticagrelor 180mg + heparin + activate cath lab for primary PCI", "isCorrect": true},
+      {"id": "b", "text": "Aspirin + nitroglycerin infusion + admit for stress testing in the morning", "isCorrect": false},
+      {"id": "c", "text": "Administer tenecteplase immediately since patient is within thrombolytic window", "isCorrect": false},
+      {"id": "d", "text": "CT angiogram to rule out aortic dissection before antiplatelet therapy", "isCorrect": false},
+      {"id": "e", "text": "Aspirin + clopidogrel + admit to CCU for catheterization tomorrow morning", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "Classic anterior STEMI requires immediate dual antiplatelet therapy (aspirin + P2Y12 inhibitor), anticoagulation (heparin), and emergent PCI. Door-to-balloon goal ≤90 minutes. Primary PCI preferred over thrombolytics when available within 120 minutes due to superior reperfusion rates (TIMI 3 flow 90-95% vs 50-60%), lower intracranial hemorrhage risk (0.1% vs 1%), and reduced re-occlusion.",
+      "why_wrong": {
+        "b": "STEMI with ST elevation mandates emergent reperfusion, not observation and delayed stress testing. Every 30-minute delay increases 1-year mortality 7.5%.",
+        "c": "Thrombolytics are indicated when PCI cannot be performed within 120 minutes. PCI is available here and preferred - lower ICH, higher reperfusion rates, better outcomes.",
+        "d": "This presentation is classic STEMI, not dissection (no tearing pain, pulse deficit, or widened mediastinum). CT would delay life-saving reperfusion.",
+        "e": "Delaying PCI to next morning is inappropriate. Myocardial necrosis progresses with time - salvage decreases, mortality increases."
+      },
+      "clinical_pearl": "Time is myocardium. Door-to-balloon ≤90min for PCI. If PCI unavailable within 120min, door-to-needle ≤30min for thrombolytics. Every 30-minute delay increases 1-year mortality 7.5%."
+    },
+    "trap_type": "management_choice",
+    "tags": ["stemi", "emergency", "pci", "reperfusion"]
+  },
+  {
+    "id": "uw_cardio_002",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 28-year-old woman with no medical history presents with sharp pleuritic chest pain for 24 hours, worse lying flat, better sitting forward. URI 1 week ago. T 38.1°C, BP 110/70, HR 98. Pericardial friction rub present. ECG: diffuse concave-up ST elevation in I, II, III, aVF, V2-V6 with PR depression in II. No reciprocal changes. Troponin I 2.5 ng/mL. Diagnosis and treatment?",
+    "options": [
+      {"id": "a", "text": "Acute pericarditis; ibuprofen 600mg TID + colchicine 0.5mg BID for 3 months", "isCorrect": true},
+      {"id": "b", "text": "STEMI; aspirin, heparin, emergent catheterization", "isCorrect": false},
+      {"id": "c", "text": "Myocarditis; prednisone 60mg daily with rapid taper", "isCorrect": false},
+      {"id": "d", "text": "Pulmonary embolism; enoxaparin + CT pulmonary angiography", "isCorrect": false},
+      {"id": "e", "text": "Costochondritis; reassurance and acetaminophen PRN", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "Classic acute pericarditis: pleuritic positional pain + friction rub + diffuse ST elevation without reciprocal changes + PR depression + elevated troponin (myopericarditis). Viral etiology likely post-URI. NSAIDs first-line + colchicine reduces recurrence 50% (COPE/ICAP trials). Add PPI for gastric protection.",
+      "why_wrong": {
+        "b": "Diffuse ST elevation without reciprocal changes = pericarditis, not STEMI. STEMI has localized ST elevation with reciprocal depression. Pleuritic positional pain is characteristic of pericarditis.",
+        "c": "While myocarditis can present similarly, the friction rub and classic ECG favor pericarditis. Steroids NOT first-line - increase recurrence. Reserve for refractory cases.",
+        "d": "PE presents with dyspnea, hypoxia, right heart strain (S1Q3T3), not diffuse ST elevation or friction rub. CT angiography not indicated without PE suspicion.",
+        "e": "Costochondritis has reproducible chest wall tenderness, no ECG changes, no elevated troponin, no friction rub. These findings are specific for pericarditis."
+      },
+      "clinical_pearl": "Colchicine reduces pericarditis recurrence from 32% to 10% (COPE trial). ECG stages: 1-diffuse ST elevation+PR depression, 2-pseudonormalization, 3-diffuse T inversion, 4-normalization."
+    },
+    "trap_type": "ecg_misread",
+    "tags": ["pericarditis", "ecg", "colchicine", "chest_pain"]
+  },
+  {
+    "id": "uw_cardio_003",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old woman with hypertension, diabetes, and chronic kidney disease (baseline Cr 1.8) presents with progressive dyspnea on exertion, orthopnea, and bilateral leg edema over 3 weeks. BP 170/95, HR 92, SpO2 91%. JVD 8cm, bibasilar crackles, S3 gallop. Echo: LVEF 40%, moderate mitral regurgitation, left atrial enlargement. BNP 1800 pg/mL. Which medication class has the BEST evidence for reducing mortality in this patient?",
+    "options": [
+      {"id": "a", "text": "Sacubitril-valsartan (ARNI) titrated to maximum tolerated dose, because it reduces mortality compared to enalapril in HFrEF", "isCorrect": true},
+      {"id": "b", "text": "Furosemide 80mg IV BID to achieve aggressive diuresis and symptom relief", "isCorrect": false},
+      {"id": "c", "text": "Digoxin 0.125mg daily to improve cardiac contractility and reduce heart failure hospitalizations", "isCorrect": false},
+      {"id": "d", "text": "Metoprolol succinate 25mg daily started immediately to reduce heart rate and myocardial oxygen demand", "isCorrect": false},
+      {"id": "e", "text": "Amlodipine 10mg daily to control blood pressure and reduce afterload", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has HFrEF (EF 40%) with acute decompensation. Sacubitril-valsartan (ARNI) demonstrated 20% reduction in cardiovascular death or HF hospitalization compared to enalapril in the PARADIGM-HF trial. GDMT for HFrEF includes ARNI/ACEi/ARB + beta-blocker + MRA + SGLT2i (4 pillars). ARNI should be initiated after hemodynamic stabilization.",
+      "why_wrong": {
+        "b": "Furosemide is essential for decongestion but does NOT reduce mortality. It provides symptom relief only. GDMT reduces mortality; diuretics do not.",
+        "c": "Digoxin reduces HF hospitalizations but does NOT reduce mortality (DIG trial). Used for symptom control in patients already on optimal GDMT with persistent symptoms.",
+        "d": "Beta-blockers are essential GDMT but should be initiated when euvolemic, not during acute decompensation. Starting during decompensation can worsen symptoms.",
+        "e": "Amlodipine is a vasodilator but has no mortality benefit in HFrEF. Not part of GDMT. May be used for persistent hypertension but not as primary HF therapy."
+      },
+      "clinical_pearl": "GDMT for HFrEF (4 pillars): ARNI/ACEi/ARB + Beta-blocker + MRA + SGLT2i. PARADIGM-HF: ARNI 20% reduction in CV death/HF hospitalization vs enalapril. Start beta-blockers when euvolemic. SGLT2i (Dapagliflozin, Empagliflozin) reduce mortality in HFrEF regardless of diabetes status."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["heart_failure", "hfrEF", "arni", "gdmT"]
+  },
+  {
+    "id": "uw_cardio_004",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "interpretation",
+    "difficulty": "beginner",
+    "question": "A 75-year-old man with hypertension and prior stroke presents with palpitations and fatigue for 2 weeks. Examination: irregularly irregular pulse, HR 115. ECG: absent P waves, irregular RR intervals, narrow QRS. He is hemodynamically stable. What is the MOST important factor in determining whether to start anticoagulation?",
+    "options": [
+      {"id": "a", "text": "CHA₂DS₂-VASc score, because it estimates annual stroke risk and guides anticoagulation decision", "isCorrect": true},
+      {"id": "b", "text": "Left atrial size on echocardiogram, because larger atria have higher thrombus risk", "isCorrect": false},
+      {"id": "c", "text": "Duration of atrial fibrillation symptoms, because AF >48 hours requires TEE before cardioversion", "isCorrect": false},
+      {"id": "d", "text": "Ventricular rate on presentation, because rapid rates indicate higher embolic risk", "isCorrect": false},
+      {"id": "e", "text": "Serum troponin level, because elevated troponin indicates myocardial damage and higher stroke risk", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has atrial fibrillation with rapid ventricular response. CHA₂DS₂-VASc score estimates annual stroke risk: CHF (1), HTN (1), Age ≥75 (2), DM (1), Stroke/TIA (2), Vascular disease (1), Age 65-74 (1), Sex female (1). This patient: HTN (1) + Age ≥75 (2) + Prior Stroke (2) = score 5. Score ≥2 (men) or ≥3 (women) = anticoagulation recommended. DOACs (apixaban, rivaroxaban) are first-line over warfarin.",
+      "why_wrong": {
+        "b": "LA size is associated with AF but does NOT directly guide anticoagulation. CHA₂DS₂-VASc is the evidence-based risk stratification tool.",
+        "c": "Duration guides cardioversion timing (TEE vs 3 weeks anticoagulation), NOT the initial anticoagulation decision. All patients with CHA₂DS₂-VASc ≥2 need anticoagulation regardless of AF duration.",
+        "d": "Ventricular rate guides rate control therapy (beta-blockers, CCBs), not anticoagulation. Embolic risk is determined by comorbidities, not heart rate.",
+        "e": "Troponin can be elevated in AF due to supply-demand mismatch, but does NOT independently guide anticoagulation. CHA₂DS₂-VASc remains the standard risk assessment."
+      },
+      "clinical_pearl": "CHA₂DS₂-VASc: CHF(1), HTN(1), Age≥75(2), DM(1), Stroke/TIA(2), Vascular(1), Age 65-74(1), Sex female(1). Score 0: no anticoagulation. Score 1: consider. Score ≥2: anticoagulation. DOACs preferred over warfarin (better safety, no INR monitoring). HAS-BLED for bleeding risk."
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": ["atrial_fibrillation", "anticoagulation", "chadsvasc", "stroke_prevention"]
+  }
+]
