@@ -1,165 +1,18 @@
 {
-  "version": 3,
-  "total_questions": 600,
+  "version": 4,
+  "style": "uworld",
+  "total_questions": 4,
   "subjects": {
     "internal_medicine": {
       "name": "Internal Medicine",
       "icon": "heart-outline",
       "color": "#3B82F6",
+      "count": 4,
       "subspecialties": {
         "cardiology": {
-          "file": "internal_medicine/cardiology.json",
-          "count": 50,
-          "concepts": ["ecg_interpretation", "diagnosis", "management", "emergency_reasoning"],
-          "conceptDistribution": {
-            "ecg_interpretation": 15,
-            "diagnosis": 15,
-            "management": 10,
-            "emergency_reasoning": 10
-          },
-          "tags": ["chest_pain", "arrhythmia", "acs", "heart_failure", "valvular"]
-        },
-        "pulmonology": {
-          "file": "internal_medicine/pulmonology.json",
-          "count": 50,
-          "concepts": ["diagnosis", "imaging_interpretation", "management"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "imaging_interpretation": 15,
-            "management": 15
-          },
-          "tags": ["pneumonia", "copd", "asthma", "pe", "respiratory"]
-        },
-        "gastroenterology": {
-          "file": "internal_medicine/gastroenterology.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "imaging_interpretation"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "management": 20,
-            "imaging_interpretation": 10
-          },
-          "tags": ["liver", "gi_bleeding", "pancreatitis", "ibd"]
-        }
-      }
-    },
-    "surgery": {
-      "name": "Surgery",
-      "icon": "cut-outline",
-      "color": "#EF4444",
-      "subspecialties": {
-        "general_surgery": {
-          "file": "surgery/general_surgery.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "emergency_reasoning"],
-          "conceptDistribution": {
-            "diagnosis": 15,
-            "management": 20,
-            "emergency_reasoning": 15
-          },
-          "tags": ["appendicitis", "hernia", "cholecystitis", "obstruction"]
-        },
-        "trauma": {
-          "file": "surgery/trauma.json",
-          "count": 50,
-          "concepts": ["emergency_reasoning", "management", "diagnosis"],
-          "conceptDistribution": {
-            "emergency_reasoning": 25,
-            "management": 15,
-            "diagnosis": 10
-          },
-          "tags": ["atls", "shock", "hemorrhage", "fracture"]
-        },
-        "vascular": {
-          "file": "surgery/vascular.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "imaging_interpretation"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "management": 15,
-            "imaging_interpretation": 15
-          },
-          "tags": ["aneurysm", "dvt", "pe", "ischemia"]
-        }
-      }
-    },
-    "pediatrics": {
-      "name": "Pediatrics",
-      "icon": "happy-outline",
-      "color": "#F59E0B",
-      "subspecialties": {
-        "neonatology": {
-          "file": "pediatrics/neonatology.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "emergency_reasoning"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "management": 15,
-            "emergency_reasoning": 15
-          },
-          "tags": ["prematurity", "respiratory_distress", "sepsis", "jaundice"]
-        },
-        "pediatric_infectious": {
-          "file": "pediatrics/pediatric_infectious.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "pharmacology"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "management": 15,
-            "pharmacology": 15
-          },
-          "tags": ["fever", "meningitis", "pneumonia", "uti"]
-        },
-        "pediatric_emergency": {
-          "file": "pediatrics/pediatric_emergency.json",
-          "count": 50,
-          "concepts": ["emergency_reasoning", "management", "diagnosis"],
-          "conceptDistribution": {
-            "emergency_reasoning": 25,
-            "management": 15,
-            "diagnosis": 10
-          },
-          "tags": ["shock", "respiratory_failure", "seizure", "dehydration"]
-        }
-      }
-    },
-    "obgyn": {
-      "name": "OB/GYN",
-      "icon": "female-outline",
-      "color": "#8B5CF6",
-      "subspecialties": {
-        "obstetrics": {
-          "file": "obgyn/obstetrics.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "emergency_reasoning"],
-          "conceptDistribution": {
-            "diagnosis": 15,
-            "management": 20,
-            "emergency_reasoning": 15
-          },
-          "tags": ["pregnancy", "labor", "preeclampsia", "hemorrhage"]
-        },
-        "gynecology": {
-          "file": "obgyn/gynecology.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "imaging_interpretation"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "management": 15,
-            "imaging_interpretation": 15
-          },
-          "tags": ["menstrual", "pid", "endometriosis", "fibroids"]
-        },
-        "reproductive": {
-          "file": "obgyn/reproductive.json",
-          "count": 50,
-          "concepts": ["diagnosis", "management", "pharmacology"],
-          "conceptDistribution": {
-            "diagnosis": 20,
-            "management": 15,
-            "pharmacology": 15
-          },
-          "tags": ["infertility", "pcos", "menopause", "contraception"]
+          "file": "uw_style/cardiology_001_050.json",
+          "count": 4,
+          "concepts": ["ecg_interpretation", "diagnosis"]
         }
       }
     }
