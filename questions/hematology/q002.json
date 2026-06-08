@@ -5,14 +5,55 @@
   "topic": "Hemoglobinopathies",
   "question": "A 25-year-old African American man with known sickle cell disease presents with severe bone pain in his back and chest. BP 100/65, HR 110, SpO2 94%. What is the best management?",
   "options": [
-    { "id": "A", "text": "IV fluids, oxygen, IV morphine, check CBC/reticulocyte count", "isCorrect": true, "explanation": "Vaso-occlusive crisis management: aggressive IV fluids (hypotonic), oxygen if hypoxic, IV opioids (morphine or hydromorphone). Check CBC for drop in Hb (aplastic crisis) or reticulocyte count. Incentive spirometry prevents acute chest syndrome." },
-    { "id": "B", "text": "Emergency exchange transfusion", "isCorrect": false, "explanation": "Exchange transfusion is for severe complications: stroke, acute chest syndrome, priapism refractory. Not for uncomplicated VOC." },
-    { "id": "C", "text": "Start hydroxyurea immediately", "isCorrect": false, "explanation": "Hydroxyurea is for LONG-TERM prevention (reduces VOC frequency by 50%), not acute treatment. Start during stable state, not acute crisis." },
-    { "id": "D", "text": "Broad-spectrum antibiotics only", "isCorrect": false, "explanation": "Antibiotics indicated if fever (risk of infection due to functional asplenia). This patient has pain crisis without fever. Pain control and fluids are priority." },
-    { "id": "E", "text": "Corticosteroids IV", "isCorrect": false, "explanation": "Steroids not routinely indicated for VOC. May be used for acute chest syndrome. Risks include rebound pain. Pain management and fluids first-line." }
+    {
+      "id": "A",
+      "text": "IV fluids, oxygen, IV morphine, check CBC/reticulocyte count",
+      "isCorrect": true,
+      "explanation": "Vaso-occlusive crisis management: aggressive IV fluids (hypotonic), oxygen if hypoxic, IV opioids (morphine or hydromorphone). Check CBC for drop in Hb (aplastic crisis) or reticulocyte count. Incentive spirometry prevents acute chest syndrome."
+    },
+    {
+      "id": "B",
+      "text": "Emergency exchange transfusion",
+      "isCorrect": false,
+      "explanation": "Exchange transfusion is for severe complications: stroke, acute chest syndrome, priapism refractory. Not for uncomplicated VOC."
+    },
+    {
+      "id": "C",
+      "text": "Start hydroxyurea immediately",
+      "isCorrect": false,
+      "explanation": "Hydroxyurea is for LONG-TERM prevention (reduces VOC frequency by 50%), not acute treatment. Start during stable state, not acute crisis."
+    },
+    {
+      "id": "D",
+      "text": "Broad-spectrum antibiotics only",
+      "isCorrect": false,
+      "explanation": "Antibiotics indicated if fever (risk of infection due to functional asplenia). This patient has pain crisis without fever. Pain control and fluids are priority."
+    },
+    {
+      "id": "E",
+      "text": "Corticosteroids IV",
+      "isCorrect": false,
+      "explanation": "Steroids not routinely indicated for VOC. May be used for acute chest syndrome. Risks include rebound pain. Pain management and fluids first-line."
+    }
   ],
   "educationalObjective": "Manage acute vaso-occlusive crisis: IV fluids, oxygen, aggressive analgesia, monitor for complications (ACS, stroke, aplastic crisis).",
   "keyTakeaway": "Sickle cell VOC: IV fluids + oxygen + IV opioids. Incentive spirometry. Hydroxyurea for long-term prevention. Vaccinate due to functional asplenia.",
-  "references": ["ASH Sickle Cell Guidelines 2024"],
-  "stats": { "correctPercentage": 70, "avgTimeSeconds": 75 }
+  "references": [
+    "ASH Sickle Cell Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 70,
+    "avgTimeSeconds": 75
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Hematology",
+  "condition": "Hemoglobinopathies",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "treatment"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Hematology",
+  "difficulty_weight": 1
 }

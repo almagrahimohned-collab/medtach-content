@@ -6,14 +6,55 @@
   "difficulty": "beginner",
   "question": "A 55-year-old man with chronic alcoholism presents with ascites, spider angiomata, and gynecomastia. Labs: AST 120, ALT 80, AST/ALT ratio 1.5, albumin 2.8, bilirubin 3.5, INR 1.6. What complication is most concerning?",
   "options": [
-    { "id": "A", "text": "Spontaneous Bacterial Peritonitis (SBP)", "isCorrect": true, "explanation": "Ascites in cirrhosis predisposes to SBP. Diagnostic paracentesis needed (PMN >250 cells/mm³). Most common organisms: E. coli, Klebsiella. Treat with cefotaxime or ceftriaxone. Prophylaxis if prior SBP or low protein ascites." },
-    { "id": "B", "text": "Hepatocellular Carcinoma", "isCorrect": false, "explanation": "HCC is a long-term complication of cirrhosis requiring surveillance with US and AFP q6 months. Not the most immediate concern with new ascites." },
-    { "id": "C", "text": "Hepatorenal Syndrome", "isCorrect": false, "explanation": "HRS is a late complication with rapidly rising creatinine and oliguria. Not yet present (no creatinine given). SBP can precipitate HRS." },
-    { "id": "D", "text": "Esophageal Varices", "isCorrect": false, "explanation": "Varices present with hematemesis/melena. All cirrhotics need screening endoscopy. Not the immediate concern with ascites without bleeding." },
-    { "id": "E", "text": "Hepatic Encephalopathy", "isCorrect": false, "explanation": "HE presents with altered mental status, asterixis, elevated ammonia. Not yet present in this case." }
+    {
+      "id": "A",
+      "text": "Spontaneous Bacterial Peritonitis (SBP)",
+      "isCorrect": true,
+      "explanation": "Ascites in cirrhosis predisposes to SBP. Diagnostic paracentesis needed (PMN >250 cells/mm\u00b3). Most common organisms: E. coli, Klebsiella. Treat with cefotaxime or ceftriaxone. Prophylaxis if prior SBP or low protein ascites."
+    },
+    {
+      "id": "B",
+      "text": "Hepatocellular Carcinoma",
+      "isCorrect": false,
+      "explanation": "HCC is a long-term complication of cirrhosis requiring surveillance with US and AFP q6 months. Not the most immediate concern with new ascites."
+    },
+    {
+      "id": "C",
+      "text": "Hepatorenal Syndrome",
+      "isCorrect": false,
+      "explanation": "HRS is a late complication with rapidly rising creatinine and oliguria. Not yet present (no creatinine given). SBP can precipitate HRS."
+    },
+    {
+      "id": "D",
+      "text": "Esophageal Varices",
+      "isCorrect": false,
+      "explanation": "Varices present with hematemesis/melena. All cirrhotics need screening endoscopy. Not the immediate concern with ascites without bleeding."
+    },
+    {
+      "id": "E",
+      "text": "Hepatic Encephalopathy",
+      "isCorrect": false,
+      "explanation": "HE presents with altered mental status, asterixis, elevated ammonia. Not yet present in this case."
+    }
   ],
   "educationalObjective": "In cirrhotic patients with ascites, perform diagnostic paracentesis to rule out SBP (PMN >250).",
-  "keyTakeaway": "Cirrhosis + ascites → R/O SBP via paracentesis. PMN >250 = SBP. Treat with 3rd gen cephalosporin. Albumin prevents HRS.",
-  "references": ["AASLD Cirrhosis Guidelines 2024"],
-  "stats": { "correctPercentage": 65, "avgTimeSeconds": 90 }
+  "keyTakeaway": "Cirrhosis + ascites \u2192 R/O SBP via paracentesis. PMN >250 = SBP. Treat with 3rd gen cephalosporin. Albumin prevents HRS.",
+  "references": [
+    "AASLD Cirrhosis Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 65,
+    "avgTimeSeconds": 90
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Gastroenterology",
+  "condition": "Liver Disease",
+  "concept": "",
+  "cognitive_level": "recall",
+  "tags": [
+    "laboratory"
+  ],
+  "trap_type": "lab_misinterpretation",
+  "learning_objective": "Master this concept in Gastroenterology",
+  "difficulty_weight": 1
 }

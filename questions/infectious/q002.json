@@ -6,14 +6,55 @@
   "difficulty": "beginner",
   "question": "A 20-year-old college student presents with fever, severe headache, neck stiffness, and photophobia. What should be done BEFORE lumbar puncture?",
   "options": [
-    { "id": "A", "text": "Blood cultures + empiric antibiotics", "isCorrect": true, "explanation": "Blood cultures and empiric antibiotics should NOT be delayed for LP or CT. If CT indicated (papilledema, focal neuro deficits, immunocompromised, seizure, altered consciousness), start antibiotics BEFORE CT/LP. Ceftriaxone + vancomycin + dexamethasone." },
-    { "id": "B", "text": "CT head first in all patients", "isCorrect": false, "explanation": "CT is NOT routinely required before LP. Only if: papilledema, focal neuro deficits, immunocompromised, new-onset seizure, or altered consciousness. This patient has none of these." },
-    { "id": "C", "text": "Wait for LP results before antibiotics", "isCorrect": false, "explanation": "NEVER delay antibiotics for LP. Start empiric therapy immediately after blood cultures. LP can be done after antibiotics started (CSF culture yield decreases after 2-4 hours)." },
-    { "id": "D", "text": "Dexamethasone after LP results", "isCorrect": false, "explanation": "Dexamethasone should be given WITH or BEFORE first antibiotic dose (reduces mortality in pneumococcal meningitis). Do NOT wait for LP results." },
-    { "id": "E", "text": "Ceftriaxone alone", "isCorrect": false, "explanation": "Empiric meningitis treatment requires ceftriaxone + vancomycin (for resistant S. pneumoniae) + dexamethasone. Vancomycin added until sensitivities return." }
+    {
+      "id": "A",
+      "text": "Blood cultures + empiric antibiotics",
+      "isCorrect": true,
+      "explanation": "Blood cultures and empiric antibiotics should NOT be delayed for LP or CT. If CT indicated (papilledema, focal neuro deficits, immunocompromised, seizure, altered consciousness), start antibiotics BEFORE CT/LP. Ceftriaxone + vancomycin + dexamethasone."
+    },
+    {
+      "id": "B",
+      "text": "CT head first in all patients",
+      "isCorrect": false,
+      "explanation": "CT is NOT routinely required before LP. Only if: papilledema, focal neuro deficits, immunocompromised, new-onset seizure, or altered consciousness. This patient has none of these."
+    },
+    {
+      "id": "C",
+      "text": "Wait for LP results before antibiotics",
+      "isCorrect": false,
+      "explanation": "NEVER delay antibiotics for LP. Start empiric therapy immediately after blood cultures. LP can be done after antibiotics started (CSF culture yield decreases after 2-4 hours)."
+    },
+    {
+      "id": "D",
+      "text": "Dexamethasone after LP results",
+      "isCorrect": false,
+      "explanation": "Dexamethasone should be given WITH or BEFORE first antibiotic dose (reduces mortality in pneumococcal meningitis). Do NOT wait for LP results."
+    },
+    {
+      "id": "E",
+      "text": "Ceftriaxone alone",
+      "isCorrect": false,
+      "explanation": "Empiric meningitis treatment requires ceftriaxone + vancomycin (for resistant S. pneumoniae) + dexamethasone. Vancomycin added until sensitivities return."
+    }
   ],
   "educationalObjective": "Start empiric antibiotics and dexamethasone BEFORE LP or CT. Do not delay treatment for diagnostic procedures.",
-  "keyTakeaway": "Meningitis: Blood cultures → Antibiotics + Dexamethasone → LP (if no contraindications). Ceftriaxone + Vancomycin + Dexamethasone.",
-  "references": ["IDSA Meningitis Guidelines 2024"],
-  "stats": { "correctPercentage": 58, "avgTimeSeconds": 85 }
+  "keyTakeaway": "Meningitis: Blood cultures \u2192 Antibiotics + Dexamethasone \u2192 LP (if no contraindications). Ceftriaxone + Vancomycin + Dexamethasone.",
+  "references": [
+    "IDSA Meningitis Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 58,
+    "avgTimeSeconds": 85
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Infectious Disease",
+  "condition": "Meningitis",
+  "concept": "",
+  "cognitive_level": "interpretation",
+  "tags": [
+    "imaging"
+  ],
+  "trap_type": "imaging_misinterpretation",
+  "learning_objective": "Master this concept in Infectious Disease",
+  "difficulty_weight": 1
 }

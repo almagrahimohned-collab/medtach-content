@@ -6,14 +6,55 @@
   "difficulty": "beginner",
   "question": "A 45-year-old woman with gallstones presents with severe epigastric pain radiating to back, nausea, and vomiting after eating fatty meal. Lipase 3500 U/L. What is the best initial management?",
   "options": [
-    { "id": "A", "text": "IV fluids, NPO, pain control", "isCorrect": true, "explanation": "Acute pancreatitis management: aggressive IV fluids (LR preferred), NPO (bowel rest), IV opioids for pain. Most cases mild and self-limited. Identify and treat etiology (gallstones). ERCP if cholangitis present." },
-    { "id": "B", "text": "Emergency ERCP with sphincterotomy", "isCorrect": false, "explanation": "ERCP indicated for gallstone pancreatitis WITH cholangitis or persistent biliary obstruction. Not routine for all pancreatitis. Timing: within 24-48h for urgent indications." },
-    { "id": "C", "text": "IV antibiotics (imipenem)", "isCorrect": false, "explanation": "Prophylactic antibiotics NOT recommended in acute pancreatitis (even severe). Only if infected necrosis confirmed (CT-guided aspiration). Overuse promotes resistant organisms." },
-    { "id": "D", "text": "Immediate cholecystectomy", "isCorrect": false, "explanation": "Cholecystectomy delayed until pancreatitis resolves (same admission for mild cases). Immediate surgery risks worsening inflammation and complications." },
-    { "id": "E", "text": "Octreotide infusion", "isCorrect": false, "explanation": "Octreotide not shown to improve outcomes in acute pancreatitis. No longer recommended. Supportive care (fluids, NPO, analgesia) remains standard." }
+    {
+      "id": "A",
+      "text": "IV fluids, NPO, pain control",
+      "isCorrect": true,
+      "explanation": "Acute pancreatitis management: aggressive IV fluids (LR preferred), NPO (bowel rest), IV opioids for pain. Most cases mild and self-limited. Identify and treat etiology (gallstones). ERCP if cholangitis present."
+    },
+    {
+      "id": "B",
+      "text": "Emergency ERCP with sphincterotomy",
+      "isCorrect": false,
+      "explanation": "ERCP indicated for gallstone pancreatitis WITH cholangitis or persistent biliary obstruction. Not routine for all pancreatitis. Timing: within 24-48h for urgent indications."
+    },
+    {
+      "id": "C",
+      "text": "IV antibiotics (imipenem)",
+      "isCorrect": false,
+      "explanation": "Prophylactic antibiotics NOT recommended in acute pancreatitis (even severe). Only if infected necrosis confirmed (CT-guided aspiration). Overuse promotes resistant organisms."
+    },
+    {
+      "id": "D",
+      "text": "Immediate cholecystectomy",
+      "isCorrect": false,
+      "explanation": "Cholecystectomy delayed until pancreatitis resolves (same admission for mild cases). Immediate surgery risks worsening inflammation and complications."
+    },
+    {
+      "id": "E",
+      "text": "Octreotide infusion",
+      "isCorrect": false,
+      "explanation": "Octreotide not shown to improve outcomes in acute pancreatitis. No longer recommended. Supportive care (fluids, NPO, analgesia) remains standard."
+    }
   ],
   "educationalObjective": "Manage acute pancreatitis supportively: aggressive IV fluids, NPO, pain control. ERCP only if cholangitis. Antibiotics only if infected necrosis.",
   "keyTakeaway": "Pancreatitis: Fluids, NPO, pain control. Lipase >3x normal = diagnostic. Ranson/Glasgow criteria for severity.",
-  "references": ["AGA Acute Pancreatitis Guidelines 2024"],
-  "stats": { "correctPercentage": 70, "avgTimeSeconds": 75 }
+  "references": [
+    "AGA Acute Pancreatitis Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 70,
+    "avgTimeSeconds": 75
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Gastroenterology",
+  "condition": "Pancreatic Disease",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "treatment"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Gastroenterology",
+  "difficulty_weight": 1
 }

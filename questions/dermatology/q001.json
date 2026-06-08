@@ -5,14 +5,55 @@
   "topic": "Papulosquamous Disorders",
   "question": "A 30-year-old man presents with well-demarcated erythematous plaques with silvery scales on his elbows, knees, and scalp. Nails show pitting. He also has joint pain in his hands. What is the most appropriate systemic therapy?",
   "options": [
-    { "id": "A", "text": "Methotrexate 15mg weekly", "isCorrect": true, "explanation": "Psoriasis with psoriatic arthritis requires systemic therapy. Methotrexate is first-line DMARD for both skin and joint involvement. Biologics (anti-TNF, anti-IL17) if MTX fails or severe disease. Topicals alone insufficient for arthritis." },
-    { "id": "B", "text": "Topical corticosteroids only", "isCorrect": false, "explanation": "Topical steroids treat skin plaques but NOT joint involvement. Psoriatic arthritis requires systemic DMARD therapy to prevent joint destruction." },
-    { "id": "C", "text": "Ketoconazole cream", "isCorrect": false, "explanation": "Antifungals are for fungal infections (tinea). Psoriasis is autoimmune, not fungal. Silvery scales + nail pitting are classic psoriasis." },
-    { "id": "D", "text": "Acyclovir", "isCorrect": false, "explanation": "Acyclovir is antiviral for herpes. Not indicated for psoriasis which is autoimmune." },
-    { "id": "E", "text": "No treatment, self-limited", "isCorrect": false, "explanation": "Psoriasis is CHRONIC, not self-limited. With arthritis, systemic treatment essential to prevent permanent joint damage." }
+    {
+      "id": "A",
+      "text": "Methotrexate 15mg weekly",
+      "isCorrect": true,
+      "explanation": "Psoriasis with psoriatic arthritis requires systemic therapy. Methotrexate is first-line DMARD for both skin and joint involvement. Biologics (anti-TNF, anti-IL17) if MTX fails or severe disease. Topicals alone insufficient for arthritis."
+    },
+    {
+      "id": "B",
+      "text": "Topical corticosteroids only",
+      "isCorrect": false,
+      "explanation": "Topical steroids treat skin plaques but NOT joint involvement. Psoriatic arthritis requires systemic DMARD therapy to prevent joint destruction."
+    },
+    {
+      "id": "C",
+      "text": "Ketoconazole cream",
+      "isCorrect": false,
+      "explanation": "Antifungals are for fungal infections (tinea). Psoriasis is autoimmune, not fungal. Silvery scales + nail pitting are classic psoriasis."
+    },
+    {
+      "id": "D",
+      "text": "Acyclovir",
+      "isCorrect": false,
+      "explanation": "Acyclovir is antiviral for herpes. Not indicated for psoriasis which is autoimmune."
+    },
+    {
+      "id": "E",
+      "text": "No treatment, self-limited",
+      "isCorrect": false,
+      "explanation": "Psoriasis is CHRONIC, not self-limited. With arthritis, systemic treatment essential to prevent permanent joint damage."
+    }
   ],
   "educationalObjective": "Treat psoriasis with psoriatic arthritis systemically: MTX first-line. Biologics for severe or refractory disease.",
   "keyTakeaway": "Psoriasis + arthritis = systemic therapy (MTX first-line). Nail pitting common. Anti-IL17 (secukinumab) highly effective for both skin and joints.",
-  "references": ["AAD/NPF Psoriasis Guidelines 2024"],
-  "stats": { "correctPercentage": 76, "avgTimeSeconds": 65 }
+  "references": [
+    "AAD/NPF Psoriasis Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 76,
+    "avgTimeSeconds": 65
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Dermatology",
+  "condition": "Papulosquamous Disorders",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "treatment"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Dermatology",
+  "difficulty_weight": 1
 }

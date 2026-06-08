@@ -6,14 +6,57 @@
   "difficulty": "beginner",
   "question": "A 68-year-old man with 40 pack-year smoking history presents with progressive dyspnea and chronic productive cough over 10 years. PFT shows FEV1/FVC <0.70 with FEV1 45% predicted. No significant bronchodilator reversibility. What is the most appropriate classification and treatment?",
   "options": [
-    { "id": "A", "text": "GOLD Stage 2 (Moderate) - LABA or LAMA monotherapy", "isCorrect": false, "explanation": "FEV1 45% = GOLD Stage 3 (Severe), not Stage 2 (50-79%). Stage 2 uses monotherapy. Stage 3 requires dual bronchodilation." },
-    { "id": "B", "text": "GOLD Stage 3 (Severe) - LABA + LAMA combination", "isCorrect": true, "explanation": "GOLD Stage 3 = FEV1 30-49%. Treatment: dual bronchodilation with LABA + LAMA. Add ICS if recurrent exacerbations or eosinophil count >300. Smoking cessation is most important intervention." },
-    { "id": "C", "text": "GOLD Stage 4 (Very Severe) - LABA + LAMA + ICS", "isCorrect": false, "explanation": "GOLD Stage 4 = FEV1 <30% or FEV1 <50% with chronic respiratory failure. This patient is Stage 3 (FEV1 45%). ICS added for recurrent exacerbations, not based on FEV1 alone." },
-    { "id": "D", "text": "Start oral prednisone 40mg daily", "isCorrect": false, "explanation": "Oral steroids are for ACUTE exacerbations (5-7 day course), not chronic management of stable COPD. Long-term oral steroids cause osteoporosis, diabetes, myopathy. Inhaled therapies preferred." },
-    { "id": "E", "text": "Theophylline monotherapy", "isCorrect": false, "explanation": "Theophylline is a third-line option due to narrow therapeutic window and side effects (nausea, arrhythmias, seizures). Not recommended as monotherapy. Bronchodilators (LABA/LAMA) are first-line." }
+    {
+      "id": "A",
+      "text": "GOLD Stage 2 (Moderate) - LABA or LAMA monotherapy",
+      "isCorrect": false,
+      "explanation": "FEV1 45% = GOLD Stage 3 (Severe), not Stage 2 (50-79%). Stage 2 uses monotherapy. Stage 3 requires dual bronchodilation."
+    },
+    {
+      "id": "B",
+      "text": "GOLD Stage 3 (Severe) - LABA + LAMA combination",
+      "isCorrect": true,
+      "explanation": "GOLD Stage 3 = FEV1 30-49%. Treatment: dual bronchodilation with LABA + LAMA. Add ICS if recurrent exacerbations or eosinophil count >300. Smoking cessation is most important intervention."
+    },
+    {
+      "id": "C",
+      "text": "GOLD Stage 4 (Very Severe) - LABA + LAMA + ICS",
+      "isCorrect": false,
+      "explanation": "GOLD Stage 4 = FEV1 <30% or FEV1 <50% with chronic respiratory failure. This patient is Stage 3 (FEV1 45%). ICS added for recurrent exacerbations, not based on FEV1 alone."
+    },
+    {
+      "id": "D",
+      "text": "Start oral prednisone 40mg daily",
+      "isCorrect": false,
+      "explanation": "Oral steroids are for ACUTE exacerbations (5-7 day course), not chronic management of stable COPD. Long-term oral steroids cause osteoporosis, diabetes, myopathy. Inhaled therapies preferred."
+    },
+    {
+      "id": "E",
+      "text": "Theophylline monotherapy",
+      "isCorrect": false,
+      "explanation": "Theophylline is a third-line option due to narrow therapeutic window and side effects (nausea, arrhythmias, seizures). Not recommended as monotherapy. Bronchodilators (LABA/LAMA) are first-line."
+    }
   ],
   "educationalObjective": "Classify COPD severity using GOLD criteria (based on FEV1%) and select appropriate pharmacotherapy: dual bronchodilation for severe disease.",
   "keyTakeaway": "GOLD Stage 3 (FEV1 30-49%): LABA + LAMA dual bronchodilation. Add ICS for recurrent exacerbations. Smoking cessation crucial.",
-  "references": ["GOLD COPD Guidelines 2024", "ATS/ERS COPD Guidelines"],
-  "stats": { "correctPercentage": 48, "avgTimeSeconds": 100 }
+  "references": [
+    "GOLD COPD Guidelines 2024",
+    "ATS/ERS COPD Guidelines"
+  ],
+  "stats": {
+    "correctPercentage": 48,
+    "avgTimeSeconds": 100
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Pulmonology",
+  "condition": "COPD",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "imaging",
+    "treatment"
+  ],
+  "trap_type": "imaging_misinterpretation",
+  "learning_objective": "Master this concept in Pulmonology",
+  "difficulty_weight": 1
 }

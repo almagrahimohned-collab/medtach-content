@@ -5,14 +5,55 @@
   "topic": "Rheumatoid Arthritis",
   "question": "A 45-year-old woman presents with 2 months of bilateral hand and wrist pain with morning stiffness lasting >1 hour. Exam shows swelling of MCP and PIP joints. RF positive, anti-CCP positive. What is the best initial DMARD?",
   "options": [
-    { "id": "A", "text": "Methotrexate 15mg weekly + folic acid", "isCorrect": true, "explanation": "Methotrexate is first-line DMARD for RA. Start 15mg weekly, titrate to 25mg. Give with folic acid 1mg daily to reduce side effects (nausea, hepatotoxicity). Monitor CBC, LFTs, creatinine q3 months. Treat-to-target: remission or low disease activity." },
-    { "id": "B", "text": "Prednisone 40mg daily alone", "isCorrect": false, "explanation": "Prednisone is bridging therapy while DMARD takes effect (8-12 weeks). NOT long-term monotherapy due to osteoporosis, diabetes, infection risk. Always combine with DMARD." },
-    { "id": "C", "text": "Hydroxychloroquine alone", "isCorrect": false, "explanation": "Hydroxychloroquine is for MILD RA or combination therapy. Not adequate alone for moderate-severe RA with positive RF/anti-CCP (poor prognostic factors)." },
-    { "id": "D", "text": "Infliximab (anti-TNF) first-line", "isCorrect": false, "explanation": "Biologics (anti-TNF) are second-line after MTX failure. Start with MTX first. Biologics reserved for inadequate response after 3-6 months of MTX." },
-    { "id": "E", "text": "NSAIDs only", "isCorrect": false, "explanation": "NSAIDs treat symptoms only, do NOT prevent joint destruction. DMARD therapy essential for disease modification. NSAIDs are adjunctive, not primary therapy." }
+    {
+      "id": "A",
+      "text": "Methotrexate 15mg weekly + folic acid",
+      "isCorrect": true,
+      "explanation": "Methotrexate is first-line DMARD for RA. Start 15mg weekly, titrate to 25mg. Give with folic acid 1mg daily to reduce side effects (nausea, hepatotoxicity). Monitor CBC, LFTs, creatinine q3 months. Treat-to-target: remission or low disease activity."
+    },
+    {
+      "id": "B",
+      "text": "Prednisone 40mg daily alone",
+      "isCorrect": false,
+      "explanation": "Prednisone is bridging therapy while DMARD takes effect (8-12 weeks). NOT long-term monotherapy due to osteoporosis, diabetes, infection risk. Always combine with DMARD."
+    },
+    {
+      "id": "C",
+      "text": "Hydroxychloroquine alone",
+      "isCorrect": false,
+      "explanation": "Hydroxychloroquine is for MILD RA or combination therapy. Not adequate alone for moderate-severe RA with positive RF/anti-CCP (poor prognostic factors)."
+    },
+    {
+      "id": "D",
+      "text": "Infliximab (anti-TNF) first-line",
+      "isCorrect": false,
+      "explanation": "Biologics (anti-TNF) are second-line after MTX failure. Start with MTX first. Biologics reserved for inadequate response after 3-6 months of MTX."
+    },
+    {
+      "id": "E",
+      "text": "NSAIDs only",
+      "isCorrect": false,
+      "explanation": "NSAIDs treat symptoms only, do NOT prevent joint destruction. DMARD therapy essential for disease modification. NSAIDs are adjunctive, not primary therapy."
+    }
   ],
   "educationalObjective": "Initiate methotrexate as first-line DMARD for RA. Add folic acid. Treat-to-target with regular monitoring.",
   "keyTakeaway": "RA: MTX first-line + folic acid. Monitor CBC/LFTs. Anti-CCP + RF = poor prognosis. Biologics if MTX fails. Target: remission.",
-  "references": ["ACR RA Guidelines 2024"],
-  "stats": { "correctPercentage": 78, "avgTimeSeconds": 65 }
+  "references": [
+    "ACR RA Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 78,
+    "avgTimeSeconds": 65
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Rheumatology",
+  "condition": "Rheumatoid Arthritis",
+  "concept": "",
+  "cognitive_level": "recall",
+  "tags": [
+    "diagnosis"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Rheumatology",
+  "difficulty_weight": 1
 }

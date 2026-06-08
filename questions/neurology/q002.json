@@ -5,16 +5,62 @@
   "topic": "Cerebrovascular Disease",
   "difficulty": "beginner",
   "question": "A 65-year-old man with atrial fibrillation (not on anticoagulation) presents with sudden onset right-sided weakness and difficulty speaking for 90 minutes. BP 185/105, HR 110 irregular. NIHSS score is 14. CT head shows no hemorrhage. What is the most appropriate next step?",
-  "media": { "type": "ct", "url": "", "description": "CT head: No acute hemorrhage, hyperdense left MCA sign" },
+  "media": {
+    "type": "ct",
+    "url": "",
+    "description": "CT head: No acute hemorrhage, hyperdense left MCA sign"
+  },
   "options": [
-    { "id": "A", "text": "Administer IV tPA (Alteplase)", "isCorrect": true, "explanation": "Patient is within the 4.5-hour window for thrombolysis. CT shows no hemorrhage. NIHSS >4 indicates moderate-severe stroke. tPA improves functional outcomes. Must control BP <185/110 before administration." },
-    { "id": "B", "text": "Start aspirin 325mg immediately", "isCorrect": false, "explanation": "Aspirin is contraindicated within 24 hours of tPA administration due to increased hemorrhage risk. If tPA is given, aspirin is delayed 24 hours. Aspirin alone is for non-tPA candidates." },
-    { "id": "C", "text": "Lower blood pressure aggressively", "isCorrect": false, "explanation": "BP should NOT be aggressively lowered in acute ischemic stroke (risk of worsening ischemia). Permissive hypertension up to 220/120 is allowed. Only treat if >185/110 before tPA, using IV labetalol or nicardipine." },
-    { "id": "D", "text": "Start heparin infusion", "isCorrect": false, "explanation": "Heparin is not recommended in acute ischemic stroke due to increased hemorrhage risk without proven benefit. Anticoagulation for AF-related stroke is started days-weeks later, not acutely." },
-    { "id": "E", "text": "Obtain MRI before treatment", "isCorrect": false, "explanation": "MRI is not required before tPA if CT rules out hemorrhage. MRI delays treatment and reduces tPA benefit. 'Time is brain' - 1.9 million neurons lost per minute. Start tPA as soon as CT confirms no hemorrhage." }
+    {
+      "id": "A",
+      "text": "Administer IV tPA (Alteplase)",
+      "isCorrect": true,
+      "explanation": "Patient is within the 4.5-hour window for thrombolysis. CT shows no hemorrhage. NIHSS >4 indicates moderate-severe stroke. tPA improves functional outcomes. Must control BP <185/110 before administration."
+    },
+    {
+      "id": "B",
+      "text": "Start aspirin 325mg immediately",
+      "isCorrect": false,
+      "explanation": "Aspirin is contraindicated within 24 hours of tPA administration due to increased hemorrhage risk. If tPA is given, aspirin is delayed 24 hours. Aspirin alone is for non-tPA candidates."
+    },
+    {
+      "id": "C",
+      "text": "Lower blood pressure aggressively",
+      "isCorrect": false,
+      "explanation": "BP should NOT be aggressively lowered in acute ischemic stroke (risk of worsening ischemia). Permissive hypertension up to 220/120 is allowed. Only treat if >185/110 before tPA, using IV labetalol or nicardipine."
+    },
+    {
+      "id": "D",
+      "text": "Start heparin infusion",
+      "isCorrect": false,
+      "explanation": "Heparin is not recommended in acute ischemic stroke due to increased hemorrhage risk without proven benefit. Anticoagulation for AF-related stroke is started days-weeks later, not acutely."
+    },
+    {
+      "id": "E",
+      "text": "Obtain MRI before treatment",
+      "isCorrect": false,
+      "explanation": "MRI is not required before tPA if CT rules out hemorrhage. MRI delays treatment and reduces tPA benefit. 'Time is brain' - 1.9 million neurons lost per minute. Start tPA as soon as CT confirms no hemorrhage."
+    }
   ],
   "educationalObjective": "Recognize acute ischemic stroke and understand tPA eligibility criteria: within 4.5 hours, no hemorrhage on CT, BP <185/110, significant deficit (NIHSS >4).",
   "keyTakeaway": "IV tPA within 4.5 hours of ischemic stroke onset improves outcomes. Do not delay for MRI. Do not give aspirin within 24h of tPA. Control BP before tPA if >185/110.",
-  "references": ["AHA/ASA Acute Stroke Guidelines 2023", "NINDS tPA Trial"],
-  "stats": { "correctPercentage": 58, "avgTimeSeconds": 100 }
+  "references": [
+    "AHA/ASA Acute Stroke Guidelines 2023",
+    "NINDS tPA Trial"
+  ],
+  "stats": {
+    "correctPercentage": 58,
+    "avgTimeSeconds": 100
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Neurology",
+  "condition": "Cerebrovascular Disease",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "imaging"
+  ],
+  "trap_type": "imaging_misinterpretation",
+  "learning_objective": "Master this concept in Neurology",
+  "difficulty_weight": 1
 }

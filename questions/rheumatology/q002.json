@@ -5,14 +5,56 @@
   "topic": "Crystal Arthropathies",
   "question": "A 50-year-old man presents with sudden onset severe pain, redness, and swelling in his right great toe. He ate steak and drank beer last night. Joint aspiration shows needle-shaped negatively birefringent crystals. What is the best acute treatment?",
   "options": [
-    { "id": "A", "text": "NSAIDs (indomethacin or naproxen) or colchicine", "isCorrect": true, "explanation": "First-line for acute gout: NSAIDs (indomethacin 50mg TID) OR colchicine (1.2mg then 0.6mg 1h later). Start within 24h. Colchicine most effective within 36h. Avoid aspirin (worsens gout). Prednisone if NSAIDs/colchicine contraindicated." },
-    { "id": "B", "text": "Allopurinol 300mg daily", "isCorrect": false, "explanation": "Allopurinol is for LONG-TERM urate lowering, NOT acute attack. Starting during acute attack worsens pain (due to rapid urate changes). Start 2-4 weeks AFTER attack resolves, with colchicine prophylaxis." },
-    { "id": "C", "text": "Aspirin 650mg", "isCorrect": false, "explanation": "Aspirin WORSENS gout by inhibiting urate excretion at low doses. Never use aspirin in gout. NSAIDs, colchicine, or steroids are appropriate." },
-    { "id": "D", "text": "Joint replacement surgery", "isCorrect": false, "explanation": "Surgery is for chronic tophaceous gout with joint destruction, not acute attacks. Medical management is highly effective." },
-    { "id": "E", "text": "Probenecid", "isCorrect": false, "explanation": "Probenecid is uricosuric (second-line urate-lowering). Not for acute attacks. Used for chronic gout if allopurinol intolerant." }
+    {
+      "id": "A",
+      "text": "NSAIDs (indomethacin or naproxen) or colchicine",
+      "isCorrect": true,
+      "explanation": "First-line for acute gout: NSAIDs (indomethacin 50mg TID) OR colchicine (1.2mg then 0.6mg 1h later). Start within 24h. Colchicine most effective within 36h. Avoid aspirin (worsens gout). Prednisone if NSAIDs/colchicine contraindicated."
+    },
+    {
+      "id": "B",
+      "text": "Allopurinol 300mg daily",
+      "isCorrect": false,
+      "explanation": "Allopurinol is for LONG-TERM urate lowering, NOT acute attack. Starting during acute attack worsens pain (due to rapid urate changes). Start 2-4 weeks AFTER attack resolves, with colchicine prophylaxis."
+    },
+    {
+      "id": "C",
+      "text": "Aspirin 650mg",
+      "isCorrect": false,
+      "explanation": "Aspirin WORSENS gout by inhibiting urate excretion at low doses. Never use aspirin in gout. NSAIDs, colchicine, or steroids are appropriate."
+    },
+    {
+      "id": "D",
+      "text": "Joint replacement surgery",
+      "isCorrect": false,
+      "explanation": "Surgery is for chronic tophaceous gout with joint destruction, not acute attacks. Medical management is highly effective."
+    },
+    {
+      "id": "E",
+      "text": "Probenecid",
+      "isCorrect": false,
+      "explanation": "Probenecid is uricosuric (second-line urate-lowering). Not for acute attacks. Used for chronic gout if allopurinol intolerant."
+    }
   ],
   "educationalObjective": "Treat acute gout with NSAIDs or colchicine within 24 hours. Do NOT start allopurinol during acute attack.",
   "keyTakeaway": "Acute gout: NSAIDs or colchicine. Start within 24h. Allopurinol started LATER (2-4 weeks after attack resolves) with colchicine prophylaxis.",
-  "references": ["ACR Gout Guidelines 2024"],
-  "stats": { "correctPercentage": 72, "avgTimeSeconds": 60 }
+  "references": [
+    "ACR Gout Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 72,
+    "avgTimeSeconds": 60
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Rheumatology",
+  "condition": "Crystal Arthropathies",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "treatment",
+    "emergency"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Rheumatology",
+  "difficulty_weight": 1
 }

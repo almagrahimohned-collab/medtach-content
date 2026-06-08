@@ -6,14 +6,55 @@
   "difficulty": "beginner",
   "question": "A 65-year-old man presents with hematemesis and melena. BP 90/60, HR 115. What is the MOST important initial step?",
   "options": [
-    { "id": "A", "text": "Establish 2 large-bore IVs, start crystalloid resuscitation", "isCorrect": true, "explanation": "Hemodynamic stabilization is priority in acute UGIB. 2 large-bore (18G) IVs, crystalloid bolus, type and crossmatch blood. Then IV PPI (esomeprazole 80mg bolus + infusion). Endoscopy within 24h after stabilization." },
-    { "id": "B", "text": "Emergency upper endoscopy immediately", "isCorrect": false, "explanation": "Endoscopy should be performed AFTER hemodynamic stabilization. Unstable patient going to endoscopy risks aspiration and cardiac arrest. Resuscitate first." },
-    { "id": "C", "text": "Start octreotide infusion", "isCorrect": false, "explanation": "Octreotide is for VARICEAL bleeding (splanchnic vasoconstriction). Not all UGIB is variceal. Start after endoscopy confirms varices. PPIs and fluids first." },
-    { "id": "D", "text": "Insert nasogastric tube for lavage", "isCorrect": false, "explanation": "NG lavage has limited diagnostic/therapeutic value in UGIB. Not routinely recommended. May be used to clear stomach before endoscopy but not initial priority." },
-    { "id": "E", "text": "Immediate surgical consultation", "isCorrect": false, "explanation": "Surgery reserved for refractory bleeding despite endoscopic and interventional radiology approaches. Not first-line. Resuscitate and scope first." }
+    {
+      "id": "A",
+      "text": "Establish 2 large-bore IVs, start crystalloid resuscitation",
+      "isCorrect": true,
+      "explanation": "Hemodynamic stabilization is priority in acute UGIB. 2 large-bore (18G) IVs, crystalloid bolus, type and crossmatch blood. Then IV PPI (esomeprazole 80mg bolus + infusion). Endoscopy within 24h after stabilization."
+    },
+    {
+      "id": "B",
+      "text": "Emergency upper endoscopy immediately",
+      "isCorrect": false,
+      "explanation": "Endoscopy should be performed AFTER hemodynamic stabilization. Unstable patient going to endoscopy risks aspiration and cardiac arrest. Resuscitate first."
+    },
+    {
+      "id": "C",
+      "text": "Start octreotide infusion",
+      "isCorrect": false,
+      "explanation": "Octreotide is for VARICEAL bleeding (splanchnic vasoconstriction). Not all UGIB is variceal. Start after endoscopy confirms varices. PPIs and fluids first."
+    },
+    {
+      "id": "D",
+      "text": "Insert nasogastric tube for lavage",
+      "isCorrect": false,
+      "explanation": "NG lavage has limited diagnostic/therapeutic value in UGIB. Not routinely recommended. May be used to clear stomach before endoscopy but not initial priority."
+    },
+    {
+      "id": "E",
+      "text": "Immediate surgical consultation",
+      "isCorrect": false,
+      "explanation": "Surgery reserved for refractory bleeding despite endoscopic and interventional radiology approaches. Not first-line. Resuscitate and scope first."
+    }
   ],
   "educationalObjective": "Prioritize hemodynamic resuscitation in acute UGIB before diagnostic/therapeutic interventions.",
-  "keyTakeaway": "UGIB: 2 large-bore IVs → fluids → transfuse if needed → IV PPI → endoscopy within 24h. Glasgow-Blatchford score for risk stratification.",
-  "references": ["ACG UGIB Guidelines 2024"],
-  "stats": { "correctPercentage": 82, "avgTimeSeconds": 60 }
+  "keyTakeaway": "UGIB: 2 large-bore IVs \u2192 fluids \u2192 transfuse if needed \u2192 IV PPI \u2192 endoscopy within 24h. Glasgow-Blatchford score for risk stratification.",
+  "references": [
+    "ACG UGIB Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 82,
+    "avgTimeSeconds": 60
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Gastroenterology",
+  "condition": "GI Bleeding",
+  "concept": "",
+  "cognitive_level": "recall",
+  "tags": [
+    "diagnosis"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Gastroenterology",
+  "difficulty_weight": 1
 }

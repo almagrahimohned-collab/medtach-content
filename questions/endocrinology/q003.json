@@ -6,14 +6,55 @@
   "difficulty": "beginner",
   "question": "A 20-year-old man with type 1 diabetes presents with abdominal pain, vomiting, and confusion. Glucose 450 mg/dL, pH 7.12, HCO3 8, ketones positive. What is the most important INITIAL step?",
   "options": [
-    { "id": "A", "text": "IV Normal Saline 1-2L bolus", "isCorrect": true, "explanation": "Volume resuscitation is FIRST priority in DKA. Average fluid deficit 5-10L. Start 1-2L NS in first hour. Insulin started AFTER initial fluids to prevent worsening hypokalemia and cerebral edema." },
-    { "id": "B", "text": "IV insulin bolus then infusion", "isCorrect": false, "explanation": "Insulin started AFTER fluid resuscitation and K+ >3.3 confirmed. Starting insulin first risks severe hypokalemia and arrhythmias." },
-    { "id": "C", "text": "IV sodium bicarbonate", "isCorrect": false, "explanation": "Bicarbonate not routinely recommended (pH 7.12). Only if pH <6.9. Risks intracellular acidosis, hypokalemia, cerebral edema. Fluids + insulin correct acidosis." },
-    { "id": "D", "text": "IV potassium 40 mEq", "isCorrect": false, "explanation": "K+ replacement critical but AFTER checking serum K+. Total body K+ depleted but serum may be normal/high initially due to acidosis. Replace when K+ <5.2 and patient voiding." },
-    { "id": "E", "text": "Subcutaneous insulin lispro", "isCorrect": false, "explanation": "SC insulin inappropriate for DKA. IV regular insulin infusion standard (0.1 units/kg/hr). SC absorption unpredictable in volume-depleted patients." }
+    {
+      "id": "A",
+      "text": "IV Normal Saline 1-2L bolus",
+      "isCorrect": true,
+      "explanation": "Volume resuscitation is FIRST priority in DKA. Average fluid deficit 5-10L. Start 1-2L NS in first hour. Insulin started AFTER initial fluids to prevent worsening hypokalemia and cerebral edema."
+    },
+    {
+      "id": "B",
+      "text": "IV insulin bolus then infusion",
+      "isCorrect": false,
+      "explanation": "Insulin started AFTER fluid resuscitation and K+ >3.3 confirmed. Starting insulin first risks severe hypokalemia and arrhythmias."
+    },
+    {
+      "id": "C",
+      "text": "IV sodium bicarbonate",
+      "isCorrect": false,
+      "explanation": "Bicarbonate not routinely recommended (pH 7.12). Only if pH <6.9. Risks intracellular acidosis, hypokalemia, cerebral edema. Fluids + insulin correct acidosis."
+    },
+    {
+      "id": "D",
+      "text": "IV potassium 40 mEq",
+      "isCorrect": false,
+      "explanation": "K+ replacement critical but AFTER checking serum K+. Total body K+ depleted but serum may be normal/high initially due to acidosis. Replace when K+ <5.2 and patient voiding."
+    },
+    {
+      "id": "E",
+      "text": "Subcutaneous insulin lispro",
+      "isCorrect": false,
+      "explanation": "SC insulin inappropriate for DKA. IV regular insulin infusion standard (0.1 units/kg/hr). SC absorption unpredictable in volume-depleted patients."
+    }
   ],
   "educationalObjective": "Manage DKA: 1) Fluids first, 2) Check K+, 3) IV insulin, 4) Monitor q1h glucose/electrolytes. Identify precipitating cause.",
   "keyTakeaway": "DKA: FLUIDS FIRST (NS 1-2L), then insulin. K+ if <5.2. Bicarb only if pH <6.9. Monitor glucose q1h.",
-  "references": ["ADA DKA Guidelines 2024"],
-  "stats": { "correctPercentage": 75, "avgTimeSeconds": 80 }
+  "references": [
+    "ADA DKA Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 75,
+    "avgTimeSeconds": 80
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Endocrinology",
+  "condition": "Diabetic Ketoacidosis",
+  "concept": "",
+  "cognitive_level": "recall",
+  "tags": [
+    "diagnosis"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Endocrinology",
+  "difficulty_weight": 1
 }

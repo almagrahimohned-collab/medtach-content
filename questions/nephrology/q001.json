@@ -6,14 +6,55 @@
   "difficulty": "beginner",
   "question": "A 70-year-old man with CHF on furosemide and lisinopril presents with oliguria and creatinine rise from 1.0 to 2.8 mg/dL over 3 days. BUN/Cr ratio 28, urine Na <20, FENa <1%. What type of AKI?",
   "options": [
-    { "id": "A", "text": "Pre-renal AKI due to volume depletion + ACEi", "isCorrect": true, "explanation": "Pre-renal AKI: BUN/Cr >20, UNa <20, FENa <1%. ACEi impairs renal autoregulation. Furosemide causes volume depletion. Hold nephrotoxic agents, IV fluids, monitor output." },
-    { "id": "B", "text": "Acute Tubular Necrosis (ATN)", "isCorrect": false, "explanation": "ATN shows muddy brown casts, FENa >2%, UNa >40. Caused by prolonged ischemia or nephrotoxins. Recovery takes weeks." },
-    { "id": "C", "text": "Acute Interstitial Nephritis", "isCorrect": false, "explanation": "AIN shows WBC casts, eosinophiluria, fever, rash. Caused by drugs (NSAIDs, antibiotics, PPIs). FENa >1% unlike pre-renal." },
-    { "id": "D", "text": "Post-renal AKI", "isCorrect": false, "explanation": "Post-renal shows hydronephrosis on ultrasound. Caused by BPH, stones, tumors. Normal BUN/Cr, variable UNa." },
-    { "id": "E", "text": "Glomerulonephritis", "isCorrect": false, "explanation": "GN shows hematuria, RBC casts, proteinuria, hypertension. FENa <1% but active urinary sediment differentiates from pre-renal." }
+    {
+      "id": "A",
+      "text": "Pre-renal AKI due to volume depletion + ACEi",
+      "isCorrect": true,
+      "explanation": "Pre-renal AKI: BUN/Cr >20, UNa <20, FENa <1%. ACEi impairs renal autoregulation. Furosemide causes volume depletion. Hold nephrotoxic agents, IV fluids, monitor output."
+    },
+    {
+      "id": "B",
+      "text": "Acute Tubular Necrosis (ATN)",
+      "isCorrect": false,
+      "explanation": "ATN shows muddy brown casts, FENa >2%, UNa >40. Caused by prolonged ischemia or nephrotoxins. Recovery takes weeks."
+    },
+    {
+      "id": "C",
+      "text": "Acute Interstitial Nephritis",
+      "isCorrect": false,
+      "explanation": "AIN shows WBC casts, eosinophiluria, fever, rash. Caused by drugs (NSAIDs, antibiotics, PPIs). FENa >1% unlike pre-renal."
+    },
+    {
+      "id": "D",
+      "text": "Post-renal AKI",
+      "isCorrect": false,
+      "explanation": "Post-renal shows hydronephrosis on ultrasound. Caused by BPH, stones, tumors. Normal BUN/Cr, variable UNa."
+    },
+    {
+      "id": "E",
+      "text": "Glomerulonephritis",
+      "isCorrect": false,
+      "explanation": "GN shows hematuria, RBC casts, proteinuria, hypertension. FENa <1% but active urinary sediment differentiates from pre-renal."
+    }
   ],
   "educationalObjective": "Differentiate types of AKI using BUN/Cr ratio, urine Na, FENa, and urinary sediment.",
   "keyTakeaway": "Pre-renal: BUN/Cr >20, UNa <20, FENa <1%. ATN: FENa >2%, muddy brown casts. AIN: WBC casts, eosinophiluria.",
-  "references": ["KDIGO AKI Guidelines 2024"],
-  "stats": { "correctPercentage": 60, "avgTimeSeconds": 95 }
+  "references": [
+    "KDIGO AKI Guidelines 2024"
+  ],
+  "stats": {
+    "correctPercentage": 60,
+    "avgTimeSeconds": 95
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Nephrology",
+  "condition": "Acute Kidney Injury",
+  "concept": "",
+  "cognitive_level": "recall",
+  "tags": [
+    "laboratory"
+  ],
+  "trap_type": "lab_misinterpretation",
+  "learning_objective": "Master this concept in Nephrology",
+  "difficulty_weight": 1
 }

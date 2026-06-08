@@ -6,14 +6,56 @@
   "difficulty": "beginner",
   "question": "A 72-year-old man with history of CABG 5 years ago presents with progressive dyspnea on exertion, orthopnea requiring 3 pillows, and bilateral leg edema. BP 100/65, HR 98, RR 28, SpO2 89%. Crackles at both lung bases. BNP 1850 pg/mL. Echo shows LVEF 25%. What is the best initial management?",
   "options": [
-    { "id": "A", "text": "IV Furosemide + ACE inhibitor", "isCorrect": true, "explanation": "Acute decompensated heart failure requires immediate diuresis (IV furosemide) to relieve congestion AND afterload reduction (ACE inhibitor/ARB) to improve cardiac output. Beta-blockers are added later when the patient is stable and euvolemic." },
-    { "id": "B", "text": "Start metoprolol + digoxin", "isCorrect": false, "explanation": "Beta-blockers should NOT be started during acute decompensation - they can worsen acute heart failure. Start after stabilization and euvolemia. Digoxin is used for symptom control in chronic HF, not acute management." },
-    { "id": "C", "text": "Emergency coronary angiography", "isCorrect": false, "explanation": "Angiography is not first-line for acute decompensated HF without evidence of ongoing ischemia or ACS. Treat congestion first, then investigate etiology. This presentation is classic volume overload, not ACS." },
-    { "id": "D", "text": "IV fluids 1L bolus", "isCorrect": false, "explanation": "IV fluids would WORSEN acute decompensated heart failure by increasing preload in an already volume-overloaded patient. This is dangerous. Treatment is diuresis to remove excess fluid." },
-    { "id": "E", "text": "Verapamil for rate control", "isCorrect": false, "explanation": "Calcium channel blockers (especially verapamil) are CONTRAINDICATED in HFrEF due to negative inotropic effects that further reduce cardiac contractility. Only amlodipine is safe in HFrEF." }
+    {
+      "id": "A",
+      "text": "IV Furosemide + ACE inhibitor",
+      "isCorrect": true,
+      "explanation": "Acute decompensated heart failure requires immediate diuresis (IV furosemide) to relieve congestion AND afterload reduction (ACE inhibitor/ARB) to improve cardiac output. Beta-blockers are added later when the patient is stable and euvolemic."
+    },
+    {
+      "id": "B",
+      "text": "Start metoprolol + digoxin",
+      "isCorrect": false,
+      "explanation": "Beta-blockers should NOT be started during acute decompensation - they can worsen acute heart failure. Start after stabilization and euvolemia. Digoxin is used for symptom control in chronic HF, not acute management."
+    },
+    {
+      "id": "C",
+      "text": "Emergency coronary angiography",
+      "isCorrect": false,
+      "explanation": "Angiography is not first-line for acute decompensated HF without evidence of ongoing ischemia or ACS. Treat congestion first, then investigate etiology. This presentation is classic volume overload, not ACS."
+    },
+    {
+      "id": "D",
+      "text": "IV fluids 1L bolus",
+      "isCorrect": false,
+      "explanation": "IV fluids would WORSEN acute decompensated heart failure by increasing preload in an already volume-overloaded patient. This is dangerous. Treatment is diuresis to remove excess fluid."
+    },
+    {
+      "id": "E",
+      "text": "Verapamil for rate control",
+      "isCorrect": false,
+      "explanation": "Calcium channel blockers (especially verapamil) are CONTRAINDICATED in HFrEF due to negative inotropic effects that further reduce cardiac contractility. Only amlodipine is safe in HFrEF."
+    }
   ],
   "educationalObjective": "Manage acute decompensated heart failure: diurese first with IV furosemide, add afterload reduction (ACEi/ARB), then beta-blockers when stable and euvolemic.",
-  "keyTakeaway": "In acute HF: diurese first → add ACEi/ARB → add beta-blockers when stable. Never give IV fluids or verapamil in HFrEF.",
-  "references": ["AHA/ACC HF Guidelines 2022", "ESC HF Guidelines 2023"],
-  "stats": { "correctPercentage": 62, "avgTimeSeconds": 95 }
+  "keyTakeaway": "In acute HF: diurese first \u2192 add ACEi/ARB \u2192 add beta-blockers when stable. Never give IV fluids or verapamil in HFrEF.",
+  "references": [
+    "AHA/ACC HF Guidelines 2022",
+    "ESC HF Guidelines 2023"
+  ],
+  "stats": {
+    "correctPercentage": 62,
+    "avgTimeSeconds": 95
+  },
+  "specialty": "internal_medicine",
+  "subspecialty": "Cardiology",
+  "condition": "Heart Failure",
+  "concept": "",
+  "cognitive_level": "decision_making",
+  "tags": [
+    "treatment"
+  ],
+  "trap_type": "diagnostic_confusion",
+  "learning_objective": "Master this concept in Cardiology",
+  "difficulty_weight": 1
 }
