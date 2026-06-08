@@ -282,3 +282,144 @@
     "tags": ["hyperkalemia", "ecg", "emergency", "dialysis", "calcium"]
   }
 ]
+  {
+    "id": "uw_cardio_011",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 68-year-old woman with hypertension and atrial fibrillation (not on anticoagulation due to history of GI bleeding) presents with acute-onset severe abdominal pain out of proportion to examination findings. She is in severe distress, moaning, and diaphoretic. BP 95/60, HR 110 irregular, RR 24. Abdomen is soft with mild diffuse tenderness but no rebound or guarding. She has atrial fibrillation on monitor. Laboratory studies show WBC 18,000, lactate 6.5 mmol/L, and metabolic acidosis. CT angiography of the abdomen shows superior mesenteric artery occlusion. What is the most appropriate management?",
+    "options": [
+      {"id": "a", "text": "Emergent surgical embolectomy with possible bowel resection, because SMA occlusion causes mesenteric ischemia requiring immediate revascularization", "isCorrect": true},
+      {"id": "b", "text": "Start unfractionated heparin drip and admit for observation with serial abdominal examinations", "isCorrect": false},
+      {"id": "c", "text": "Administer intra-arterial thrombolytics via catheter-directed therapy into the superior mesenteric artery", "isCorrect": false},
+      {"id": "d", "text": "Start broad-spectrum antibiotics and admit to ICU for supportive care and blood pressure management", "isCorrect": false},
+      {"id": "e", "text": "Perform diagnostic laparoscopy to confirm the diagnosis before proceeding with definitive treatment", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has acute mesenteric ischemia from SMA embolism (AFib off anticoagulation → cardiac embolus). Pain out of proportion to exam is the classic finding. Elevated lactate and metabolic acidosis indicate bowel infarction has already begun. Emergent surgical revascularization (embolectomy) and resection of necrotic bowel is required. Without revascularization within 6-12 hours, mortality approaches 100%. The CT already confirms the diagnosis - no further diagnostic studies are needed.",
+      "why_wrong": {
+        "b": "Observation with heparin alone is insufficient when bowel ischemia/infarction is present. While heparin prevents further thrombus propagation, it does NOT revascularize already ischemic bowel. Surgery is mandatory.",
+        "c": "Catheter-directed thrombolysis may be considered in selected patients without peritoneal signs, but this patient has metabolic acidosis and lactate 6.5 indicating likely bowel infarction. Thrombolytics take hours to work and the patient needs immediate revascularization.",
+        "d": "Antibiotics are appropriate (cover gut flora) but do NOT treat the underlying vascular occlusion. Without revascularization, bowel necrosis progresses and sepsis worsens. Surgery is the definitive treatment.",
+        "e": "CT angiography has already confirmed SMA occlusion. Diagnostic laparoscopy adds unnecessary delay. The patient needs therapeutic intervention (open surgery), not additional diagnostics."
+      },
+      "clinical_pearl": "Acute mesenteric ischemia: Pain out of proportion to exam (earliest and most sensitive finding), metabolic acidosis, elevated lactate (late). Most common cause: SMA embolism (AFib, valvular disease). Survival depends on time to revascularization: <6 hours 90% survival, >12 hours <20% survival. Treatment: Surgical embolectomy + resection of necrotic bowel. Start heparin post-operatively. Second-look laparotomy in 24-48 hours."
+    },
+    "trap_type": "management_choice",
+    "tags": ["mesenteric_ischemia", "embolism", "atrial_fibrillation", "emergency_surgery"]
+  },
+  {
+    "id": "uw_cardio_012",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "pharmacology",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 72-year-old man with heart failure with reduced ejection fraction (EF 35%), hypertension, and chronic kidney disease (eGFR 35) presents with increasing dyspnea and 5kg weight gain over 2 weeks. BP 150/90, HR 78, crackles at lung bases, and 3+ bilateral pitting edema. He is on lisinopril 20mg, carvedilol 12.5mg BID, spironolactone 25mg, furosemide 80mg BID, and digoxin 0.125mg. Labs: Na 130, K+ 5.8, Cr 2.5 (baseline 1.8). ECG shows sinus rhythm, no acute changes. Which medication change is MOST appropriate?",
+    "options": [
+      {"id": "a", "text": "Discontinue spironolactone, reduce or hold lisinopril, and intensify diuresis with IV furosemide while monitoring potassium closely", "isCorrect": true},
+      {"id": "b", "text": "Add metolazone 5mg daily to potentiate furosemide and achieve more aggressive diuresis", "isCorrect": false},
+      {"id": "c", "text": "Start sodium polystyrene sulfonate (Kayexalate) 30g to treat hyperkalemia and continue all current medications", "isCorrect": false},
+      {"id": "d", "text": "Start dopamine infusion at renal dose (2-3 mcg/kg/min) to improve renal perfusion and promote diuresis", "isCorrect": false},
+      {"id": "e", "text": "Increase carvedilol to 25mg BID to reduce heart rate and improve cardiac output", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has acute decompensated HF with significant hyperkalemia (K+ 5.8) and worsening renal function (Cr 2.5 from 1.8). The combination of ACEi + MRA + CKD + acute decompensation predisposes to life-threatening hyperkalemia. Spironolactone must be stopped immediately (major contributor to hyperkalemia). Lisinopril should be reduced or held temporarily. IV furosemide should be intensified for volume removal. Once K+ normalizes and renal function improves, these medications can be cautiously reintroduced.",
+      "why_wrong": {
+        "b": "Metolazone is effective for diuretic resistance but would worsen electrolyte abnormalities (hypokalemia, hyponatremia). More importantly, it does NOT address the hyperkalemia which is the most urgent issue.",
+        "c": "Kayexalate works slowly (hours to days) and is unreliable. Continuing MRA and ACEi would continue to raise potassium. The source of hyperkalemia (spironolactone) must be removed first.",
+        "d": "Renal-dose dopamine does NOT improve renal outcomes or mortality in acute decompensated HF (ROSE-AHF trial). It may cause tachycardia and arrhythmias. Diuresis with IV furosemide is the appropriate management.",
+        "e": "Increasing beta-blocker during acute decompensation with hypotension (BP 150/90 but may drop) and hyperkalemia is contraindicated. Beta-blockers should be optimized when the patient is euvolemic and stable."
+      },
+      "clinical_pearl": "Hyperkalemia in HF: risk factors = ACEi/ARB + MRA + CKD + dehydration. Management: Stop MRA, hold/reduce ACEi/ARB, IV furosemide, ECG monitoring. If K+ >6.5 or ECG changes: Calcium gluconate, insulin+D50, NaHCO₃, dialysis. MRA can be restarted when K+ <5.0 and renal function improves. Never combine ACEi + ARB + MRA (increased hyperkalemia risk without mortality benefit per ONTARGET trial)."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["heart_failure", "hyperkalemia", "spironolactone", "acei", "diuresis"]
+  },
+  {
+    "id": "uw_cardio_013",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 42-year-old man presents with recurrent syncope that occurs at rest, often during sleep. He has no significant past medical history and takes no medications. His father died suddenly at age 44. Physical examination and echocardiogram are normal. ECG shows coved ST-segment elevation of 3 mm in V1 and V2 with T-wave inversion. What is the most appropriate management?",
+    "options": [
+      {"id": "a", "text": "Implantable cardioverter-defibrillator (ICD) placement, because Brugada syndrome carries a high risk of sudden cardiac death", "isCorrect": true},
+      {"id": "b", "text": "Electrophysiology study with programmed ventricular stimulation to risk-stratify before deciding on ICD", "isCorrect": false},
+      {"id": "c", "text": "Quinidine 600mg daily as medical therapy, with ICD placement only if breakthrough arrhythmias occur", "isCorrect": false},
+      {"id": "d", "text": "Reassurance and lifestyle modifications, because asymptomatic Brugada pattern has a benign prognosis", "isCorrect": false},
+      {"id": "e", "text": "Catheter ablation of the right ventricular outflow tract to eliminate the arrhythmogenic substrate", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has Brugada syndrome Type 1: spontaneous coved ST elevation in V1-V2 with T-wave inversion, syncope (likely due to polymorphic VT/VF), and family history of sudden cardiac death. He is HIGH RISK: spontaneous Type 1 pattern + syncope + family history. ICD is the ONLY proven therapy to prevent sudden death in high-risk Brugada patients. This is a Class I indication per guidelines.",
+      "why_wrong": {
+        "b": "This patient is already high-risk (spontaneous pattern + syncope + family history). EP study may provide additional risk information but should not delay ICD placement. Even if EP study is negative, he remains high-risk.",
+        "c": "Quinidine is used for recurrent ICD shocks or when ICD is contraindicated, not as first-line monotherapy in high-risk patients. It reduces arrhythmia burden but does NOT provide the same protection as an ICD.",
+        "d": "This patient is NOT asymptomatic - he has syncope (likely arrhythmic). Spontaneous Type 1 pattern + syncope carries high risk, not benign. Reassurance without ICD could result in sudden death.",
+        "e": "Catheter ablation for Brugada is experimental and reserved for patients with recurrent ICD shocks despite quinidine. It is NOT first-line and does not replace ICD therapy."
+      },
+      "clinical_pearl": "Brugada syndrome: autosomal dominant sodium channelopathy (SCN5A). Type 1 ECG: coved ST elevation ≥2mm in V1-V2 with T-wave inversion (diagnostic). High-risk features: spontaneous Type 1 + syncope + family history of sudden death. ICD is the ONLY proven therapy. Avoid: sodium channel blockers (procainamide, flecainide), hyperthermia, certain drugs (www.brugadadrugs.org). Quinidine for recurrent shocks. Screen all first-degree relatives."
+    },
+    "trap_type": "ecg_misread",
+    "tags": ["brugada", "syncope", "sudden_cardiac_death", "icd", "ecg"]
+  },
+  {
+    "id": "uw_cardio_014",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 55-year-old man with newly diagnosed hypertension (BP 155/95 confirmed on 2 separate visits) has no other medical conditions. He is a nonsmoker. Basic metabolic panel, lipid panel, and ECG are normal. He drinks 3-4 beers daily. Which is the MOST appropriate initial antihypertensive therapy?",
+    "options": [
+      {"id": "a", "text": "Lisinopril 10mg daily, because ACE inhibitors are first-line for most patients with uncomplicated hypertension", "isCorrect": true},
+      {"id": "b", "text": "Atenolol 50mg daily, because beta-blockers have been proven to reduce cardiovascular events in hypertension", "isCorrect": false},
+      {"id": "c", "text": "Furosemide 20mg daily, because diuretics are the most effective monotherapy for hypertension", "isCorrect": false},
+      {"id": "d", "text": "Clonidine 0.1mg BID, because centrally acting agents provide rapid blood pressure reduction", "isCorrect": false},
+      {"id": "e", "text": "No medication; lifestyle modifications alone including reduced alcohol intake and sodium restriction for 6 months", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "First-line antihypertensives per ACC/AHA 2017 guidelines include: ACEi/ARB, calcium channel blockers (CCB), or thiazide diuretics. Lisinopril (ACEi) is an appropriate first choice for this patient with uncomplicated Stage 2 hypertension. Lifestyle modifications (reduced alcohol, sodium restriction, exercise, weight loss) should be recommended concurrently but are insufficient alone for Stage 2 hypertension (BP ≥140/90).",
+      "why_wrong": {
+        "b": "Beta-blockers are no longer first-line for uncomplicated hypertension (JNC 8, ACC/AHA 2017). They are indicated if there is a compelling indication: CAD, HFrEF, post-MI. Atenolol specifically has NOT been shown to reduce cardiovascular events compared to other antihypertensives.",
+        "c": "Thiazide diuretics (chlorthalidone, HCTZ) are first-line, not loop diuretics (furosemide). Furosemide is reserved for volume overload states (HF, CKD) and is less effective for chronic BP control due to short duration of action.",
+        "d": "Clonidine is a third/fourth-line agent due to side effects (sedation, dry mouth, rebound hypertension if abruptly stopped). It is not appropriate for initial therapy in uncomplicated hypertension.",
+        "e": "This patient has Stage 2 hypertension (SBP ≥140). Guidelines recommend pharmacologic therapy PLUS lifestyle modifications, not lifestyle alone. Delaying medication for 6 months leaves him at unnecessary cardiovascular risk."
+      },
+      "clinical_pearl": "ACC/AHA 2017 BP categories: Normal <120/<80, Elevated 120-129/<80, Stage 1 130-139/80-89, Stage 2 ≥140/≥90. First-line agents: ACEi/ARB, CCB, Thiazide. Compelling indications: HFrEF (ARNI/ACEi/ARB + BB + MRA), CKD (ACEi/ARB), CAD (BB + ACEi), DM (ACEi/ARB). Target BP <130/80 for most patients."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["hypertension", "antihypertensive", "guidelines", "primary_care"]
+  },
+  {
+    "id": "uw_cardio_015",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 32-year-old intravenous drug user presents with fever (39.5°C), chills, and fatigue for 1 week. He has new-onset dyspnea and orthopnea. BP 100/60, HR 112, RR 24, SpO2 92%. Examination reveals splinter hemorrhages in nail beds, conjunctival petechiae, Janeway lesions on palms (nontender), and a new harsh holosystolic murmur grade 4/6 at the left lower sternal border. Blood cultures grow methicillin-sensitive Staphylococcus aureus in 4/4 bottles. What is the most appropriate treatment duration and route?",
+    "options": [
+      {"id": "a", "text": "IV oxacillin or nafcillin 2g every 4 hours for 6 weeks; no need for gentamicin because this is native valve MSSA IE", "isCorrect": true},
+      {"id": "b", "text": "IV vancomycin 15-20mg/kg every 12 hours for 2 weeks because right-sided IE in IVDU can be treated with shorter duration", "isCorrect": false},
+      {"id": "c", "text": "IV oxacillin + gentamicin for 2 weeks (short-course combination therapy for uncomplicated MSSA IE)", "isCorrect": false},
+      {"id": "d", "text": "Oral linezolid 600mg BID for 6 weeks after initial IV therapy, because oral regimens are equally effective", "isCorrect": false},
+      {"id": "e", "text": "IV daptomycin 6mg/kg daily for 6 weeks because oxacillin cannot be used in IV drug users", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has definite infective endocarditis (Duke criteria: 2 major = persistent bacteremia + new regurgitant murmur, plus multiple minor criteria). The organism is MSSA. For native valve MSSA IE, oxacillin/nafcillin 12g/day in 6 divided doses for 6 weeks is standard. Gentamicin is NOT recommended for native valve MSSA IE because it adds nephrotoxicity without proven benefit (AHA 2015 guidelines). The tricuspid valve is most commonly affected in IVDU, but 4/4 bottles positive with left-sided signs (pulmonary edema, orthopnea) suggests possible left-sided involvement requiring 6-week course.",
+      "why_wrong": {
+        "b": "2-week course is ONLY for uncomplicated right-sided IE in IVDU (tricuspid valve, MSSA, no vegetations >2cm, no emboli, no heart failure). This patient has signs suggesting possible left-sided involvement (orthopnea, pulmonary edema), so 6 weeks is required.",
+        "c": "Combination therapy with gentamicin for 2 weeks is NOT recommended for native valve IE (increased nephrotoxicity without mortality benefit). Gentamicin is reserved for prosthetic valve IE or enterococcal IE.",
+        "d": "Oral antibiotics are NOT standard for IE. IV therapy is required to achieve sustained bactericidal levels. Linezolid is bacteriostatic against Staph, not first-line. Oral step-down is experimental and not recommended.",
+        "e": "Oxacillin/nafcillin is the drug of choice for MSSA (superior to vancomycin). Daptomycin is an alternative for MRSA or penicillin allergy. IVDU is not a contraindication to oxacillin."
+      },
+      "clinical_pearl": "Duke criteria for IE: 2 major (persistent bacteremia + new murmur/vegetation) or 1 major + 3 minor. Native valve MSSA: Oxacillin/Nafcillin 12g/day ×6 weeks. Uncomplicated right-sided IE in IVDU: 2 weeks possible. Gentamicin NOT recommended for native valve Staph IE. Indications for surgery: Heart failure, perivalvular abscess, persistent bacteremia >5-7 days, fungal IE, prosthetic valve, recurrent emboli, vegetation >10mm."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["endocarditis", "ivdu", "mssa", "antibiotics", "duke_criteria"]
+  }
+]
