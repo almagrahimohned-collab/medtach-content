@@ -112,3 +112,173 @@
     "tags": ["atrial_fibrillation", "anticoagulation", "chadsvasc", "stroke_prevention"]
   }
 ]
+  {
+    "id": "uw_cardio_005",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 65-year-old man with hypertension and diabetes presents with acute-onset severe tearing chest pain radiating to his back. BP 180/100 right arm, 130/80 left arm. He is diaphoretic and appears acutely ill. ECG shows sinus tachycardia with nonspecific ST changes. CXR shows widened mediastinum. What is the most appropriate immediate step?",
+    "options": [
+      {"id": "a", "text": "Start esmolol infusion to reduce heart rate and blood pressure, then obtain CT angiography of the chest", "isCorrect": true},
+      {"id": "b", "text": "Administer aspirin, clopidogrel, and heparin for suspected ACS and activate the cardiac catheterization laboratory", "isCorrect": false},
+      {"id": "c", "text": "Administer alteplase (tPA) for suspected STEMI given the severe chest pain and ECG changes", "isCorrect": false},
+      {"id": "d", "text": "Start nitroprusside infusion alone to rapidly reduce blood pressure to normal levels", "isCorrect": false},
+      {"id": "e", "text": "Obtain transesophageal echocardiogram (TEE) as the first diagnostic test", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has classic Stanford Type A aortic dissection: acute tearing chest pain radiating to back, pulse deficit (BP differential between arms), widened mediastinum on CXR. The immediate step is blood pressure control to reduce aortic wall stress (esmolol first to reduce HR and dP/dt, then vasodilators) followed by definitive imaging (CT angiography). Beta-blockade must be started BEFORE vasodilators to prevent reflex tachycardia which increases aortic wall stress.",
+      "why_wrong": {
+        "b": "Antiplatelet and anticoagulation are CONTRAINDICATED in aortic dissection. They worsen bleeding and increase mortality. ACS protocol would delay correct diagnosis and potentially kill the patient if this is a dissection extending to coronary ostia.",
+        "c": "Thrombolytics are ABSOLUTELY CONTRAINDICATED in aortic dissection. Administering tPA would cause catastrophic hemorrhage and death. The ECG does NOT show STEMI (only nonspecific changes).",
+        "d": "Vasodilators alone WITHOUT beta-blockade can cause reflex tachycardia and increased dP/dt, worsening the dissection. Beta-blockers MUST precede vasodilators. Also, BP should not be lowered too rapidly.",
+        "e": "TEE is excellent for diagnosing dissection but should NOT delay blood pressure control. BP control should begin immediately while arranging definitive imaging. CT angiography is more readily available and less invasive."
+      },
+      "clinical_pearl": "Stanford A (ascending aorta) = surgical emergency. Stanford B (descending only) = medical management. Beta-blockers BEFORE vasodilators to avoid reflex tachycardia. Target SBP 100-120 and HR <60. CT angiography is the diagnostic gold standard. NEVER give antiplatelets or thrombolytics."
+    },
+    "trap_type": "management_choice",
+    "tags": ["aortic_dissection", "emergency", "hypertension", "beta_blocker"]
+  }
+]
+  {
+    "id": "uw_cardio_006",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 55-year-old woman with no significant medical history presents with acute dyspnea, pleuritic chest pain, and hemoptysis that started suddenly 6 hours after a 14-hour international flight. BP 100/65, HR 118, RR 28, SpO2 89% on room air. Examination reveals clear lungs, tachycardia, and mild right calf tenderness. ECG shows sinus tachycardia with S1Q3T3 pattern. CXR is normal. What is the most likely diagnosis and best next step?",
+    "options": [
+      {"id": "a", "text": "Pulmonary embolism; start low-molecular-weight heparin and order CT pulmonary angiography", "isCorrect": true},
+      {"id": "b", "text": "Community-acquired pneumonia; start ceftriaxone and azithromycin empirically", "isCorrect": false},
+      {"id": "c", "text": "Acute coronary syndrome; administer aspirin, heparin, and obtain serial troponins", "isCorrect": false},
+      {"id": "d", "text": "Pneumothorax; obtain stat chest X-ray and prepare for needle decompression", "isCorrect": false},
+      {"id": "e", "text": "Acute asthma exacerbation; administer albuterol nebulizer and IV methylprednisolone", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has classic pulmonary embolism: acute dyspnea, pleuritic chest pain, hemoptysis, risk factor (prolonged travel), tachycardia, hypoxia, clear lungs, normal CXR, S1Q3T3 on ECG, and calf tenderness suggesting DVT. Wells criteria score is high (HR >100 + hemoptysis + clinical signs of DVT + PE is #1 diagnosis). Start anticoagulation immediately with LMWH while awaiting CT pulmonary angiography for confirmation.",
+      "why_wrong": {
+        "b": "Pneumonia would present with productive cough, fever, and infiltrate on CXR. This patient has clear CXR and no cough. The Wells criteria strongly favor PE over pneumonia.",
+        "c": "ACS would present with chest pressure (not pleuritic), ST changes (not S1Q3T3), and would not explain the clear lungs with hypoxia. Troponin can be elevated in PE but is not specific.",
+        "d": "Pneumothorax causes absent breath sounds, hyperresonance, and visible pleural line on CXR. This patient has clear lungs and normal CXR. Needle decompression is for tension PTX only.",
+        "e": "Asthma causes wheezing, prolonged expiration, and would not cause pleuritic pain or S1Q3T3 pattern. The normal lung exam and CXR rule out severe asthma."
+      },
+      "clinical_pearl": "Wells criteria for PE: clinical signs of DVT (3), PE is #1 diagnosis (3), HR >100 (1.5), immobilization/surgery <4wk (1.5), prior DVT/PE (1.5), hemoptysis (1), cancer (1). Score >4 = PE likely → CTPA. Score ≤4 = PE unlikely → D-dimer. Start anticoagulation BEFORE imaging if high suspicion."
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": ["pulmonary_embolism", "dvt", "anticoagulation", "wells_criteria"]
+  },
+  {
+    "id": "uw_cardio_007",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 58-year-old man with known heart failure with reduced ejection fraction (EF 30%) presents for routine follow-up. He is currently on lisinopril 20mg daily, carvedilol 25mg BID, and furosemide 40mg daily. BP 120/75, HR 62, eGFR 55 mL/min, K+ 4.2. He reports walking 2 blocks before becoming dyspneic (NYHA Class II). Which medication addition has the BEST evidence for reducing mortality in this patient?",
+    "options": [
+      {"id": "a", "text": "Spironolactone 25mg daily, because it reduces mortality by 30% in NYHA II-IV HFrEF (RALES trial)", "isCorrect": true},
+      {"id": "b", "text": "Digoxin 0.125mg daily, because it reduces heart failure hospitalizations and improves symptoms", "isCorrect": false},
+      {"id": "c", "text": "Amiodarone 200mg daily, because it prevents sudden cardiac death in patients with cardiomyopathy", "isCorrect": false},
+      {"id": "d", "text": "Ivabradine 5mg BID, because it reduces heart rate and cardiovascular mortality in HFrEF", "isCorrect": false},
+      {"id": "e", "text": "Isosorbide dinitrate plus hydralazine, because this combination has mortality benefit in African Americans", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient is on ACEi + beta-blocker + diuretic but has persistent NYHA Class II symptoms. Spironolactone (MRA) added to standard therapy reduced mortality by 30% (RRR) and heart failure hospitalizations by 35% in the RALES trial in patients with NYHA III-IV HFrEF (EF ≤35%). EMPHASIS-HF extended these benefits to NYHA II patients. His K+ 4.2 and eGFR 55 are acceptable for starting MRA with monitoring.",
+      "why_wrong": {
+        "b": "Digoxin reduces HF hospitalizations but does NOT reduce mortality (DIG trial). It is used for symptom control in patients already on optimal GDMT with persistent symptoms. It is a third-line agent.",
+        "c": "Amiodarone is an antiarrhythmic, not a mortality-reducing agent for HFrEF. It may be used for symptomatic arrhythmias but does NOT improve survival. Routine use is not recommended.",
+        "d": "Ivabradine reduces cardiovascular mortality and HF hospitalizations when added to optimal GDMT in patients with HR >70 bpm despite beta-blockers (SHIFT trial). This patient's HR is 62, so ivabradine is not indicated.",
+        "e": "ISDN/Hydralazine reduced mortality by 43% in African Americans with HFrEF (A-HeFT trial). This patient is not identified as African American, and this combination is specifically recommended for that population."
+      },
+      "clinical_pearl": "GDMT for HFrEF (4 pillars): ARNI/ACEi/ARB + Beta-blocker + MRA + SGLT2i. RALES: Spironolactone 25mg daily reduced mortality 30% in NYHA III-IV. EMPHASIS-HF: Eplerenone reduced mortality in NYHA II. DAPA-HF/EMPEROR-Reduced: SGLT2i reduce mortality regardless of diabetes. Monitor K+ and Cr 1 week after starting MRA."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["heart_failure", "hfref", "spironolactone", "mra", "gdmT"]
+  },
+  {
+    "id": "uw_cardio_008",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 34-year-old man presents with palpitations that started suddenly while playing basketball. He feels lightheaded but has not lost consciousness. BP 105/70, HR 180. ECG shows a regular narrow-complex tachycardia at 180 bpm with no visible P waves. Carotid sinus massage does not terminate the arrhythmia. What is the most likely diagnosis and best immediate management?",
+    "options": [
+      {"id": "a", "text": "AV nodal reentrant tachycardia (AVNRT); administer adenosine 6mg rapid IV push", "isCorrect": true},
+      {"id": "b", "text": "Atrial fibrillation with rapid ventricular response; start diltiazem IV for rate control", "isCorrect": false},
+      {"id": "c", "text": "Ventricular tachycardia; perform immediate synchronized cardioversion with 200J", "isCorrect": false},
+      {"id": "d", "text": "Sinus tachycardia; administer IV fluids and treat the underlying cause", "isCorrect": false},
+      {"id": "e", "text": "Wolff-Parkinson-White syndrome; administer procainamide IV to slow accessory pathway conduction", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This is classic AVNRT: sudden onset in young healthy person, regular narrow-complex tachycardia at 180 bpm, no visible P waves (buried in QRS), and failure of carotid sinus massage. AVNRT accounts for 60% of SVT cases. Adenosine is first-line: 6mg rapid IV push → if no response → 12mg → 12mg. It transiently blocks AV node conduction, terminating the reentrant circuit. Success rate >90%.",
+      "why_wrong": {
+        "b": "Atrial fibrillation is IRREGULARLY irregular, not regular. This ECG shows a perfectly regular rhythm. Diltiazem is used for AF rate control, not for regular SVT.",
+        "c": "Ventricular tachycardia produces WIDE QRS complexes (>120ms). This ECG shows narrow QRS, ruling out VT. Synchronized cardioversion is indicated only if adenosine fails or patient is unstable.",
+        "d": "Sinus tachycardia has a gradual onset/offset, P waves before each QRS, and a rate usually <150 in young adults. HR 180 with sudden onset and no P waves is not sinus tachycardia.",
+        "e": "WPW would show delta waves and short PR on baseline ECG. Procainamide is used for AF with WPW, not for regular SVT. Without pre-excitation on ECG, WPW is unlikely."
+      },
+      "clinical_pearl": "Adenosine for SVT: 6mg → 12mg → 12mg rapid IV push. Warn patient about transient chest discomfort, flushing, dyspnea (lasts 10-20 seconds). Success rate >90%. If unstable (hypotension, altered mental status, shock): synchronized cardioversion 50-100J. Long-term: catheter ablation if recurrent."
+    },
+    "trap_type": "ecg_misread",
+    "tags": ["svt", "avnrt", "adenosine", "arrhythmia"]
+  },
+  {
+    "id": "uw_cardio_009",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 70-year-old man with hypertension, diabetes, and CKD stage 3 (baseline Cr 1.8) presents with syncope while shoveling snow. He recovered spontaneously within 30 seconds. His wife reports he has had progressive dyspnea on exertion and chest pressure with activity for the past 6 months. Examination reveals a harsh systolic crescendo-decrescendo murmur at the right upper sternal border radiating to the carotid arteries, diminished and delayed carotid upstroke (pulsus parvus et tardus), and a sustained PMI. ECG shows left ventricular hypertrophy with strain. What is the most likely diagnosis?",
+    "options": [
+      {"id": "a", "text": "Severe calcific aortic stenosis causing exertional syncope, angina, and dyspnea (classic triad)", "isCorrect": true},
+      {"id": "b", "text": "Hypertrophic cardiomyopathy causing left ventricular outflow tract obstruction and syncope", "isCorrect": false},
+      {"id": "c", "text": "Mitral valve prolapse causing mitral regurgitation and syncopal episodes", "isCorrect": false},
+      {"id": "d", "text": "Coronary artery disease with critical left main stenosis causing exertional angina and syncope", "isCorrect": false},
+      {"id": "e", "text": "Vasovagal syncope triggered by cold exposure and physical exertion", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient presents with the classic triad of severe aortic stenosis: exertional syncope (from fixed cardiac output unable to increase with exercise), angina (from increased myocardial oxygen demand with LVH), and dyspnea (from diastolic dysfunction and pulmonary congestion). Examination findings are pathognomonic: harsh systolic crescendo-decrescendo murmur at RUSB, pulsus parvus et tardus (weak, delayed carotid upstroke), sustained PMI from LVH. Echo will show calcified aortic valve with severely reduced valve area (<1.0 cm²). Syncope in AS indicates critical disease with 2-3 year survival without AVR.",
+      "why_wrong": {
+        "b": "HCM murmur increases with Valsalva and decreases with squatting (dynamic obstruction). The murmur is usually at LLSB, not RUSB. Carotid upstroke is brisk (bifid), not delayed. Syncope in HCM is often during/after exercise, not specifically with exertion.",
+        "c": "Mitral valve prolapse causes a mid-systolic click with late systolic murmur at apex, not RUSB. Carotid upstroke is normal. MVP does not cause the classic triad of AS. Syncope in MVP is rare and usually from arrhythmias.",
+        "d": "CAD can cause exertional angina and LV dysfunction leading to dyspnea, but does not produce the characteristic murmur of AS or pulsus parvus et tardus. The physical exam clearly points to valvular disease.",
+        "e": "Vasovagal syncope has prodrome (nausea, warmth, diaphoresis), occurs after prolonged standing or emotional stress, and has a slow onset. This patient's syncope was sudden during exertion without prodrome, and the exam shows clear valvular pathology."
+      },
+      "clinical_pearl": "Aortic stenosis triad: Angina, Syncope, Dyspnea (ASD). Survival without AVR: Angina 5 years, Syncope 3 years, Dyspnea 2 years. Severe AS: valve area <1.0 cm², mean gradient >40 mmHg, Vmax >4 m/s. Treatment: Surgical AVR or TAVI. Asymptomatic severe AS: Echo q6-12 months. The ONLY effective treatment is valve replacement."
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": ["aortic_stenosis", "syncope", "murmur", "valvular_disease"]
+  },
+  {
+    "id": "uw_cardio_010",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 45-year-old woman with end-stage renal disease on hemodialysis presents with severe weakness, palpitations, and difficulty breathing that started 6 hours after missing her dialysis session. BP 90/60, HR 45, RR 24. ECG shows sinus bradycardia, peaked T waves in all leads, widened QRS (140ms), and loss of P waves. Lab results are pending. What is the most appropriate IMMEDIATE treatment?",
+    "options": [
+      {"id": "a", "text": "Calcium gluconate 1g IV over 2-3 minutes, followed by insulin 10U IV + D50, sodium bicarbonate, and emergent hemodialysis", "isCorrect": true},
+      {"id": "b", "text": "Atropine 0.5mg IV to increase heart rate, followed by transcutaneous pacing pads placement", "isCorrect": false},
+      {"id": "c", "text": "Normal saline 2L bolus to treat hypotension, followed by dopamine infusion for bradycardia", "isCorrect": false},
+      {"id": "d", "text": "Amiodarone 150mg IV bolus followed by infusion for suspected ventricular arrhythmia", "isCorrect": false},
+      {"id": "e", "text": "Immediate synchronized cardioversion at 200J for unstable bradycardia", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has severe hyperkalemia from missed dialysis: peaked T waves (K+ 6-7), widened QRS and loss of P waves (K+ 7-8), bradycardia and hypotension (K+ >8). This is a life-threatening emergency. The first step is calcium gluconate IV to stabilize cardiac membranes and prevent cardiac arrest - it works within 1-3 minutes. Then shift potassium intracellularly (insulin + D50, NaHCO₃) and definitively remove potassium via emergent hemodialysis. Calcium does NOT lower potassium; it only protects the heart.",
+      "why_wrong": {
+        "b": "Atropine increases heart rate through vagolytic effect but does NOT address the underlying hyperkalemia. The bradycardia is from cardiac toxicity, not vagal tone. Without membrane stabilization, the patient may develop ventricular fibrillation or asystole.",
+        "c": "IV fluids would worsen volume status in an ESRD patient and do NOT lower potassium. Dopamine for bradycardia does not treat hyperkalemia. This patient needs immediate dialysis and medical management of hyperkalemia.",
+        "d": "Amiodarone is an antiarrhythmic that would worsen bradycardia and has no role in hyperkalemia. The ECG changes are from hyperkalemia, not a primary arrhythmia. Amiodarone could precipitate cardiac arrest.",
+        "e": "Cardioversion treats arrhythmias, not metabolic causes. The bradycardia is from hyperkalemia toxicity, not a primary conduction disorder. Cardioversion without treating the underlying cause would be ineffective and potentially harmful."
+      },
+      "clinical_pearl": "Hyperkalemia ECG progression: Peaked T waves (K+ 5.5-6.5) → P wave flattening/disappearance (6.5-7.5) → Wide QRS (7-8) → Sine wave pattern (>8) → Cardiac arrest. Treatment order: 1-Calcium gluconate/chloride (cardioprotective), 2-Insulin+D50 (shifts K+), 3-NaHCO₃ (if acidotic), 4-Beta-agonists (albuterol), 5-Dialysis (definitive). Calcium is ALWAYS first if ECG changes present."
+    },
+    "trap_type": "ecg_misread",
+    "tags": ["hyperkalemia", "ecg", "emergency", "dialysis", "calcium"]
+  }
+]
