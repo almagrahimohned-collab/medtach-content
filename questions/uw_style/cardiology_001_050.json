@@ -423,3 +423,284 @@
     "tags": ["endocarditis", "ivdu", "mssa", "antibiotics", "duke_criteria"]
   }
 ]
+  {
+    "id": "uw_cardio_016",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 65-year-old woman with hypertension and diabetes presents with acute chest pain for 30 minutes. ECG shows ST elevation of 2mm in II, III, aVF with reciprocal ST depression in I, aVL. BP 90/60, HR 48, RR 22. She is diaphoretic and nauseated. Which additional ECG leads should be obtained immediately?",
+    "options": [
+      {"id": "a", "text": "Right-sided leads (V4R) to evaluate for right ventricular infarction, because inferior STEMI with hypotension and bradycardia suggests RV involvement", "isCorrect": true},
+      {"id": "b", "text": "Posterior leads (V7-V9) to evaluate for posterior wall involvement", "isCorrect": false},
+      {"id": "c", "text": "Repeat standard 12-lead ECG in 15 minutes to evaluate for dynamic changes", "isCorrect": false},
+      {"id": "d", "text": "Lewis lead placement to better visualize atrial activity during bradycardia", "isCorrect": false},
+      {"id": "e", "text": "No additional leads needed; the diagnosis of inferior STEMI is already established", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "Inferior STEMI with hypotension and bradycardia is classic for right ventricular infarction. RV infarction occurs in 30-50% of inferior STEMIs (usually from proximal RCA occlusion). Diagnosis requires right-sided leads (V4R): ST elevation ≥1mm in V4R is diagnostic. This is critical because RV infarction requires: 1) Avoid nitroglycerin (decreases preload → severe hypotension), 2) Aggressive IV fluids (maintain RV preload), 3) Urgent reperfusion. Mortality is higher with RV involvement.",
+      "why_wrong": {
+        "b": "Posterior leads (V7-V9) evaluate for posterior wall infarction, which presents with ST depression in V1-V3 (mirror image of posterior STEMI). This patient has inferior STEMI, not posterior. Posterior leads would be indicated if V1-V3 showed ST depression.",
+        "c": "Repeat ECG would delay diagnosis of RV infarction. Right-sided leads should be obtained immediately, not after waiting 15 minutes. The hypotension and bradycardia demand immediate action.",
+        "d": "Lewis lead is used to better visualize P waves during arrhythmias (atrial flutter vs sinus tachycardia), not for STEMI evaluation. It has no role in acute MI management.",
+        "e": "While inferior STEMI is diagnosed, the presence of RV infarction dramatically changes management (avoid nitrates, give fluids). Without right-sided leads, RV infarction cannot be confirmed or ruled out."
+      },
+      "clinical_pearl": "Inferior STEMI + hypotension + bradycardia = RV infarction until proven otherwise. Obtain V4R immediately. RV infarction management: AVOID nitroglycerin and other preload reducers, give IV fluids to maintain RV preload, urgent PCI. RV infarction increases mortality 2-3× compared to inferior STEMI without RV involvement. Bezold-Jarisch reflex: bradycardia + hypotension in inferior MI from vagal stimulation."
+    },
+    "trap_type": "management_choice",
+    "tags": ["stemi", "right_ventricular_infarction", "ecg", "inferior_mi"]
+  },
+  {
+    "id": "uw_cardio_017",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 48-year-old woman with no cardiac history presents with palpitations triggered by stress and caffeine. Episodes last minutes and terminate abruptly. Baseline ECG shows sinus rhythm with short PR interval (100ms), wide QRS (130ms), and a slurred upstroke (delta wave) in leads I, aVL, V5-V6. During palpitations, ECG shows regular wide-complex tachycardia at 220 bpm. What is the mechanism of the tachycardia?",
+    "options": [
+      {"id": "a", "text": "Antidromic AVRT: antegrade conduction via accessory pathway, retrograde via AV node, producing wide QRS tachycardia", "isCorrect": true},
+      {"id": "b", "text": "Orthodromic AVRT: antegrade conduction via AV node, retrograde via accessory pathway, producing narrow QRS tachycardia", "isCorrect": false},
+      {"id": "c", "text": "Atrial fibrillation with rapid ventricular response via the accessory pathway", "isCorrect": false},
+      {"id": "d", "text": "Ventricular tachycardia originating from the right ventricular outflow tract", "isCorrect": false},
+      {"id": "e", "text": "AV nodal reentrant tachycardia (AVNRT) with aberrant conduction", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has WPW syndrome (baseline: short PR, delta wave, wide QRS). During tachycardia, the QRS is WIDE (220 bpm, wide QRS). This is ANTIDROMIC AVRT: antegrade conduction via the accessory pathway (producing wide QRS) and retrograde via the AV node. Antidromic AVRT accounts for only 5% of WPW-related tachycardias (95% are orthodromic with narrow QRS). It can be difficult to distinguish from VT. Catheter ablation is curative.",
+      "why_wrong": {
+        "b": "Orthodromic AVRT produces NARROW QRS tachycardia (antegrade via AV node, retrograde via pathway). This patient has WIDE QRS tachycardia, consistent with antidromic AVRT.",
+        "c": "AF with WPW shows irregularly irregular rhythm with varying QRS width (some beats conducted via AV node = narrow, some via pathway = wide). This tachycardia is REGULAR, ruling out AF.",
+        "d": "VT is the most common wide-complex tachycardia, but this patient has known WPW (delta wave on baseline). The presence of WPW makes antidromic AVRT more likely than VT. Adenosine can help differentiate.",
+        "e": "AVNRT is a narrow-complex tachycardia. Aberrant conduction can cause wide QRS, but the presence of WPW pattern on baseline ECG makes AVRT the most likely mechanism."
+      },
+      "clinical_pearl": "WPW: accessory pathway (Bundle of Kent) bypasses AV node → pre-excitation (delta wave, short PR, wide QRS). Orthodromic AVRT (95%): narrow QRS, antegrade AV node, retrograde pathway. Antidromic AVRT (5%): wide QRS, antegrade pathway, retrograde AV node (can mimic VT). AF with WPW: irregular, wide QRS, can degenerate to VF. AVOID AV nodal blockers (adenosine, verapamil, digoxin, beta-blockers) during AF with WPW (may cause 1:1 conduction and VF). Treatment: catheter ablation (>95% curative)."
+    },
+    "trap_type": "ecg_misread",
+    "tags": ["wpw", "antidromic_avrt", "wide_complex_tachycardia", "delta_wave"]
+  },
+  {
+    "id": "uw_cardio_018",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 58-year-old man collapses while giving a presentation. Bystander CPR is initiated. EMS arrives 8 minutes later. Monitor shows ventricular fibrillation. Defibrillation with 200J is performed with return of spontaneous circulation after 2 shocks. He is intubated and comatose. BP 90/55 on norepinephrine. ECG shows ST elevation in V1-V4. What is the MOST important intervention to improve neurologic outcome?",
+    "options": [
+      {"id": "a", "text": "Targeted temperature management (TTM) at 32-36°C for at least 24 hours, because hypothermia reduces cerebral metabolic demand and improves neurologic recovery after cardiac arrest", "isCorrect": true},
+      {"id": "b", "text": "Emergent coronary angiography with PCI, because the STEMI is the underlying cause and immediate revascularization is required", "isCorrect": false},
+      {"id": "c", "text": "Initiate IV amiodarone to prevent recurrent ventricular fibrillation and stabilize the cardiac rhythm", "isCorrect": false},
+      {"id": "d", "text": "Obtain a stat head CT to rule out intracranial hemorrhage as the cause of cardiac arrest", "isCorrect": false},
+      {"id": "e", "text": "Administer high-dose methylprednisolone to reduce cerebral edema and improve neurologic recovery", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "After cardiac arrest with ROSC, targeted temperature management (TTM) at 32-36°C for ≥24 hours is the ONLY intervention proven to improve neurologic outcomes (TTM1 and TTM2 trials). It reduces cerebral metabolic rate, free radical production, apoptosis, and intracranial pressure. While emergent PCI is also critical (the STEMI needs revascularization), TTM should be initiated immediately and continued during and after PCI. Both interventions are essential, but TTM specifically targets neurologic recovery.",
+      "why_wrong": {
+        "b": "Emergent PCI is absolutely indicated for STEMI and should be performed, but PCI alone does not optimize neurologic recovery. TTM should be initiated concurrently and continued through and after PCI.",
+        "c": "Amiodarone may be used for recurrent VF but does NOT improve neurologic outcome. The priority after ROSC is TTM and PCI, not empiric antiarrhythmics.",
+        "d": "Cardiac arrest from STEMI is overwhelmingly more likely than ICH in this scenario (ST elevation present). Head CT should be considered if there is no clear cardiac cause, but delaying PCI and TTM for CT is harmful.",
+        "e": "Steroids have NO proven benefit in post-cardiac arrest care and may worsen outcomes (increased infection, hyperglycemia). The 2020 AHA guidelines do not recommend routine steroid use."
+      },
+      "clinical_pearl": "Post-cardiac arrest care: 1) TTM at 32-36°C for ≥24h, 2) Emergent PCI if STEMI present, 3) Avoid hyperthermia (>37.7°C) for 72h, 4) Maintain MAP >65, SpO2 92-98%, normocapnia, 5) Neuroprognostication no earlier than 72h after rewarming. TTM improves survival with good neurologic outcome (NNT=6 for TTM at 33°C vs normothermia per TTM1 trial)."
+    },
+    "trap_type": "management_choice",
+    "tags": ["cardiac_arrest", "ttm", "hypothermia", "rosc", "stemi"]
+  },
+  {
+    "id": "uw_cardio_019",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 22-year-old college student presents with acute-onset sharp chest pain worse with deep inspiration and lying supine, improved by sitting forward. He had an upper respiratory infection 2 weeks ago. He is afebrile. Examination reveals a triphasic friction rub at the left sternal border. ECG shows diffuse ST elevation in all leads except aVR and V1, with PR depression in II and aVF. Troponin is normal. What is the most appropriate management?",
+    "options": [
+      {"id": "a", "text": "Ibuprofen 600-800mg TID for 1-2 weeks plus colchicine 0.5mg BID for 3 months, with activity restriction until symptoms resolve", "isCorrect": true},
+      {"id": "b", "text": "Prednisone 60mg daily with a slow taper over 4 weeks to reduce inflammation and prevent recurrence", "isCorrect": false},
+      {"id": "c", "text": "Aspirin 975mg TID plus colchicine 0.5mg daily for 6 months, as aspirin is superior to NSAIDs for pericarditis", "isCorrect": false},
+      {"id": "d", "text": "No pharmacologic therapy; reassurance and observation since viral pericarditis is self-limited", "isCorrect": false},
+      {"id": "e", "text": "Pericardiocentesis to drain the effusion and relieve symptoms, because friction rub indicates a large effusion", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This is classic acute idiopathic/viral pericarditis (young, post-URI, positional chest pain, friction rub, diffuse ST elevation with PR depression, normal troponin). First-line treatment is NSAIDs (ibuprofen 600-800mg TID for 1-2 weeks, tapered based on symptoms) PLUS colchicine 0.5mg BID for 3 months. Colchicine reduces recurrence rate by 50% (COPE and ICAP trials). Activity restriction is recommended until symptoms resolve and CRP normalizes. This is Stage 1 ECG (diffuse ST elevation + PR depression).",
+      "why_wrong": {
+        "b": "Corticosteroids are NOT first-line for pericarditis. They increase recurrence rate 3-fold (COPPS trial). They should be reserved for refractory/recurrent cases, autoimmune etiology, uremic pericarditis, or pregnancy (contraindication to NSAIDs).",
+        "c": "Aspirin is preferred POST-MI (Dressler syndrome) because NSAIDs impair myocardial healing. For idiopathic pericarditis, NSAIDs are first-line. Colchicine is dosed 0.5mg BID, not daily.",
+        "d": "While viral pericarditis is self-limited, treatment reduces symptoms, duration, and most importantly RECURRENCE. Untreated pericarditis has 30% recurrence rate vs 10% with colchicine.",
+        "e": "Pericardiocentesis is indicated for cardiac tamponade (Beck triad: hypotension, muffled heart sounds, JVD) or large effusions causing hemodynamic compromise. This patient has no evidence of tamponade or significant effusion."
+      },
+      "clinical_pearl": "Acute pericarditis ECG stages: Stage 1-diffuse ST elevation+PR depression, Stage 2-pseudonormalization, Stage 3-diffuse T wave inversion, Stage 4-normalization. NSAIDs first-line (ibuprofen 600-800mg TID). Colchicine 0.5mg BID ×3 months reduces recurrence 50%. Avoid steroids first-line. CRP monitoring to guide NSAID taper."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["pericarditis", "nsaids", "colchicine", "ecg", "friction_rub"]
+  },
+  {
+    "id": "uw_cardio_020",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "management",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 78-year-old woman with severe aortic stenosis (valve area 0.6 cm², mean gradient 55 mmHg), hypertension, and COPD presents with progressive dyspnea and chest pressure on minimal exertion. She is deemed high risk for surgical AVR (STS score 9.5%). She has a trileaflet aortic valve with severe calcification. Which intervention has the best evidence for improving survival in this patient?",
+    "options": [
+      {"id": "a", "text": "Transcatheter aortic valve replacement (TAVR) via transfemoral approach, because TAVR is superior to medical therapy in inoperable patients and non-inferior/superior to SAVR in high-risk patients", "isCorrect": true},
+      {"id": "b", "text": "Surgical aortic valve replacement (SAVR) with bioprosthetic valve, because surgery remains the gold standard for all patients with aortic stenosis", "isCorrect": false},
+      {"id": "c", "text": "Balloon aortic valvuloplasty (BAV) as a bridge to definitive therapy or as destination therapy in high-risk patients", "isCorrect": false},
+      {"id": "d", "text": "Medical therapy with afterload reduction (ACE inhibitors) and diuretics, because the surgical risk outweighs the benefit", "isCorrect": false},
+      {"id": "e", "text": "Ross procedure (pulmonary autograft) because it provides the best long-term durability in younger patients", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has severe symptomatic AS with high surgical risk (STS 9.5%). The PARTNER 1A trial demonstrated TAVR is non-inferior to SAVR for mortality in high-risk patients. PARTNER 2 and SURTAVI trials extended this to intermediate-risk patients. PARTNER 3 and EVOLUT Low Risk trials showed TAVR is superior or non-inferior to SAVR even in low-risk patients. For this elderly patient with comorbidities, TAVR via transfemoral approach is the standard of care. The trileaflet valve anatomy is favorable for TAVR.",
+      "why_wrong": {
+        "b": "While SAVR is the gold standard for low-risk younger patients, this elderly patient with STS 9.5% is high-risk. TAVR has equivalent or superior outcomes in this population with shorter recovery, less pain, and lower perioperative morbidity.",
+        "c": "BAV provides only temporary relief (valve area increases 0.3-0.4 cm²) with restenosis within 6-12 months. It is used as a bridge to definitive therapy in unstable patients or as palliation, not as destination therapy.",
+        "d": "Medical therapy for severe symptomatic AS does NOT improve survival. Once symptoms develop, mortality is 25-50% at 1 year without valve replacement. This patient needs intervention, not medical management.",
+        "e": "The Ross procedure is for young patients (typically <50 years) who need long-term durability and wish to avoid anticoagulation. It is completely inappropriate for a 78-year-old with comorbidities."
+      },
+      "clinical_pearl": "TAVR indications (2020 ACC/AHA): Recommended for inoperable patients (Class I), high-risk (Class I), intermediate-risk (Class IIa), and low-risk (Class IIa) patients. TAVR is preferred over SAVR in patients ≥80 years or younger patients with life expectancy <10 years. SAVR is preferred in patients <65 years, bicuspid AV, need for concomitant CABG, or unfavorable TAVR anatomy."
+    },
+    "trap_type": "management_choice",
+    "tags": ["aortic_stenosis", "tavr", "savr", "valve_replacement", "high_risk"]
+  },
+  {
+    "id": "uw_cardio_021",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "ecg_interpretation",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "intermediate",
+    "question": "A 68-year-old diabetic woman presents with acute chest pain for 3 hours. ECG shows ST depression of 2mm in V4-V6 with T wave inversion. Troponin I is 4.5 ng/mL (elevated). BP 140/85, HR 95, SpO2 96%. She has ongoing chest discomfort. What is the most appropriate management strategy?",
+    "options": [
+      {"id": "a", "text": "Start aspirin, ticagrelor, heparin, and plan for early invasive strategy (coronary angiography within 24 hours), because this is NSTEMI with high-risk features (elevated troponin, ST depression, diabetes)", "isCorrect": true},
+      {"id": "b", "text": "Start aspirin and heparin, admit to telemetry, and perform stress testing prior to discharge to determine if angiography is needed", "isCorrect": false},
+      {"id": "c", "text": "Activate the cardiac catheterization laboratory for emergent PCI within 90 minutes, because NSTEMI should be treated the same as STEMI", "isCorrect": false},
+      {"id": "d", "text": "Start aspirin and clopidogrel, discharge home with cardiology follow-up in 1 week for outpatient stress testing", "isCorrect": false},
+      {"id": "e", "text": "Administer thrombolytics immediately because the patient is within the 12-hour window for fibrinolytic therapy", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has NSTEMI (ST depression + elevated troponin). Per AHA/ACC guidelines, an early invasive strategy (angiography within 24 hours) is indicated for high-risk NSTEMI patients. High-risk features include: elevated troponin, ST segment deviation, GRACE score >140, diabetes, age >65, and ongoing chest pain. She has multiple high-risk features (troponin elevation, ST depression, diabetes, age). DAPT (aspirin + ticagrelor) and anticoagulation (heparin) should be started immediately.",
+      "why_wrong": {
+        "b": "Stress testing is for low-risk NSTEMI patients without ongoing symptoms. This patient is high-risk (elevated troponin, ST depression, diabetes, ongoing pain). She needs early invasive strategy, not conservative management with stress testing.",
+        "c": "NSTEMI does NOT require emergent PCI within 90 minutes (unlike STEMI). The timing depends on risk stratification: immediate (<2h) for refractory angina/hemodynamic instability, early (<24h) for high-risk, and delayed (25-72h) for intermediate-risk.",
+        "d": "Discharging a high-risk NSTEMI patient home without angiography is dangerous. She has ongoing chest pain and elevated troponin. She requires inpatient management with early angiography.",
+        "e": "Thrombolytics are CONTRAINDICATED in NSTEMI (TIMI IIIB trial showed harm). Thrombolytics are only for STEMI when PCI is unavailable. NSTEMI is managed with antiplatelets + anticoagulation + early invasive strategy."
+      },
+      "clinical_pearl": "NSTEMI management: DAPT (aspirin + P2Y12 inhibitor) + anticoagulation (heparin/enoxaparin). Risk stratify with GRACE score. Early invasive (<24h) for high-risk: elevated troponin, ST changes, GRACE >140, diabetes, age >65, ongoing pain. Immediate invasive (<2h) for: refractory angina, hemodynamic instability, arrhythmias. NEVER give thrombolytics for NSTEMI."
+    },
+    "trap_type": "management_choice",
+    "tags": ["nstemi", "troponin", "early_invasive", "antiplatelet", "grace_score"]
+  },
+  {
+    "id": "uw_cardio_022",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 35-year-old pregnant woman (32 weeks gestation) presents with acute dyspnea, orthopnea, and bilateral leg edema developing over 5 days. She has no prior cardiac history. BP 150/95, HR 110, RR 26, SpO2 91%. Echo shows severely reduced LV function (EF 25%), global hypokinesis, and moderate mitral regurgitation. Coronary angiography is normal. She delivered a healthy baby 3 months ago with a similar but milder episode that resolved spontaneously. What is the most likely diagnosis?",
+    "options": [
+      {"id": "a", "text": "Peripartum cardiomyopathy, because new-onset heart failure with reduced EF occurring in the last month of pregnancy or first 5 months postpartum without another identifiable cause", "isCorrect": true},
+      {"id": "b", "text": "Dilated cardiomyopathy from viral myocarditis, because acute viral infection is the most common cause of new-onset cardiomyopathy in young adults", "isCorrect": false},
+      {"id": "c", "text": "Preeclampsia-induced heart failure, because hypertension in pregnancy can cause acute pulmonary edema", "isCorrect": false},
+      {"id": "d", "text": "Amniotic fluid embolism, because acute dyspnea and cardiovascular collapse in a pregnant woman is classic for this diagnosis", "isCorrect": false},
+      {"id": "e", "text": "Stress-induced cardiomyopathy (Takotsubo), because emotional stress of pregnancy can cause transient LV dysfunction", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "Peripartum cardiomyopathy (PPCM) is defined as new-onset HFrEF (EF <45%) occurring in the last month of pregnancy or within 5 months postpartum, without another identifiable cause. This patient fits all criteria: 32 weeks (last month of pregnancy), EF 25%, normal coronaries (rules out ischemic), and prior episode 3 months postpartum that resolved (PPCM can recur in subsequent pregnancies with 30-50% risk). Incidence is 1:1000-4000 deliveries, higher in African descent, older age, and multiple gestations.",
+      "why_wrong": {
+        "b": "Viral myocarditis is common in young adults but the temporal relationship to pregnancy (two episodes - both peripartum) makes PPCM far more likely. Myocarditis would show late gadolinium enhancement on cardiac MRI (focal), while PPCM is typically global.",
+        "c": "Preeclampsia causes diastolic dysfunction with preserved EF (HFpEF pattern), not severely reduced EF (25%). The hypertension is secondary to HF in this case, not primary preeclampsia.",
+        "d": "Amniotic fluid embolism presents with SUDDEN cardiovascular collapse, respiratory failure, and DIC during labor or immediately postpartum. This patient has a subacute course over 5 days and is stable enough for echo.",
+        "e": "Takotsubo typically occurs in postmenopausal women after emotional stress, shows apical ballooning on echo, and resolves within weeks. Pregnancy is not a typical trigger, and recurrence is rare unlike PPCM."
+      },
+      "clinical_pearl": "PPCM: EF <45% in last month of pregnancy to 5 months postpartum without other cause. Risk factors: African descent, age >30, multiparity, multiple gestation, preeclampsia, tocolytic therapy. Treatment: Standard HFrEF therapy (ACEi/ARB contraindicated in pregnancy - use hydralazine+nitrates; safe postpartum). Bromocriptine may improve recovery (prolactin fragment implicated). Recovery: 50-60% recover EF within 6 months. Recurrence risk in subsequent pregnancy: 30-50%. Mortality 5-10%."
+    },
+    "trap_type": "diagnostic_confusion",
+    "tags": ["peripartum_cardiomyopathy", "pregnancy", "heart_failure", "hfrEF"]
+  },
+  {
+    "id": "uw_cardio_023",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "emergency_reasoning",
+    "cognitive_level": "emergency_reasoning",
+    "difficulty": "advanced",
+    "question": "A 60-year-old man with hypertension and smoking history presents with sudden-onset severe interscapular pain radiating to the abdomen. BP 210/120, HR 100. CXR shows widened mediastinum with obliteration of the aortic knob. ECG shows sinus tachycardia with no ST changes. What is the most appropriate sequence of management?",
+    "options": [
+      {"id": "a", "text": "Start IV esmolol to reduce HR to <60 and BP to 100-120 systolic, then obtain CT angiography of the chest/abdomen to confirm the diagnosis", "isCorrect": true},
+      {"id": "b", "text": "Start IV nitroprusside to rapidly reduce blood pressure to normal, then obtain transesophageal echocardiography", "isCorrect": false},
+      {"id": "c", "text": "Obtain CT angiography immediately before starting any medications, because antihypertensives may interfere with the imaging", "isCorrect": false},
+      {"id": "d", "text": "Activate the cardiac catheterization laboratory for emergent angiography to rule out acute coronary syndrome", "isCorrect": false},
+      {"id": "e", "text": "Start aspirin and heparin immediately for suspected acute coronary syndrome, then obtain CT to rule out dissection", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has classic acute aortic syndrome (likely Type B aortic dissection): sudden severe interscapular pain, malignant hypertension, widened mediastinum on CXR. The first step is immediate blood pressure control to reduce aortic wall stress. Beta-blockers (esmolol) must be given FIRST to reduce HR (<60) and dP/dt before vasodilators. This prevents reflex tachycardia from vasodilators which would increase aortic wall stress. Target SBP 100-120. Then obtain definitive imaging (CT angiography) to confirm and classify the dissection.",
+      "why_wrong": {
+        "b": "Nitroprusside without beta-blockade causes reflex tachycardia and increased dP/dt, which can EXTEND the dissection. Beta-blockers MUST precede vasodilators. TEE is excellent but invasive; CT angiography is more readily available and less invasive.",
+        "c": "Imaging should be obtained promptly but NOT before blood pressure control. BP must be reduced immediately to prevent extension, rupture, or malperfusion. The patient can be stabilized while CT is being arranged.",
+        "d": "This presentation is not ACS (no ST changes, interscapular pain, widened mediastinum). Activating cath lab would delay correct diagnosis and potentially harm the patient if antiplatelets are given. ACS protocol is contraindicated in dissection.",
+        "e": "Aspirin and heparin are ABSOLUTELY CONTRAINDICATED in aortic dissection. Antiplatelets and anticoagulants worsen bleeding and increase mortality. This is a critical error that can be fatal."
+      },
+      "clinical_pearl": "Aortic dissection: Type A (ascending) = surgical emergency, Type B (descending) = medical management unless complicated. Initial management: Beta-blocker FIRST (esmolol to HR <60), then vasodilators to SBP 100-120. Target HR <60 and lowest BP that maintains organ perfusion. NEVER give antiplatelets or anticoagulants. CT angiography is diagnostic gold standard. TEE if CT unavailable or renal failure."
+    },
+    "trap_type": "management_choice",
+    "tags": ["aortic_dissection", "hypertension", "beta_blocker", "emergency", "ct_angiography"]
+  },
+  {
+    "id": "uw_cardio_024",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "pharmacology",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "beginner",
+    "question": "A 62-year-old man with HFrEF (EF 35%) on lisinopril 20mg, carvedilol 25mg BID, and spironolactone 25mg presents for follow-up. BP 110/70, HR 64, eGFR 50, K+ 4.5. He remains NYHA Class II with mild dyspnea on exertion. Which medication addition provides BOTH mortality reduction and heart failure hospitalization reduction in this patient regardless of diabetes status?",
+    "options": [
+      {"id": "a", "text": "Dapagliflozin 10mg daily (SGLT2 inhibitor), because DAPA-HF and EMPEROR-Reduced trials showed mortality benefit in HFrEF independent of diabetes status", "isCorrect": true},
+      {"id": "b", "text": "Sacubitril-valsartan (replacing lisinopril), because ARNI is superior to ACEi for reducing mortality and HF hospitalizations in HFrEF", "isCorrect": false},
+      {"id": "c", "text": "Ivabradine 5mg BID, because it reduces cardiovascular mortality and HF hospitalizations when added to optimal GDMT", "isCorrect": false},
+      {"id": "d", "text": "Digoxin 0.125mg daily, because it reduces HF hospitalizations and has been a standard therapy for decades", "isCorrect": false},
+      {"id": "e", "text": "Vericiguat 10mg daily, because it reduces cardiovascular death and HF hospitalizations in high-risk HFrEF patients", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "SGLT2 inhibitors (dapagliflozin, empagliflozin) reduce cardiovascular death and HF hospitalizations in HFrEF patients regardless of diabetes status. DAPA-HF trial: dapagliflozin reduced CV death or worsening HF by 26% (NNT=21). EMPEROR-Reduced: empagliflozin reduced CV death or HF hospitalization by 25%. These benefits were seen in patients already on optimal GDMT. SGLT2i are now one of the 4 pillars of GDMT for HFrEF (ARNI/ACEi/ARB + BB + MRA + SGLT2i).",
+      "why_wrong": {
+        "b": "Switching to ARNI is also beneficial (PARADIGM-HF: 20% reduction in CV death/HF hospitalization vs enalapril) and should be considered. However, the question asks about ADDING a medication, not replacing one. Both ARNI switch and SGLT2i addition are recommended.",
+        "c": "Ivabradine reduces CV death and HF hospitalization when HR >70 despite beta-blockers (SHIFT trial). This patient's HR is 64, so ivabradine is not indicated.",
+        "d": "Digoxin reduces HF hospitalizations but does NOT reduce mortality (DIG trial). It is used for symptom control, not as disease-modifying therapy.",
+        "e": "Vericiguat (VICTORIA trial) reduces CV death and HF hospitalization in high-risk HFrEF patients with recent decompensation. This stable outpatient does not meet criteria for vericiguat."
+      },
+      "clinical_pearl": "HFrEF GDMT 4 pillars: ARNI/ACEi/ARB + Beta-blocker + MRA + SGLT2i. DAPA-HF: dapagliflozin 26% reduction in CV death/worsening HF. EMPEROR-Reduced: empagliflozin 25% reduction. Benefits are INDEPENDENT of diabetes status. SGLT2i should be added to existing GDMT, not replace it. Monitor for euglycemic DKA, volume depletion, and genital infections."
+    },
+    "trap_type": "pharmacology_confusion",
+    "tags": ["heart_failure", "sglt2i", "dapagliflozin", "gdmT", "hfrEF"]
+  },
+  {
+    "id": "uw_cardio_025",
+    "specialty": "internal_medicine",
+    "subspecialty": "cardiology",
+    "concept": "diagnosis",
+    "cognitive_level": "clinical_reasoning",
+    "difficulty": "advanced",
+    "question": "A 40-year-old man presents with recurrent episodes of hypertension, palpitations, headache, and diaphoresis that last 10-15 minutes and resolve spontaneously. During an episode, BP is 220/130, HR 130. Between episodes, BP is 130/80. 24-hour urine metanephrines are elevated 5 times the upper limit of normal. CT abdomen shows a 4cm right adrenal mass with Hounsfield units >25 on non-contrast imaging. What is the most appropriate preoperative management?",
+    "options": [
+      {"id": "a", "text": "Start phenoxybenzamine (alpha-blocker) for 10-14 days before surgery, followed by beta-blocker only after adequate alpha-blockade, along with high-sodium diet and IV fluids to expand intravascular volume", "isCorrect": true},
+      {"id": "b", "text": "Start labetalol (combined alpha/beta blocker) for 7 days before surgery, because it simplifies the preoperative regimen", "isCorrect": false},
+      {"id": "c", "text": "Proceed directly to laparoscopic adrenalectomy without preoperative medical management, because the tumor needs urgent removal", "isCorrect": false},
+      {"id": "d", "text": "Start amlodipine for blood pressure control and schedule elective adrenalectomy in 4-6 weeks", "isCorrect": false},
+      {"id": "e", "text": "Start metoprolol first to control tachycardia, then add amlodipine for blood pressure control before surgery", "isCorrect": false}
+    ],
+    "explanation": {
+      "why_correct": "This patient has pheochromocytoma (paroxysmal hypertension + classic triad + elevated metanephrines + adrenal mass with HU >25). Preoperative alpha-blockade (phenoxybenzamine 10mg BID, titrated up) for 10-14 days is mandatory before surgery to prevent intraoperative hypertensive crisis. Beta-blockers are added ONLY AFTER adequate alpha-blockade (usually 3-4 days later) to control reflex tachycardia. High-sodium diet and IV fluids expand the catecholamine-depleted intravascular volume to prevent severe postoperative hypotension. Surgery without proper preparation carries mortality up to 50%.",
+      "why_wrong": {
+        "b": "Labetalol has weak alpha-blockade relative to beta-blockade (1:7 ratio). It is NOT sufficient as sole agent for pheochromocytoma. Phenoxybenzamine (irreversible alpha-blocker) is the gold standard for preoperative preparation.",
+        "c": "Operating on pheochromocytoma without preoperative alpha-blockade is EXTREMELY DANGEROUS. Manipulation of the tumor releases massive catecholamines → severe hypertension, arrhythmias, myocardial infarction, and death.",
+        "d": "Calcium channel blockers alone are inadequate for pheochromocytoma. While they may be used as adjuncts, alpha-blockade is the cornerstone of preoperative management. Surgery should not be delayed unnecessarily once the diagnosis is confirmed.",
+        "e": "Starting beta-blocker BEFORE alpha-blocker causes unopposed alpha stimulation → vasoconstriction → hypertensive crisis. This is a classic board examination point. Alpha-blockade must precede beta-blockade in pheochromocytoma."
+      },
+      "clinical_pearl": "Pheochromocytoma: Rule of 10s - 10% bilateral, 10% extra-adrenal, 10% malignant, 10% familial, 10% children. Diagnosis: plasma free metanephrines (sensitivity 97%) or 24h urinary metanephrines. Preoperative: Alpha-blockade (phenoxybenzamine) for 10-14 days → add beta-blocker 3-4 days later → high-sodium diet + IV fluids day before surgery. NEVER start beta-blocker before alpha-blocker. Genetic testing if <50 years (RET, VHL, NF1, SDHx)."
+    },
+    "trap_type": "management_choice",
+    "tags": ["pheochromocytoma", "alpha_blockade", "adrenal_mass", "metanephrines", "preoperative"]
+  }
+]
