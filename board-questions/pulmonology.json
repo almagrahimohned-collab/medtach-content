@@ -1509,5 +1509,144 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b4_001",
+    "specialty": "pulmonology",
+    "topic": "Interstitial Lung Disease - CTD-ILD",
+    "difficulty": "hard",
+    "vignette": "A 48-year-old female with rheumatoid arthritis develops progressive dyspnea and dry cough over 6 months. CT shows NSIP pattern (bilateral ground-glass, subpleural sparing). PFT: FVC 62%, DLCO 48%. What is the BEST initial treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nintedanib"
+      },
+      {
+        "id": "B",
+        "text": "Mycophenolate mofetil + Prednisone"
+      },
+      {
+        "id": "C",
+        "text": "Pirfenidone"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Observation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CTD-ILD (RA-associated ILD with NSIP pattern): Immunosuppression is first-line. Mycophenolate mofetil (MMF) + Prednisone is preferred based on INBUILD and RECITAL trials. Antifibrotics (nintedanib, pirfenidone) are added for PROGRESSIVE fibrotic phenotype despite immunosuppression. Rituximab is second-line for refractory disease.",
+      "whyWrong": {
+        "A": "Nintedanib slows progression but immunosuppression treats underlying autoimmune inflammation first.",
+        "C": "Pirfenidone is for IPF or progressive fibrotic ILD; immunosuppression first in CTD-ILD.",
+        "D": "Rituximab is reserved for refractory CTD-ILD after MMF + steroids fail.",
+        "E": "Progressive symptomatic ILD with declining PFT requires treatment."
+      },
+      "clinicalPearl": "CTD-ILD (RA, SSc, myositis): Immunosuppression FIRST (MMF + steroids). Add antifibrotic if progressive fibrosis despite immunosuppression."
+    },
+    "references": [
+      "INBUILD Trial 2019",
+      "RECITAL Trial 2023",
+      "ATS/ERS CTD-ILD Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b4_002",
+    "specialty": "pulmonology",
+    "topic": "Hemoptysis Management",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with history of bronchiectasis presents with acute hemoptysis (estimated 200mL in 24 hours). He is hemodynamically stable. CXR shows right upper lobe infiltrate. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bronchoscopy for localization and potential intervention"
+      },
+      {
+        "id": "B",
+        "text": "CT chest with contrast (CT angiography)"
+      },
+      {
+        "id": "C",
+        "text": "Bronchial artery embolization (BAE)"
+      },
+      {
+        "id": "D",
+        "text": "Start tranexamic acid"
+      },
+      {
+        "id": "E",
+        "text": "Surgical lobectomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Moderate hemoptysis (100-600mL/24h): CT chest with contrast (CT angiography) is the best initial diagnostic test. Identifies: Source of bleeding (bronchial vs pulmonary artery), underlying pathology (bronchiectasis, malignancy, aspergilloma), and guides intervention. Bronchoscopy is complementary but may not visualize distal bleeding source. BAE is therapeutic if bronchial artery source identified.",
+      "whyWrong": {
+        "A": "Bronchoscopy is complementary but CTA should be done FIRST for diagnosis and to map vasculature.",
+        "C": "BAE is therapeutic after CTA identifies bronchial artery source. Not first diagnostic step.",
+        "D": "Tranexamic acid is adjunctive; limited evidence in hemoptysis.",
+        "E": "Surgery is last resort for failed BAE or life-threatening hemoptysis with localized disease."
+      },
+      "clinicalPearl": "Hemoptysis workup: CTA chest FIRST (diagnosis + vascular mapping). Bronchoscopy for direct visualization. BAE for treatment (90% success)."
+    },
+    "references": [
+      "ACCP Hemoptysis Guidelines 2022",
+      "BTS Bronchiectasis Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b4_003",
+    "specialty": "pulmonology",
+    "topic": "Pulmonary Nodule - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old female with 30 pack-year smoking history is found to have a 14mm solid nodule with spiculated margins in the left upper lobe on CT. No prior imaging. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CT in 3 months"
+      },
+      {
+        "id": "B",
+        "text": "PET-CT or biopsy"
+      },
+      {
+        "id": "C",
+        "text": "CT in 12 months"
+      },
+      {
+        "id": "D",
+        "text": "Immediate lobectomy"
+      },
+      {
+        "id": "E",
+        "text": "No follow-up needed"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Solid nodule >8mm with spiculated margins in high-risk patient (smoker): HIGH suspicion for malignancy. Fleischner 2023: PET-CT and/or tissue sampling (biopsy) recommended. Spiculated margins = 90% PPV for malignancy. Immediate surgery without tissue diagnosis is not standard (benign lesions, SCLC vs NSCLC management differs).",
+      "whyWrong": {
+        "A": "CT surveillance is for nodules \u22648mm or low-risk features. 14mm spiculated = high risk.",
+        "C": "12-month follow-up is inappropriate for high-risk nodule (delays cancer diagnosis).",
+        "D": "Tissue diagnosis before surgery is standard (avoid lobectomy for benign disease or SCLC).",
+        "E": "High-risk nodule requires immediate workup."
+      },
+      "clinicalPearl": "Solid nodule >8mm + Spiculated + High-risk patient = PET-CT or Biopsy. Spiculation = 90% malignancy risk."
+    },
+    "references": [
+      "Fleischner Society Guidelines 2023",
+      "ACCP Lung Nodule Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
