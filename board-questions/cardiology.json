@@ -1145,5 +1145,238 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b3_001",
+    "specialty": "cardiology",
+    "topic": "GLP-1 in Cardiovascular Disease",
+    "difficulty": "hard",
+    "vignette": "A 62-year-old obese male (BMI 34) with established ASCVD (prior MI) and type 2 diabetes has HbA1c 8.2% despite metformin and empagliflozin. He needs additional glucose-lowering with proven cardiovascular benefit. Which medication should be added?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glimepiride 2mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Semaglutide (Ozempic) 1mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Sitagliptin 100mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Pioglitazone 30mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Insulin glargine 10 units nightly"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Semaglutide (GLP-1 RA) demonstrated significant CV benefits in SUSTAIN-6 trial (reduced MACE by 26%). SELECT trial (2023) showed semaglutide reduces CV events in obese patients with ASCVD even WITHOUT diabetes. ADA/EASD 2024 guidelines: GLP-1 RA preferred after SGLT2i in ASCVD. Also provides significant weight loss (15%+).",
+      "whyWrong": {
+        "A": "Sulfonylureas cause weight gain and hypoglycemia; no CV benefit.",
+        "C": "DPP4i are weight-neutral but have NO CV benefit (some may worsen HF).",
+        "D": "Pioglitazone causes weight gain and fluid retention; modest CV benefit but less than GLP-1 RA.",
+        "E": "Insulin causes weight gain and hypoglycemia; no CV benefit; reserved for advanced disease."
+      },
+      "clinicalPearl": "GLP-1 RA (semaglutide, liraglutide): CV benefit + Weight loss + Glycemic control. SELECT trial: Benefit even without diabetes in obese with ASCVD."
+    },
+    "references": [
+      "SUSTAIN-6 Trial",
+      "SELECT Trial 2023",
+      "ADA/EASD Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b3_002",
+    "specialty": "cardiology",
+    "topic": "Triglyceride Management",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with ASCVD on high-intensity statin and ezetimibe has LDL-C 65 but triglycerides 350 mg/dL. He has no pancreatitis history. Which medication should be added to reduce residual cardiovascular risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fenofibrate 145mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Icosapent ethyl (Vascepa) 2g BID"
+      },
+      {
+        "id": "C",
+        "text": "Niacin 1000mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Omega-3 fatty acids OTC 1g daily"
+      },
+      {
+        "id": "E",
+        "text": "Atorvastatin dose increase"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "REDUCE-IT trial (2019): Icosapent ethyl (purified EPA) 2g BID reduced CV events by 25% in patients with TG 135-499 on statins. Only FDA-approved omega-3 for CV risk reduction. Fenofibrate (PROMINENT trial) showed NO CV benefit in diabetes. OTC fish oil has insufficient EPA dose (typically 180-360mg EPA vs 4g in Vascepa).",
+      "whyWrong": {
+        "A": "Fenofibrate showed NO CV benefit in PROMINENT trial 2022; use only for severe HTG (TG >500) to prevent pancreatitis.",
+        "C": "Niacin showed NO CV benefit in HPS2-THRIVE and AIM-HIGH trials; side effects limit use.",
+        "D": "OTC fish oil has insufficient EPA dose for CV benefit.",
+        "E": "LDL-C is at goal (<70); increasing statin won't address residual TG-related risk."
+      },
+      "clinicalPearl": "Elevated TG on statin: Icosapent ethyl (Vascepa) is ONLY evidence-based option for CV risk reduction. REDUCE-IT: 25% MACE reduction."
+    },
+    "references": [
+      "REDUCE-IT Trial 2019",
+      "PROMINENT Trial 2022",
+      "ACC/AHA Cholesterol Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b3_003",
+    "specialty": "cardiology",
+    "topic": "Myocarditis",
+    "difficulty": "medium",
+    "vignette": "A 22-year-old male presents with chest pain, fever, and dyspnea 2 weeks after a viral illness. Troponin is elevated, ECG shows diffuse ST elevation. Cardiac MRI shows patchy late gadolinium enhancement in the lateral wall. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emergent cardiac catheterization"
+      },
+      {
+        "id": "B",
+        "text": "Supportive care + NSAIDs + Avoid strenuous exercise for 3-6 months"
+      },
+      {
+        "id": "C",
+        "text": "High-dose corticosteroids"
+      },
+      {
+        "id": "D",
+        "text": "IV immunoglobulins (IVIG)"
+      },
+      {
+        "id": "E",
+        "text": "Antibiotics for 14 days"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute myocarditis: Viral prodrome + Chest pain + Elevated troponin + Patchy LGE on MRI. Treatment is SUPPORTIVE: NSAIDs for pain, guideline-directed HF therapy if LV dysfunction, and RESTRICTION from strenuous exercise for 3-6 months (risk of sudden death during healing). Steroids/IVIG reserved for specific etiologies (giant cell, eosinophilic).",
+      "whyWrong": {
+        "A": "Catheterization is for STEMI; myocarditis has diffuse changes and LGE pattern differs from ischemic.",
+        "C": "Steroids are NOT routine; reserved for biopsy-proven specific myocarditis (giant cell, eosinophilic, sarcoid).",
+        "D": "IVIG is NOT first-line; reserved for refractory or specific autoimmune myocarditis.",
+        "E": "Viral myocarditis does not require antibiotics."
+      },
+      "clinicalPearl": "Myocarditis: Supportive care + Exercise restriction 3-6 months. Steroids ONLY for giant cell/eosinophilic/sarcoid myocarditis proven by biopsy."
+    },
+    "references": [
+      "ESC Myocarditis Guidelines 2023",
+      "AHA Myocarditis Statement"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b3_004",
+    "specialty": "cardiology",
+    "topic": "Lp(a) Management",
+    "difficulty": "hard",
+    "vignette": "A 48-year-old male with premature CAD (MI at age 42) and recurrent events despite LDL-C 55 on atorvastatin + ezetimibe. Lp(a) is 250 nmol/L (>90th percentile). Family history significant for father's MI at age 45. What is the BEST approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase atorvastatin dose"
+      },
+      {
+        "id": "B",
+        "text": "Add niacin"
+      },
+      {
+        "id": "C",
+        "text": "PCSK9 inhibitor (evolocumab) + Refer to Lp(a) clinical trial or antisense therapy if available"
+      },
+      {
+        "id": "D",
+        "text": "Lipoprotein apheresis"
+      },
+      {
+        "id": "E",
+        "text": "No additional therapy, LDL-C is at goal"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Elevated Lp(a) is an independent causal risk factor for ASCVD. PCSK9 inhibitors reduce Lp(a) by 20-30% in addition to LDL-C reduction. FOURIER trial showed evolocumab benefit is GREATER in patients with high Lp(a). Pelacarsen (antisense oligonucleotide) specifically targets Lp(a) and is in phase 3 trials (HORIZON). Lipoprotein apheresis reserved for Lp(a) >150 nmol/L with progressive disease despite maximal therapy.",
+      "whyWrong": {
+        "A": "Statins paradoxically may INCREASE Lp(a) slightly; LDL-C is already at goal.",
+        "B": "Niacin reduces Lp(a) but no CV outcome benefit and significant side effects.",
+        "D": "Apheresis is reserved for refractory cases after PCSK9i trial; invasive and burdensome.",
+        "E": "Residual risk from high Lp(a) warrants treatment despite LDL-C at goal."
+      },
+      "clinicalPearl": "Lp(a) is independent ASCVD risk factor. PCSK9i reduces Lp(a) 20-30%. Pelacarsen (antisense) in trials. Screen Lp(a) once in lifetime per guidelines."
+    },
+    "references": [
+      "ACC/AHA Lp(a) Guidelines 2023",
+      "FOURIER Lp(a) Substudy",
+      "HORIZON Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b3_005",
+    "specialty": "cardiology",
+    "topic": "Hypertrophic Cardiomyopathy",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female with symptomatic HCM (septal thickness 22mm, LVOT gradient 80mmHg at rest) has persistent dyspnea and angina despite metoprolol and verapamil. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start disopyramide"
+      },
+      {
+        "id": "B",
+        "text": "Mavacamten (Camzyos) 5mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Surgical septal myectomy"
+      },
+      {
+        "id": "D",
+        "text": "Alcohol septal ablation"
+      },
+      {
+        "id": "E",
+        "text": "Start amiodarone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Mavacamten (cardiac myosin inhibitor) is FDA-approved (2022) for symptomatic obstructive HCM. EXPLORER-HCM trial showed improved exercise capacity and reduced LVOT gradient. First-line pharmacotherapy after beta-blockers. Surgical myectomy is second-line if pharmacotherapy fails. Disopyramide is third-line due to anticholinergic side effects.",
+      "whyWrong": {
+        "A": "Disopyramide was previous standard but has significant anticholinergic side effects and requires concomitant AV nodal blocker.",
+        "C": "Myectomy is reserved for refractory symptoms despite optimal medical therapy including mavacamten.",
+        "D": "Alcohol ablation is alternative to myectomy in selected patients (comorbidities, age >65).",
+        "E": "Amiodarone is for arrhythmias, not LVOT obstruction."
+      },
+      "clinicalPearl": "Obstructive HCM: Beta-blocker \u2192 Mavacamten (cardiac myosin inhibitor) \u2192 Septal myectomy/alcohol ablation. Mavacamten is game-changer (EXPLORER-HCM)."
+    },
+    "references": [
+      "ACC/AHA HCM Guidelines 2023",
+      "EXPLORER-HCM Trial 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
