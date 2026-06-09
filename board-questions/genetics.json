@@ -226,3 +226,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gene_009",
+    "specialty": "genetics",
+    "topic": "Genetic Counseling",
+    "difficulty": "medium",
+    "vignette": "A couple is considering having a child. The wife has an autosomal dominant disorder (heterozygous). What is the probability their child will inherit the condition?",
+    "options": [
+      { "id": "A", "text": "0%" },
+      { "id": "B", "text": "25%" },
+      { "id": "C", "text": "50%" },
+      { "id": "D", "text": "75%" },
+      { "id": "E", "text": "100%" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Autosomal dominant: Affected parent (heterozygous: Aa) × Unaffected parent (aa). Each pregnancy: 50% chance child inherits the mutated allele (Aa = affected). Independent for each pregnancy.",
+      "whyWrong": {
+        "A": "0% only if both parents are unaffected.",
+        "B": "25% is for autosomal recessive with two carrier parents.",
+        "D": "75% is for autosomal dominant if BOTH parents are heterozygous.",
+        "E": "100% only if affected parent is homozygous (rare for most AD disorders)."
+      },
+      "clinicalPearl": "Autosomal dominant: 50% risk for each child if one parent is heterozygous. Prior outcomes do NOT affect future risk."
+    },
+    "references": ["Principles of Medical Genetics"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_010",
+    "specialty": "genetics",
+    "topic": "Epigenetics",
+    "difficulty": "hard",
+    "vignette": "A genetic disorder shows different severity when inherited from the mother versus the father due to differential methylation. What is this phenomenon called?",
+    "options": [
+      { "id": "A", "text": "Anticipation" },
+      { "id": "B", "text": "Genomic imprinting" },
+      { "id": "C", "text": "Mosaicism" },
+      { "id": "D", "text": "Uniparental disomy" },
+      { "id": "E", "text": "Lyonization" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Genomic imprinting: Expression depends on parent of origin due to epigenetic silencing (methylation). Examples: Prader-Willi (paternal deletion/maternal UPD), Angelman (maternal deletion/paternal UPD).",
+      "whyWrong": {
+        "A": "Anticipation: Disease worsens in successive generations (triplet repeat expansion).",
+        "C": "Mosaicism: Two cell lines in same individual.",
+        "D": "UPD: Both copies of chromosome from one parent (can cause imprinting disorders).",
+        "E": "Lyonization: Random X-inactivation in females."
+      },
+      "clinicalPearl": "Imprinting: Parent-of-origin effect due to methylation. Prader-Willi/Angelman = Classic examples (15q11-q13)."
+    },
+    "references": ["Genomic Imprinting in Human Disease"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_011",
+    "specialty": "genetics",
+    "topic": "Tumor Genetics",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female with hereditary breast cancer (BRCA1 mutation) asks about her risk of ovarian cancer. What is her approximate lifetime risk?",
+    "options": [
+      { "id": "A", "text": "5-10%" },
+      { "id": "B", "text": "15-20%" },
+      { "id": "C", "text": "40-50%" },
+      { "id": "D", "text": "70-80%" },
+      { "id": "E", "text": "95-100%" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "BRCA1 mutation: Lifetime ovarian cancer risk = 39-46% (average 44%). BRCA2: 11-17%. Risk-reducing salpingo-oophorectomy (RRSO) recommended by age 35-40 (BRCA1) or 40-45 (BRCA2) after completion of childbearing.",
+      "whyWrong": {
+        "A": "Too low - general population risk is 1.3%.",
+        "B": "This is closer to BRCA2 ovarian cancer risk (11-17%).",
+        "D": "This is closer to BRCA1 breast cancer risk (72%).",
+        "E": "No hereditary cancer syndrome has 100% penetrance."
+      },
+      "clinicalPearl": "BRCA1: Breast cancer 72%, Ovarian cancer 44%. BRCA2: Breast cancer 69%, Ovarian cancer 17%. RRSO reduces ovarian cancer risk by 90%."
+    },
+    "references": ["NCCN Genetic/Familial High-Risk Assessment 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

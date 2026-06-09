@@ -310,3 +310,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_neuro_012",
+    "specialty": "neurology",
+    "topic": "CNS Infections",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old HIV patient (CD4 45, not on ART) presents with progressive cognitive decline over 6 weeks. MRI shows non-enhancing white matter lesions without mass effect. CSF: Normal WBC, elevated protein, positive JC virus PCR. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "HIV encephalopathy" },
+      { "id": "B", "text": "Progressive multifocal leukoencephalopathy (PML)" },
+      { "id": "C", "text": "Cerebral toxoplasmosis" },
+      { "id": "D", "text": "Primary CNS lymphoma" },
+      { "id": "E", "text": "Cryptococcal meningitis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PML: JC virus reactivation in immunosuppressed (HIV CD4 <200). Non-enhancing white matter lesions (demyelination), no mass effect, CSF shows JC virus PCR+. No specific treatment. Best intervention: Start ART to restore immune function.",
+      "whyWrong": {
+        "A": "HIV encephalopathy has diffuse atrophy, not focal white matter lesions.",
+        "C": "Toxoplasmosis: Multiple ring-enhancing lesions with mass effect, positive Toxo IgG.",
+        "D": "PCNSL: Enhancing lesions (periventricular), EBV in CSF, mass effect.",
+        "E": "Cryptococcal: Meningeal enhancement, CSF shows encapsulated yeast, low glucose."
+      },
+      "clinicalPearl": "PML: Non-enhancing white matter lesions + JC virus in CSF + CD4 <200. Treatment: Start ART (immune reconstitution)."
+    },
+    "references": ["AAN PML Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_013",
+    "specialty": "neurology",
+    "topic": "Peripheral Neuropathy",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male presents with progressive numbness in his hands and feet, weakness in his wrists and ankles, and areflexia. He has a history of rheumatoid arthritis. Nerve conduction study shows multifocal demyelination. What is the treatment?",
+    "options": [
+      { "id": "A", "text": "Gabapentin for neuropathic pain" },
+      { "id": "B", "text": "IVIG or plasmapheresis" },
+      { "id": "C", "text": "Prednisone 1mg/kg" },
+      { "id": "D", "text": "Rituximab" },
+      { "id": "E", "text": "Cyclophosphamide" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CIDP (Chronic Inflammatory Demyelinating Polyneuropathy): Symmetric weakness + Sensory loss + Areflexia + Demyelination on NCS. Associated with autoimmune diseases (RA). Treatment: IVIG, Plasmapheresis, or Steroids. IVIG and plasmapheresis are first-line.",
+      "whyWrong": {
+        "A": "Gabapentin treats pain but does not modify the disease.",
+        "C": "Steroids are effective but IVIG/plasmapheresis are preferred first-line.",
+        "D": "Rituximab is second-line for refractory CIDP.",
+        "E": "Cyclophosphamide is last resort for severe refractory cases."
+      },
+      "clinicalPearl": "CIDP: Symmetric sensorimotor neuropathy + Demyelination on NCS. Treatment: IVIG or Plasmapheresis (first-line)."
+    },
+    "references": ["AAN CIDP Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

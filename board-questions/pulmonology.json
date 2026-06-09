@@ -423,3 +423,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pulmo_016",
+    "specialty": "pulmonology",
+    "topic": "Cystic Fibrosis",
+    "difficulty": "hard",
+    "vignette": "A 20-year-old male with cystic fibrosis (homozygous ΔF508) presents with increased cough and purulent sputum. Sputum culture grows Pseudomonas aeruginosa for the first time. What is the BEST treatment approach?",
+    "options": [
+      { "id": "A", "text": "Oral ciprofloxacin for 2 weeks" },
+      { "id": "B", "text": "Inhaled tobramycin + IV ceftazidime for 2-4 weeks" },
+      { "id": "C", "text": "Chronic suppressive azithromycin" },
+      { "id": "D", "text": "No treatment needed, colonization is expected" },
+      { "id": "E", "text": "Lung transplant evaluation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "First Pseudomonas infection in CF: Aggressive eradication therapy! Inhaled tobramycin (or aztreonam) + IV ceftazidime (or antipseudomonal beta-lactam) x2-4 weeks. Goal: ERADICATE before chronic colonization. If chronic: Suppressive inhaled antibiotics.",
+      "whyWrong": {
+        "A": "Oral ciprofloxacin alone is insufficient for initial eradication.",
+        "C": "Azithromycin is for chronic therapy (anti-inflammatory), not eradication.",
+        "D": "First Pseudomonas isolation should be treated aggressively to prevent chronic infection.",
+        "E": "Transplant evaluation is for end-stage CF (FEV1 <30%), not first infection."
+      },
+      "clinicalPearl": "CF first Pseudomonas: Eradicate aggressively! Inhaled + IV antibiotics. Once chronic: Suppressive therapy. CFTR modulators (ivacaftor/tezacaftor/elexacaftor) for ΔF508."
+    },
+    "references": ["CF Foundation Pulmonary Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_017",
+    "specialty": "pulmonology",
+    "topic": "Lung Cancer Screening",
+    "difficulty": "easy",
+    "vignette": "A 58-year-old male with 40 pack-year smoking history (quit 5 years ago) asks about lung cancer screening. He is asymptomatic. What is the recommendation?",
+    "options": [
+      { "id": "A", "text": "No screening, he quit >1 year ago" },
+      { "id": "B", "text": "Annual low-dose CT chest" },
+      { "id": "C", "text": "Chest X-ray annually" },
+      { "id": "D", "text": "Sputum cytology every 6 months" },
+      { "id": "E", "text": "PET-CT annually" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "USPSTF 2021: Annual low-dose CT for lung cancer screening in adults aged 50-80 with ≥20 pack-year smoking history who currently smoke OR quit within past 15 years. He is 58, 40 pack-years, quit 5 years ago = qualifies.",
+      "whyWrong": {
+        "A": "Quit <15 years ago = still qualifies for screening.",
+        "C": "Chest X-ray is NOT recommended for screening (NLST showed no mortality benefit).",
+        "D": "Sputum cytology is not recommended for screening.",
+        "E": "PET-CT has too much radiation and false positives for screening."
+      },
+      "clinicalPearl": "Lung cancer screening: Low-dose CT annually, age 50-80, ≥20 pack-years, current or quit <15 years."
+    },
+    "references": ["USPSTF Lung Cancer Screening 2021", "NLST Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_018",
+    "specialty": "pulmonology",
+    "topic": "Pulmonary Rehabilitation",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with COPD (FEV1 40%, CAT score 22) asks about non-pharmacologic interventions to improve his quality of life. What has the STRONGEST evidence?",
+    "options": [
+      { "id": "A", "text": "Long-term oxygen therapy" },
+      { "id": "B", "text": "Pulmonary rehabilitation" },
+      { "id": "C", "text": "Inhaled corticosteroids" },
+      { "id": "D", "text": "Mucolytics (N-acetylcysteine)" },
+      { "id": "E", "text": "Nocturnal NIV" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pulmonary rehabilitation: Exercise training + Education + Nutritional counseling + Psychosocial support. Reduces dyspnea, improves exercise capacity, and quality of life (strongest evidence). Indicated for symptomatic COPD (CAT >10, mMRC ≥2) or recent exacerbation.",
+      "whyWrong": {
+        "A": "LTOT improves SURVIVAL in severe hypoxemia, not primarily quality of life.",
+        "C": "ICS reduces exacerbations in frequent exacerbators, not primary QoL intervention.",
+        "D": "Mucolytics may reduce exacerbations modestly but QoL benefit is limited.",
+        "E": "Nocturnal NIV is for chronic hypercapnic respiratory failure, not for all COPD."
+      },
+      "clinicalPearl": "Pulmonary rehabilitation: Most effective non-pharmacologic intervention for COPD. Improves dyspnea, exercise capacity, and QoL."
+    },
+    "references": ["GOLD 2024 Guidelines", "ATS/ERS Pulmonary Rehabilitation Statement"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

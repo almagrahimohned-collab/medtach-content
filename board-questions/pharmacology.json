@@ -312,3 +312,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pharma_012",
+    "specialty": "pharmacology",
+    "topic": "Immunosuppression",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old renal transplant recipient on tacrolimus, mycophenolate, and prednisone develops rising Cr and BK viremia (>10,000 copies/mL). What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Increase tacrolimus dose" },
+      { "id": "B", "text": "Reduce immunosuppression" },
+      { "id": "C", "text": "Start cidofovir" },
+      { "id": "D", "text": "Start leflunomide" },
+      { "id": "E", "text": "Transplant nephrectomy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "BK virus nephropathy: Reactivation due to over-immunosuppression. Management: Reduce immunosuppression (typically reduce tacrolimus and/or MMF). No specific antiviral is proven. Goal: Reduce viral load without causing rejection.",
+      "whyWrong": {
+        "A": "Increasing immunosuppression would worsen BK virus.",
+        "C": "Cidofovir has limited efficacy and significant nephrotoxicity.",
+        "D": "Leflunomide has weak in vitro activity, not standard of care.",
+        "E": "Nephrectomy is last resort for non-functioning graft."
+      },
+      "clinicalPearl": "BK virus in transplant: Reduce immunosuppression first. Monitor viral load and renal function. No proven antiviral therapy."
+    },
+    "references": ["KDIGO Transplant Guidelines", "AST BK Virus Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_013",
+    "specialty": "pharmacology",
+    "topic": "Chemotherapy Side Effects",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old female receiving doxorubicin + cyclophosphamide for breast cancer develops fever, neutropenia, and a new cardiac murmur. Echo shows LVEF dropped from 60% to 40%. Which drug is responsible?",
+    "options": [
+      { "id": "A", "text": "Cyclophosphamide" },
+      { "id": "B", "text": "Doxorubicin" },
+      { "id": "C", "text": "Both equally" },
+      { "id": "D", "text": "Neither, this is septic cardiomyopathy" },
+      { "id": "E", "text": "Paraneoplastic syndrome" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Doxorubicin (anthracycline) causes dose-dependent cardiomyopathy (Type 1 chemotherapy-related cardiac dysfunction). Risk increases with cumulative dose (>400 mg/m²). Mechanism: Free radical generation → myocardial damage. Prevention: Dexrazoxane, liposomal formulations.",
+      "whyWrong": {
+        "A": "Cyclophosphamide causes hemorrhagic cystitis (acrolein metabolite), not cardiomyopathy.",
+        "C": "Cyclophosphamide cardiotoxicity is rare and occurs at very high doses (transplant conditioning).",
+        "D": "Sepsis can cause reversible LV dysfunction but anthracycline cardiotoxicity is the primary concern.",
+        "E": "Paraneoplastic would not cause acute drop after chemotherapy."
+      },
+      "clinicalPearl": "Doxorubicin: Dose-dependent cardiomyopathy (>400 mg/m²). Monitor EF. Dexrazoxane for cardioprotection in high cumulative doses."
+    },
+    "references": ["ASCO Cardio-Oncology Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_014",
+    "specialty": "pharmacology",
+    "topic": "Drug-Induced Disease",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female on metformin develops lactic acidosis (pH 7.1, lactate 8 mmol/L). She has CKD stage 4 (eGFR 22). What is the mechanism of metformin toxicity in this patient?",
+    "options": [
+      { "id": "A", "text": "Metformin directly damages mitochondria" },
+      { "id": "B", "text": "Metformin inhibits hepatic gluconeogenesis, increasing lactate" },
+      { "id": "C", "text": "Metformin accumulation due to reduced renal clearance" },
+      { "id": "D", "text": "Metformin causes liver failure" },
+      { "id": "E", "text": "Metformin induces sepsis" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Metformin is RENALLY cleared. In CKD stage 4 (eGFR <30), metformin accumulates → increased risk of lactic acidosis. Metformin is contraindicated when eGFR <30. Mechanism: Metformin inhibits complex I of mitochondria → reduced lactate clearance + increased lactate production.",
+      "whyWrong": {
+        "A": "Metformin inhibits mitochondrial complex I, but toxicity is primarily due to accumulation, not direct damage.",
+        "B": "Inhibition of gluconeogenesis is the therapeutic effect, not the cause of lactic acidosis.",
+        "D": "Metformin does not cause liver failure (it is contraindicated in liver disease due to lactate clearance).",
+        "E": "Metformin does not cause sepsis."
+      },
+      "clinicalPearl": "Metformin: Contraindicated if eGFR <30 (CKD stage 4-5). Lactic acidosis risk due to drug accumulation. Treatment: Hemodialysis."
+    },
+    "references": ["FDA Metformin Prescribing Information"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_015",
+    "specialty": "pharmacology",
+    "topic": "Antibiotic Dosing",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with MRSA bacteremia has vancomycin trough of 10 mcg/mL (target 15-20). He weighs 80kg with normal renal function. What adjustment should be made?",
+    "options": [
+      { "id": "A", "text": "Increase dose by 250mg" },
+      { "id": "B", "text": "Increase dose frequency from q12h to q8h" },
+      { "id": "C", "text": "Switch to linezolid" },
+      { "id": "D", "text": "Add gentamicin synergy" },
+      { "id": "E", "text": "AUC-guided dosing with increased total daily dose" }
+    ],
+    "correctOptionId": "E",
+    "explanation": {
+      "whyCorrect": "Vancomycin monitoring has shifted from trough-only to AUC/MIC-guided dosing (target AUC 400-600). If trough is subtherapeutic (10), calculate AUC. Increasing total daily dose (either higher individual doses or shorter interval) achieves target AUC. Typical: Increase from 1g q12h to 1.5g q12h or 1g q8h.",
+      "whyWrong": {
+        "A": "Need to know current dose to determine appropriate increase.",
+        "B": "May be appropriate but need AUC calculation to determine optimal regimen.",
+        "C": "Linezolid is alternative but vancomycin can be optimized first.",
+        "D": "Gentamicin synergy is for enterococcal endocarditis, not MRSA bacteremia monotherapy.",
+      },
+      "clinicalPearl": "Vancomycin: AUC/MIC 400-600 (not just trough 15-20). AUC-guided dosing is new standard. Calculate AUC using Bayesian software."
+    },
+    "references": ["ASHP/IDSA Vancomycin Guidelines 2020"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_016",
+    "specialty": "pharmacology",
+    "topic": "Drug Monitoring",
+    "difficulty": "medium",
+    "vignette": "A patient on phenytoin for seizure disorder develops nystagmus, ataxia, and slurred speech. Phenytoin level is 32 mcg/mL (therapeutic 10-20). Albumin is 2.0 g/dL. What is the MOST accurate interpretation?",
+    "options": [
+      { "id": "A", "text": "Phenytoin is therapeutic, symptoms are from another cause" },
+      { "id": "B", "text": "Phenytoin toxicity, hold dose and recheck level" },
+      { "id": "C", "text": "Correct for low albumin - free phenytoin is even higher" },
+      { "id": "D", "text": "Decrease phenytoin dose by 50%" },
+      { "id": "E", "text": "Switch to levetiracetam" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Phenytoin is highly protein-bound (90%). Low albumin means more FREE (active) drug. Corrected phenytoin = Measured total / (0.2 × albumin + 0.1) = 32 / (0.2×2.0 + 0.1) = 32/0.5 = 64 mcg/mL (toxic!). Symptoms are from severe phenytoin toxicity.",
+      "whyWrong": {
+        "A": "Total level of 32 is already supratherapeutic. With low albumin, free drug is dangerously high.",
+        "B": "Holding the dose is correct but understanding the albumin effect is crucial.",
+        "D": "Dose reduction alone is insufficient without understanding the albumin effect.",
+        "E": "Switching medications should be done after acute toxicity is managed."
+      },
+      "clinicalPearl": "Phenytoin: Correct for low albumin! Corrected = Measured / (0.2 × albumin + 0.1). Low albumin → Toxic free phenytoin despite 'normal' total level."
+    },
+    "references": ["Phenytoin Therapeutic Drug Monitoring"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

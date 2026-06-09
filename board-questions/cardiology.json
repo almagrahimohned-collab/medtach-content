@@ -480,3 +480,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_cardio_018",
+    "specialty": "cardiology",
+    "topic": "Infective Endocarditis Prophylaxis",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with a mechanical mitral valve needs a dental cleaning. He has no known drug allergies. What is the appropriate prophylaxis?",
+    "options": [
+      { "id": "A", "text": "No prophylaxis needed" },
+      { "id": "B", "text": "Amoxicillin 2g PO 1 hour before procedure" },
+      { "id": "C", "text": "Clindamycin 600mg PO 1 hour before procedure" },
+      { "id": "D", "text": "Cephalexin 2g PO 1 hour before procedure" },
+      { "id": "E", "text": "Gentamicin 1.5mg/kg IV 30 minutes before procedure" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "High-risk patients for IE: Prosthetic valves, prior IE, congenital heart disease (unrepaired cyanotic, repaired with prosthetic material <6 months, repaired with residual defects), cardiac transplant with valve regurgitation. Dental procedures requiring prophylaxis: Manipulation of gingival tissue or periapical region. Amoxicillin 2g PO is first-line.",
+      "whyWrong": {
+        "A": "Mechanical valve = HIGHEST risk. Prophylaxis is mandatory.",
+        "C": "Clindamycin is for penicillin-allergic patients.",
+        "D": "Cephalexin is not recommended for IE prophylaxis.",
+        "E": "IV gentamicin is no longer recommended for IE prophylaxis."
+      },
+      "clinicalPearl": "IE prophylaxis: Only for HIGH-RISK patients undergoing DENTAL procedures with manipulation of gingiva. Amoxicillin 2g PO."
+    },
+    "references": ["AHA IE Prophylaxis Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_019",
+    "specialty": "cardiology",
+    "topic": "Cardiac Transplant",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male cardiac transplant recipient (6 months post-transplant) presents with fatigue and dyspnea. Cardiac biopsy shows lymphocytic infiltrate with myocyte damage. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Hyperacute rejection" },
+      { "id": "B", "text": "Acute cellular rejection" },
+      { "id": "C", "text": "Antibody-mediated rejection" },
+      { "id": "D", "text": "Cardiac allograft vasculopathy" },
+      { "id": "E", "text": "Cytomegalovirus myocarditis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute cellular rejection (ACR): Most common in first 6-12 months. Lymphocytic infiltrate with myocyte damage on biopsy. Graded by ISHLT (1R, 2R, 3R). Treatment: Steroid pulse, increase immunosuppression.",
+      "whyWrong": {
+        "A": "Hyperacute: Minutes to hours, preformed antibodies, rare now with crossmatching.",
+        "C": "AMR: C4d deposition on biopsy, donor-specific antibodies (DSA) positive.",
+        "D": "CAV: Chronic rejection, diffuse coronary narrowing, occurs years later.",
+        "E": "CMV would show viral inclusions, not lymphocytic infiltrate."
+      },
+      "clinicalPearl": "Acute cellular rejection (6-12mo post-transplant): Lymphocytic infiltrate + Myocyte damage. Treat with steroids."
+    },
+    "references": ["ISHLT Cardiac Transplant Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_020",
+    "specialty": "cardiology",
+    "topic": "Stress Testing",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female with atypical chest pain undergoes exercise stress testing. She achieves 10 METs, no chest pain. ECG at peak exercise shows 2mm horizontal ST depression in leads V4-V6. What is the MOST appropriate next step?",
+    "options": [
+      { "id": "A", "text": "Reassurance, no further testing needed" },
+      { "id": "B", "text": "CT coronary angiography" },
+      { "id": "C", "text": "Stress echocardiography or nuclear perfusion imaging" },
+      { "id": "D", "text": "Invasive coronary angiography" },
+      { "id": "E", "text": "Start empiric metoprolol" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Equivocal stress ECG (ST depression without symptoms, good exercise capacity) + Intermediate pretest probability: Next step = Stress imaging (echo or nuclear). Duke Treadmill Score would help risk-stratify. If high-risk imaging → angiography.",
+      "whyWrong": {
+        "A": "ST depression of 2mm is significant even without symptoms.",
+        "B": "CT coronary angiography shows anatomy, not functional significance.",
+        "D": "Invasive angiography is for high-risk findings or failed non-invasive testing.",
+        "E": "Empiric treatment without confirming diagnosis is inappropriate."
+      },
+      "clinicalPearl": "Equivocal stress ECG → Stress imaging (echo or nuclear). Anatomy vs function: CCTA shows plaque, stress imaging shows ischemia."
+    },
+    "references": ["ACC/AHA Chest Pain Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

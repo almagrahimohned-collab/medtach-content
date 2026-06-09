@@ -228,3 +228,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pearls_009",
+    "specialty": "quick_review",
+    "topic": "Shock Management",
+    "difficulty": "hard",
+    "vignette": "A patient in septic shock remains hypotensive (MAP 58) despite norepinephrine 0.5 mcg/kg/min. What is the BEST second-line vasopressor?",
+    "options": [
+      { "id": "A", "text": "Dopamine" },
+      { "id": "B", "text": "Dobutamine" },
+      { "id": "C", "text": "Vasopressin 0.03 units/min" },
+      { "id": "D", "text": "Phenylephrine" },
+      { "id": "E", "text": "Milrinone" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Refractory septic shock on high-dose norepinephrine: Add vasopressin (0.03 units/min fixed dose). Vasopressin is a non-catecholamine vasopressor that potentiates norepinephrine effect and reduces norepinephrine requirements.",
+      "whyWrong": {
+        "A": "Dopamine is second-line (more arrhythmias than norepinephrine).",
+        "B": "Dobutamine is an inotrope (for low cardiac output), not a vasopressor.",
+        "D": "Phenylephrine is pure alpha-agonist, less effective than vasopressin in sepsis.",
+        "E": "Milrinone is an inodilator (for cardiogenic shock), would worsen hypotension."
+      },
+      "clinicalPearl": "Septic shock: Norepinephrine (1st) → Vasopressin (2nd) → Epinephrine (3rd). Hydrocortisone if refractory to vasopressors."
+    },
+    "references": ["Surviving Sepsis Campaign 2021", "VASST Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_010",
+    "specialty": "quick_review",
+    "topic": "End-of-Life Care",
+    "difficulty": "medium",
+    "vignette": "A 85-year-old with metastatic pancreatic cancer is in severe pain despite oral morphine. He develops myoclonus and confusion. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Increase morphine dose" },
+      { "id": "B", "text": "Rotate to hydromorphone" },
+      { "id": "C", "text": "Add naloxone" },
+      { "id": "D", "text": "Add midazolam" },
+      { "id": "E", "text": "Stop all opioids" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Opioid-induced neurotoxicity (OIN): Myoclonus, hyperalgesia, delirium. Caused by morphine metabolite (M3G) accumulation, especially in renal impairment. Rotate to a different opioid (hydromorphone, fentanyl) that lacks neurotoxic metabolites.",
+      "whyWrong": {
+        "A": "Increasing dose would worsen neurotoxicity.",
+        "C": "Naloxone reverses pain control and causes withdrawal crisis.",
+        "D": "Midazolam treats symptoms but not the underlying cause.",
+        "E": "Stopping all opioids leaves patient in severe pain (unethical)."
+      },
+      "clinicalPearl": "Opioid neurotoxicity: Rotate to different opioid. Hydromorphone/fentanyl have less neurotoxic metabolites than morphine."
+    },
+    "references": ["NCCN Palliative Care Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

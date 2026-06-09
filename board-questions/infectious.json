@@ -368,3 +368,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_id_014",
+    "specialty": "infectious",
+    "topic": "Febrile Neutropenia",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old female receiving chemotherapy for breast cancer presents with fever (39.0°C) and neutropenia (ANC 200). She has a Port-a-Cath. What is the BEST empiric antibiotic regimen?",
+    "options": [
+      { "id": "A", "text": "Oral ciprofloxacin + amoxicillin-clavulanate" },
+      { "id": "B", "text": "IV cefepime" },
+      { "id": "C", "text": "IV vancomycin + cefepime" },
+      { "id": "D", "text": "IV meropenem + vancomycin" },
+      { "id": "E", "text": "IV ceftriaxone + metronidazole" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Febrile neutropenia (high-risk: ANC <100, expected >7 days): Monotherapy with antipseudomonal beta-lactam (cefepime, meropenem, pip-tazo) is first-line. Add vancomycin ONLY if: hemodynamic instability, catheter-related infection, positive blood cultures for gram-positive, skin/soft tissue infection, or known MRSA colonization.",
+      "whyWrong": {
+        "A": "Oral antibiotics are for LOW-risk febrile neutropenia only (ANC >100, expected <7 days, stable).",
+        "C": "Vancomycin is NOT routine. Added only for specific indications.",
+        "D": "Meropenem is reserved for ESBL risk or recent broad-spectrum antibiotic use.",
+        "E": "Ceftriaxone lacks Pseudomonas coverage (inadequate for febrile neutropenia)."
+      },
+      "clinicalPearl": "Febrile neutropenia: Antipseudomonal beta-lactam (cefepime) alone. Add vancomycin only for specific indications."
+    },
+    "references": ["IDSA/ASCO Febrile Neutropenia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_015",
+    "specialty": "infectious",
+    "topic": "COVID-19",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with diabetes and hypertension is hospitalized with COVID-19 pneumonia. He requires 4L O2 to maintain SpO2 >92%. CRP and D-dimer are elevated. What is the recommended treatment?",
+    "options": [
+      { "id": "A", "text": "Remdesivir + Dexamethasone + Baricitinib" },
+      { "id": "B", "text": "Remdesivir alone" },
+      { "id": "C", "text": "Dexamethasone alone" },
+      { "id": "D", "text": "Hydroxychloroquine + Azithromycin" },
+      { "id": "E", "text": "Convalescent plasma" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Hospitalized COVID-19 requiring supplemental O2: Dexamethasone 6mg daily (reduces mortality in RECOVERY trial) + Remdesivir (antiviral, speeds recovery) + Baricitinib (JAK inhibitor, reduces inflammation if CRP >75). Combination reduces mortality vs dexamethasone alone.",
+      "whyWrong": {
+        "B": "Antiviral alone without anti-inflammatory (steroids) is insufficient for severe disease.",
+        "C": "Steroids alone may be adequate but combination therapy is superior.",
+        "D": "Hydroxychloroquine + Azithromycin showed NO benefit and potential harm.",
+        "E": "Convalescent plasma has limited efficacy and is reserved for immunosuppressed patients."
+      },
+      "clinicalPearl": "COVID-19 hospitalized on O2: Dexamethasone + Remdesivir ± Baricitinib/Tocilizumab (if elevated inflammatory markers)."
+    },
+    "references": ["NIH COVID-19 Treatment Guidelines 2024", "RECOVERY Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
