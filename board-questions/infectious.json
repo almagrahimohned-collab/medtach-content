@@ -4,13 +4,28 @@
     "specialty": "infectious",
     "topic": "Sepsis",
     "difficulty": "medium",
-    "vignette": "A 70-year-old nursing home resident presents with fever, confusion, and hypotension. Vitals: Temp 38.9°C, BP 78/45, HR 115, RR 30. Lactate is 4.5 mmol/L. She has a chronic Foley catheter. What is the FIRST priority in the 1-hour sepsis bundle?",
+    "vignette": "A 70-year-old nursing home resident presents with fever, confusion, and hypotension. Vitals: Temp 38.9\u00b0C, BP 78/45, HR 115, RR 30. Lactate is 4.5 mmol/L. She has a chronic Foley catheter. What is the FIRST priority in the 1-hour sepsis bundle?",
     "options": [
-      { "id": "A", "text": "Broad-spectrum antibiotics" },
-      { "id": "B", "text": "Blood cultures" },
-      { "id": "C", "text": "IV crystalloid fluids 30mL/kg" },
-      { "id": "D", "text": "Measure lactate level" },
-      { "id": "E", "text": "Insert central line" }
+      {
+        "id": "A",
+        "text": "Broad-spectrum antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Blood cultures"
+      },
+      {
+        "id": "C",
+        "text": "IV crystalloid fluids 30mL/kg"
+      },
+      {
+        "id": "D",
+        "text": "Measure lactate level"
+      },
+      {
+        "id": "E",
+        "text": "Insert central line"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -21,9 +36,11 @@
         "D": "Lactate already measured.",
         "E": "Central line is not in the 1-hour bundle."
       },
-      "clinicalPearl": "Sepsis: Lactate → Blood cultures → Antibiotics → Fluids 30mL/kg → Vasopressors. Time = Tissue."
+      "clinicalPearl": "Sepsis: Lactate \u2192 Blood cultures \u2192 Antibiotics \u2192 Fluids 30mL/kg \u2192 Vasopressors. Time = Tissue."
     },
-    "references": ["Surviving Sepsis Campaign 2021"],
+    "references": [
+      "Surviving Sepsis Campaign 2021"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,11 +51,26 @@
     "difficulty": "easy",
     "vignette": "A 25-year-old healthy female presents with dysuria, frequency, and urgency for 2 days. No fever, flank pain, or vaginal discharge. Urine dipstick: positive nitrites and leukocyte esterase. Not pregnant. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Ceftriaxone 1g IM once" },
-      { "id": "B", "text": "Nitrofurantoin 100mg BID x5 days" },
-      { "id": "C", "text": "Ciprofloxacin 500mg BID x7 days" },
-      { "id": "D", "text": "Wait for urine culture results" },
-      { "id": "E", "text": "TMP-SMX DS BID x3 days" }
+      {
+        "id": "A",
+        "text": "Ceftriaxone 1g IM once"
+      },
+      {
+        "id": "B",
+        "text": "Nitrofurantoin 100mg BID x5 days"
+      },
+      {
+        "id": "C",
+        "text": "Ciprofloxacin 500mg BID x7 days"
+      },
+      {
+        "id": "D",
+        "text": "Wait for urine culture results"
+      },
+      {
+        "id": "E",
+        "text": "TMP-SMX DS BID x3 days"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "Uncomplicated cystitis: Nitrofurantoin > TMP-SMX > Fosfomycin. AVOID fluoroquinolones."
     },
-    "references": ["IDSA UTI Guidelines"],
+    "references": [
+      "IDSA UTI Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -60,13 +94,28 @@
     "specialty": "infectious",
     "topic": "HIV",
     "difficulty": "medium",
-    "vignette": "A 28-year-old male is newly diagnosed with HIV. CD4 count is 180 cells/μL. He is started on TDF/FTC + dolutegravir. Which prophylactic medication should he also receive?",
+    "vignette": "A 28-year-old male is newly diagnosed with HIV. CD4 count is 180 cells/\u03bcL. He is started on TDF/FTC + dolutegravir. Which prophylactic medication should he also receive?",
     "options": [
-      { "id": "A", "text": "TMP-SMX DS daily" },
-      { "id": "B", "text": "Azithromycin 1200mg weekly" },
-      { "id": "C", "text": "Fluconazole 100mg daily" },
-      { "id": "D", "text": "Valganciclovir 900mg daily" },
-      { "id": "E", "text": "No prophylaxis needed" }
+      {
+        "id": "A",
+        "text": "TMP-SMX DS daily"
+      },
+      {
+        "id": "B",
+        "text": "Azithromycin 1200mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Fluconazole 100mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Valganciclovir 900mg daily"
+      },
+      {
+        "id": "E",
+        "text": "No prophylaxis needed"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -77,13 +126,14 @@
         "D": "Valganciclovir is for CMV in transplant.",
         "E": "CD4 <200 requires PCP prophylaxis."
       },
-      "clinicalPearl": "HIV prophylaxis: CD4 <200 → TMP-SMX (PCP). CD4 <50 → Add Azithromycin (MAC)."
+      "clinicalPearl": "HIV prophylaxis: CD4 <200 \u2192 TMP-SMX (PCP). CD4 <50 \u2192 Add Azithromycin (MAC)."
     },
-    "references": ["CDC OI Guidelines 2023"],
+    "references": [
+      "CDC OI Guidelines 2023"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_id_004",
     "specialty": "infectious",
@@ -91,11 +141,26 @@
     "difficulty": "hard",
     "vignette": "A 28-year-old IV drug user presents with fever, chills, and night sweats for 2 weeks. He has a new holosystolic murmur at the apex, splinter hemorrhages, and Janeway lesions on his palms. Blood cultures grow Staphylococcus aureus. Echo shows 1.5cm vegetation on the mitral valve. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Vancomycin + Gentamicin for 2 weeks" },
-      { "id": "B", "text": "Nafcillin + Gentamicin for 6 weeks" },
-      { "id": "C", "text": "Vancomycin alone for 6 weeks" },
-      { "id": "D", "text": "Ceftriaxone + Gentamicin for 4 weeks" },
-      { "id": "E", "text": "Surgical valve replacement" }
+      {
+        "id": "A",
+        "text": "Vancomycin + Gentamicin for 2 weeks"
+      },
+      {
+        "id": "B",
+        "text": "Nafcillin + Gentamicin for 6 weeks"
+      },
+      {
+        "id": "C",
+        "text": "Vancomycin alone for 6 weeks"
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone + Gentamicin for 4 weeks"
+      },
+      {
+        "id": "E",
+        "text": "Surgical valve replacement"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -108,7 +173,9 @@
       },
       "clinicalPearl": "MSSA IE: Nafcillin/Oxacillin x6 weeks. MRSA IE: Vancomycin or Daptomycin x6 weeks. Early surgery if complications."
     },
-    "references": ["AHA/IDSA IE Guidelines 2023"],
+    "references": [
+      "AHA/IDSA IE Guidelines 2023"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -119,11 +186,26 @@
     "difficulty": "medium",
     "vignette": "A 55-year-old diabetic male presents with a non-healing ulcer on the plantar surface of his right foot for 4 weeks. He can probe to bone. MRI shows osteomyelitis of the 1st metatarsal. What is the MOST important diagnostic test?",
     "options": [
-      { "id": "A", "text": "MRI with contrast" },
-      { "id": "B", "text": "Bone biopsy with culture and histopathology" },
-      { "id": "C", "text": "CT scan" },
-      { "id": "D", "text": "Wound swab culture" },
-      { "id": "E", "text": "Blood cultures" }
+      {
+        "id": "A",
+        "text": "MRI with contrast"
+      },
+      {
+        "id": "B",
+        "text": "Bone biopsy with culture and histopathology"
+      },
+      {
+        "id": "C",
+        "text": "CT scan"
+      },
+      {
+        "id": "D",
+        "text": "Wound swab culture"
+      },
+      {
+        "id": "E",
+        "text": "Blood cultures"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -136,7 +218,9 @@
       },
       "clinicalPearl": "Osteomyelitis: Bone biopsy is gold standard. Empiric antibiotics ONLY after biopsy. Treat 4-6 weeks based on culture."
     },
-    "references": ["IDSA Diabetic Foot Infection Guidelines"],
+    "references": [
+      "IDSA Diabetic Foot Infection Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -147,11 +231,26 @@
     "difficulty": "hard",
     "vignette": "A 68-year-old male develops a UTI while hospitalized. Urine culture grows E. coli resistant to ceftriaxone, cefepime, and ciprofloxacin but sensitive to meropenem and amikacin. What resistance mechanism is MOST likely present?",
     "options": [
-      { "id": "A", "text": "Methicillin resistance (mecA gene)" },
-      { "id": "B", "text": "Extended-spectrum beta-lactamase (ESBL)" },
-      { "id": "C", "text": "Carbapenemase (KPC)" },
-      { "id": "D", "text": "Vancomycin resistance (vanA gene)" },
-      { "id": "E", "text": "AmpC beta-lactamase" }
+      {
+        "id": "A",
+        "text": "Methicillin resistance (mecA gene)"
+      },
+      {
+        "id": "B",
+        "text": "Extended-spectrum beta-lactamase (ESBL)"
+      },
+      {
+        "id": "C",
+        "text": "Carbapenemase (KPC)"
+      },
+      {
+        "id": "D",
+        "text": "Vancomycin resistance (vanA gene)"
+      },
+      {
+        "id": "E",
+        "text": "AmpC beta-lactamase"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -164,7 +263,9 @@
       },
       "clinicalPearl": "ESBL: Resistant to cephalosporins + fluoroquinolones, sensitive to carbapenems. Treatment: Meropenem, Ertapenem."
     },
-    "references": ["CLSI Antimicrobial Susceptibility Guidelines"],
+    "references": [
+      "CLSI Antimicrobial Susceptibility Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -173,13 +274,28 @@
     "specialty": "infectious",
     "topic": "Fungal Infections",
     "difficulty": "medium",
-    "vignette": "A 35-year-old HIV patient (CD4 25 cells/μL, not on ART) presents with severe headache, fever, and confusion for 5 days. CSF opening pressure is 35 cmH2O. India ink stain of CSF shows encapsulated yeast. What is the BEST initial treatment?",
+    "vignette": "A 35-year-old HIV patient (CD4 25 cells/\u03bcL, not on ART) presents with severe headache, fever, and confusion for 5 days. CSF opening pressure is 35 cmH2O. India ink stain of CSF shows encapsulated yeast. What is the BEST initial treatment?",
     "options": [
-      { "id": "A", "text": "Amphotericin B + Flucytosine for 2 weeks, then fluconazole" },
-      { "id": "B", "text": "Fluconazole 800mg daily alone" },
-      { "id": "C", "text": "Voriconazole IV" },
-      { "id": "D", "text": "Caspofungin IV" },
-      { "id": "E", "text": "Amphotericin B alone" }
+      {
+        "id": "A",
+        "text": "Amphotericin B + Flucytosine for 2 weeks, then fluconazole"
+      },
+      {
+        "id": "B",
+        "text": "Fluconazole 800mg daily alone"
+      },
+      {
+        "id": "C",
+        "text": "Voriconazole IV"
+      },
+      {
+        "id": "D",
+        "text": "Caspofungin IV"
+      },
+      {
+        "id": "E",
+        "text": "Amphotericin B alone"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -190,9 +306,11 @@
         "D": "Echinocandins (caspofungin) have NO activity against Cryptococcus.",
         "E": "Amphotericin B monotherapy is inferior to combination with flucytosine."
       },
-      "clinicalPearl": "Cryptococcal meningitis: Amphotericin B + Flucytosine (induction) → Fluconazole (consolidation/maintenance)."
+      "clinicalPearl": "Cryptococcal meningitis: Amphotericin B + Flucytosine (induction) \u2192 Fluconazole (consolidation/maintenance)."
     },
-    "references": ["WHO Cryptococcal Guidelines 2022"],
+    "references": [
+      "WHO Cryptococcal Guidelines 2022"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -203,11 +321,26 @@
     "difficulty": "medium",
     "vignette": "A 30-year-old traveler returns from sub-Saharan Africa with fever, chills, and headache for 3 days. He did not take malaria prophylaxis. Blood smear shows ring forms within RBCs. Parasitemia is 8%. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Chloroquine 600mg PO" },
-      { "id": "B", "text": "IV Artesunate" },
-      { "id": "C", "text": "Atovaquone-Proguanil PO" },
-      { "id": "D", "text": "Quinine + Doxycycline PO" },
-      { "id": "E", "text": "Primaquine PO" }
+      {
+        "id": "A",
+        "text": "Chloroquine 600mg PO"
+      },
+      {
+        "id": "B",
+        "text": "IV Artesunate"
+      },
+      {
+        "id": "C",
+        "text": "Atovaquone-Proguanil PO"
+      },
+      {
+        "id": "D",
+        "text": "Quinine + Doxycycline PO"
+      },
+      {
+        "id": "E",
+        "text": "Primaquine PO"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -220,7 +353,9 @@
       },
       "clinicalPearl": "Severe malaria (>5% parasitemia or organ dysfunction): IV Artesunate. Uncomplicated: Artemether-lumefantrine (Coartem) or Atovaquone-proguanil."
     },
-    "references": ["CDC Malaria Guidelines 2023"],
+    "references": [
+      "CDC Malaria Guidelines 2023"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -231,11 +366,26 @@
     "difficulty": "easy",
     "vignette": "A 22-year-old female presents with mucopurulent cervical discharge, dysuria, and intermenstrual bleeding. She has had 3 sexual partners in the past year and uses condoms inconsistently. What is the empiric treatment for the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Ceftriaxone 500mg IM + Doxycycline 100mg BID x7 days" },
-      { "id": "B", "text": "Azithromycin 1g PO single dose" },
-      { "id": "C", "text": "Metronidazole 500mg BID x7 days" },
-      { "id": "D", "text": "Ceftriaxone 500mg IM + Azithromycin 1g PO" },
-      { "id": "E", "text": "Penicillin G 2.4 million units IM" }
+      {
+        "id": "A",
+        "text": "Ceftriaxone 500mg IM + Doxycycline 100mg BID x7 days"
+      },
+      {
+        "id": "B",
+        "text": "Azithromycin 1g PO single dose"
+      },
+      {
+        "id": "C",
+        "text": "Metronidazole 500mg BID x7 days"
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone 500mg IM + Azithromycin 1g PO"
+      },
+      {
+        "id": "E",
+        "text": "Penicillin G 2.4 million units IM"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -248,7 +398,9 @@
       },
       "clinicalPearl": "Cervicitis: Treat for GC (Ceftriaxone IM) + Chlamydia (Doxycycline x7d). Doxycycline is preferred over azithromycin for chlamydia."
     },
-    "references": ["CDC STD Treatment Guidelines 2021"],
+    "references": [
+      "CDC STD Treatment Guidelines 2021"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -259,40 +411,71 @@
     "difficulty": "easy",
     "vignette": "A 65-year-old male with COPD and diabetes asks about recommended vaccines. He received influenza vaccine last year and Tdap 3 years ago. He has never received pneumococcal vaccine. What is the BEST recommendation?",
     "options": [
-      { "id": "A", "text": "PPSV23 now, PCV13 in 1 year" },
-      { "id": "B", "text": "PCV13 now, PPSV23 in 1 year" },
-      { "id": "C", "text": "PCV15 or PCV20 now (single dose)" },
-      { "id": "D", "text": "PPSV23 now only" },
-      { "id": "E", "text": "Influenza vaccine only" }
+      {
+        "id": "A",
+        "text": "PPSV23 now, PCV13 in 1 year"
+      },
+      {
+        "id": "B",
+        "text": "PCV13 now, PPSV23 in 1 year"
+      },
+      {
+        "id": "C",
+        "text": "PCV15 or PCV20 now (single dose)"
+      },
+      {
+        "id": "D",
+        "text": "PPSV23 now only"
+      },
+      {
+        "id": "E",
+        "text": "Influenza vaccine only"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "New 2023 ACIP guidelines: Adults ≥65 years or high-risk (COPD, DM) should receive a SINGLE dose of PCV15 or PCV20. No longer need PPSV23 if PCV20 given. This simplifies the previous recommendation.",
+      "whyCorrect": "New 2023 ACIP guidelines: Adults \u226565 years or high-risk (COPD, DM) should receive a SINGLE dose of PCV15 or PCV20. No longer need PPSV23 if PCV20 given. This simplifies the previous recommendation.",
       "whyWrong": {
         "A": "Outdated recommendation (now replaced by PCV20 alone).",
         "B": "Outdated sequential recommendation.",
         "D": "PPSV23 alone is less immunogenic than conjugate vaccines.",
         "E": "Pneumococcal vaccination is indicated in COPD and DM."
       },
-      "clinicalPearl": "Adults ≥65 or high-risk: PCV20 (or PCV15) ONCE. No PPSV23 needed if PCV20 given."
+      "clinicalPearl": "Adults \u226565 or high-risk: PCV20 (or PCV15) ONCE. No PPSV23 needed if PCV20 given."
     },
-    "references": ["CDC ACIP Pneumococcal Guidelines 2023"],
+    "references": [
+      "CDC ACIP Pneumococcal Guidelines 2023"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_id_011",
     "specialty": "infectious",
     "topic": "Surgical Site Infection",
     "difficulty": "medium",
-    "vignette": "A 55-year-old female develops erythema, warmth, and purulent drainage from her abdominal surgical incision 10 days after colectomy. She has a temperature of 38.5°C. What is the MOST important management step?",
+    "vignette": "A 55-year-old female develops erythema, warmth, and purulent drainage from her abdominal surgical incision 10 days after colectomy. She has a temperature of 38.5\u00b0C. What is the MOST important management step?",
     "options": [
-      { "id": "A", "text": "Start IV vancomycin" },
-      { "id": "B", "text": "Open and drain the wound" },
-      { "id": "C", "text": "CT abdomen to rule out abscess" },
-      { "id": "D", "text": "Start broad-spectrum antibiotics" },
-      { "id": "E", "text": "Apply topical antibiotic ointment" }
+      {
+        "id": "A",
+        "text": "Start IV vancomycin"
+      },
+      {
+        "id": "B",
+        "text": "Open and drain the wound"
+      },
+      {
+        "id": "C",
+        "text": "CT abdomen to rule out abscess"
+      },
+      {
+        "id": "D",
+        "text": "Start broad-spectrum antibiotics"
+      },
+      {
+        "id": "E",
+        "text": "Apply topical antibiotic ointment"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -305,7 +488,9 @@
       },
       "clinicalPearl": "SSI with pus: Drain first, antibiotics second. Source control > Antibiotics in surgical infections."
     },
-    "references": ["SHEA/IDSA SSI Guidelines"],
+    "references": [
+      "SHEA/IDSA SSI Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -316,11 +501,26 @@
     "difficulty": "medium",
     "vignette": "A 70-year-old male is admitted with urosepsis. Blood cultures grow E. coli sensitive to ceftriaxone, ciprofloxacin, and TMP-SMX. He has been on IV piperacillin-tazobactam for 3 days and is now afebrile and stable. What is the BEST next step?",
     "options": [
-      { "id": "A", "text": "Continue IV piperacillin-tazobactam for 7 more days" },
-      { "id": "B", "text": "Switch to oral TMP-SMX to complete 7 days" },
-      { "id": "C", "text": "Switch to IV ceftriaxone" },
-      { "id": "D", "text": "Stop antibiotics, blood cultures are negative now" },
-      { "id": "E", "text": "Switch to IV ciprofloxacin" }
+      {
+        "id": "A",
+        "text": "Continue IV piperacillin-tazobactam for 7 more days"
+      },
+      {
+        "id": "B",
+        "text": "Switch to oral TMP-SMX to complete 7 days"
+      },
+      {
+        "id": "C",
+        "text": "Switch to IV ceftriaxone"
+      },
+      {
+        "id": "D",
+        "text": "Stop antibiotics, blood cultures are negative now"
+      },
+      {
+        "id": "E",
+        "text": "Switch to IV ciprofloxacin"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -331,9 +531,11 @@
         "D": "Urosepsis requires full course (7-10 days), not stopping at 3 days.",
         "E": "Fluoroquinolones have black box warnings and should be avoided if alternatives exist."
       },
-      "clinicalPearl": "Antibiotic stewardship: De-escalate to narrowest spectrum. IV→PO switch when stable. Shortest effective duration."
+      "clinicalPearl": "Antibiotic stewardship: De-escalate to narrowest spectrum. IV\u2192PO switch when stable. Shortest effective duration."
     },
-    "references": ["IDSA Antibiotic Stewardship Guidelines"],
+    "references": [
+      "IDSA Antibiotic Stewardship Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -344,11 +546,26 @@
     "difficulty": "hard",
     "vignette": "A 35-year-old farmer presents with fever, headache, myalgia, and conjunctival suffusion. He has jaundice and acute kidney injury. He raises cattle and his farm flooded recently. What is the MOST likely pathogen?",
     "options": [
-      { "id": "A", "text": "Brucella abortus" },
-      { "id": "B", "text": "Leptospira interrogans" },
-      { "id": "C", "text": "Coxiella burnetii" },
-      { "id": "D", "text": "Francisella tularensis" },
-      { "id": "E", "text": "Rickettsia rickettsii" }
+      {
+        "id": "A",
+        "text": "Brucella abortus"
+      },
+      {
+        "id": "B",
+        "text": "Leptospira interrogans"
+      },
+      {
+        "id": "C",
+        "text": "Coxiella burnetii"
+      },
+      {
+        "id": "D",
+        "text": "Francisella tularensis"
+      },
+      {
+        "id": "E",
+        "text": "Rickettsia rickettsii"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -361,23 +578,39 @@
       },
       "clinicalPearl": "Leptospirosis: Fever + Conjunctival suffusion + Jaundice/AKI + Flooding exposure. Treat with penicillin or doxycycline."
     },
-    "references": ["CDC Leptospirosis Guidelines"],
+    "references": [
+      "CDC Leptospirosis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_id_014",
     "specialty": "infectious",
     "topic": "Febrile Neutropenia",
     "difficulty": "hard",
-    "vignette": "A 55-year-old female receiving chemotherapy for breast cancer presents with fever (39.0°C) and neutropenia (ANC 200). She has a Port-a-Cath. What is the BEST empiric antibiotic regimen?",
+    "vignette": "A 55-year-old female receiving chemotherapy for breast cancer presents with fever (39.0\u00b0C) and neutropenia (ANC 200). She has a Port-a-Cath. What is the BEST empiric antibiotic regimen?",
     "options": [
-      { "id": "A", "text": "Oral ciprofloxacin + amoxicillin-clavulanate" },
-      { "id": "B", "text": "IV cefepime" },
-      { "id": "C", "text": "IV vancomycin + cefepime" },
-      { "id": "D", "text": "IV meropenem + vancomycin" },
-      { "id": "E", "text": "IV ceftriaxone + metronidazole" }
+      {
+        "id": "A",
+        "text": "Oral ciprofloxacin + amoxicillin-clavulanate"
+      },
+      {
+        "id": "B",
+        "text": "IV cefepime"
+      },
+      {
+        "id": "C",
+        "text": "IV vancomycin + cefepime"
+      },
+      {
+        "id": "D",
+        "text": "IV meropenem + vancomycin"
+      },
+      {
+        "id": "E",
+        "text": "IV ceftriaxone + metronidazole"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -390,7 +623,9 @@
       },
       "clinicalPearl": "Febrile neutropenia: Antipseudomonal beta-lactam (cefepime) alone. Add vancomycin only for specific indications."
     },
-    "references": ["IDSA/ASCO Febrile Neutropenia Guidelines"],
+    "references": [
+      "IDSA/ASCO Febrile Neutropenia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -401,11 +636,26 @@
     "difficulty": "medium",
     "vignette": "A 70-year-old male with diabetes and hypertension is hospitalized with COVID-19 pneumonia. He requires 4L O2 to maintain SpO2 >92%. CRP and D-dimer are elevated. What is the recommended treatment?",
     "options": [
-      { "id": "A", "text": "Remdesivir + Dexamethasone + Baricitinib" },
-      { "id": "B", "text": "Remdesivir alone" },
-      { "id": "C", "text": "Dexamethasone alone" },
-      { "id": "D", "text": "Hydroxychloroquine + Azithromycin" },
-      { "id": "E", "text": "Convalescent plasma" }
+      {
+        "id": "A",
+        "text": "Remdesivir + Dexamethasone + Baricitinib"
+      },
+      {
+        "id": "B",
+        "text": "Remdesivir alone"
+      },
+      {
+        "id": "C",
+        "text": "Dexamethasone alone"
+      },
+      {
+        "id": "D",
+        "text": "Hydroxychloroquine + Azithromycin"
+      },
+      {
+        "id": "E",
+        "text": "Convalescent plasma"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -416,9 +666,483 @@
         "D": "Hydroxychloroquine + Azithromycin showed NO benefit and potential harm.",
         "E": "Convalescent plasma has limited efficacy and is reserved for immunosuppressed patients."
       },
-      "clinicalPearl": "COVID-19 hospitalized on O2: Dexamethasone + Remdesivir ± Baricitinib/Tocilizumab (if elevated inflammatory markers)."
+      "clinicalPearl": "COVID-19 hospitalized on O2: Dexamethasone + Remdesivir \u00b1 Baricitinib/Tocilizumab (if elevated inflammatory markers)."
     },
-    "references": ["NIH COVID-19 Treatment Guidelines 2024", "RECOVERY Trial"],
+    "references": [
+      "NIH COVID-19 Treatment Guidelines 2024",
+      "RECOVERY Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_001",
+    "specialty": "infectious",
+    "topic": "Candida auris",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old nursing home resident with central line and recent broad-spectrum antibiotics has persistent candidemia. Blood culture yeast is identified as Candida auris. What is the BEST treatment per CDC/IDSA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluconazole 800mg loading then 400mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Echinocandin (micafungin or anidulafungin) + Infection control (contact precautions, chlorhexidine bathing)"
+      },
+      {
+        "id": "C",
+        "text": "Voriconazole IV"
+      },
+      {
+        "id": "D",
+        "text": "Amphotericin B alone"
+      },
+      {
+        "id": "E",
+        "text": "No treatment, line removal alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "C. auris is a MULTIDRUG-RESISTANT Candida species. Often resistant to fluconazole (90%), variable resistance to amphotericin B (30%), and some strains resistant to echinocandins. Echinocandins are empiric first-line pending susceptibilities. INFECTION CONTROL CRITICAL: Contact precautions, chlorhexidine bathing, environmental cleaning (C. auris survives on surfaces for weeks). Notify public health. Remove all lines if possible.",
+      "whyWrong": {
+        "A": "C. auris is often fluconazole-resistant (90%+); not empiric.",
+        "B": "Echinocandins + Aggressive infection control. Report to public health.",
+        "C": "Voriconazole has variable activity; not first-line.",
+        "D": "Amphotericin B may have resistance; echinocandins preferred.",
+        "E": "Candidemia always requires antifungal treatment + source control."
+      },
+      "clinicalPearl": "C. auris: MDR yeast. Echinocandins first-line. Contact precautions + Environmental cleaning. Report to public health. Survives on surfaces for weeks."
+    },
+    "references": [
+      "CDC C. auris Guidelines 2024",
+      "IDSA Candidiasis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_002",
+    "specialty": "infectious",
+    "topic": "HIV - Long-Acting ART",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old male with HIV (CD4 450, suppressed on Biktarvy x3 years) has difficulty with daily pill adherence. What is the FDA-approved long-acting injectable regimen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daily oral TAF/FTC + DTG"
+      },
+      {
+        "id": "B",
+        "text": "Cabotegravir + Rilpivirine (Cabenuva) IM every 2 months"
+      },
+      {
+        "id": "C",
+        "text": "Dolutegravir monotherapy"
+      },
+      {
+        "id": "D",
+        "text": "Efavirenz + TDF/FTC"
+      },
+      {
+        "id": "E",
+        "text": "Atazanavir + Ritonavir"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cabenuva (cabotegravir + rilpivirine) is the first FDA-approved long-acting injectable complete ART regimen. ATLAS and FLAIR trials showed non-inferiority to daily oral ART. Initially approved monthly (2021), now approved every 2 months (2022). Requires viral suppression on oral ART first. Oral lead-in optional. Ideal for patients with adherence challenges or preference for fewer doses.",
+      "whyWrong": {
+        "A": "Oral ART is the problem (adherence challenges).",
+        "B": "Cabenuva: IM q2mo. First complete LA-ART regimen. High patient satisfaction.",
+        "C": "DTG monotherapy not recommended (risk of resistance).",
+        "D": "Efavirenz is older, more side effects; not long-acting.",
+        "E": "Boosted PI is older; more metabolic side effects."
+      },
+      "clinicalPearl": "LA-ART: Cabenuva (cabotegravir + rilpivirine) IM q2mo. For suppressed patients. ATLAS/FLAIR trials. Game-changer for adherence."
+    },
+    "references": [
+      "ATLAS Trial 2020",
+      "FLAIR Trial 2019",
+      "DHHS ART Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_003",
+    "specialty": "infectious",
+    "topic": "COVID-19 - Post-Exposure Prophylaxis",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old unvaccinated male with diabetes is exposed to COVID-19 (household contact, tested positive today). He has no symptoms. What is the recommended prophylaxis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No prophylaxis needed"
+      },
+      {
+        "id": "B",
+        "text": "Nirmatrelvir/Ritonavir (Paxlovid) OR Remdesivir IV for 3 days OR Molnupiravir"
+      },
+      {
+        "id": "C",
+        "text": "Hydroxychloroquine"
+      },
+      {
+        "id": "D",
+        "text": "Ivermectin"
+      },
+      {
+        "id": "E",
+        "text": "Convalescent plasma"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "High-risk unvaccinated patient with significant exposure: Post-exposure prophylaxis (PEP) is recommended per NIH 2024. Options: Paxlovid (nirmatrelvir/ritonavir) x5-10 days, Remdesivir IV x3 days, or Molnupiravir (if other options unavailable). Start within 5-7 days of exposure. Also: Test immediately, mask, and monitor symptoms. Vaccination should be initiated after recovery.",
+      "whyWrong": {
+        "A": "High-risk unvaccinated patient warrants PEP.",
+        "B": "Paxlovid or Remdesivir for PEP in high-risk patients.",
+        "C": "Hydroxychloroquine has NO benefit (multiple RCTs).",
+        "D": "Ivermectin has NO benefit (multiple RCTs).",
+        "E": "Convalescent plasma is for treatment of immunocompromised, not PEP."
+      },
+      "clinicalPearl": "COVID PEP (2024): Paxlovid or Remdesivir for high-risk exposed patients. Start within 5-7 days. Vaccinate after recovery."
+    },
+    "references": [
+      "NIH COVID-19 Treatment Guidelines 2024",
+      "EPIC-PEP Trial (Paxlovid)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_004",
+    "specialty": "infectious",
+    "topic": "Latent TB - New Regimens",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old immigrant from India has positive IGRA (QuantiFERON) and normal CXR. He is HIV-negative. What is the SHORTEST recommended LTBI treatment per CDC 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isoniazid (INH) daily x9 months"
+      },
+      {
+        "id": "B",
+        "text": "Rifapentine + Isoniazid (3HP) weekly x12 weeks (DOT)"
+      },
+      {
+        "id": "C",
+        "text": "Rifampin daily x4 months (4R)"
+      },
+      {
+        "id": "D",
+        "text": "Isoniazid + Rifampin daily x3 months (3HR)"
+      },
+      {
+        "id": "E",
+        "text": "No treatment, observe only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "3HP (rifapentine + INH weekly x12 weeks) is the SHORTEST recommended regimen. PREVENT TB study showed non-inferiority to 9 months INH with higher completion rates (82% vs 69%). 4R (rifampin x4 months) is alternative. 9H is standard but longest duration. All are acceptable; 3HP preferred for adherence. No treatment not recommended (risk of reactivation).",
+      "whyWrong": {
+        "A": "9H is standard but longest (poor adherence).",
+        "B": "3HP: Shortest regimen. Weekly DOT. Highest completion rates. Preferred.",
+        "C": "4R is 4 months; longer than 3HP.",
+        "D": "3HR is less common; 3HP preferred.",
+        "E": "Positive IGRA with normal CXR = LTBI; treatment recommended to prevent reactivation."
+      },
+      "clinicalPearl": "LTBI shortest regimen: 3HP (rifapentine + INH) weekly x12 weeks. PREVENT TB. Highest completion rates (82%)."
+    },
+    "references": [
+      "PREVENT TB Trial",
+      "CDC LTBI Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_005",
+    "specialty": "infectious",
+    "topic": "ESBL Infections",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female with pyelonephritis has urine culture growing E. coli resistant to ceftriaxone, cefepime, and ciprofloxacin, but sensitive to meropenem. What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ceftriaxone 2g IV daily"
+      },
+      {
+        "id": "B",
+        "text": "Ertapenem 1g IV daily OR Meropenem 1g IV q8h"
+      },
+      {
+        "id": "C",
+        "text": "Ciprofloxacin 400mg IV q12h"
+      },
+      {
+        "id": "D",
+        "text": "TMP-SMX PO"
+      },
+      {
+        "id": "E",
+        "text": "Nitrofurantoin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ESBL-producing E. coli: Resistant to all cephalosporins and fluoroquinolones. CARBAPENEMS are the treatment of choice. Ertapenem (convenient once-daily, spares anti-pseudomonal carbapenems) for non-severe infections. Meropenem for severe infections (sepsis, ICU). Avoid TMP-SMX (high resistance in ESBL), nitrofurantoin (only for cystitis, not pyelonephritis), and oral fosfomycin (not for pyelonephritis).",
+      "whyWrong": {
+        "A": "ESBL hydrolyzes ceftriaxone (resistant).",
+        "B": "Carbapenems = Treatment of choice for serious ESBL infections.",
+        "C": "ESBL often co-resistant to fluoroquinolones (resistant here).",
+        "D": "TMP-SMX often resistant in ESBL; not for pyelonephritis.",
+        "E": "Nitrofurantoin is for cystitis only (does not achieve renal tissue levels)."
+      },
+      "clinicalPearl": "ESBL Enterobacteriaceae: Carbapenems (ertapenem or meropenem). Avoid cephalosporins (even if reported susceptible). Fluoroquinolones often co-resistant."
+    },
+    "references": [
+      "IDSA ESBL Guidelines 2023",
+      "MERINO Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_006",
+    "specialty": "infectious",
+    "topic": "Syphilis - New Testing Algorithm",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old MSM presents with a painless genital ulcer. What is the recommended syphilis testing algorithm per CDC 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dark-field microscopy only"
+      },
+      {
+        "id": "B",
+        "text": "Reverse algorithm: Treponemal EIA/CIA first; if positive, reflex to RPR/VDRL titer"
+      },
+      {
+        "id": "C",
+        "text": "RPR alone"
+      },
+      {
+        "id": "D",
+        "text": "FTA-ABS only"
+      },
+      {
+        "id": "E",
+        "text": "Clinical diagnosis only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CDC 2024: Reverse sequence algorithm. Start with TREPONEMAL test (EIA/CIA) which detects antibodies to T. pallidum. If positive \u2192 reflex to NON-treponemal test (RPR/VDRL) for quantitative titer. If discordant (EIA+, RPR-), perform second treponemal test (TPPA). Traditional algorithm starts with RPR first. Reverse algorithm is more sensitive for early and late syphilis.",
+      "whyWrong": {
+        "A": "Dark-field microscopy is rarely available; not standard first-line.",
+        "B": "Reverse algorithm = Treponemal EIA \u2192 RPR titer. Standard in US labs.",
+        "C": "RPR alone misses very early or old treated syphilis.",
+        "D": "FTA-ABS is confirmatory treponemal test, not initial screen.",
+        "E": "Clinical diagnosis alone insufficient (many are asymptomatic)."
+      },
+      "clinicalPearl": "Syphilis testing (2024): Reverse algorithm - Treponemal EIA first \u2192 RPR titer. Treatment: Penicillin G benzathine 2.4M units IM x1 (early)."
+    },
+    "references": [
+      "CDC Syphilis Testing Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_007",
+    "specialty": "infectious",
+    "topic": "Multidrug-Resistant TB",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male from Eastern Europe has pulmonary TB with resistance to rifampin and isoniazid (MDR-TB). What is the recommended regimen per WHO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeat RIPE regimen (standard first-line)"
+      },
+      {
+        "id": "B",
+        "text": "BPaLM regimen: Bedaquiline + Pretomanid + Linezolid + Moxifloxacin (6 months, all-oral)"
+      },
+      {
+        "id": "C",
+        "text": "Injectable aminoglycoside-based regimen for 18-24 months"
+      },
+      {
+        "id": "D",
+        "text": "Isoniazid + Rifampin + Ethambutol for 12 months"
+      },
+      {
+        "id": "E",
+        "text": "No treatment, MDR-TB is incurable"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "WHO 2024: BPaLM regimen (6 months, ALL-ORAL) is now recommended for MDR-TB (including fluoroquinolone-resistant). ZeNix and TB-PRACTECAL trials showed >90% cure with 6-month all-oral regimen vs 50-60% with 18-24 month injectable regimens. Bedaquiline (diarylquinoline), Pretomanid (nitroimidazole), Linezolid (oxazolidinone), Moxifloxacin (if susceptible). No injectables needed! Shorter, safer, more effective.",
+      "whyWrong": {
+        "A": "RIPE ineffective for MDR-TB (resistant to rifampin and INH).",
+        "B": "BPaLM: 6-month all-oral regimen. >90% cure. Game-changer for MDR-TB.",
+        "C": "Injectable regimens are obsolete (toxic, long, less effective).",
+        "D": "Standard first-line ineffective for MDR.",
+        "E": "MDR-TB is curable with appropriate therapy."
+      },
+      "clinicalPearl": "MDR-TB (2024): BPaLM = 6-month all-oral regimen (bedaquiline, pretomanid, linezolid, moxifloxacin). >90% cure. No injectables!"
+    },
+    "references": [
+      "WHO MDR-TB Guidelines 2024",
+      "ZeNix Trial 2021",
+      "TB-PRACTECAL Trial 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_008",
+    "specialty": "infectious",
+    "topic": "Dengue Fever",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old traveler returns from Thailand with high fever, severe myalgia ('breakbone fever'), retro-orbital headache, and petechiae. Platelets are 60K. What is the MOST important management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aspirin for fever and pain"
+      },
+      {
+        "id": "B",
+        "text": "Acetaminophen for fever + IV fluids + Monitor for warning signs (hemoconcentration, hypotension)"
+      },
+      {
+        "id": "C",
+        "text": "Ibuprofen for myalgia"
+      },
+      {
+        "id": "D",
+        "text": "Platelet transfusion for Plt <100K"
+      },
+      {
+        "id": "E",
+        "text": "Antiviral therapy with ribavirin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Dengue fever: Supportive care is key. Acetaminophen for fever/pain (AVOID NSAIDs and aspirin - increase bleeding risk from thrombocytopenia and platelet dysfunction). IV fluids for dehydration or warning signs (hemoconcentration \u226520%, hypotension, narrow pulse pressure). Monitor for plasma leakage (critical phase day 3-7). Platelet transfusion ONLY if active bleeding + Plt <20K or <50K with surgery. No antiviral approved.",
+      "whyWrong": {
+        "A": "Aspirin increases bleeding risk in dengue (antiplatelet effect).",
+        "B": "Acetaminophen + IV fluids + Close monitoring. Avoid NSAIDs/aspirin.",
+        "C": "NSAIDs increase bleeding risk.",
+        "D": "Prophylactic platelet transfusion NOT recommended (no benefit, fluid overload risk).",
+        "E": "No antiviral therapy proven for dengue."
+      },
+      "clinicalPearl": "Dengue: Acetaminophen + Fluids. AVOID NSAIDs/aspirin. Monitor for plasma leakage (critical phase day 3-7). Platelets only for active bleeding."
+    },
+    "references": [
+      "WHO Dengue Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_009",
+    "specialty": "infectious",
+    "topic": "HIV PrEP - New Options",
+    "difficulty": "medium",
+    "vignette": "A 28-year-old MSM with inconsistent condom use requests HIV PrEP. He prefers non-daily option. What is the FDA-approved long-acting PrEP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daily oral TDF/FTC (Truvada)"
+      },
+      {
+        "id": "B",
+        "text": "Cabotegravir (Apretude) IM every 2 months"
+      },
+      {
+        "id": "C",
+        "text": "Daily oral TAF/FTC (Descovy)"
+      },
+      {
+        "id": "D",
+        "text": "On-demand TDF/FTC (2-1-1)"
+      },
+      {
+        "id": "E",
+        "text": "Dapivirine vaginal ring"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cabotegravir LA (Apretude) is the FIRST long-acting injectable PrEP. HPTN 083 (MSM) and HPTN 084 (cisgender women) showed superior efficacy to daily oral TDF/FTC. IM injection every 2 months after initial 2 monthly loading doses. Ideal for patients with adherence challenges or preference for non-daily option. Daily oral PrEP remains effective but requires daily adherence.",
+      "whyWrong": {
+        "A": "Daily oral TDF/FTC is effective but requires daily pill.",
+        "B": "Cabotegravir LA: IM q2mo. Superior to daily oral TDF/FTC. Long-acting.",
+        "C": "Descovy is daily oral PrEP (not approved for receptive vaginal sex).",
+        "D": "On-demand 2-1-1 is for MSM only; not FDA-approved but supported by IPERGAY.",
+        "E": "Dapivirine ring is for cisgender women in Africa (not US-approved)."
+      },
+      "clinicalPearl": "LA-PrEP: Cabotegravir (Apretude) IM q2mo. HPTN 083/084: Superior to daily oral PrEP. Game-changer for adherence."
+    },
+    "references": [
+      "HPTN 083 Trial 2021",
+      "HPTN 084 Trial 2022",
+      "CDC PrEP Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b1_010",
+    "specialty": "infectious",
+    "topic": "Necrotizing Soft Tissue Infection",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old diabetic male presents with severe pain out of proportion to exam, rapidly progressing erythema, crepitus on palpation, and hemodynamic instability in his left leg. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV antibiotics alone"
+      },
+      {
+        "id": "B",
+        "text": "EMERGENT radical surgical debridement + Broad-spectrum IV antibiotics (Vancomycin + Pip-Tazo + Clindamycin)"
+      },
+      {
+        "id": "C",
+        "text": "Hyperbaric oxygen as primary therapy"
+      },
+      {
+        "id": "D",
+        "text": "CT scan first, then decide on surgery"
+      },
+      {
+        "id": "E",
+        "text": "Incision and drainage at bedside"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Necrotizing fasciitis (Type I polymicrobial): SURGICAL EMERGENCY. Immediate radical debridement of all necrotic tissue. Do NOT delay surgery for imaging. Broad-spectrum IV antibiotics: Vancomycin (MRSA) + Piperacillin-Tazobactam or Carbapenem (gram-negatives/anaerobes) + Clindamycin (inhibits toxin production). Clindamycin is critical for its antitoxin effect (inhibits M protein in GAS). Hyperbaric O2 is ADJUNCTIVE after surgery, not primary.",
+      "whyWrong": {
+        "A": "Antibiotics alone without surgical debridement = 100% mortality.",
+        "B": "EMERGENT surgery + Broad-spectrum antibiotics (including clindamycin for antitoxin).",
+        "C": "Hyperbaric O2 is adjunctive after surgery; not primary therapy.",
+        "D": "CT may delay life-saving surgery. Clinical diagnosis sufficient.",
+        "E": "Bedside I&D inadequate; needs radical OR debridement."
+      },
+      "clinicalPearl": "Necrotizing fasciitis: EMERGENT radical debridement. Add clindamycin (antitoxin effect). Do NOT delay surgery for imaging."
+    },
+    "references": [
+      "IDSA Skin and Soft Tissue Guidelines 2023",
+      "LRINEC Score"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
