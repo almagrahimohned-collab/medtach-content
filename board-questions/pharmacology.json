@@ -1195,5 +1195,477 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_001",
+    "specialty": "pharmacology",
+    "topic": "mRNA Vaccines - New Applications",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male receives an mRNA-based RSV vaccine (mRNA-1345). What is the mechanism of mRNA vaccines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inactivated whole virus"
+      },
+      {
+        "id": "B",
+        "text": "Lipid nanoparticles deliver mRNA encoding viral antigen \u2192 Host cells produce antigen protein \u2192 Immune response"
+      },
+      {
+        "id": "C",
+        "text": "Live attenuated virus"
+      },
+      {
+        "id": "D",
+        "text": "Recombinant protein subunit"
+      },
+      {
+        "id": "E",
+        "text": "Viral vector vaccine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "mRNA vaccines (COVID-19, RSV, influenza in development): Lipid nanoparticles (LNPs) deliver modified mRNA encoding viral antigen (e.g., spike protein, RSV F protein). Host ribosomes translate mRNA \u2192 antigen protein \u2192 displayed on cell surface \u2192 humoral and cellular immune response. Advantages: Rapid development, no infectious agent, scalable, easily modified for variants. RSV mRNA vaccine (mRNA-1345, Moderna) is in phase 3 trials showing 80%+ efficacy.",
+      "whyWrong": {
+        "A": "Inactivated vaccines (polio, hep A) use killed whole virus, not mRNA.",
+        "B": "mRNA in LNPs \u2192 Host cells produce antigen \u2192 Immune response. Platform technology.",
+        "C": "Live attenuated (MMR, varicella, yellow fever) uses weakened live virus.",
+        "D": "Protein subunit (Shingrix, Arexvy) uses purified protein + adjuvant.",
+        "E": "Viral vector (J&J COVID, Ebola) uses adenovirus to deliver DNA."
+      },
+      "clinicalPearl": "mRNA vaccines: LNP-mRNA \u2192 Host cell produces antigen. Platform technology. COVID-19, RSV, influenza. Rapid development."
+    },
+    "references": [
+      "mRNA-1345 Phase 3 Trial 2024",
+      "Nature Reviews mRNA Vaccines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_002",
+    "specialty": "pharmacology",
+    "topic": "BTK Degraders vs Inhibitors",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with CLL develops resistance to ibrutinib (BTK inhibitor) due to BTK C481S mutation. What novel approach can overcome this resistance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase ibrutinib dose"
+      },
+      {
+        "id": "B",
+        "text": "BTK degrader (PROTAC) - Degrades entire BTK protein rather than inhibiting kinase activity"
+      },
+      {
+        "id": "C",
+        "text": "Switch to acalabrutinib"
+      },
+      {
+        "id": "D",
+        "text": "Switch to zanubrutinib"
+      },
+      {
+        "id": "E",
+        "text": "Add rituximab"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "BTK C481S mutation prevents covalent binding of BTK inhibitors (ibrutinib, acalabrutinib, zanubrutinib). BTK degraders (PROTACs, e.g., NX-2127, BGB-16673) recruit E3 ligase to ubiquitinate and degrade the ENTIRE BTK protein regardless of C481S mutation. Non-covalent BTK inhibitors (pirtobrutinib, Jaypirca) also overcome C481S resistance by binding non-covalently. Switching between covalent BTK inhibitors does NOT overcome C481S mutation.",
+      "whyWrong": {
+        "A": "Increasing dose does not overcome binding site mutation.",
+        "B": "BTK degrader eliminates entire protein, bypassing kinase domain mutations.",
+        "C": "Acalabrutinib is covalent BTK inhibitor; same resistance mechanism.",
+        "D": "Zanubrutinib is covalent BTK inhibitor; same resistance mechanism.",
+        "E": "Rituximab adds anti-CD20 but does not overcome BTK mutation."
+      },
+      "clinicalPearl": "BTK C481S resistance: Non-covalent BTK inhibitor (pirtobrutinib) OR BTK degrader (PROTAC). Degraders remove entire protein."
+    },
+    "references": [
+      "BRUIN Trial (Pirtobrutinib) 2023",
+      "BTK Degrader Clinical Trials 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_003",
+    "specialty": "pharmacology",
+    "topic": "Factor XI Inhibitors",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male with atrial fibrillation and high bleeding risk (HAS-BLED 4) needs anticoagulation. Which novel anticoagulant targets Factor XI and may have LESS bleeding risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apixaban (Factor Xa inhibitor)"
+      },
+      {
+        "id": "B",
+        "text": "Asundexian OR Milvexian (Factor XIa inhibitors) - Currently in phase 3 trials"
+      },
+      {
+        "id": "C",
+        "text": "Warfarin"
+      },
+      {
+        "id": "D",
+        "text": "Dabigatran"
+      },
+      {
+        "id": "E",
+        "text": "Rivaroxaban"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Factor XI inhibitors (asundexian, milvexian) are novel anticoagulants in phase 3 trials. Rationale: Factor XI is essential for THROMBOSIS (contact activation pathway) but DISPENSABLE for HEMOSTASIS (tissue factor pathway). Patients with congenital Factor XI deficiency have lower VTE risk without increased spontaneous bleeding. FXI inhibitors may provide anticoagulation WITHOUT increased bleeding risk compared to DOACs. OCEANIC-AF (asundexian) and LIBREXIA (milvexian) trials ongoing.",
+      "whyWrong": {
+        "A": "Apixaban is current standard but still has bleeding risk (1-2%/year major bleeding).",
+        "B": "FXI inhibitors: Anticoagulation with potentially LESS bleeding risk. Phase 3 ongoing.",
+        "C": "Warfarin has highest bleeding risk and drug interactions.",
+        "D": "Dabigatran is direct thrombin inhibitor with similar bleeding to DOACs.",
+        "E": "Rivaroxaban has GI bleeding risk slightly higher than apixaban."
+      },
+      "clinicalPearl": "FXI inhibitors (asundexian, milvexian): Separate thrombosis from hemostasis. Potentially safer anticoagulation. Phase 3 trials ongoing."
+    },
+    "references": [
+      "OCEANIC-AF Trial 2024",
+      "LIBREXIA AF Trial 2024",
+      "NEJM FXI Review 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_004",
+    "specialty": "pharmacology",
+    "topic": "Gout - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with gout on allopurinol 300mg has persistent hyperuricemia (UA 8.5) and recurrent flares. What is the mechanism of pegloticase (Krystexxa)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Xanthine oxidase inhibitor"
+      },
+      {
+        "id": "B",
+        "text": "Recombinant uricase enzyme - Converts uric acid to allantoin (soluble)"
+      },
+      {
+        "id": "C",
+        "text": "URAT1 inhibitor"
+      },
+      {
+        "id": "D",
+        "text": "IL-1 inhibitor"
+      },
+      {
+        "id": "E",
+        "text": "Microtubule inhibitor"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pegloticase is a recombinant PEGylated uricase that converts uric acid to ALLANTOIN (5-10x more soluble). Indicated for CHRONIC REFRACTORY GOUT with failure of oral urate-lowering therapy. Dramatically reduces uric acid and tophi. Given IV every 2 weeks. Risk: Anaphylaxis (6-10%), infusion reactions. Pre-medicate with antihistamines and steroids. Monitor uric acid levels (should drop to <1 mg/dL). G6PD deficiency is contraindication.",
+      "whyWrong": {
+        "A": "Allopurinol and febuxostat are xanthine oxidase inhibitors.",
+        "B": "Pegloticase: Recombinant uricase. Converts uric acid \u2192 allantoin.",
+        "C": "Probenecid and lesinurad are URAT1 inhibitors (uricosurics).",
+        "D": "Anakinra and canakinumab are IL-1 inhibitors for acute gout flares.",
+        "E": "Colchicine is microtubule inhibitor for acute gout prophylaxis."
+      },
+      "clinicalPearl": "Pegloticase: Uricase enzyme. Converts uric acid \u2192 allantoin. For refractory gout. Risk of anaphylaxis. G6PD screening required."
+    },
+    "references": [
+      "FDA Pegloticase Label 2023",
+      "ACR Gout Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_005",
+    "specialty": "pharmacology",
+    "topic": "Fentanyl and Xylazine Crisis",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male presents with opioid overdose (pinpoint pupils, respiratory depression). He does NOT respond to multiple doses of naloxone. He has necrotic skin ulcers at injection sites. What co-ingestant is likely present?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methamphetamine"
+      },
+      {
+        "id": "B",
+        "text": "Xylazine (alpha-2 adrenergic agonist) - Not reversed by naloxone"
+      },
+      {
+        "id": "C",
+        "text": "Cocaine"
+      },
+      {
+        "id": "D",
+        "text": "Benzodiazepine"
+      },
+      {
+        "id": "E",
+        "text": "Alcohol"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Xylazine (Tranq) is an alpha-2 adrenergic agonist (veterinary sedative) increasingly mixed with fentanyl. Causes: CNS depression (NOT reversed by naloxone), bradycardia, hypotension, and distinctive NECROTIC SKIN ULCERS at injection sites (due to vasoconstriction). Naloxone still indicated for fentanyl component but will not reverse xylazine. Supportive care is mainstay. Wound care for ulcers. Xylazine test strips available. Emerging public health crisis.",
+      "whyWrong": {
+        "A": "Methamphetamine causes agitation, tachycardia, not pinpoint pupils or skin ulcers.",
+        "B": "Xylazine: Alpha-2 agonist. No naloxone response. Necrotic ulcers. 'Tranq dope.'",
+        "C": "Cocaine causes mydriasis, tachycardia, not respiratory depression.",
+        "D": "Benzodiazepines cause sedation but not pinpoint pupils or skin ulcers.",
+        "E": "Alcohol causes sedation but not pinpoint pupils or necrotic ulcers."
+      },
+      "clinicalPearl": "Fentanyl + Xylazine ('Tranq'): Naloxone only partially effective. Necrotic skin ulcers = Xylazine clue. Alpha-2 agonist. Supportive care."
+    },
+    "references": [
+      "CDC Xylazine Alert 2023",
+      "DEA Xylazine Public Safety Alert 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_006",
+    "specialty": "pharmacology",
+    "topic": "Checkpoint Inhibitor Cardiotoxicity",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male on nivolumab (anti-PD1) + ipilimumab (anti-CTLA4) for melanoma develops fatigue, elevated troponin, and new complete heart block. What is the diagnosis and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acute MI - Cath lab activation"
+      },
+      {
+        "id": "B",
+        "text": "Immune-mediated myocarditis - Hold immunotherapy + IV methylprednisolone 1g daily + Temporary pacemaker"
+      },
+      {
+        "id": "C",
+        "text": "Viral myocarditis - Supportive care"
+      },
+      {
+        "id": "D",
+        "text": "Ischemic cardiomyopathy - PCI"
+      },
+      {
+        "id": "E",
+        "text": "Continue immunotherapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ICI myocarditis: Most common with combination anti-PD1 + anti-CTLA4. Can be FATAL (mortality 25-50%). Presentation: Elevated troponin, arrhythmias (CHB), heart failure. Management: 1. HOLD immunotherapy PERMANENTLY, 2. HIGH-DOSE IV steroids (methylprednisolone 1g daily), 3. If refractory: Add mycophenolate, infliximab (CONTROVERSIAL - may worsen myocarditis), or abatacept (CTLA4 agonist - investigational). Temporary pacemaker for CHB. Early recognition is critical.",
+      "whyWrong": {
+        "A": "Normal coronaries expected; not ischemic.",
+        "B": "ICI myocarditis: Hold ICI + IV steroids 1g + Pacemaker. High mortality.",
+        "C": "Viral myocarditis has different context (post-viral, not on immunotherapy).",
+        "D": "Normal coronaries; not ischemic.",
+        "E": "Continuing ICI in Grade 4 toxicity is FATAL."
+      },
+      "clinicalPearl": "ICI myocarditis: High mortality. Hold ICI permanently + IV steroids 1g + Pacemaker. Abatacept for refractory. Early troponin monitoring."
+    },
+    "references": [
+      "ASCO irAE Guidelines 2023",
+      "JACC Cardio-Oncology ICI Myocarditis 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_007",
+    "specialty": "pharmacology",
+    "topic": "Bispecific Antibodies in Myeloma",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old female with relapsed/refractory multiple myeloma after 4 lines of therapy receives teclistamab (Tecvayli). What is the mechanism of this bispecific antibody?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anti-CD38 monoclonal antibody"
+      },
+      {
+        "id": "B",
+        "text": "Bispecific T-cell engager (BiTE): Binds BCMA on myeloma cells AND CD3 on T cells \u2192 T-cell redirected lysis"
+      },
+      {
+        "id": "C",
+        "text": "Proteasome inhibitor"
+      },
+      {
+        "id": "D",
+        "text": "Immunomodulatory drug"
+      },
+      {
+        "id": "E",
+        "text": "CAR-T cell therapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Teclistamab is a BCMA\u00d7CD3 bispecific antibody (BiTE). One arm binds BCMA (B-cell maturation antigen) on myeloma cells, other arm binds CD3 on T cells \u2192 brings T cells into contact with myeloma cells \u2192 T-cell activation and tumor lysis. MajesTEC-1 trial: 63% ORR in heavily pretreated patients. Other bispecifics: Elranatamab, Talquetamab (GPRC5D). Different from CAR-T (autologous cell product). BiTEs are 'off-the-shelf' immunotherapy.",
+      "whyWrong": {
+        "A": "Daratumumab is anti-CD38 monoclonal antibody.",
+        "B": "BiTE: Redirects T cells to kill myeloma via BCMA-CD3 bridge. Off-the-shelf.",
+        "C": "Bortezomib/Carfilzomib are proteasome inhibitors.",
+        "D": "Lenalidomide/Pomalidomide are IMiDs (CRBN modulators).",
+        "E": "CAR-T (ide-cel, cilta-cel) requires cell manufacturing; BiTEs are ready-to-use."
+      },
+      "clinicalPearl": "Myeloma BiTEs: Teclistamab (BCMA\u00d7CD3). Redirects T cells to kill myeloma. Off-the-shelf immunotherapy. CRS and ICANS are risks."
+    },
+    "references": [
+      "MajesTEC-1 Trial 2022",
+      "FDA Teclistamab Approval 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_008",
+    "specialty": "pharmacology",
+    "topic": "Transthyretin Stabilizers",
+    "difficulty": "medium",
+    "vignette": "A 75-year-old male with wild-type ATTR cardiac amyloidosis (confirmed by PYP scan) has HFpEF and peripheral neuropathy. What is the mechanism of tafamidis (Vyndamax)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TTR gene silencer (siRNA)"
+      },
+      {
+        "id": "B",
+        "text": "TTR tetramer stabilizer - Prevents TTR dissociation into amyloidogenic monomers"
+      },
+      {
+        "id": "C",
+        "text": "Amyloid fibril disruptor"
+      },
+      {
+        "id": "D",
+        "text": "Anti-amyloid antibody"
+      },
+      {
+        "id": "E",
+        "text": "Immunosuppressant"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tafamidis binds to TTR tetramer and stabilizes it, preventing dissociation into monomers that misfold and form amyloid fibrils. ATTR-ACT trial: Tafamidis reduced all-cause mortality by 30% and CV hospitalizations by 32% in ATTR-CM. Approved for both wild-type and hereditary ATTR amyloidosis. Patisiran and Inotersen are TTR gene silencers (different mechanism, for hereditary ATTR with polyneuropathy). Acoramidis is next-gen stabilizer (more potent).",
+      "whyWrong": {
+        "A": "Patisiran (siRNA) and Inotersen (ASO) silence TTR gene in liver.",
+        "B": "Tafamidis: TTR stabilizer. Prevents amyloid formation. ATTR-ACT trial.",
+        "C": "Not a fibril disruptor (those are investigational).",
+        "D": "Anti-amyloid antibodies are for AL amyloidosis or Alzheimer disease.",
+        "E": "Not immunosuppressant."
+      },
+      "clinicalPearl": "ATTR amyloidosis: Tafamidis (TTR stabilizer) reduces mortality 30%. Patisiran/Inotersen (gene silencers) for neuropathy."
+    },
+    "references": [
+      "ATTR-ACT Trial 2018",
+      "FDA Tafamidis Label 2019"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_009",
+    "specialty": "pharmacology",
+    "topic": "CGRP Antagonists - Gepants",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female with migraine has failed sumatriptan due to intolerable chest tightness. What is the mechanism of ubrogepant (Ubrelvy) and rimegepant (Nurtec)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5-HT1B/1D receptor agonist (triptan)"
+      },
+      {
+        "id": "B",
+        "text": "CGRP receptor antagonist (gepant) - Blocks CGRP-mediated vasodilation and neurogenic inflammation"
+      },
+      {
+        "id": "C",
+        "text": "CGRP monoclonal antibody"
+      },
+      {
+        "id": "D",
+        "text": "COX-2 inhibitor"
+      },
+      {
+        "id": "E",
+        "text": "Ergot alkaloid"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Gepants (ubrogepant, rimegepant, atogepant, zavegepant) are oral CGRP RECEPTOR ANTAGONISTS. They block CGRP-mediated trigeminal nerve activation and vasodilation WITHOUT causing vasoconstriction (unlike triptans). Safe in patients with cardiovascular disease (no vasoconstriction). Ubrogepant and rimegepant for acute treatment; atogepant for prevention. Rimegepant is unique: single dose for acute, every-other-day for prevention. No medication-overuse headache risk.",
+      "whyWrong": {
+        "A": "Triptans are 5-HT1 agonists causing vasoconstriction (contraindicated in CVD).",
+        "B": "Gepants: CGRP receptor antagonists. No vasoconstriction. CVD-safe.",
+        "C": "Anti-CGRP mAbs (erenumab, galcanezumab) are injectable preventive, not oral acute.",
+        "D": "NSAIDs are COX inhibitors; different mechanism for migraine.",
+        "E": "Ergots (DHE) cause vasoconstriction and nausea; less used."
+      },
+      "clinicalPearl": "Gepants: Oral CGRP antagonists for acute migraine. Safe in CVD (no vasoconstriction). Ubrogepant (Ubrelvy), Rimegepant (Nurtec)."
+    },
+    "references": [
+      "ACHIEVE Trials (Ubrogepant)",
+      "FDA Gepant Approvals 2023",
+      "AAN Migraine Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b2_010",
+    "specialty": "pharmacology",
+    "topic": "Medical Cannabis Drug Interactions",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male on warfarin starts using CBD oil for chronic pain and develops supratherapeutic INR (6.5). What is the mechanism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CBD induces warfarin metabolism"
+      },
+      {
+        "id": "B",
+        "text": "CBD inhibits CYP2C9 and CYP3A4 \u2192 Decreased warfarin clearance"
+      },
+      {
+        "id": "C",
+        "text": "CBD displaces warfarin from protein binding"
+      },
+      {
+        "id": "D",
+        "text": "CBD enhances warfarin absorption"
+      },
+      {
+        "id": "E",
+        "text": "CBD has no effect on warfarin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CBD (cannabidiol) is a potent inhibitor of CYP2C9 (primary warfarin-metabolizing enzyme) and CYP3A4. This decreases warfarin clearance \u2192 increased INR/bleeding risk. THC (tetrahydrocannabinol) has fewer CYP interactions. Always counsel patients on warfarin (and other CYP2C9 substrates like phenytoin) about potential CBD interactions. Monitor INR closely when starting/stopping CBD. FDA-approved Epidiolex (CBD) carries warning about warfarin interaction.",
+      "whyWrong": {
+        "A": "CBD INHIBITS (not induces) CYP enzymes.",
+        "B": "CBD inhibits CYP2C9 \u2192 decreased warfarin metabolism \u2192 supratherapeutic INR.",
+        "C": "Protein binding displacement is minor; CYP inhibition is primary mechanism.",
+        "D": "Absorption is not the primary interaction.",
+        "E": "CBD has well-documented warfarin interaction (FDA warning)."
+      },
+      "clinicalPearl": "CBD + Warfarin: CBD inhibits CYP2C9 \u2192 \u2191 INR. Monitor INR closely. FDA warning. THC has fewer interactions."
+    },
+    "references": [
+      "FDA Epidiolex Drug Interaction Warning 2023",
+      "Cannabis-Drug Interaction Review 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
