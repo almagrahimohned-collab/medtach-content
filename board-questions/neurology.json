@@ -6,11 +6,26 @@
     "difficulty": "hard",
     "vignette": "A 72-year-old female presents with acute onset right-sided weakness and aphasia that started 2 hours ago. NIHSS is 18. CT head shows no hemorrhage. CTA shows left MCA occlusion. She takes warfarin for AF and INR is 1.8. What is the BEST management?",
     "options": [
-      { "id": "A", "text": "IV tPA (alteplase) 0.9 mg/kg" },
-      { "id": "B", "text": "Mechanical thrombectomy" },
-      { "id": "C", "text": "IV tPA followed by mechanical thrombectomy" },
-      { "id": "D", "text": "Aspirin 325mg and admit to stroke unit" },
-      { "id": "E", "text": "Start heparin infusion" }
+      {
+        "id": "A",
+        "text": "IV tPA (alteplase) 0.9 mg/kg"
+      },
+      {
+        "id": "B",
+        "text": "Mechanical thrombectomy"
+      },
+      {
+        "id": "C",
+        "text": "IV tPA followed by mechanical thrombectomy"
+      },
+      {
+        "id": "D",
+        "text": "Aspirin 325mg and admit to stroke unit"
+      },
+      {
+        "id": "E",
+        "text": "Start heparin infusion"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -23,7 +38,10 @@
       },
       "clinicalPearl": "Acute stroke <4.5h + LVO (ICA, MCA): IV tPA + Mechanical thrombectomy. Time is brain!"
     },
-    "references": ["AHA/ASA Stroke Guidelines 2019", "DAWN Trial"],
+    "references": [
+      "AHA/ASA Stroke Guidelines 2019",
+      "DAWN Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -32,13 +50,28 @@
     "specialty": "neurology",
     "topic": "Meningitis",
     "difficulty": "medium",
-    "vignette": "A 19-year-old college student presents with fever, severe headache, and neck stiffness for 12 hours. He is drowsy but arousable. Vitals: Temp 39.5°C, HR 120, BP 100/60. No rash. What is the MOST appropriate empiric antibiotic regimen?",
+    "vignette": "A 19-year-old college student presents with fever, severe headache, and neck stiffness for 12 hours. He is drowsy but arousable. Vitals: Temp 39.5\u00b0C, HR 120, BP 100/60. No rash. What is the MOST appropriate empiric antibiotic regimen?",
     "options": [
-      { "id": "A", "text": "Ceftriaxone + Vancomycin + Ampicillin" },
-      { "id": "B", "text": "Ceftriaxone + Vancomycin + Dexamethasone" },
-      { "id": "C", "text": "Meropenem + Vancomycin" },
-      { "id": "D", "text": "Ceftriaxone alone" },
-      { "id": "E", "text": "Ceftriaxone + Metronidazole" }
+      {
+        "id": "A",
+        "text": "Ceftriaxone + Vancomycin + Ampicillin"
+      },
+      {
+        "id": "B",
+        "text": "Ceftriaxone + Vancomycin + Dexamethasone"
+      },
+      {
+        "id": "C",
+        "text": "Meropenem + Vancomycin"
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone alone"
+      },
+      {
+        "id": "E",
+        "text": "Ceftriaxone + Metronidazole"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -51,7 +84,9 @@
       },
       "clinicalPearl": "Meningitis: Steroids BEFORE antibiotics! Dexamethasone reduces mortality by 50% in pneumococcal meningitis."
     },
-    "references": ["IDSA Meningitis Guidelines"],
+    "references": [
+      "IDSA Meningitis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -62,11 +97,26 @@
     "difficulty": "hard",
     "vignette": "A 28-year-old male with known epilepsy on levetiracetam presents with continuous seizure activity for 12 minutes. He received 4mg IV lorazepam by EMS without response. In the ED, he is still seizing. What is the NEXT best step?",
     "options": [
-      { "id": "A", "text": "Administer another 4mg IV lorazepam" },
-      { "id": "B", "text": "Load IV fosphenytoin 20mg/kg" },
-      { "id": "C", "text": "Intubate and start propofol infusion" },
-      { "id": "D", "text": "Load IV levetiracetam 60mg/kg" },
-      { "id": "E", "text": "Obtain STAT CT head first" }
+      {
+        "id": "A",
+        "text": "Administer another 4mg IV lorazepam"
+      },
+      {
+        "id": "B",
+        "text": "Load IV fosphenytoin 20mg/kg"
+      },
+      {
+        "id": "C",
+        "text": "Intubate and start propofol infusion"
+      },
+      {
+        "id": "D",
+        "text": "Load IV levetiracetam 60mg/kg"
+      },
+      {
+        "id": "E",
+        "text": "Obtain STAT CT head first"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -77,9 +127,12 @@
         "D": "Levetiracetam is alternative but patient is already on it.",
         "E": "Neuroimaging is important but should NOT delay seizure control."
       },
-      "clinicalPearl": "Status Epilepticus: BZD → Fosphenytoin/Valproate/Levetiracetam → Propofol/Midazolam/Phenobarbital."
+      "clinicalPearl": "Status Epilepticus: BZD \u2192 Fosphenytoin/Valproate/Levetiracetam \u2192 Propofol/Midazolam/Phenobarbital."
     },
-    "references": ["Neurocritical Care Society Guidelines", "ESETT Trial"],
+    "references": [
+      "Neurocritical Care Society Guidelines",
+      "ESETT Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -90,15 +143,30 @@
     "difficulty": "medium",
     "vignette": "A 45-year-old female presents with progressive weakness over 3 weeks. It started in her legs and is now in her arms. She had a diarrheal illness 2 weeks ago. Exam: Symmetric weakness 4/5 in all limbs, absent reflexes. CSF shows albuminocytologic dissociation. What is the MOST important next step?",
     "options": [
-      { "id": "A", "text": "Start IV methylprednisolone 1g daily" },
-      { "id": "B", "text": "Start IVIG or plasmapheresis" },
-      { "id": "C", "text": "Obtain MRI of the brain and spine" },
-      { "id": "D", "text": "Start IV acyclovir" },
-      { "id": "E", "text": "Monitor FVC every 2-4 hours" }
+      {
+        "id": "A",
+        "text": "Start IV methylprednisolone 1g daily"
+      },
+      {
+        "id": "B",
+        "text": "Start IVIG or plasmapheresis"
+      },
+      {
+        "id": "C",
+        "text": "Obtain MRI of the brain and spine"
+      },
+      {
+        "id": "D",
+        "text": "Start IV acyclovir"
+      },
+      {
+        "id": "E",
+        "text": "Monitor FVC every 2-4 hours"
+      }
     ],
     "correctOptionId": "E",
     "explanation": {
-      "whyCorrect": "Guillain-Barré syndrome. The MOST critical immediate step is monitoring respiratory function (FVC). 25-30% require mechanical ventilation.",
+      "whyCorrect": "Guillain-Barr\u00e9 syndrome. The MOST critical immediate step is monitoring respiratory function (FVC). 25-30% require mechanical ventilation.",
       "whyWrong": {
         "A": "Steroids are NOT effective in GBS.",
         "B": "IVIG/Plasmapheresis is treatment but respiratory monitoring takes priority.",
@@ -107,7 +175,9 @@
       },
       "clinicalPearl": "GBS: Monitor FVC q2-4h. Intubate if FVC <15-20 mL/kg. Treatment: IVIG or Plasmapheresis (NOT steroids)."
     },
-    "references": ["AAN GBS Guidelines"],
+    "references": [
+      "AAN GBS Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -118,11 +188,26 @@
     "difficulty": "hard",
     "vignette": "A 78-year-old female with hypertension and diabetes presents with acute onset left-sided weakness and left hemineglect. NIHSS is 16. CT shows hyperdense right MCA sign. CTA confirms right MCA occlusion. She takes apixaban for AF. Last dose was 4 hours ago. What is the BEST management?",
     "options": [
-      { "id": "A", "text": "IV tPA (alteplase)" },
-      { "id": "B", "text": "Mechanical thrombectomy alone" },
-      { "id": "C", "text": "IV tPA + mechanical thrombectomy" },
-      { "id": "D", "text": "Aspirin + admit to stroke unit" },
-      { "id": "E", "text": "Reverse apixaban with andexanet alfa, then treat" }
+      {
+        "id": "A",
+        "text": "IV tPA (alteplase)"
+      },
+      {
+        "id": "B",
+        "text": "Mechanical thrombectomy alone"
+      },
+      {
+        "id": "C",
+        "text": "IV tPA + mechanical thrombectomy"
+      },
+      {
+        "id": "D",
+        "text": "Aspirin + admit to stroke unit"
+      },
+      {
+        "id": "E",
+        "text": "Reverse apixaban with andexanet alfa, then treat"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -135,7 +220,10 @@
       },
       "clinicalPearl": "Recent DOAC (<48h) = NO tPA. Thrombectomy alone for LVO within 24h."
     },
-    "references": ["AHA/ASA Stroke Guidelines 2019", "DAWN Trial"],
+    "references": [
+      "AHA/ASA Stroke Guidelines 2019",
+      "DAWN Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -146,11 +234,26 @@
     "difficulty": "medium",
     "vignette": "A 65-year-old male presents with progressive gait difficulty. His wife reports he 'walks like he is stuck to the floor.' Exam: Lead-pipe rigidity, bradykinesia, postural instability. No tremor. Frequent falls. Levodopa trial shows minimal improvement. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Parkinson disease" },
-      { "id": "B", "text": "Progressive supranuclear palsy (PSP)" },
-      { "id": "C", "text": "Multiple system atrophy (MSA)" },
-      { "id": "D", "text": "Corticobasal degeneration" },
-      { "id": "E", "text": "Drug-induced parkinsonism" }
+      {
+        "id": "A",
+        "text": "Parkinson disease"
+      },
+      {
+        "id": "B",
+        "text": "Progressive supranuclear palsy (PSP)"
+      },
+      {
+        "id": "C",
+        "text": "Multiple system atrophy (MSA)"
+      },
+      {
+        "id": "D",
+        "text": "Corticobasal degeneration"
+      },
+      {
+        "id": "E",
+        "text": "Drug-induced parkinsonism"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -163,7 +266,9 @@
       },
       "clinicalPearl": "PSP: Early falls + Vertical gaze palsy + Axial rigidity + Poor levodopa response."
     },
-    "references": ["MDS PSP Criteria"],
+    "references": [
+      "MDS PSP Criteria"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -174,11 +279,26 @@
     "difficulty": "hard",
     "vignette": "A 60-year-old male with small cell lung cancer presents with proximal muscle weakness that worsens with repetitive activity and improves with rest. He also has dry mouth and erectile dysfunction. EMG shows incremental response to repetitive stimulation. What antibody is MOST likely positive?",
     "options": [
-      { "id": "A", "text": "Anti-acetylcholine receptor (AChR) antibody" },
-      { "id": "B", "text": "Anti-voltage-gated calcium channel (VGCC) antibody" },
-      { "id": "C", "text": "Anti-MuSK antibody" },
-      { "id": "D", "text": "Anti-Hu antibody" },
-      { "id": "E", "text": "Anti-striated muscle antibody" }
+      {
+        "id": "A",
+        "text": "Anti-acetylcholine receptor (AChR) antibody"
+      },
+      {
+        "id": "B",
+        "text": "Anti-voltage-gated calcium channel (VGCC) antibody"
+      },
+      {
+        "id": "C",
+        "text": "Anti-MuSK antibody"
+      },
+      {
+        "id": "D",
+        "text": "Anti-Hu antibody"
+      },
+      {
+        "id": "E",
+        "text": "Anti-striated muscle antibody"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -191,7 +311,9 @@
       },
       "clinicalPearl": "LEMS: Proximal weakness + Autonomic symptoms + SCLC + Anti-VGCC. MG: Ocular/bulbar + Anti-AChR."
     },
-    "references": ["LEMS Diagnostic Criteria"],
+    "references": [
+      "LEMS Diagnostic Criteria"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -202,11 +324,26 @@
     "difficulty": "medium",
     "vignette": "A 72-year-old male presents with progressive memory loss over 2 years. He got lost driving home from the grocery store. MMSE is 22/30. MRI shows hippocampal atrophy. What is the BEST initial pharmacotherapy?",
     "options": [
-      { "id": "A", "text": "Donepezil 5mg daily" },
-      { "id": "B", "text": "Memantine 5mg daily" },
-      { "id": "C", "text": "Donepezil + Memantine combination" },
-      { "id": "D", "text": "Aducanumab (Aduhelm) infusion" },
-      { "id": "E", "text": "Vitamin E 2000 IU daily" }
+      {
+        "id": "A",
+        "text": "Donepezil 5mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Memantine 5mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Donepezil + Memantine combination"
+      },
+      {
+        "id": "D",
+        "text": "Aducanumab (Aduhelm) infusion"
+      },
+      {
+        "id": "E",
+        "text": "Vitamin E 2000 IU daily"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -219,11 +356,12 @@
       },
       "clinicalPearl": "Mild-moderate AD: Donepezil (ChEI). Moderate-severe: Add Memantine."
     },
-    "references": ["AAN Dementia Guidelines"],
+    "references": [
+      "AAN Dementia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_neuro_009",
     "specialty": "neurology",
@@ -231,11 +369,26 @@
     "difficulty": "medium",
     "vignette": "A 55-year-old male with diabetes presents with burning pain in his feet, worse at night. Exam shows decreased sensation in a stocking-glove distribution, absent ankle reflexes, and normal strength. What is the BEST first-line treatment?",
     "options": [
-      { "id": "A", "text": "Opioids" },
-      { "id": "B", "text": "Gabapentin or pregabalin" },
-      { "id": "C", "text": "Amitriptyline" },
-      { "id": "D", "text": "Duloxetine" },
-      { "id": "E", "text": "Carbamazepine" }
+      {
+        "id": "A",
+        "text": "Opioids"
+      },
+      {
+        "id": "B",
+        "text": "Gabapentin or pregabalin"
+      },
+      {
+        "id": "C",
+        "text": "Amitriptyline"
+      },
+      {
+        "id": "D",
+        "text": "Duloxetine"
+      },
+      {
+        "id": "E",
+        "text": "Carbamazepine"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -248,7 +401,9 @@
       },
       "clinicalPearl": "Neuropathic pain: Gabapentin/pregabalin, duloxetine, or amitriptyline. All first-line. Opioids = last resort."
     },
-    "references": ["AAN Neuropathic Pain Guidelines"],
+    "references": [
+      "AAN Neuropathic Pain Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -259,11 +414,26 @@
     "difficulty": "hard",
     "vignette": "A 50-year-old male presents with progressive leg weakness over 6 months. Exam: Spastic paraparesis, hyperreflexia in legs, Babinski sign positive. Sensory level at T10. MRI shows intramedullary lesion from T8-T12 with syringomyelia. What is the MOST likely associated finding?",
     "options": [
-      { "id": "A", "text": "Optic neuritis" },
-      { "id": "B", "text": "Scoliosis and foot deformities" },
-      { "id": "C", "text": "Multiple cranial nerve palsies" },
-      { "id": "D", "text": "Cerebellar ataxia" },
-      { "id": "E", "text": "Peripheral neuropathy" }
+      {
+        "id": "A",
+        "text": "Optic neuritis"
+      },
+      {
+        "id": "B",
+        "text": "Scoliosis and foot deformities"
+      },
+      {
+        "id": "C",
+        "text": "Multiple cranial nerve palsies"
+      },
+      {
+        "id": "D",
+        "text": "Cerebellar ataxia"
+      },
+      {
+        "id": "E",
+        "text": "Peripheral neuropathy"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -276,7 +446,9 @@
       },
       "clinicalPearl": "Syringomyelia: Cape-like loss of pain/temperature + Spastic paraparesis + Scoliosis. Associated with Chiari malformation."
     },
-    "references": ["Syringomyelia: Diagnosis and Management"],
+    "references": [
+      "Syringomyelia: Diagnosis and Management"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -287,11 +459,26 @@
     "difficulty": "hard",
     "vignette": "A 30-year-old female with relapsing-remitting MS (RRMS) on glatiramer acetate has 3 relapses in 12 months. MRI shows 2 new enhancing lesions. She is JCV antibody negative. What is the BEST next treatment?",
     "options": [
-      { "id": "A", "text": "Increase glatiramer acetate dose" },
-      { "id": "B", "text": "Switch to interferon beta-1a" },
-      { "id": "C", "text": "Switch to natalizumab" },
-      { "id": "D", "text": "Switch to ocrelizumab" },
-      { "id": "E", "text": "Add prednisone for relapses" }
+      {
+        "id": "A",
+        "text": "Increase glatiramer acetate dose"
+      },
+      {
+        "id": "B",
+        "text": "Switch to interferon beta-1a"
+      },
+      {
+        "id": "C",
+        "text": "Switch to natalizumab"
+      },
+      {
+        "id": "D",
+        "text": "Switch to ocrelizumab"
+      },
+      {
+        "id": "E",
+        "text": "Add prednisone for relapses"
+      }
     ],
     "correctOptionId": "D",
     "explanation": {
@@ -304,11 +491,13 @@
       },
       "clinicalPearl": "MS breakthrough on first-line: Escalate to high-efficacy (ocrelizumab, natalizumab, fingolimod). JCV- = lower PML risk."
     },
-    "references": ["ECTRIMS/EAN MS Guidelines", "OPERA Trials"],
+    "references": [
+      "ECTRIMS/EAN MS Guidelines",
+      "OPERA Trials"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_neuro_012",
     "specialty": "neurology",
@@ -316,11 +505,26 @@
     "difficulty": "hard",
     "vignette": "A 45-year-old HIV patient (CD4 45, not on ART) presents with progressive cognitive decline over 6 weeks. MRI shows non-enhancing white matter lesions without mass effect. CSF: Normal WBC, elevated protein, positive JC virus PCR. What is the diagnosis?",
     "options": [
-      { "id": "A", "text": "HIV encephalopathy" },
-      { "id": "B", "text": "Progressive multifocal leukoencephalopathy (PML)" },
-      { "id": "C", "text": "Cerebral toxoplasmosis" },
-      { "id": "D", "text": "Primary CNS lymphoma" },
-      { "id": "E", "text": "Cryptococcal meningitis" }
+      {
+        "id": "A",
+        "text": "HIV encephalopathy"
+      },
+      {
+        "id": "B",
+        "text": "Progressive multifocal leukoencephalopathy (PML)"
+      },
+      {
+        "id": "C",
+        "text": "Cerebral toxoplasmosis"
+      },
+      {
+        "id": "D",
+        "text": "Primary CNS lymphoma"
+      },
+      {
+        "id": "E",
+        "text": "Cryptococcal meningitis"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -333,7 +537,9 @@
       },
       "clinicalPearl": "PML: Non-enhancing white matter lesions + JC virus in CSF + CD4 <200. Treatment: Start ART (immune reconstitution)."
     },
-    "references": ["AAN PML Guidelines"],
+    "references": [
+      "AAN PML Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -344,11 +550,26 @@
     "difficulty": "medium",
     "vignette": "A 55-year-old male presents with progressive numbness in his hands and feet, weakness in his wrists and ankles, and areflexia. He has a history of rheumatoid arthritis. Nerve conduction study shows multifocal demyelination. What is the treatment?",
     "options": [
-      { "id": "A", "text": "Gabapentin for neuropathic pain" },
-      { "id": "B", "text": "IVIG or plasmapheresis" },
-      { "id": "C", "text": "Prednisone 1mg/kg" },
-      { "id": "D", "text": "Rituximab" },
-      { "id": "E", "text": "Cyclophosphamide" }
+      {
+        "id": "A",
+        "text": "Gabapentin for neuropathic pain"
+      },
+      {
+        "id": "B",
+        "text": "IVIG or plasmapheresis"
+      },
+      {
+        "id": "C",
+        "text": "Prednisone 1mg/kg"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Cyclophosphamide"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -361,7 +582,240 @@
       },
       "clinicalPearl": "CIDP: Symmetric sensorimotor neuropathy + Demyelination on NCS. Treatment: IVIG or Plasmapheresis (first-line)."
     },
-    "references": ["AAN CIDP Guidelines"],
+    "references": [
+      "AAN CIDP Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b1_001",
+    "specialty": "neurology",
+    "topic": "Acute Ischemic Stroke - Extended Window",
+    "difficulty": "hard",
+    "vignette": "A 72-year-old female presents with right-sided weakness and aphasia that started 6 hours ago. NIHSS is 14. CT perfusion shows a large area of penumbra with small ischemic core (mismatch ratio 2.0). CTA shows left MCA M1 occlusion. What is the BEST management per DAWN/DEFUSE-3 criteria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV tPA (alteplase) 0.9 mg/kg"
+      },
+      {
+        "id": "B",
+        "text": "Mechanical thrombectomy"
+      },
+      {
+        "id": "C",
+        "text": "Aspirin 325mg and admit"
+      },
+      {
+        "id": "D",
+        "text": "IV heparin"
+      },
+      {
+        "id": "E",
+        "text": "Supportive care only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "DAWN trial (2018) and DEFUSE-3 trial (2018) established mechanical thrombectomy benefit up to 24 hours in selected patients with LVO and perfusion mismatch. She presents at 6 hours (beyond 4.5h tPA window) with large penumbra and small core = Ideal thrombectomy candidate. IV tPA window is 4.5 hours; she is outside this window. Thrombectomy alone without tPA is appropriate.",
+      "whyWrong": {
+        "A": "tPA window is 4.5 hours (she presents at 6 hours).",
+        "C": "Aspirin alone is inadequate for LVO with large penumbra.",
+        "D": "Heparin has no proven benefit in acute ischemic stroke.",
+        "E": "Without reperfusion, she faces significant disability (NIHSS 14)."
+      },
+      "clinicalPearl": "Extended thrombectomy window (6-24h): DAWN/DEFUSE-3 criteria. Requires CT perfusion showing salvageable penumbra. tPA window remains 4.5h."
+    },
+    "references": [
+      "DAWN Trial 2018",
+      "DEFUSE-3 Trial 2018",
+      "AHA/ASA Stroke Guidelines 2019"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b1_002",
+    "specialty": "neurology",
+    "topic": "Multiple Sclerosis - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old female with relapsing-remitting MS has 2 relapses in 12 months and 3 new enhancing lesions on MRI despite glatiramer acetate. She is JCV antibody negative. Anti-aquaporin-4 and anti-MOG are negative. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Switch to interferon beta-1a"
+      },
+      {
+        "id": "B",
+        "text": "Switch to ocrelizumab (anti-CD20)"
+      },
+      {
+        "id": "C",
+        "text": "Switch to natalizumab"
+      },
+      {
+        "id": "D",
+        "text": "Switch to fingolimod"
+      },
+      {
+        "id": "E",
+        "text": "Add prednisone for relapses"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Breakthrough disease on first-line injectable (glatiramer): Escalate to high-efficacy therapy. Ocrelizumab (anti-CD20) is highly effective (OPERA trials: 46% relapse reduction vs interferon), convenient (every 6 months), and has favorable safety profile in JCV-negative patients. Natalizumab is also highly effective but carries PML risk even in JCV-negative patients (though much lower).",
+      "whyWrong": {
+        "A": "Switching between first-line injectables is inadequate after breakthrough disease.",
+        "C": "Natalizumab is highly effective but reserved for JCV-negative with close monitoring due to PML risk.",
+        "D": "Fingolimod is moderate efficacy; less effective than ocrelizumab or natalizumab.",
+        "E": "Steroids treat acute relapses but do NOT prevent future relapses or disability progression."
+      },
+      "clinicalPearl": "MS breakthrough on first-line: Escalate to high-efficacy (ocrelizumab, natalizumab, ofatumumab). Ocrelizumab preferred for JCV-negative."
+    },
+    "references": [
+      "OPERA I/II Trials 2017",
+      "ECTRIMS/EAN MS Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b1_003",
+    "specialty": "neurology",
+    "topic": "Alzheimer Disease - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old male with mild cognitive impairment due to Alzheimer disease (MMSE 26, amyloid PET positive) asks about disease-modifying therapy. What is the FDA-approved anti-amyloid monoclonal antibody for early AD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Donepezil"
+      },
+      {
+        "id": "B",
+        "text": "Lecanemab (Leqembi)"
+      },
+      {
+        "id": "C",
+        "text": "Memantine"
+      },
+      {
+        "id": "D",
+        "text": "Aducanumab (Aduhelm)"
+      },
+      {
+        "id": "E",
+        "text": "Donanemab"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Lecanemab (Leqembi) received FULL FDA approval in July 2023 for mild cognitive impairment or mild dementia with confirmed amyloid pathology. CLARITY-AD trial showed 27% slowing of cognitive decline over 18 months. Given as IV infusion every 2 weeks. Aducanumab received accelerated approval in 2021 but was discontinued by manufacturer in 2024. Donanemab approved 2024. Requires APOE genotyping (risk of ARIA).",
+      "whyWrong": {
+        "A": "Donepezil is symptomatic treatment (cholinesterase inhibitor), not disease-modifying.",
+        "C": "Memantine is symptomatic for moderate-severe AD, not disease-modifying.",
+        "D": "Aducanumab was discontinued in 2024 due to limited access and efficacy concerns.",
+        "E": "Donanemab was approved in 2024 but lecanemab was first to receive full FDA approval."
+      },
+      "clinicalPearl": "Early AD disease-modifying therapy (2024): Lecanemab (anti-amyloid). Requires: Amyloid PET+, APOE genotyping, MRI monitoring for ARIA. 27% slowing of decline."
+    },
+    "references": [
+      "CLARITY-AD Trial 2023",
+      "FDA Lecanemab Label 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b1_004",
+    "specialty": "neurology",
+    "topic": "Migraine - CGRP Antagonists",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female has 8 migraine days per month despite propranolol 80mg daily. She has tried and failed amitriptyline and topiramate. What is the BEST next preventive therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase propranolol to 160mg"
+      },
+      {
+        "id": "B",
+        "text": "Erenumab (anti-CGRP receptor) 70mg SC monthly"
+      },
+      {
+        "id": "C",
+        "text": "Sumatriptan 100mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Botulinum toxin (Botox)"
+      },
+      {
+        "id": "E",
+        "text": "Acetaminophen daily"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CGRP monoclonal antibodies (erenumab, fremanezumab, galcanezumab) are FDA-approved for migraine prevention in patients who have failed \u22652 oral preventives. Highly effective (50% responder rate 40-50%), well-tolerated, and convenient (monthly/quarterly injections). Botox is for CHRONIC migraine (\u226515 headache days/month). Triptans are for acute treatment, not prevention.",
+      "whyWrong": {
+        "A": "Increasing propranolol is unlikely to help after failing it plus 2 other preventives.",
+        "C": "Triptans are ACUTE treatment; daily use causes medication-overuse headache.",
+        "D": "Botox is indicated for CHRONIC migraine (\u226515 headache days/month), not episodic (8 days).",
+        "E": "Daily analgesic causes medication-overuse headache; not preventive."
+      },
+      "clinicalPearl": "Episodic migraine prevention: CGRP mAbs after \u22652 oral preventive failures. Chronic migraine (\u226515 days): Botox or CGRP mAbs."
+    },
+    "references": [
+      "AAN Migraine Guidelines 2023",
+      "STRIVE Trial (Erenumab)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b1_005",
+    "specialty": "neurology",
+    "topic": "Status Epilepticus - New Guidelines",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old male has been seizing for 15 minutes. He received IV lorazepam 4mg at 5 minutes and IV fosphenytoin 20mg/kg at 10 minutes. He is still seizing. What is the NEXT step per NCS 2023 guidelines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeat lorazepam 4mg IV"
+      },
+      {
+        "id": "B",
+        "text": "IV levetiracetam 60mg/kg"
+      },
+      {
+        "id": "C",
+        "text": "IV propofol or midazolam infusion + Intubation"
+      },
+      {
+        "id": "D",
+        "text": "IV phenobarbital 20mg/kg"
+      },
+      {
+        "id": "E",
+        "text": "Wait 5 more minutes"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Refractory status epilepticus (failed BZD + second-line agent): Start anesthetic infusion (propofol or midazolam) + INTUBATE. Continuous EEG monitoring. Goal: Burst suppression or seizure cessation for 24-48h, then slow taper. Third-line agents (levetiracetam, phenobarbital) should have been tried during second-line phase. ESETT trial showed levetiracetam, fosphenytoin, and valproate have equal efficacy (~45%) as second-line.",
+      "whyWrong": {
+        "A": "Repeating BZD after failed second-line agent is ineffective and delays definitive treatment.",
+        "B": "Levetiracetam is a second-line agent; patient already failed second-line (fosphenytoin).",
+        "D": "Phenobarbital is an alternative third-line but anesthetic infusion is preferred for refractory status.",
+        "E": "Waiting delays treatment and increases neuronal injury."
+      },
+      "clinicalPearl": "Refractory status epilepticus: Anesthetic infusion (propofol/midazolam) + Intubation + Continuous EEG. Burst suppression x24-48h."
+    },
+    "references": [
+      "NCS Status Epilepticus Guidelines 2023",
+      "ESETT Trial 2019"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
