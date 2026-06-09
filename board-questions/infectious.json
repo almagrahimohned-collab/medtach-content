@@ -1145,5 +1145,474 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_001",
+    "specialty": "infectious",
+    "topic": "Strongyloidiasis",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male from Southeast Asia with rheumatoid arthritis is starting prednisone 40mg daily. He has eosinophilia (eosinophils 1200) and intermittent abdominal pain. What is the MOST important screening before immunosuppression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No screening needed"
+      },
+      {
+        "id": "B",
+        "text": "Strongyloides serology + Treat with ivermectin if positive BEFORE steroids"
+      },
+      {
+        "id": "C",
+        "text": "Stool O&P only"
+      },
+      {
+        "id": "D",
+        "text": "Start albendazole empirically"
+      },
+      {
+        "id": "E",
+        "text": "CT abdomen"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Strongyloides stercoralis: Endemic in tropical/subtropical regions. Can persist decades via autoinfection. Steroids and other immunosuppression can cause HYPERINFECTION SYNDROME (disseminated strongyloidiasis) with >60% mortality. ALL patients from endemic areas should be screened with serology (ELISA) before immunosuppression. Treat with Ivermectin 200mcg/kg x2 days if positive. Stool O&P has low sensitivity (50%).",
+      "whyWrong": {
+        "A": "Strongyloides hyperinfection is a medical emergency with high mortality.",
+        "B": "Screen endemic patients with serology BEFORE steroids. Ivermectin treatment if positive.",
+        "C": "Stool O&P has low sensitivity (50%); serology is preferred.",
+        "D": "Empiric ivermectin (not albendazole) is alternative to screening in high-risk patients.",
+        "E": "CT is not screening; may show duodenal thickening in chronic infection."
+      },
+      "clinicalPearl": "Strongyloides + Steroids = HYPERINFECTION SYNDROME (mortality >60%). Screen ALL patients from endemic areas with serology before immunosuppression."
+    },
+    "references": [
+      "CDC Strongyloides Guidelines 2023",
+      "AST Infectious Disease Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_002",
+    "specialty": "infectious",
+    "topic": "Prosthetic Joint Infection",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male 3 months post-total knee arthroplasty presents with persistent knee pain, swelling, and sinus tract draining purulent fluid. ESR is 85, CRP is 60. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV antibiotics for 6 weeks without surgery"
+      },
+      {
+        "id": "B",
+        "text": "Two-stage revision arthroplasty (remove prosthesis, antibiotic spacer, IV antibiotics 6 weeks, then reimplant)"
+      },
+      {
+        "id": "C",
+        "text": "Single-stage revision with antibiotic cement"
+      },
+      {
+        "id": "D",
+        "text": "Arthroscopic washout and IV antibiotics"
+      },
+      {
+        "id": "E",
+        "text": "Long-term suppressive antibiotics alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic PJI (>30 days post-op) with sinus tract: Two-stage exchange is the gold standard. Stage 1: Remove prosthesis, debride, place antibiotic-loaded cement spacer, IV antibiotics 6 weeks (tailored to cultures). Stage 2: Reimplant new prosthesis when infection cleared (normal CRP/ESR). One-stage revision is for selected patients (healthy, known organism, no sinus tract). Irrigation and debridement is for acute PJI (<30 days) with well-fixed prosthesis.",
+      "whyWrong": {
+        "A": "Antibiotics alone cannot clear biofilm on prosthesis.",
+        "B": "Two-stage revision = Gold standard for chronic PJI.",
+        "C": "One-stage is for selected patients without sinus tract.",
+        "D": "Arthroscopic washout insufficient for chronic PJI.",
+        "E": "Suppression alone is for non-surgical candidates (palliative)."
+      },
+      "clinicalPearl": "Chronic PJI with sinus tract: Two-stage revision (remove \u2192 spacer \u2192 IV antibiotics \u2192 reimplant). Biofilm on prosthesis = must remove."
+    },
+    "references": [
+      "IDSA PJI Guidelines 2023",
+      "MSIS PJI Criteria"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_003",
+    "specialty": "infectious",
+    "topic": "Cryptococcal Meningitis",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male with AIDS (CD4 30, not on ART) presents with headache, fever, and confusion for 2 weeks. CSF shows encapsulated yeast on India ink, opening pressure 35 cmH2O. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluconazole 800mg daily alone"
+      },
+      {
+        "id": "B",
+        "text": "Amphotericin B + Flucytosine x2 weeks (induction) \u2192 Fluconazole x8 weeks (consolidation) + Therapeutic LPs for elevated opening pressure"
+      },
+      {
+        "id": "C",
+        "text": "Amphotericin B alone"
+      },
+      {
+        "id": "D",
+        "text": "Voriconazole"
+      },
+      {
+        "id": "E",
+        "text": "Caspofungin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cryptococcal meningitis in AIDS: Induction: Amphotericin B + Flucytosine x2 weeks (superior to AmB alone per ACTA trial). Consolidation: Fluconazole 400-800mg x8 weeks. Maintenance: Fluconazole 200mg until CD4 >100 on ART for >3 months. ELEVATED OPENING PRESSURE: Therapeutic LPs (remove 20-30mL CSF) daily or as needed to reduce ICP. Voriconazole and echinocandins have no activity against Cryptococcus.",
+      "whyWrong": {
+        "A": "Fluconazole alone is inferior for induction (higher mortality).",
+        "B": "AmB + Flucytosine induction (2 weeks) \u2192 Fluconazole consolidation. Therapeutic LPs for elevated ICP.",
+        "C": "AmB alone inferior to AmB + Flucytosine.",
+        "D": "Voriconazole has no activity against Cryptococcus.",
+        "E": "Echinocandins have NO activity against Cryptococcus."
+      },
+      "clinicalPearl": "Cryptococcal meningitis: AmB + Flucytosine x2wk \u2192 Fluconazole. Therapeutic LPs for elevated ICP (>25 cmH2O). Start ART after 4-6 weeks."
+    },
+    "references": [
+      "ACTA Trial 2018",
+      "WHO Cryptococcal Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_004",
+    "specialty": "infectious",
+    "topic": "Febrile Neutropenia - Outpatient",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female with breast cancer on chemotherapy presents with fever 38.3\u00b0C and ANC 400. She is hemodynamically stable, has no localizing symptoms, and is reliable with 24/7 caregiver access. What is the BEST management per MASCC criteria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Admit for IV cefepime"
+      },
+      {
+        "id": "B",
+        "text": "Outpatient management with oral ciprofloxacin + amoxicillin-clavulanate (if low-risk per MASCC score >21)"
+      },
+      {
+        "id": "C",
+        "text": "Observation without antibiotics"
+      },
+      {
+        "id": "D",
+        "text": "IV antibiotics at home only"
+      },
+      {
+        "id": "E",
+        "text": "G-CSF alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Low-risk febrile neutropenia (MASCC score >21, ANC >100, expected neutropenia <7 days, no organ failure, outpatient feasible): Oral ciprofloxacin + amoxicillin-clavulanate (or levofloxacin) is non-inferior to IV antibiotics. Requires: Reliable patient, 24/7 caregiver, close to hospital, telephone follow-up. High-risk (MASCC <21, ANC <100, prolonged neutropenia, comorbidities): Admit for IV cefepime.",
+      "whyWrong": {
+        "A": "Admission is for HIGH-risk febrile neutropenia per MASCC.",
+        "B": "Low-risk: Outpatient oral antibiotics. MASCC score guides risk stratification.",
+        "C": "Febrile neutropenia always requires empiric antibiotics (risk of rapid deterioration).",
+        "D": "Home IV antibiotics are alternative but oral is preferred for low-risk.",
+        "E": "G-CSF alone does not treat established febrile neutropenia."
+      },
+      "clinicalPearl": "Febrile neutropenia: MASCC score >21 = Low-risk = Outpatient oral antibiotics. MASCC <21 = Admit for IV antibiotics."
+    },
+    "references": [
+      "ASCO/IDSA Febrile Neutropenia Guidelines 2023",
+      "MASCC Risk Index"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_005",
+    "specialty": "infectious",
+    "topic": "Tick-Borne Infections",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male in Connecticut presents with fever, headache, and a maculopapular rash 5 days after a tick bite. Labs show leukopenia, thrombocytopenia, and elevated LFTs. What is the MOST likely diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lyme disease"
+      },
+      {
+        "id": "B",
+        "text": "Human granulocytic anaplasmosis (HGA) OR Ehrlichiosis"
+      },
+      {
+        "id": "C",
+        "text": "Babesiosis"
+      },
+      {
+        "id": "D",
+        "text": "Rocky Mountain spotted fever"
+      },
+      {
+        "id": "E",
+        "text": "Tularemia"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HGA (Anaplasma phagocytophilum): Fever + Headache + Maculopapular rash + Leukopenia + Thrombocytopenia + Elevated LFTs. Tick bite (Ixodes, same vector as Lyme). Blood smear shows MORTULAE (intracytoplasmic inclusions in neutrophils). PCR confirms. Treatment: Doxycycline 100mg BID x7-10 days (same for all tick-borne rickettsial diseases). Lyme rarely causes leukopenia/thrombocytopenia. Babesiosis causes hemolytic anemia. RMSF has petechial rash on palms/soles.",
+      "whyWrong": {
+        "A": "Lyme: Erythema migrans, arthritis, no leukopenia/thrombocytopenia.",
+        "B": "HGA: Leukopenia + Thrombocytopenia + Elevated LFTs + Mortulae. Doxycycline.",
+        "C": "Babesiosis: Hemolytic anemia, no rash, intraerythrocytic parasites.",
+        "D": "RMSF: Petechial rash starting on wrists/ankles spreading centrally.",
+        "E": "Tularemia: Ulceroglandular, not tick-borne with pancytopenia."
+      },
+      "clinicalPearl": "Tick-borne + Fever + Leukopenia + Thrombocytopenia + LFTs = Anaplasmosis/Ehrlichiosis. Doxycycline! Mortulae on blood smear."
+    },
+    "references": [
+      "CDC Tick-Borne Disease Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_006",
+    "specialty": "infectious",
+    "topic": "Cytomegalovirus in Transplant",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old CMV D+/R- kidney transplant recipient (highest risk) is 1 month post-transplant on tacrolimus/MMF/prednisone. What is the recommended prevention strategy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No prophylaxis, monitor CMV PCR weekly"
+      },
+      {
+        "id": "B",
+        "text": "Valganciclovir 900mg daily x3-6 months (prophylaxis) OR Letermovir (for kidney transplant)"
+      },
+      {
+        "id": "C",
+        "text": "Acyclovir 400mg BID"
+      },
+      {
+        "id": "D",
+        "text": "Ganciclovir only if CMV PCR positive"
+      },
+      {
+        "id": "E",
+        "text": "Foscarnet prophylaxis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "High-risk CMV (D+/R-): Universal PROPHYLAXIS with valganciclovir 900mg daily x3-6 months. Letermovir (CMV terminase inhibitor) is FDA-approved for kidney transplant (2023), less myelotoxic than valganciclovir. Preemptive therapy (monitor PCR weekly, treat if positive) is for INTERMEDIATE-RISK (R+). Acyclovir has NO activity against CMV. Foscarnet is for ganciclovir-resistant CMV.",
+      "whyWrong": {
+        "A": "High-risk requires universal prophylaxis, not preemptive therapy.",
+        "B": "Valganciclovir x3-6mo or Letermovir. Prophylaxis for D+/R-.",
+        "C": "Acyclovir is inactive against CMV (requires ganciclovir/valganciclovir).",
+        "D": "Preemptive strategy is for intermediate-risk (R+).",
+        "E": "Foscarnet is for resistant CMV (second-line)."
+      },
+      "clinicalPearl": "CMV D+/R- transplant: Valganciclovir prophylaxis x3-6mo. Letermovir (new, less myelotoxic). Preemptive for R+ only."
+    },
+    "references": [
+      "AST CMV Guidelines 2023",
+      "Letermovir FDA Approval 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_007",
+    "specialty": "infectious",
+    "topic": "Osteomyelitis - Vertebral",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old diabetic male presents with 4 weeks of progressive back pain, fever, and elevated ESR/CRP. MRI shows T11-T12 discitis and vertebral body enhancement. Blood cultures grew S. aureus. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oral antibiotics for 2 weeks"
+      },
+      {
+        "id": "B",
+        "text": "IV antibiotics for 6 weeks (targeted to cultures) + Pain control + Bracing"
+      },
+      {
+        "id": "C",
+        "text": "Emergency surgical debridement for all patients"
+      },
+      {
+        "id": "D",
+        "text": "CT-guided biopsy before antibiotics"
+      },
+      {
+        "id": "E",
+        "text": "Oral antibiotics for 6 months"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Vertebral osteomyelitis with positive blood cultures: Targeted IV antibiotics for 6 weeks (S. aureus = nafcillin or cefazolin for MSSA, vancomycin for MRSA). Blood cultures identify organism in 50-70% (bone biopsy not needed if positive). Surgery indications: Neurologic deficit, spinal instability, epidural abscess, or failed medical therapy. Bracing for pain/instability. Oral step-down after IV if improving.",
+      "whyWrong": {
+        "A": "2 weeks insufficient for vertebral osteomyelitis (minimum 6 weeks).",
+        "B": "6 weeks IV antibiotics = Standard. Surgery for complications.",
+        "C": "Surgery only for specific indications (neurologic deficit, abscess, instability).",
+        "D": "Bone biopsy indicated if blood cultures negative. Positive BC = no biopsy needed.",
+        "E": "Oral antibiotics alone insufficient for initial treatment (start IV)."
+      },
+      "clinicalPearl": "Vertebral osteomyelitis: IV antibiotics x6 weeks. Blood cultures often identify organism (no biopsy needed). Surgery for neurologic deficit."
+    },
+    "references": [
+      "IDSA Vertebral Osteomyelitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_008",
+    "specialty": "infectious",
+    "topic": "Antibiotic Stewardship",
+    "difficulty": "medium",
+    "vignette": "A hospital implements an antibiotic stewardship program. Which intervention has the STRONGEST evidence for reducing C. difficile rates and antibiotic resistance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Formulary restriction of all broad-spectrum antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Prospective audit and feedback + Preauthorization of restricted antibiotics + De-escalation prompts at 48-72 hours"
+      },
+      {
+        "id": "C",
+        "text": "Antibiotic cycling"
+      },
+      {
+        "id": "D",
+        "text": "Educational pamphlets for prescribers"
+      },
+      {
+        "id": "E",
+        "text": "No intervention, guidelines alone sufficient"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CDC Core Elements 2023: Prospective audit and feedback (pharmacist reviews antibiotics daily, provides feedback to prescriber) + Preauthorization (requires approval for restricted antibiotics) + De-escalation prompts (stop or narrow antibiotics at 48-72h based on cultures). This bundled approach reduces antibiotic use by 20-30%, C. difficile by 30-50%, and resistance rates. Education alone is insufficient.",
+      "whyWrong": {
+        "A": "Complete formulary restriction is impractical and may harm patient care.",
+        "B": "Audit + Feedback + Preauthorization = Most effective stewardship interventions.",
+        "C": "Antibiotic cycling has limited evidence and is less effective than audit/feedback.",
+        "D": "Education alone has minimal and unsustained impact.",
+        "E": "Guidelines without active stewardship have limited impact."
+      },
+      "clinicalPearl": "Antibiotic stewardship: Prospective audit + Feedback + Preauthorization = Most effective. De-escalation at 48-72h. Reduces C. diff and resistance."
+    },
+    "references": [
+      "CDC Core Elements of Antibiotic Stewardship 2023",
+      "IDSA Stewardship Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_009",
+    "specialty": "infectious",
+    "topic": "RSV Vaccines",
+    "difficulty": "medium",
+    "vignette": "A 72-year-old female with COPD asks about RSV vaccination. What is the recommendation per CDC 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RSV vaccine not indicated for adults"
+      },
+      {
+        "id": "B",
+        "text": "Single dose of RSV vaccine (RSVpreF - Arexvy or Abrysvo) for adults \u226560 years (shared decision-making)"
+      },
+      {
+        "id": "C",
+        "text": "Annual RSV vaccine like influenza"
+      },
+      {
+        "id": "D",
+        "text": "RSV vaccine only for immunocompromised"
+      },
+      {
+        "id": "E",
+        "text": "Ribavirin prophylaxis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CDC 2024: RSV vaccination recommended for adults \u226560 years using SHARED DECISION-MAKING (consider patient's risk and preference). Two vaccines approved (2023): RSVpreF (Arexvy - GSK) and RSVpreF (Abrysvo - Pfizer). Both are single-dose, non-live, protein subunit vaccines. Abrysvo also approved for pregnancy (32-36 weeks) to protect infants. Efficacy: 80-85% against severe RSV disease in older adults.",
+      "whyWrong": {
+        "A": "RSV vaccines are now FDA-approved and CDC-recommended for \u226560.",
+        "B": "Single dose RSV vaccine. Shared decision-making. Not yet annual.",
+        "C": "Not yet determined if annual dosing needed (durability studies ongoing).",
+        "D": "RSV vaccine is for ALL \u226560, not just immunocompromised.",
+        "E": "Ribavirin is treatment, not prophylaxis."
+      },
+      "clinicalPearl": "RSV vaccine (2024): Single dose for \u226560 (shared decision-making). Arexvy or Abrysvo. 80-85% efficacy. Also for pregnant women (Abrysvo)."
+    },
+    "references": [
+      "CDC RSV Vaccine Guidelines 2024",
+      "RENOIR Trial (Arexvy)",
+      "MATISSE Trial (Abrysvo)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b2_010",
+    "specialty": "infectious",
+    "topic": "Chagas Disease",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female from rural Brazil has positive Trypanosoma cruzi serology. ECG shows RBBB and left anterior fascicular block. Echo shows apical aneurysm. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No treatment, cardiac monitoring only"
+      },
+      {
+        "id": "B",
+        "text": "Benznidazole OR Nifurtimox (antitrypanosomal therapy) + Cardiac management (ICD if EF <35% or VT)"
+      },
+      {
+        "id": "C",
+        "text": "Heart transplant only"
+      },
+      {
+        "id": "D",
+        "text": "Amiodarone alone"
+      },
+      {
+        "id": "E",
+        "text": "Prednisone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic Chagas cardiomyopathy: Antitrypanosomal therapy (benznidazole or nifurtimox) is recommended for patients <50-60 years without advanced cardiomyopathy. BENEFIT trial: Benznidazole reduced parasitemia but did not significantly reduce clinical cardiac outcomes (though trend toward benefit). ICD for EF <35% or sustained VT (Chagas is arrhythmogenic). Anticoagulation for apical aneurysm/thrombus. Heart transplant for end-stage.",
+      "whyWrong": {
+        "A": "Antitrypanosomal therapy recommended for eligible patients.",
+        "B": "Benznidazole/Nifurtimox + Cardiac management (ICD if indicated).",
+        "C": "Transplant only for end-stage heart failure.",
+        "D": "Amiodarone for VT; does not treat underlying infection.",
+        "E": "Prednisone has no role in Chagas disease."
+      },
+      "clinicalPearl": "Chagas cardiomyopathy: RBBB + LAFB + Apical aneurysm. Benznidazole for eligible patients. ICD for EF <35% or VT."
+    },
+    "references": [
+      "BENEFIT Trial 2015",
+      "CDC Chagas Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
