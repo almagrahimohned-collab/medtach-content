@@ -140,3 +140,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_derm_006",
+    "specialty": "dermatology",
+    "topic": "Atopic Dermatitis",
+    "difficulty": "medium",
+    "vignette": "A 6-month-old infant presents with pruritic, erythematous, scaly patches on the cheeks, scalp, and extensor surfaces. His mother has asthma and allergic rhinitis. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Seborrheic dermatitis" },
+      { "id": "B", "text": "Atopic dermatitis (eczema)" },
+      { "id": "C", "text": "Psoriasis" },
+      { "id": "D", "text": "Contact dermatitis" },
+      { "id": "E", "text": "Impetigo" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Atopic dermatitis: Pruritic, flexural/extensor distribution (age-dependent), family history of atopy (asthma, allergic rhinitis). Infants: Face, scalp, extensor surfaces. Children/adults: Flexural. Treatment: Emollients, topical steroids, calcineurin inhibitors, dupilumab for severe.",
+      "whyWrong": {
+        "A": "Seborrheic dermatitis: Greasy yellow scales, not intensely pruritic.",
+        "C": "Psoriasis: Well-demarcated plaques with silvery scales, rare in infants.",
+        "D": "Contact dermatitis: Localized to area of contact, not symmetric.",
+        "E": "Impetigo: Honey-crusted lesions, not chronic."
+      },
+      "clinicalPearl": "Atopic dermatitis: 'The itch that rashes.' Family history of atopy. Emollients + Topical steroids mainstay."
+    },
+    "references": ["AAD Atopic Dermatitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_007",
+    "specialty": "dermatology",
+    "topic": "Urticaria",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old female presents with intensely pruritic, raised, erythematous wheals that appear and resolve within 24 hours. She has no angioedema or systemic symptoms. What is the BEST first-line treatment?",
+    "options": [
+      { "id": "A", "text": "Prednisone 40mg daily" },
+      { "id": "B", "text": "Second-generation H1 antihistamine (cetirizine, loratadine)" },
+      { "id": "C", "text": "Montelukast" },
+      { "id": "D", "text": "Omalizumab" },
+      { "id": "E", "text": "Cyclosporine" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute urticaria (<6 weeks): Second-generation H1 antihistamines (cetirizine, loratadine, fexofenadine) are first-line. Up to 4x standard dose can be used for refractory cases. Avoid first-generation (diphenhydramine) due to sedation. Most cases self-limited.",
+      "whyWrong": {
+        "A": "Steroids for severe acute urticaria or angioedema (short course only).",
+        "C": "Montelukast is add-on therapy, not first-line.",
+        "D": "Omalizumab for chronic spontaneous urticaria refractory to antihistamines.",
+        "E": "Cyclosporine is fourth-line for severe refractory chronic urticaria."
+      },
+      "clinicalPearl": "Urticaria: Second-generation H1 antihistamines first-line. Can quadruple dose for refractory. Most cases self-limited."
+    },
+    "references": ["EAACI/GA2LEN Urticaria Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_008",
+    "specialty": "dermatology",
+    "topic": "Hidradenitis Suppurativa",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old obese female presents with recurrent, painful, deep-seated nodules and abscesses in her axillae and groin. Lesions heal with sinus tracts and scarring. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Surgical excision" },
+      { "id": "B", "text": "Adalimumab (anti-TNF)" },
+      { "id": "C", "text": "Clindamycin topical + Weight loss + Smoking cessation" },
+      { "id": "D", "text": "Isotretinoin" },
+      { "id": "E", "text": "IV antibiotics" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Hidradenitis suppurativa (Hurley stage I/II): Lifestyle modification (weight loss, smoking cessation) + Topical clindamycin + Warm compresses. For moderate-severe: Adalimumab (FDA-approved) or other biologics. Surgery for severe refractory disease.",
+      "whyWrong": {
+        "A": "Surgery is for severe Hurley stage III or refractory disease.",
+        "B": "Adalimumab is for moderate-severe after failing conservative therapy.",
+        "D": "Isotretinoin has limited efficacy in HS (unlike acne).",
+        "E": "IV antibiotics for acute severe flares, not maintenance."
+      },
+      "clinicalPearl": "HS: Painful nodules + Sinus tracts + Scarring in intertriginous areas. Weight loss + Smoking cessation + Clindamycin first-line."
+    },
+    "references": ["HS Foundation Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_009",
+    "specialty": "dermatology",
+    "topic": "Bullous Pemphigoid",
+    "difficulty": "hard",
+    "vignette": "A 75-year-old male presents with tense blisters on an urticarial base on his flexural areas and abdomen. He has severe pruritus. Skin biopsy shows subepidermal split with eosinophils. Direct immunofluorescence shows linear IgG and C3 along the basement membrane. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Pemphigus vulgaris" },
+      { "id": "B", "text": "Bullous pemphigoid" },
+      { "id": "C", "text": "Dermatitis herpetiformis" },
+      { "id": "D", "text": "Epidermolysis bullosa acquisita" },
+      { "id": "E", "text": "Linear IgA disease" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Bullous pemphigoid: Elderly, tense blisters on urticarial base, flexural, subepidermal split (intact roof), eosinophils, linear IgG/C3 at BMZ. Autoantibodies against BP180/BP230. Treatment: Topical superpotent steroids, doxycycline + niacinamide, or systemic steroids + immunosuppressants.",
+      "whyWrong": {
+        "A": "Pemphigus: Intraepidermal split (flaccid blisters), acantholysis, IgG/C3 between keratinocytes.",
+        "C": "DH: Extremely pruritic vesicles on elbows/knees, associated with celiac, IgA deposition in dermal papillae.",
+        "D": "EBA: Similar to BP but salt-split skin shows antibodies on dermal side, treatment-resistant.",
+        "E": "Linear IgA: IgA (not IgG) linear deposition, drug-induced or idiopathic."
+      },
+      "clinicalPearl": "BP: Tense blisters + Elderly + Subepidermal + Linear IgG/C3. Topical steroids or doxycycline first-line."
+    },
+    "references": ["British Association of Dermatologists BP Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_010",
+    "specialty": "dermatology",
+    "topic": "Scabies",
+    "difficulty": "easy",
+    "vignette": "A 20-year-old college student presents with intensely pruritic papules and linear burrows in the web spaces of his fingers, wrists, and genital area. His roommate has similar symptoms. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Topical hydrocortisone" },
+      { "id": "B", "text": "Permethrin 5% cream applied to entire body from neck down" },
+      { "id": "C", "text": "Oral ivermectin alone" },
+      { "id": "D", "text": "Oral antihistamines only" },
+      { "id": "E", "text": "Topical mupirocin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Scabies: Sarcoptes scabiei mite. Burrows in web spaces + Intense pruritus (worse at night) + Close contacts affected. Treatment: Permethrin 5% cream (first-line) applied neck-to-toe, left on 8-14h, repeat in 1 week. Treat ALL close contacts simultaneously. Wash bedding/clothing.",
+      "whyWrong": {
+        "A": "Steroids provide temporary symptom relief but do not treat the infestation.",
+        "C": "Oral ivermectin is second-line (crusted scabies, mass treatment, permethrin failure).",
+        "D": "Antihistamines for symptomatic pruritus only.",
+        "E": "Mupirocin is antibacterial, not scabicidal."
+      },
+      "clinicalPearl": "Scabies: Burrows + Intense pruritus (nocturnal) + Contacts affected. Permethrin 5% cream. Treat ALL contacts!"
+    },
+    "references": ["CDC Scabies Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

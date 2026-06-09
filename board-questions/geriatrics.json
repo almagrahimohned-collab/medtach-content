@@ -112,3 +112,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_geri_005",
+    "specialty": "geriatrics",
+    "topic": "Frailty",
+    "difficulty": "medium",
+    "vignette": "An 85-year-old female with unintentional weight loss (5kg in 6 months), exhaustion, slow walking speed, and weak grip strength is being evaluated for elective surgery. What does this constellation of findings represent?",
+    "options": [
+      { "id": "A", "text": "Normal aging" },
+      { "id": "B", "text": "Frailty syndrome (Fried criteria)" },
+      { "id": "C", "text": "Depression" },
+      { "id": "D", "text": "Malnutrition only" },
+      { "id": "E", "text": "Dementia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fried frailty phenotype (≥3 of 5): Unintentional weight loss + Exhaustion + Weakness (grip strength) + Slow walking speed + Low physical activity. Frailty predicts post-operative complications, falls, disability, and mortality. Prehabilitation (physical therapy, nutrition) before elective surgery.",
+      "whyWrong": {
+        "A": "These are not normal aging changes.",
+        "C": "Depression is a component but frailty is multi-system.",
+        "D": "Malnutrition is one component but frailty is broader.",
+        "E": "Dementia is cognitive, frailty is physical."
+      },
+      "clinicalPearl": "Frailty: ≥3 Fried criteria. Predicts poor surgical outcomes. Prehabilitation before elective surgery. Comprehensive geriatric assessment."
+    },
+    "references": ["Fried Frailty Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_006",
+    "specialty": "geriatrics",
+    "topic": "Advance Care Planning",
+    "difficulty": "medium",
+    "vignette": "An 88-year-old male with advanced dementia (bedbound, nonverbal, recurrent aspiration pneumonia) is admitted with pneumonia. His healthcare proxy requests aggressive care including mechanical ventilation if needed. What is the BEST approach?",
+    "options": [
+      { "id": "A", "text": "Follow the proxy's wishes exactly" },
+      { "id": "B", "text": "Refuse to provide aggressive care as it is futile" },
+      { "id": "C", "text": "Conduct a goals-of-care discussion focusing on patient's values and what the patient would have wanted" },
+      { "id": "D", "text": "Transfer to another physician" },
+      { "id": "E", "text": "Seek legal guardianship" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Futility disputes: Explore proxy's understanding of patient's values, preferences, and what the patient would have wanted (substituted judgment). Ask: 'What would your father say if he could see himself now?' Time-limited trial may be acceptable. Ethics consultation if conflict persists.",
+      "whyWrong": {
+        "A": "Blindly following requests that contradict patient's best interest is not ethically required.",
+        "B": "Unilateral refusal damages therapeutic relationship.",
+        "D": "Transfer avoids the core ethical issue.",
+        "E": "Guardianship is a last resort for intractable conflict."
+      },
+      "clinicalPearl": "Futility: Explore patient values + Substituted judgment. 'What would the patient want?' Time-limited trials can bridge disagreement."
+    },
+    "references": ["AMA Code of Medical Ethics", "Advance Care Planning"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_007",
+    "specialty": "geriatrics",
+    "topic": "Urinary Incontinence",
+    "difficulty": "medium",
+    "vignette": "An 80-year-old female presents with sudden urge to urinate, frequency, and occasional leakage before reaching the bathroom. She has no dysuria. Post-void residual is 30mL. What type of incontinence and BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Stress incontinence - Pelvic floor exercises" },
+      { "id": "B", "text": "Urge incontinence - Bladder training + Oxybutynin (anticholinergic)" },
+      { "id": "C", "text": "Overflow incontinence - Intermittent catheterization" },
+      { "id": "D", "text": "Functional incontinence - Timed toileting" },
+      { "id": "E", "text": "Mixed incontinence - Mirabegron (beta-3 agonist)" }
+    ],
+    "correctOptionId": "E",
+    "explanation": {
+      "whyCorrect": "Urge incontinence symptoms (sudden urge, frequency) in elderly: Mirabegron (beta-3 agonist) is PREFERRED over anticholinergics in elderly (fewer cognitive side effects, no anticholinergic burden). Bladder training + Pelvic floor exercises are first-line non-pharm. Avoid oxybutynin in elderly (Beers criteria).",
+      "whyWrong": {
+        "A": "Stress incontinence: Leakage with coughing/laughing (not urgency).",
+        "B": "Oxybutynin is on Beers list (avoid in elderly). Mirabegron is safer.",
+        "C": "Overflow: High PVR (>200mL), not 30mL.",
+        "D": "Functional: Physical/cognitive barriers to toileting, not urgency."
+      },
+      "clinicalPearl": "Urge incontinence in elderly: Mirabegron (beta-3 agonist) > Anticholinergics. Avoid oxybutynin (Beers). Bladder training + Pelvic floor exercises."
+    },
+    "references": ["AGS Urinary Incontinence Guidelines", "Beers Criteria 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

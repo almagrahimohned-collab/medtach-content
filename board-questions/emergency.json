@@ -140,3 +140,146 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_em_006",
+    "specialty": "emergency",
+    "topic": "Sepsis Management",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old nursing home resident presents with fever, confusion, and hypotension. Vitals: Temp 39.0°C, BP 78/45, HR 120, RR 30, SpO2 90%. Lactate is 5.2 mmol/L. You have obtained blood cultures and started antibiotics. What is the NEXT priority?",
+    "options": [
+      { "id": "A", "text": "Start norepinephrine through peripheral IV" },
+      { "id": "B", "text": "Administer 30mL/kg IV crystalloid bolus" },
+      { "id": "C", "text": "Place central line" },
+      { "id": "D", "text": "CT abdomen to find source" },
+      { "id": "E", "text": "Start hydrocortisone 50mg IV" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Sepsis 1-hour bundle: Blood cultures → Antibiotics → FLUIDS 30mL/kg → Vasopressors if refractory hypotension. Fluids are the priority after antibiotics. Start vasopressors through peripheral IV if fluids fail (do not delay for central line).",
+      "whyWrong": {
+        "A": "Vasopressors are after fluid resuscitation (unless fluid overloaded).",
+        "C": "Central line should not delay fluids or vasopressors.",
+        "D": "Source identification is important but not before resuscitation.",
+        "E": "Hydrocortisone is for refractory shock (after fluids + vasopressors)."
+      },
+      "clinicalPearl": "Sepsis bundle: Antibiotics + Fluids 30mL/kg within 1 hour. Vasopressors through peripheral IV if needed. Do NOT delay for central line."
+    },
+    "references": ["Surviving Sepsis Campaign 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_007",
+    "specialty": "emergency",
+    "topic": "Anaphylaxis",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female develops urticaria, wheezing, and lip swelling within minutes of eating shrimp. She feels lightheaded and her BP is 85/50. What is the FIRST medication to administer?",
+    "options": [
+      { "id": "A", "text": "Diphenhydramine 50mg IV" },
+      { "id": "B", "text": "Methylprednisolone 125mg IV" },
+      { "id": "C", "text": "Epinephrine 0.3mg IM (mid-outer thigh)" },
+      { "id": "D", "text": "Albuterol nebulized" },
+      { "id": "E", "text": "IV fluids 2L bolus" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Anaphylaxis with hypotension: EPINEPHRINE IM 0.3mg (1:1000) mid-outer thigh is FIRST-LINE and life-saving. Give immediately. No contraindications. Antihistamines and steroids are SECONDARY (prevent biphasic reaction, not life-saving). Albuterol for bronchospasm. Fluids for hypotension.",
+      "whyWrong": {
+        "A": "Antihistamines are second-line (do not save lives).",
+        "B": "Steroids take hours to work (prevent biphasic reaction).",
+        "C": "Epinephrine is the ONLY life-saving medication in anaphylaxis.",
+        "D": "Albuterol is for bronchospasm, not hypotension.",
+        "E": "Fluids are adjunctive, not primary."
+      },
+      "clinicalPearl": "Anaphylaxis: EPINEPHRINE IM FIRST (mid-outer thigh). No absolute contraindications. Antihistamines/steroids are secondary."
+    },
+    "references": ["AAAAI Anaphylaxis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_008",
+    "specialty": "emergency",
+    "topic": "Stroke",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male presents with sudden onset left facial droop, left arm weakness, and slurred speech. Symptom onset was 90 minutes ago. CT head shows no hemorrhage. Blood pressure is 195/110. What is the NEXT best step?",
+    "options": [
+      { "id": "A", "text": "Lower BP to <185/110 before tPA" },
+      { "id": "B", "text": "Give tPA immediately, BP will come down" },
+      { "id": "C", "text": "Start nicardipine drip and admit to ICU" },
+      { "id": "D", "text": "Consult neurosurgery" },
+      { "id": "E", "text": "MRI brain before treatment" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Acute ischemic stroke within tPA window (4.5h): BP must be <185/110 before tPA. Use IV labetalol or nicardipine to lower BP. After tPA, maintain BP <180/105 for 24h. NIHSS determines candidacy for thrombectomy. Do NOT delay tPA for MRI (CT is sufficient).",
+      "whyWrong": {
+        "B": "tPA is contraindicated with BP >185/110 (hemorrhage risk).",
+        "C": "Lowering BP is for tPA eligibility; ICU after treatment.",
+        "D": "Neurosurgery for hemorrhagic stroke, not ischemic.",
+        "E": "MRI delays tPA. CT without contrast is sufficient to exclude hemorrhage."
+      },
+      "clinicalPearl": "Acute stroke: CT → Check BP (<185/110 for tPA) → tPA within 4.5h → Mechanical thrombectomy if LVO within 24h."
+    },
+    "references": ["AHA/ASA Acute Stroke Guidelines 2019"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_009",
+    "specialty": "emergency",
+    "topic": "Drowning",
+    "difficulty": "medium",
+    "vignette": "A 10-year-old boy is pulled from a pool after submersion for 3 minutes. He is unconscious, agonal respirations, HR 40. What is the FIRST priority?",
+    "options": [
+      { "id": "A", "text": "Start chest compressions" },
+      { "id": "B", "text": "Rescue breaths" },
+      { "id": "C", "text": "Abdominal thrusts to expel water" },
+      { "id": "D", "text": "Place in recovery position" },
+      { "id": "E", "text": "Cervical spine immobilization" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Drowning: Rescue breaths FIRST (most arrests are due to hypoxia, not primary cardiac). Open airway, deliver 5 rescue breaths, then start 30:2 CPR. Water in lungs does NOT need to be drained (absorbed quickly). Cervical spine precautions if diving or trauma mechanism.",
+      "whyWrong": {
+        "A": "Compressions after rescue breaths (hypoxia is the primary cause of arrest).",
+        "C": "Abdominal thrusts delay ventilation and increase aspiration risk.",
+        "D": "Recovery position for spontaneously breathing, not agonal.",
+        "E": "C-spine if diving/trauma, not for pool submersion without trauma."
+      },
+      "clinicalPearl": "Drowning: Rescue breaths FIRST (5 initial breaths) → CPR. Hypoxia is primary cause of arrest. Routine C-spine not needed."
+    },
+    "references": ["AHA Drowning Resuscitation Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_010",
+    "specialty": "emergency",
+    "topic": "Overdose",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old female is brought in unresponsive with empty bottle of amitriptyline. ECG shows QRS 140ms, terminal R wave in aVR (>3mm). What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Sodium bicarbonate 1-2 mEq/kg IV bolus" },
+      { "id": "B", "text": "Activated charcoal" },
+      { "id": "C", "text": "Naloxone" },
+      { "id": "D", "text": "Flumazenil" },
+      { "id": "E", "text": "Gastric lavage" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "TCA overdose: QRS >100ms + R wave in aVR >3mm = Sodium channel blockade (cardiotoxicity). Treatment: Sodium bicarbonate IV bolus (overcomes sodium channel blockade). Also treats hypotension. If QRS >160 or ventricular arrhythmias → Intralipid therapy. Charcoal if within 1-2h and protected airway.",
+      "whyWrong": {
+        "B": "Charcoal has risk of aspiration in unresponsive patient without airway protection.",
+        "C": "Naloxone is for opioid overdose, not TCA.",
+        "D": "Flumazenil is for benzodiazepines, contraindicated in TCA (lowers seizure threshold).",
+        "E": "Gastric lavage is rarely indicated and risks aspiration."
+      },
+      "clinicalPearl": "TCA cardiotoxicity: Wide QRS + R in aVR = Sodium bicarb! QRS >100ms = high risk for seizures/arrhythmias."
+    },
+    "references": ["Toxidromes and Overdose Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

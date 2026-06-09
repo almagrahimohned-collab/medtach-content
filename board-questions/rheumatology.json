@@ -140,3 +140,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_rheum_006",
+    "specialty": "rheumatology",
+    "topic": "Giant Cell Arteritis",
+    "difficulty": "hard",
+    "vignette": "A 72-year-old female presents with new-onset headache, scalp tenderness, jaw claudication, and visual changes (blurred vision). ESR is 110 mm/hr. What is the MOST critical next step?",
+    "options": [
+      { "id": "A", "text": "Start high-dose prednisone 60mg daily immediately" },
+      { "id": "B", "text": "Temporal artery biopsy first, then start steroids" },
+      { "id": "C", "text": "Start methotrexate" },
+      { "id": "D", "text": "MRI brain to rule out stroke" },
+      { "id": "E", "text": "Start tocilizumab" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "GCA with visual symptoms is a MEDICAL EMERGENCY! Start high-dose steroids IMMEDIATELY to prevent irreversible blindness. Temporal artery biopsy should be done within 2 weeks of starting steroids. Do NOT delay steroids for biopsy. Tocilizumab is steroid-sparing for maintenance.",
+      "whyWrong": {
+        "B": "Never delay steroids for biopsy when vision is threatened.",
+        "C": "Methotrexate is steroid-sparing (second-line), not for acute management.",
+        "D": "MRI may be normal in GCA; do not delay steroids for imaging.",
+        "E": "Tocilizumab is for maintenance, not acute management."
+      },
+      "clinicalPearl": "GCA + Visual symptoms = EMERGENCY! Start steroids IMMEDIATELY (before biopsy). Irreversible blindness can occur within hours."
+    },
+    "references": ["ACR GCA Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_007",
+    "specialty": "rheumatology",
+    "topic": "Osteoarthritis",
+    "difficulty": "easy",
+    "vignette": "A 65-year-old obese female presents with knee pain that worsens with activity and improves with rest. She has morning stiffness lasting 15 minutes. X-rays show joint space narrowing and osteophytes. What is the BEST first-line treatment?",
+    "options": [
+      { "id": "A", "text": "Total knee arthroplasty" },
+      { "id": "B", "text": "Weight loss, exercise, and acetaminophen" },
+      { "id": "C", "text": "Intra-articular corticosteroids" },
+      { "id": "D", "text": "Hyaluronic acid injections" },
+      { "id": "E", "text": "Opioid analgesics" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Knee OA: First-line = Non-pharmacologic (weight loss, exercise, physical therapy, biomechanical interventions) + Acetaminophen or topical NSAIDs. Oral NSAIDs if inadequate. Intra-articular steroids for acute flares. Surgery for end-stage refractory to conservative therapy.",
+      "whyWrong": {
+        "A": "Surgery is last resort after conservative measures fail.",
+        "C": "IA steroids for acute flares, not first-line maintenance.",
+        "D": "Hyaluronic acid has limited evidence, not recommended by major guidelines.",
+        "E": "Opioids should be AVOIDED for chronic OA (addiction risk, side effects)."
+      },
+      "clinicalPearl": "OA: Weight loss + Exercise + Acetaminophen/NSAIDs. Joint replacement for end-stage refractory disease."
+    },
+    "references": ["ACR OA Guidelines 2019"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_008",
+    "specialty": "rheumatology",
+    "topic": "Antiphospholipid Syndrome",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female with SLE presents with recurrent miscarriages (3 first-trimester losses) and a DVT. Labs: Lupus anticoagulant positive on 2 occasions 12 weeks apart. What is the BEST management during her next pregnancy?",
+    "options": [
+      { "id": "A", "text": "Aspirin alone" },
+      { "id": "B", "text": "Low molecular weight heparin (LMWH) + Low-dose aspirin" },
+      { "id": "C", "text": "Warfarin throughout pregnancy" },
+      { "id": "D", "text": "No anticoagulation, pregnancy is safe" },
+      { "id": "E", "text": "Clopidogrel + Aspirin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Obstetric APS (recurrent pregnancy loss + thrombosis + positive LA): LMWH + Low-dose aspirin during pregnancy and 6 weeks postpartum. Reduces pregnancy loss from 80% to 20-30%. Warfarin is TERATOGENIC (avoid in pregnancy). Continue aspirin lifelong for thrombotic risk.",
+      "whyWrong": {
+        "A": "Aspirin alone is insufficient for obstetric APS with thrombosis.",
+        "C": "Warfarin is contraindicated in pregnancy (embryopathy in 1st trimester).",
+        "D": "Untreated obstetric APS has 80% pregnancy loss rate.",
+        "E": "Clopidogrel is not standard for APS."
+      },
+      "clinicalPearl": "Obstetric APS: LMWH + Aspirin during pregnancy. Warfarin contraindicated. Dramatically improves live birth rates."
+    },
+    "references": ["ACR APS Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_009",
+    "specialty": "rheumatology",
+    "topic": "Polymyalgia Rheumatica",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female presents with bilateral shoulder and hip girdle pain and stiffness for 1 month. Morning stiffness lasts 2 hours. She has low-grade fever and fatigue. ESR is 85 mm/hr. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Ibuprofen 600mg TID" },
+      { "id": "B", "text": "Prednisone 15mg daily" },
+      { "id": "C", "text": "Methotrexate 15mg weekly" },
+      { "id": "D", "text": "Tocilizumab" },
+      { "id": "E", "text": "Hydroxychloroquine" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PMR: Bilateral shoulder/hip girdle pain + Morning stiffness + Elevated ESR/CRP + Age >50 + Rapid response to low-dose steroids (prednisone 12.5-25mg daily). Dramatic improvement within 24-72 hours is diagnostic. Taper slowly over 12-18 months. Rule out GCA (ask about headache, vision, jaw claudication).",
+      "whyWrong": {
+        "A": "NSAIDs provide minimal relief for PMR.",
+        "C": "Methotrexate is steroid-sparing for refractory or relapsing PMR.",
+        "D": "Tocilizumab is for refractory PMR (third-line).",
+        "E": "Hydroxychloroquine has no role in PMR."
+      },
+      "clinicalPearl": "PMR: Shoulder/hip girdle pain + High ESR + Age >50 + Dramatic response to low-dose prednisone. Rule out GCA!"
+    },
+    "references": ["ACR/EULAR PMR Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_010",
+    "specialty": "rheumatology",
+    "topic": "Sjögren Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female presents with dry eyes, dry mouth, and parotid gland enlargement. She has difficulty swallowing dry food. Labs: ANA positive, Anti-SSA (Ro) positive, Anti-SSB (La) positive. What is the MOST serious complication to monitor?",
+    "options": [
+      { "id": "A", "text": "Interstitial lung disease" },
+      { "id": "B", "text": "Non-Hodgkin lymphoma" },
+      { "id": "C", "text": "Renal tubular acidosis" },
+      { "id": "D", "text": "Peripheral neuropathy" },
+      { "id": "E", "text": "Primary biliary cholangitis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Sjögren syndrome: Lymphoma risk is 16-44x higher than general population. Non-Hodgkin lymphoma (usually MALT type) in parotid glands. Warning signs: Persistent parotid enlargement, splenomegaly, lymphadenopathy, cryoglobulinemia, low C4. Monitor clinically.",
+      "whyWrong": {
+        "A": "ILD occurs but is not the most serious complication.",
+        "C": "RTA type 1 occurs in Sjögren but is manageable.",
+        "D": "Peripheral neuropathy is common but not life-threatening.",
+        "E": "PBC can co-exist but is not the most serious."
+      },
+      "clinicalPearl": "Sjögren: Highest lymphoma risk among autoimmune diseases (16-44x). Monitor for persistent parotid swelling, splenomegaly, lymphadenopathy."
+    },
+    "references": ["Sjögren Syndrome Foundation Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

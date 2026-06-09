@@ -84,3 +84,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ophtho_004",
+    "specialty": "ophthalmology",
+    "topic": "Retinal Detachment",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old myopic male presents with sudden flashes of light, new floaters, and a 'curtain' coming across his vision in his right eye. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Posterior vitreous detachment" },
+      { "id": "B", "text": "Retinal detachment" },
+      { "id": "C", "text": "Macular degeneration" },
+      { "id": "D", "text": "Optic neuritis" },
+      { "id": "E", "text": "Central retinal artery occlusion" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Rhegmatogenous retinal detachment: Flashes + Floaters → Curtain/veil over vision. High-risk: Myopia, aphakia, trauma, family history. Emergency! Urgent ophthalmology referral for laser retinopexy, pneumatic retinopexy, scleral buckle, or vitrectomy. Macula-on detachment = emergency surgery within 24h.",
+      "whyWrong": {
+        "A": "PVD: Flashes and floaters but NO curtain/veil or visual field defect.",
+        "C": "AMD: Gradual central vision loss, drusen, no curtain.",
+        "D": "Optic neuritis: Pain with eye movement, no floaters/flashes.",
+        "E": "CRAO: Sudden painless vision loss, cherry-red spot, no floaters."
+      },
+      "clinicalPearl": "Retinal detachment: Flashes + Floaters → Curtain = Emergency! Macula-on = Surgery within 24h to save central vision."
+    },
+    "references": ["AAO Retinal Detachment Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_005",
+    "specialty": "ophthalmology",
+    "topic": "Macular Degeneration",
+    "difficulty": "medium",
+    "vignette": "A 75-year-old female presents with gradual, painless loss of central vision in both eyes. She describes straight lines appearing wavy (metamorphopsia). Fundoscopy shows drusen and macular pigmentary changes. What is the BEST treatment for the wet form?",
+    "options": [
+      { "id": "A", "text": "High-dose vitamins (AREDS2 formula)" },
+      { "id": "B", "text": "Anti-VEGF intravitreal injections (ranibizumab, aflibercept)" },
+      { "id": "C", "text": "Laser photocoagulation" },
+      { "id": "D", "text": "Prednisone" },
+      { "id": "E", "text": "Observation only" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Wet (neovascular) AMD: Anti-VEGF injections (ranibizumab, aflibercept, bevacizumab) monthly or treat-and-extend. AREDS2 vitamins are for DRY AMD (reduce progression by 25%). Laser photocoagulation rarely used now. OCT shows intraretinal/subretinal fluid.",
+      "whyWrong": {
+        "A": "AREDS2 for dry AMD, not wet AMD.",
+        "C": "Laser is for extrafoveal CNV (rarely used now).",
+        "D": "Steroids have no role in AMD.",
+        "E": "Wet AMD causes rapid irreversible vision loss without treatment."
+      },
+      "clinicalPearl": "Dry AMD: AREDS2 vitamins. Wet AMD: Anti-VEGF injections (monthly). Amsler grid for home monitoring."
+    },
+    "references": ["AAO AMD Guidelines", "AREDS2 Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_006",
+    "specialty": "ophthalmology",
+    "topic": "Corneal Abrasion",
+    "difficulty": "easy",
+    "vignette": "A 30-year-old male presents with severe eye pain, tearing, foreign body sensation, and photophobia after being poked in the eye by his child's finger. Fluorescein staining shows a large epithelial defect. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Topical anesthetic (tetracaine) for ongoing pain management" },
+      { "id": "B", "text": "Topical antibiotic ointment (erythromycin) + Cycloplegic + Oral analgesia + Patching if large" },
+      { "id": "C", "text": "Topical steroids" },
+      { "id": "D", "text": "Immediate ophthalmology referral for surgery" },
+      { "id": "E", "text": "Observation only, will heal spontaneously" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Corneal abrasion: Topical antibiotic (erythromycin or ciprofloxacin) to prevent infection, cycloplegic (cyclopentolate) for pain/ciliary spasm, oral analgesia. Patching not routinely recommended (slows healing, increases infection risk). NEVER prescribe topical anesthetics (corneal toxicity, delayed healing).",
+      "whyWrong": {
+        "A": "Topical anesthetics cause corneal toxicity and delayed healing. NEVER for home use.",
+        "C": "Topical steroids increase infection risk and slow healing.",
+        "D": "Most abrasions heal spontaneously in 24-72h. Surgery only for perforation.",
+        "E": "Antibiotic prophylaxis is standard to prevent bacterial keratitis."
+      },
+      "clinicalPearl": "Corneal abrasion: Antibiotic ointment + Cycloplegic + Oral analgesia. NEVER topical anesthetics for home use."
+    },
+    "references": ["AAO Corneal Abrasion Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

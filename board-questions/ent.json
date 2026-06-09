@@ -84,3 +84,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ent_004",
+    "specialty": "ent",
+    "topic": "Otitis Media",
+    "difficulty": "easy",
+    "vignette": "A 2-year-old male presents with fever, ear pain, and irritability. He is pulling at his right ear. Otoscopy shows a bulging, erythematous, opaque tympanic membrane with loss of landmarks. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Amoxicillin 80-90mg/kg/day x10 days" },
+      { "id": "B", "text": "Observation for 48-72h with pain control" },
+      { "id": "C", "text": "Azithromycin x5 days" },
+      { "id": "D", "text": "Tympanostomy tube placement" },
+      { "id": "E", "text": "Ceftriaxone IM" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Acute otitis media (AOM) with severe symptoms (fever >39°C, moderate-severe otalgia): Antibiotics indicated. Amoxicillin 80-90mg/kg/day x10 days (first-line). Observation for 48-72h only for: Age >6mo, non-severe, unilateral, reliable follow-up.",
+      "whyWrong": {
+        "B": "Observation only for non-severe AOM with reliable follow-up. This is severe.",
+        "C": "Azithromycin has high S. pneumoniae resistance (not first-line).",
+        "D": "Tubes for recurrent AOM (>3 in 6mo or >4 in 1yr) or chronic OME >3mo.",
+        "E": "Ceftriaxone is for treatment failure or severe penicillin allergy."
+      },
+      "clinicalPearl": "AOM: Amoxicillin 80-90mg/kg/day x10 days. Observation ONLY for non-severe >6mo with reliable follow-up."
+    },
+    "references": ["AAP AOM Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_005",
+    "specialty": "ent",
+    "topic": "Vertigo",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old female presents with acute onset severe vertigo, nausea, and vomiting for 6 hours. She cannot walk and prefers to lie still. She has no hearing loss or tinnitus. Dix-Hallpike maneuver is negative. Head impulse test (HIT) shows a corrective saccade on leftward head turn. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "BPPV" },
+      { "id": "B", "text": "Vestibular neuritis" },
+      { "id": "C", "text": "Meniere disease" },
+      { "id": "D", "text": "Acoustic neuroma" },
+      { "id": "E", "text": "Central vertigo (stroke)" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Vestibular neuritis: Acute severe vertigo (hours-days) + Nausea/vomiting + Abnormal HIT (corrective saccade) + No hearing loss/tinnitus + Negative Dix-Hallpike. Peripheral etiology (vestibular nerve inflammation). Treatment: Steroids (prednisone taper), vestibular suppressants (meclizine) for first 1-3 days only.",
+      "whyWrong": {
+        "A": "BPPV: Brief (<1 min) episodes with position changes, positive Dix-Hallpike, normal HIT.",
+        "C": "Meniere: Episodic vertigo + Hearing loss + Tinnitus + Aural fullness (hours).",
+        "D": "Acoustic neuroma: Gradual hearing loss, tinnitus, no acute vertigo.",
+        "E": "Central vertigo: HINTS exam abnormal (normal HIT, skew deviation, direction-changing nystagmus)."
+      },
+      "clinicalPearl": "Vestibular neuritis: Acute prolonged vertigo + Abnormal HIT + No hearing loss. Steroids within 72h improve recovery."
+    },
+    "references": ["HINTS Exam for Vertigo", "Vestibular Neuritis Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_006",
+    "specialty": "ent",
+    "topic": "Peritonsillar Abscess",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male presents with severe sore throat (worse on right), fever, 'hot potato' voice, trismus, and uvular deviation to the left. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Oral antibiotics and discharge" },
+      { "id": "B", "text": "Needle aspiration or incision and drainage + IV antibiotics" },
+      { "id": "C", "text": "Emergency tonsillectomy" },
+      { "id": "D", "text": "IV steroids alone" },
+      { "id": "E", "text": "Throat culture and observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Peritonsillar abscess: Trismus + Uvular deviation + Hot potato voice + Severe unilateral sore throat. Treatment: Drainage (needle aspiration, I&D) + IV antibiotics (ampicillin-sulbactam or clindamycin) + Steroids (reduce inflammation). Most common deep neck infection.",
+      "whyWrong": {
+        "A": "Oral antibiotics alone are insufficient for abscess.",
+        "C": "Tonsillectomy is for recurrent PTA or if drainage fails.",
+        "D": "Steroids are adjunctive, not sole treatment.",
+        "E": "Abscess requires drainage, not observation."
+      },
+      "clinicalPearl": "Peritonsillar abscess: Trismus + Uvular deviation + Hot potato voice. Drainage + Antibiotics + Steroids."
+    },
+    "references": ["AAO-HNS Peritonsillar Abscess Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
