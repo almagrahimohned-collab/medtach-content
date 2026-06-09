@@ -1423,5 +1423,423 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_001",
+    "specialty": "endocrinology",
+    "topic": "Pheochromocytoma Preoperative Management",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old male with confirmed pheochromocytoma (elevated plasma metanephrines, 5cm right adrenal mass) is scheduled for adrenalectomy. What is the ESSENTIAL preoperative preparation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start alpha-blockade (phenoxybenzamine or doxazosin) for 10-14 days BEFORE beta-blockade"
+      },
+      {
+        "id": "B",
+        "text": "Start beta-blocker (propranolol) first, then alpha-blocker"
+      },
+      {
+        "id": "C",
+        "text": "No preoperative preparation needed"
+      },
+      {
+        "id": "D",
+        "text": "Start metyrosine only"
+      },
+      {
+        "id": "E",
+        "text": "Emergency surgery within 24 hours"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Pheochromocytoma: ALPHA-BLOCKADE FIRST (phenoxybenzamine or doxazosin) for 10-14 days to achieve normotension and volume expansion. Then add BETA-BLOCKER if tachycardia persists (only after adequate alpha blockade). NEVER start beta-blocker first (unopposed alpha agonism \u2192 hypertensive crisis). Goal: BP <130/80 seated, >90/45 standing, HR 60-70. High-salt diet and fluids to expand volume.",
+      "whyWrong": {
+        "A": "Alpha blockade before beta blockade is CRITICAL.",
+        "B": "Beta blocker first = Unopposed alpha agonism = Hypertensive crisis!",
+        "C": "Unprepared surgery has 25-50% mortality from intraoperative hypertensive crisis.",
+        "D": "Metyrosine is adjunctive (catecholamine synthesis inhibitor), not sole agent.",
+        "E": "Elective surgery after adequate preparation (10-14 days)."
+      },
+      "clinicalPearl": "Pheochromocytoma: ALPHA blockade FIRST (10-14 days), THEN beta blocker. Never beta first! High-salt diet for volume expansion."
+    },
+    "references": [
+      "Endocrine Society Pheochromocytoma Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_002",
+    "specialty": "endocrinology",
+    "topic": "Radioactive Iodine vs Surgery for Graves",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female with Graves disease has been on methimazole for 18 months with relapse after attempting to stop. She wants definitive treatment. She is a non-smoker with no eye symptoms. What is the BEST option?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue methimazole lifelong"
+      },
+      {
+        "id": "B",
+        "text": "Radioactive iodine (RAI) ablation"
+      },
+      {
+        "id": "C",
+        "text": "Total thyroidectomy"
+      },
+      {
+        "id": "D",
+        "text": "RAI or thyroidectomy - both are acceptable; shared decision-making"
+      },
+      {
+        "id": "E",
+        "text": "Increase methimazole dose"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Graves disease with relapse after medical therapy: Both RAI and thyroidectomy are acceptable definitive treatments. ATA 2023 recommends SHARED DECISION-MAKING. RAI: Non-invasive, delayed effect (weeks-months), may worsen Graves ophthalmopathy (especially in smokers). Surgery: Immediate cure, risk of RLN injury/hypoparathyroidism, preferred for large goiter, suspicious nodules, or ophthalmopathy. She has no eye symptoms and is non-smoker = either option reasonable.",
+      "whyWrong": {
+        "A": "Definitive treatment desired after relapse; lifelong methimazole is alternative but not preferred.",
+        "B": "RAI is good option but surgery also acceptable; shared decision-making recommended.",
+        "C": "Surgery is good option but RAI also acceptable.",
+        "D": "Shared decision-making between RAI and surgery is recommended by ATA 2023.",
+        "E": "Already relapsed on methimazole; definitive treatment indicated."
+      },
+      "clinicalPearl": "Graves relapse: RAI or Surgery. RAI: Non-invasive, may worsen eye disease. Surgery: Immediate, preferred for large goiter or eye disease."
+    },
+    "references": [
+      "ATA Hyperthyroidism Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_003",
+    "specialty": "endocrinology",
+    "topic": "Osteoporosis - Drug Holiday",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female has been on alendronate for 5 years for osteoporosis. Repeat DEXA shows T-score -2.2 at hip (improved from -3.0). She has no fractures. What is the BEST management per AACE 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue alendronate for another 5 years"
+      },
+      {
+        "id": "B",
+        "text": "Consider bisphosphonate holiday for 1-2 years with monitoring"
+      },
+      {
+        "id": "C",
+        "text": "Stop all treatment permanently"
+      },
+      {
+        "id": "D",
+        "text": "Switch to teriparatide"
+      },
+      {
+        "id": "E",
+        "text": "Switch to denosumab"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "After 5 years of bisphosphonate with improved BMD and NO fractures: Consider DRUG HOLIDAY (temporary discontinuation) for 1-2 years. Rationale: Bisphosphonates accumulate in bone with long half-life; risk of rare complications (atypical femoral fracture, MRONJ) increases after 5+ years. Monitor with DEXA and bone turnover markers. Restart if BMD declines significantly or fracture occurs.",
+      "whyWrong": {
+        "A": "Continuing beyond 5 years increases rare complication risk without proven additional benefit for moderate-risk patients.",
+        "B": "Drug holiday appropriate for moderate risk with improved BMD and no fractures.",
+        "C": "Permanent discontinuation not recommended (bone loss will resume).",
+        "D": "Teriparatide is for severe osteoporosis with fractures on bisphosphonate.",
+        "E": "Denosumab is alternative but requires commitment (cannot miss doses - rebound fractures)."
+      },
+      "clinicalPearl": "Bisphosphonate >5 years: Drug holiday if moderate risk, improved BMD, no fractures. Monitor with DEXA. Restart if BMD declines."
+    },
+    "references": [
+      "AACE Osteoporosis Guidelines 2023",
+      "ASBMR Drug Holiday Recommendations"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_004",
+    "specialty": "endocrinology",
+    "topic": "Lipodystrophy Syndromes",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old female with near-total absence of subcutaneous fat, severe insulin resistance (HbA1c 10% despite >200 units insulin daily), hypertriglyceridemia (TG >2000), and hepatomegaly. Leptin level is undetectable. What is the diagnosis and treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Type 1 diabetes - Insulin pump"
+      },
+      {
+        "id": "B",
+        "text": "Congenital generalized lipodystrophy - Metreleptin (recombinant leptin)"
+      },
+      {
+        "id": "C",
+        "text": "Metabolic syndrome - Lifestyle modification"
+      },
+      {
+        "id": "D",
+        "text": "Cushing syndrome - Adrenalectomy"
+      },
+      {
+        "id": "E",
+        "text": "Acquired lipodystrophy - Thiazolidinediones"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Congenital generalized lipodystrophy (Berardinelli-Seip syndrome): Near-total absence of adipose tissue + Severe insulin resistance + Hypertriglyceridemia + Hepatomegaly + LOW/absent leptin (adipose tissue produces leptin). Treatment: Metreleptin (recombinant human leptin) dramatically improves metabolic parameters. FDA-approved for generalized lipodystrophy. Without leptin, severe metabolic complications ensue.",
+      "whyWrong": {
+        "A": "T1DM has autoimmune beta-cell destruction; this is extreme insulin resistance from lipodystrophy.",
+        "B": "Metreleptin replaces missing leptin (produced by adipose tissue). Dramatic metabolic improvement.",
+        "C": "Metabolic syndrome has excess adipose tissue, not absence of fat.",
+        "D": "Cushing has central obesity, not lipoatrophy.",
+        "E": "Thiazolidinediones may help partial lipodystrophy but not generalized."
+      },
+      "clinicalPearl": "Generalized lipodystrophy: Absent fat + Extreme insulin resistance + Low leptin. Metreleptin = Life-changing therapy."
+    },
+    "references": [
+      "Metreleptin FDA Label",
+      "Lipodystrophy Syndromes Management"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_005",
+    "specialty": "endocrinology",
+    "topic": "Hypercalcemia of Malignancy",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with squamous cell lung cancer presents with confusion, constipation, and polyuria. Ca is 14.2 mg/dL, PTH is <6 pg/mL (low), PTHrP is elevated. What is the BEST initial treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Furosemide alone"
+      },
+      {
+        "id": "B",
+        "text": "Aggressive IV normal saline 200-300 mL/hr + Calcitonin 4-8 IU/kg IM/SC + IV zoledronic acid"
+      },
+      {
+        "id": "C",
+        "text": "Cinacalcet 30mg BID"
+      },
+      {
+        "id": "D",
+        "text": "Prednisone 60mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Parathyroidectomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Humoral hypercalcemia of malignancy (PTHrP-mediated): 1. AGGRESSIVE IV FLUIDS (NS 200-300 mL/hr) to restore volume and promote calciuresis, 2. CALCITONIN (rapid onset within 4-6h, but tachyphylaxis in 48h), 3. IV BISPHOSPHONATE (zoledronic acid) or DENOSUMAB (long-term control, onset 48-72h). Furosemide ONLY after euvolemic (avoid dehydration). Treat underlying malignancy.",
+      "whyWrong": {
+        "A": "Furosemide after fluids; not sole therapy.",
+        "B": "Fluids + Calcitonin (rapid) + Bisphosphonate (sustained) = Standard approach.",
+        "C": "Cinacalcet is for parathyroid carcinoma or primary hyperparathyroidism, not PTHrP-mediated.",
+        "D": "Steroids for vitamin D-mediated hypercalcemia (lymphoma, sarcoidosis), not PTHrP.",
+        "E": "Parathyroidectomy is for primary hyperparathyroidism (PTH is SUPPRESSED here)."
+      },
+      "clinicalPearl": "Hypercalcemia of malignancy: IVF + Calcitonin (rapid) + Bisphosphonate/Denosumab (sustained). PTH is LOW (not parathyroid source)."
+    },
+    "references": [
+      "Endocrine Society Hypercalcemia Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_006",
+    "specialty": "endocrinology",
+    "topic": "Growth Hormone Deficiency in Adults",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old male with history of pituitary adenoma treated with surgery and radiation has fatigue, increased body fat, decreased muscle mass, and dyslipidemia. IGF-1 is low. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start testosterone therapy"
+      },
+      {
+        "id": "B",
+        "text": "GH stimulation test (insulin tolerance test or macimorelin)"
+      },
+      {
+        "id": "C",
+        "text": "Start recombinant human growth hormone (somatropin)"
+      },
+      {
+        "id": "D",
+        "text": "Start statin for dyslipidemia"
+      },
+      {
+        "id": "E",
+        "text": "Start levothyroxine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Suspected GH deficiency in high-risk patient (pituitary disease, surgery, radiation): CONFIRM with GH stimulation test. Insulin tolerance test (ITT) is gold standard; macimorelin (oral ghrelin agonist) is FDA-approved alternative. Low IGF-1 alone is insufficient for diagnosis (may be normal in 50% of GH-deficient adults). If confirmed: Recombinant GH (somatropin) improves body composition, lipids, and quality of life.",
+      "whyWrong": {
+        "A": "Testosterone may be low but GH deficiency should be evaluated separately.",
+        "B": "Confirm GH deficiency with stimulation testing before treatment.",
+        "C": "GH therapy only after biochemical confirmation of deficiency.",
+        "D": "Treat complications but address underlying GH deficiency.",
+        "E": "Check thyroid function but GH workup first."
+      },
+      "clinicalPearl": "Adult GH deficiency: Confirm with ITT or macimorelin. IGF-1 alone not diagnostic. Somatropin improves body composition and QOL."
+    },
+    "references": [
+      "Endocrine Society Adult GH Deficiency Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_007",
+    "specialty": "endocrinology",
+    "topic": "Thyroid Nodule - TI-RADS",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female has a 2.5cm solid hypoechoic thyroid nodule with irregular margins and microcalcifications on ultrasound. TI-RADS score is 5. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TSH and thyroid scan"
+      },
+      {
+        "id": "B",
+        "text": "Fine needle aspiration (FNA) biopsy"
+      },
+      {
+        "id": "C",
+        "text": "Total thyroidectomy without biopsy"
+      },
+      {
+        "id": "D",
+        "text": "Observation with repeat US in 1 year"
+      },
+      {
+        "id": "E",
+        "text": "Start levothyroxine suppression"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "TI-RADS 5 (highly suspicious): FNA is recommended for nodules \u22651cm. Features: Hypoechoic + Irregular margins + Microcalcifications = High risk (>70-90% malignancy risk). TI-RADS 4: FNA if \u22651.5cm. TI-RADS 3: FNA if \u22652.5cm. TI-RADS 1-2: No FNA. Thyroid scan is for LOW TSH (hyperfunctioning nodule).",
+      "whyWrong": {
+        "A": "Thyroid scan is for low TSH; TI-RADS guides FNA decision with normal/high TSH.",
+        "B": "TI-RADS 5 \u22651cm = FNA indicated. This nodule is 2.5cm.",
+        "C": "Surgery without FNA is inappropriate (may be unnecessary for benign nodules).",
+        "D": "TI-RADS 5 requires FNA, not observation.",
+        "E": "Levothyroxine suppression is not recommended for benign nodules (minimal efficacy, risk of hyperthyroidism)."
+      },
+      "clinicalPearl": "TI-RADS 5: FNA if \u22651cm. TI-RADS 4: FNA if \u22651.5cm. TI-RADS 3: FNA if \u22652.5cm. Thyroid scan only if TSH low."
+    },
+    "references": [
+      "ACR TI-RADS 2022",
+      "ATA Thyroid Nodule Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_008",
+    "specialty": "endocrinology",
+    "topic": "Prolactinoma - Pregnancy",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old female with microprolactinoma (5mm, prolactin 180 ng/mL) on cabergoline has just discovered she is 6 weeks pregnant. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue cabergoline throughout pregnancy"
+      },
+      {
+        "id": "B",
+        "text": "Stop cabergoline and monitor clinically for symptoms (visual fields, headaches)"
+      },
+      {
+        "id": "C",
+        "text": "Emergency transsphenoidal surgery"
+      },
+      {
+        "id": "D",
+        "text": "Switch to bromocriptine"
+      },
+      {
+        "id": "E",
+        "text": "Terminate pregnancy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Microprolactinoma in pregnancy: STOP dopamine agonist (cabergoline) when pregnancy confirmed. Risk of clinically significant tumor growth during pregnancy is LOW (2-3% for microprolactinomas vs 15-35% for macroprolactinomas). Monitor clinically (visual fields, headaches) each trimester. MRI without contrast if symptoms develop. Bromocriptine has more pregnancy safety data but cabergoline is generally considered safe if needed.",
+      "whyWrong": {
+        "A": "Dopamine agonists are usually discontinued in pregnancy for microprolactinomas (low growth risk).",
+        "B": "Observation is standard for microprolactinomas during pregnancy.",
+        "C": "Surgery only if severe symptoms from tumor growth unresponsive to medical therapy.",
+        "D": "Bromocriptine has more pregnancy data but routine continuation not needed for microprolactinoma.",
+        "E": "Pregnancy can proceed safely with monitoring; termination not indicated."
+      },
+      "clinicalPearl": "Microprolactinoma + Pregnancy: Stop cabergoline. Monitor for headache/visual changes. Low risk of growth (2-3%). Macroprolactinomas: Continue treatment."
+    },
+    "references": [
+      "Endocrine Society Prolactinoma Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b3_009",
+    "specialty": "endocrinology",
+    "topic": "Diabetes Remission",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old obese male with T2DM for 3 years (HbA1c 7.5% on metformin alone) achieves 15% weight loss through lifestyle intervention. HbA1c is now 5.8% off all medications for 6 months. What is this called per ADA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diabetes cure"
+      },
+      {
+        "id": "B",
+        "text": "Diabetes remission"
+      },
+      {
+        "id": "C",
+        "text": "Prediabetes"
+      },
+      {
+        "id": "D",
+        "text": "Honeymoon period"
+      },
+      {
+        "id": "E",
+        "text": "Lab error"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ADA 2024: Diabetes REMISSION (not cure) = HbA1c <6.5% off all glucose-lowering medications for \u22653 months. Weight loss is the primary driver (DiRECT trial: 46% remission with 10-15kg weight loss). Remission does NOT mean cure (beta-cell dysfunction persists; weight regain \u2192 relapse). Continue monitoring (HbA1c at least annually).",
+      "whyWrong": {
+        "A": "ADA avoids term 'cure' - underlying beta-cell dysfunction persists.",
+        "B": "Remission: HbA1c <6.5% off meds \u22653 months. Weight loss is key.",
+        "C": "Prediabetes is HbA1c 5.7-6.4% without prior diabetes diagnosis.",
+        "D": "Honeymoon refers to T1DM after initiation of insulin therapy.",
+        "E": "Real phenomenon; confirmed with repeat testing."
+      },
+      "clinicalPearl": "T2DM remission: HbA1c <6.5% off meds \u22653 months. Weight loss is key (DiRECT trial). Not a cure - monitor for relapse."
+    },
+    "references": [
+      "ADA Diabetes Remission Consensus 2024",
+      "DiRECT Trial 2018"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
