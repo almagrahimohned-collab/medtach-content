@@ -83,8 +83,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_ophtho_004",
     "specialty": "ophthalmology",
@@ -169,8 +168,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_ophtho_007",
     "specialty": "ophthalmology",
@@ -255,8 +253,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_ophtho_010",
     "specialty": "ophthalmology",
@@ -341,8 +338,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_ophtho_013",
     "specialty": "ophthalmology",
@@ -427,8 +423,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_ophtho_016",
     "specialty": "ophthalmology",
@@ -513,8 +508,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_ophtho_019",
     "specialty": "ophthalmology",

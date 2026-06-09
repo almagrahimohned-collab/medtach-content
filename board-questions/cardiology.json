@@ -335,8 +335,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_cardio_013",
     "specialty": "cardiology",
@@ -421,8 +420,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_cardio_016",
     "specialty": "cardiology",
@@ -479,8 +477,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_cardio_018",
     "specialty": "cardiology",
@@ -565,8 +562,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_cardio_021",
     "specialty": "cardiology",
@@ -707,8 +703,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_cardio_026",
     "specialty": "cardiology",

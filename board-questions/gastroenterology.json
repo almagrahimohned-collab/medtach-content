@@ -167,8 +167,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gastro_007",
     "specialty": "gastroenterology",
@@ -189,7 +188,7 @@
         "A": "Anti-TNF alone may not be sufficient for severe acute flare.",
         "B": "Already failed azathioprine, increasing dose unlikely to help.",
         "C": "Vedolizumab has slower onset (6-12 weeks), not ideal for severe flare.",
-        "D": "Surgery is last resort after failing medical therapy (3 biologics).",
+        "D": "Surgery is last resort after failing medical therapy (3 biologics)."
       },
       "clinicalPearl": "Severe UC flare: Steroids (bridge) + Anti-TNF (infliximab). Vedolizumab for maintenance. Surgery if refractory."
     },
@@ -225,8 +224,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gastro_009",
     "specialty": "gastroenterology",
@@ -283,8 +281,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gastro_011",
     "specialty": "gastroenterology",
@@ -369,8 +366,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gastro_014",
     "specialty": "gastroenterology",

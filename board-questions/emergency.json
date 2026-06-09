@@ -139,8 +139,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_em_006",
     "specialty": "emergency",
@@ -282,8 +281,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_em_011",
     "specialty": "emergency",
@@ -368,8 +366,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_em_014",
     "specialty": "emergency",
@@ -510,8 +507,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_em_019",
     "specialty": "emergency",
@@ -596,8 +592,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_em_022",
     "specialty": "emergency",
@@ -682,8 +677,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_em_025",
     "specialty": "emergency",

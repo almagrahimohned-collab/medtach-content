@@ -55,8 +55,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gene_003",
     "specialty": "genetics",
@@ -225,8 +224,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gene_009",
     "specialty": "genetics",
@@ -311,8 +309,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gene_012",
     "specialty": "genetics",
@@ -397,8 +394,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_gene_015",
     "specialty": "genetics",

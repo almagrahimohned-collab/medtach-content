@@ -139,8 +139,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_nephro_006",
     "specialty": "nephrology",
@@ -225,8 +224,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_nephro_009",
     "specialty": "nephrology",
@@ -311,8 +309,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_nephro_012",
     "specialty": "nephrology",
@@ -397,8 +394,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_nephro_015",
     "specialty": "nephrology",
