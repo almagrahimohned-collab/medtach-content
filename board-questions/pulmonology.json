@@ -1047,5 +1047,236 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b2_001",
+    "specialty": "pulmonology",
+    "topic": "COVID-19 - Long COVID Management",
+    "difficulty": "medium",
+    "vignette": "A 38-year-old female presents with persistent fatigue, dyspnea, and brain fog 4 months after mild COVID-19. PFT shows reduced DLCO (65% predicted). CT chest is normal. She was not hospitalized. What is the BEST management approach per WHO 2023 Long COVID guidelines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oral prednisone 40mg daily for 2 weeks"
+      },
+      {
+        "id": "B",
+        "text": "Multidisciplinary rehabilitation (pulmonary rehab + cognitive therapy + graded exercise)"
+      },
+      {
+        "id": "C",
+        "text": "No treatment, symptoms will resolve spontaneously"
+      },
+      {
+        "id": "D",
+        "text": "Nintedanib for pulmonary fibrosis"
+      },
+      {
+        "id": "E",
+        "text": "IV immunoglobulin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "WHO 2023: Long COVID (Post-COVID condition) management is multidisciplinary: Pulmonary rehabilitation (for dyspnea), cognitive rehabilitation (for brain fog), and PACED exercise (not graded exercise therapy which may worsen post-exertional malaise). No pharmacotherapy proven. Most patients improve over 6-12 months but some have persistent symptoms.",
+      "whyWrong": {
+        "A": "No evidence for routine steroids in Long COVID; may be harmful.",
+        "C": "Symptoms may persist for >1 year; active management improves outcomes.",
+        "D": "Nintedanib is for progressive pulmonary fibrosis (not present with normal CT).",
+        "E": "IVIG is experimental; not standard of care for Long COVID."
+      },
+      "clinicalPearl": "Long COVID: Multidisciplinary rehab + Pacing (not graded exercise). Screen for: POTS, autonomic dysfunction, cognitive impairment. No pharmacotherapy proven."
+    },
+    "references": [
+      "WHO Long COVID Guidelines 2023",
+      "RECOVER Initiative 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b2_002",
+    "specialty": "pulmonology",
+    "topic": "Pleural Disease - Indwelling Catheter",
+    "difficulty": "medium",
+    "vignette": "A 68-year-old female with metastatic breast cancer presents with recurrent symptomatic malignant pleural effusion requiring thoracentesis every 10 days. What is the BEST definitive management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue repeated thoracentesis"
+      },
+      {
+        "id": "B",
+        "text": "Tunneled pleural catheter (PleurX) placement"
+      },
+      {
+        "id": "C",
+        "text": "Chemical pleurodesis with talc via chest tube"
+      },
+      {
+        "id": "D",
+        "text": "Surgical pleurodesis via VATS"
+      },
+      {
+        "id": "E",
+        "text": "Systemic chemotherapy only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Recurrent malignant pleural effusion: Tunneled pleural catheter (PleurX/indwelling pleural catheter) is preferred for patients with trapped lung or those who want outpatient management. Allows intermittent drainage at home. TIME2 and AMPLE trials showed IPC is as effective as talc pleurodesis with fewer hospital days. Talc pleurodesis requires chest tube and 3-7 day hospitalization.",
+      "whyWrong": {
+        "A": "Repeated thoracentesis is temporizing; definitive management needed.",
+        "C": "Talc pleurodesis is effective but requires hospitalization and has higher complication rate.",
+        "D": "VATS pleurodesis is more invasive than IPC or bedside talc.",
+        "E": "Systemic therapy may help but effusion often requires mechanical intervention."
+      },
+      "clinicalPearl": "Recurrent malignant effusion: Tunneled pleural catheter (IPC) = Outpatient management. Talc pleurodesis = Inpatient. Both equally effective."
+    },
+    "references": [
+      "TIME2 Trial 2014",
+      "AMPLE Trial 2022",
+      "BTS Pleural Disease Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b2_003",
+    "specialty": "pulmonology",
+    "topic": "Tuberculosis - New Regimens",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old male from India is diagnosed with drug-sensitive pulmonary TB (AFB smear positive, GeneXpert confirms rifampin-sensitive). What is the recommended regimen per WHO 2023 guidelines for shortening treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Standard 6-month RIPE (2HRZE/4HR)"
+      },
+      {
+        "id": "B",
+        "text": "4-month regimen (2HPZM/2HPM) - Rifapentine + Moxifloxacin"
+      },
+      {
+        "id": "C",
+        "text": "9-month INH + Rifampin only"
+      },
+      {
+        "id": "D",
+        "text": "BPaL regimen (Bedaquiline + Pretomanid + Linezolid)"
+      },
+      {
+        "id": "E",
+        "text": "2-month RIPE only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "WHO 2023 now recommends 4-month rifapentine-moxifloxacin regimen (2HPZM/2HPM) for drug-sensitive pulmonary TB as an alternative to standard 6-month RIPE. Study 31/A5349 trial showed non-inferiority. Shorter regimen improves adherence and reduces costs. However, 6-month RIPE remains standard if 4-month regimen not feasible.",
+      "whyWrong": {
+        "A": "6-month RIPE is still acceptable but 4-month regimen is now WHO-recommended alternative.",
+        "C": "9-month INH+Rifampin is for LATENT TB, not active disease.",
+        "D": "BPaL is for MULTIDRUG-RESISTANT TB (MDR-TB), not drug-sensitive TB.",
+        "E": "2-month RIPE alone is insufficient (high relapse rate)."
+      },
+      "clinicalPearl": "TB treatment 2023: 4-month regimen (rifapentine + moxifloxacin) now WHO-recommended for drug-sensitive TB. Improves adherence."
+    },
+    "references": [
+      "WHO TB Guidelines 2023",
+      "Study 31/A5349 Trial 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b2_004",
+    "specialty": "pulmonology",
+    "topic": "Vaping-Associated Lung Injury",
+    "difficulty": "medium",
+    "vignette": "A 19-year-old male presents with cough, dyspnea, fever, and hypoxemia (SpO2 88%). CT shows diffuse bilateral ground-glass opacities with subpleural sparing. He admits to vaping THC-containing products. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "COVID-19 pneumonia"
+      },
+      {
+        "id": "B",
+        "text": "EVALI (E-cigarette or Vaping product use-Associated Lung Injury)"
+      },
+      {
+        "id": "C",
+        "text": "Acute eosinophilic pneumonia"
+      },
+      {
+        "id": "D",
+        "text": "Hypersensitivity pneumonitis"
+      },
+      {
+        "id": "E",
+        "text": "Pulmonary alveolar proteinosis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "EVALI: Vaping history + Respiratory symptoms + Bilateral GGOs with subpleural sparing on CT. Most cases linked to vitamin E acetate in THC-containing products. Treatment: Supportive care, supplemental O2, corticosteroids if severe. Most patients improve with steroids. Rule out infection. Avoid re-exposure (can recur).",
+      "whyWrong": {
+        "A": "COVID would have positive PCR; subpleural sparing is atypical for COVID.",
+        "C": "Acute eosinophilic pneumonia: BAL eosinophilia >25%, no vaping history required.",
+        "D": "Hypersensitivity pneumonitis: Centrilobular nodules, air trapping, exposure history (birds, mold).",
+        "E": "PAP: Crazy paving pattern, PAS-positive material in BAL."
+      },
+      "clinicalPearl": "EVALI: Vaping + Bilateral GGOs + Subpleural sparing. Vitamin E acetate implicated. Steroids for severe cases. Ask about vaping in young patients with pneumonia."
+    },
+    "references": [
+      "CDC EVALI Guidelines 2020",
+      "NEJM EVALI Case Series 2019"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b2_005",
+    "specialty": "pulmonology",
+    "topic": "Obstructive Sleep Apnea - Alternative Therapies",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old obese male (BMI 34) with severe OSA (AHI 45) has failed CPAP due to intolerance despite multiple mask trials. He is not a candidate for oral appliance. What is the BEST alternative therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uvulopalatopharyngoplasty (UPPP)"
+      },
+      {
+        "id": "B",
+        "text": "Hypoglossal nerve stimulation (Inspire therapy)"
+      },
+      {
+        "id": "C",
+        "text": "Bariatric surgery"
+      },
+      {
+        "id": "D",
+        "text": "Positional therapy"
+      },
+      {
+        "id": "E",
+        "text": "Oxygen therapy at night"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hypoglossal nerve stimulation (HNS/Inspire) is FDA-approved for CPAP-intolerant patients with AHI 15-65, BMI <32-35, and no complete concentric collapse at velopharynx on DISE. STAR trial showed 68% AHI reduction. UPPP has lower success rate (40-50%) and more morbidity. Bariatric surgery is for BMI >35 with comorbidities.",
+      "whyWrong": {
+        "A": "UPPP has lower success rate and more complications than HNS.",
+        "C": "Bariatric surgery is for BMI >40 or >35 with comorbidities; not first-line alternative to CPAP.",
+        "D": "Positional therapy only works if AHI is positional (supine AHI >> non-supine).",
+        "E": "Oxygen does NOT treat OSA (desaturation improves but apneas/hypopneas persist)."
+      },
+      "clinicalPearl": "CPAP-intolerant OSA: Hypoglossal nerve stimulation (Inspire) if BMI <35. Bariatric surgery if BMI >35. UPPP has lower success."
+    },
+    "references": [
+      "STAR Trial 2014",
+      "AASM OSA Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
