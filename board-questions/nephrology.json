@@ -140,3 +140,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_nephro_006",
+    "specialty": "nephrology",
+    "topic": "Nephrolithiasis",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male presents with severe left flank pain radiating to the groin, hematuria, and nausea. CT shows a 6mm stone in the proximal ureter. What is the MOST appropriate initial management?",
+    "options": [
+      { "id": "A", "text": "Emergency ureteroscopy" },
+      { "id": "B", "text": "Pain control + IV fluids + tamsulosin" },
+      { "id": "C", "text": "Extracorporeal shock wave lithotripsy (ESWL)" },
+      { "id": "D", "text": "Percutaneous nephrolithotomy" },
+      { "id": "E", "text": "Observation with increased water intake" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Ureteral stone 6mm (≤10mm): Medical expulsive therapy (MET). Pain control (NSAIDs/opioids) + IV fluids + tamsulosin (alpha blocker, relaxes ureteral smooth muscle). 80% pass spontaneously within 4 weeks.",
+      "whyWrong": {
+        "A": "Ureteroscopy for: Stone >10mm, refractory pain, obstruction with infection, renal failure.",
+        "C": "ESWL for: Proximal stones 5-20mm, not for distal ureteral stones.",
+        "D": "PCNL for: Large renal stones >2cm.",
+        "E": "Observation alone without MET has lower success rate."
+      },
+      "clinicalPearl": "Ureteral stone ≤10mm: Tamsulosin + Pain control. >10mm or complications: Ureteroscopy."
+    },
+    "references": ["AUA Nephrolithiasis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_007",
+    "specialty": "nephrology",
+    "topic": "Hypertension",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female with resistant hypertension (on 3 drugs) has hypokalemia (K+ 2.8), metabolic alkalosis (HCO3 30), and elevated aldosterone with suppressed renin. Adrenal CT shows bilateral adrenal hyperplasia. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Spironolactone" },
+      { "id": "B", "text": "Unilateral adrenalectomy" },
+      { "id": "C", "text": "Bilateral adrenalectomy" },
+      { "id": "D", "text": "ACE inhibitor" },
+      { "id": "E", "text": "Amiloride" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Primary hyperaldosteronism (Conn syndrome): HTN + hypokalemia + metabolic alkalosis + high aldosterone + low renin. Bilateral hyperplasia = Medical treatment: Spironolactone or Eplerenone (mineralocorticoid receptor antagonists).",
+      "whyWrong": {
+        "B": "Unilateral adrenalectomy is for ADENOMA (not hyperplasia).",
+        "C": "Bilateral adrenalectomy causes adrenal insufficiency (not recommended).",
+        "D": "ACEi does not address the underlying hyperaldosteronism.",
+        "E": "Amiloride is alternative but spironolactone is first-line."
+      },
+      "clinicalPearl": "Primary hyperaldosteronism: Adenoma → Surgery. Hyperplasia → Spironolactone/Eplerenone."
+    },
+    "references": ["Endocrine Society Primary Aldosteronism Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_008",
+    "specialty": "nephrology",
+    "topic": "Electrolyte Disorders",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male with small cell lung cancer presents with confusion and seizures. Na is 112 mEq/L. What is the SAFE rate of sodium correction?",
+    "options": [
+      { "id": "A", "text": "Increase Na by 4-6 mEq/L in first 24 hours, not to exceed 8 mEq/L" },
+      { "id": "B", "text": "Increase Na to 135 mEq/L as quickly as possible" },
+      { "id": "C", "text": "Increase Na by 1-2 mEq/L per hour until 125 mEq/L" },
+      { "id": "D", "text": "Increase Na by 10-12 mEq/L in first 24 hours" },
+      { "id": "E", "text": "No correction needed, treat underlying cancer" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Severe symptomatic hyponatremia (seizures, confusion): Urgent correction with hypertonic saline (3%). Goal: Increase Na by 1-2 mEq/L/hr for first 3-4 hours (or until symptoms resolve). Max correction: 8-10 mEq/L in 24 hours. Overcorrection → Osmotic demyelination syndrome (central pontine myelinolysis).",
+      "whyWrong": {
+        "A": "4-6 in 24h is for ASYMPTOMATIC hyponatremia, not symptomatic.",
+        "B": "Rapid correction to normal is DANGEROUS (osmotic demyelination).",
+        "D": "10-12 in 24h exceeds safe limits and risks permanent brain damage.",
+        "E": "Symptomatic hyponatremia requires urgent treatment."
+      },
+      "clinicalPearl": "Symptomatic hyponatremia: 1-2 mEq/L/hr x3-4h (max 8-10 in 24h). Asymptomatic: 4-6 in 24h. Overcorrection = irreversible brain damage."
+    },
+    "references": ["European Hyponatremia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

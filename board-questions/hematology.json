@@ -140,3 +140,117 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_hema_006",
+    "specialty": "hematology",
+    "topic": "Bleeding Disorders",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male presents with prolonged bleeding after tooth extraction. Labs: PT normal, PTT prolonged, PTT corrects with mixing study. Platelets normal. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Hemophilia A (Factor VIII deficiency)" },
+      { "id": "B", "text": "Von Willebrand disease" },
+      { "id": "C", "text": "Hemophilia B (Factor IX deficiency)" },
+      { "id": "D", "text": "Factor XI deficiency" },
+      { "id": "E", "text": "Lupus anticoagulant" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Prolonged PTT + corrects with mixing study (factor deficiency, not inhibitor) + normal PT = Intrinsic pathway factor deficiency. Most common: Hemophilia A (Factor VIII). X-linked recessive (males affected).",
+      "whyWrong": {
+        "B": "vWD: Prolonged PTT (sometimes), prolonged bleeding time, normal platelets (or low).",
+        "C": "Hemophilia B is Factor IX deficiency (also X-linked, less common).",
+        "D": "Factor XI deficiency: Autosomal, more common in Ashkenazi Jews.",
+        "E": "Lupus anticoagulant: Prolonged PTT that does NOT correct with mixing study."
+      },
+      "clinicalPearl": "Prolonged PTT + corrects with mixing = Factor deficiency (VIII, IX, XI). Does NOT correct = Inhibitor (lupus anticoagulant, factor inhibitor)."
+    },
+    "references": ["ASH Bleeding Disorder Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_007",
+    "specialty": "hematology",
+    "topic": "Myeloproliferative Neoplasms",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female presents with pruritus (especially after hot showers), erythromelalgia (burning pain in extremities), and splenomegaly. Labs: Hb 18.5, Hct 55%, WBC 13K, Platelets 600K. JAK2 V617F mutation positive. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Essential thrombocythemia" },
+      { "id": "B", "text": "Polycythemia vera" },
+      { "id": "C", "text": "Primary myelofibrosis" },
+      { "id": "D", "text": "Chronic myeloid leukemia" },
+      { "id": "E", "text": "Secondary polycythemia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Polycythemia vera: JAK2 V617F mutation (>95%). Triad: Increased RBC mass (Hb >16.5/Hct >49% ♀), aquagenic pruritus, erythromelalgia. Treatment: Phlebotomy (Hct <45%), Aspirin, Hydroxyurea if high-risk.",
+      "whyWrong": {
+        "A": "ET: Platelets >450K, normal Hb.",
+        "C": "PMF: Tear-drop cells, leukoerythroblastic blood smear, massive splenomegaly.",
+        "D": "CML: BCR-ABL positive, basophilia, different mutation.",
+        "E": "Secondary polycythemia: Normal/low EPO, due to hypoxia or EPO-secreting tumor."
+      },
+      "clinicalPearl": "PV: JAK2+, aquagenic pruritus + erythromelalgia + splenomegaly. Phlebotomy to Hct <45%."
+    },
+    "references": ["WHO MPN Classification", "NCCN MPN Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_008",
+    "specialty": "hematology",
+    "topic": "Transfusion Medicine",
+    "difficulty": "hard",
+    "vignette": "A patient develops fever, chills, and back pain 30 minutes into a blood transfusion. Urine is dark (hemoglobinuria). Direct Coombs test is positive. What type of transfusion reaction is this?",
+    "options": [
+      { "id": "A", "text": "Febrile non-hemolytic reaction" },
+      { "id": "B", "text": "Acute hemolytic reaction" },
+      { "id": "C", "text": "Allergic reaction" },
+      { "id": "D", "text": "TRALI" },
+      { "id": "E", "text": "TACO" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute hemolytic reaction: Usually ABO incompatibility. Fever, chills, back/flank pain, hemoglobinuria, positive Coombs test. Most dangerous reaction. STOP transfusion immediately. Support BP, maintain urine output, treat DIC if develops.",
+      "whyWrong": {
+        "A": "Febrile non-hemolytic: Fever only, no hemolysis.",
+        "C": "Allergic: Urticaria, pruritus, no hemolysis.",
+        "D": "TRALI: Respiratory distress within 6h, no hemolysis.",
+        "E": "TACO: Volume overload, respiratory distress, hypertension."
+      },
+      "clinicalPearl": "Acute hemolytic reaction: ABO incompatibility. STOP transfusion. Hemoglobinuria + positive Coombs = massive hemolysis."
+    },
+    "references": ["AABB Transfusion Reaction Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_009",
+    "specialty": "hematology",
+    "topic": "Anticoagulation Reversal",
+    "difficulty": "medium",
+    "vignette": "A patient on warfarin presents with life-threatening intracranial hemorrhage. INR is 8.5. What is the MOST appropriate reversal agent?",
+    "options": [
+      { "id": "A", "text": "Vitamin K 10mg IV" },
+      { "id": "B", "text": "Fresh frozen plasma (FFP)" },
+      { "id": "C", "text": "4-Factor prothrombin complex concentrate (PCC)" },
+      { "id": "D", "text": "Protamine sulfate" },
+      { "id": "E", "text": "Andexanet alfa" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Life-threatening warfarin bleeding: 4-Factor PCC (Kcentra) + Vitamin K 10mg IV. PCC works immediately (replaces factors II, VII, IX, X). Vitamin K takes 6-24 hours for full effect.",
+      "whyWrong": {
+        "A": "Vitamin K alone is too slow for life-threatening bleeding.",
+        "B": "FFP requires large volumes and takes longer to infuse.",
+        "D": "Protamine reverses heparin, not warfarin.",
+        "E": "Andexanet alfa reverses factor Xa inhibitors (apixaban, rivaroxaban), not warfarin."
+      },
+      "clinicalPearl": "Warfarin reversal: 4F-PCC + Vitamin K IV. DOAC reversal: Andexanet alfa (Xa inhibitors), Idarucizumab (dabigatran)."
+    },
+    "references": ["ACCP Anticoagulation Reversal Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

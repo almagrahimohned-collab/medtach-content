@@ -56,3 +56,173 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gene_003",
+    "specialty": "genetics",
+    "topic": "Chromosomal Disorders",
+    "difficulty": "medium",
+    "vignette": "A newborn presents with microcephaly, rocker-bottom feet, clenched fists with overlapping fingers, and a prominent occiput. What is the MOST likely chromosomal abnormality?",
+    "options": [
+      { "id": "A", "text": "Trisomy 21 (Down syndrome)" },
+      { "id": "B", "text": "Trisomy 18 (Edwards syndrome)" },
+      { "id": "C", "text": "Trisomy 13 (Patau syndrome)" },
+      { "id": "D", "text": "Turner syndrome (45,X)" },
+      { "id": "E", "text": "Klinefelter syndrome (47,XXY)" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Trisomy 18: Microcephaly, rocker-bottom feet, clenched fists (overlapping fingers - 2nd over 3rd, 5th over 4th), prominent occiput, low-set ears, heart defects (VSD, PDA). Poor prognosis (most die within first year).",
+      "whyWrong": {
+        "A": "Down syndrome: Up-slanting palpebral fissures, single palmar crease, duodenal atresia, AVSD.",
+        "C": "Patau syndrome: Cleft lip/palate, polydactyly, holoprosencephaly, omphalocele.",
+        "D": "Turner: Female, short stature, webbed neck, coarctation of aorta, streak ovaries.",
+        "E": "Klinefelter: Tall male, gynecomastia, small testes, infertility."
+      },
+      "clinicalPearl": "Trisomy 18: Rocker-bottom feet + Clenched fists (overlapping fingers) + Prominent occiput + Heart defects."
+    },
+    "references": ["Smith's Recognizable Patterns of Human Malformation"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_004",
+    "specialty": "genetics",
+    "topic": "Cancer Genetics",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old female is diagnosed with breast cancer. Her mother had breast cancer at age 45, and her sister had ovarian cancer at age 48. She has Ashkenazi Jewish ancestry. What genetic testing should be offered?",
+    "options": [
+      { "id": "A", "text": "TP53 mutation testing" },
+      { "id": "B", "text": "BRCA1 and BRCA2 testing" },
+      { "id": "C", "text": "PTEN mutation testing" },
+      { "id": "D", "text": "APC mutation testing" },
+      { "id": "E", "text": "MSH2/MLH1 testing" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hereditary Breast and Ovarian Cancer (HBOC) syndrome: BRCA1/2 mutations. Ashkenazi Jewish ancestry increases risk (1 in 40 carry BRCA mutation). Family history: Breast <50 + Ovarian cancer.",
+      "whyWrong": {
+        "A": "TP53 = Li-Fraumeni syndrome (sarcomas, breast, leukemia, brain).",
+        "C": "PTEN = Cowden syndrome (breast, thyroid, endometrial).",
+        "D": "APC = Familial adenomatous polyposis (colon cancer).",
+        "E": "MSH2/MLH1 = Lynch syndrome (colon, endometrial)."
+      },
+      "clinicalPearl": "HBOC: BRCA1/2. Ashkenazi Jews: 1/40 carrier rate. Prophylactic mastectomy/oophorectomy reduces risk by 90%+."
+    },
+    "references": ["NCCN Genetic/Familial High-Risk Assessment 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_005",
+    "specialty": "genetics",
+    "topic": "Metabolic Disorders",
+    "difficulty": "hard",
+    "vignette": "A 6-month-old infant presents with developmental delay, hepatosplenomegaly, and coarse facial features. Urine shows increased heparan sulfate and dermatan sulfate. What is the enzyme deficiency?",
+    "options": [
+      { "id": "A", "text": "Alpha-L-iduronidase (Hurler syndrome)" },
+      { "id": "B", "text": "Glucocerebrosidase (Gaucher disease)" },
+      { "id": "C", "text": "Sphingomyelinase (Niemann-Pick)" },
+      { "id": "D", "text": "Hexosaminidase A (Tay-Sachs)" },
+      { "id": "E", "text": "Galactocerebrosidase (Krabbe)" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Hurler syndrome (MPS I): Alpha-L-iduronidase deficiency → accumulation of heparan sulfate and dermatan sulfate. Features: Coarse facies, developmental delay, hepatosplenomegaly, corneal clouding, dysostosis multiplex. Treatment: Enzyme replacement therapy (laronidase) + HSCT.",
+      "whyWrong": {
+        "B": "Gaucher: Glucocerebrosidase deficiency, glucocerebroside accumulation.",
+        "C": "Niemann-Pick: Sphingomyelinase deficiency, sphingomyelin accumulation.",
+        "D": "Tay-Sachs: Hexosaminidase A deficiency, GM2 ganglioside accumulation.",
+        "E": "Krabbe: Galactocerebrosidase deficiency, galactocerebroside accumulation."
+      },
+      "clinicalPearl": "Hurler syndrome (MPS I): Coarse facies + Heparan/dermatan sulfate in urine + Alpha-L-iduronidase deficiency."
+    },
+    "references": ["Mucopolysaccharidosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_006",
+    "specialty": "genetics",
+    "topic": "Neurogenetics",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male presents with progressive chorea, cognitive decline, and personality changes. His father had similar symptoms and died at age 55. What is the genetic basis of this disorder?",
+    "options": [
+      { "id": "A", "text": "CGG trinucleotide repeat in FMR1 gene" },
+      { "id": "B", "text": "CAG trinucleotide repeat in HTT gene" },
+      { "id": "C", "text": "CTG trinucleotide repeat in DMPK gene" },
+      { "id": "D", "text": "GAA trinucleotide repeat in FXN gene" },
+      { "id": "E", "text": "CAG trinucleotide repeat in ATXN3 gene" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Huntington disease: Autosomal dominant, CAG repeat expansion in HTT gene (chromosome 4). Anticipation (worse in successive generations). Triad: Chorea + Cognitive decline + Psychiatric symptoms. Onset typically 35-45 years.",
+      "whyWrong": {
+        "A": "CGG in FMR1 = Fragile X syndrome.",
+        "C": "CTG in DMPK = Myotonic dystrophy type 1.",
+        "D": "GAA in FXN = Friedreich ataxia.",
+        "E": "CAG in ATXN3 = Machado-Joseph disease (SCA3)."
+      },
+      "clinicalPearl": "Huntington: AD, CAG repeat >40, chromosome 4, chorea + dementia + psychiatric. Anticipation via paternal transmission."
+    },
+    "references": ["Huntington Disease: Genetics and Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_007",
+    "specialty": "genetics",
+    "topic": "Pharmacogenomics",
+    "difficulty": "medium",
+    "vignette": "A patient started on clopidogrel after PCI develops stent thrombosis. Genetic testing reveals CYP2C19*2/*2 genotype. What is the BEST alternative antiplatelet agent?",
+    "options": [
+      { "id": "A", "text": "Increase clopidogrel dose" },
+      { "id": "B", "text": "Ticagrelor 90mg BID" },
+      { "id": "C", "text": "Add aspirin only" },
+      { "id": "D", "text": "Warfarin" },
+      { "id": "E", "text": "Prasugrel 10mg daily" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CYP2C19*2/*2 = Poor metabolizer. Clopidogrel is a prodrug requiring CYP2C19 activation. Poor metabolizers have reduced active metabolite → increased stent thrombosis risk. Ticagrelor is direct-acting (no metabolism needed).",
+      "whyWrong": {
+        "A": "Increasing dose does not overcome genetic poor metabolism.",
+        "C": "Aspirin alone is inadequate post-PCI.",
+        "D": "Warfarin is not an antiplatelet agent.",
+        "E": "Prasugrel also requires CYP metabolism (though less affected than clopidogrel). Ticagrelor is preferred."
+      },
+      "clinicalPearl": "CYP2C19 poor metabolizer + PCI = Use ticagrelor or prasugrel. Do NOT use clopidogrel."
+    },
+    "references": ["CPIC Guidelines for Clopidogrel", "PLATO Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_008",
+    "specialty": "genetics",
+    "topic": "Connective Tissue Disorders",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old tall male presents with ectopia lentis (upward lens dislocation), pectus excavatum, and aortic root dilation. He has long, thin fingers and a positive wrist sign. What is the gene involved?",
+    "options": [
+      { "id": "A", "text": "COL1A1 (Osteogenesis imperfecta)" },
+      { "id": "B", "text": "COL3A1 (Ehlers-Danlos vascular type)" },
+      { "id": "C", "text": "FBN1 (Fibrillin-1)" },
+      { "id": "D", "text": "TGFBR1 (Loeys-Dietz syndrome)" },
+      { "id": "E", "text": "COL5A1 (Ehlers-Danlos classical type)" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Marfan syndrome: FBN1 mutation (fibrillin-1). AD inheritance. Features: Ectopia lentis (UPWARD), aortic root dilation/aneurysm, MVP, tall stature, arachnodactyly, pectus excavatum/carinatum. Management: Beta-blockers, ARBs, prophylactic aortic surgery if >50mm.",
+      "whyWrong": {
+        "A": "COL1A1 = Osteogenesis imperfecta (brittle bones, blue sclera).",
+        "B": "COL3A1 = Vascular EDS (arterial/organ rupture).",
+        "D": "TGFBR1 = Loeys-Dietz (hypertelorism, bifid uvula, arterial tortuosity).",
+        "E": "COL5A1 = Classical EDS (skin hyperextensibility, joint hypermobility)."
+      },
+      "clinicalPearl": "Marfan: FBN1, UPWARD lens dislocation, aortic root dilation. Use beta-blockers/ARBs to slow aortic dilation."
+    },
+    "references": ["Revised Ghent Criteria for Marfan Syndrome"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
