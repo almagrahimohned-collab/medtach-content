@@ -1481,5 +1481,382 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_001",
+    "specialty": "hematology",
+    "topic": "TTP - Caplacizumab",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female presents with fever, confusion, thrombocytopenia (Plt 15K), and MAHA (schistocytes). ADAMTS13 activity is <5% with inhibitor positive. What is the BEST treatment per ISTH 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plasma exchange (PLEX) alone"
+      },
+      {
+        "id": "B",
+        "text": "PLEX + Caplacizumab (anti-vWF nanobody) + Prednisone + Rituximab"
+      },
+      {
+        "id": "C",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "D",
+        "text": "Platelet transfusion"
+      },
+      {
+        "id": "E",
+        "text": "Splenectomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Immune TTP (acquired, ADAMTS13 <10% with inhibitor): Quadruple therapy = PLEX (removes ADAMTS13 inhibitor) + Caplacizumab (anti-vWF nanobody, blocks microthrombi formation) + Prednisone (immunosuppression) + Rituximab (depletes B-cells producing inhibitor). TITAN and HERCULES trials showed caplacizumab reduces time to platelet recovery and TTP-related death. Platelet transfusion CONTRAINDICATED.",
+      "whyWrong": {
+        "A": "PLEX alone is insufficient; quadruple therapy is standard.",
+        "B": "Quadruple therapy: PLEX + Caplacizumab + Steroids + Rituximab = Standard of care.",
+        "C": "Steroids alone inadequate for acute TTP.",
+        "D": "Platelet transfusion is CONTRAINDICATED in TTP (worsens thrombosis).",
+        "E": "Splenectomy is for relapsed/refractory TTP."
+      },
+      "clinicalPearl": "Immune TTP: Quad therapy = PLEX + Caplacizumab + Prednisone + Rituximab. NEVER give platelets. ADAMTS13 <10% = diagnostic."
+    },
+    "references": [
+      "HERCULES Trial 2019",
+      "ISTH TTP Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_002",
+    "specialty": "hematology",
+    "topic": "Hemophagocytic Lymphohistiocytosis",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with EBV infection presents with persistent fever, pancytopenia, hepatosplenomegaly, ferritin >15,000, and elevated soluble CD25 (sIL-2R). Bone marrow shows hemophagocytosis. What is the treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antibiotics for infection"
+      },
+      {
+        "id": "B",
+        "text": "HLH-2004 protocol: Dexamethasone + Etoposide + Cyclosporine; Consider ruxolitinib for refractory"
+      },
+      {
+        "id": "C",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "D",
+        "text": "IVIG alone"
+      },
+      {
+        "id": "E",
+        "text": "Observation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HLH: Hyperinflammatory syndrome with cytokine storm. HLH-2004 protocol: Dexamethasone + Etoposide (targets activated T cells) + Cyclosporine. Ruxolitinib (JAK inhibitor) is emerging therapy for refractory HLH. Treat underlying trigger (EBV - rituximab if B-cell driven). Diagnostic criteria (\u22655/8): Fever, splenomegaly, cytopenias, hypertriglyceridemia/hypofibrinogenemia, hemophagocytosis, low NK activity, ferritin >500, elevated sCD25.",
+      "whyWrong": {
+        "A": "Antibiotics alone do not treat HLH (immune dysregulation, not infection).",
+        "B": "HLH-2004 protocol = Standard. Dexamethasone + Etoposide + Cyclosporine.",
+        "C": "Prednisone alone insufficient for HLH.",
+        "D": "IVIG is adjunctive, not monotherapy.",
+        "E": "Untreated HLH has >90% mortality."
+      },
+      "clinicalPearl": "HLH: Ferritin >15,000 + Hemophagocytosis. HLH-2004: Dexamethasone + Etoposide. Ruxolitinib for refractory."
+    },
+    "references": [
+      "HLH-2004 Diagnostic Criteria",
+      "Histiocyte Society Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_003",
+    "specialty": "hematology",
+    "topic": "Polycythemia Vera",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with PV (JAK2+, Hct 52%) has aquagenic pruritus, erythromelalgia, and headache. What is the FIRST-LINE treatment per NCCN 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ruxolitinib"
+      },
+      {
+        "id": "B",
+        "text": "Therapeutic phlebotomy (target Hct <45%) + Aspirin 81mg"
+      },
+      {
+        "id": "C",
+        "text": "Hydroxyurea"
+      },
+      {
+        "id": "D",
+        "text": "Pegylated interferon"
+      },
+      {
+        "id": "E",
+        "text": "Anagrelide"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "All PV patients: 1. Phlebotomy to Hct <45% (reduces thrombotic risk, CYTO-PV trial), 2. Aspirin 81mg daily (reduces thrombosis, ECLAP trial). High-risk (age >60 or prior thrombosis): Add cytoreduction (Hydroxyurea first-line, Peg-IFN for young). Ruxolitinib for hydroxyurea-refractory or severe pruritus. Anagrelide is second-line for thrombocytosis.",
+      "whyWrong": {
+        "A": "Ruxolitinib is second-line (hydroxyurea failure or severe pruritus).",
+        "B": "Phlebotomy (Hct <45%) + Aspirin = Cornerstone for ALL PV patients.",
+        "C": "Hydroxyurea added for high-risk PV, not all patients.",
+        "D": "Peg-IFN alternative for young high-risk patients.",
+        "E": "Anagrelide is for ET, not PV."
+      },
+      "clinicalPearl": "PV: ALL patients = Phlebotomy (Hct <45%) + Aspirin 81mg. High-risk = Add Hydroxyurea or Peg-IFN."
+    },
+    "references": [
+      "CYTO-PV Trial 2013",
+      "NCCN PV Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_004",
+    "specialty": "hematology",
+    "topic": "Acute Lymphoblastic Leukemia - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with Philadelphia chromosome-negative B-ALL has persistent MRD after induction chemotherapy. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeat same induction"
+      },
+      {
+        "id": "B",
+        "text": "Blinatumomab (BiTE - bispecific T-cell engager) OR CAR-T (tisagenlecleucel)"
+      },
+      {
+        "id": "C",
+        "text": "Imatinib"
+      },
+      {
+        "id": "D",
+        "text": "Allogeneic stem cell transplant"
+      },
+      {
+        "id": "E",
+        "text": "Rituximab"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "B-ALL with persistent MRD: Blinatumomab (bispecific CD19/CD3 T-cell engager) is FDA-approved for MRD+ ALL. BLAST trial showed 78% MRD negativity. CAR-T (tisagenlecleucel - Kymriah) is alternative for R/R ALL. Allo-SCT for high-risk or persistent disease after immunotherapy. Imatinib is for Ph+ ALL only. Rituximab for CD20+ ALL (in combination).",
+      "whyWrong": {
+        "A": "Repeating induction unlikely to clear MRD.",
+        "B": "Blinatumomab: BiTE antibody. T cells redirected to kill CD19+ blasts. 78% MRD clearance.",
+        "C": "Imatinib is for Ph+ ALL only (Philadelphia chromosome).",
+        "D": "Allo-SCT after achieving MRD negativity.",
+        "E": "Rituximab is adjunct for CD20+ ALL, not primary MRD-directed therapy."
+      },
+      "clinicalPearl": "B-ALL MRD+: Blinatumomab (BiTE) or CAR-T (Kymriah). Immunotherapy targeting CD19. Allo-SCT after MRD clearance."
+    },
+    "references": [
+      "BLAST Trial 2018",
+      "NCCN ALL Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_005",
+    "specialty": "hematology",
+    "topic": "Antiphospholipid Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 28-year-old female with SLE has recurrent early pregnancy losses and a recent DVT. Lupus anticoagulant is positive on 2 occasions 12 weeks apart. What is the BEST long-term management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aspirin 81mg alone"
+      },
+      {
+        "id": "B",
+        "text": "Warfarin (target INR 2-3) lifelong; LMWH + Aspirin for future pregnancies"
+      },
+      {
+        "id": "C",
+        "text": "Rivaroxaban 20mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Clopidogrel alone"
+      },
+      {
+        "id": "E",
+        "text": "No anticoagulation needed"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "APS with thrombosis (DVT): Warfarin lifelong (target INR 2-3). DOACs are inferior for high-risk APS (triple positive or arterial thrombosis) - TRAPS trial showed increased thrombosis with rivaroxaban. For future pregnancy: LMWH + Low-dose aspirin (reduces pregnancy loss from 80% to 20-30%). Warfarin is TERATOGENIC (avoid in pregnancy). Aspirin alone insufficient for thrombotic APS.",
+      "whyWrong": {
+        "A": "Aspirin alone insufficient for thrombotic APS.",
+        "B": "Warfarin lifelong (INR 2-3). LMWH + Aspirin during pregnancy.",
+        "C": "DOACs inferior for high-risk APS (TRAPS trial). Warfarin preferred.",
+        "D": "Clopidogrel not first-line for APS.",
+        "E": "Thrombotic APS requires lifelong anticoagulation."
+      },
+      "clinicalPearl": "Thrombotic APS: Warfarin (INR 2-3) lifelong. DOACs inferior in high-risk. Pregnancy: LMWH + Aspirin. Warfarin teratogenic."
+    },
+    "references": [
+      "TRAPS Trial 2021",
+      "ISTH APS Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_006",
+    "specialty": "hematology",
+    "topic": "Iron Deficiency Anemia - New Formulations",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female with heavy menstrual bleeding has iron deficiency anemia (Hb 8.5, ferritin 6). She failed oral iron due to severe constipation. What is the BEST next option?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase oral iron dose"
+      },
+      {
+        "id": "B",
+        "text": "IV iron (ferric carboxymaltose - Injectafer, or ferumoxytol - Feraheme, or iron sucrose)"
+      },
+      {
+        "id": "C",
+        "text": "Blood transfusion"
+      },
+      {
+        "id": "D",
+        "text": "Erythropoietin"
+      },
+      {
+        "id": "E",
+        "text": "Change to different oral iron formulation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Iron deficiency with oral iron intolerance: IV iron is preferred. Options: Ferric carboxymaltose (Injectafer) - 750mg IV x2 doses, Ferumoxytol (Feraheme) - 510mg IV x2, Iron sucrose (Venofer) - 200-300mg IV x5-8 doses. IV iron corrects anemia faster (1-2 weeks vs 4-8 weeks oral). Risk of anaphylaxis is LOW with newer formulations. Blood transfusion only for Hb <7 or hemodynamic instability.",
+      "whyWrong": {
+        "A": "Increasing oral iron worsens GI side effects.",
+        "B": "IV iron: Rapid correction, avoids GI side effects. Multiple formulations available.",
+        "C": "Transfusion only for severe symptomatic anemia (Hb <7).",
+        "D": "EPO is for anemia of CKD, not iron deficiency.",
+        "E": "Switching oral formulations unlikely to help if severe intolerance."
+      },
+      "clinicalPearl": "Iron deficiency + Oral intolerance: IV iron (ferric carboxymaltose or ferumoxytol). Rapid correction. Low anaphylaxis risk."
+    },
+    "references": [
+      "ASH Iron Deficiency Guidelines 2023",
+      "FIRST Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_007",
+    "specialty": "hematology",
+    "topic": "Chronic Lymphocytic Leukemia - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male with treatment-naive CLL (Rai stage III, del17p/TP53 mutation) needs treatment. What is the preferred regimen per NCCN 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FCR (fludarabine + cyclophosphamide + rituximab)"
+      },
+      {
+        "id": "B",
+        "text": "Acalabrutinib (BTK inhibitor) OR Venetoclax + Obinutuzumab"
+      },
+      {
+        "id": "C",
+        "text": "Chlorambucil alone"
+      },
+      {
+        "id": "D",
+        "text": "R-CHOP"
+      },
+      {
+        "id": "E",
+        "text": "Lenalidomide"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CLL with TP53 aberration (del17p or TP53 mutation): Chemoimmunotherapy (FCR) is INEFFECTIVE. Treat with targeted therapy: BTK inhibitor (acalabrutinib, zanubrutinib, ibrutinib) continuously OR Venetoclax + Obinutuzumab (fixed duration, 12 months). CLL14 and ELEVATE-TN trials showed superior PFS with targeted therapy vs chemoimmunotherapy. FCR is obsolete for TP53-mutated CLL.",
+      "whyWrong": {
+        "A": "FCR ineffective in TP53-mutated CLL (p53-dependent apoptosis).",
+        "B": "BTK inhibitor or Venetoclax-based regimen = Standard for TP53-mutated CLL.",
+        "C": "Chlorambucil is palliative (elderly, unfit).",
+        "D": "R-CHOP is for aggressive B-cell lymphomas, not CLL.",
+        "E": "Lenalidomide is second-line for CLL."
+      },
+      "clinicalPearl": "CLL + TP53 mutation: BTK inhibitor (acalabrutinib) or Venetoclax + Obinutuzumab. NO chemoimmunotherapy (ineffective)."
+    },
+    "references": [
+      "NCCN CLL Guidelines 2024",
+      "CLL14 Trial",
+      "ELEVATE-TN Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b3_008",
+    "specialty": "hematology",
+    "topic": "Aplastic Anemia - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male with severe aplastic anemia (ANC 300, Plt 15K, Hb 7) has no matched sibling donor. What is the BEST initial treatment per ASH 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supportive care with transfusions"
+      },
+      {
+        "id": "B",
+        "text": "Immunosuppressive therapy: hATG + Cyclosporine + Eltrombopag (TPO-RA)"
+      },
+      {
+        "id": "C",
+        "text": "Allogeneic stem cell transplant from matched unrelated donor"
+      },
+      {
+        "id": "D",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "E",
+        "text": "G-CSF alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Severe AA without matched sibling donor: IST with hATG + Cyclosporine + Eltrombopag (triple therapy). Eltrombopag (TPO-RA) added to ATG/CsA improves response rates from 60% to 80% (NIH trial). Response takes 3-6 months. Matched unrelated donor (MUD) transplant reserved for IST failure in patients <40. Supportive care alone has high mortality. Prednisone and G-CSF are not effective.",
+      "whyWrong": {
+        "A": "Supportive care alone has high mortality (infections, bleeding).",
+        "B": "Triple IST: ATG + CsA + Eltrombopag = 80% response. Standard for no donor.",
+        "C": "MUD transplant for IST failure in younger patients (<40).",
+        "D": "Prednisone has no role in AA treatment.",
+        "E": "G-CSF alone does not treat AA."
+      },
+      "clinicalPearl": "Severe AA, no donor: Triple IST (ATG + CsA + Eltrombopag). 80% response. Eltrombopag improves outcomes. MUD transplant for IST failure."
+    },
+    "references": [
+      "ASH AA Guidelines 2024",
+      "NIH Eltrombopag in AA Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
