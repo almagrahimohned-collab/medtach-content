@@ -1384,5 +1384,472 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_001",
+    "specialty": "gastroenterology",
+    "topic": "Primary Biliary Cholangitis - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old female with PBC has inadequate response to ursodeoxycholic acid (UDCA) after 12 months (ALP remains 2x ULN). What is the BEST add-on therapy per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase UDCA dose"
+      },
+      {
+        "id": "B",
+        "text": "Obeticholic acid (OCA) 5mg daily OR Bezafibrate (off-label)"
+      },
+      {
+        "id": "C",
+        "text": "Prednisone"
+      },
+      {
+        "id": "D",
+        "text": "Azathioprine"
+      },
+      {
+        "id": "E",
+        "text": "Liver transplant evaluation only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PBC with inadequate UDCA response (ALP >1.67x ULN after 12 months): Add Obeticholic acid (farnesoid X receptor agonist) - reduces ALP and improves surrogate markers. POISE trial showed significant ALP reduction. Bezafibrate (PPAR agonist) is alternative (off-label in US, approved in Europe). Both improve transplant-free survival. Liver transplant if decompensated or MELD >15.",
+      "whyWrong": {
+        "A": "Increasing UDCA beyond 13-15mg/kg provides no additional benefit.",
+        "B": "OCA or Bezafibrate are second-line therapies for inadequate UDCA response.",
+        "C": "Steroids have no role in PBC.",
+        "D": "Azathioprine not effective in PBC.",
+        "E": "Transplant evaluation reserved for decompensated cirrhosis or severe pruritus."
+      },
+      "clinicalPearl": "PBC inadequate UDCA response: Add OCA or Bezafibrate. ALP goal <1.67x ULN. Monitor for pruritus (OCA may worsen)."
+    },
+    "references": [
+      "AASLD PBC Guidelines 2024",
+      "POISE Trial 2016"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_002",
+    "specialty": "gastroenterology",
+    "topic": "Autoimmune Hepatitis - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female with AIH (elevated AST/ALT, IgG 2500, ANA/ASMA positive, biopsy showing interface hepatitis) is treatment-naive. What is the FIRST-LINE regimen per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone monotherapy"
+      },
+      {
+        "id": "B",
+        "text": "Prednisone + Azathioprine (combination therapy)"
+      },
+      {
+        "id": "C",
+        "text": "Azathioprine monotherapy"
+      },
+      {
+        "id": "D",
+        "text": "Mycophenolate mofetil + Prednisone"
+      },
+      {
+        "id": "E",
+        "text": "Budesonide + Azathioprine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Treatment-naive AIH: Prednisone (or budesonide for non-cirrhotic) + Azathioprine. Prednisone 30-40mg daily taper + Azathioprine 50-100mg daily (started simultaneously or after TPMT testing). Budesonide 9mg daily can substitute prednisone in non-cirrhotic patients (fewer systemic side effects, equal efficacy). Mycophenolate is second-line for azathioprine-intolerant. Monotherapy with either agent is inferior.",
+      "whyWrong": {
+        "A": "Prednisone monotherapy has more side effects and lower remission rates.",
+        "B": "Combination therapy = Standard of care. Allows lower steroid doses.",
+        "C": "Azathioprine monotherapy inadequate for induction.",
+        "D": "Mycophenolate is second-line (azathioprine-intolerant).",
+        "E": "Budesonide is for non-cirrhotic AIH; azathioprine is added for maintenance."
+      },
+      "clinicalPearl": "AIH first-line: Prednisone + Azathioprine. Budesonide alternative in non-cirrhotic. Mycophenolate if intolerant to azathioprine."
+    },
+    "references": [
+      "AASLD AIH Guidelines 2024",
+      "EASL AIH Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_003",
+    "specialty": "gastroenterology",
+    "topic": "Clostridioides difficile - Recurrent",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female has her third recurrence of C. difficile within 6 months despite appropriate treatment with vancomycin and fidaxomicin courses. What is the BEST treatment per IDSA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeat vancomycin taper/pulse regimen"
+      },
+      {
+        "id": "B",
+        "text": "Fecal microbiota transplantation (FMT) via colonoscopy"
+      },
+      {
+        "id": "C",
+        "text": "Metronidazole 500mg TID x14 days"
+      },
+      {
+        "id": "D",
+        "text": "IV vancomycin"
+      },
+      {
+        "id": "E",
+        "text": "Probiotics only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Multiple recurrent C. diff (\u22653 episodes): FMT is the treatment of choice. Restores healthy gut microbiome. >90% cure rate. FDA-approved RBX2660 (Rebyota - rectal microbiota) and SER-109 (Vowst - oral capsules) are now available as standardized microbiota-based therapies. These are PREFERRED over traditional stool-based FMT. Vancomycin taper is second-line if FMT unavailable.",
+      "whyWrong": {
+        "A": "Vancomycin taper is second-line; FMT preferred for multiple recurrences.",
+        "B": "FMT (or FDA-approved microbiota therapies) = Standard for \u22653 recurrences.",
+        "C": "Metronidazole is no longer recommended for C. diff treatment.",
+        "D": "IV vancomycin does NOT reach colonic lumen.",
+        "E": "Probiotics insufficient for established recurrent C. diff."
+      },
+      "clinicalPearl": "Multiple recurrent C. diff: FMT or FDA-approved microbiota therapies (Rebyota, Vowst). >90% cure. Vancomycin taper = alternative."
+    },
+    "references": [
+      "IDSA/SHEA C. diff Guidelines 2021 (updated 2024)",
+      "Rebyota FDA Label 2023",
+      "Vowst FDA Label 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_004",
+    "specialty": "gastroenterology",
+    "topic": "Wilson Disease",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male presents with tremor, dysarthria, Kayser-Fleischer rings on slit-lamp exam, and elevated liver enzymes. Ceruloplasmin is 8 mg/dL (low), 24h urine copper is 150 \u03bcg (elevated). What is the FIRST-LINE treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "D-penicillamine 250-500mg BID"
+      },
+      {
+        "id": "B",
+        "text": "Trientine 500mg BID"
+      },
+      {
+        "id": "C",
+        "text": "Zinc acetate 50mg TID"
+      },
+      {
+        "id": "D",
+        "text": "Liver transplantation"
+      },
+      {
+        "id": "E",
+        "text": "No treatment needed"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Symptomatic Wilson disease (neurologic + hepatic): D-penicillamine is first-line chelator. Promotes urinary copper excretion. Trientine is alternative (fewer side effects, increasingly used as first-line in Europe). Zinc is for MAINTENANCE after decoppering or asymptomatic/pre-symptomatic patients. Liver transplant for acute liver failure or decompensated cirrhosis. Treatment is lifelong.",
+      "whyWrong": {
+        "A": "D-penicillamine: First-line chelator for symptomatic Wilson disease.",
+        "B": "Trientine: Alternative chelator (fewer side effects, preferred in some guidelines).",
+        "C": "Zinc: Maintenance/pre-symptomatic; blocks copper absorption, slow onset.",
+        "D": "Transplant for acute liver failure or decompensated cirrhosis unresponsive to chelation.",
+        "E": "Untreated Wilson disease is fatal."
+      },
+      "clinicalPearl": "Wilson disease: D-penicillamine or Trientine for symptomatic (chelation). Zinc for maintenance. Lifelong treatment. Kayser-Fleischer rings = Pathognomonic."
+    },
+    "references": [
+      "AASLD Wilson Disease Guidelines 2023",
+      "EASL Wilson Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_005",
+    "specialty": "gastroenterology",
+    "topic": "Microscopic Colitis",
+    "difficulty": "easy",
+    "vignette": "A 60-year-old female presents with chronic watery diarrhea (non-bloody) for 3 months. Colonoscopy is normal. Biopsies show intraepithelial lymphocytosis and thickened collagen band (>15\u03bcm). What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Loperamide PRN"
+      },
+      {
+        "id": "B",
+        "text": "Budesonide 9mg daily x8 weeks"
+      },
+      {
+        "id": "C",
+        "text": "Prednisone 40mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Infliximab"
+      },
+      {
+        "id": "E",
+        "text": "Colectomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Collagenous colitis (microscopic colitis): Budesonide 9mg daily x8 weeks is FIRST-LINE. Induces remission in 80% of patients. Taper after remission. Stop offending drugs (NSAIDs, PPIs, SSRIs). Loperamide for mild symptoms. Prednisone reserved for budesonide-refractory cases. Infliximab and surgery are last resorts.",
+      "whyWrong": {
+        "A": "Loperamide is for mild symptoms; budesonide is disease-modifying.",
+        "B": "Budesonide (gut-targeted steroid) = First-line. 80% remission.",
+        "C": "Systemic steroids reserved for budesonide-refractory cases.",
+        "D": "Biologics for severe refractory disease (rarely needed).",
+        "E": "Colectomy is last resort (extremely rare)."
+      },
+      "clinicalPearl": "Microscopic colitis: Budesonide 9mg x8 weeks (first-line). Stop NSAIDs/PPIs/SSRIs. Collagenous > Lymphocytic."
+    },
+    "references": [
+      "AGA Microscopic Colitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_006",
+    "specialty": "gastroenterology",
+    "topic": "Gastroparesis Management",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old diabetic female with gastroparesis (confirmed by gastric emptying study) has nausea, vomiting, and early satiety despite dietary modification and metoclopramide. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase metoclopramide dose"
+      },
+      {
+        "id": "B",
+        "text": "Gastric electrical stimulator (Enterra) OR G-POEM (per-oral endoscopic myotomy)"
+      },
+      {
+        "id": "C",
+        "text": "Erythromycin long-term"
+      },
+      {
+        "id": "D",
+        "text": "Total gastrectomy"
+      },
+      {
+        "id": "E",
+        "text": "Domperidone (not FDA-approved)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Refractory gastroparesis failing medical therapy: Gastric electrical stimulator (Enterra) or G-POEM (gastric per-oral endoscopic pyloromyotomy). Enterra improves nausea/vomiting in 50-60% (does not improve gastric emptying). G-POEM is newer endoscopic option that divides pylorus to improve gastric emptying. Erythromycin causes tachyphylaxis (not for long-term).",
+      "whyWrong": {
+        "A": "Metoclopramide has black box warning (tardive dyskinesia); increasing dose worsens risk.",
+        "B": "Enterra or G-POEM for refractory gastroparesis.",
+        "C": "Erythromycin has tachyphylaxis within 2-4 weeks (not for chronic use).",
+        "D": "Total gastrectomy is last resort (extreme cases).",
+        "E": "Domperidone not FDA-approved (available via IND or internationally)."
+      },
+      "clinicalPearl": "Refractory gastroparesis: Enterra (gastric stimulator) or G-POEM. Metoclopramide has black box warning. Erythromycin short-term only."
+    },
+    "references": [
+      "AGA Gastroparesis Guidelines 2023",
+      "G-POEM Clinical Trials"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_007",
+    "specialty": "gastroenterology",
+    "topic": "Colorectal Cancer Screening Update",
+    "difficulty": "medium",
+    "vignette": "A 47-year-old African American male at average risk for CRC asks about screening initiation and options. What is the recommendation per USPSTF/ACS 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start screening at age 50 with colonoscopy"
+      },
+      {
+        "id": "B",
+        "text": "Start screening at age 45 with colonoscopy or FIT"
+      },
+      {
+        "id": "C",
+        "text": "Start screening at age 40 with flexible sigmoidoscopy"
+      },
+      {
+        "id": "D",
+        "text": "Start screening at age 55 with CT colonography"
+      },
+      {
+        "id": "E",
+        "text": "No screening needed until symptoms develop"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "USPSTF 2021 (Grade B) and ACS 2023: CRC screening begins at AGE 45 for ALL average-risk adults (African Americans included but no longer require earlier screening). Options: Colonoscopy q10yr (gold standard), FIT annually (most common non-invasive), MT-sDNA (Cologuard) q3yr, CT colonography q5yr, Flex sig q5yr. Positive non-invasive tests require follow-up colonoscopy.",
+      "whyWrong": {
+        "A": "Age 45, not 50 (changed in 2021).",
+        "B": "Age 45 for all average-risk adults. Colonoscopy or FIT are primary options.",
+        "C": "Age 45, not 40. Flex sig alone is less preferred.",
+        "D": "Age 45, not 55. CT colonography is one option.",
+        "E": "Screening is recommended BEFORE symptoms develop."
+      },
+      "clinicalPearl": "CRC screening starts at AGE 45 for all average-risk adults. Colonoscopy q10yr or FIT annually. African Americans start at 45 (same as all)."
+    },
+    "references": [
+      "USPSTF CRC Screening 2021",
+      "ACS CRC Screening 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_008",
+    "specialty": "gastroenterology",
+    "topic": "Lactose Intolerance",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old Asian female presents with bloating, flatulence, and watery diarrhea after consuming milk and ice cream. Symptoms resolve with dairy avoidance. What is the BEST diagnostic test?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lactose breath hydrogen test"
+      },
+      {
+        "id": "B",
+        "text": "Small bowel biopsy"
+      },
+      {
+        "id": "C",
+        "text": "Serum lactase levels"
+      },
+      {
+        "id": "D",
+        "text": "Clinical history and dietary elimination trial"
+      },
+      {
+        "id": "E",
+        "text": "Stool reducing substances"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Lactose intolerance: Clinical history + response to dietary elimination is sufficient for diagnosis. Lactose breath hydrogen test is confirmatory if needed. Small bowel biopsy measures lactase activity (research, not clinical). Serum lactase not useful. Trial of lactose-free diet with symptom resolution = Diagnostic. Lactase enzyme supplements with dairy = Treatment.",
+      "whyWrong": {
+        "A": "Breath test is confirmatory but clinical diagnosis is usually sufficient.",
+        "B": "Biopsy is invasive; not routine for lactose intolerance.",
+        "C": "Serum lactase not clinically useful.",
+        "D": "Clinical history + dietary elimination trial = Practical and sufficient.",
+        "E": "Stool reducing substances used in infants."
+      },
+      "clinicalPearl": "Lactose intolerance: Clinical diagnosis (history + dietary response). Breath test if needed. Lactase supplements = Treatment."
+    },
+    "references": [
+      "ACG Functional GI Disorders Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_009",
+    "specialty": "gastroenterology",
+    "topic": "Hereditary Hemochromatosis",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male with fatigue, arthralgias, and elevated ferritin (1200 ng/mL) and transferrin saturation 60%. HFE gene shows C282Y homozygosity. ALT is 80. What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iron chelation (deferasirox)"
+      },
+      {
+        "id": "B",
+        "text": "Therapeutic phlebotomy (remove 500mL weekly until ferritin <50-100)"
+      },
+      {
+        "id": "C",
+        "text": "Dietary iron restriction alone"
+      },
+      {
+        "id": "D",
+        "text": "Erythropoietin"
+      },
+      {
+        "id": "E",
+        "text": "No treatment, ferritin is acceptable"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hereditary hemochromatosis (C282Y/C282Y) with iron overload: Therapeutic phlebotomy is the cornerstone. Remove 500mL (250mg iron) 1-2x weekly until ferritin <50-100 ng/mL and transferrin saturation <50%. Then maintenance phlebotomy every 2-4 months. Dietary iron restriction is adjunct. Iron chelation reserved for those who cannot tolerate phlebotomy (anemia).",
+      "whyWrong": {
+        "A": "Chelation is second-line for patients who cannot undergo phlebotomy.",
+        "B": "Phlebotomy = Simple, effective, first-line. Remove iron stores.",
+        "C": "Dietary restriction alone insufficient for iron overload.",
+        "D": "Erythropoietin is for anemia of chronic disease, not hemochromatosis.",
+        "E": "Ferritin 1200 with liver inflammation requires treatment."
+      },
+      "clinicalPearl": "Hemochromatosis: Phlebotomy weekly until ferritin <50-100. Then maintenance q2-4mo. C282Y homozygosity = Most common."
+    },
+    "references": [
+      "AASLD Hemochromatosis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b3_010",
+    "specialty": "gastroenterology",
+    "topic": "Acute Mesenteric Ischemia",
+    "difficulty": "hard",
+    "vignette": "A 75-year-old female with atrial fibrillation (not on anticoagulation) presents with severe abdominal pain out of proportion to exam, metabolic acidosis, and elevated lactate. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abdominal ultrasound"
+      },
+      {
+        "id": "B",
+        "text": "CT angiography of abdomen"
+      },
+      {
+        "id": "C",
+        "text": "Exploratory laparotomy"
+      },
+      {
+        "id": "D",
+        "text": "Start heparin and observe"
+      },
+      {
+        "id": "E",
+        "text": "Upper endoscopy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute mesenteric ischemia (AFib = embolic source): CT ANGIOGRAPHY is the diagnostic test of choice. Shows: Arterial occlusion (SMA embolus), bowel wall thickening, pneumatosis (late finding). Pain out of proportion + metabolic acidosis = Mesenteric ischemia until proven otherwise. Treatment: Emergent surgical consultation, revascularization, resection of necrotic bowel. Heparin alone insufficient.",
+      "whyWrong": {
+        "A": "US cannot adequately evaluate mesenteric vasculature.",
+        "B": "CT angiography = Gold standard for mesenteric ischemia.",
+        "C": "Surgery after CT confirms diagnosis and guides approach.",
+        "D": "Heparin alone will not salvage ischemic bowel; need revascularization.",
+        "E": "EGD evaluates stomach/duodenum, not small bowel ischemia."
+      },
+      "clinicalPearl": "Mesenteric ischemia: Pain out of proportion + Acidosis + AFib = CT angiography STAT. Call surgery. Mortality 50-70% if delayed."
+    },
+    "references": [
+      "ACG Mesenteric Ischemia Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
