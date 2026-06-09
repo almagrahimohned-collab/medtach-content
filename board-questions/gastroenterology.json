@@ -6,11 +6,26 @@
     "difficulty": "hard",
     "vignette": "A 55-year-old male with cirrhosis (Child-Pugh B, MELD 18) presents with hematemesis. Vitals: BP 85/50, HR 120. He is confused. Exam shows ascites and spider angiomata. What is the FIRST step in management?",
     "options": [
-      { "id": "A", "text": "Emergency upper endoscopy" },
-      { "id": "B", "text": "IV octreotide + IV ceftriaxone + IV fluids" },
-      { "id": "C", "text": "Sengstaken-Blakemore tube placement" },
-      { "id": "D", "text": "Transjugular intrahepatic portosystemic shunt (TIPS)" },
-      { "id": "E", "text": "IV pantoprazole 80mg bolus" }
+      {
+        "id": "A",
+        "text": "Emergency upper endoscopy"
+      },
+      {
+        "id": "B",
+        "text": "IV octreotide + IV ceftriaxone + IV fluids"
+      },
+      {
+        "id": "C",
+        "text": "Sengstaken-Blakemore tube placement"
+      },
+      {
+        "id": "D",
+        "text": "Transjugular intrahepatic portosystemic shunt (TIPS)"
+      },
+      {
+        "id": "E",
+        "text": "IV pantoprazole 80mg bolus"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -21,9 +36,11 @@
         "D": "TIPS is for refractory bleeding.",
         "E": "PPIs are for PEPTIC ulcer bleeding."
       },
-      "clinicalPearl": "Variceal bleed: Octreotide + Ceftriaxone + Fluids → Urgent EGD (banding)."
+      "clinicalPearl": "Variceal bleed: Octreotide + Ceftriaxone + Fluids \u2192 Urgent EGD (banding)."
     },
-    "references": ["AASLD Variceal Hemorrhage Guidelines"],
+    "references": [
+      "AASLD Variceal Hemorrhage Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,11 +51,26 @@
     "difficulty": "medium",
     "vignette": "A 42-year-old female presents with severe epigastric pain radiating to the back, nausea, and vomiting after a fatty meal. Lipase is 1,200 U/L. CT shows acute interstitial pancreatitis with no necrosis. What is the MOST important next step?",
     "options": [
-      { "id": "A", "text": "Start IV antibiotics" },
-      { "id": "B", "text": "Start early enteral nutrition within 24 hours" },
-      { "id": "C", "text": "NPO with parenteral nutrition" },
-      { "id": "D", "text": "Emergency ERCP" },
-      { "id": "E", "text": "Surgical debridement" }
+      {
+        "id": "A",
+        "text": "Start IV antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Start early enteral nutrition within 24 hours"
+      },
+      {
+        "id": "C",
+        "text": "NPO with parenteral nutrition"
+      },
+      {
+        "id": "D",
+        "text": "Emergency ERCP"
+      },
+      {
+        "id": "E",
+        "text": "Surgical debridement"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "Pancreatitis: Aggressive IV fluids + Early enteral nutrition = Reduced mortality."
     },
-    "references": ["AGA Pancreatitis Guidelines 2018"],
+    "references": [
+      "AGA Pancreatitis Guidelines 2018"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -62,11 +96,26 @@
     "difficulty": "medium",
     "vignette": "A 28-year-old female presents with jaundice, fatigue, and arthralgias. Labs: AST 180, ALT 220, ALP 150, Total bilirubin 4.5. ANA positive (1:320), Anti-smooth muscle antibody positive. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Primary biliary cholangitis" },
-      { "id": "B", "text": "Autoimmune hepatitis" },
-      { "id": "C", "text": "Primary sclerosing cholangitis" },
-      { "id": "D", "text": "Drug-induced liver injury" },
-      { "id": "E", "text": "Wilson disease" }
+      {
+        "id": "A",
+        "text": "Primary biliary cholangitis"
+      },
+      {
+        "id": "B",
+        "text": "Autoimmune hepatitis"
+      },
+      {
+        "id": "C",
+        "text": "Primary sclerosing cholangitis"
+      },
+      {
+        "id": "D",
+        "text": "Drug-induced liver injury"
+      },
+      {
+        "id": "E",
+        "text": "Wilson disease"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -79,7 +128,9 @@
       },
       "clinicalPearl": "Autoimmune hepatitis: Young female + Hepatitis pattern + ANA/ASMA positive. Treatment: Steroids + Azathioprine."
     },
-    "references": ["AASLD AIH Guidelines"],
+    "references": [
+      "AASLD AIH Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -90,15 +141,30 @@
     "difficulty": "easy",
     "vignette": "A 50-year-old male at average risk for colorectal cancer asks about screening options. He prefers a non-invasive test. Which is the MOST appropriate recommendation?",
     "options": [
-      { "id": "A", "text": "Colonoscopy every 10 years" },
-      { "id": "B", "text": "Fecal immunochemical test (FIT) annually" },
-      { "id": "C", "text": "CT colonography every 5 years" },
-      { "id": "D", "text": "Flexible sigmoidoscopy every 5 years" },
-      { "id": "E", "text": "No screening needed until age 55" }
+      {
+        "id": "A",
+        "text": "Colonoscopy every 10 years"
+      },
+      {
+        "id": "B",
+        "text": "Fecal immunochemical test (FIT) annually"
+      },
+      {
+        "id": "C",
+        "text": "CT colonography every 5 years"
+      },
+      {
+        "id": "D",
+        "text": "Flexible sigmoidoscopy every 5 years"
+      },
+      {
+        "id": "E",
+        "text": "No screening needed until age 55"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "CRC screening starts at 45. Non-invasive option: FIT annually. If positive → colonoscopy.",
+      "whyCorrect": "CRC screening starts at 45. Non-invasive option: FIT annually. If positive \u2192 colonoscopy.",
       "whyWrong": {
         "A": "Colonoscopy is invasive. Patient requested non-invasive.",
         "C": "CT colonography is an option but FIT is preferred.",
@@ -107,7 +173,9 @@
       },
       "clinicalPearl": "CRC screening: Start at 45! Options: Colonoscopy q10yr, FIT q1yr."
     },
-    "references": ["USPSTF CRC Screening 2021"],
+    "references": [
+      "USPSTF CRC Screening 2021"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -118,11 +186,26 @@
     "difficulty": "hard",
     "vignette": "A 48-year-old male with history of heartburn for 10 years presents with progressive dysphagia to solids. EGD shows distal esophageal stricture and biopsy shows intestinal metaplasia without dysplasia. What is the BEST long-term management?",
     "options": [
-      { "id": "A", "text": "Endoscopic surveillance every 3-5 years + PPI BID" },
-      { "id": "B", "text": "Endoscopic mucosal resection (EMR)" },
-      { "id": "C", "text": "Esophagectomy" },
-      { "id": "D", "text": "Endoscopic surveillance every 1 year + PPI daily" },
-      { "id": "E", "text": "Radiofrequency ablation (RFA)" }
+      {
+        "id": "A",
+        "text": "Endoscopic surveillance every 3-5 years + PPI BID"
+      },
+      {
+        "id": "B",
+        "text": "Endoscopic mucosal resection (EMR)"
+      },
+      {
+        "id": "C",
+        "text": "Esophagectomy"
+      },
+      {
+        "id": "D",
+        "text": "Endoscopic surveillance every 1 year + PPI daily"
+      },
+      {
+        "id": "E",
+        "text": "Radiofrequency ablation (RFA)"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -135,7 +218,9 @@
       },
       "clinicalPearl": "Non-dysplastic Barrett: PPI BID + surveillance q3-5yr."
     },
-    "references": ["ACG Barrett Esophagus Guidelines"],
+    "references": [
+      "ACG Barrett Esophagus Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -146,11 +231,26 @@
     "difficulty": "medium",
     "vignette": "A 45-year-old obese female presents with episodic RUQ pain after fatty meals for 3 months. US shows multiple gallstones, CBD 4mm, no wall thickening. LFTs are normal. What is the BEST management?",
     "options": [
-      { "id": "A", "text": "Elective laparoscopic cholecystectomy" },
-      { "id": "B", "text": "ERCP with sphincterotomy" },
-      { "id": "C", "text": "Ursodeoxycholic acid 600mg daily" },
-      { "id": "D", "text": "Observation and dietary modification" },
-      { "id": "E", "text": "Emergency cholecystectomy within 24 hours" }
+      {
+        "id": "A",
+        "text": "Elective laparoscopic cholecystectomy"
+      },
+      {
+        "id": "B",
+        "text": "ERCP with sphincterotomy"
+      },
+      {
+        "id": "C",
+        "text": "Ursodeoxycholic acid 600mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Observation and dietary modification"
+      },
+      {
+        "id": "E",
+        "text": "Emergency cholecystectomy within 24 hours"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -163,11 +263,12 @@
       },
       "clinicalPearl": "Symptomatic cholelithiasis: Elective cholecystectomy. Acute cholecystitis: Early cholecystectomy (within 72h)."
     },
-    "references": ["SAGES Cholecystectomy Guidelines"],
+    "references": [
+      "SAGES Cholecystectomy Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_gastro_007",
     "specialty": "gastroenterology",
@@ -175,11 +276,26 @@
     "difficulty": "hard",
     "vignette": "A 28-year-old male with ulcerative colitis (pancolitis) for 5 years presents with worsening bloody diarrhea, urgency, and weight loss. He has failed mesalamine and azathioprine. Colonoscopy shows severe active colitis. What is the BEST next step?",
     "options": [
-      { "id": "A", "text": "Start infliximab (anti-TNF)" },
-      { "id": "B", "text": "Increase azathioprine dose" },
-      { "id": "C", "text": "Start vedolizumab" },
-      { "id": "D", "text": "Total colectomy" },
-      { "id": "E", "text": "Start prednisone + infliximab" }
+      {
+        "id": "A",
+        "text": "Start infliximab (anti-TNF)"
+      },
+      {
+        "id": "B",
+        "text": "Increase azathioprine dose"
+      },
+      {
+        "id": "C",
+        "text": "Start vedolizumab"
+      },
+      {
+        "id": "D",
+        "text": "Total colectomy"
+      },
+      {
+        "id": "E",
+        "text": "Start prednisone + infliximab"
+      }
     ],
     "correctOptionId": "E",
     "explanation": {
@@ -192,7 +308,10 @@
       },
       "clinicalPearl": "Severe UC flare: Steroids (bridge) + Anti-TNF (infliximab). Vedolizumab for maintenance. Surgery if refractory."
     },
-    "references": ["AGA UC Guidelines 2020", "ACT Trials"],
+    "references": [
+      "AGA UC Guidelines 2020",
+      "ACT Trials"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -203,11 +322,26 @@
     "difficulty": "medium",
     "vignette": "A 45-year-old male presents with jaundice, fatigue, and RUQ pain for 1 week. He ate at a seafood restaurant 4 weeks ago. Labs: AST 1200, ALT 1500, ALP 200, Bilirubin 8.0. Hepatitis serologies: HAV IgM positive. What is the expected outcome?",
     "options": [
-      { "id": "A", "text": "Progression to chronic hepatitis in 80% of cases" },
-      { "id": "B", "text": "Acute hepatitis with complete recovery in >99% of cases" },
-      { "id": "C", "text": "Fulminant hepatic failure requiring transplant" },
-      { "id": "D", "text": "Development of hepatocellular carcinoma" },
-      { "id": "E", "text": "Progression to cirrhosis within 5 years" }
+      {
+        "id": "A",
+        "text": "Progression to chronic hepatitis in 80% of cases"
+      },
+      {
+        "id": "B",
+        "text": "Acute hepatitis with complete recovery in >99% of cases"
+      },
+      {
+        "id": "C",
+        "text": "Fulminant hepatic failure requiring transplant"
+      },
+      {
+        "id": "D",
+        "text": "Development of hepatocellular carcinoma"
+      },
+      {
+        "id": "E",
+        "text": "Progression to cirrhosis within 5 years"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -220,11 +354,12 @@
       },
       "clinicalPearl": "Hepatitis A: Acute only, NEVER chronic. Fecal-oral spread. Complete recovery in >99%. Vaccine available."
     },
-    "references": ["CDC Hepatitis A Guidelines"],
+    "references": [
+      "CDC Hepatitis A Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_gastro_009",
     "specialty": "gastroenterology",
@@ -232,11 +367,26 @@
     "difficulty": "medium",
     "vignette": "A 30-year-old female presents with chronic diarrhea, weight loss, and megaloblastic anemia. She has a history of recurrent oral ulcers. Small bowel biopsy shows villous atrophy with increased intraepithelial lymphocytes. Which HLA type is MOST strongly associated?",
     "options": [
-      { "id": "A", "text": "HLA-B27" },
-      { "id": "B", "text": "HLA-DQ2 and HLA-DQ8" },
-      { "id": "C", "text": "HLA-B51" },
-      { "id": "D", "text": "HLA-DR4" },
-      { "id": "E", "text": "HLA-A3" }
+      {
+        "id": "A",
+        "text": "HLA-B27"
+      },
+      {
+        "id": "B",
+        "text": "HLA-DQ2 and HLA-DQ8"
+      },
+      {
+        "id": "C",
+        "text": "HLA-B51"
+      },
+      {
+        "id": "D",
+        "text": "HLA-DR4"
+      },
+      {
+        "id": "E",
+        "text": "HLA-A3"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -249,7 +399,9 @@
       },
       "clinicalPearl": "Celiac disease: HLA-DQ2/DQ8. Villous atrophy + IEL. Treatment: Strict gluten-free diet. Check tTG-IgA for screening."
     },
-    "references": ["ACG Celiac Disease Guidelines"],
+    "references": [
+      "ACG Celiac Disease Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -260,11 +412,26 @@
     "difficulty": "hard",
     "vignette": "A 70-year-old male presents with painless jaundice, weight loss, and a palpable gallbladder (Courvoisier sign). CT shows a 3cm mass in the head of the pancreas with biliary dilation. CA 19-9 is elevated. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Pancreatic pseudocyst" },
-      { "id": "B", "text": "Chronic pancreatitis" },
-      { "id": "C", "text": "Pancreatic adenocarcinoma" },
-      { "id": "D", "text": "Pancreatic neuroendocrine tumor" },
-      { "id": "E", "text": "Autoimmune pancreatitis" }
+      {
+        "id": "A",
+        "text": "Pancreatic pseudocyst"
+      },
+      {
+        "id": "B",
+        "text": "Chronic pancreatitis"
+      },
+      {
+        "id": "C",
+        "text": "Pancreatic adenocarcinoma"
+      },
+      {
+        "id": "D",
+        "text": "Pancreatic neuroendocrine tumor"
+      },
+      {
+        "id": "E",
+        "text": "Autoimmune pancreatitis"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -277,7 +444,476 @@
       },
       "clinicalPearl": "Painless jaundice + Courvoisier sign + Pancreatic head mass = Adenocarcinoma until proven otherwise. Only 15-20% resectable at diagnosis."
     },
-    "references": ["NCCN Pancreatic Cancer Guidelines"],
+    "references": [
+      "NCCN Pancreatic Cancer Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_001",
+    "specialty": "gastroenterology",
+    "topic": "MASLD - New Nomenclature 2024",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old obese diabetic male has elevated AST 70, ALT 90, and echogenic liver on ultrasound. Hepatitis panel is negative. He drinks 1 glass of wine weekly. What is the diagnosis per AASLD 2024 nomenclature?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non-alcoholic fatty liver disease (NAFLD)"
+      },
+      {
+        "id": "B",
+        "text": "Metabolic dysfunction-associated steatotic liver disease (MASLD)"
+      },
+      {
+        "id": "C",
+        "text": "Alcoholic liver disease"
+      },
+      {
+        "id": "D",
+        "text": "Autoimmune hepatitis"
+      },
+      {
+        "id": "E",
+        "text": "Hemochromatosis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AASLD/EASL 2024: NAFLD renamed to MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease). Criteria: Hepatic steatosis + \u22651 cardiometabolic risk factor (obesity, diabetes, hypertension, hypertriglyceridemia, low HDL). Term 'fatty' replaced with 'steatotic' to reduce stigma. MASH (Metabolic dysfunction-Associated Steatohepatitis) replaces NASH. Patient has steatosis + obesity + diabetes = MASLD.",
+      "whyWrong": {
+        "A": "NAFLD is outdated terminology (replaced by MASLD in 2024).",
+        "B": "MASLD: New nomenclature emphasizing metabolic dysfunction, not 'non-alcoholic'.",
+        "C": "Alcohol intake <20g/day (women) or <30g/day (men) rules out alcoholic liver disease.",
+        "D": "Autoimmune hepatitis: ANA/ASMA positive, IgG elevated, interface hepatitis on biopsy.",
+        "E": "Hemochromatosis: Elevated ferritin + Transferrin saturation >45%, HFE gene."
+      },
+      "clinicalPearl": "NAFLD is now MASLD (2024). NASH is now MASH. Focus on metabolic dysfunction, not alcohol exclusion. Weight loss 7-10% = cornerstone."
+    },
+    "references": [
+      "AASLD/EASL MASLD Guidelines 2024",
+      "Multi-Society Delphi Consensus 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_002",
+    "specialty": "gastroenterology",
+    "topic": "H. pylori - New Treatment",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male with H. pylori-positive duodenal ulcer has failed clarithromycin-based triple therapy. What is the BEST salvage regimen per ACG 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeat clarithromycin triple therapy"
+      },
+      {
+        "id": "B",
+        "text": "Bismuth quadruple therapy (PPI + Bismuth + Tetracycline + Metronidazole) x14 days"
+      },
+      {
+        "id": "C",
+        "text": "Levofloxacin triple therapy x14 days"
+      },
+      {
+        "id": "D",
+        "text": "Proton pump inhibitor alone"
+      },
+      {
+        "id": "E",
+        "text": "Amoxicillin monotherapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Failed clarithromycin triple therapy (high clarithromycin resistance in US >15%): Bismuth quadruple therapy (BQT) is recommended salvage. PPI + Bismuth + Tetracycline + Metronidazole x14 days. Achieves >90% eradication. Levofloxacin triple therapy is alternative but resistance increasing. Rifabutin triple therapy is another option. Always confirm eradication (urea breath test or stool antigen) 4 weeks after treatment.",
+      "whyWrong": {
+        "A": "Repeating clarithromycin after failure is inappropriate (high resistance).",
+        "B": "Bismuth quadruple therapy is preferred salvage regimen.",
+        "C": "Levofloxacin triple therapy is alternative but fluoroquinolone resistance increasing.",
+        "D": "PPI alone does not eradicate H. pylori.",
+        "E": "Monotherapy is ineffective and promotes resistance."
+      },
+      "clinicalPearl": "H. pylori salvage: Bismuth quadruple therapy (BQT) x14 days. Levofloxacin or Rifabutin triple therapy if BQT fails. Confirm eradication!"
+    },
+    "references": [
+      "ACG H. pylori Guidelines 2024",
+      "Maastricht VI Consensus 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_003",
+    "specialty": "gastroenterology",
+    "topic": "Acute Pancreatitis - Fluid Resuscitation",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male with acute pancreatitis (Ranson score 3, BUN 28, Hct 48%) presents within 6 hours of pain onset. What is the BEST fluid resuscitation strategy per AGA 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Normal saline at 1.5 mL/kg/hr"
+      },
+      {
+        "id": "B",
+        "text": "Lactated Ringer's solution at 3 mL/kg/hr (aggressive) for first 12-24 hours"
+      },
+      {
+        "id": "C",
+        "text": "Normal saline bolus 2L then maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Colloid (albumin) resuscitation"
+      },
+      {
+        "id": "E",
+        "text": "Fluid restriction to prevent third-spacing"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AGA 2023: Moderate-severe pancreatitis (elevated BUN, hemoconcentration): AGGRESSIVE Lactated Ringer's (LR) at 3 mL/kg/hr for first 12-24 hours, then reassess. LR is PREFERRED over NS (less hyperchloremic metabolic acidosis, anti-inflammatory properties). Goal: Decrease BUN and Hct within 12-24 hours (indicates adequate resuscitation). Avoid over-resuscitation after 24-48h.",
+      "whyWrong": {
+        "A": "1.5 mL/kg/hr is maintenance; this patient needs aggressive resuscitation (3 mL/kg/hr).",
+        "B": "LR 3 mL/kg/hr = Aggressive resuscitation. LR > NS for pancreatitis.",
+        "C": "Bolus alone insufficient; needs ongoing aggressive rate.",
+        "D": "Colloids have no proven benefit over crystalloids in pancreatitis.",
+        "E": "Fluid restriction contraindicated in acute pancreatitis (third-spacing requires aggressive replacement)."
+      },
+      "clinicalPearl": "Pancreatitis: AGGRESSIVE LR (3 mL/kg/hr x12-24h). LR > NS. Goal: \u2193BUN, \u2193Hct. Avoid over-resuscitation after 24-48h."
+    },
+    "references": [
+      "AGA Pancreatitis Guidelines 2023",
+      "WATERFALL Trial 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_004",
+    "specialty": "gastroenterology",
+    "topic": "C. difficile - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female develops C. difficile diarrhea (PCR positive, non-severe per IDSA criteria) after a course of ciprofloxacin for UTI. What is the FIRST-LINE treatment per IDSA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metronidazole 500mg PO TID x10 days"
+      },
+      {
+        "id": "B",
+        "text": "Oral vancomycin 125mg PO QID x10 days OR Fidaxomicin 200mg PO BID x10 days"
+      },
+      {
+        "id": "C",
+        "text": "IV vancomycin"
+      },
+      {
+        "id": "D",
+        "text": "Fecal microbiota transplantation (FMT)"
+      },
+      {
+        "id": "E",
+        "text": "Probiotics alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "IDSA/SHEA 2021 (still current 2024): Oral vancomycin 125mg QID OR Fidaxomicin 200mg BID are FIRST-LINE for initial non-severe C. diff. Metronidazole is NO LONGER first-line (lower efficacy). Fidaxomicin has lower recurrence rate but higher cost. IV vancomycin has NO effect on C. diff (not excreted into colon). FMT for \u22653 recurrences.",
+      "whyWrong": {
+        "A": "Metronidazole is second-line (only if vancomycin/fidaxomicin unavailable).",
+        "B": "Oral vancomycin or Fidaxomicin are first-line. Fidaxomicin preferred if high recurrence risk.",
+        "C": "IV vancomycin does NOT reach colonic lumen.",
+        "D": "FMT is for \u22653 recurrences, not initial episode.",
+        "E": "Probiotics have limited evidence; not recommended as sole therapy."
+      },
+      "clinicalPearl": "C. diff (initial, non-severe): Oral vancomycin 125mg QID OR Fidaxomicin 200mg BID. Metronidazole NO LONGER first-line."
+    },
+    "references": [
+      "IDSA/SHEA C. diff Guidelines 2021 (current 2024)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_005",
+    "specialty": "gastroenterology",
+    "topic": "Hepatocellular Carcinoma Screening",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with cirrhosis due to MASLD (Child-Pugh A, MELD 10) asks about HCC screening. What is the recommended method per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CT abdomen with contrast annually"
+      },
+      {
+        "id": "B",
+        "text": "Ultrasound + Alpha-fetoprotein (AFP) every 6 months"
+      },
+      {
+        "id": "C",
+        "text": "MRI abdomen annually"
+      },
+      {
+        "id": "D",
+        "text": "Ultrasound alone every 12 months"
+      },
+      {
+        "id": "E",
+        "text": "PET-CT annually"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AASLD 2024: HCC surveillance in cirrhosis = Ultrasound + AFP every 6 months. US alone has 45-60% sensitivity; adding AFP increases sensitivity to 63-70%. MRI/CT reserved for: Inadequate US (obesity, steatosis), nodules on US, or rising AFP. CT has radiation risk (not ideal for long-term surveillance). Surveillance improves early detection and survival.",
+      "whyWrong": {
+        "A": "CT is not first-line for surveillance (radiation, cost).",
+        "B": "US + AFP q6mo is the standard surveillance strategy.",
+        "C": "MRI is reserved for inadequate US or high-risk patients (cost, access).",
+        "D": "US q12mo has lower sensitivity than q6mo.",
+        "E": "PET-CT not recommended for HCC surveillance."
+      },
+      "clinicalPearl": "HCC surveillance in cirrhosis: US + AFP every 6 months. CT/MRI if US inadequate or abnormal findings."
+    },
+    "references": [
+      "AASLD HCC Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_006",
+    "specialty": "gastroenterology",
+    "topic": "Eosinophilic Esophagitis - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with dysphagia to solids and history of food impaction has esophageal biopsies showing >15 eosinophils/HPF despite PPI trial. What is the BEST treatment per AGA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue PPI alone"
+      },
+      {
+        "id": "B",
+        "text": "Dupilumab (anti-IL4R\u03b1) 300mg SC weekly"
+      },
+      {
+        "id": "C",
+        "text": "Systemic steroids"
+      },
+      {
+        "id": "D",
+        "text": "Esophageal dilation alone"
+      },
+      {
+        "id": "E",
+        "text": "Dietary elimination only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "EoE refractory to PPI: Dupilumab is the FIRST and ONLY FDA-approved medication for EoE (2022). Anti-IL4/IL13 pathway. Improves symptoms and reduces eosinophilic infiltration. Alternative: Topical swallowed steroids (budesonide slurry or fluticasone) or dietary elimination (6-food elimination diet). Dilation for strictures. Systemic steroids avoided due to side effects.",
+      "whyWrong": {
+        "A": "Already failed PPI (trial completed).",
+        "B": "Dupilumab: FDA-approved for EoE. First biologic for EoE.",
+        "C": "Systemic steroids effective but side effects limit long-term use.",
+        "D": "Dilation treats strictures, not underlying inflammation.",
+        "E": "Dietary elimination is effective but challenging to maintain."
+      },
+      "clinicalPearl": "EoE refractory to PPI: Dupilumab (FDA-approved 2022). Topical steroids alternative. Dietary elimination is non-pharmacologic option."
+    },
+    "references": [
+      "AGA EoE Guidelines 2024",
+      "Dupilumab FDA Label 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_007",
+    "specialty": "gastroenterology",
+    "topic": "Hepatorenal Syndrome - New Definition",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male with alcoholic cirrhosis (MELD 22, ascites) develops AKI (Cr 2.5 from baseline 1.0) after large-volume paracentesis without albumin. He is not on diuretics. No proteinuria/hematuria. What is the diagnosis per ICA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pre-renal AKI"
+      },
+      {
+        "id": "B",
+        "text": "Hepatorenal syndrome-AKI (HRS-AKI)"
+      },
+      {
+        "id": "C",
+        "text": "Acute tubular necrosis (ATN)"
+      },
+      {
+        "id": "D",
+        "text": "IgA nephropathy"
+      },
+      {
+        "id": "E",
+        "text": "Contrast-induced nephropathy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HRS-AKI (new nomenclature replacing HRS-1): Cirrhosis + Ascites + AKI (Cr increase \u22650.3 within 48h or \u22651.5x baseline) + No response to diuretic withdrawal and albumin challenge (1g/kg x2 days) + No shock, nephrotoxins, proteinuria, or obstruction. Paracentesis without albumin \u2192 volume depletion \u2192 precipitates HRS. Treatment: Terlipressin + Albumin (FDA-approved 2022) + Liver transplant evaluation.",
+      "whyWrong": {
+        "A": "Pre-renal AKI responds to volume expansion; HRS-AKI does not improve after albumin.",
+        "B": "HRS-AKI: Functional renal failure in cirrhosis. Terlipressin + Albumin = Treatment.",
+        "C": "ATN: Muddy brown casts, FeNa >2%, history of prolonged hypotension or nephrotoxins.",
+        "D": "IgA nephropathy: Hematuria, proteinuria, not isolated AKI in cirrhosis.",
+        "E": "No contrast exposure history."
+      },
+      "clinicalPearl": "HRS-AKI: Cirrhosis + Ascites + AKI + No response to albumin. Terlipressin + Albumin (FDA 2022). Liver transplant = definitive."
+    },
+    "references": [
+      "ICA HRS Guidelines 2024",
+      "CONFIRM Trial (Terlipressin) 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_008",
+    "specialty": "gastroenterology",
+    "topic": "Ulcerative Colitis - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female with moderate-severe UC (Mayo score 8) has failed mesalamine and azathioprine. What is the BEST first-line advanced therapy per AGA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infliximab (anti-TNF)"
+      },
+      {
+        "id": "B",
+        "text": "Upadacitinib (JAK inhibitor) 45mg daily induction"
+      },
+      {
+        "id": "C",
+        "text": "Vedolizumab (anti-integrin)"
+      },
+      {
+        "id": "D",
+        "text": "Ustekinumab (anti-IL12/23)"
+      },
+      {
+        "id": "E",
+        "text": "Tofacitinib (JAK inhibitor)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AGA 2024: Upadacitinib (selective JAK1 inhibitor) is now PREFERRED first-line advanced therapy for moderate-severe UC. U-ACHIEVE and U-ACCOMPLISH trials showed superior efficacy vs placebo with rapid onset. Oral administration is advantage over injectables. Higher response rates than vedolizumab and adalimumab in head-to-head trials. Tofacitinib is older JAK inhibitor (more side effects).",
+      "whyWrong": {
+        "A": "Anti-TNF is effective but upadacitinib has higher efficacy in recent trials.",
+        "B": "Upadacitinib: Oral, rapid onset, superior efficacy. Preferred first-line per AGA 2024.",
+        "C": "Vedolizumab is gut-selective but slower onset and lower efficacy than upadacitinib.",
+        "D": "Ustekinumab is effective but slower onset than upadacitinib.",
+        "E": "Tofacitinib is older JAK inhibitor (pan-JAK); upadacitinib is more selective (JAK1)."
+      },
+      "clinicalPearl": "Moderate-severe UC: Upadacitinib (JAK1 inhibitor) = New first-line advanced therapy. Oral, rapid onset. Superior to vedolizumab."
+    },
+    "references": [
+      "AGA UC Guidelines 2024",
+      "U-ACHIEVE/U-ACCOMPLISH Trials 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_009",
+    "specialty": "gastroenterology",
+    "topic": "Barrett Esophagus Surveillance",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with long-segment Barrett esophagus (C5M7) has biopsies showing non-dysplastic intestinal metaplasia on 2 consecutive endoscopies. What is the appropriate surveillance interval per ACG 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "EGD every 3 months"
+      },
+      {
+        "id": "B",
+        "text": "EGD every 3-5 years"
+      },
+      {
+        "id": "C",
+        "text": "EGD every 1 year"
+      },
+      {
+        "id": "D",
+        "text": "Endoscopic eradication therapy now"
+      },
+      {
+        "id": "E",
+        "text": "No further surveillance needed"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Non-dysplastic Barrett esophagus: Surveillance EGD every 3-5 years. Long-segment (\u22653cm) = every 3 years. Short-segment (<3cm) = every 5 years. If low-grade dysplasia: EGD every 6-12 months or consider endoscopic eradication. If high-grade dysplasia: Endoscopic eradication therapy (RFA or EMR). PPI BID to control reflux.",
+      "whyWrong": {
+        "A": "Every 3 months is too frequent for non-dysplastic BE.",
+        "B": "Every 3-5 years is standard for non-dysplastic BE based on segment length.",
+        "C": "Annual surveillance is for low-grade dysplasia, not non-dysplastic.",
+        "D": "Endoscopic eradication is for high-grade dysplasia or intramucosal carcinoma.",
+        "E": "Non-dysplastic BE requires ongoing surveillance (risk of progression 0.3%/year)."
+      },
+      "clinicalPearl": "Barrett surveillance: Non-dysplastic \u2192 q3-5yr. Low-grade dysplasia \u2192 q6-12mo or eradication. High-grade dysplasia \u2192 Eradication therapy."
+    },
+    "references": [
+      "ACG Barrett Esophagus Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b1_010",
+    "specialty": "gastroenterology",
+    "topic": "Chronic Pancreatitis Pain Management",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male with chronic alcoholic pancreatitis has debilitating epigastric pain radiating to the back despite abstinence and pancreatic enzymes. CT shows calcifications and dilated pancreatic duct (7mm). What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase opioid analgesics"
+      },
+      {
+        "id": "B",
+        "text": "ERCP with pancreatic duct stenting or ESWL (lithotripsy) for stones"
+      },
+      {
+        "id": "C",
+        "text": "Total pancreatectomy"
+      },
+      {
+        "id": "D",
+        "text": "Celiac plexus block"
+      },
+      {
+        "id": "E",
+        "text": "Continue medical management"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic pancreatitis with dilated duct >5mm and stones: Endoscopic therapy (ERCP with stenting \u00b1 ESWL for pancreatic duct stones) is first-line intervention. Provides pain relief by decompressing obstructed duct. If endoscopic therapy fails: Surgical drainage (Puestow/lateral pancreaticojejunostomy). Celiac plexus block provides temporary relief only. Total pancreatectomy is last resort.",
+      "whyWrong": {
+        "A": "Escalating opioids risks dependence and opioid-induced hyperalgesia.",
+        "B": "ERCP + ESWL targets the mechanical cause of pain (ductal obstruction).",
+        "C": "Total pancreatectomy is last resort (brittle diabetes).",
+        "D": "Celiac block is temporary (weeks-months) and does not address obstruction.",
+        "E": "Medical management has failed; mechanical obstruction needs intervention."
+      },
+      "clinicalPearl": "Chronic pancreatitis pain + Dilated duct + Stones: ERCP + ESWL first. Surgery if endoscopic therapy fails. Opioids last resort."
+    },
+    "references": [
+      "AGA Chronic Pancreatitis Guidelines 2023",
+      "ESGE Pancreatic Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
