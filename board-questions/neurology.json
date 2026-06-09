@@ -1464,5 +1464,144 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b5_001",
+    "specialty": "neurology",
+    "topic": "Carotid Stenosis Management",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with HTN and DM is found to have 80% asymptomatic right internal carotid artery stenosis on ultrasound. He is on aspirin 81mg and atorvastatin 40mg. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carotid endarterectomy (CEA) now"
+      },
+      {
+        "id": "B",
+        "text": "Carotid artery stenting (CAS) now"
+      },
+      {
+        "id": "C",
+        "text": "Optimize medical therapy (antiplatelet + statin + risk factor control)"
+      },
+      {
+        "id": "D",
+        "text": "Dual antiplatelet therapy (aspirin + clopidogrel)"
+      },
+      {
+        "id": "E",
+        "text": "No treatment needed"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Asymptomatic carotid stenosis: Optimal medical therapy (OMT) is the cornerstone. CREST-2 trial (2023) showed NO benefit of CEA or CAS over OMT alone for asymptomatic stenosis. OMT includes: Antiplatelet, high-intensity statin, BP control, diabetes management, smoking cessation. CEA/CAS reserved for symptomatic stenosis (TIA/stroke) with 50-99% stenosis.",
+      "whyWrong": {
+        "A": "CEA not superior to OMT for asymptomatic stenosis per CREST-2.",
+        "B": "CAS not superior to OMT for asymptomatic stenosis.",
+        "D": "DAPT is for symptomatic stenosis or post-CEA/CAS; not routine for asymptomatic.",
+        "E": "Asymptomatic stenosis requires OMT (not 'no treatment')."
+      },
+      "clinicalPearl": "Asymptomatic carotid stenosis: OPTIMAL MEDICAL THERAPY (not CEA/CAS per CREST-2 2023). Symptomatic stenosis \u226550%: CEA or CAS."
+    },
+    "references": [
+      "CREST-2 Trial 2023",
+      "AHA/ASA Stroke Prevention Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b5_002",
+    "specialty": "neurology",
+    "topic": "Creutzfeldt-Jakob Disease",
+    "difficulty": "hard",
+    "vignette": "A 62-year-old male presents with rapidly progressive dementia, myoclonus, and ataxia over 3 months. MRI shows cortical ribboning (DWI hyperintensity) and basal ganglia hyperintensity. CSF 14-3-3 protein is elevated. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alzheimer disease"
+      },
+      {
+        "id": "B",
+        "text": "Sporadic Creutzfeldt-Jakob disease (sCJD)"
+      },
+      {
+        "id": "C",
+        "text": "Autoimmune encephalitis"
+      },
+      {
+        "id": "D",
+        "text": "Frontotemporal dementia"
+      },
+      {
+        "id": "E",
+        "text": "Lewy body dementia"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "sCJD: Rapidly progressive dementia + Myoclonus + Ataxia + Cortical ribboning on DWI + Basal ganglia hyperintensity + Elevated 14-3-3 protein. MRI DWI is the most sensitive diagnostic test (92% sensitivity). RT-QuIC (real-time quaking-induced conversion) in CSF has replaced 14-3-3 as preferred biomarker. No treatment available.",
+      "whyWrong": {
+        "A": "AD progresses over years, not months; no DWI changes or myoclonus early.",
+        "C": "Autoimmune encephalitis: Slower onset, CSF pleocytosis, antibodies (NMDA, LGI1), responds to immunotherapy.",
+        "D": "FTD: Behavioral variant with personality change; slow progression.",
+        "E": "DLB: Visual hallucinations, parkinsonism, fluctuating cognition; slower progression."
+      },
+      "clinicalPearl": "sCJD: Rapid dementia + Myoclonus + DWI cortical ribboning. RT-QuIC > 14-3-3. No treatment. Fatal within 6-12 months."
+    },
+    "references": [
+      "CDC CJD Diagnostic Criteria",
+      "RT-QuIC for CJD Diagnosis"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b5_003",
+    "specialty": "neurology",
+    "topic": "Idiopathic Intracranial Hypertension",
+    "difficulty": "medium",
+    "vignette": "A 28-year-old obese female (BMI 36) presents with headache, transient visual obscurations, and pulsatile tinnitus. Bilateral papilledema is present. MRI is normal. LP opening pressure is 32 cmH2O. What is the BEST initial treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetazolamide 1-2g daily + Weight loss"
+      },
+      {
+        "id": "B",
+        "text": "Optic nerve sheath fenestration"
+      },
+      {
+        "id": "C",
+        "text": "VP shunt"
+      },
+      {
+        "id": "D",
+        "text": "Topiramate alone"
+      },
+      {
+        "id": "E",
+        "text": "Repeated lumbar punctures"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "IIH (Pseudotumor cerebri): Acetazolamide 1-2g daily (carbonic anhydrase inhibitor) + WEIGHT LOSS (most important, 6-10% body weight) is first-line. IIH Treatment Trial showed acetazolamide + weight loss improves papilledema, vision, and quality of life. Topiramate is alternative (also promotes weight loss). Surgery for severe/refractory vision loss.",
+      "whyWrong": {
+        "A": "Acetazolamide + Weight loss is standard first-line.",
+        "B": "Surgery reserved for severe vision loss refractory to medical therapy.",
+        "C": "VP shunt for refractory IIH with disabling headaches after medical failure.",
+        "D": "Topiramate is alternative, not superior to acetazolamide.",
+        "E": "Repeated LPs are not recommended (temporary, risk of infection, low pressure headache)."
+      },
+      "clinicalPearl": "IIH: Acetazolamide + Weight loss (6-10%). Surgery (ONSF or VP shunt) for refractory vision loss. Stop culprit medications (tetracyclines, retinoids)."
+    },
+    "references": [
+      "IIH Treatment Trial 2014",
+      "NORDIC IIH Study"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
