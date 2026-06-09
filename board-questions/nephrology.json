@@ -6,11 +6,26 @@
     "difficulty": "medium",
     "vignette": "A 70-year-old male with CKD stage 3 undergoes cardiac catheterization. He receives 150mL of contrast. 48 hours later, his Cr rises from 1.8 to 3.2. Urine sodium is 12 mEq/L, FeNa 0.8%. Urinalysis shows muddy brown casts. What is the MOST likely cause of AKI?",
     "options": [
-      { "id": "A", "text": "Contrast-induced nephropathy (ATN)" },
-      { "id": "B", "text": "Prerenal AKI from hypovolemia" },
-      { "id": "C", "text": "Acute interstitial nephritis" },
-      { "id": "D", "text": "Cholesterol emboli syndrome" },
-      { "id": "E", "text": "Acute glomerulonephritis" }
+      {
+        "id": "A",
+        "text": "Contrast-induced nephropathy (ATN)"
+      },
+      {
+        "id": "B",
+        "text": "Prerenal AKI from hypovolemia"
+      },
+      {
+        "id": "C",
+        "text": "Acute interstitial nephritis"
+      },
+      {
+        "id": "D",
+        "text": "Cholesterol emboli syndrome"
+      },
+      {
+        "id": "E",
+        "text": "Acute glomerulonephritis"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -23,7 +38,9 @@
       },
       "clinicalPearl": "Muddy brown casts = ATN. Prevention of contrast nephropathy: IV NS before and after."
     },
-    "references": ["KDIGO AKI Guidelines"],
+    "references": [
+      "KDIGO AKI Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,15 +51,30 @@
     "difficulty": "hard",
     "vignette": "A 65-year-old male with small cell lung cancer presents with confusion. Labs: Na 118, serum osmolality 250, urine osmolality 600, urine sodium 80. He is euvolemic. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Fluid restriction to <800mL/day" },
-      { "id": "B", "text": "Hypertonic saline (3%) infusion" },
-      { "id": "C", "text": "Normal saline infusion" },
-      { "id": "D", "text": "Tolvaptan (vasopressin antagonist)" },
-      { "id": "E", "text": "Demeclocycline" }
+      {
+        "id": "A",
+        "text": "Fluid restriction to <800mL/day"
+      },
+      {
+        "id": "B",
+        "text": "Hypertonic saline (3%) infusion"
+      },
+      {
+        "id": "C",
+        "text": "Normal saline infusion"
+      },
+      {
+        "id": "D",
+        "text": "Tolvaptan (vasopressin antagonist)"
+      },
+      {
+        "id": "E",
+        "text": "Demeclocycline"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
-      "whyCorrect": "SIADH. First-line: Fluid restriction. If severe symptoms → hypertonic saline.",
+      "whyCorrect": "SIADH. First-line: Fluid restriction. If severe symptoms \u2192 hypertonic saline.",
       "whyWrong": {
         "B": "Hypertonic saline is for severe symptomatic hyponatremia.",
         "C": "NS would worsen hyponatremia in SIADH.",
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "SIADH: Fluid restrict. Correct Na by <8-10 mEq/day to avoid osmotic demyelination."
     },
-    "references": ["European Hyponatremia Guidelines"],
+    "references": [
+      "European Hyponatremia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -62,24 +96,41 @@
     "difficulty": "hard",
     "vignette": "A 30-year-old male with Type 1 DM presents with ABG: pH 7.28, PaCO2 28, HCO3 12. Na 138, Cl 105. Anion gap is 21. What is the acid-base disorder?",
     "options": [
-      { "id": "A", "text": "Anion gap metabolic acidosis with appropriate respiratory compensation" },
-      { "id": "B", "text": "Anion gap metabolic acidosis with respiratory alkalosis" },
-      { "id": "C", "text": "Non-anion gap metabolic acidosis" },
-      { "id": "D", "text": "Mixed metabolic acidosis and respiratory acidosis" },
-      { "id": "E", "text": "Metabolic alkalosis with respiratory compensation" }
+      {
+        "id": "A",
+        "text": "Anion gap metabolic acidosis with appropriate respiratory compensation"
+      },
+      {
+        "id": "B",
+        "text": "Anion gap metabolic acidosis with respiratory alkalosis"
+      },
+      {
+        "id": "C",
+        "text": "Non-anion gap metabolic acidosis"
+      },
+      {
+        "id": "D",
+        "text": "Mixed metabolic acidosis and respiratory acidosis"
+      },
+      {
+        "id": "E",
+        "text": "Metabolic alkalosis with respiratory compensation"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
-      "whyCorrect": "Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 ± 2 = 26 ± 2. Actual PaCO2 28 = appropriate compensation.",
+      "whyCorrect": "Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 \u00b1 2 = 26 \u00b1 2. Actual PaCO2 28 = appropriate compensation.",
       "whyWrong": {
         "B": "PaCO2 28 is appropriate, not lower than expected.",
         "C": "Anion gap is 21 (elevated).",
         "D": "PaCO2 28 is lower than 40 (not higher).",
         "E": "pH is acidotic and HCO3 is low."
       },
-      "clinicalPearl": "Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 ± 2."
+      "clinicalPearl": "Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 \u00b1 2."
     },
-    "references": ["Acid-Base Physiology"],
+    "references": [
+      "Acid-Base Physiology"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -90,11 +141,26 @@
     "difficulty": "hard",
     "vignette": "A 22-year-old male presents with coca-cola colored urine, hypertension (160/95), and periorbital edema 2 weeks after a sore throat. Labs: Cr 1.8, C3 low, C4 normal, ASO elevated. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Post-streptococcal glomerulonephritis" },
-      { "id": "B", "text": "IgA nephropathy" },
-      { "id": "C", "text": "Membranoproliferative GN" },
-      { "id": "D", "text": "Lupus nephritis" },
-      { "id": "E", "text": "Goodpasture syndrome" }
+      {
+        "id": "A",
+        "text": "Post-streptococcal glomerulonephritis"
+      },
+      {
+        "id": "B",
+        "text": "IgA nephropathy"
+      },
+      {
+        "id": "C",
+        "text": "Membranoproliferative GN"
+      },
+      {
+        "id": "D",
+        "text": "Lupus nephritis"
+      },
+      {
+        "id": "E",
+        "text": "Goodpasture syndrome"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -107,7 +173,9 @@
       },
       "clinicalPearl": "Post-strep GN: 1-4 weeks post-GAS, low C3, normal C4."
     },
-    "references": ["KDIGO GN Guidelines"],
+    "references": [
+      "KDIGO GN Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -118,11 +186,26 @@
     "difficulty": "easy",
     "vignette": "A 65-year-old male with CKD stage 3b (eGFR 38) has: Hb 9.8, Ferritin 45, TSAT 12%. What is the BEST treatment for his anemia?",
     "options": [
-      { "id": "A", "text": "Oral ferrous sulfate 325mg TID" },
-      { "id": "B", "text": "IV iron sucrose 200mg" },
-      { "id": "C", "text": "Darbepoetin alfa 0.45mcg/kg SC monthly" },
-      { "id": "D", "text": "Blood transfusion" },
-      { "id": "E", "text": "Combined IV iron + darbepoetin alfa" }
+      {
+        "id": "A",
+        "text": "Oral ferrous sulfate 325mg TID"
+      },
+      {
+        "id": "B",
+        "text": "IV iron sucrose 200mg"
+      },
+      {
+        "id": "C",
+        "text": "Darbepoetin alfa 0.45mcg/kg SC monthly"
+      },
+      {
+        "id": "D",
+        "text": "Blood transfusion"
+      },
+      {
+        "id": "E",
+        "text": "Combined IV iron + darbepoetin alfa"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -133,13 +216,14 @@
         "D": "Transfusion only for severe symptomatic anemia.",
         "E": "ESA is added AFTER iron correction."
       },
-      "clinicalPearl": "CKD anemia: Iron first (oral → IV) → If Hb <10 after iron → Add ESA."
+      "clinicalPearl": "CKD anemia: Iron first (oral \u2192 IV) \u2192 If Hb <10 after iron \u2192 Add ESA."
     },
-    "references": ["KDIGO Anemia in CKD Guidelines 2024"],
+    "references": [
+      "KDIGO Anemia in CKD Guidelines 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_nephro_006",
     "specialty": "nephrology",
@@ -147,24 +231,41 @@
     "difficulty": "medium",
     "vignette": "A 45-year-old male presents with severe left flank pain radiating to the groin, hematuria, and nausea. CT shows a 6mm stone in the proximal ureter. What is the MOST appropriate initial management?",
     "options": [
-      { "id": "A", "text": "Emergency ureteroscopy" },
-      { "id": "B", "text": "Pain control + IV fluids + tamsulosin" },
-      { "id": "C", "text": "Extracorporeal shock wave lithotripsy (ESWL)" },
-      { "id": "D", "text": "Percutaneous nephrolithotomy" },
-      { "id": "E", "text": "Observation with increased water intake" }
+      {
+        "id": "A",
+        "text": "Emergency ureteroscopy"
+      },
+      {
+        "id": "B",
+        "text": "Pain control + IV fluids + tamsulosin"
+      },
+      {
+        "id": "C",
+        "text": "Extracorporeal shock wave lithotripsy (ESWL)"
+      },
+      {
+        "id": "D",
+        "text": "Percutaneous nephrolithotomy"
+      },
+      {
+        "id": "E",
+        "text": "Observation with increased water intake"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Ureteral stone 6mm (≤10mm): Medical expulsive therapy (MET). Pain control (NSAIDs/opioids) + IV fluids + tamsulosin (alpha blocker, relaxes ureteral smooth muscle). 80% pass spontaneously within 4 weeks.",
+      "whyCorrect": "Ureteral stone 6mm (\u226410mm): Medical expulsive therapy (MET). Pain control (NSAIDs/opioids) + IV fluids + tamsulosin (alpha blocker, relaxes ureteral smooth muscle). 80% pass spontaneously within 4 weeks.",
       "whyWrong": {
         "A": "Ureteroscopy for: Stone >10mm, refractory pain, obstruction with infection, renal failure.",
         "C": "ESWL for: Proximal stones 5-20mm, not for distal ureteral stones.",
         "D": "PCNL for: Large renal stones >2cm.",
         "E": "Observation alone without MET has lower success rate."
       },
-      "clinicalPearl": "Ureteral stone ≤10mm: Tamsulosin + Pain control. >10mm or complications: Ureteroscopy."
+      "clinicalPearl": "Ureteral stone \u226410mm: Tamsulosin + Pain control. >10mm or complications: Ureteroscopy."
     },
-    "references": ["AUA Nephrolithiasis Guidelines"],
+    "references": [
+      "AUA Nephrolithiasis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -175,11 +276,26 @@
     "difficulty": "hard",
     "vignette": "A 30-year-old female with resistant hypertension (on 3 drugs) has hypokalemia (K+ 2.8), metabolic alkalosis (HCO3 30), and elevated aldosterone with suppressed renin. Adrenal CT shows bilateral adrenal hyperplasia. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Spironolactone" },
-      { "id": "B", "text": "Unilateral adrenalectomy" },
-      { "id": "C", "text": "Bilateral adrenalectomy" },
-      { "id": "D", "text": "ACE inhibitor" },
-      { "id": "E", "text": "Amiloride" }
+      {
+        "id": "A",
+        "text": "Spironolactone"
+      },
+      {
+        "id": "B",
+        "text": "Unilateral adrenalectomy"
+      },
+      {
+        "id": "C",
+        "text": "Bilateral adrenalectomy"
+      },
+      {
+        "id": "D",
+        "text": "ACE inhibitor"
+      },
+      {
+        "id": "E",
+        "text": "Amiloride"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -190,9 +306,11 @@
         "D": "ACEi does not address the underlying hyperaldosteronism.",
         "E": "Amiloride is alternative but spironolactone is first-line."
       },
-      "clinicalPearl": "Primary hyperaldosteronism: Adenoma → Surgery. Hyperplasia → Spironolactone/Eplerenone."
+      "clinicalPearl": "Primary hyperaldosteronism: Adenoma \u2192 Surgery. Hyperplasia \u2192 Spironolactone/Eplerenone."
     },
-    "references": ["Endocrine Society Primary Aldosteronism Guidelines"],
+    "references": [
+      "Endocrine Society Primary Aldosteronism Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -203,15 +321,30 @@
     "difficulty": "hard",
     "vignette": "A 60-year-old male with small cell lung cancer presents with confusion and seizures. Na is 112 mEq/L. What is the SAFE rate of sodium correction?",
     "options": [
-      { "id": "A", "text": "Increase Na by 4-6 mEq/L in first 24 hours, not to exceed 8 mEq/L" },
-      { "id": "B", "text": "Increase Na to 135 mEq/L as quickly as possible" },
-      { "id": "C", "text": "Increase Na by 1-2 mEq/L per hour until 125 mEq/L" },
-      { "id": "D", "text": "Increase Na by 10-12 mEq/L in first 24 hours" },
-      { "id": "E", "text": "No correction needed, treat underlying cancer" }
+      {
+        "id": "A",
+        "text": "Increase Na by 4-6 mEq/L in first 24 hours, not to exceed 8 mEq/L"
+      },
+      {
+        "id": "B",
+        "text": "Increase Na to 135 mEq/L as quickly as possible"
+      },
+      {
+        "id": "C",
+        "text": "Increase Na by 1-2 mEq/L per hour until 125 mEq/L"
+      },
+      {
+        "id": "D",
+        "text": "Increase Na by 10-12 mEq/L in first 24 hours"
+      },
+      {
+        "id": "E",
+        "text": "No correction needed, treat underlying cancer"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "Severe symptomatic hyponatremia (seizures, confusion): Urgent correction with hypertonic saline (3%). Goal: Increase Na by 1-2 mEq/L/hr for first 3-4 hours (or until symptoms resolve). Max correction: 8-10 mEq/L in 24 hours. Overcorrection → Osmotic demyelination syndrome (central pontine myelinolysis).",
+      "whyCorrect": "Severe symptomatic hyponatremia (seizures, confusion): Urgent correction with hypertonic saline (3%). Goal: Increase Na by 1-2 mEq/L/hr for first 3-4 hours (or until symptoms resolve). Max correction: 8-10 mEq/L in 24 hours. Overcorrection \u2192 Osmotic demyelination syndrome (central pontine myelinolysis).",
       "whyWrong": {
         "A": "4-6 in 24h is for ASYMPTOMATIC hyponatremia, not symptomatic.",
         "B": "Rapid correction to normal is DANGEROUS (osmotic demyelination).",
@@ -220,11 +353,12 @@
       },
       "clinicalPearl": "Symptomatic hyponatremia: 1-2 mEq/L/hr x3-4h (max 8-10 in 24h). Asymptomatic: 4-6 in 24h. Overcorrection = irreversible brain damage."
     },
-    "references": ["European Hyponatremia Guidelines"],
+    "references": [
+      "European Hyponatremia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_nephro_009",
     "specialty": "nephrology",
@@ -232,11 +366,26 @@
     "difficulty": "medium",
     "vignette": "A 65-year-old male with septic shock and AKI requires RRT. He is on norepinephrine 0.3 mcg/kg/min. BP is 90/55. Which modality of RRT is PREFERRED in hemodynamically unstable patients?",
     "options": [
-      { "id": "A", "text": "Intermittent hemodialysis (IHD)" },
-      { "id": "B", "text": "Continuous renal replacement therapy (CRRT)" },
-      { "id": "C", "text": "Sustained low-efficiency dialysis (SLED)" },
-      { "id": "D", "text": "Peritoneal dialysis" },
-      { "id": "E", "text": "Plasmapheresis" }
+      {
+        "id": "A",
+        "text": "Intermittent hemodialysis (IHD)"
+      },
+      {
+        "id": "B",
+        "text": "Continuous renal replacement therapy (CRRT)"
+      },
+      {
+        "id": "C",
+        "text": "Sustained low-efficiency dialysis (SLED)"
+      },
+      {
+        "id": "D",
+        "text": "Peritoneal dialysis"
+      },
+      {
+        "id": "E",
+        "text": "Plasmapheresis"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -249,7 +398,10 @@
       },
       "clinicalPearl": "Hemodynamically unstable patient needing RRT = CRRT. Stable patient = IHD. Always consider vasopressor support during RRT."
     },
-    "references": ["KDIGO AKI Guidelines", "STARRT-AKI Trial"],
+    "references": [
+      "KDIGO AKI Guidelines",
+      "STARRT-AKI Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -260,11 +412,26 @@
     "difficulty": "hard",
     "vignette": "A 45-year-old female presents with nephrotic syndrome (proteinuria 6g/day, hypoalbuminemia 2.5, edema). Renal biopsy shows membranous nephropathy. Anti-PLA2R antibody is positive. What is the BEST initial treatment?",
     "options": [
-      { "id": "A", "text": "Prednisone alone" },
-      { "id": "B", "text": "Cyclophosphamide + Prednisone" },
-      { "id": "C", "text": "Rituximab" },
-      { "id": "D", "text": "ACE inhibitor alone" },
-      { "id": "E", "text": "Mycophenolate mofetil" }
+      {
+        "id": "A",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "B",
+        "text": "Cyclophosphamide + Prednisone"
+      },
+      {
+        "id": "C",
+        "text": "Rituximab"
+      },
+      {
+        "id": "D",
+        "text": "ACE inhibitor alone"
+      },
+      {
+        "id": "E",
+        "text": "Mycophenolate mofetil"
+      }
     ],
     "correctOptionId": "D",
     "explanation": {
@@ -275,9 +442,12 @@
         "C": "Rituximab is first-line immunosuppression but only after failing supportive care.",
         "E": "Mycophenolate is second-line (less effective than rituximab or cyclophosphamide)."
       },
-      "clinicalPearl": "Membranous nephropathy: Supportive care first (ACEi/ARB). If no remission in 6 months → Rituximab or Cyclophosphamide + Steroids."
+      "clinicalPearl": "Membranous nephropathy: Supportive care first (ACEi/ARB). If no remission in 6 months \u2192 Rituximab or Cyclophosphamide + Steroids."
     },
-    "references": ["KDIGO Glomerular Disease Guidelines 2021", "MENTOR Trial"],
+    "references": [
+      "KDIGO Glomerular Disease Guidelines 2021",
+      "MENTOR Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -288,11 +458,26 @@
     "difficulty": "hard",
     "vignette": "A 70-year-old male develops AKI (Cr 3.5, baseline 1.0) after receiving IV contrast for CTA. Urine output is 200mL in 24 hours. Urine sodium is 70, FeNa 3.5%. Urinalysis shows muddy brown casts. What phase of ATN is he MOST likely in?",
     "options": [
-      { "id": "A", "text": "Initiation phase" },
-      { "id": "B", "text": "Oliguric phase" },
-      { "id": "C", "text": "Diuretic phase" },
-      { "id": "D", "text": "Recovery phase" },
-      { "id": "E", "text": "Prerenal phase" }
+      {
+        "id": "A",
+        "text": "Initiation phase"
+      },
+      {
+        "id": "B",
+        "text": "Oliguric phase"
+      },
+      {
+        "id": "C",
+        "text": "Diuretic phase"
+      },
+      {
+        "id": "D",
+        "text": "Recovery phase"
+      },
+      {
+        "id": "E",
+        "text": "Prerenal phase"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -303,9 +488,484 @@
         "D": "Recovery phase: Cr returning to baseline, UO normalizing.",
         "E": "Prerenal has FeNa <1%, no casts, rapidly reversible with fluids."
       },
-      "clinicalPearl": "ATN phases: Initiation → Oliguric (1-3wk) → Diuretic → Recovery. Oliguric phase = highest mortality, often needs dialysis."
+      "clinicalPearl": "ATN phases: Initiation \u2192 Oliguric (1-3wk) \u2192 Diuretic \u2192 Recovery. Oliguric phase = highest mortality, often needs dialysis."
     },
-    "references": ["ATN Pathophysiology and Management"],
+    "references": [
+      "ATN Pathophysiology and Management"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_001",
+    "specialty": "nephrology",
+    "topic": "SGLT2i in CKD - KDIGO 2024",
+    "difficulty": "hard",
+    "vignette": "A 58-year-old male with CKD stage 3b (eGFR 32, UACR 800 mg/g) due to diabetic nephropathy is on lisinopril 20mg and dapagliflozin 10mg. What additional medication has the STRONGEST evidence for kidney protection per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spironolactone 25mg"
+      },
+      {
+        "id": "B",
+        "text": "Finerenone 20mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Losartan 50mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Amiloride 5mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Eplerenone 50mg daily"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Finerenone (non-steroidal MRA) added to ACEi + SGLT2i provides ADDITIONAL kidney and CV protection in diabetic CKD. FIDELIO-DKD and FIGARO-DKD trials showed reduced CKD progression and CV events. KDIGO 2024 recommends finerenone for patients with eGFR \u226525, UACR \u226530 mg/g, and K+ \u22645.0 on maximally tolerated ACEi/ARB. Steroidal MRAs (spironolactone) have less kidney outcome data.",
+      "whyWrong": {
+        "A": "Spironolactone has less kidney outcome data and more hyperkalemia risk.",
+        "B": "Finerenone: Non-steroidal MRA with proven kidney and CV benefits in DKD.",
+        "C": "Already on ACEi (lisinopril); adding ARB increases hyperkalemia without additional kidney benefit.",
+        "D": "Amiloride has no kidney outcome data.",
+        "E": "Eplerenone is steroidal MRA; finerenone preferred for kidney outcomes."
+      },
+      "clinicalPearl": "DKD triple therapy (KDIGO 2024): ACEi/ARB + SGLT2i + Finerenone (non-steroidal MRA). Additive kidney and CV protection."
+    },
+    "references": [
+      "KDIGO CKD Guidelines 2024",
+      "FIDELIO-DKD Trial",
+      "FIGARO-DKD Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_002",
+    "specialty": "nephrology",
+    "topic": "ANCA-Associated Vasculitis",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male presents with hemoptysis, hematuria with RBC casts, and acute kidney injury (Cr 4.2). C-ANCA (PR3) is positive. Kidney biopsy shows pauci-immune crescentic glomerulonephritis. What is the BEST induction therapy per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "B",
+        "text": "Rituximab + Cyclophosphamide + Prednisone"
+      },
+      {
+        "id": "C",
+        "text": "Rituximab OR Cyclophosphamide + Prednisone"
+      },
+      {
+        "id": "D",
+        "text": "Mycophenolate mofetil + Prednisone"
+      },
+      {
+        "id": "E",
+        "text": "Azathioprine + Prednisone"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "GPA with severe organ-threatening disease (renal + pulmonary): Rituximab OR Cyclophosphamide + High-dose prednisone. RAVE trial showed rituximab non-inferior to cyclophosphamide for induction. PEXIVAS trial: Plasma exchange NOT routinely recommended (no benefit for ESKD or death, increased infections). KDIGO 2024: Rituximab or Cyclophosphamide for induction; Rituximab for maintenance.",
+      "whyWrong": {
+        "A": "Prednisone alone insufficient for severe AAV.",
+        "B": "Combination cyclophosphamide + rituximab not recommended (increased infection risk).",
+        "C": "Rituximab OR Cyclophosphamide + Prednisone = Standard induction. Rituximab preferred for maintenance.",
+        "D": "MMF is inferior to cyclophosphamide for severe AAV.",
+        "E": "Azathioprine is for maintenance, not induction."
+      },
+      "clinicalPearl": "Severe GPA/MPA: Rituximab OR Cyclophosphamide + Steroids (not both). PLEX not routine. Rituximab for maintenance."
+    },
+    "references": [
+      "KDIGO Glomerular Disease Guidelines 2024",
+      "RAVE Trial",
+      "PEXIVAS Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_003",
+    "specialty": "nephrology",
+    "topic": "IgA Nephropathy - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old Asian male with biopsy-proven IgA nephropathy (MEST-C score: M1 E0 S1 T0 C1) has proteinuria 1.5g/day and eGFR 45 despite maximally tolerated lisinopril and dapagliflozin. What is the BEST additional therapy per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone 0.5mg/kg daily"
+      },
+      {
+        "id": "B",
+        "text": "Nefecon (targeted-release budesonide) 16mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Cyclophosphamide"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Azathioprine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "IgAN at high risk of progression (proteinuria >1g/day despite optimized supportive care): Nefecon (targeted-release budesonide) is FDA-approved (2023) for reducing proteinuria in IgAN at risk of progression. Targets gut-associated lymphoid tissue (GALT) where pathogenic IgA is produced. Fewer systemic side effects than prednisone. Sparsentan (dual endothelin/angiotensin receptor blocker) is alternative. Systemic steroids considered if Nefecon unavailable.",
+      "whyWrong": {
+        "A": "Systemic prednisone has significant side effects; Nefecon preferred if available.",
+        "B": "Nefecon: Targeted gut-release budesonide. FDA-approved 2023 for IgAN. Targets source of IgA production.",
+        "C": "Cyclophosphamide for rapidly progressive/crescentic IgAN, not routine high-risk.",
+        "D": "Rituximab not effective in IgAN.",
+        "E": "Azathioprine not effective in IgAN."
+      },
+      "clinicalPearl": "IgAN high-risk: Nefecon (targeted budesonide) - FDA 2023. Sparsentan (dual ERA/ARB) alternative. Targets gut mucosal immune system."
+    },
+    "references": [
+      "KDIGO IgAN Guidelines 2024",
+      "NefIgArd Trial 2023",
+      "PROTECT Trial (Sparsentan)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_004",
+    "specialty": "nephrology",
+    "topic": "ADPKD - Tolvaptan",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male with ADPKD (PKD1 mutation) has eGFR 55 and Mayo Class 1D (rapid progression expected). Total kidney volume is 1800 mL. What is the BEST therapy to slow kidney growth and preserve GFR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lisinopril alone"
+      },
+      {
+        "id": "B",
+        "text": "Tolvaptan (vasopressin V2 receptor antagonist)"
+      },
+      {
+        "id": "C",
+        "text": "Somatostatin (octreotide)"
+      },
+      {
+        "id": "D",
+        "text": "Sirolimus (mTOR inhibitor)"
+      },
+      {
+        "id": "E",
+        "text": "Cyst aspiration"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ADPKD with rapid progression (Mayo 1D, PKD1 mutation, TKV >1500): Tolvaptan is the ONLY FDA-approved disease-modifying therapy. TEMPO 3:4 and REPRISE trials showed slowed kidney volume growth and eGFR decline. Requires monitoring for hepatotoxicity (monthly LFTs) and aquaresis (polyuria). Somatostatin and mTOR inhibitors not FDA-approved or inferior.",
+      "whyWrong": {
+        "A": "ACEi/ARB control BP but do not slow cyst growth.",
+        "B": "Tolvaptan: Vasopressin V2 antagonist. Slows cyst growth and eGFR decline.",
+        "C": "Somatostatin analogs have limited evidence; not FDA-approved for ADPKD.",
+        "D": "mTOR inhibitors showed no benefit in ADPKD trials.",
+        "E": "Cyst aspiration is for symptomatic large cysts, not disease modification."
+      },
+      "clinicalPearl": "ADPKD rapid progression: Tolvaptan (V2 antagonist). Monitor LFTs monthly (hepatotoxicity). Aquaresis expected (drink water!)."
+    },
+    "references": [
+      "TEMPO 3:4 Trial",
+      "REPRISE Trial",
+      "KDIGO ADPKD Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_005",
+    "specialty": "nephrology",
+    "topic": "Hyponatremia - Tolvaptan",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with SIADH (small cell lung cancer) has chronic hyponatremia (Na 128) despite fluid restriction. He is symptomatic with fatigue and confusion. What is the BEST therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Normal saline infusion"
+      },
+      {
+        "id": "B",
+        "text": "Tolvaptan 15mg daily + Monitor Na closely"
+      },
+      {
+        "id": "C",
+        "text": "Demeclocycline 300mg TID"
+      },
+      {
+        "id": "D",
+        "text": "Hypertonic saline (3%) infusion"
+      },
+      {
+        "id": "E",
+        "text": "Urea tablets"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic SIADH refractory to fluid restriction: Tolvaptan (vasopressin V2 receptor antagonist) is FDA-approved. Start 15mg daily and titrate (max 60mg). Monitor Na q6-8h initially (risk of overcorrection). Demeclocycline has unpredictable effect and nephrotoxicity. Hypertonic saline is for ACUTE severe symptomatic hyponatremia (seizures, coma). NS worsens SIADH. Urea is alternative but less palatable.",
+      "whyWrong": {
+        "A": "Normal saline WORSENS hyponatremia in SIADH (urine osmolality > serum).",
+        "B": "Tolvaptan: V2 antagonist. Effective aquaresis. Monitor Na closely.",
+        "C": "Demeclocycline is outdated (nephrotoxic, unpredictable).",
+        "D": "Hypertonic saline for acute severe symptoms (not chronic mild-moderate).",
+        "E": "Urea is effective but less tolerated and less available."
+      },
+      "clinicalPearl": "Chronic SIADH: Tolvaptan (V2 antagonist). Start 15mg. Monitor Na q6-8h to avoid overcorrection. NS contraindicated."
+    },
+    "references": [
+      "SALT-1/SALT-2 Trials",
+      "European Hyponatremia Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_006",
+    "specialty": "nephrology",
+    "topic": "Contrast-Associated AKI",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with CKD stage 3 (eGFR 40) needs contrast-enhanced CT for pulmonary embolism workup. What is the BEST prevention strategy per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV normal saline 1 mL/kg/hr for 12h before and after"
+      },
+      {
+        "id": "B",
+        "text": "N-acetylcysteine (NAC) 1200mg BID"
+      },
+      {
+        "id": "C",
+        "text": "Sodium bicarbonate infusion"
+      },
+      {
+        "id": "D",
+        "text": "IV fluids are optional; risk of contrast nephropathy is LOW with modern contrast agents"
+      },
+      {
+        "id": "E",
+        "text": "Furosemide with fluids"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "KDIGO 2024: For high-risk patients (eGFR <45), IV isotonic crystalloid (NS or LR) 1-1.5 mL/kg/hr for 6-12h before and after contrast. NAC is NOT recommended (AMACING and PRESERVE trials showed no benefit). Bicarbonate showed no superiority over NS. Modern low-osmolar contrast agents have lower nephrotoxicity but prevention still recommended for eGFR <30.",
+      "whyWrong": {
+        "A": "IV fluids remain standard of care for high-risk patients.",
+        "B": "NAC has NO proven benefit (multiple negative RCTs).",
+        "C": "Bicarbonate not superior to NS (meta-analyses).",
+        "D": "Although risk lower with modern agents, prevention still indicated for eGFR <30.",
+        "E": "Furosemide with fluids (forced diuresis) not recommended."
+      },
+      "clinicalPearl": "Contrast nephropathy prevention: IV NS for eGFR <30 or eGFR 30-44 with high risk. NAC NOT recommended. Modern contrast agents are safer."
+    },
+    "references": [
+      "KDIGO AKI Guidelines 2024",
+      "AMACING Trial",
+      "PRESERVE Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_007",
+    "specialty": "nephrology",
+    "topic": "Lupus Nephritis - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old female with active Class IV lupus nephritis (proteinuria 3g/day, Cr 1.8) is on mycophenolate mofetil + prednisone but has persistent proteinuria at 6 months. What is the BEST add-on therapy per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase mycophenolate dose"
+      },
+      {
+        "id": "B",
+        "text": "Add voclosporin (calcineurin inhibitor) 23.7mg BID"
+      },
+      {
+        "id": "C",
+        "text": "Switch to cyclophosphamide"
+      },
+      {
+        "id": "D",
+        "text": "Add rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Add tacrolimus"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Lupus nephritis with inadequate response to MMF + steroids: Add voclosporin (novel calcineurin inhibitor). AURORA 1 trial showed voclosporin + MMF + steroids significantly increased complete renal response at 1 year vs MMF + steroids alone. FDA-approved 2021 for lupus nephritis. More predictable pharmacokinetics than tacrolimus. Belimumab is alternative add-on (BLISS-LN trial).",
+      "whyWrong": {
+        "A": "Increasing MMF unlikely to achieve response if failed at 6 months.",
+        "B": "Voclosporin: FDA-approved add-on for LN. Superior renal response in AURORA 1.",
+        "C": "Cyclophosphamide is alternative but more toxic; reserved for severe/refractory.",
+        "D": "Rituximab has mixed evidence in LN (LUNAR trial negative).",
+        "E": "Tacrolimus is off-label; voclosporin is FDA-approved with better data."
+      },
+      "clinicalPearl": "LN inadequate response: Add Voclosporin (FDA 2021) or Belimumab (FDA 2020). Voclosporin = Calcineurin inhibitor with improved pharmacokinetics."
+    },
+    "references": [
+      "KDIGO Lupus Nephritis Guidelines 2024",
+      "AURORA 1 Trial 2021",
+      "BLISS-LN Trial 2020"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_008",
+    "specialty": "nephrology",
+    "topic": "Renal Tubular Acidosis",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female with Sj\u00f6gren syndrome presents with normal anion gap metabolic acidosis (pH 7.28, HCO3 16, Cl 112), hypokalemia (K+ 2.8), and urine pH 6.5 despite systemic acidosis. What type of RTA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Type 1 (distal) RTA"
+      },
+      {
+        "id": "B",
+        "text": "Type 2 (proximal) RTA"
+      },
+      {
+        "id": "C",
+        "text": "Type 4 RTA (hypoaldosteronism)"
+      },
+      {
+        "id": "D",
+        "text": "Mixed Type 1 and 2"
+      },
+      {
+        "id": "E",
+        "text": "Diarrhea-induced bicarbonate loss"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Type 1 (distal) RTA: Sj\u00f6gren syndrome is a classic cause. Features: Normal anion gap metabolic acidosis + Hypokalemia + Urine pH >5.5 despite acidosis (cannot acidify urine) + Nephrocalcinosis/kidney stones + Osteomalacia. Treatment: Potassium citrate or sodium bicarbonate. Type 2 (proximal) RTA: Urine pH <5.5 when acidotic, Fanconi syndrome. Type 4: Hyperkalemia (not hypokalemia).",
+      "whyWrong": {
+        "A": "Type 1 RTA: Sj\u00f6gren, urine pH >5.5, hypokalemia, stones.",
+        "B": "Type 2 RTA: Urine pH <5.5 when acidotic, Fanconi features.",
+        "C": "Type 4 RTA: HYPERkalemia, not hypokalemia.",
+        "D": "Mixed RTA is rare; findings are classic for Type 1.",
+        "E": "Diarrhea causes hyperchloremic acidosis but urine pH would be appropriately low (<5.5)."
+      },
+      "clinicalPearl": "Type 1 RTA: Sj\u00f6gren + Hypokalemia + Urine pH >5.5 + Stones. Potassium citrate treatment. Type 4: Hyperkalemia (opposite)."
+    },
+    "references": [
+      "KDIGO Tubular Disorders Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_009",
+    "specialty": "nephrology",
+    "topic": "Secondary Hyperparathyroidism in CKD",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male on hemodialysis has PTH 800 pg/mL, Ca 9.2, Phos 6.5. He is on calcium acetate and cinacalcet 60mg daily. What is the next step per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase cinacalcet to 90mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Parathyroidectomy"
+      },
+      {
+        "id": "C",
+        "text": "Add etelcalcetide (IV calcimimetic)"
+      },
+      {
+        "id": "D",
+        "text": "Increase calcium acetate dose"
+      },
+      {
+        "id": "E",
+        "text": "Start calcitriol"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Refractory secondary hyperparathyroidism (PTH >800 despite cinacalcet): Parathyroidectomy is indicated. Criteria: PTH >800 persistently, hypercalcemia, hyperphosphatemia refractory to medical therapy, calciphylaxis, or progressive bone disease. Subtotal parathyroidectomy or total with autotransplant. Etelcalcetide is IV alternative to cinacalcet but not superior. Calcitriol may increase Ca/Phos.",
+      "whyWrong": {
+        "A": "Increasing cinacalcet may not achieve target; PTH >800 = refractory.",
+        "B": "Parathyroidectomy for medically refractory secondary hyperparathyroidism.",
+        "C": "Etelcalcetide is alternative calcimimetic but not clearly superior to cinacalcet.",
+        "D": "Increasing calcium acetate worsens calcium load and vascular calcification.",
+        "E": "Calcitriol increases Ca and Phos absorption (may worsen hyperphosphatemia)."
+      },
+      "clinicalPearl": "Dialysis patient + PTH >800 on cinacalcet = Parathyroidectomy. Subtotal or total with autotransplant."
+    },
+    "references": [
+      "KDIGO CKD-MBD Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b1_010",
+    "specialty": "nephrology",
+    "topic": "Thrombotic Microangiopathy",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female presents with AKI (Cr 3.5), thrombocytopenia (Plt 25K), MAHA (schistocytes, elevated LDH), and normal ADAMTS13 activity. She had diarrhea 5 days ago. Complement levels are normal. Stool is positive for Shiga toxin-producing E. coli. What is the diagnosis and treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TTP - Plasma exchange"
+      },
+      {
+        "id": "B",
+        "text": "STEC-HUS - Supportive care"
+      },
+      {
+        "id": "C",
+        "text": "aHUS - Eculizumab"
+      },
+      {
+        "id": "D",
+        "text": "ITP - Prednisone"
+      },
+      {
+        "id": "E",
+        "text": "DIC - Treat underlying cause"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "STEC-HUS (Shiga toxin-producing E. coli): Triad = AKI + MAHA + Thrombocytopenia + Diarrhea + Positive Shiga toxin. Normal ADAMTS13 rules out TTP. Normal complement suggests STEC-HUS, not aHUS. Treatment: SUPPORTIVE CARE (fluids, dialysis if needed). Antibiotics are AVOIDED (may increase Shiga toxin release). Plasma exchange NOT recommended. Most recover renal function.",
+      "whyWrong": {
+        "A": "TTP has ADAMTS13 <10%; plasma exchange is treatment (not indicated here).",
+        "B": "STEC-HUS: Supportive care. Avoid antibiotics. Most recover.",
+        "C": "aHUS: Complement-mediated, no diarrhea, eculizumab is treatment.",
+        "D": "ITP: Isolated thrombocytopenia, no MAHA or AKI.",
+        "E": "DIC: Coagulopathy (prolonged PT/PTT, low fibrinogen), not isolated thrombocytopenia."
+      },
+      "clinicalPearl": "STEC-HUS: Diarrhea + AKI + MAHA + Thrombocytopenia. Supportive care. NO antibiotics (worsen toxin release). ADAMTS13 normal."
+    },
+    "references": [
+      "KDIGO TMA Guidelines 2023"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
