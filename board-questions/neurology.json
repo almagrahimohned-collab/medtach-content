@@ -1187,5 +1187,141 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b3_001",
+    "specialty": "neurology",
+    "topic": "Guillain-Barr\u00e9 Syndrome - New Guidelines",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old male presents with ascending weakness, areflexia, and paresthesias 2 weeks after diarrheal illness. CSF shows albuminocytologic dissociation. FVC is 18 mL/kg. What is the BEST management per EAN/PNS 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IVIG 0.4g/kg daily x5 days + Admit to ICU for respiratory monitoring"
+      },
+      {
+        "id": "B",
+        "text": "Plasma exchange (PLEX) alone"
+      },
+      {
+        "id": "C",
+        "text": "IV methylprednisolone 1g x5 days"
+      },
+      {
+        "id": "D",
+        "text": "IVIG alone, no ICU needed"
+      },
+      {
+        "id": "E",
+        "text": "Supportive care only"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "GBS with FVC <20 mL/kg = Impending respiratory failure = ICU ADMISSION. IVIG (0.4g/kg x5 days) and PLEX are equally effective. IVIG is preferred due to ease. Do NOT give steroids (no benefit). Monitor FVC q2-4h, cardiac telemetry (autonomic dysfunction risk).",
+      "whyWrong": {
+        "A": "Correct - ICU + IVIG",
+        "B": "PLEX equally effective but IVIG preferred; ICU still needed",
+        "C": "Steroids have NO benefit in GBS",
+        "D": "FVC 18 mL/kg dangerously low; requires ICU",
+        "E": "Immunotherapy improves outcomes"
+      },
+      "clinicalPearl": "GBS: IVIG or PLEX within 2 weeks. ICU if FVC <20 mL/kg. NO steroids. Monitor autonomic dysfunction."
+    },
+    "references": [
+      "EAN/PNS GBS Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b3_002",
+    "specialty": "neurology",
+    "topic": "Essential Tremor - Focused Ultrasound",
+    "difficulty": "medium",
+    "vignette": "A 72-year-old male with medication-refractory essential tremor (failed propranolol and primidone) has severe bilateral hand tremor. He is not a surgical candidate. What is the BEST non-invasive option?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deep brain stimulation (DBS)"
+      },
+      {
+        "id": "B",
+        "text": "MR-guided focused ultrasound (MRgFUS) thalamotomy"
+      },
+      {
+        "id": "C",
+        "text": "Gamma knife thalamotomy"
+      },
+      {
+        "id": "D",
+        "text": "Botox injections"
+      },
+      {
+        "id": "E",
+        "text": "Topiramate"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MRgFUS is FDA-approved for medication-refractory ET. Non-invasive, incisionless thalamotomy using ultrasound. Improves tremor 50-75%. Ideal for non-surgical candidates.",
+      "whyWrong": {
+        "A": "DBS is invasive; patient not surgical candidate",
+        "C": "Gamma knife has delayed effect",
+        "D": "Botox for head/voice tremor, not functional hand",
+        "E": "Topiramate third-line with cognitive side effects"
+      },
+      "clinicalPearl": "Medication-refractory ET: MRgFUS (non-invasive) or DBS (invasive). MRgFUS = incisionless."
+    },
+    "references": [
+      "AAN ET Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b3_003",
+    "specialty": "neurology",
+    "topic": "Duchenne MD - Gene Therapy",
+    "difficulty": "hard",
+    "vignette": "A 5-year-old boy with Duchenne MD (confirmed DMD gene deletion) is still ambulatory. Parents ask about new FDA-approved gene therapy. What is the mechanism of delandistrogene moxeparvovec (Elevidys)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exon skipping (eteplirsen)"
+      },
+      {
+        "id": "B",
+        "text": "AAV vector delivering micro-dystrophin gene"
+      },
+      {
+        "id": "C",
+        "text": "Stop codon readthrough (ataluren)"
+      },
+      {
+        "id": "D",
+        "text": "Utrophin upregulation"
+      },
+      {
+        "id": "E",
+        "text": "Myostatin inhibition"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Elevidys is FIRST gene therapy for DMD (FDA 2023). AAVrh74 vector delivers micro-dystrophin gene. Single IV infusion. Age 4-5 years.",
+      "whyWrong": {
+        "A": "Eteplirsen is exon skipping, not gene therapy",
+        "C": "Ataluren for nonsense mutations",
+        "D": "Utrophin modulation experimental",
+        "E": "Myostatin inhibition experimental"
+      },
+      "clinicalPearl": "DMD gene therapy: Elevidys (AAV-micro-dystrophin). Single IV dose. Monitor hepatotoxicity."
+    },
+    "references": [
+      "FDA Elevidys Approval 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
