@@ -1323,5 +1323,146 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b4_001",
+    "specialty": "neurology",
+    "topic": "CIDP - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male presents with progressive symmetric weakness, sensory loss, and areflexia over 8 weeks. NCS shows demyelination with conduction block. What is the FIRST-LINE treatment per EAN/PNS 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone 1mg/kg daily"
+      },
+      {
+        "id": "B",
+        "text": "IVIG 2g/kg over 2-5 days"
+      },
+      {
+        "id": "C",
+        "text": "Plasma exchange"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Mycophenolate mofetil"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CIDP: IVIG (2g/kg over 2-5 days) OR PLEX OR Corticosteroids are all first-line. IVIG often preferred (EFNS/PNS 2023) due to rapid onset and fewer long-term side effects vs steroids. Subcutaneous Ig (SCIG) is alternative for maintenance. Rituximab is for refractory CIDP. Mycophenolate is steroid-sparing for long-term.",
+      "whyWrong": {
+        "A": "Prednisone is first-line but IVIG has faster onset and fewer long-term side effects.",
+        "B": "IVIG, PLEX, and steroids are ALL first-line; choice based on severity, access, and patient factors.",
+        "C": "PLEX is equally effective but less convenient than IVIG.",
+        "D": "Rituximab is for refractory CIDP (second/third-line).",
+        "E": "Mycophenolate is maintenance/steroid-sparing, not for acute induction."
+      },
+      "clinicalPearl": "CIDP: IVIG, PLEX, or Steroids are first-line. IVIG preferred for rapid effect. SCIG for maintenance."
+    },
+    "references": [
+      "EAN/PNS CIDP Guidelines 2023",
+      "ICE Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b4_002",
+    "specialty": "neurology",
+    "topic": "ALS - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male with ALS (diagnosed 6 months ago, ALSFRS-R score 38, FVC 65%) has a SOD1 mutation confirmed. What is the BEST disease-modifying therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Riluzole 50mg BID"
+      },
+      {
+        "id": "B",
+        "text": "Tofersen (antisense oligonucleotide) 100mg intrathecal"
+      },
+      {
+        "id": "C",
+        "text": "Edaravone IV"
+      },
+      {
+        "id": "D",
+        "text": "Riluzole + Edaravone"
+      },
+      {
+        "id": "E",
+        "text": "AMX0035 (sodium phenylbutyrate/taurursodiol)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tofersen (Qalsody) is FDA-approved (2023) for SOD1-ALS. Antisense oligonucleotide targeting SOD1 mRNA reduces toxic SOD1 protein. VALOR trial showed reduction in neurofilament light chain (biomarker of neurodegeneration) and trend toward clinical benefit. Given intrathecally. Riluzole and Edaravone are for ALL ALS regardless of mutation. AMX0035 (Relyvrio) was withdrawn in 2024 after failed confirmatory trial.",
+      "whyWrong": {
+        "A": "Riluzole is for all ALS but not targeted to SOD1 mutation.",
+        "B": "Tofersen is specifically for SOD1-ALS (first genetically-targeted ALS therapy).",
+        "C": "Edaravone is for all ALS, not SOD1-specific.",
+        "D": "Standard of care for all ALS; tofersen adds SOD1-specific benefit.",
+        "E": "AMX0035 was withdrawn in 2024 (failed PHOENIX trial)."
+      },
+      "clinicalPearl": "SOD1-ALS: Tofersen (antisense oligonucleotide) - first genetically-targeted ALS therapy. Riluzole + Edaravone for all ALS."
+    },
+    "references": [
+      "VALOR Trial 2022",
+      "FDA Tofersen Approval 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b4_003",
+    "specialty": "neurology",
+    "topic": "Cluster Headache",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male presents with recurrent, severe unilateral periorbital pain lasting 45-90 minutes, associated with ipsilateral lacrimation, conjunctival injection, and nasal congestion. Attacks occur 3 times daily for the past 2 weeks. What is the BEST acute AND preventive treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sumatriptan 6mg SC for acute; Verapamil 240-480mg daily for prevention"
+      },
+      {
+        "id": "B",
+        "text": "Ibuprofen 600mg for acute; Propranolol for prevention"
+      },
+      {
+        "id": "C",
+        "text": "Oral sumatriptan 100mg for acute; Topiramate for prevention"
+      },
+      {
+        "id": "D",
+        "text": "Acetaminophen for acute; Amitriptyline for prevention"
+      },
+      {
+        "id": "E",
+        "text": "Ergotamine for acute; Valproic acid for prevention"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Cluster headache: Acute treatment = HIGH-FLOW OXYGEN (12-15 L/min non-rebreather) OR Subcutaneous sumatriptan 6mg (fastest onset). Oral triptans are too slow for cluster (attacks peak in 10-15 min). Preventive: Verapamil 240-480mg daily (first-line, requires EKG monitoring). Transitional: Prednisone bridge while verapamil takes effect.",
+      "whyWrong": {
+        "A": "SC sumatriptan + Verapamil is standard of care.",
+        "B": "Ibuprofen ineffective; propranolol is for migraine, not cluster.",
+        "C": "Oral triptans are too slow for cluster attacks.",
+        "D": "Acetaminophen ineffective; amitriptyline not first-line for cluster.",
+        "E": "Ergotamine rarely used; valproic acid is for migraine."
+      },
+      "clinicalPearl": "Cluster headache: Acute = O2 12-15L/min + SC sumatriptan. Preventive = Verapamil (EKG monitoring). Prednisone bridge."
+    },
+    "references": [
+      "AAN Cluster Headache Guidelines 2023",
+      "IHS Classification"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
