@@ -1013,5 +1013,473 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_001",
+    "specialty": "hematology",
+    "topic": "Cold Agglutinin Disease",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old female presents with acrocyanosis (blue fingers/toes in cold), fatigue, and anemia (Hb 7.5). DAT is positive for C3d only (IgG negative). Cold agglutinin titer is 1:1024. What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone 1mg/kg"
+      },
+      {
+        "id": "B",
+        "text": "Sutimlimab (anti-C1s monoclonal antibody) + Avoid cold exposure"
+      },
+      {
+        "id": "C",
+        "text": "Rituximab alone"
+      },
+      {
+        "id": "D",
+        "text": "Splenectomy"
+      },
+      {
+        "id": "E",
+        "text": "Warm transfusion of RBCs"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cold agglutinin disease (CAD): IgM-mediated complement activation \u2192 C3b deposition on RBCs \u2192 extravascular hemolysis in liver (Kupffer cells). DAT: C3d positive, IgG negative. Sutimlimab (Enjaymo) is FDA-approved (2022) anti-C1s antibody that inhibits classical complement pathway \u2192 prevents C3 deposition and hemolysis. Avoid cold exposure. Steroids and splenectomy are ineffective (IgM-driven, hepatic sequestration).",
+      "whyWrong": {
+        "A": "Steroids have minimal efficacy in CAD (IgM-mediated, not IgG).",
+        "B": "Sutimlimab: Anti-C1s. Blocks complement activation. FDA 2022. CAD-specific therapy.",
+        "C": "Rituximab has modest efficacy (50% response); sutimlimab is superior.",
+        "D": "Splenectomy ineffective (RBC destruction occurs in liver, not spleen).",
+        "E": "Transfusions are temporizing; must use blood warmer to avoid exacerbating hemolysis."
+      },
+      "clinicalPearl": "CAD: Acrocyanosis + C3d+ DAT. Sutimlimab (anti-C1s) = Targeted therapy. Avoid cold. Steroids/splenectomy = ineffective."
+    },
+    "references": [
+      "CARDINAL Trial (Sutimlimab) 2022",
+      "ASH CAD Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_002",
+    "specialty": "hematology",
+    "topic": "Essential Thrombocythemia",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female with essential thrombocythemia (JAK2 V617F+, Plt 850K) has no history of thrombosis. She has hypertension and diabetes. What is the risk stratification and treatment per NCCN 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Low-risk: Aspirin 81mg alone"
+      },
+      {
+        "id": "B",
+        "text": "High-risk (age >60 or thrombosis history): Aspirin 81mg + Cytoreduction (Hydroxyurea or Pegylated interferon)"
+      },
+      {
+        "id": "C",
+        "text": "Ruxolitinib"
+      },
+      {
+        "id": "D",
+        "text": "Anagrelide alone"
+      },
+      {
+        "id": "E",
+        "text": "Observation without treatment"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "ET risk stratification: Low-risk = Age \u226460, no thrombosis, JAK2+, Plt <1M. Treatment: Aspirin 81mg daily alone (antiplatelet). High-risk = Age >60 OR prior thrombosis. Treatment: Aspirin + Cytoreduction (Hydroxyurea first-line, Pegylated interferon for young patients or pregnancy). Anagrelide is second-line. Ruxolitinib for hydroxyurea-refractory. This patient is low-risk (age 55, no thrombosis).",
+      "whyWrong": {
+        "A": "Age 55 + no thrombosis = Low-risk. Aspirin alone.",
+        "B": "High-risk criteria: Age >60 OR thrombosis. She is 55 without thrombosis.",
+        "C": "Ruxolitinib is for hydroxyurea-refractory/intolerant high-risk ET.",
+        "D": "Anagrelide is second-line cytoreduction for high-risk ET.",
+        "E": "JAK2+ with CV risk factors warrants aspirin at minimum."
+      },
+      "clinicalPearl": "ET risk: Low-risk (\u226460, no thrombosis) = Aspirin alone. High-risk (>60 or thrombosis) = Aspirin + Hydroxyurea."
+    },
+    "references": [
+      "NCCN ET Guidelines 2024",
+      "IPSET-Thrombosis Score"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_003",
+    "specialty": "hematology",
+    "topic": "Acquired Hemophilia A",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old female without prior bleeding history presents with extensive spontaneous bruising and prolonged aPTT (PT normal). Factor VIII activity is <1%. Mixing study shows inhibitor (no correction). What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desmopressin (DDAVP)"
+      },
+      {
+        "id": "B",
+        "text": "Bypassing agent (rFVIIa or aPCC) for bleeding + Immunosuppression (Prednisone + Cyclophosphamide or Rituximab)"
+      },
+      {
+        "id": "C",
+        "text": "Factor VIII concentrate infusion"
+      },
+      {
+        "id": "D",
+        "text": "Tranexamic acid alone"
+      },
+      {
+        "id": "E",
+        "text": "Observation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acquired hemophilia A: Autoantibody against Factor VIII. Elderly, postpartum, malignancy, autoimmune. Treatment: 1. Control bleeding with BYPASSING AGENTS (rFVIIa or aPCC) - Factor VIII concentrates ineffective due to inhibitor. 2. ERADICATE inhibitor with immunosuppression (Prednisone + Cyclophosphamide or Rituximab). DDAVP ineffective. High mortality (20-30%) if not recognized.",
+      "whyWrong": {
+        "A": "DDAVP releases endogenous FVIII; ineffective with neutralizing inhibitor.",
+        "B": "Bypassing agent (bypass FVIII) + Immunosuppression (eradicate inhibitor).",
+        "C": "FVIII concentrate may be overwhelmed by inhibitor; bypassing agents preferred for severe bleeding.",
+        "D": "Tranexamic acid is adjunct for mucosal bleeding, not monotherapy.",
+        "E": "Untreated acquired hemophilia has 20-30% mortality."
+      },
+      "clinicalPearl": "Acquired hemophilia A: Elderly + Spontaneous bleeding + Isolated prolonged aPTT + Low FVIII + Inhibitor. Bypassing agent + Immunosuppression."
+    },
+    "references": [
+      "ASH Acquired Hemophilia Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_004",
+    "specialty": "hematology",
+    "topic": "Mantle Cell Lymphoma",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with newly diagnosed mantle cell lymphoma (stage IV, blastoid variant, Ki-67 60%) is starting treatment. What is the preferred induction per NCCN 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "R-CHOP alone"
+      },
+      {
+        "id": "B",
+        "text": "R-DHAOx (rituximab + dexamethasone + cytarabine + oxaliplatin) alternating with R-CHOP OR R-HyperCVAD"
+      },
+      {
+        "id": "C",
+        "text": "Ibrutinib monotherapy"
+      },
+      {
+        "id": "D",
+        "text": "Bendamustine + Rituximab (BR)"
+      },
+      {
+        "id": "E",
+        "text": "Observation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Aggressive MCL (blastoid, high Ki-67) in fit patient: Intensive induction with cytarabine-containing regimen (R-DHAOx alternating with R-CHOP, or R-HyperCVAD) followed by consolidative auto-SCT. BR and R-CHOP are for indolent MCL or elderly. BTK inhibitors (ibrutinib, acalabrutinib, zanubrutinib) are for relapsed/refractory or maintenance. CAR-T (brexucabtagene autoleucel - Tecartus) for R/R MCL.",
+      "whyWrong": {
+        "A": "R-CHOP alone insufficient for blastoid MCL.",
+        "B": "Intensive cytarabine-based induction + Auto-SCT consolidation for fit patients.",
+        "C": "BTK inhibitors are for R/R or maintenance, not first-line induction in fit patients.",
+        "D": "BR is for indolent MCL or elderly (less aggressive).",
+        "E": "Stage IV symptomatic MCL requires treatment."
+      },
+      "clinicalPearl": "Aggressive MCL (blastoid, high Ki-67): Intensive induction + Auto-SCT. BTK inhibitors for R/R. CAR-T (Tecartus) for R/R."
+    },
+    "references": [
+      "NCCN MCL Guidelines 2024",
+      "TRIANGLE Trial 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_005",
+    "specialty": "hematology",
+    "topic": "Myelofibrosis - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male with primary myelofibrosis (DIPSS Intermediate-2, JAK2+, splenomegaly, transfusion-dependent anemia) has been on ruxolitinib for 2 years with loss of response. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase ruxolitinib dose"
+      },
+      {
+        "id": "B",
+        "text": "Momelotinib (Ojjaara) - JAK1/2 + ACVR1 inhibitor"
+      },
+      {
+        "id": "C",
+        "text": "Fedratinib"
+      },
+      {
+        "id": "D",
+        "text": "Pacritinib"
+      },
+      {
+        "id": "E",
+        "text": "Allogeneic stem cell transplant"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MF with loss of response to ruxolitinib + transfusion-dependent anemia: Momelotinib is preferred second-line JAK inhibitor. Inhibits JAK1/2 AND ACVR1 (activin receptor) \u2192 reduces hepcidin \u2192 improves anemia. SIMPLIFY-2 and MOMENTUM trials showed momelotinib improves anemia, spleen, and symptoms vs other JAK inhibitors. Fedratinib (JAK2/FLT3) and Pacritinib (JAK2/FLT3/IRAK1) are alternatives. Allo-SCT is only curative option for eligible patients.",
+      "whyWrong": {
+        "A": "Loss of response to ruxolitinib; increasing dose unlikely to recapture response.",
+        "B": "Momelotinib: JAK1/2 + ACVR1 inhibitor. Improves anemia, spleen, symptoms.",
+        "C": "Fedratinib is alternative JAK inhibitor; may not address anemia.",
+        "D": "Pacritinib is for MF with severe thrombocytopenia (Plt <50K).",
+        "E": "Allo-SCT is curative but reserved for eligible high-risk patients."
+      },
+      "clinicalPearl": "Ruxolitinib failure + Anemia: Momelotinib (JAK1/2 + ACVR1). Improves anemia via hepcidin reduction. MOMENTUM trial."
+    },
+    "references": [
+      "MOMENTUM Trial 2023",
+      "SIMPLIFY-2 Trial",
+      "NCCN MPN Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_006",
+    "specialty": "hematology",
+    "topic": "Thalassemia - Gene Therapy",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old female with transfusion-dependent beta-thalassemia major (homozygous beta0-thalassemia) has iron overload despite chelation. What is the FDA-approved gene therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Luspatercept (Reblozyl)"
+      },
+      {
+        "id": "B",
+        "text": "Betibeglogene autotemcel (Zynteglo) - LentiGlobin gene therapy"
+      },
+      {
+        "id": "C",
+        "text": "Hydroxyurea"
+      },
+      {
+        "id": "D",
+        "text": "Allogeneic stem cell transplant"
+      },
+      {
+        "id": "E",
+        "text": "Erythropoietin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Betibeglogene autotemcel (Zynteglo) is FDA-approved (2022) for transfusion-dependent beta-thalassemia. Autologous CD34+ cells transduced with lentiviral vector encoding functional beta-globin gene (HbAT87Q). Single infusion. 90% achieve transfusion independence. Luspatercept is for non-transfusion-dependent thalassemia. Allo-SCT is curative but requires matched donor. Hydroxyurea and EPO are ineffective in beta-thal major.",
+      "whyWrong": {
+        "A": "Luspatercept is for non-transfusion-dependent beta-thal, not major.",
+        "B": "Zynteglo: Gene therapy. Autologous. 90% transfusion independence. FDA 2022.",
+        "C": "Hydroxyurea is for sickle cell disease; ineffective in beta-thal major.",
+        "D": "Allo-SCT is alternative but requires donor and has GVHD risk.",
+        "E": "EPO ineffective in beta-thal major (ineffective erythropoiesis)."
+      },
+      "clinicalPearl": "Thalassemia major gene therapy: Zynteglo (beti-cel). Lentiviral beta-globin gene. 90% transfusion independence."
+    },
+    "references": [
+      "FDA Zynteglo Approval 2022",
+      "HGB-207/208 Trials"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_007",
+    "specialty": "hematology",
+    "topic": "Disseminated Intravascular Coagulation",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with sepsis has oozing from IV sites, petechiae, and labs: Plt 45K, PT 22 (INR 2.0), PTT 50, Fibrinogen 80, D-dimer >20,000. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heparin infusion"
+      },
+      {
+        "id": "B",
+        "text": "Treat underlying sepsis + Cryoprecipitate (for fibrinogen <100) + Platelet transfusion (if <50K and bleeding)"
+      },
+      {
+        "id": "C",
+        "text": "Warfarin"
+      },
+      {
+        "id": "D",
+        "text": "Tranexamic acid"
+      },
+      {
+        "id": "E",
+        "text": "Vitamin K alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "DIC: Treat the UNDERLYING CAUSE (sepsis). Supportive transfusions: Cryoprecipitate for fibrinogen <100 mg/dL (goal >100-150), Platelets for <50K with bleeding (or <20K regardless), FFP for PT/PTT prolongation with bleeding. Heparin is CONTRAINDICATED in bleeding DIC. Antifibrinolytics (tranexamic acid) may worsen thrombosis. Vitamin K not effective in acute DIC.",
+      "whyWrong": {
+        "A": "Heparin contraindicated in active bleeding DIC.",
+        "B": "Treat cause + Supportive transfusions. Cryoprecipitate for low fibrinogen.",
+        "C": "Warfarin contraindicated in acute DIC with bleeding.",
+        "D": "Tranexamic acid may worsen microvascular thrombosis.",
+        "E": "Vitamin K ineffective in acute consumption coagulopathy."
+      },
+      "clinicalPearl": "DIC: Treat UNDERLYING CAUSE. Cryoprecipitate (fibrinogen <100). Platelets (<50K + bleeding). Heparin CONTRAINDICATED in bleeding."
+    },
+    "references": [
+      "ISTH DIC Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_008",
+    "specialty": "hematology",
+    "topic": "Chronic Myeloid Leukemia - TFR",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female with CML on imatinib for 6 years has achieved sustained deep molecular response (MR4.5, BCR-ABL <0.0032% IS) for >2 years. She asks about stopping treatment. What is this called?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treatment resistance"
+      },
+      {
+        "id": "B",
+        "text": "Treatment-free remission (TFR) - attempt to stop imatinib with close monitoring"
+      },
+      {
+        "id": "C",
+        "text": "Disease progression"
+      },
+      {
+        "id": "D",
+        "text": "Accelerated phase"
+      },
+      {
+        "id": "E",
+        "text": "Continue imatinib indefinitely, no stopping possible"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CML with sustained DMR (>2 years MR4.5): Treatment-free remission (TFR) can be attempted. NCCN 2024: Stopping TKI is feasible and safe in selected patients. 40-50% remain in TFR; 50-60% relapse (respond to TKI restart). Close molecular monitoring: Monthly x6 months, then q2mo x6, then q3mo. TKI resistance is NOT a concern (retreatment effective). Improves quality of life and reduces cost/toxicity.",
+      "whyWrong": {
+        "A": "Sustained DMR is excellent response, not resistance.",
+        "B": "TFR: Attempt to stop TKI in eligible patients. 40-50% success. Close monitoring required.",
+        "C": "Not progression (BCR-ABL undetectable).",
+        "D": "Not accelerated phase.",
+        "E": "TFR is now standard of care for eligible patients per NCCN 2024."
+      },
+      "clinicalPearl": "CML TFR: Stop TKI if MR4.5 sustained >2 years. 40-50% remain in remission. Monthly PCR monitoring. Retreatment effective if relapse."
+    },
+    "references": [
+      "NCCN CML Guidelines 2024",
+      "EURO-SKI Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_009",
+    "specialty": "hematology",
+    "topic": "Autoimmune Hemolytic Anemia",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female with SLE presents with fatigue, jaundice, and anemia (Hb 6.5). DAT is positive for IgG and C3d. Spherocytes on peripheral smear. What is the FIRST-LINE treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone 1mg/kg daily"
+      },
+      {
+        "id": "B",
+        "text": "Rituximab"
+      },
+      {
+        "id": "C",
+        "text": "Splenectomy"
+      },
+      {
+        "id": "D",
+        "text": "IVIG"
+      },
+      {
+        "id": "E",
+        "text": "Transfusion only"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Warm AIHA (IgG+/C3d+, spherocytes): Prednisone 1mg/kg/day is first-line. Response in 70-80% within 2-3 weeks. Slow taper over 3-6 months. Rituximab for steroid-refractory or steroid-dependent. Splenectomy is second-line (after rituximab failure). IVIG is temporizing (bridging). Transfuse cautiously with least incompatible blood (warm slowly, monitor for hemolysis). Treat underlying SLE.",
+      "whyWrong": {
+        "A": "Prednisone first-line. 70-80% response.",
+        "B": "Rituximab for steroid-refractory/dependent (second-line).",
+        "C": "Splenectomy after rituximab failure (third-line).",
+        "D": "IVIG is bridging therapy, not definitive.",
+        "E": "Transfusion is supportive, not disease-modifying."
+      },
+      "clinicalPearl": "Warm AIHA: Prednisone 1mg/kg first-line (70-80% response). Rituximab second-line. Splenectomy third-line. Cautious transfusion."
+    },
+    "references": [
+      "ASH AIHA Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b2_010",
+    "specialty": "hematology",
+    "topic": "Paroxysmal Nocturnal Hemoglobinuria",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female with PNH on eculizumab (anti-C5) every 2 weeks develops breakthrough hemolysis (LDH elevated, Hb drop) 2-3 days before next infusion. What is the mechanism and best management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eculizumab resistance - Switch to rituximab"
+      },
+      {
+        "id": "B",
+        "text": "Extravascular hemolysis (C3 deposition) - Switch to pegcetacoplan (Empaveli, C3 inhibitor)"
+      },
+      {
+        "id": "C",
+        "text": "Increase eculizumab frequency to weekly"
+      },
+      {
+        "id": "D",
+        "text": "Add prednisone"
+      },
+      {
+        "id": "E",
+        "text": "Bone marrow transplant"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Breakthrough hemolysis on eculizumab (terminal complement blockade): C3 accumulation on PNH cells \u2192 extravascular hemolysis in liver/spleen. Pegcetacoplan (Empaveli) inhibits C3 (proximal complement), preventing BOTH intravascular (C5b-9) and extravascular (C3) hemolysis. PEGASUS trial showed pegcetacoplan superior to eculizumab for Hb improvement. Danicopan (Factor D inhibitor) is oral add-on to eculizumab for extravascular hemolysis.",
+      "whyWrong": {
+        "A": "Not eculizumab resistance; breakthrough due to C3-mediated extravascular hemolysis.",
+        "B": "Pegcetacoplan: C3 inhibitor. Blocks proximal complement. Prevents extravascular hemolysis.",
+        "C": "Increasing eculizumab frequency may not address C3-mediated extravascular hemolysis.",
+        "D": "Steroids are adjunctive, not definitive.",
+        "E": "Bone marrow transplant is curative but reserved for severe aplastic anemia/leukemia transformation."
+      },
+      "clinicalPearl": "PNH breakthrough on eculizumab: Switch to pegcetacoplan (C3 inhibitor). Prevents extravascular hemolysis. PEGASUS trial."
+    },
+    "references": [
+      "PEGASUS Trial 2021",
+      "ASH PNH Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
