@@ -6,11 +6,26 @@
     "difficulty": "medium",
     "vignette": "A 35-year-old vegetarian female presents with fatigue and pallor. Labs: Hb 9.0, MCV 72 fL, RDW 18%. Serum iron low, TIBC elevated, Ferritin 8 ng/mL. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Iron deficiency anemia" },
-      { "id": "B", "text": "Anemia of chronic disease" },
-      { "id": "C", "text": "Thalassemia trait" },
-      { "id": "D", "text": "Sideroblastic anemia" },
-      { "id": "E", "text": "Lead poisoning" }
+      {
+        "id": "A",
+        "text": "Iron deficiency anemia"
+      },
+      {
+        "id": "B",
+        "text": "Anemia of chronic disease"
+      },
+      {
+        "id": "C",
+        "text": "Thalassemia trait"
+      },
+      {
+        "id": "D",
+        "text": "Sideroblastic anemia"
+      },
+      {
+        "id": "E",
+        "text": "Lead poisoning"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -23,7 +38,9 @@
       },
       "clinicalPearl": "Iron deficiency: Low ferritin + Low iron + High TIBC. ACD: Low iron + Low TIBC + High ferritin."
     },
-    "references": ["ASH Anemia Guidelines"],
+    "references": [
+      "ASH Anemia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,11 +51,26 @@
     "difficulty": "hard",
     "vignette": "A 45-year-old female presents with petechiae and epistaxis. Labs: Platelets 18K, Hb 11.5, WBC normal. Peripheral smear shows megathrombocytes. HIV and HCV negative. What is the BEST initial treatment?",
     "options": [
-      { "id": "A", "text": "Platelet transfusion" },
-      { "id": "B", "text": "Prednisone 1mg/kg daily" },
-      { "id": "C", "text": "IVIG 1g/kg" },
-      { "id": "D", "text": "Rituximab" },
-      { "id": "E", "text": "Splenectomy" }
+      {
+        "id": "A",
+        "text": "Platelet transfusion"
+      },
+      {
+        "id": "B",
+        "text": "Prednisone 1mg/kg daily"
+      },
+      {
+        "id": "C",
+        "text": "IVIG 1g/kg"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Splenectomy"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "ITP: First-line = Steroids. Do NOT transfuse platelets unless life-threatening bleeding."
     },
-    "references": ["ASH ITP Guidelines 2019"],
+    "references": [
+      "ASH ITP Guidelines 2019"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -60,13 +94,28 @@
     "specialty": "hematology",
     "topic": "Coagulation",
     "difficulty": "medium",
-    "vignette": "A 60-year-old male develops thrombocytopenia (250K → 80K) 7 days after starting heparin for DVT. He develops new leg swelling. What is the MOST appropriate next step?",
+    "vignette": "A 60-year-old male develops thrombocytopenia (250K \u2192 80K) 7 days after starting heparin for DVT. He develops new leg swelling. What is the MOST appropriate next step?",
     "options": [
-      { "id": "A", "text": "Continue heparin and add warfarin" },
-      { "id": "B", "text": "Stop heparin and start argatroban" },
-      { "id": "C", "text": "Platelet transfusion" },
-      { "id": "D", "text": "Stop heparin and start warfarin alone" },
-      { "id": "E", "text": "Increase heparin dose" }
+      {
+        "id": "A",
+        "text": "Continue heparin and add warfarin"
+      },
+      {
+        "id": "B",
+        "text": "Stop heparin and start argatroban"
+      },
+      {
+        "id": "C",
+        "text": "Platelet transfusion"
+      },
+      {
+        "id": "D",
+        "text": "Stop heparin and start warfarin alone"
+      },
+      {
+        "id": "E",
+        "text": "Increase heparin dose"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -77,9 +126,11 @@
         "D": "Warfarin alone is contraindicated initially.",
         "E": "Increasing heparin worsens HIT."
       },
-      "clinicalPearl": "HIT: Stop heparin → Start argatroban → Check PF4 → Warfarin only after platelets recover."
+      "clinicalPearl": "HIT: Stop heparin \u2192 Start argatroban \u2192 Check PF4 \u2192 Warfarin only after platelets recover."
     },
-    "references": ["ASH HIT Guidelines 2018"],
+    "references": [
+      "ASH HIT Guidelines 2018"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -90,11 +141,26 @@
     "difficulty": "hard",
     "vignette": "A 35-year-old male presents with fever, fatigue, and easy bruising. Labs: WBC 45K (90% blasts), Hb 7.5, Plt 15K. Auer rods present. MPO positive. t(8;21). What is the BEST induction therapy?",
     "options": [
-      { "id": "A", "text": "Cytarabine + Daunorubicin ('7+3' regimen)" },
-      { "id": "B", "text": "ATRA + Arsenic trioxide" },
-      { "id": "C", "text": "Imatinib 400mg daily" },
-      { "id": "D", "text": "R-CHOP chemotherapy" },
-      { "id": "E", "text": "Allogeneic stem cell transplant" }
+      {
+        "id": "A",
+        "text": "Cytarabine + Daunorubicin ('7+3' regimen)"
+      },
+      {
+        "id": "B",
+        "text": "ATRA + Arsenic trioxide"
+      },
+      {
+        "id": "C",
+        "text": "Imatinib 400mg daily"
+      },
+      {
+        "id": "D",
+        "text": "R-CHOP chemotherapy"
+      },
+      {
+        "id": "E",
+        "text": "Allogeneic stem cell transplant"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -107,7 +173,9 @@
       },
       "clinicalPearl": "AML induction: '7+3'. APL: ATRA + Arsenic. CML: Imatinib."
     },
-    "references": ["NCCN AML Guidelines 2024"],
+    "references": [
+      "NCCN AML Guidelines 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -118,11 +186,26 @@
     "difficulty": "medium",
     "vignette": "A 60-year-old male presents with painless enlarged lymph nodes, night sweats, and weight loss. Biopsy shows Reed-Sternberg cells (CD15+, CD30+, CD45-). What is the diagnosis?",
     "options": [
-      { "id": "A", "text": "Diffuse large B-cell lymphoma" },
-      { "id": "B", "text": "Follicular lymphoma" },
-      { "id": "C", "text": "Classical Hodgkin lymphoma" },
-      { "id": "D", "text": "Mantle cell lymphoma" },
-      { "id": "E", "text": "Burkitt lymphoma" }
+      {
+        "id": "A",
+        "text": "Diffuse large B-cell lymphoma"
+      },
+      {
+        "id": "B",
+        "text": "Follicular lymphoma"
+      },
+      {
+        "id": "C",
+        "text": "Classical Hodgkin lymphoma"
+      },
+      {
+        "id": "D",
+        "text": "Mantle cell lymphoma"
+      },
+      {
+        "id": "E",
+        "text": "Burkitt lymphoma"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -135,11 +218,12 @@
       },
       "clinicalPearl": "Reed-Sternberg cells + CD15+ + CD30+ + CD45- = Classical Hodgkin lymphoma."
     },
-    "references": ["WHO Lymphoma Classification"],
+    "references": [
+      "WHO Lymphoma Classification"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_hema_006",
     "specialty": "hematology",
@@ -147,11 +231,26 @@
     "difficulty": "hard",
     "vignette": "A 30-year-old male presents with prolonged bleeding after tooth extraction. Labs: PT normal, PTT prolonged, PTT corrects with mixing study. Platelets normal. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Hemophilia A (Factor VIII deficiency)" },
-      { "id": "B", "text": "Von Willebrand disease" },
-      { "id": "C", "text": "Hemophilia B (Factor IX deficiency)" },
-      { "id": "D", "text": "Factor XI deficiency" },
-      { "id": "E", "text": "Lupus anticoagulant" }
+      {
+        "id": "A",
+        "text": "Hemophilia A (Factor VIII deficiency)"
+      },
+      {
+        "id": "B",
+        "text": "Von Willebrand disease"
+      },
+      {
+        "id": "C",
+        "text": "Hemophilia B (Factor IX deficiency)"
+      },
+      {
+        "id": "D",
+        "text": "Factor XI deficiency"
+      },
+      {
+        "id": "E",
+        "text": "Lupus anticoagulant"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -164,7 +263,9 @@
       },
       "clinicalPearl": "Prolonged PTT + corrects with mixing = Factor deficiency (VIII, IX, XI). Does NOT correct = Inhibitor (lupus anticoagulant, factor inhibitor)."
     },
-    "references": ["ASH Bleeding Disorder Guidelines"],
+    "references": [
+      "ASH Bleeding Disorder Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -175,15 +276,30 @@
     "difficulty": "medium",
     "vignette": "A 65-year-old female presents with pruritus (especially after hot showers), erythromelalgia (burning pain in extremities), and splenomegaly. Labs: Hb 18.5, Hct 55%, WBC 13K, Platelets 600K. JAK2 V617F mutation positive. What is the diagnosis?",
     "options": [
-      { "id": "A", "text": "Essential thrombocythemia" },
-      { "id": "B", "text": "Polycythemia vera" },
-      { "id": "C", "text": "Primary myelofibrosis" },
-      { "id": "D", "text": "Chronic myeloid leukemia" },
-      { "id": "E", "text": "Secondary polycythemia" }
+      {
+        "id": "A",
+        "text": "Essential thrombocythemia"
+      },
+      {
+        "id": "B",
+        "text": "Polycythemia vera"
+      },
+      {
+        "id": "C",
+        "text": "Primary myelofibrosis"
+      },
+      {
+        "id": "D",
+        "text": "Chronic myeloid leukemia"
+      },
+      {
+        "id": "E",
+        "text": "Secondary polycythemia"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Polycythemia vera: JAK2 V617F mutation (>95%). Triad: Increased RBC mass (Hb >16.5/Hct >49% ♀), aquagenic pruritus, erythromelalgia. Treatment: Phlebotomy (Hct <45%), Aspirin, Hydroxyurea if high-risk.",
+      "whyCorrect": "Polycythemia vera: JAK2 V617F mutation (>95%). Triad: Increased RBC mass (Hb >16.5/Hct >49% \u2640), aquagenic pruritus, erythromelalgia. Treatment: Phlebotomy (Hct <45%), Aspirin, Hydroxyurea if high-risk.",
       "whyWrong": {
         "A": "ET: Platelets >450K, normal Hb.",
         "C": "PMF: Tear-drop cells, leukoerythroblastic blood smear, massive splenomegaly.",
@@ -192,7 +308,10 @@
       },
       "clinicalPearl": "PV: JAK2+, aquagenic pruritus + erythromelalgia + splenomegaly. Phlebotomy to Hct <45%."
     },
-    "references": ["WHO MPN Classification", "NCCN MPN Guidelines"],
+    "references": [
+      "WHO MPN Classification",
+      "NCCN MPN Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -203,11 +322,26 @@
     "difficulty": "hard",
     "vignette": "A patient develops fever, chills, and back pain 30 minutes into a blood transfusion. Urine is dark (hemoglobinuria). Direct Coombs test is positive. What type of transfusion reaction is this?",
     "options": [
-      { "id": "A", "text": "Febrile non-hemolytic reaction" },
-      { "id": "B", "text": "Acute hemolytic reaction" },
-      { "id": "C", "text": "Allergic reaction" },
-      { "id": "D", "text": "TRALI" },
-      { "id": "E", "text": "TACO" }
+      {
+        "id": "A",
+        "text": "Febrile non-hemolytic reaction"
+      },
+      {
+        "id": "B",
+        "text": "Acute hemolytic reaction"
+      },
+      {
+        "id": "C",
+        "text": "Allergic reaction"
+      },
+      {
+        "id": "D",
+        "text": "TRALI"
+      },
+      {
+        "id": "E",
+        "text": "TACO"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -220,7 +354,9 @@
       },
       "clinicalPearl": "Acute hemolytic reaction: ABO incompatibility. STOP transfusion. Hemoglobinuria + positive Coombs = massive hemolysis."
     },
-    "references": ["AABB Transfusion Reaction Guidelines"],
+    "references": [
+      "AABB Transfusion Reaction Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -231,11 +367,26 @@
     "difficulty": "medium",
     "vignette": "A patient on warfarin presents with life-threatening intracranial hemorrhage. INR is 8.5. What is the MOST appropriate reversal agent?",
     "options": [
-      { "id": "A", "text": "Vitamin K 10mg IV" },
-      { "id": "B", "text": "Fresh frozen plasma (FFP)" },
-      { "id": "C", "text": "4-Factor prothrombin complex concentrate (PCC)" },
-      { "id": "D", "text": "Protamine sulfate" },
-      { "id": "E", "text": "Andexanet alfa" }
+      {
+        "id": "A",
+        "text": "Vitamin K 10mg IV"
+      },
+      {
+        "id": "B",
+        "text": "Fresh frozen plasma (FFP)"
+      },
+      {
+        "id": "C",
+        "text": "4-Factor prothrombin complex concentrate (PCC)"
+      },
+      {
+        "id": "D",
+        "text": "Protamine sulfate"
+      },
+      {
+        "id": "E",
+        "text": "Andexanet alfa"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -248,11 +399,12 @@
       },
       "clinicalPearl": "Warfarin reversal: 4F-PCC + Vitamin K IV. DOAC reversal: Andexanet alfa (Xa inhibitors), Idarucizumab (dabigatran)."
     },
-    "references": ["ACCP Anticoagulation Reversal Guidelines"],
+    "references": [
+      "ACCP Anticoagulation Reversal Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_hema_010",
     "specialty": "hematology",
@@ -260,24 +412,42 @@
     "difficulty": "hard",
     "vignette": "A 68-year-old male presents with back pain, fatigue, and recurrent infections. Labs: Hb 8.5, Cr 2.8, Ca 12.0. SPEP shows IgG kappa M-spike 4.5 g/dL. Bone marrow: 40% plasma cells. FISH: del(17p). What is the BEST initial therapy?",
     "options": [
-      { "id": "A", "text": "Lenalidomide + Dexamethasone (Rd)" },
-      { "id": "B", "text": "Bortezomib + Lenalidomide + Dexamethasone (VRd)" },
-      { "id": "C", "text": "Melphalan + Prednisone" },
-      { "id": "D", "text": "Daratumumab + VRd" },
-      { "id": "E", "text": "Autologous stem cell transplant" }
+      {
+        "id": "A",
+        "text": "Lenalidomide + Dexamethasone (Rd)"
+      },
+      {
+        "id": "B",
+        "text": "Bortezomib + Lenalidomide + Dexamethasone (VRd)"
+      },
+      {
+        "id": "C",
+        "text": "Melphalan + Prednisone"
+      },
+      {
+        "id": "D",
+        "text": "Daratumumab + VRd"
+      },
+      {
+        "id": "E",
+        "text": "Autologous stem cell transplant"
+      }
     ],
     "correctOptionId": "D",
     "explanation": {
-      "whyCorrect": "High-risk myeloma (del(17p) + renal failure + hypercalcemia): Quadruplet therapy (Daratumumab + VRd) is new standard. D-VRd improves PFS and depth of response vs VRd alone. Induction → Auto SCT (if eligible) → Maintenance.",
+      "whyCorrect": "High-risk myeloma (del(17p) + renal failure + hypercalcemia): Quadruplet therapy (Daratumumab + VRd) is new standard. D-VRd improves PFS and depth of response vs VRd alone. Induction \u2192 Auto SCT (if eligible) \u2192 Maintenance.",
       "whyWrong": {
         "A": "Doublet (Rd) is for frail/elderly, not fit patients with high-risk disease.",
         "B": "VRd was previous standard but D-VRd is superior (MAIA, GRIFFIN trials).",
         "C": "Melphalan-based therapy is outdated for initial treatment.",
         "E": "Auto SCT after induction therapy, not as initial treatment."
       },
-      "clinicalPearl": "High-risk myeloma (del(17p), renal failure): Quadruplet (Dara-VRd) → Auto SCT (if eligible) → Maintenance lenalidomide."
+      "clinicalPearl": "High-risk myeloma (del(17p), renal failure): Quadruplet (Dara-VRd) \u2192 Auto SCT (if eligible) \u2192 Maintenance lenalidomide."
     },
-    "references": ["NCCN Multiple Myeloma Guidelines 2024", "GRIFFIN Trial"],
+    "references": [
+      "NCCN Multiple Myeloma Guidelines 2024",
+      "GRIFFIN Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -288,11 +458,26 @@
     "difficulty": "medium",
     "vignette": "A 30-year-old female presents with her third unprovoked DVT. She is on warfarin with INR 2.5. Her mother and sister also had DVTs at young ages. What is the MOST likely underlying thrombophilia?",
     "options": [
-      { "id": "A", "text": "Factor V Leiden mutation" },
-      { "id": "B", "text": "Prothrombin gene mutation" },
-      { "id": "C", "text": "Protein C deficiency" },
-      { "id": "D", "text": "Antiphospholipid syndrome" },
-      { "id": "E", "text": "Protein S deficiency" }
+      {
+        "id": "A",
+        "text": "Factor V Leiden mutation"
+      },
+      {
+        "id": "B",
+        "text": "Prothrombin gene mutation"
+      },
+      {
+        "id": "C",
+        "text": "Protein C deficiency"
+      },
+      {
+        "id": "D",
+        "text": "Antiphospholipid syndrome"
+      },
+      {
+        "id": "E",
+        "text": "Protein S deficiency"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -305,7 +490,9 @@
       },
       "clinicalPearl": "Most common inherited thrombophilia = Factor V Leiden (5% of Caucasians). Most common acquired thrombophilia = Antiphospholipid syndrome."
     },
-    "references": ["ASH Thrombophilia Guidelines"],
+    "references": [
+      "ASH Thrombophilia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -316,11 +503,26 @@
     "difficulty": "hard",
     "vignette": "A 25-year-old African American female at 28 weeks gestation presents with severe pain in her back and legs. Labs: Hb 7.5 (baseline 8.5), reticulocytes 8%. Hemoglobin electrophoresis: HbS 85%, HbF 10%, HbA2 5%. What is the BEST treatment for this acute episode?",
     "options": [
-      { "id": "A", "text": "IV fluids + oxygen + pain control" },
-      { "id": "B", "text": "Exchange transfusion" },
-      { "id": "C", "text": "Simple blood transfusion" },
-      { "id": "D", "text": "Hydroxyurea" },
-      { "id": "E", "text": "Iron supplementation" }
+      {
+        "id": "A",
+        "text": "IV fluids + oxygen + pain control"
+      },
+      {
+        "id": "B",
+        "text": "Exchange transfusion"
+      },
+      {
+        "id": "C",
+        "text": "Simple blood transfusion"
+      },
+      {
+        "id": "D",
+        "text": "Hydroxyurea"
+      },
+      {
+        "id": "E",
+        "text": "Iron supplementation"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -333,7 +535,482 @@
       },
       "clinicalPearl": "Sickle cell VOC: Fluids + Oxygen + Pain control. Exchange transfusion for severe complications (stroke, ACS). Hydroxyurea for prevention."
     },
-    "references": ["NHLBI Sickle Cell Guidelines"],
+    "references": [
+      "NHLBI Sickle Cell Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_001",
+    "specialty": "hematology",
+    "topic": "CAR-T Cell Therapy",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with relapsed/refractory diffuse large B-cell lymphoma (DLBCL) after 2 lines of chemoimmunotherapy is referred for CAR-T therapy. What is the mechanism of CAR-T cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monoclonal antibody against CD52"
+      },
+      {
+        "id": "B",
+        "text": "Autologous T cells genetically engineered to express chimeric antigen receptor targeting CD19"
+      },
+      {
+        "id": "C",
+        "text": "Allogeneic stem cell transplant"
+      },
+      {
+        "id": "D",
+        "text": "Checkpoint inhibitor (anti-PD1)"
+      },
+      {
+        "id": "E",
+        "text": "Antibody-drug conjugate"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CAR-T cell therapy: Patient's own T cells are collected, genetically modified to express a chimeric antigen receptor (CAR) targeting CD19 (B-cell marker), expanded, and reinfused. FDA-approved CAR-T products: Axicabtagene ciloleucel (Yescarta), Tisagenlecleucel (Kymriah), Lisocabtagene maraleucel (Breyanzi). Major toxicities: Cytokine release syndrome (CRS) and Immune effector cell-associated neurotoxicity syndrome (ICANS).",
+      "whyWrong": {
+        "A": "Anti-CD52 (alemtuzumab) is for CLL, not CAR-T.",
+        "B": "CAR-T = Living drug. Autologous T cells targeting CD19.",
+        "C": "Allo-SCT is different modality; CAR-T is autologous cell therapy.",
+        "D": "Checkpoint inhibitors (pembrolizumab) are different immunotherapy class.",
+        "E": "ADC (polatuzumab, brentuximab) combines antibody with chemotherapy."
+      },
+      "clinicalPearl": "CAR-T therapy: Autologous T cells engineered to target CD19. Major toxicities: CRS (tocilizumab) and ICANS (steroids)."
+    },
+    "references": [
+      "ZUMA-1 Trial (Yescarta)",
+      "JULIET Trial (Kymriah)",
+      "ASTCT CAR-T Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_002",
+    "specialty": "hematology",
+    "topic": "Cytokine Release Syndrome",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male is day 5 post-CAR-T therapy for DLBCL. He develops fever 40\u00b0C, hypotension requiring vasopressors, and hypoxia. Ferritin is >10,000. What is the diagnosis and treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sepsis - Broad-spectrum antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Grade 3-4 CRS - Tocilizumab (anti-IL6) + Dexamethasone"
+      },
+      {
+        "id": "C",
+        "text": "Tumor lysis syndrome - Rasburicase"
+      },
+      {
+        "id": "D",
+        "text": "Anaphylaxis - Epinephrine"
+      },
+      {
+        "id": "E",
+        "text": "Graft-versus-host disease - Steroids"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CRS after CAR-T: Fever + Hypotension + Hypoxia within days of infusion. Graded by ASTCT criteria. Grade 3-4 (severe): Tocilizumab (anti-IL6 receptor) \u00b1 Dexamethasone. Tocilizumab does NOT affect CAR-T efficacy. Ferritin >10,000 suggests severe CRS/HLH-like syndrome. Continue sepsis workup but treat CRS simultaneously. Most patients recover with prompt management.",
+      "whyWrong": {
+        "A": "Sepsis must be ruled out but CRS requires specific treatment (tocilizumab).",
+        "B": "CRS: Tocilizumab (blocks IL-6) + Steroids. Do not delay.",
+        "C": "TLS occurs in leukemia/lymphoma with rapid cell turnover; not typical post-CAR-T.",
+        "D": "Anaphylaxis occurs during infusion, not day 5.",
+        "E": "GVHD occurs in allogeneic transplant, not autologous CAR-T."
+      },
+      "clinicalPearl": "CRS post-CAR-T: Fever + Hypotension + Hypoxia. Tocilizumab (anti-IL6) + Dexamethasone. Ferritin >10,000 = severe."
+    },
+    "references": [
+      "ASTCT CRS/ICANS Guidelines 2023",
+      "Lee Criteria for CRS"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_003",
+    "specialty": "hematology",
+    "topic": "Acute Promyelocytic Leukemia",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female presents with gingival bleeding, epistaxis, and pancytopenia. Peripheral smear shows promyelocytes with Auer rods. Coagulation panel shows DIC (low fibrinogen, elevated D-dimer). What is the EMERGENCY treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Standard '7+3' induction (cytarabine + daunorubicin)"
+      },
+      {
+        "id": "B",
+        "text": "All-trans retinoic acid (ATRA) started IMMEDIATELY + Arsenic trioxide (ATO)"
+      },
+      {
+        "id": "C",
+        "text": "Hydroxyurea and supportive care"
+      },
+      {
+        "id": "D",
+        "text": "Allogeneic stem cell transplant"
+      },
+      {
+        "id": "E",
+        "text": "Wait for cytogenetics before treating"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "APL is a MEDICAL EMERGENCY. High risk of fatal DIC/hemorrhage. START ATRA IMMEDIATELY on clinical suspicion (promyelocytes + DIC). Do NOT wait for cytogenetics (t[15;17] PML-RARA). ATRA + Arsenic trioxide (ATO) is curative in >95% of low-risk APL without chemotherapy. Monitor for differentiation syndrome (fever, pulmonary infiltrates - treat with dexamethasone).",
+      "whyWrong": {
+        "A": "7+3 is for non-APL AML; less effective and more toxic in APL.",
+        "B": "ATRA started EMERGENTLY on suspicion of APL. ATRA + ATO = Chemotherapy-free cure.",
+        "C": "Hydroxyurea alone insufficient for APL (high early death rate).",
+        "D": "Allo-SCT reserved for relapsed/refractory APL (rare now).",
+        "E": "DO NOT WAIT for cytogenetics. Treat on clinical suspicion. Early death rate 10-30% if delayed."
+      },
+      "clinicalPearl": "Suspected APL = START ATRA IMMEDIATELY (before genetic confirmation). ATRA + ATO = >95% cure. Watch for differentiation syndrome."
+    },
+    "references": [
+      "NCCN APL Guidelines 2024",
+      "APL0406 Trial (ATRA+ATO)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_004",
+    "specialty": "hematology",
+    "topic": "Immune Thrombocytopenia - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female with chronic ITP has failed prednisone, IVIG, and rituximab. Platelets are 15K with bleeding symptoms. What is the BEST next therapy per ASH 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Splenectomy"
+      },
+      {
+        "id": "B",
+        "text": "Thrombopoietin receptor agonist (TPO-RA): Eltrombopag, Romiplostim, or Avatrombopag"
+      },
+      {
+        "id": "C",
+        "text": "Repeat IVIG"
+      },
+      {
+        "id": "D",
+        "text": "Azathioprine"
+      },
+      {
+        "id": "E",
+        "text": "Danazol"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ITP after failing first-line (steroids, IVIG) and rituximab: TPO-RAs (eltrombopag PO, romiplostim SC, avatrombopag PO) are preferred over splenectomy. Stimulate platelet production via TPO receptor. Avatrombopag has no food interactions (unlike eltrombopag). Splenectomy is effective but irreversible; reserved for TPO-RA failure. Fostamatinib (Syk inhibitor) is alternative. Mycophenolate and danazol are third-line.",
+      "whyWrong": {
+        "A": "Splenectomy is effective but irreversible; TPO-RAs preferred now.",
+        "B": "TPO-RAs: Stimulate platelet production. High efficacy. No immunosuppression.",
+        "C": "IVIG is temporizing (1-3 weeks); not for chronic management.",
+        "D": "Mycophenolate is third-line for refractory ITP.",
+        "E": "Danazol is androgen with masculinizing side effects; limited use."
+      },
+      "clinicalPearl": "ITP after steroid/IVIG/rituximab: TPO-RA (eltrombopag, romiplostim, avatrombopag). Splenectomy if TPO-RA fails."
+    },
+    "references": [
+      "ASH ITP Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_005",
+    "specialty": "hematology",
+    "topic": "Heparin-Induced Thrombocytopenia",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male post-hip replacement on enoxaparin prophylaxis develops thrombocytopenia (platelets drop from 250K to 90K) on day 7. He develops new DVT despite thrombocytopenia. 4T score is 6. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue enoxaparin and add warfarin"
+      },
+      {
+        "id": "B",
+        "text": "Stop all heparin; Start argatroban or bivalirudin; DO NOT start warfarin until platelets >150K"
+      },
+      {
+        "id": "C",
+        "text": "Platelet transfusion"
+      },
+      {
+        "id": "D",
+        "text": "Start rivaroxaban immediately"
+      },
+      {
+        "id": "E",
+        "text": "Start fondaparinux"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HIT (high 4T score): 1. STOP ALL HEPARIN (including LMWH, flushes, heparin-coated catheters), 2. Start non-heparin anticoagulant (argatroban, bivalirudin, or danaparoid). 3. DO NOT give warfarin initially (depletes Protein C \u2192 paradoxical thrombosis/venous limb gangrene). Transition to warfarin ONLY after platelets >150K and overlap for \u22655 days. DOACs (rivaroxaban) may be used after acute phase. Platelet transfusion contraindicated.",
+      "whyWrong": {
+        "A": "Continuing heparin in HIT can be fatal.",
+        "B": "Stop heparin + Start DTI (argatroban). Warfarin only after platelet recovery.",
+        "C": "Platelet transfusion is CONTRAINDICATED in HIT (increases thrombosis).",
+        "D": "DOACs may be used but only after acute phase with DTI.",
+        "E": "Fondaparinux has rare cross-reactivity with HIT antibodies; DTI preferred."
+      },
+      "clinicalPearl": "HIT: Stop ALL heparin. Start argatroban/bivalirudin. NO warfarin until Plt >150K. Platelet transfusion = CONTRAINDICATED."
+    },
+    "references": [
+      "ASH HIT Guidelines 2023",
+      "4T Score Calculation"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_006",
+    "specialty": "hematology",
+    "topic": "Multiple Myeloma - Quadruplet Therapy",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old transplant-eligible male with newly diagnosed multiple myeloma (R-ISS Stage II, no high-risk cytogenetics) is starting induction. What is the preferred regimen per NCCN 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lenalidomide + Dexamethasone (Rd) doublet"
+      },
+      {
+        "id": "B",
+        "text": "Daratumumab + Bortezomib + Lenalidomide + Dexamethasone (D-VRd) quadruplet"
+      },
+      {
+        "id": "C",
+        "text": "Bortezomib + Cyclophosphamide + Dexamethasone (VCd)"
+      },
+      {
+        "id": "D",
+        "text": "Melphalan + Prednisone"
+      },
+      {
+        "id": "E",
+        "text": "CAR-T therapy as first-line"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Transplant-eligible NDMM: Quadruplet therapy with anti-CD38 monoclonal antibody (daratumumab) + VRd is the new standard. GRIFFIN and PERSEUS trials showed D-VRd quadruplet improves depth of response (MRD negativity) and PFS vs VRd triplet. Quadruplet induction \u2192 Auto-SCT \u2192 Maintenance (lenalidomide \u00b1 daratumumab). Doublet (Rd) and VCd are inferior.",
+      "whyWrong": {
+        "A": "Doublet (Rd) is for frail/elderly; inadequate for transplant-eligible patients.",
+        "B": "D-VRd quadruplet = New standard for transplant-eligible NDMM.",
+        "C": "VCd is inferior to VRd and D-VRd; used when lenalidomide contraindicated.",
+        "D": "Melphalan-based regimens are outdated for induction.",
+        "E": "CAR-T is for relapsed/refractory, not first-line (yet)."
+      },
+      "clinicalPearl": "Transplant-eligible myeloma: D-VRd (daratumumab + VRd) quadruplet. GRIFFIN/PERSEUS trials. Auto-SCT after induction."
+    },
+    "references": [
+      "NCCN Multiple Myeloma Guidelines 2024",
+      "GRIFFIN Trial 2023",
+      "PERSEUS Trial 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_007",
+    "specialty": "hematology",
+    "topic": "Sickle Cell Disease - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old female with sickle cell disease (HbSS) has recurrent vaso-occlusive crises (4-5/year) despite hydroxyurea. What is the BEST disease-modifying therapy per ASH 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase hydroxyurea to maximum tolerated dose"
+      },
+      {
+        "id": "B",
+        "text": "Voxelotor (Oxbryta) OR Crizanlizumab (Adakveo) OR L-glutamine (Endari)"
+      },
+      {
+        "id": "C",
+        "text": "Chronic transfusion program"
+      },
+      {
+        "id": "D",
+        "text": "Allogeneic stem cell transplant"
+      },
+      {
+        "id": "E",
+        "text": "Exchange transfusion for each crisis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SCD with recurrent VOC despite hydroxyurea: Add a second agent with different mechanism. Options: Voxelotor (HbS polymerization inhibitor, increases Hb, reduces hemolysis), Crizanlizumab (anti-P-selectin, reduces VOC frequency by 45%), or L-glutamine (reduces oxidative stress, reduces VOC). Gene therapy (exagamglogene autotemcel - Casgevy, lovotibeglogene autotemcel - Lyfgenia) is now FDA-approved for curative intent.",
+      "whyWrong": {
+        "A": "Already on hydroxyurea with breakthrough VOC; need second agent.",
+        "B": "Voxelotor, Crizanlizumab, or L-glutamine = Add-on therapies. Different mechanisms.",
+        "C": "Chronic transfusions cause iron overload; second-line after add-on agents.",
+        "D": "Allo-SCT is curative but requires matched donor and has transplant risks.",
+        "E": "Exchange for acute severe crises (ACS, stroke), not chronic prevention."
+      },
+      "clinicalPearl": "SCD breakthrough VOC on hydroxyurea: Add Voxelotor, Crizanlizumab, or L-glutamine. Gene therapy (Casgevy/Lyfgenia) = Curative."
+    },
+    "references": [
+      "ASH SCD Guidelines 2024",
+      "HOPE Trial (Voxelotor)",
+      "SUSTAIN Trial (Crizanlizumab)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_008",
+    "specialty": "hematology",
+    "topic": "Hemophilia A - Gene Therapy",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male with severe hemophilia A (Factor VIII <1%) has frequent bleeds despite prophylaxis with emicizumab. What is the FDA-approved gene therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Factor VIII concentrate continuous infusion"
+      },
+      {
+        "id": "B",
+        "text": "Valoctocogene roxaparvovec (Roctavian) - AAV5-Factor VIII gene therapy"
+      },
+      {
+        "id": "C",
+        "text": "Desmopressin (DDAVP)"
+      },
+      {
+        "id": "D",
+        "text": "Eptacog alfa (Factor VIIa) continuous infusion"
+      },
+      {
+        "id": "E",
+        "text": "Tranexamic acid monotherapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Valoctocogene roxaparvovec (Roctavian) is FDA-approved (2023) for severe hemophilia A. AAV5 vector delivers Factor VIII gene to hepatocytes \u2192 sustained endogenous FVIII production. Single infusion. Reduces bleeding rate by >85% and eliminates need for prophylaxis in most patients. Etranacogene dezaparvovec (Hemgenix) is similar for hemophilia B. Gene therapy = Potential 'functional cure.'",
+      "whyWrong": {
+        "A": "Factor VIII concentrates are replacement, not curative; already on emicizumab.",
+        "B": "Roctavian: AAV5-FVIII gene therapy. Single dose. FDA 2023.",
+        "C": "DDAVP is for mild hemophilia A only (releases stored FVIII).",
+        "D": "rFVIIa is for acute bleeds, not prophylaxis.",
+        "E": "Tranexamic acid is adjunct for mucosal bleeds, not monotherapy."
+      },
+      "clinicalPearl": "Hemophilia A gene therapy: Roctavian (AAV5-FVIII). Single IV infusion. Functional cure. Hemophilia B: Hemgenix (AAV5-FIX)."
+    },
+    "references": [
+      "FDA Roctavian Approval 2023",
+      "GENEr8-1 Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_009",
+    "specialty": "hematology",
+    "topic": "Venous Thromboembolism - DOAC in Cancer",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old female with breast cancer on tamoxifen develops proximal DVT. She is not on chemotherapy. What is the preferred anticoagulation per ASCO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warfarin (target INR 2-3)"
+      },
+      {
+        "id": "B",
+        "text": "Rivaroxaban OR Apixaban (DOAC) for at least 3-6 months"
+      },
+      {
+        "id": "C",
+        "text": "LMWH (enoxaparin) alone long-term"
+      },
+      {
+        "id": "D",
+        "text": "IVC filter alone"
+      },
+      {
+        "id": "E",
+        "text": "Aspirin alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cancer-associated VTE: DOACs (rivaroxaban, apixaban, edoxaban) are now preferred over LMWH per ASCO 2024. SELECT-D, Hokusai-VTE Cancer, and CARAVAGGIO trials showed DOACs are non-inferior to LMWH for efficacy with acceptable bleeding risk. LMWH reserved for GI/GU cancers (higher bleeding risk with DOACs). Warfarin inferior to LMWH/DOACs. Treat minimum 3-6 months; indefinite if active cancer.",
+      "whyWrong": {
+        "A": "Warfarin is inferior to LMWH and DOACs in cancer VTE.",
+        "B": "DOACs = New first-line for most cancer VTE (ASCO 2024).",
+        "C": "LMWH was previous standard; DOACs now preferred for most.",
+        "D": "IVC filter only if anticoagulation contraindicated.",
+        "E": "Aspirin is inadequate for VTE treatment."
+      },
+      "clinicalPearl": "Cancer VTE (2024): DOACs preferred over LMWH. LMWH for GI/GU cancers (lower bleeding). Indefinite if active malignancy."
+    },
+    "references": [
+      "ASCO VTE Guidelines 2024",
+      "SELECT-D Trial",
+      "CARAVAGGIO Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "hema_b1_010",
+    "specialty": "hematology",
+    "topic": "Myelodysplastic Syndromes - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 72-year-old male with MDS with ring sideroblasts (MDS-RS) and SF3B1 mutation has anemia (Hb 8.5) requiring transfusions every 3 weeks. He has failed erythropoietin. What is the BEST therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lenalidomide"
+      },
+      {
+        "id": "B",
+        "text": "Luspatercept (Reblozyl) - erythroid maturation agent"
+      },
+      {
+        "id": "C",
+        "text": "Azacitidine"
+      },
+      {
+        "id": "D",
+        "text": "Allogeneic stem cell transplant"
+      },
+      {
+        "id": "E",
+        "text": "Iron chelation alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MDS-RS with SF3B1 mutation and transfusion-dependent anemia after ESA failure: Luspatercept (Reblozyl) is FDA-approved. TGF-beta ligand trap that promotes late-stage erythropoiesis. MEDALIST trial showed 38% transfusion independence. Lenalidomide is for MDS with del(5q). Azacitidine for higher-risk MDS. Allo-SCT for eligible high-risk patients.",
+      "whyWrong": {
+        "A": "Lenalidomide is for MDS with del(5q), not MDS-RS.",
+        "B": "Luspatercept: Targets TGF-beta pathway. MEDALIST trial. For MDS-RS after ESA.",
+        "C": "Azacitidine is for higher-risk MDS, not primarily for anemia in lower-risk.",
+        "D": "Allo-SCT reserved for higher-risk MDS in eligible patients.",
+        "E": "Iron chelation is for transfusion iron overload, not treating anemia."
+      },
+      "clinicalPearl": "MDS-RS + SF3B1 + Transfusion-dependent: Luspatercept (erythroid maturation agent). MEDALIST trial. Lenalidomide for del(5q)."
+    },
+    "references": [
+      "MEDALIST Trial 2020",
+      "NCCN MDS Guidelines 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
