@@ -6,11 +6,26 @@
     "difficulty": "hard",
     "vignette": "A 25-year-old male with Type 1 DM presents with nausea, vomiting, and abdominal pain for 24 hours. He ran out of insulin 2 days ago. Vitals: BP 90/60, HR 120, RR 30. Labs: Glucose 480 mg/dL, pH 7.1, HCO3 8 mEq/L, Anion gap 24, K+ 5.8 mEq/L. Urine ketones positive. What is the FIRST step in management?",
     "options": [
-      { "id": "A", "text": "IV insulin bolus 0.1 units/kg" },
-      { "id": "B", "text": "IV normal saline 1-2 liters bolus" },
-      { "id": "C", "text": "IV sodium bicarbonate" },
-      { "id": "D", "text": "IV calcium gluconate for hyperkalemia" },
-      { "id": "E", "text": "IV insulin infusion 0.1 units/kg/hr" }
+      {
+        "id": "A",
+        "text": "IV insulin bolus 0.1 units/kg"
+      },
+      {
+        "id": "B",
+        "text": "IV normal saline 1-2 liters bolus"
+      },
+      {
+        "id": "C",
+        "text": "IV sodium bicarbonate"
+      },
+      {
+        "id": "D",
+        "text": "IV calcium gluconate for hyperkalemia"
+      },
+      {
+        "id": "E",
+        "text": "IV insulin infusion 0.1 units/kg/hr"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -23,7 +38,9 @@
       },
       "clinicalPearl": "DKA: 1) Fluids 2) Check K+ (>3.3 before insulin!) 3) Insulin infusion 4) D5 when glucose <200."
     },
-    "references": ["ADA DKA Guidelines 2024"],
+    "references": [
+      "ADA DKA Guidelines 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,11 +51,26 @@
     "difficulty": "medium",
     "vignette": "A 32-year-old female presents with weight loss, heat intolerance, palpitations, and tremor for 2 months. She has a diffuse, non-tender goiter. Labs: TSH <0.01, Free T4 elevated. TSI positive. What is the BEST initial treatment?",
     "options": [
-      { "id": "A", "text": "Radioactive iodine ablation" },
-      { "id": "B", "text": "Total thyroidectomy" },
-      { "id": "C", "text": "Methimazole + Propranolol" },
-      { "id": "D", "text": "Propylthiouracil (PTU)" },
-      { "id": "E", "text": "Levothyroxine" }
+      {
+        "id": "A",
+        "text": "Radioactive iodine ablation"
+      },
+      {
+        "id": "B",
+        "text": "Total thyroidectomy"
+      },
+      {
+        "id": "C",
+        "text": "Methimazole + Propranolol"
+      },
+      {
+        "id": "D",
+        "text": "Propylthiouracil (PTU)"
+      },
+      {
+        "id": "E",
+        "text": "Levothyroxine"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "Graves: Methimazole (NOT PTU) + Propranolol. PTU only in 1st trimester."
     },
-    "references": ["ATA Hyperthyroidism Guidelines 2016"],
+    "references": [
+      "ATA Hyperthyroidism Guidelines 2016"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -62,15 +96,30 @@
     "difficulty": "hard",
     "vignette": "A 50-year-old male with rheumatoid arthritis on chronic prednisone (10mg daily for 2 years) undergoes emergency surgery. Post-operatively, he develops hypotension refractory to fluids, hyponatremia (Na 128), and hyperkalemia (K+ 5.9). What is the MOST likely cause?",
     "options": [
-      { "id": "A", "text": "Septic shock" },
-      { "id": "B", "text": "Adrenal crisis due to secondary adrenal insufficiency" },
-      { "id": "C", "text": "Acute kidney injury" },
-      { "id": "D", "text": "SIADH from surgical stress" },
-      { "id": "E", "text": "Primary adrenal insufficiency (Addison disease)" }
+      {
+        "id": "A",
+        "text": "Septic shock"
+      },
+      {
+        "id": "B",
+        "text": "Adrenal crisis due to secondary adrenal insufficiency"
+      },
+      {
+        "id": "C",
+        "text": "Acute kidney injury"
+      },
+      {
+        "id": "D",
+        "text": "SIADH from surgical stress"
+      },
+      {
+        "id": "E",
+        "text": "Primary adrenal insufficiency (Addison disease)"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Chronic steroids suppress HPA axis → adrenal atrophy → adrenal crisis during stress. Treatment: IV hydrocortisone 100mg STAT.",
+      "whyCorrect": "Chronic steroids suppress HPA axis \u2192 adrenal atrophy \u2192 adrenal crisis during stress. Treatment: IV hydrocortisone 100mg STAT.",
       "whyWrong": {
         "A": "Sepsis would not explain the classic electrolyte pattern.",
         "C": "AKI alone would not cause this pattern.",
@@ -79,7 +128,9 @@
       },
       "clinicalPearl": "Chronic steroids = Stress-dose steroids before surgery! Hydrocortisone 50mg q8h or 100mg IV STAT."
     },
-    "references": ["Endocrine Society Adrenal Crisis Guidelines"],
+    "references": [
+      "Endocrine Society Adrenal Crisis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -90,11 +141,26 @@
     "difficulty": "easy",
     "vignette": "A 55-year-old female has hypercalcemia on routine labs (Ca 11.2 mg/dL). She is asymptomatic. PTH is elevated (120 pg/mL). 24-hour urinary calcium is elevated. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Primary hyperparathyroidism" },
-      { "id": "B", "text": "Secondary hyperparathyroidism" },
-      { "id": "C", "text": "Familial hypocalciuric hypercalcemia (FHH)" },
-      { "id": "D", "text": "Malignancy-related hypercalcemia" },
-      { "id": "E", "text": "Vitamin D toxicity" }
+      {
+        "id": "A",
+        "text": "Primary hyperparathyroidism"
+      },
+      {
+        "id": "B",
+        "text": "Secondary hyperparathyroidism"
+      },
+      {
+        "id": "C",
+        "text": "Familial hypocalciuric hypercalcemia (FHH)"
+      },
+      {
+        "id": "D",
+        "text": "Malignancy-related hypercalcemia"
+      },
+      {
+        "id": "E",
+        "text": "Vitamin D toxicity"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -107,7 +173,9 @@
       },
       "clinicalPearl": "Hypercalcemia: High PTH = Primary hyperparathyroidism. Low PTH = Malignancy, Vitamin D toxicity."
     },
-    "references": ["AAES Parathyroid Guidelines"],
+    "references": [
+      "AAES Parathyroid Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -118,11 +186,26 @@
     "difficulty": "hard",
     "vignette": "A 40-year-old female presents with amenorrhea, galactorrhea, and headaches for 6 months. Prolactin is 250 ng/mL. MRI shows 1.2cm pituitary adenoma compressing the optic chiasm. Visual field testing shows bitemporal hemianopsia. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Cabergoline 0.5mg twice weekly" },
-      { "id": "B", "text": "Transsphenoidal adenomectomy" },
-      { "id": "C", "text": "Bromocriptine 2.5mg daily" },
-      { "id": "D", "text": "Radiation therapy" },
-      { "id": "E", "text": "Observe with serial MRI" }
+      {
+        "id": "A",
+        "text": "Cabergoline 0.5mg twice weekly"
+      },
+      {
+        "id": "B",
+        "text": "Transsphenoidal adenomectomy"
+      },
+      {
+        "id": "C",
+        "text": "Bromocriptine 2.5mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Radiation therapy"
+      },
+      {
+        "id": "E",
+        "text": "Observe with serial MRI"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -135,7 +218,9 @@
       },
       "clinicalPearl": "Prolactinoma + Visual deficit = Surgery first. Without visual deficit = Cabergoline."
     },
-    "references": ["Endocrine Society Prolactinoma Guidelines"],
+    "references": [
+      "Endocrine Society Prolactinoma Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -146,11 +231,26 @@
     "difficulty": "medium",
     "vignette": "A 70-year-old female with osteoporosis (T-score -3.2 at hip) is started on alendronate 70mg weekly. After 1 year, she fractures her wrist after a fall. DEXA shows T-score -3.3 (stable). What is the BEST next step?",
     "options": [
-      { "id": "A", "text": "Continue alendronate for another year" },
-      { "id": "B", "text": "Switch to denosumab 60mg SC every 6 months" },
-      { "id": "C", "text": "Switch to teriparatide 20mcg daily" },
-      { "id": "D", "text": "Add raloxifene to alendronate" },
-      { "id": "E", "text": "Switch to IV zoledronic acid 5mg annually" }
+      {
+        "id": "A",
+        "text": "Continue alendronate for another year"
+      },
+      {
+        "id": "B",
+        "text": "Switch to denosumab 60mg SC every 6 months"
+      },
+      {
+        "id": "C",
+        "text": "Switch to teriparatide 20mcg daily"
+      },
+      {
+        "id": "D",
+        "text": "Add raloxifene to alendronate"
+      },
+      {
+        "id": "E",
+        "text": "Switch to IV zoledronic acid 5mg annually"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -163,7 +263,9 @@
       },
       "clinicalPearl": "Fracture on bisphosphonate = Anabolic therapy. Do NOT switch between antiresorptives."
     },
-    "references": ["AACE Osteoporosis Guidelines"],
+    "references": [
+      "AACE Osteoporosis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -174,11 +276,26 @@
     "difficulty": "medium",
     "vignette": "A 35-year-old female is found to have a 2.5cm solitary thyroid nodule. She has no compressive symptoms. TSH is normal. What is the BEST next step?",
     "options": [
-      { "id": "A", "text": "Thyroid ultrasound with Doppler" },
-      { "id": "B", "text": "Fine needle aspiration (FNA) biopsy" },
-      { "id": "C", "text": "Total thyroidectomy" },
-      { "id": "D", "text": "CT neck with contrast" },
-      { "id": "E", "text": "Thyroid scan (scintigraphy)" }
+      {
+        "id": "A",
+        "text": "Thyroid ultrasound with Doppler"
+      },
+      {
+        "id": "B",
+        "text": "Fine needle aspiration (FNA) biopsy"
+      },
+      {
+        "id": "C",
+        "text": "Total thyroidectomy"
+      },
+      {
+        "id": "D",
+        "text": "CT neck with contrast"
+      },
+      {
+        "id": "E",
+        "text": "Thyroid scan (scintigraphy)"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -189,13 +306,14 @@
         "D": "CT is not the imaging of choice.",
         "E": "Thyroid scan is for LOW TSH (hyperthyroidism)."
       },
-      "clinicalPearl": "Thyroid nodule + normal/high TSH → US first → FNA based on TI-RADS."
+      "clinicalPearl": "Thyroid nodule + normal/high TSH \u2192 US first \u2192 FNA based on TI-RADS."
     },
-    "references": ["ATA Thyroid Nodule Guidelines 2015"],
+    "references": [
+      "ATA Thyroid Nodule Guidelines 2015"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_endo_008",
     "specialty": "endocrinology",
@@ -203,11 +321,26 @@
     "difficulty": "hard",
     "vignette": "A 30-year-old male presents with polyuria (8L/day), polydipsia, and nocturia. Serum Na 150, serum osmolality 310, urine osmolality 150. After water deprivation test, urine osmolality increases to 750 after desmopressin. What type of DI?",
     "options": [
-      { "id": "A", "text": "Central diabetes insipidus" },
-      { "id": "B", "text": "Nephrogenic diabetes insipidus" },
-      { "id": "C", "text": "Primary polydipsia" },
-      { "id": "D", "text": "Gestational diabetes insipidus" },
-      { "id": "E", "text": "SIADH" }
+      {
+        "id": "A",
+        "text": "Central diabetes insipidus"
+      },
+      {
+        "id": "B",
+        "text": "Nephrogenic diabetes insipidus"
+      },
+      {
+        "id": "C",
+        "text": "Primary polydipsia"
+      },
+      {
+        "id": "D",
+        "text": "Gestational diabetes insipidus"
+      },
+      {
+        "id": "E",
+        "text": "SIADH"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -220,7 +353,9 @@
       },
       "clinicalPearl": "Central DI: Responds to desmopressin. Nephrogenic DI: No response. Water deprivation test + desmopressin = Gold standard."
     },
-    "references": ["Endocrine Society DI Guidelines"],
+    "references": [
+      "Endocrine Society DI Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -231,15 +366,30 @@
     "difficulty": "medium",
     "vignette": "A 42-year-old female with BMI 38 and type 2 diabetes (HbA1c 8.5%) has failed lifestyle modifications and metformin. She wants to lose weight and improve glycemic control. Which medication would BEST address both goals?",
     "options": [
-      { "id": "A", "text": "Insulin glargine" },
-      { "id": "B", "text": "Semaglutide 2.4mg weekly" },
-      { "id": "C", "text": "Sitagliptin" },
-      { "id": "D", "text": "Pioglitazone" },
-      { "id": "E", "text": "Glimepiride" }
+      {
+        "id": "A",
+        "text": "Insulin glargine"
+      },
+      {
+        "id": "B",
+        "text": "Semaglutide 2.4mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Sitagliptin"
+      },
+      {
+        "id": "D",
+        "text": "Pioglitazone"
+      },
+      {
+        "id": "E",
+        "text": "Glimepiride"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Semaglutide (GLP-1 RA) at 2.4mg weekly: Approved for obesity (BMI ≥30 or ≥27 with comorbidities). Provides significant weight loss (15% body weight) + excellent glycemic control. Liraglutide 3mg is alternative.",
+      "whyCorrect": "Semaglutide (GLP-1 RA) at 2.4mg weekly: Approved for obesity (BMI \u226530 or \u226527 with comorbidities). Provides significant weight loss (15% body weight) + excellent glycemic control. Liraglutide 3mg is alternative.",
       "whyWrong": {
         "A": "Insulin causes weight GAIN, not weight loss.",
         "C": "DPP4 inhibitors are weight-neutral, minimal A1c reduction.",
@@ -248,23 +398,40 @@
       },
       "clinicalPearl": "Obesity + DM: GLP-1 RAs (semaglutide, liraglutide) or Tirzepatide (GIP/GLP-1). Weight loss + Glycemic control."
     },
-    "references": ["ADA Diabetes Guidelines 2024", "STEP Trials"],
+    "references": [
+      "ADA Diabetes Guidelines 2024",
+      "STEP Trials"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_endo_010",
     "specialty": "endocrinology",
     "topic": "Hypoglycemia",
     "difficulty": "hard",
-    "vignette": "A 50-year-old female without diabetes presents with episodes of confusion, sweating, and palpitations that resolve with eating. Fasting glucose during an episode is 40 mg/dL, insulin level is 10 μU/mL (inappropriately elevated), C-peptide is elevated. What is the MOST likely diagnosis?",
+    "vignette": "A 50-year-old female without diabetes presents with episodes of confusion, sweating, and palpitations that resolve with eating. Fasting glucose during an episode is 40 mg/dL, insulin level is 10 \u03bcU/mL (inappropriately elevated), C-peptide is elevated. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Insulinoma" },
-      { "id": "B", "text": "Exogenous insulin use" },
-      { "id": "C", "text": "Adrenal insufficiency" },
-      { "id": "D", "text": "Non-islet cell tumor hypoglycemia" },
-      { "id": "E", "text": "Dumping syndrome" }
+      {
+        "id": "A",
+        "text": "Insulinoma"
+      },
+      {
+        "id": "B",
+        "text": "Exogenous insulin use"
+      },
+      {
+        "id": "C",
+        "text": "Adrenal insufficiency"
+      },
+      {
+        "id": "D",
+        "text": "Non-islet cell tumor hypoglycemia"
+      },
+      {
+        "id": "E",
+        "text": "Dumping syndrome"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -277,7 +444,9 @@
       },
       "clinicalPearl": "Insulinoma: Fasting hypoglycemia + High insulin + High C-peptide. Exogenous insulin: High insulin + LOW C-peptide."
     },
-    "references": ["Endocrine Society Hypoglycemia Guidelines"],
+    "references": [
+      "Endocrine Society Hypoglycemia Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -288,11 +457,26 @@
     "difficulty": "medium",
     "vignette": "A 40-year-old male has eruptive xanthomas on his back, TG 2500 mg/dL, total cholesterol 400. He has no history of diabetes. What is the MOST serious immediate risk?",
     "options": [
-      { "id": "A", "text": "Coronary artery disease" },
-      { "id": "B", "text": "Acute pancreatitis" },
-      { "id": "C", "text": "Stroke" },
-      { "id": "D", "text": "Peripheral arterial disease" },
-      { "id": "E", "text": "Aortic stenosis" }
+      {
+        "id": "A",
+        "text": "Coronary artery disease"
+      },
+      {
+        "id": "B",
+        "text": "Acute pancreatitis"
+      },
+      {
+        "id": "C",
+        "text": "Stroke"
+      },
+      {
+        "id": "D",
+        "text": "Peripheral arterial disease"
+      },
+      {
+        "id": "E",
+        "text": "Aortic stenosis"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -305,7 +489,480 @@
       },
       "clinicalPearl": "TG >1000 = Pancreatitis risk. TG >2000 = Emergency! Treat with fibrates, omega-3, and strict dietary fat restriction."
     },
-    "references": ["AHA/ACC Cholesterol Guidelines", "NLA Hypertriglyceridemia"],
+    "references": [
+      "AHA/ACC Cholesterol Guidelines",
+      "NLA Hypertriglyceridemia"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_001",
+    "specialty": "endocrinology",
+    "topic": "Tirzepatide - Dual GIP/GLP-1",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old obese male (BMI 36) with type 2 diabetes has HbA1c 8.5% despite metformin 2g and empagliflozin 25mg. He needs additional glucose control and significant weight loss. What is the BEST add-on therapy per ADA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insulin glargine 10 units nightly"
+      },
+      {
+        "id": "B",
+        "text": "Tirzepatide (Mounjaro) 5mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Sitagliptin 100mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Glimepiride 2mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Pioglitazone 30mg daily"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tirzepatide is a dual GIP/GLP-1 receptor agonist. SURPASS trials showed superior HbA1c reduction (2.0-2.4%) and weight loss (10-15%) vs semaglutide, insulin, and other comparators. ADA 2024 recommends GLP-1 RA or dual GIP/GLP-1 as preferred injectable before insulin for patients needing additional glucose control with weight benefit. Also has emerging CV benefit.",
+      "whyWrong": {
+        "A": "Insulin causes weight gain and hypoglycemia; reserved after non-insulin options fail.",
+        "B": "Tirzepatide: Superior HbA1c + Weight loss vs all comparators in SURPASS program.",
+        "C": "DPP4i have modest A1c reduction (0.5-0.7%) and no weight benefit.",
+        "D": "Sulfonylureas cause weight gain and hypoglycemia.",
+        "E": "Pioglitazone causes weight gain and fluid retention; less CV benefit than GLP-1 RA."
+      },
+      "clinicalPearl": "Tirzepatide (dual GIP/GLP-1): Superior A1c reduction + Weight loss. SURMOUNT-1: 22.5% weight loss in obesity without diabetes."
+    },
+    "references": [
+      "SURPASS-2 Trial 2021",
+      "SURMOUNT-1 Trial 2022",
+      "ADA Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_002",
+    "specialty": "endocrinology",
+    "topic": "SGLT2i in CKD without Diabetes",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with CKD stage 3 (eGFR 35, UACR 600 mg/g) due to hypertensive nephrosclerosis does NOT have diabetes. He is on lisinopril 20mg. What medication should be added to slow CKD progression per DAPA-CKD and EMPA-KIDNEY?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metformin"
+      },
+      {
+        "id": "B",
+        "text": "Dapagliflozin 10mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Finerenone 20mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Losartan 50mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Atorvastatin 20mg daily"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SGLT2i are now indicated for CKD with proteinuria REGARDLESS of diabetes status. DAPA-CKD trial: Dapagliflozin reduced CKD progression, ESKD, and CV death by 39% in patients with eGFR 25-75 and UACR 200-5000, including those WITHOUT diabetes. EMPA-KIDNEY confirmed benefit in broader population. Now KDIGO 2024 Class IA recommendation.",
+      "whyWrong": {
+        "A": "Metformin is for diabetes; no benefit in non-diabetic CKD.",
+        "C": "Finerenone is for diabetic CKD (FIDELIO-DKD, FIGARO-DKD); not approved for non-diabetic CKD.",
+        "D": "ARB is already given (lisinopril is ACEi); adding ARB increases hyperkalemia risk.",
+        "E": "Statin is for CV risk reduction, not CKD progression."
+      },
+      "clinicalPearl": "SGLT2i for CKD WITHOUT diabetes: DAPA-CKD and EMPA-KIDNEY trials. KDIGO 2024: Class IA for all CKD with proteinuria regardless of diabetes."
+    },
+    "references": [
+      "DAPA-CKD Trial 2020",
+      "EMPA-KIDNEY Trial 2023",
+      "KDIGO CKD Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_003",
+    "specialty": "endocrinology",
+    "topic": "Subclinical Hypothyroidism",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female has TSH 8.5 mIU/L (normal 0.5-4.5) and normal Free T4 on routine labs. She is asymptomatic and not pregnant. TPO antibodies are negative. What is the BEST management per ATA 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Levothyroxine 50mcg daily"
+      },
+      {
+        "id": "B",
+        "text": "Observation and repeat TSH in 6-12 months"
+      },
+      {
+        "id": "C",
+        "text": "Levothyroxine 25mcg daily"
+      },
+      {
+        "id": "D",
+        "text": "Radioactive iodine ablation"
+      },
+      {
+        "id": "E",
+        "text": "Thyroid ultrasound"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Subclinical hypothyroidism (TSH 4.5-10, normal FT4) in asymptomatic, non-pregnant adult: OBSERVATION without treatment is appropriate. ATA 2023: Treat only if TSH >10, symptomatic, pregnant (or planning pregnancy), goiter, or TPO antibody positive with desire for treatment. Spontaneous normalization occurs in 30-40% within 2 years.",
+      "whyWrong": {
+        "A": "Overtreatment with 50mcg may cause iatrogenic hyperthyroidism (atrial fibrillation, osteoporosis).",
+        "B": "Observation recommended for TSH <10 without symptoms or risk factors.",
+        "C": "25mcg may be appropriate if treating, but observation is preferred.",
+        "D": "RAI is for hyperthyroidism, not hypothyroidism.",
+        "E": "Thyroid US is for nodules or goiter, not subclinical hypothyroidism."
+      },
+      "clinicalPearl": "Subclinical hypothyroidism (TSH <10): Observe unless pregnant, symptomatic, or TPO+. 30-40% normalize spontaneously."
+    },
+    "references": [
+      "ATA Hypothyroidism Guidelines 2023",
+      "TRUST Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_004",
+    "specialty": "endocrinology",
+    "topic": "Osteoporosis - Romosozumab",
+    "difficulty": "hard",
+    "vignette": "A 72-year-old female with severe postmenopausal osteoporosis (T-score -3.8 at hip, prior vertebral fracture) has been on alendronate for 5 years. Despite this, she sustained a new vertebral fracture. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue alendronate"
+      },
+      {
+        "id": "B",
+        "text": "Switch to romosozumab (Evenity) 210mg SC monthly x12 months"
+      },
+      {
+        "id": "C",
+        "text": "Switch to denosumab (Prolia) 60mg SC q6 months"
+      },
+      {
+        "id": "D",
+        "text": "Add raloxifene to alendronate"
+      },
+      {
+        "id": "E",
+        "text": "Switch to IV zoledronic acid"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fracture on bisphosphonate = Treatment failure. Switch to ANABOLIC therapy: Romosozumab (sclerostin inhibitor) is the most potent bone-building agent. ARCH trial showed romosozumab reduced vertebral fractures by 73% vs alendronate. Romosozumab x12 months followed by antiresorptive (denosumab or bisphosphonate). Teriparatide is alternative anabolic. Denosumab is antiresorptive (same class as alendronate).",
+      "whyWrong": {
+        "A": "Fracture on therapy = treatment failure. Do NOT continue same drug.",
+        "B": "Romosozumab: Anabolic + Antiresorptive (dual action). Most potent fracture reduction.",
+        "C": "Denosumab is antiresorptive (same mechanism as alendronate); switch to different class.",
+        "D": "Adding raloxifene is insufficient for severe osteoporosis with fracture.",
+        "E": "Zoledronic acid is same class as alendronate (bisphosphonate)."
+      },
+      "clinicalPearl": "Fracture on bisphosphonate: Switch to ANABOLIC (romosozumab or teriparatide). Romosozumab = Most potent. Then antiresorptive maintenance."
+    },
+    "references": [
+      "ARCH Trial 2017",
+      "FRAME Trial",
+      "AACE Osteoporosis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_005",
+    "specialty": "endocrinology",
+    "topic": "Adrenal Incidentaloma",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female is found to have a 3cm left adrenal mass on CT done for abdominal pain. She has hypertension but no other symptoms. What is the MOST important initial test?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adrenal biopsy"
+      },
+      {
+        "id": "B",
+        "text": "Plasma metanephrines or 24h urine metanephrines to rule out pheochromocytoma"
+      },
+      {
+        "id": "C",
+        "text": "Surgical adrenalectomy"
+      },
+      {
+        "id": "D",
+        "text": "PET-CT"
+      },
+      {
+        "id": "E",
+        "text": "Repeat CT in 12 months"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Adrenal incidentaloma: ALWAYS rule out pheochromocytoma FIRST (before biopsy or surgery which can precipitate hypertensive crisis). Screen with plasma free metanephrines or 24h urine metanephrines. Also evaluate: Cushing syndrome (1mg dex suppression test), primary aldosteronism (aldosterone/renin ratio if hypertensive). Biopsy is LAST resort (only if suspected metastasis).",
+      "whyWrong": {
+        "A": "Biopsy can precipitate hypertensive crisis if pheochromocytoma. Must rule out biochemically first.",
+        "C": "Surgery without biochemical workup is dangerous.",
+        "D": "PET-CT is for malignancy workup after biochemical evaluation.",
+        "E": "CT follow-up depends on size and imaging features (>4cm or suspicious features need sooner workup)."
+      },
+      "clinicalPearl": "Adrenal incidentaloma: 1. Rule out PHEO (plasma metanephrines) 2. Cushing (dex suppression) 3. Aldosterone (if HTN). Biopsy LAST."
+    },
+    "references": [
+      "ESE/ENSAT Adrenal Incidentaloma Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_006",
+    "specialty": "endocrinology",
+    "topic": "MEN2 Syndromes",
+    "difficulty": "hard",
+    "vignette": "A 12-year-old boy has a family history of MEN2A (RET proto-oncogene mutation confirmed in mother). Genetic testing shows he carries the same RET mutation. What is the recommended management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Annual calcitonin screening starting at age 20"
+      },
+      {
+        "id": "B",
+        "text": "Prophylactic total thyroidectomy before age 5-6 (timing based on RET codon)"
+      },
+      {
+        "id": "C",
+        "text": "Observation with neck ultrasound annually"
+      },
+      {
+        "id": "D",
+        "text": "Radioactive iodine ablation"
+      },
+      {
+        "id": "E",
+        "text": "Levothyroxine suppression therapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MEN2A with confirmed RET mutation: PROPHYLACTIC TOTAL THYROIDECTOMY. Timing depends on RET codon risk level: Highest risk (M918T): First year of life. High risk (C634): Before age 5. Moderate risk: Before age 5-10. This prevents medullary thyroid carcinoma (MTC) which is the leading cause of death in MEN2. Annual pheochromocytoma screening also needed.",
+      "whyWrong": {
+        "A": "Screening is insufficient; prophylactic thyroidectomy is standard of care.",
+        "B": "Prophylactic thyroidectomy prevents MTC (near 100% penetrance in MEN2).",
+        "C": "Observation allows MTC to develop (100% penetrance).",
+        "D": "RAI is for differentiated thyroid cancer, not MTC (C-cells do not take up iodine).",
+        "E": "Levothyroxine is replacement after thyroidectomy, not preventive."
+      },
+      "clinicalPearl": "MEN2 RET mutation: PROPHYLACTIC thyroidectomy. Timing based on codon risk. Prevents MTC (100% penetrance)."
+    },
+    "references": [
+      "ATA MTC Guidelines 2023",
+      "MEN2 RET Mutation Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_007",
+    "specialty": "endocrinology",
+    "topic": "Diabetes Technology - AID Systems",
+    "difficulty": "medium",
+    "vignette": "A 14-year-old female with Type 1 DM has HbA1c 9.0% despite multiple daily injections and CGM. She has frequent nocturnal hypoglycemia and dawn phenomenon. What is the BEST technology option per ADA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue MDI + CGM with more education"
+      },
+      {
+        "id": "B",
+        "text": "Automated insulin delivery (AID) system (hybrid closed-loop pump)"
+      },
+      {
+        "id": "C",
+        "text": "Insulin pump alone (without CGM)"
+      },
+      {
+        "id": "D",
+        "text": "Switch to twice-daily premixed insulin"
+      },
+      {
+        "id": "E",
+        "text": "Islet cell transplantation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AID systems (hybrid closed-loop) combine CGM + insulin pump + algorithm that automatically adjusts basal insulin delivery. Reduces HbA1c by 0.5-1.0%, increases Time-in-Range by 10-15%, and reduces hypoglycemia (especially nocturnal). ADA 2024: AID should be offered to all T1D patients who can use it safely. Ideal for patients with frequent hypoglycemia and glycemic variability.",
+      "whyWrong": {
+        "A": "MDI + CGM alone insufficient with HbA1c 9% and frequent hypoglycemia.",
+        "B": "AID systems improve outcomes: More TIR, less hypoglycemia, better HbA1c.",
+        "C": "Pump without CGM lacks automated features and hypoglycemia protection.",
+        "D": "Premixed insulin provides less flexibility and worse glycemic control.",
+        "E": "Islet transplant is for severe hypoglycemia unawareness refractory to technology."
+      },
+      "clinicalPearl": "T1D with hypoglycemia + high A1c: AID (hybrid closed-loop) system. Improves TIR + Reduces hypoglycemia. ADA 2024 recommends for all eligible."
+    },
+    "references": [
+      "ADA Diabetes Technology Guidelines 2024",
+      "T1D Exchange Registry"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_008",
+    "specialty": "endocrinology",
+    "topic": "Vitamin D Deficiency",
+    "difficulty": "easy",
+    "vignette": "A 65-year-old female with osteoporosis has 25-hydroxyvitamin D level of 15 ng/mL. She is on calcium carbonate 1200mg daily. What is the BEST vitamin D replacement regimen per Endocrine Society 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vitamin D2 (ergocalciferol) 50,000 IU weekly x8 weeks, then maintenance 1000-2000 IU daily"
+      },
+      {
+        "id": "B",
+        "text": "Vitamin D3 (cholecalciferol) 1000 IU daily"
+      },
+      {
+        "id": "C",
+        "text": "Calcitriol 0.25mcg daily"
+      },
+      {
+        "id": "D",
+        "text": "No supplementation needed"
+      },
+      {
+        "id": "E",
+        "text": "Vitamin D3 50,000 IU daily for 1 week"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Vitamin D deficiency (<20 ng/mL): Repletion with Vitamin D2 or D3 50,000 IU weekly x8 weeks, then maintenance 1000-2000 IU daily. D3 (cholecalciferol) may be slightly more potent than D2. Recheck 25(OH)D after 8-12 weeks. Target >30 ng/mL for osteoporosis patients. Calcitriol is active form for CKD/hypoparathyroidism, not routine replacement.",
+      "whyWrong": {
+        "A": "Standard repletion: 50,000 IU weekly x8 weeks, then daily maintenance.",
+        "B": "1000 IU daily is maintenance dose, not repletion for deficiency.",
+        "C": "Calcitriol is for CKD stage 4-5 or hypoparathyroidism; not routine replacement.",
+        "D": "Deficiency with osteoporosis requires treatment to optimize bone health.",
+        "E": "50,000 IU daily x1 week is insufficient for repletion."
+      },
+      "clinicalPearl": "Vitamin D deficiency: Replete 50,000 IU weekly x8 weeks \u2192 Maintenance 1000-2000 IU daily. Target >30 ng/mL for osteoporosis."
+    },
+    "references": [
+      "Endocrine Society Vitamin D Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_009",
+    "specialty": "endocrinology",
+    "topic": "PCSK9 in Diabetes",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with diabetes and ASCVD has LDL-C 90 on high-intensity atorvastatin. He had statin intolerance to 3 different statins. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ezetimibe 10mg + Bempedoic acid 180mg"
+      },
+      {
+        "id": "B",
+        "text": "PCSK9 inhibitor (evolocumab or alirocumab)"
+      },
+      {
+        "id": "C",
+        "text": "Inclisiran"
+      },
+      {
+        "id": "D",
+        "text": "Fenofibrate"
+      },
+      {
+        "id": "E",
+        "text": "Continue atorvastatin with lower dose"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Statin intolerance + ASCVD + LDL above goal: Add ezetimibe FIRST (IMPROVE-IT trial). If still above goal, add bempedoic acid (CLEAR Outcomes: 13% MACE reduction in statin-intolerant). PCSK9i are third-line due to cost and prior authorization requirements. Inclisiran is alternative to PCSK9i (twice-yearly injection). Fenofibrate for TG, not LDL.",
+      "whyWrong": {
+        "A": "Ezetimibe + Bempedoic acid: Oral, effective, step-wise approach.",
+        "B": "PCSK9i are highly effective but reserved after ezetimibe \u00b1 bempedoic acid (cost, access).",
+        "C": "Inclisiran is alternative PCSK9-lowering therapy (siRNA).",
+        "D": "Fenofibrate lowers TG, not LDL.",
+        "E": "Patient is statin-intolerant; can't tolerate statins."
+      },
+      "clinicalPearl": "Statin intolerance: Ezetimibe \u2192 Bempedoic acid \u2192 PCSK9i/Inclisiran. Bempedoic acid: Liver-specific prodrug (no muscle symptoms)."
+    },
+    "references": [
+      "CLEAR Outcomes Trial 2023",
+      "ACC/AHA Cholesterol Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b1_010",
+    "specialty": "endocrinology",
+    "topic": "Obesity Pharmacotherapy Update",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female with BMI 38 without diabetes has failed lifestyle modification. She wants pharmacotherapy for weight loss. Which medication has the HIGHEST weight loss efficacy per STEP and SURMOUNT trials?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orlistat 120mg TID"
+      },
+      {
+        "id": "B",
+        "text": "Semaglutide (Wegovy) 2.4mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Tirzepatide (Zepbound) 15mg weekly"
+      },
+      {
+        "id": "D",
+        "text": "Phentermine/Topiramate (Qsymia) 15/92mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Naltrexone/Bupropion (Contrave)"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Tirzepatide (Zepbound) 15mg has the HIGHEST weight loss: SURMOUNT-1 trial showed 22.5% total body weight loss at 72 weeks. Semaglutide (Wegovy) 2.4mg: 14.9% in STEP-1. Phentermine/Topiramate: 10-12%. Naltrexone/Bupropion: 5-6%. Orlistat: 3-5%. Both tirzepatide and semaglutide are FDA-approved for obesity without diabetes.",
+      "whyWrong": {
+        "A": "Orlistat has lowest efficacy (3-5%) and GI side effects.",
+        "B": "Semaglutide 2.4mg is effective (14.9%) but less than tirzepatide.",
+        "C": "Tirzepatide 15mg: 22.5% weight loss - highest efficacy to date.",
+        "D": "Qsymia has 10-12% weight loss; teratogenic (contraindicated in pregnancy).",
+        "E": "Contrave has 5-6% weight loss; contraindicated in uncontrolled HTN, seizure disorder."
+      },
+      "clinicalPearl": "Obesity pharmacotherapy (2024): Tirzepatide (22.5%) > Semaglutide (14.9%) > Phentermine/Topiramate > Naltrexone/Bupropion > Orlistat."
+    },
+    "references": [
+      "SURMOUNT-1 Trial 2022",
+      "STEP-1 Trial 2021",
+      "Obesity Medicine Association Guidelines 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
