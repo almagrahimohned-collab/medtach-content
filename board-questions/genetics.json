@@ -312,3 +312,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gene_012",
+    "specialty": "genetics",
+    "topic": "Mitochondrial Disorders",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female presents with hearing loss, diabetes mellitus, and muscle weakness. Her mother, maternal aunt, and maternal grandmother all have similar symptoms. Her father and his family are unaffected. What is the inheritance pattern?",
+    "options": [
+      { "id": "A", "text": "Autosomal dominant" },
+      { "id": "B", "text": "Autosomal recessive" },
+      { "id": "C", "text": "X-linked recessive" },
+      { "id": "D", "text": "Mitochondrial (maternal) inheritance" },
+      { "id": "E", "text": "Y-linked" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Mitochondrial disorders (MELAS, MERRF, Kearns-Sayre): MATERNAL inheritance (all children of affected female inherit, no male transmission). Features: Diabetes + Hearing loss + Myopathy. Mitochondria are exclusively inherited from the ovum (maternal).",
+      "whyWrong": {
+        "A": "AD would show male-to-male transmission (not present here).",
+        "B": "AR would require both parents to be carriers (father unaffected, no transmission).",
+        "C": "X-linked recessive: Affected males, carrier females (not all females affected).",
+        "E": "Y-linked: Only males affected, father-to-son transmission."
+      },
+      "clinicalPearl": "Mitochondrial inheritance: ONLY females transmit. All children of affected female are affected. Affected males do NOT transmit."
+    },
+    "references": ["Mitochondrial Inheritance Patterns"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_013",
+    "specialty": "genetics",
+    "topic": "Trinucleotide Repeat Disorders",
+    "difficulty": "medium",
+    "vignette": "A 5-year-old boy presents with intellectual disability, large ears, macroorchidism, and autistic features. His grandfather has tremor and ataxia (diagnosed at age 65). What is the genetic mechanism?",
+    "options": [
+      { "id": "A", "text": "CAG repeat expansion" },
+      { "id": "B", "text": "CGG repeat expansion with anticipation" },
+      { "id": "C", "text": "CTG repeat expansion" },
+      { "id": "D", "text": "Deletion 15q11-q13" },
+      { "id": "E", "text": "GAA repeat expansion" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fragile X syndrome (CGG expansion in FMR1): Intellectual disability + Large ears + Macroorchidism + Autism. Grandfather with FXTAS (Fragile X-associated tremor/ataxia syndrome) = Premutation carrier (55-200 CGG repeats). Anticipation: Mother inherits premutation → Expands to full mutation (>200) in child.",
+      "whyWrong": {
+        "A": "CAG = Huntington disease (chorea, dementia, no macroorchidism).",
+        "C": "CTG = Myotonic dystrophy (muscle weakness, myotonia, cataracts).",
+        "D": "15q11-q13 deletion = Prader-Willi or Angelman syndrome.",
+        "E": "GAA = Friedreich ataxia (ataxia, cardiomyopathy, no ID or macroorchidism)."
+      },
+      "clinicalPearl": "Fragile X: CGG repeat + Anticipation. Premutation = FXTAS (grandfather). Full mutation = Fragile X syndrome (grandson)."
+    },
+    "references": ["Fragile X Syndrome: Genetics and Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_014",
+    "specialty": "genetics",
+    "topic": "Chromosomal Microdeletions",
+    "difficulty": "hard",
+    "vignette": "A newborn presents with tetralogy of Fallot, hypocalcemia, recurrent infections, and cleft palate. FISH shows a deletion on chromosome 22q11.2. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Williams syndrome" },
+      { "id": "B", "text": "DiGeorge syndrome" },
+      { "id": "C", "text": "Cri-du-chat syndrome" },
+      { "id": "D", "text": "Wolf-Hirschhorn syndrome" },
+      { "id": "E", "text": "Prader-Willi syndrome" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "DiGeorge syndrome (22q11.2 deletion): CATCH-22 = Cardiac (TOF, VSD) + Abnormal facies + Thymic aplasia (recurrent infections) + Cleft palate + Hypocalcemia (parathyroid aplasia). Most common microdeletion syndrome (1:4000). TBX1 gene is critical.",
+      "whyWrong": {
+        "A": "Williams (7q11.23 deletion): Supravalvular AS + Hypercalcemia + 'Cocktail party' personality.",
+        "C": "Cri-du-chat (5p deletion): Cat-like cry, microcephaly.",
+        "D": "Wolf-Hirschhorn (4p deletion): 'Greek warrior helmet' facies, severe ID.",
+        "E": "Prader-Willi (15q11-q13 paternal deletion): Hypotonia, hyperphagia, obesity."
+      },
+      "clinicalPearl": "DiGeorge (22q11.2): CATCH-22 = Cardiac + Abnormal facies + Thymus + Cleft + Hypocalcemia. Most common microdeletion."
+    },
+    "references": ["22q11.2 Deletion Syndrome: Clinical Features"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

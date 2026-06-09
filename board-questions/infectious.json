@@ -426,3 +426,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_id_016",
+    "specialty": "infectious",
+    "topic": "Tropical Medicine",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old traveler returns from Sudan with fever, headache, and a chancre on his arm. He develops confusion, tremors, and daytime sleepiness. CSF shows elevated protein, IgM antibodies positive for a flagellated parasite. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Malaria" },
+      { "id": "B", "text": "African trypanosomiasis (sleeping sickness)" },
+      { "id": "C", "text": "Leishmaniasis" },
+      { "id": "D", "text": "Dengue fever" },
+      { "id": "E", "text": "Yellow fever" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "African trypanosomiasis (T. brucei gambiense): Chancre at bite site → Hemolymphatic stage (fever, headache) → CNS invasion (sleepiness, confusion, tremors). Diagnosis: CSF serology (IgM). Treatment: CNS stage = Eflornithine + Nifurtimox. Early stage = Pentamidine.",
+      "whyWrong": {
+        "A": "Malaria does not cause chancre or daytime sleepiness.",
+        "C": "Leishmaniasis causes skin ulcers or visceral disease, not sleepiness.",
+        "D": "Dengue causes severe myalgia ('breakbone fever'), rash, not chancre.",
+        "E": "Yellow fever causes jaundice and hemorrhage, not chancre or sleepiness."
+      },
+      "clinicalPearl": "African trypanosomiasis: Chancre + Sleepiness + CSF IgM+. Tsetse fly vector. Treatment depends on CNS involvement."
+    },
+    "references": ["WHO Trypanosomiasis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_017",
+    "specialty": "infectious",
+    "topic": "Transplant Infections",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old kidney transplant recipient (6 months post-transplant, on tacrolimus/MMF/prednisone) presents with fever and cough. CT shows bilateral interstitial infiltrates. BAL shows 'owl-eye' inclusion bodies. CMV PCR is 50,000 copies/mL. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Acyclovir IV" },
+      { "id": "B", "text": "Ganciclovir IV" },
+      { "id": "C", "text": "Reduce immunosuppression only" },
+      { "id": "D", "text": "Foscarnet IV" },
+      { "id": "E", "text": "Valganciclovir PO" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CMV pneumonitis in transplant: Owl-eye inclusion bodies + CMV PCR >50,000. Treatment: IV Ganciclovir (or Valganciclovir if mild-moderate). Reduce immunosuppression if possible. Duration: Until CMV PCR negative (minimum 2-4 weeks).",
+      "whyWrong": {
+        "A": "Acyclovir has NO activity against CMV (requires ganciclovir).",
+        "C": "Reducing immunosuppression alone is insufficient for established CMV disease.",
+        "D": "Foscarnet is second-line (ganciclovir-resistant or severe toxicity).",
+        "E": "Valganciclovir PO is for mild cases or prophylaxis, not severe pneumonitis."
+      },
+      "clinicalPearl": "CMV in transplant: 'Owl-eye' inclusions + CMV PCR. Treatment: IV Ganciclovir. Prophylaxis: Valganciclovir for high-risk (D+/R-)."
+    },
+    "references": ["AST CMV Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_018",
+    "specialty": "infectious",
+    "topic": "Vector-Borne Diseases",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old hiker in Connecticut presents with erythema migrans (expanding target lesion), fever, and arthralgias. He removed a tick 10 days ago. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Doxycycline 100mg BID x10-14 days" },
+      { "id": "B", "text": "Amoxicillin 500mg TID x14 days" },
+      { "id": "C", "text": "Ceftriaxone IV x14 days" },
+      { "id": "D", "text": "Azithromycin 500mg daily x7 days" },
+      { "id": "E", "text": "Observation only" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Early localized Lyme disease (erythema migrans, no neurological or cardiac involvement): Doxycycline 100mg BID x10-14 days (first-line). Amoxicillin or Cefuroxime are alternatives for pregnant women or children <8. Doxycycline also covers possible co-infection (Anaplasma).",
+      "whyWrong": {
+        "B": "Amoxicillin is alternative but doxycycline is preferred (covers Anaplasma co-infection).",
+        "C": "IV ceftriaxone is for neurologic Lyme, cardiac Lyme, or Lyme arthritis.",
+        "D": "Azithromycin is less effective and not first-line.",
+        "E": "Untreated Lyme can disseminate to joints, heart, and nervous system."
+      },
+      "clinicalPearl": "Early Lyme: Erythema migrans + Tick exposure. Doxycycline x10-14 days. Also covers Anaplasma co-infection."
+    },
+    "references": ["IDSA Lyme Guidelines 2020"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

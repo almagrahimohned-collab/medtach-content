@@ -286,3 +286,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pearls_011",
+    "specialty": "quick_review",
+    "topic": "Quality Improvement",
+    "difficulty": "medium",
+    "vignette": "A hospital wants to reduce catheter-associated UTIs (CAUTI). Which intervention has the STRONGEST evidence for prevention?",
+    "options": [
+      { "id": "A", "text": "Antibiotic-coated catheters" },
+      { "id": "B", "text": "Daily assessment of catheter necessity and prompt removal" },
+      { "id": "C", "text": "Prophylactic antibiotics while catheter in place" },
+      { "id": "D", "text": "Silver-coated catheters" },
+      { "id": "E", "text": "Bladder irrigation with antiseptic solution" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "The MOST effective CAUTI prevention: AVOID unnecessary catheters and REMOVE as soon as possible. Daily assessment of necessity + Nurse-driven removal protocols reduce CAUTI by 50-70%. Antibiotic/silver coatings provide modest additional benefit.",
+      "whyWrong": {
+        "A": "Antibiotic coatings reduce CAUTI but less impact than removal strategies.",
+        "C": "Prophylactic antibiotics increase resistance and C. diff without clear benefit.",
+        "D": "Silver coatings have mixed evidence, minimal benefit in large trials.",
+        "E": "Bladder irrigation does NOT prevent CAUTI and may increase infection."
+      },
+      "clinicalPearl": "CAUTI prevention: Avoid unnecessary catheters + Remove ASAP. Daily assessment with nurse-driven protocols = Most effective."
+    },
+    "references": ["CDC CAUTI Prevention Guidelines", "SHEA/IDSA HAI Prevention"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_012",
+    "specialty": "quick_review",
+    "topic": "Patient Safety",
+    "difficulty": "medium",
+    "vignette": "A nurse calls you concerned about a patient's potassium level of 6.2 mEq/L. You order treatment over the phone but the nurse later states 'I thought you said calcium chloride, not calcium gluconate.' This is an example of what type of error?",
+    "options": [
+      { "id": "A", "text": "Medication error (wrong drug)" },
+      { "id": "B", "text": "Communication error (verbal order misheard)" },
+      { "id": "C", "text": "Diagnostic error" },
+      { "id": "D", "text": "System error" },
+      { "id": "E", "text": "Equipment error" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Verbal orders are high-risk for miscommunication (sound-alike drugs: calcium gluconate vs calcium chloride). Best practice: Use computerized order entry (CPOE), read-back verification for verbal orders. 'Write it down, read it back, confirm it.'",
+      "whyWrong": {
+        "A": "Both are calcium salts (same drug class), the error is communication, not wrong medication class.",
+        "C": "This is not a diagnostic error (diagnosis of hyperkalemia was correct).",
+        "D": "System error contributed but primary error is communication.",
+        "E": "No equipment involved."
+      },
+      "clinicalPearl": "Verbal orders: High risk for error. Use CPOE whenever possible. If verbal, use 'write down → read back → confirm' protocol."
+    },
+    "references": ["Joint Commission Patient Safety Goals"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_013",
+    "specialty": "quick_review",
+    "topic": "Health Disparities",
+    "difficulty": "easy",
+    "vignette": "Studies consistently show that African American patients with ACS are less likely to receive cardiac catheterization than Caucasian patients with similar presentations. This is an example of:",
+    "options": [
+      { "id": "A", "text": "Genetic difference in ACS presentation" },
+      { "id": "B", "text": "Racial disparity in healthcare delivery" },
+      { "id": "C", "text": "Patient preference for less invasive care" },
+      { "id": "D", "text": "Biological difference in CAD severity" },
+      { "id": "E", "text": "Insurance coverage limitations" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Racial disparities in cardiac catheterization are well-documented (IOM Unequal Treatment 2003). African Americans with similar insurance, severity, and presentation are 30-40% less likely to receive cath. Unconscious bias, access, and system factors contribute. Not explained by patient preference or biology.",
+      "whyWrong": {
+        "A": "Not a genetic difference - studies control for disease severity.",
+        "C": "Studies controlling for patient preference still show disparity.",
+        "D": "Not biological - disparity persists after controlling for severity.",
+        "E": "Insurance is a factor but disparity persists in equal-access systems (VA)."
+      },
+      "clinicalPearl": "Racial disparities in ACS care: African Americans 30-40% less likely to receive cardiac cath. Multifactorial: Unconscious bias, access, system factors."
+    },
+    "references": ["IOM Unequal Treatment Report", "NEJM Racial Disparities in CAD"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
