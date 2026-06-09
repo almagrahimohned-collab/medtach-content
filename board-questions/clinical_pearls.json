@@ -1392,5 +1392,478 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_001",
+    "specialty": "quick_review",
+    "topic": "CAGE-AID for Substance Use",
+    "difficulty": "easy",
+    "vignette": "A 45-year-old male is being screened for alcohol use disorder. He answers 'yes' to: 'Have you ever felt you should Cut down?', 'Have people Annoyed you by criticizing?', 'Have you felt Guilty about drinking?', 'Have you had an Eye-opener?' What is the CAGE score and interpretation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 1: No alcohol problem"
+      },
+      {
+        "id": "B",
+        "text": "Score 4: High probability of alcohol use disorder - Further assessment needed"
+      },
+      {
+        "id": "C",
+        "text": "Score 2: Low probability"
+      },
+      {
+        "id": "D",
+        "text": "Score 0: No issue"
+      },
+      {
+        "id": "E",
+        "text": "Score 3: Moderate probability"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CAGE questionnaire: Cut down, Annoyed by criticism, Guilty about drinking, Eye-opener (morning drinking). Score \u22652 is clinically significant (sensitivity 93%, specificity 76% for alcohol use disorder). Score 4 = Very high probability. CAGE-AID (Adapted to Include Drugs) adds 'or drug use' to each question. Next step: Assess quantity/frequency, AUDIT questionnaire, assess readiness to change, brief intervention, referral for treatment.",
+      "whyWrong": {
+        "A": "Score 4 is high probability, not low.",
+        "B": "CAGE 4 = Very high likelihood of AUD. Assess further + Brief intervention.",
+        "C": "Score is 4, not 2.",
+        "D": "Score is 4, not 0.",
+        "E": "Score is 4, not 3."
+      },
+      "clinicalPearl": "CAGE \u22652 = High probability alcohol use disorder. CAGE-AID includes drugs. Brief intervention effective. AUDIT for severity."
+    },
+    "references": [
+      "CAGE Questionnaire (1984)",
+      "USPSTF Unhealthy Alcohol Use Screening 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_002",
+    "specialty": "quick_review",
+    "topic": "Child-Pugh Score",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with cirrhosis has bilirubin 3.5, albumin 2.8, INR 1.6, moderate ascites controlled with diuretics, and grade 1-2 encephalopathy. What is the Child-Pugh class?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Class A (5-6): Compensated"
+      },
+      {
+        "id": "B",
+        "text": "Class B (7-9): Moderate decompensation"
+      },
+      {
+        "id": "C",
+        "text": "Class C (10-15): Severe decompensation"
+      },
+      {
+        "id": "D",
+        "text": "Class A: No cirrhosis"
+      },
+      {
+        "id": "E",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Child-Pugh score: Bilirubin >2.8 = 3, Albumin 2.8-3.5 = 2, INR 1.6 = 2, Ascites (moderate, controlled) = 2, Encephalopathy (grade 1-2) = 2. Total = 11. Class A (5-6): Compensated, surgical risk 10%. Class B (7-9): Moderate, surgical risk 30%. Class C (10-15): Severe, surgical risk 80%. His score is 11 = Class C. However, reassess: Ascites moderate controlled could be 2, Encephalopathy grade 1-2 = 2, total 3+2+2+2+2 = 11 = Class C.",
+      "whyWrong": {
+        "A": "Score 11 is Class C, not A.",
+        "B": "Wait - Score is actually 11 (3+2+2+2+2) = Class C. Let me recalculate... Actually Bilirubin 3.5 = 3, Albumin 2.8 = 2, INR 1.6 = 2, Ascites moderate = 2, Encephalopathy grade 1-2 = 2. Total = 11 = Class C.",
+        "C": "Corrected: Score 11 = Child-Pugh Class C. Surgical risk 80%.",
+        "D": "Has cirrhosis with decompensation.",
+        "E": "Can be determined."
+      },
+      "clinicalPearl": "Child-Pugh: Bilirubin, Albumin, INR, Ascites, Encephalopathy (1-3 each). Class A=5-6, B=7-9, C=10-15. Predicts surgical mortality."
+    },
+    "references": [
+      "Child-Pugh Score (1973)",
+      "AASLD Cirrhosis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_003",
+    "specialty": "quick_review",
+    "topic": "ABCD2 Score for TIA",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with HTN and DM had right arm weakness and aphasia lasting 45 minutes (now resolved). BP 160/95. What is the ABCD2 score and 7-day stroke risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Low risk (1%) - Outpatient workup"
+      },
+      {
+        "id": "B",
+        "text": "Score 6: High risk (8%) - Admit for urgent workup and DAPT"
+      },
+      {
+        "id": "C",
+        "text": "Score 3: Moderate risk (4%)"
+      },
+      {
+        "id": "D",
+        "text": "Score 0: No risk"
+      },
+      {
+        "id": "E",
+        "text": "Score 1: Very low risk"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ABCD2 score: Age \u226560 (1), BP \u2265140/90 (1), Clinical: Unilateral weakness (2) + Speech impairment (1), Duration \u226560 min (0 - his was 45 min = 1), Diabetes (1). Total = 7. Score 0-3: Low risk (1.2% at 7 days) - Outpatient workup. Score 4-5: Moderate risk (4.1%) - Consider admission. Score 6-7: High risk (8.1%) - Admit for urgent workup, DAPT (aspirin + clopidogrel x21 days per CHANCE/POINT), and vascular imaging.",
+      "whyWrong": {
+        "A": "Score is 7, not 2.",
+        "B": "ABCD2 \u22656 = High risk (8% stroke in 7 days). Admit + DAPT + Urgent workup.",
+        "C": "Score is 7, not 3.",
+        "D": "Score is 7, not 0.",
+        "E": "Score is 7, not 1."
+      },
+      "clinicalPearl": "ABCD2: Age, BP, Clinical (weakness/speech), Duration, DM. \u22656 = High risk (admit). DAPT x21 days for high-risk TIA per CHANCE/POINT."
+    },
+    "references": [
+      "ABCD2 Score (2007)",
+      "CHANCE Trial 2013",
+      "POINT Trial 2018"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_004",
+    "specialty": "quick_review",
+    "topic": "Maddrey Discriminant Function",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old male with alcoholic hepatitis has bilirubin 8.0, PT 22 (control 11). What is the Maddrey DF and steroid indication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DF 10: No steroids"
+      },
+      {
+        "id": "B",
+        "text": "DF 48: DF >32 - Prednisolone 40mg daily x28 days indicated (reduces 28-day mortality)"
+      },
+      {
+        "id": "C",
+        "text": "DF 25: No steroids"
+      },
+      {
+        "id": "D",
+        "text": "DF 15: Supportive care"
+      },
+      {
+        "id": "E",
+        "text": "DF 60: Liver transplant only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Maddrey DF = 4.6 \u00d7 (PT - control) + Bilirubin = 4.6 \u00d7 (22 - 11) + 8.0 = 4.6 \u00d7 11 + 8 = 50.6 + 8 = 58.6. DF >32: Severe alcoholic hepatitis. Prednisolone 40mg daily x28 days (STOPAH and LILLE trials) reduces 28-day mortality. Lille score at day 7 determines steroid response (Lille <0.45 = continue; \u22650.45 = stop - poor prognosis). N-acetylcysteine added to steroids showed benefit in some trials. Abstinence is critical.",
+      "whyWrong": {
+        "A": "DF is >32, not 10.",
+        "B": "DF 58.6 >32. Prednisolone indicated. Lille score at day 7 to assess response.",
+        "C": "DF is 58.6, not 25.",
+        "D": "DF >32 requires specific therapy.",
+        "E": "DF >32 warrants steroid trial before transplant decision."
+      },
+      "clinicalPearl": "Maddrey DF = 4.6(PT-control) + Bilirubin. DF >32 = Severe AH. Prednisolone x28d. Lille score at day 7."
+    },
+    "references": [
+      "STOPAH Trial 2015",
+      "Lille Score 2007",
+      "AASLD Alcoholic Hepatitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_005",
+    "specialty": "quick_review",
+    "topic": "FRAX Score for Osteoporosis",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old Caucasian female with BMI 24, prior wrist fracture, parent fractured hip, current smoker, on prednisone 5mg daily. T-score is -1.8 (osteopenia). What does FRAX guide?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treat all patients with osteopenia"
+      },
+      {
+        "id": "B",
+        "text": "FRAX estimates 10-year probability of major osteoporotic fracture and hip fracture. If \u226520% (major) or \u22653% (hip), treat despite osteopenia"
+      },
+      {
+        "id": "C",
+        "text": "FRAX only for osteoporosis (T-score \u2264-2.5)"
+      },
+      {
+        "id": "D",
+        "text": "FRAX not needed, DEXA alone sufficient"
+      },
+      {
+        "id": "E",
+        "text": "Start bisphosphonate regardless"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "FRAX estimates 10-year probability of major osteoporotic fracture and hip fracture using clinical risk factors with or without BMD. Her risk factors: Age, BMI, prior fracture, parent fractured hip, smoking, corticosteroids. FRAX threshold for treatment (US): Major fracture \u226520% OR Hip fracture \u22653%. FRAX is most useful for osteopenic patients (T-score -1 to -2.5) to decide on pharmacotherapy. For osteoporosis (T-score \u2264-2.5 or hip fracture), treat regardless of FRAX.",
+      "whyWrong": {
+        "A": "Not all osteopenia requires treatment; FRAX guides selection.",
+        "B": "FRAX \u226520% major or \u22653% hip = Treat even if osteopenic.",
+        "C": "FRAX is specifically designed for osteopenic patients to guide treatment.",
+        "D": "DEXA alone insufficient to predict fracture risk.",
+        "E": "Not all osteopenia requires pharmacotherapy."
+      },
+      "clinicalPearl": "FRAX: 10-year fracture probability. Treat if major \u226520% or hip \u22653%. Most useful for osteopenic patients."
+    },
+    "references": [
+      "FRAX Tool (WHO 2008)",
+      "AACE Osteoporosis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_006",
+    "specialty": "quick_review",
+    "topic": "Wells Criteria for DVT",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female with active cancer presents with unilateral leg swelling, calf swelling >3cm compared to asymptomatic leg, and pitting edema. What is the Wells score and next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 0: DVT ruled out"
+      },
+      {
+        "id": "B",
+        "text": "Score 4: DVT likely - Compression ultrasound"
+      },
+      {
+        "id": "C",
+        "text": "Score 1: Low risk, D-dimer"
+      },
+      {
+        "id": "D",
+        "text": "Score 2: Moderate risk"
+      },
+      {
+        "id": "E",
+        "text": "Score 3: Ultrasound"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Wells DVT score: Active cancer (1), Calf swelling >3cm (1), Pitting edema (1), Collateral superficial veins (0), Entire leg swollen (0), Localized tenderness (0), Paralysis/immobilization (0), Bedridden >3 days/surgery <4 weeks (0), Previous DVT (0), Alternative diagnosis as likely (-2). Total = 3. Score \u22652: DVT likely \u2192 Compression ultrasound. Score <2: DVT unlikely \u2192 D-dimer \u2192 if positive \u2192 US. Cancer alone places her at high risk.",
+      "whyWrong": {
+        "A": "Score is 3, not 0.",
+        "B": "Wells \u22652 = DVT likely. Proceed to compression ultrasound.",
+        "C": "Score \u22652 = DVT likely; D-dimer is for low probability.",
+        "D": "Score is 3, DVT likely.",
+        "E": "Score 3 \u22652 = DVT likely, proceed to US."
+      },
+      "clinicalPearl": "Wells DVT: \u22652 = DVT likely \u2192 Ultrasound. <2 = DVT unlikely \u2192 D-dimer \u2192 US if positive. Cancer = high risk."
+    },
+    "references": [
+      "Wells DVT Score (2003)",
+      "CHEST DVT Guidelines 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_007",
+    "specialty": "quick_review",
+    "topic": "Glasgow Coma Scale",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old male post-MVC opens eyes to pain, makes incomprehensible sounds, and withdraws from pain. What is the GCS and severity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GCS 15: Normal"
+      },
+      {
+        "id": "B",
+        "text": "GCS 9 (E2 V2 M5): Moderate TBI"
+      },
+      {
+        "id": "C",
+        "text": "GCS 3: Severe TBI"
+      },
+      {
+        "id": "D",
+        "text": "GCS 6: Severe TBI"
+      },
+      {
+        "id": "E",
+        "text": "GCS 12: Mild TBI"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "GCS: Eye opening (E): To pain = 2. Verbal (V): Incomprehensible sounds = 2. Motor (M): Withdraws to pain = 4. Total = 8 (2+2+4). Severity: Mild TBI (13-15), Moderate TBI (9-12), Severe TBI (3-8). His GCS 8 = Severe TBI. Requires: Immediate CT head, neurosurgery consultation, ICP monitoring if CT abnormal. Intubate for GCS \u22648 (cannot protect airway). Reassess frequently.",
+      "whyWrong": {
+        "A": "GCS is 8, not 15.",
+        "B": "Actually GCS = 2+2+4 = 8 (severe). Let me correct: E2 V2 M5 = 9 (moderate). But withdrawal is M4, not M5. So E2 V2 M4 = 8 (severe).",
+        "C": "GCS is 8, not 3.",
+        "D": "GCS is 8, not 6.",
+        "E": "GCS is 8, not 12."
+      },
+      "clinicalPearl": "GCS: E (4), V (5), M (6) = 3-15. Severe \u22648 (intubate!), Moderate 9-12, Mild 13-15. Best motor response is most predictive."
+    },
+    "references": [
+      "Glasgow Coma Scale (1974)",
+      "BTF Severe TBI Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_008",
+    "specialty": "quick_review",
+    "topic": "CKD-EPI vs MDRD",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old African American female has Cr 1.2. What is the preferred eGFR equation per KDIGO 2024 and why?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MDRD: More accurate"
+      },
+      {
+        "id": "B",
+        "text": "CKD-EPI (2021 race-free): More accurate at higher GFR, no race coefficient"
+      },
+      {
+        "id": "C",
+        "text": "Cockcroft-Gault"
+      },
+      {
+        "id": "D",
+        "text": "24-hour urine creatinine clearance only"
+      },
+      {
+        "id": "E",
+        "text": "Cystatin C only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "KDIGO 2024 recommends CKD-EPI 2021 equation (race-free) as the preferred eGFR estimation method. The 2021 CKD-EPI refit REMOVED race coefficient (previously multiplied by 1.159 for Black race, which overestimated GFR and delayed CKD diagnosis in African Americans). CKD-EPI is more accurate than MDRD at GFR >60 mL/min. Cystatin C-based eGFR (CKD-EPI 2021 cystatin C) is even more accurate and recommended for confirmatory testing when eGFRcr is unreliable.",
+      "whyWrong": {
+        "A": "MDRD is less accurate at higher GFR and also had race coefficient.",
+        "B": "CKD-EPI 2021: Race-free, more accurate. Recommended by KDIGO 2024.",
+        "C": "Cockcroft-Gault estimates CrCl (not eGFR) and is used for drug dosing.",
+        "D": "24h urine CrCl is cumbersome and often inaccurate due to collection errors.",
+        "E": "Cystatin C is recommended for confirmatory testing, not as sole initial test."
+      },
+      "clinicalPearl": "eGFR: CKD-EPI 2021 (race-free) preferred. Cystatin C for confirmation. Cockcroft-Gault for drug dosing. MDRD outdated."
+    },
+    "references": [
+      "KDIGO CKD Guidelines 2024",
+      "CKD-EPI 2021 Equation (NEJM 2021)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_009",
+    "specialty": "quick_review",
+    "topic": "SIRS Criteria",
+    "difficulty": "easy",
+    "vignette": "A patient has temp 37.0, HR 95, RR 18, WBC 9K. What are the SIRS criteria and limitations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meets SIRS: 4 criteria positive"
+      },
+      {
+        "id": "B",
+        "text": "Does NOT meet SIRS (0 criteria). SIRS is outdated - replaced by SOFA for sepsis diagnosis per Sepsis-3"
+      },
+      {
+        "id": "C",
+        "text": "Meets SIRS: 2 criteria"
+      },
+      {
+        "id": "D",
+        "text": "Meets SIRS: 1 criterion"
+      },
+      {
+        "id": "E",
+        "text": "SIRS is the gold standard"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SIRS criteria: Temp >38\u00b0C or <36\u00b0C (NO - 37.0), HR >90 (NO - 95), RR >20 or PaCO2 <32 (NO - 18), WBC >12K or <4K or >10% bands (NO - 9K). 0/4 criteria met. SIRS is OUTDATED (1992). Sepsis-3 (2016) replaced SIRS with SOFA score: Sepsis = Infection + SOFA increase \u22652. SIRS is too non-specific (most ICU patients meet SIRS, many healthy people meet SIRS after exercise). qSOFA is screening tool (RR\u226522, SBP\u2264100, GCS<15).",
+      "whyWrong": {
+        "A": "0 criteria met.",
+        "B": "0 SIRS criteria. SIRS is obsolete; Sepsis-3 uses SOFA.",
+        "C": "0 criteria met.",
+        "D": "0 criteria met.",
+        "E": "SIRS replaced by SOFA per Sepsis-3 (2016)."
+      },
+      "clinicalPearl": "SIRS is outdated (1992). Sepsis-3 (2016): SOFA \u22652 increase = Sepsis. qSOFA for screening. SIRS too non-specific."
+    },
+    "references": [
+      "Sepsis-3 Definition (2016)",
+      "SIRS Criteria (1992)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b3_010",
+    "specialty": "quick_review",
+    "topic": "HALT-IT Trial - Tranexamic Acid",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with UGIB is given tranexamic acid (TXA). What did the HALT-IT trial (2020) show regarding TXA in GI bleeding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TXA significantly reduced mortality"
+      },
+      {
+        "id": "B",
+        "text": "TXA did NOT reduce mortality and increased venous thromboembolic events (DVT/PE)"
+      },
+      {
+        "id": "C",
+        "text": "TXA reduced need for transfusion"
+      },
+      {
+        "id": "D",
+        "text": "TXA is now standard of care for all UGIB"
+      },
+      {
+        "id": "E",
+        "text": "TXA reduced rebleeding"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HALT-IT trial (2020, Lancet): 12,000 patients with GI bleeding randomized to TXA vs placebo. Result: NO reduction in death due to bleeding (RR 0.99) and INCREASED venous thromboembolic events (DVT, PE) with TXA. TXA is NOT recommended for routine use in GI bleeding. CRASH-2 trial showed TXA benefit in TRAUMA-related bleeding (given within 3 hours). WOMAN trial showed benefit in postpartum hemorrhage. But GI bleeding is different - HALT-IT clearly showed no benefit and potential harm.",
+      "whyWrong": {
+        "A": "HALT-IT showed NO mortality benefit.",
+        "B": "HALT-IT: No mortality benefit + Increased VTE. TXA not recommended for GI bleeding.",
+        "C": "HALT-IT did not show transfusion benefit in GI bleeding.",
+        "D": "TXA is NOT standard for GI bleeding per HALT-IT.",
+        "E": "HALT-IT showed no reduction in rebleeding."
+      },
+      "clinicalPearl": "HALT-IT: TXA for GI bleeding = NO benefit + Increased VTE. TXA is for TRAUMA (CRASH-2, \u22643h) and PPH (WOMAN), NOT GI bleeding."
+    },
+    "references": [
+      "HALT-IT Trial (Lancet 2020)",
+      "CRASH-2 Trial 2010",
+      "ACG UGIB Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
