@@ -428,3 +428,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ophtho_016",
+    "specialty": "ophthalmology",
+    "topic": "Keratoconus",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male presents with progressive blurred vision, frequent changes in glasses prescription, and irregular astigmatism. Corneal topography shows inferior corneal steepening. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Cataract" },
+      { "id": "B", "text": "Keratoconus" },
+      { "id": "C", "text": "Glaucoma" },
+      { "id": "D", "text": "Macular degeneration" },
+      { "id": "E", "text": "Corneal abrasion" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Keratoconus: Progressive corneal thinning → Conical shape. Presents in teens/20s. Frequent prescription changes, irregular astigmatism. Risk factors: Eye rubbing, Down syndrome, connective tissue disorders. Treatment: Corneal cross-linking (halts progression), rigid contact lenses, corneal transplant if severe.",
+      "whyWrong": {
+        "A": "Cataract: Lens opacity, older age.",
+        "C": "Glaucoma: Elevated IOP, cupping of optic nerve.",
+        "D": "AMD: Older age, drusen, central vision loss.",
+        "E": "Abrasion: Acute onset, pain, fluorescein uptake."
+      },
+      "clinicalPearl": "Keratoconus: Progressive irregular astigmatism in teens/20s. Corneal cross-linking halts progression. Stop eye rubbing!"
+    },
+    "references": ["AAO Keratoconus Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_017",
+    "specialty": "ophthalmology",
+    "topic": "Horner Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male presents with ptosis, miosis (constricted pupil), and anhidrosis on the left side of his face. The pupil dilates poorly in the dark. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Third nerve palsy" },
+      { "id": "B", "text": "Horner syndrome" },
+      { "id": "C", "text": "Adie tonic pupil" },
+      { "id": "D", "text": "Argyll Robertson pupil" },
+      { "id": "E", "text": "Physiological anisocoria" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Horner syndrome: Triad = Ptosis (Muller muscle) + Miosis (constricted pupil) + Anhidrosis. Interruption of sympathetic pathway. Anisocoria worse in DARK (affected pupil fails to dilate). Causes: Pancoast tumor, carotid dissection, brainstem stroke. Apraclonidine test confirms.",
+      "whyWrong": {
+        "A": "CN III: Ptosis + Mydriasis (dilated) + Down and out eye.",
+        "C": "Adie: Tonic pupil, slow constriction, vermiform movements.",
+        "D": "Argyll Robertson: Accommodates but does not react to light (neurosyphilis).",
+        "E": "Physiological: <1mm difference, equal in light and dark."
+      },
+      "clinicalPearl": "Horner: Ptosis + Miosis + Anhidrosis. Anisocoria worse in DARK. Sympathetic pathway lesion. Apraclonidine test."
+    },
+    "references": ["Horner Syndrome Evaluation"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_018",
+    "specialty": "ophthalmology",
+    "topic": "Third Nerve Palsy",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old diabetic male presents with sudden onset right eye ptosis, dilated pupil, and eye positioned 'down and out.' What is the MOST important diagnosis to rule out?",
+    "options": [
+      { "id": "A", "text": "Diabetic microvascular CN III palsy" },
+      { "id": "B", "text": "Posterior communicating artery aneurysm" },
+      { "id": "C", "text": "Myasthenia gravis" },
+      { "id": "D", "text": "Horner syndrome" },
+      { "id": "E", "text": "Thyroid eye disease" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pupil-involving CN III palsy = PCOM ANEURYSM until proven otherwise (surgical emergency). Pupil fibers are on the OUTSIDE of CN III (compressed by aneurysm first). Diabetic CN III palsy is pupil-SPARING. Urgent CTA/MRA + neurosurgery consult.",
+      "whyWrong": {
+        "A": "Diabetic CN III palsy is PUPIL-SPARING. This patient has a dilated pupil.",
+        "C": "MG: Fatigable weakness, pupils NEVER involved.",
+        "D": "Horner: Miosis (constricted), not mydriasis.",
+        "E": "TED: Bilateral proptosis, lid retraction, not acute CN III palsy."
+      },
+      "clinicalPearl": "Pupil-involved CN III palsy = PCOM aneurysm until proven otherwise. EMERGENCY! CTA/MRA STAT."
+    },
+    "references": ["AAO Cranial Nerve Palsy Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

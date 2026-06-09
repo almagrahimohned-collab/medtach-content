@@ -597,3 +597,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_em_022",
+    "specialty": "emergency",
+    "topic": "Status Epilepticus",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male has been seizing continuously for 8 minutes. He received lorazepam 4mg IV by EMS without response. What is the NEXT medication?",
+    "options": [
+      { "id": "A", "text": "Repeat lorazepam 4mg IV" },
+      { "id": "B", "text": "Fosphenytoin 20mg/kg IV" },
+      { "id": "C", "text": "Propofol infusion" },
+      { "id": "D", "text": "Levetiracetam 500mg PO" },
+      { "id": "E", "text": "Dexamethasone 10mg IV" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Status epilepticus: 1st line = Benzodiazepine (lorazepam). If still seizing at 5-10 min → 2nd line: Fosphenytoin, Valproate, or Levetiracetam IV. If still seizing → 3rd line: Propofol or Midazolam infusion (intubate). Continuous EEG monitoring.",
+      "whyWrong": {
+        "A": "Repeating BZD after failure is less effective and increases respiratory depression.",
+        "C": "Propofol is 3rd line (refractory status).",
+        "D": "Levetiracetam IV (not PO) is alternative 2nd line.",
+        "E": "Steroids have no role in status epilepticus."
+      },
+      "clinicalPearl": "Status epilepticus: BZD → Fosphenytoin/Valproate/Levetiracetam (IV) → Propofol/Midazolam infusion + Intubation."
+    },
+    "references": ["Neurocritical Care Society Status Epilepticus Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_023",
+    "specialty": "emergency",
+    "topic": "Electrical Injuries",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old electrician sustains an electrical injury from a high-voltage line. Entry wound is on his right hand, exit wound on his left foot. He has dark urine. What is the MOST serious complication?",
+    "options": [
+      { "id": "A", "text": "Cardiac arrhythmia" },
+      { "id": "B", "text": "Rhabdomyolysis and compartment syndrome" },
+      { "id": "C", "text": "Cataracts" },
+      { "id": "D", "text": "Peripheral neuropathy" },
+      { "id": "E", "text": "Skin burns only" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "High-voltage electrical injury: Current passes through body → Massive rhabdomyolysis (dark urine = myoglobinuria) + Compartment syndrome. Aggressive IV fluids (target UO 100-200mL/h). Monitor for hyperkalemia, ARF. Fasciotomy if compartment syndrome. Cardiac monitoring for 24-48h (arrhythmias).",
+      "whyWrong": {
+        "A": "Arrhythmias are common but often transient.",
+        "C": "Cataracts are a late complication (months-years).",
+        "D": "Neuropathy is common but not acutely life-threatening.",
+        "E": "External burns may appear small but internal damage is extensive."
+      },
+      "clinicalPearl": "Electrical injury: Rhabdomyolysis + Compartment syndrome = Major concerns. Aggressive IV fluids. Fasciotomy if needed."
+    },
+    "references": ["ACEP Electrical Injury Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_024",
+    "specialty": "emergency",
+    "topic": "Pediatric Dehydration",
+    "difficulty": "medium",
+    "vignette": "A 1-year-old infant with vomiting and diarrhea for 3 days presents with sunken eyes, dry mucous membranes, decreased skin turgor, and capillary refill of 3 seconds. What is the degree of dehydration?",
+    "options": [
+      { "id": "A", "text": "Mild (3-5%)" },
+      { "id": "B", "text": "Moderate (6-9%)" },
+      { "id": "C", "text": "Severe (>10%)" },
+      { "id": "D", "text": "No dehydration" },
+      { "id": "E", "text": "Hypernatremic dehydration" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Moderate dehydration (6-9%): Sunken eyes, dry mucous membranes, decreased skin turgor, prolonged capillary refill (2-3 sec), irritable, thirsty. Severe (>10%): Very sunken eyes, absent tears, skin tenting, prolonged cap refill (>3 sec), lethargic, hypotensive. Mild (3-5%): Slightly dry mucosa, thirsty, alert.",
+      "whyWrong": {
+        "A": "Mild: Alert, slightly dry mouth, normal cap refill.",
+        "C": "Severe: Lethargic, very sunken eyes, skin tenting, shock.",
+        "D": "Definitely dehydrated based on exam.",
+        "E": "Hypernatremic: Doughy skin, neurological symptoms."
+      },
+      "clinicalPearl": "Moderate dehydration: Sunken eyes + Dry mucosa + Delayed cap refill. Oral rehydration if tolerating, IV fluids if not."
+    },
+    "references": ["WHO Dehydration Assessment"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

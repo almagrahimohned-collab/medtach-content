@@ -428,3 +428,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ent_016",
+    "specialty": "ent",
+    "topic": "Nasal Polyps",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old asthmatic male presents with chronic nasal congestion, anosmia, and recurrent sinusitis. Nasal endoscopy shows bilateral, pale, grape-like masses in the middle meatus. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Surgical polypectomy" },
+      { "id": "B", "text": "Intranasal corticosteroids + Saline irrigation" },
+      { "id": "C", "text": "Oral antibiotics" },
+      { "id": "D", "text": "Oral steroids alone" },
+      { "id": "E", "text": "Observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Nasal polyps (CRSwNP): Bilateral pale grape-like masses. Associated with asthma, aspirin sensitivity (Samter triad). First-line: Intranasal corticosteroids + Saline irrigation. If severe: Short course of oral steroids. Refractory: Surgery (FESS) or Biologics (dupilumab - anti-IL4/IL13).",
+      "whyWrong": {
+        "A": "Surgery is for refractory cases after medical therapy fails.",
+        "C": "Antibiotics are for acute bacterial sinusitis, not primary polyp treatment.",
+        "D": "Oral steroids are for severe or acute exacerbations, not maintenance.",
+        "E": "Polyps require treatment (progressive symptoms)."
+      },
+      "clinicalPearl": "Nasal polyps: Bilateral pale masses + Asthma + Anosmia. Intranasal steroids first-line. Dupilumab for refractory."
+    },
+    "references": ["AAO-HNS Nasal Polyp Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_017",
+    "specialty": "ent",
+    "topic": "Laryngomalacia",
+    "difficulty": "medium",
+    "vignette": "A 2-month-old infant presents with inspiratory stridor that worsens with feeding and crying and improves when prone. The stridor has been present since birth. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Croup" },
+      { "id": "B", "text": "Laryngomalacia" },
+      { "id": "C", "text": "Epiglottitis" },
+      { "id": "D", "text": "Foreign body aspiration" },
+      { "id": "E", "text": "Subglottic stenosis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Laryngomalacia: Most common cause of congenital stridor. Inspiratory stridor, worsens with feeding/crying, improves prone. Supraglottic collapse on inspiration. Usually self-limited (resolves by 12-18 months). Severe cases: Stridor with feeding difficulty, failure to thrive, apnea → Supraglottoplasty.",
+      "whyWrong": {
+        "A": "Croup: Barking cough, older infants (6mo-3yr), viral prodrome.",
+        "C": "Epiglottitis: Rapid onset, toxic appearance, drooling, thumb sign.",
+        "D": "Foreign body: Sudden onset, unilateral wheeze, air trapping.",
+        "E": "Subglottic stenosis: Post-intubation, biphasic stridor."
+      },
+      "clinicalPearl": "Laryngomalacia: Congenital inspiratory stridor, worse feeding, better prone. Self-limited. Severe = Supraglottoplasty."
+    },
+    "references": ["AAO-HNS Pediatric Stridor Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_018",
+    "specialty": "ent",
+    "topic": "Zenker Diverticulum",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male presents with dysphagia, regurgitation of undigested food hours after eating, halitosis, and a gurgling sound in his neck. Barium swallow shows a posterior pharyngeal outpouching. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Achalasia" },
+      { "id": "B", "text": "Zenker diverticulum" },
+      { "id": "C", "text": "Esophageal cancer" },
+      { "id": "D", "text": "Hiatal hernia" },
+      { "id": "E", "text": "Plummer-Vinson syndrome" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Zenker diverticulum: Pharyngoesophageal (Killian dehiscence). Regurgitation of undigested food hours after meals + Halitosis + Gurgling. Barium swallow shows posterior outpouching. Treatment: Endoscopic stapling or open diverticulectomy + Cricopharyngeal myotomy.",
+      "whyWrong": {
+        "A": "Achalasia: Dysphagia to solids/liquids, bird's beak on barium.",
+        "C": "Esophageal cancer: Progressive dysphagia, weight loss, mass on EGD.",
+        "D": "Hiatal hernia: Heartburn, regurgitation, not gurgling.",
+        "E": "Plummer-Vinson: Dysphagia + Iron deficiency anemia + Esophageal web."
+      },
+      "clinicalPearl": "Zenker: Regurgitation of undigested food + Halitosis + Gurgling. Posterior pharyngeal pouch. Endoscopic treatment."
+    },
+    "references": ["AAO-HNS Zenker Diverticulum"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

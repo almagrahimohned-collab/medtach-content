@@ -624,3 +624,117 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_derm_023",
+    "specialty": "dermatology",
+    "topic": "Molluscum Contagiosum",
+    "difficulty": "easy",
+    "vignette": "A 5-year-old boy presents with multiple small, flesh-colored, dome-shaped papules with central umbilication on his trunk and arms. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Oral acyclovir" },
+      { "id": "B", "text": "Observation, most resolve spontaneously within 6-12 months" },
+      { "id": "C", "text": "Surgical excision" },
+      { "id": "D", "text": "Topical antibiotics" },
+      { "id": "E", "text": "Intralesional steroids" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Molluscum contagiosum: Poxvirus. Umbilicated papules. Self-limited (resolves in 6-12 months, up to 4 years). Treatment: Observation preferred in children. Options if desired: Curettage, cryotherapy, cantharidin, imiquimod. Avoid in pools (spreads).",
+      "whyWrong": {
+        "A": "Acyclovir treats HSV/VZV, not poxvirus.",
+        "C": "Surgery is excessive for self-limited condition.",
+        "D": "Antibiotics are ineffective against viruses.",
+        "E": "Steroids may worsen viral infections."
+      },
+      "clinicalPearl": "Molluscum: Umbilicated papules + Self-limited. Observation preferred. Cryotherapy or curettage if treatment desired."
+    },
+    "references": ["AAD Molluscum Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_024",
+    "specialty": "dermatology",
+    "topic": "Erythema Multiforme",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male presents with target lesions (3 zones of color) on his palms and soles. He had a cold sore last week. Oral mucosa is mildly involved. What is the MOST likely trigger?",
+    "options": [
+      { "id": "A", "text": "Mycoplasma pneumoniae" },
+      { "id": "B", "text": "Herpes simplex virus (HSV)" },
+      { "id": "C", "text": "Drug reaction" },
+      { "id": "D", "text": "SLE" },
+      { "id": "E", "text": "Streptococcal infection" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Erythema multiforme: Target lesions (3 zones) + Acral distribution (palms/soles) + HSV is most common trigger (>90% of EM minor). Mild oral involvement can occur. Recurrent HSV-associated EM: Valacyclovir suppression. Mycoplasma causes atypical target lesions and severe mucositis (MIRM).",
+      "whyWrong": {
+        "A": "Mycoplasma causes atypical targets and severe mucositis (MIRM), not classic EM.",
+        "C": "Drugs more commonly cause SJS/TEN, not EM.",
+        "D": "SLE causes malar rash, not target lesions.",
+        "E": "Strep causes guttate psoriasis or erythema nodosum, not EM."
+      },
+      "clinicalPearl": "EM: Target lesions + Acral + HSV trigger. Recurrent HSV-EM: Valacyclovir suppression. Drug-induced EM = suspect if severe or atypical."
+    },
+    "references": ["AAD Erythema Multiforme"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_025",
+    "specialty": "dermatology",
+    "topic": "Actinic Keratosis",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old farmer presents with multiple rough, scaly, sandpaper-like patches on his face, scalp, and dorsal hands. What is the BEST treatment for multiple lesions?",
+    "options": [
+      { "id": "A", "text": "Surgical excision of each lesion" },
+      { "id": "B", "text": "Field therapy with 5-fluorouracil (5-FU) cream or photodynamic therapy" },
+      { "id": "C", "text": "Observation only" },
+      { "id": "D", "text": "Oral steroids" },
+      { "id": "E", "text": "Mohs surgery" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Actinic keratosis: Precancerous (risk of SCC). Multiple lesions = Field cancerization. Treatment: Field therapy (5-FU cream, imiquimod, photodynamic therapy, diclofenac gel). Cryotherapy for isolated lesions. Surgical excision for suspected SCC. Sun protection essential.",
+      "whyWrong": {
+        "A": "Surgical excision of each lesion is impractical and unnecessary.",
+        "C": "AKs have malignant potential (SCC), should be treated.",
+        "D": "Steroids have no role in AK treatment.",
+        "E": "Mohs is for confirmed skin cancers, not field AKs."
+      },
+      "clinicalPearl": "Actinic keratosis: Precursor to SCC. Field therapy (5-FU, PDT) for multiple lesions. Cryotherapy for isolated. Sun protection."
+    },
+    "references": ["AAD Actinic Keratosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_026",
+    "specialty": "dermatology",
+    "topic": "Onychomycosis",
+    "difficulty": "easy",
+    "vignette": "A 55-year-old male presents with thickened, yellow, dystrophic toenails. KOH preparation shows fungal hyphae. What is the MOST effective treatment?",
+    "options": [
+      { "id": "A", "text": "Topical ciclopirox nail lacquer" },
+      { "id": "B", "text": "Oral terbinafine 250mg daily x12 weeks" },
+      { "id": "C", "text": "Topical clotrimazole cream" },
+      { "id": "D", "text": "Nail avulsion alone" },
+      { "id": "E", "text": "No treatment, will self-resolve" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Onychomycosis: Oral terbinafine is MOST effective (cure rate 70-80%). Duration: Toenails 12 weeks, fingernails 6 weeks. Monitor LFTs. Topical treatments have low efficacy (poor nail penetration). Surgical nail avulsion without antifungal has high recurrence.",
+      "whyWrong": {
+        "A": "Topical lacquer has <10% cure rate (poor penetration).",
+        "C": "Topical creams cannot penetrate the nail plate.",
+        "D": "Avulsion alone without antifungals has high recurrence.",
+        "E": "Onychomycosis does not self-resolve."
+      },
+      "clinicalPearl": "Onychomycosis: Oral terbinafine = Gold standard (12 weeks toenails, 6 weeks fingernails). Monitor LFTs."
+    },
+    "references": ["AAD Onychomycosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

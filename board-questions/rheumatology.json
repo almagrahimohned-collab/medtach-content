@@ -596,3 +596,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_rheum_022",
+    "specialty": "rheumatology",
+    "topic": "Adult-Onset Still Disease",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female presents with daily spiking fevers (>39°C), evanescent salmon-pink rash, arthritis, and sore throat. Labs: Leukocytosis, elevated ferritin (>5000), negative ANA and RF. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "SLE" },
+      { "id": "B", "text": "Adult-onset Still disease" },
+      { "id": "C", "text": "Rheumatoid arthritis" },
+      { "id": "D", "text": "Gout" },
+      { "id": "E", "text": "Septic arthritis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Adult-onset Still disease: Yamaguchi criteria. Daily spiking fevers + Salmon-pink evanescent rash (appears with fever) + Arthritis + Sore throat + Leukocytosis + Ferritin >1000 (often >5000) + Negative ANA/RF. Treatment: NSAIDs, steroids, anakinra (IL-1 inhibitor) for refractory.",
+      "whyWrong": {
+        "A": "SLE: Malar rash, ANA/dsDNA positive, not daily spiking fevers.",
+        "C": "RA: Symmetric polyarthritis, RF/anti-CCP positive, no spiking fevers.",
+        "D": "Gout: Acute monoarthritis, no systemic symptoms.",
+        "E": "Septic: Monoarthritis with positive cultures."
+      },
+      "clinicalPearl": "Still disease: Spiking fevers + Salmon-pink rash + Ferritin >5000. Anakinra (anti-IL1) for refractory. Rule out HLH."
+    },
+    "references": ["Yamaguchi Criteria for Still Disease"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_023",
+    "specialty": "rheumatology",
+    "topic": "Cryoglobulinemia",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male with chronic HCV presents with palpable purpura on his legs, peripheral neuropathy, and glomerulonephritis (hematuria, proteinuria). C4 is low, C3 is normal. Rheumatoid factor is positive. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "IgA vasculitis (HSP)" },
+      { "id": "B", "text": "Mixed cryoglobulinemia" },
+      { "id": "C", "text": "Granulomatosis with polyangiitis" },
+      { "id": "D", "text": "Microscopic polyangiitis" },
+      { "id": "E", "text": "SLE" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Mixed cryoglobulinemia (Type II): HCV-associated. Triad: Palpable purpura + Peripheral neuropathy + Glomerulonephritis (MPGN pattern). Labs: Low C4 (classic pathway activation), normal C3, positive RF (IgM anti-IgG). Treatment: Treat underlying HCV (DAA therapy) + Immunosuppression if severe.",
+      "whyWrong": {
+        "A": "HSP: IgA deposition, follows URI, more common in children.",
+        "C": "GPA: c-ANCA/PR3 positive, sinus/lung involvement.",
+        "D": "MPA: p-ANCA/MPO positive, no HCV association.",
+        "E": "SLE: Low C3 AND C4, ANA/dsDNA positive."
+      },
+      "clinicalPearl": "Cryoglobulinemia: HCV + Purpura + Neuropathy + GN + Low C4 (normal C3) + Positive RF. Treat HCV first!"
+    },
+    "references": ["EULAR Cryoglobulinemia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_024",
+    "specialty": "rheumatology",
+    "topic": "Ehlers-Danlos Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old female presents with hypermobile joints, skin hyperextensibility, and atrophic scarring. She has a history of joint dislocations. What type of EDS is this?",
+    "options": [
+      { "id": "A", "text": "Vascular type (Type IV)" },
+      { "id": "B", "text": "Classical type (Type I/II)" },
+      { "id": "C", "text": "Hypermobile type (Type III)" },
+      { "id": "D", "text": "Kyphoscoliotic type" },
+      { "id": "E", "text": "Arthrochalasia type" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Classical EDS (COL5A1, COL5A2): Skin hyperextensibility + Atrophic scarring + Joint hypermobility. Vascular EDS (COL3A1): Thin translucent skin, arterial/organ rupture, characteristic facies. Hypermobile EDS: Joint hypermobility without significant skin findings. No cure. Avoid contact sports.",
+      "whyWrong": {
+        "A": "Vascular: Arterial rupture, thin skin, no atrophic scarring.",
+        "C": "Hypermobile: Joint hypermobility, minimal skin involvement.",
+        "D": "Kyphoscoliotic: Severe scoliosis, ocular fragility.",
+        "E": "Arthrochalasia: Congenital hip dislocation."
+      },
+      "clinicalPearl": "Classical EDS: Skin hyperextensibility + Atrophic scars + Joint hypermobility. COL5A1/COL5A2. Vascular EDS: COL3A1, arterial rupture."
+    },
+    "references": ["International EDS Classification"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

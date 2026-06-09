@@ -456,3 +456,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_geri_017",
+    "specialty": "geriatrics",
+    "topic": "Vaccination in Elderly",
+    "difficulty": "easy",
+    "vignette": "A 75-year-old male asks what vaccines he needs. He received influenza vaccine last year, Tdap 2 years ago, and has never received pneumococcal, shingles, or RSV vaccines. What is recommended?",
+    "options": [
+      { "id": "A", "text": "Influenza only" },
+      { "id": "B", "text": "Influenza + PCV20 + Recombinant zoster (Shingrix) + RSV + COVID-19 booster" },
+      { "id": "C", "text": "Shingrix only" },
+      { "id": "D", "text": "Pneumococcal only" },
+      { "id": "E", "text": "No additional vaccines needed" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Adults ≥65: Influenza (annual, high-dose or adjuvanted preferred), Pneumococcal (PCV20 or PCV15+PPSV23), Shingrix (2 doses, 2-6 months apart, even if had Zostavax or shingles), RSV (shared decision, age ≥60+), COVID-19 booster, Tdap (q10 years).",
+      "whyWrong": {
+        "A": "Influenza alone is insufficient for elderly.",
+        "C": "Shingrix alone misses other important vaccines.",
+        "D": "Pneumococcal alone misses other vaccines.",
+        "E": "Multiple vaccines are recommended for adults ≥65."
+      },
+      "clinicalPearl": "Elderly vaccines: Flu (high-dose) + PCV20 + Shingrix + RSV + COVID + Tdap. Shingrix even if prior Zostavax."
+    },
+    "references": ["CDC Adult Immunization Schedule 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_018",
+    "specialty": "geriatrics",
+    "topic": "Insomnia in Elderly",
+    "difficulty": "medium",
+    "vignette": "An 80-year-old female complains of difficulty falling asleep and frequent nighttime awakenings. She has been using diphenhydramine (Benadryl) for sleep. What is the BEST recommendation?",
+    "options": [
+      { "id": "A", "text": "Continue diphenhydramine, it's safe and effective" },
+      { "id": "B", "text": "Stop diphenhydramine, use CBT for insomnia (CBT-I) + sleep hygiene" },
+      { "id": "C", "text": "Add zolpidem (Ambien)" },
+      { "id": "D", "text": "Add lorazepam" },
+      { "id": "E", "text": "Increase diphenhydramine dose" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Diphenhydramine is on the Beers list (strong anticholinergic: Confusion, falls, urinary retention). CBT-I is FIRST-LINE for chronic insomnia (more effective and durable than medications). Sleep hygiene: Consistent schedule, avoid screens before bed, limit caffeine/alcohol. Melatonin may help.",
+      "whyWrong": {
+        "A": "Diphenhydramine is inappropriate in elderly (Beers list).",
+        "C": "Z-drugs (zolpidem) increase falls and cognitive impairment.",
+        "D": "Benzodiazepines are on Beers list (falls, cognitive impairment).",
+        "E": "Increasing dose worsens anticholinergic toxicity."
+      },
+      "clinicalPearl": "Insomnia in elderly: CBT-I first-line. Avoid anticholinergics (diphenhydramine), benzodiazepines, and Z-drugs."
+    },
+    "references": ["AGS Beers Criteria 2023", "AASM Insomnia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_019",
+    "specialty": "geriatrics",
+    "topic": "Prognostication",
+    "difficulty": "medium",
+    "vignette": "An 85-year-old male with end-stage heart failure (EF 15%, on home inotropes), CKD stage 5 on dialysis, and ECOG performance status 4 asks about his prognosis. He is considering hospice. What is his approximate life expectancy?",
+    "options": [
+      { "id": "A", "text": "5-10 years" },
+      { "id": "B", "text": "Weeks to months (<6 months)" },
+      { "id": "C", "text": "1-2 years" },
+      { "id": "D", "text": "Cannot be estimated" },
+      { "id": "E", "text": "10+ years" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "End-stage HF + Dialysis + ECOG 4 (completely disabled, cannot carry on any self-care, totally confined to bed/chair) = Prognosis of weeks to months. Hospice eligible (<6 months). Goals of care discussion: Focus on comfort and quality of life. 'Surprise question': Would you be surprised if this patient died in the next 6-12 months?",
+      "whyWrong": {
+        "A": "5-10 years is not realistic with end-stage multi-organ failure.",
+        "C": "1-2 years possible but less likely given severity.",
+        "D": "Prognosis can be estimated based on clinical criteria.",
+        "E": "Not realistic with end-stage disease."
+      },
+      "clinicalPearl": "Hospice eligibility (<6 months): Use 'Surprise Question.' End-stage HF + Dialysis + ECOG 4 = Weeks to months."
+    },
+    "references": ["CMS Hospice Guidelines", "Palliative Care Prognostication"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
