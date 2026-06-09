@@ -336,3 +336,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_cardio_013",
+    "specialty": "cardiology",
+    "topic": "Cardiomyopathy",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old African American male presents with progressive dyspnea and palpitations. Echo shows severe biventricular dilation, EF 20%, global hypokinesis. Coronary angiography is normal. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Ischemic cardiomyopathy" },
+      { "id": "B", "text": "Idiopathic dilated cardiomyopathy" },
+      { "id": "C", "text": "Hypertrophic cardiomyopathy" },
+      { "id": "D", "text": "Restrictive cardiomyopathy" },
+      { "id": "E", "text": "Arrhythmogenic right ventricular dysplasia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Idiopathic dilated cardiomyopathy: Biventricular dilation, severely reduced EF, normal coronaries. More common and more aggressive in African Americans. Family history often positive (20-35% familial).",
+      "whyWrong": {
+        "A": "Ischemic would have CAD on angiography.",
+        "C": "HCM has asymmetric septal hypertrophy, not biventricular dilation.",
+        "D": "Restrictive has normal LV size/function with diastolic dysfunction.",
+        "E": "ARVD affects primarily right ventricle with fatty infiltration."
+      },
+      "clinicalPearl": "Dilated cardiomyopathy: LV dilation + reduced EF + normal coronaries. African Americans: Higher risk, worse prognosis."
+    },
+    "references": ["AHA Cardiomyopathy Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_014",
+    "specialty": "cardiology",
+    "topic": "Syncope",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male presents with syncope while shaving. He recalls feeling his heart 'racing' before losing consciousness. ECG shows sinus rhythm with right bundle branch block and ST elevation in V1-V3. What is the MOST likely cause?",
+    "options": [
+      { "id": "A", "text": "Vasovagal syncope" },
+      { "id": "B", "text": "Brugada syndrome" },
+      { "id": "C", "text": "Aortic stenosis" },
+      { "id": "D", "text": "Long QT syndrome" },
+      { "id": "E", "text": "Orthostatic hypotension" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Brugada syndrome: RBBB pattern + ST elevation in V1-V3 + syncope/ventricular arrhythmias. Autosomal dominant, more common in Asian males. Triggers: Fever, vagal stimuli (shaving), large meals. Treatment: ICD for symptomatic patients.",
+      "whyWrong": {
+        "A": "Vasovagal has prodrome (nausea, diaphoresis), no ECG findings.",
+        "C": "AS syncope occurs with exertion, characteristic systolic murmur.",
+        "D": "Long QT has prolonged QTc, not ST elevation.",
+        "E": "Orthostatic hypotension has postural BP drop, normal ECG."
+      },
+      "clinicalPearl": "Brugada: RBBB + ST elevation V1-V3 + Syncope/VT. ICD if symptomatic. Avoid drugs that worsen ST elevation."
+    },
+    "references": ["Brugada Syndrome Consensus Document"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_015",
+    "specialty": "cardiology",
+    "topic": "Lipid Management",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with diabetes and hypertension has LDL-C 180 mg/dL despite high-intensity atorvastatin 80mg. He had an MI 6 months ago. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Switch to rosuvastatin 40mg" },
+      { "id": "B", "text": "Add ezetimibe 10mg daily" },
+      { "id": "C", "text": "Start PCSK9 inhibitor (evolocumab)" },
+      { "id": "D", "text": "Add fenofibrate" },
+      { "id": "E", "text": "Continue current therapy, LDL is acceptable" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ASCVD + DM + LDL >70 on max statin: Add ezetimibe first (IMPROVE-IT trial). If LDL still >70 on statin + ezetimibe → Add PCSK9 inhibitor (FOURIER, ODYSSEY trials).",
+      "whyWrong": {
+        "A": "Switching between statins provides minimal additional LDL reduction.",
+        "C": "PCSK9 inhibitors are third-line after statin + ezetimibe (cost, access).",
+        "D": "Fibrates lower TG, not LDL. Not indicated for LDL reduction.",
+        "E": "ASCVD + DM goal is LDL <70 (preferably <55). LDL 180 is far above target."
+      },
+      "clinicalPearl": "Very high-risk ASCVD: LDL goal <70 (<55 in extreme risk). Step therapy: Statin → +Ezetimibe → +PCSK9i."
+    },
+    "references": ["ACC/AHA Cholesterol Guidelines 2018", "IMPROVE-IT Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

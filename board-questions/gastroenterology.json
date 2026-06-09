@@ -168,3 +168,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gastro_007",
+    "specialty": "gastroenterology",
+    "topic": "Inflammatory Bowel Disease",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old male with ulcerative colitis (pancolitis) for 5 years presents with worsening bloody diarrhea, urgency, and weight loss. He has failed mesalamine and azathioprine. Colonoscopy shows severe active colitis. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Start infliximab (anti-TNF)" },
+      { "id": "B", "text": "Increase azathioprine dose" },
+      { "id": "C", "text": "Start vedolizumab" },
+      { "id": "D", "text": "Total colectomy" },
+      { "id": "E", "text": "Start prednisone + infliximab" }
+    ],
+    "correctOptionId": "E",
+    "explanation": {
+      "whyCorrect": "Severe UC flare failing mesalamine + thiopurine: Start steroids (prednisone or IV methylprednisolone) for rapid symptom control + Anti-TNF (infliximab) for long-term remission. Anti-TNFs work faster than vedolizumab.",
+      "whyWrong": {
+        "A": "Anti-TNF alone may not be sufficient for severe acute flare.",
+        "B": "Already failed azathioprine, increasing dose unlikely to help.",
+        "C": "Vedolizumab has slower onset (6-12 weeks), not ideal for severe flare.",
+        "D": "Surgery is last resort after failing medical therapy (3 biologics).",
+      },
+      "clinicalPearl": "Severe UC flare: Steroids (bridge) + Anti-TNF (infliximab). Vedolizumab for maintenance. Surgery if refractory."
+    },
+    "references": ["AGA UC Guidelines 2020", "ACT Trials"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_008",
+    "specialty": "gastroenterology",
+    "topic": "Hepatitis",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male presents with jaundice, fatigue, and RUQ pain for 1 week. He ate at a seafood restaurant 4 weeks ago. Labs: AST 1200, ALT 1500, ALP 200, Bilirubin 8.0. Hepatitis serologies: HAV IgM positive. What is the expected outcome?",
+    "options": [
+      { "id": "A", "text": "Progression to chronic hepatitis in 80% of cases" },
+      { "id": "B", "text": "Acute hepatitis with complete recovery in >99% of cases" },
+      { "id": "C", "text": "Fulminant hepatic failure requiring transplant" },
+      { "id": "D", "text": "Development of hepatocellular carcinoma" },
+      { "id": "E", "text": "Progression to cirrhosis within 5 years" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute Hepatitis A: Fecal-oral transmission (contaminated seafood). Self-limited, complete recovery in >99%. NO chronic carrier state. Treatment: Supportive. Prevention: HAV vaccine.",
+      "whyWrong": {
+        "A": "HAV does NOT cause chronic hepatitis (unlike HBV and HCV).",
+        "C": "Fulminant hepatitis is rare (<1%), mostly in elderly or underlying liver disease.",
+        "D": "HCC risk is with chronic HBV/HCV, not acute HAV.",
+        "E": "HAV does not progress to cirrhosis."
+      },
+      "clinicalPearl": "Hepatitis A: Acute only, NEVER chronic. Fecal-oral spread. Complete recovery in >99%. Vaccine available."
+    },
+    "references": ["CDC Hepatitis A Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

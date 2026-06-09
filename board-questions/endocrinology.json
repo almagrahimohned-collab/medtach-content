@@ -196,3 +196,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_endo_008",
+    "specialty": "endocrinology",
+    "topic": "Diabetes Insipidus",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male presents with polyuria (8L/day), polydipsia, and nocturia. Serum Na 150, serum osmolality 310, urine osmolality 150. After water deprivation test, urine osmolality increases to 750 after desmopressin. What type of DI?",
+    "options": [
+      { "id": "A", "text": "Central diabetes insipidus" },
+      { "id": "B", "text": "Nephrogenic diabetes insipidus" },
+      { "id": "C", "text": "Primary polydipsia" },
+      { "id": "D", "text": "Gestational diabetes insipidus" },
+      { "id": "E", "text": "SIADH" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Central DI: Hypernatremia + dilute urine (low urine osmolality despite high serum osmolality). Responds to desmopressin (urine osmolality increases >50% or >750). Caused by ADH deficiency. Treatment: Desmopressin (DDAVP).",
+      "whyWrong": {
+        "B": "Nephrogenic DI: No response to desmopressin (kidneys resistant to ADH).",
+        "C": "Primary polydipsia: Low-normal serum Na, low serum osmolality, urine concentrates appropriately.",
+        "D": "Gestational DI: Rare, due to increased vasopressinase from placenta.",
+        "E": "SIADH: Hyponatremia (Na 150 is hypernatremia)."
+      },
+      "clinicalPearl": "Central DI: Responds to desmopressin. Nephrogenic DI: No response. Water deprivation test + desmopressin = Gold standard."
+    },
+    "references": ["Endocrine Society DI Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_009",
+    "specialty": "endocrinology",
+    "topic": "Obesity Management",
+    "difficulty": "medium",
+    "vignette": "A 42-year-old female with BMI 38 and type 2 diabetes (HbA1c 8.5%) has failed lifestyle modifications and metformin. She wants to lose weight and improve glycemic control. Which medication would BEST address both goals?",
+    "options": [
+      { "id": "A", "text": "Insulin glargine" },
+      { "id": "B", "text": "Semaglutide 2.4mg weekly" },
+      { "id": "C", "text": "Sitagliptin" },
+      { "id": "D", "text": "Pioglitazone" },
+      { "id": "E", "text": "Glimepiride" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Semaglutide (GLP-1 RA) at 2.4mg weekly: Approved for obesity (BMI ≥30 or ≥27 with comorbidities). Provides significant weight loss (15% body weight) + excellent glycemic control. Liraglutide 3mg is alternative.",
+      "whyWrong": {
+        "A": "Insulin causes weight GAIN, not weight loss.",
+        "C": "DPP4 inhibitors are weight-neutral, minimal A1c reduction.",
+        "D": "Pioglitazone causes weight gain and fluid retention.",
+        "E": "Sulfonylureas cause weight gain and hypoglycemia."
+      },
+      "clinicalPearl": "Obesity + DM: GLP-1 RAs (semaglutide, liraglutide) or Tirzepatide (GIP/GLP-1). Weight loss + Glycemic control."
+    },
+    "references": ["ADA Diabetes Guidelines 2024", "STEP Trials"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -279,3 +279,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pulmo_011",
+    "specialty": "pulmonology",
+    "topic": "ARDS",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male with sepsis develops acute respiratory failure requiring mechanical ventilation. CXR shows bilateral infiltrates. PaO2/FiO2 ratio is 120 on PEEP 10. What is the recommended tidal volume strategy?",
+    "options": [
+      { "id": "A", "text": "Tidal volume 10-12 mL/kg ideal body weight" },
+      { "id": "B", "text": "Tidal volume 6 mL/kg ideal body weight" },
+      { "id": "C", "text": "Tidal volume 8 mL/kg actual body weight" },
+      { "id": "D", "text": "Tidal volume 15 mL/kg ideal body weight" },
+      { "id": "E", "text": "Pressure control with PIP <50 cmH2O" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ARDS: Low tidal volume ventilation (6 mL/kg IBW) reduces mortality by 22% (ARMA trial). Moderate-severe ARDS (PaO2/FiO2 <150): Consider prone positioning for >16 hrs/day.",
+      "whyWrong": {
+        "A": "High tidal volumes (10-12 mL/kg) cause ventilator-induced lung injury (volutrauma).",
+        "C": "Use IDEAL body weight, not actual body weight.",
+        "D": "15 mL/kg is dangerously high and causes barotrauma.",
+        "E": "Pressure control is alternative but low tidal volume is the key principle."
+      },
+      "clinicalPearl": "ARDS: Low tidal volume (6 mL/kg IBW) + Plateau pressure <30 cmH2O. Proning if PaO2/FiO2 <150."
+    },
+    "references": ["ARDSNet ARMA Trial", "PROSEVA Proning Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_012",
+    "specialty": "pulmonology",
+    "topic": "Sarcoidosis",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old African American female presents with cough, dyspnea, and erythema nodosum. CXR shows bilateral hilar lymphadenopathy. ACE level is elevated. PFT shows restrictive pattern. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "No treatment, observe" },
+      { "id": "B", "text": "Prednisone 0.5mg/kg daily" },
+      { "id": "C", "text": "Methotrexate 15mg weekly" },
+      { "id": "D", "text": "Infliximab" },
+      { "id": "E", "text": "Hydroxychloroquine" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Symptomatic pulmonary sarcoidosis with restrictive PFT defect: Treatment indicated. First-line: Prednisone 0.3-0.6 mg/kg/day for 4-6 weeks, then slow taper over 6-12 months. Observation only if asymptomatic with normal PFT.",
+      "whyWrong": {
+        "A": "Symptomatic with restrictive PFT requires treatment.",
+        "C": "Methotrexate is second-line (steroid-sparing) for chronic disease or steroid side effects.",
+        "D": "Infliximab is third-line for refractory disease.",
+        "E": "Hydroxychloroquine is for skin/joint involvement, not pulmonary."
+      },
+      "clinicalPearl": "Sarcoidosis: BHL + erythema nodosum = Lofgren syndrome (good prognosis). Symptomatic pulmonary = Prednisone."
+    },
+    "references": ["ATS Sarcoidosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_013",
+    "specialty": "pulmonology",
+    "topic": "Pleural Effusion",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male with rheumatoid arthritis presents with a large left pleural effusion. Thoracentesis: Cloudy fluid, pH 7.0, glucose <30 mg/dL, LDH elevated, WBC 50K (mostly neutrophils). Gram stain negative. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Antibiotics for empyema" },
+      { "id": "B", "text": "Chest tube drainage" },
+      { "id": "C", "text": "Repeat thoracentesis in 1 week" },
+      { "id": "D", "text": "NSAIDs and observation" },
+      { "id": "E", "text": "Pleurodesis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Complicated parapneumonic effusion or rheumatoid pleurisy: pH <7.2, glucose <60, LDH elevated = requires drainage. Chest tube (tube thoracostomy) indicated. pH <7.0 is a medical emergency requiring urgent drainage.",
+      "whyWrong": {
+        "A": "Gram stain negative, no organisms. This is rheumatoid pleurisy (pseudo-empyema), not true empyema.",
+        "C": "pH 7.0 requires drainage, not observation.",
+        "D": "NSAIDs will not resolve a complicated effusion.",
+        "E": "Pleurodesis is for recurrent malignant effusions, not acute complicated effusion."
+      },
+      "clinicalPearl": "Pleural fluid pH <7.2 = Drainage required. pH <7.0 = Emergency drainage. Rheumatoid pleurisy can mimic empyema."
+    },
+    "references": ["BTS Pleural Disease Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
