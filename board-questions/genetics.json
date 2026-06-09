@@ -966,5 +966,475 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_001",
+    "specialty": "genetics",
+    "topic": "Trisomy 18 (Edwards Syndrome)",
+    "difficulty": "medium",
+    "vignette": "A newborn presents with microcephaly, rocker-bottom feet, clenched fists with overlapping fingers (2nd over 3rd, 5th over 4th), prominent occiput, and VSD. Karyotype shows trisomy 18. What is the prognosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Normal life expectancy with supportive care"
+      },
+      {
+        "id": "B",
+        "text": "Severe: 90% die within first year; median survival 5-15 days; Only 5-10% survive beyond 1 year with severe disability"
+      },
+      {
+        "id": "C",
+        "text": "Mild disability, survival to adulthood"
+      },
+      {
+        "id": "D",
+        "text": "Survival to adolescence common"
+      },
+      {
+        "id": "E",
+        "text": "No morbidity, only cosmetic"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Trisomy 18 (Edwards syndrome): Second most common autosomal trisomy (1/6000). Features: 'Rocker-bottom feet, Clenched fists (overlapping fingers), Prominent occiput, Microcephaly, VSD/ASD/PDA' = CRAP-M. Prognosis: 90% mortality in first year, median survival 5-15 days, only 5-10% survive >1 year. Survivors have severe intellectual disability. Most cases due to maternal meiotic nondisjunction (advanced maternal age). Trisomy 13 (Patau syndrome) has even poorer prognosis (median 7-10 days).",
+      "whyWrong": {
+        "A": "Survival beyond infancy is rare.",
+        "B": "Trisomy 18: 90% die <1 year. Median survival days. Severe disability in survivors.",
+        "C": "Severe disability, not mild. Rarely survive to adulthood.",
+        "D": "Survival to adolescence is extremely rare (<1%).",
+        "E": "Multiple severe congenital anomalies."
+      },
+      "clinicalPearl": "Trisomy 18: Rocker-bottom feet + Clenched fists + Prominent occiput + VSD. 90% mortality in first year. Median survival 5-15 days."
+    },
+    "references": [
+      "Smith's Recognizable Patterns of Human Malformation",
+      "Trisomy 18 Registry"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_002",
+    "specialty": "genetics",
+    "topic": "Uniparental Disomy",
+    "difficulty": "hard",
+    "vignette": "A 2-year-old boy with Prader-Willi syndrome (PWS) has hypotonia, hyperphagia, obesity, and hypogonadism. Molecular testing shows NO deletion on chromosome 15q11-q13. What is the MOST likely genetic mechanism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maternal uniparental disomy (UPD) of chromosome 15"
+      },
+      {
+        "id": "B",
+        "text": "Paternal deletion of 15q11-q13"
+      },
+      {
+        "id": "C",
+        "text": "Maternal deletion of 15q11-q13"
+      },
+      {
+        "id": "D",
+        "text": "Duplication of 15q11-q13"
+      },
+      {
+        "id": "E",
+        "text": "Balanced translocation"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "PWS is caused by loss of PATERNALLY expressed genes on 15q11-q13. Three mechanisms: 1. Paternal deletion (70%) - most common, 2. Maternal UPD (25%) - inherits two maternal copies, no paternal copy, 3. Imprinting center defect (5%). If deletion testing is negative, maternal UPD is most likely. Angelman syndrome is the OPPOSITE: Loss of MATERNALLY expressed UBE3A on 15q11-q13 (maternal deletion 70%, paternal UPD 5%, UBE3A mutation 10%). Methylation testing distinguishes PWS from AS.",
+      "whyWrong": {
+        "A": "Maternal UPD 15 = No paternal copy = PWS. 25% of cases.",
+        "B": "Paternal deletion is most common (70%) but already ruled out by testing.",
+        "C": "Maternal deletion causes Angelman syndrome, not PWS.",
+        "D": "Duplication causes a different phenotype.",
+        "E": "Translocation is rare cause of PWS."
+      },
+      "clinicalPearl": "PWS = Loss of PATERNAL 15q11-q13. 70% deletion, 25% maternal UPD. Angelman = Loss of MATERNAL UBE3A."
+    },
+    "references": [
+      "PWS Molecular Genetics Review 2023",
+      "ACMG UPD Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_003",
+    "specialty": "genetics",
+    "topic": "Triplet Repeat Disorders",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male has progressive chorea, cognitive decline, and family history of similar symptoms in his father (onset age 60) and grandfather (onset age 65). Genetic testing shows CAG repeat expansion of 44 repeats in HTT gene. What is the phenomenon of earlier onset in successive generations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Variable expressivity"
+      },
+      {
+        "id": "B",
+        "text": "ANTICIPATION: Earlier onset and more severe disease in successive generations due to repeat expansion during paternal transmission"
+      },
+      {
+        "id": "C",
+        "text": "Pleiotropy"
+      },
+      {
+        "id": "D",
+        "text": "Locus heterogeneity"
+      },
+      {
+        "id": "E",
+        "text": "Mosaicism"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ANTICIPATION: Triplet repeat disorders (Huntington disease, myotonic dystrophy, fragile X, Friedreich ataxia) show earlier onset and increased severity in successive generations. Mechanism: Repeat expansion during meiosis (especially paternal transmission in HD). HD: CAG repeats - Normal <26, Intermediate 27-35, Reduced penetrance 36-39, Full penetrance \u226540. Juvenile onset if >60 repeats. Anticipation most pronounced with paternal transmission in HD. Grandfather 40 \u2192 Father 42 \u2192 Son 44 repeats.",
+      "whyWrong": {
+        "A": "Expressivity is variation in phenotype, not generational change.",
+        "B": "Anticipation: Triplet repeat expansion across generations. Paternal transmission in HD.",
+        "C": "Pleiotropy = Single gene affects multiple traits.",
+        "D": "Locus heterogeneity = Different genes cause same phenotype.",
+        "E": "Mosaicism = Two cell populations in same individual."
+      },
+      "clinicalPearl": "Anticipation: Triplet repeat expansion in successive generations. HD: Paternal transmission worsens. CAG 36-39 = Reduced penetrance, \u226540 = Full."
+    },
+    "references": [
+      "Huntington Disease Genetics Review 2023",
+      "Triplet Repeat Disorders Overview"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_004",
+    "specialty": "genetics",
+    "topic": "Mosaicism",
+    "difficulty": "medium",
+    "vignette": "A couple has a child with neurofibromatosis type 1 (NF1). Neither parent has any signs of NF1. What is the MOST likely explanation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autosomal recessive inheritance"
+      },
+      {
+        "id": "B",
+        "text": "DE NOVO mutation in the child (80% of NF1 cases) OR Parental germline mosaicism"
+      },
+      {
+        "id": "C",
+        "text": "Non-paternity"
+      },
+      {
+        "id": "D",
+        "text": "The parents have not been thoroughly examined"
+      },
+      {
+        "id": "E",
+        "text": "Autosomal dominant with incomplete penetrance"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NF1 is autosomal dominant with 100% penetrance. However, 50% of cases are DE NOVO (sporadic) mutations due to high mutation rate (NF1 gene is large, 17q11.2). If parents are unaffected after thorough examination, child likely has de novo mutation. However, germline mosaicism (parent has mutation only in gonadal cells) is possible and carries recurrence risk for future pregnancies (~5-10%). Offer prenatal/preimplantation genetic testing for future pregnancies.",
+      "whyWrong": {
+        "A": "NF1 is autosomal dominant, not recessive.",
+        "B": "De novo (80%) or germline mosaicism. Recurrence risk exists with mosaicism.",
+        "C": "Non-paternity should be considered but de novo mutation is more likely for NF1.",
+        "D": "Parents should be examined with slit lamp (Lisch nodules) and Wood lamp (cafe-au-lait), but de novo is still most common.",
+        "E": "NF1 has 100% penetrance by adulthood; incomplete penetrance not applicable here."
+      },
+      "clinicalPearl": "NF1: 50% de novo. High mutation rate (large gene). Germline mosaicism = Recurrence risk. Examine parents carefully (Lisch nodules, CALMs)."
+    },
+    "references": [
+      "NF1 Diagnostic Criteria 2023",
+      "ACMG Mosaicism Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_005",
+    "specialty": "genetics",
+    "topic": "Epigenetics - Beckwith-Wiedemann",
+    "difficulty": "hard",
+    "vignette": "A newborn presents with macrosomia (birth weight >97th percentile), macroglossia, omphalocele, ear creases/pits, and neonatal hypoglycemia. What is the molecular mechanism in most sporadic cases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CDKN1C mutation"
+      },
+      {
+        "id": "B",
+        "text": "Loss of methylation at IC2 (KvDMR1) on maternal allele \u2192 Biallelic IGF2 expression"
+      },
+      {
+        "id": "C",
+        "text": "Uniparental disomy"
+      },
+      {
+        "id": "D",
+        "text": "PLAG1 translocation"
+      },
+      {
+        "id": "E",
+        "text": "Autosomal recessive inheritance"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Beckwith-Wiedemann syndrome (BWS): Imprinting disorder on 11p15.5. The most common mechanism in SPORADIC cases (50%) is loss of methylation at IC2 (KvDMR1) on the MATERNAL allele \u2192 biallelic IGF2 expression (normally only paternal allele expressed) \u2192 overgrowth. Other mechanisms: Paternal UPD (20%), Gain of methylation at IC1 (5%), CDKN1C mutation (5% - familial cases). Tumor risk (Wilms tumor, hepatoblastoma): Screen with abdominal US q3mo until age 8 + AFP.",
+      "whyWrong": {
+        "A": "CDKN1C mutations cause 5% (often familial).",
+        "B": "IC2 hypomethylation (maternal) = Most common sporadic mechanism (50%).",
+        "C": "Paternal UPD 11p15 = 20% of BWS.",
+        "D": "PLAG1 alterations are not the primary BWS mechanism.",
+        "E": "BWS is an imprinting/epigenetic disorder, not Mendelian recessive."
+      },
+      "clinicalPearl": "BWS: Macroglossia + Omphalocele + Macrosomia + Ear creases + Hypoglycemia. IC2 hypomethylation most common. Tumor screening q3mo."
+    },
+    "references": [
+      "BWS Molecular Testing Guidelines 2023",
+      "BWS Tumor Screening Protocol"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_006",
+    "specialty": "genetics",
+    "topic": "Microarray vs Karyotype",
+    "difficulty": "medium",
+    "vignette": "A 3-year-old boy with autism spectrum disorder, intellectual disability, and dysmorphic features undergoes genetic testing. Karyotype is normal. What is the NEXT test?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No further testing needed"
+      },
+      {
+        "id": "B",
+        "text": "Chromosomal microarray (CMA) - Detects submicroscopic deletions/duplications (CNVs) not visible on karyotype"
+      },
+      {
+        "id": "C",
+        "text": "Whole exome sequencing only"
+      },
+      {
+        "id": "D",
+        "text": "Fragile X testing only"
+      },
+      {
+        "id": "E",
+        "text": "MRI brain"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CMA is the FIRST-TIER test for unexplained ASD/ID/dysmorphic features (ACMG 2023). CMA detects copy number variants (CNVs) - microdeletions/duplications down to 50-100kb resolution, which karyotype (5-10Mb resolution) misses. Diagnostic yield: CMA 15-20% vs karyotype 3-5%. If CMA negative \u2192 Fragile X testing (FMR1 CGG repeats) \u2192 If still negative \u2192 Exome/Genome sequencing (yield 30-40%). CMA does NOT detect: Balanced translocations, low-level mosaicism, trinucleotide repeats.",
+      "whyWrong": {
+        "A": "Normal karyotype does not rule out genetic cause; CMA needed.",
+        "B": "CMA = First-tier test for ASD/ID. Detects CNVs invisible on karyotype.",
+        "C": "Exome/genome sequencing is after CMA and Fragile X are negative.",
+        "D": "Fragile X is second-tier (after CMA) for males with ID/ASD.",
+        "E": "MRI is for structural brain abnormalities, not genetic diagnosis."
+      },
+      "clinicalPearl": "Unexplained ASD/ID: CMA first-tier (15-20% yield) \u2192 Fragile X \u2192 Exome/Genome sequencing. Karyotype is outdated as first-line."
+    },
+    "references": [
+      "ACMG CMA Guidelines 2023",
+      "NEJM Exome in ID/ASD 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_007",
+    "specialty": "genetics",
+    "topic": "MTHFR Testing Controversy",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female with recurrent early pregnancy losses asks for MTHFR gene testing. What is the recommendation per ACOG and ACMG?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Test for MTHFR C677T and treat with high-dose folic acid"
+      },
+      {
+        "id": "B",
+        "text": "MTHFR testing is NOT recommended - No association with recurrent pregnancy loss or need for anticoagulation; Homocysteine may be checked instead"
+      },
+      {
+        "id": "C",
+        "text": "Test for MTHFR and start enoxaparin if positive"
+      },
+      {
+        "id": "D",
+        "text": "Test for MTHFR and start aspirin"
+      },
+      {
+        "id": "E",
+        "text": "Test for MTHFR and refer for IVF"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ACOG and ACMG: MTHFR polymorphism testing is NOT RECOMMENDED for evaluation of recurrent pregnancy loss or thrombophilia. MTHFR C677T is common (heterozygous in 40% of Caucasians) and NOT associated with adverse pregnancy outcomes or VTE when homocysteine is normal. If homocysteine is elevated, treat with folic acid (not anticoagulation). Antiphospholipid syndrome should be evaluated instead. MTHFR testing is overused and leads to inappropriate anticoagulation.",
+      "whyWrong": {
+        "A": "MTHFR testing not recommended; even if positive, treatment is folic acid, not high-dose.",
+        "B": "MTHFR testing NOT recommended per ACOG/ACMG. Check homocysteine if concerned.",
+        "C": "No evidence for anticoagulation based on MTHFR status alone.",
+        "D": "Aspirin not indicated for MTHFR alone.",
+        "E": "MTHFR does not cause infertility requiring IVF."
+      },
+      "clinicalPearl": "MTHFR testing = NOT recommended (ACOG, ACMG). Treat elevated homocysteine, not MTHFR genotype. Avoid unnecessary anticoagulation."
+    },
+    "references": [
+      "ACOG Recurrent Pregnancy Loss Guidelines 2023",
+      "ACMG MTHFR Testing Statement"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_008",
+    "specialty": "genetics",
+    "topic": "Von Hippel-Lindau Disease",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with VHL disease (VHL gene mutation) has bilateral pheochromocytomas, retinal hemangioblastomas, and renal cell carcinoma. What is the tumor suppressor mechanism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VHL is an oncogene activated by mutation"
+      },
+      {
+        "id": "B",
+        "text": "VHL protein (pVHL) normally degrades HIF-1\u03b1; Loss of VHL \u2192 Pseudohypoxia \u2192 VEGF/PDGF/EPO overexpression \u2192 Angiogenesis and tumor formation"
+      },
+      {
+        "id": "C",
+        "text": "VHL mutation activates mTOR pathway"
+      },
+      {
+        "id": "D",
+        "text": "VHL mutation causes DNA repair defect"
+      },
+      {
+        "id": "E",
+        "text": "VHL is an immune checkpoint gene"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "VHL is a tumor suppressor gene (3p25). pVHL is the substrate recognition component of an E3 ubiquitin ligase complex that targets HIF-1\u03b1 (hypoxia-inducible factor) for proteasomal degradation under normoxic conditions. VHL mutation \u2192 HIF-1\u03b1 accumulates \u2192 transcription of VEGF (angiogenesis), PDGF, EPO, and other hypoxia-responsive genes \u2192 Hemangioblastomas, RCC (clear cell), pheochromocytomas. This explains why anti-VEGF therapy (bevacizumab) and HIF-2\u03b1 inhibitors (belzutifan - Welireg) are effective in VHL disease.",
+      "whyWrong": {
+        "A": "VHL is a tumor SUPPRESSOR gene, not oncogene (loss of function).",
+        "B": "pVHL degrades HIF-1\u03b1. Loss \u2192 Pseudohypoxia \u2192 Angiogenesis. Belzutifan (HIF-2\u03b1 inhibitor) is new therapy.",
+        "C": "mTOR pathway is activated downstream of other mechanisms, not primary VHL defect.",
+        "D": "DNA repair is not the primary VHL function.",
+        "E": "VHL is not an immune checkpoint."
+      },
+      "clinicalPearl": "VHL: pVHL degrades HIF \u2192 Loss causes pseudohypoxia \u2192 Angiogenesis. Belzutifan (HIF-2\u03b1 inhibitor) - FDA 2021 for VHL tumors."
+    },
+    "references": [
+      "VHL Disease Management Guidelines 2023",
+      "FDA Belzutifan Approval 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_009",
+    "specialty": "genetics",
+    "topic": "Direct-to-Consumer Genetic Testing",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old healthy female brings results from a direct-to-consumer genetic test showing 'increased risk for Parkinson disease' based on LRRK2 and GBA variants. What is the appropriate counseling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No need for follow-up, DTC results are definitive"
+      },
+      {
+        "id": "B",
+        "text": "DTC results require CONFIRMATION by clinical-grade testing before any medical decisions; Most variants have small effect sizes and low predictive value"
+      },
+      {
+        "id": "C",
+        "text": "Start anti-Parkinson medications prophylactically"
+      },
+      {
+        "id": "D",
+        "text": "Immediate referral for deep brain stimulation"
+      },
+      {
+        "id": "E",
+        "text": "No risk, DTC tests often overestimate risk"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "DTC genetic tests: Results should be CONFIRMED by clinical-grade (CLIA-certified) laboratory testing before any medical action. DTC tests have high false-positive rates for rare variants, often test only a few SNPs (not full gene sequencing), and may miss clinically important mutations. GBA and LRRK2 variants have low/moderate penetrance (GBA: 5-30% lifetime risk, LRRK2: 25-40%). Genetic counseling is essential. No preventive therapy currently exists for PD.",
+      "whyWrong": {
+        "A": "DTC results need clinical confirmation; not definitive.",
+        "B": "Confirm with clinical testing. Low penetrance variants. No preventive therapy exists.",
+        "C": "No preventive or prophylactic treatment for PD exists.",
+        "D": "DBS is for advanced PD, not prophylaxis.",
+        "E": "Risk is real but small; confirmation and counseling needed."
+      },
+      "clinicalPearl": "DTC genetic tests: Confirm with CLIA-certified lab before any medical decisions. Low penetrance. Genetic counseling essential."
+    },
+    "references": [
+      "ACMG DTC Genetic Testing Guidelines 2023",
+      "FDA DTC Genetic Test Regulation"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b2_010",
+    "specialty": "genetics",
+    "topic": "FMR1 Premutation",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male presents with progressive intention tremor, gait ataxia, cognitive decline, and parkinsonism. He has a granddaughter with fragile X syndrome (FXS). What is the MOST likely diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parkinson disease"
+      },
+      {
+        "id": "B",
+        "text": "Fragile X-associated tremor/ataxia syndrome (FXTAS) due to FMR1 premutation (55-200 CGG repeats)"
+      },
+      {
+        "id": "C",
+        "text": "Multiple system atrophy"
+      },
+      {
+        "id": "D",
+        "text": "Essential tremor"
+      },
+      {
+        "id": "E",
+        "text": "Spinocerebellar ataxia"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "FXTAS: Neurodegenerative disorder in OLDER ADULTS (usually males >50) who are FMR1 premutation carriers (55-200 CGG repeats). Features: Intention tremor, cerebellar ataxia, cognitive decline (executive dysfunction), parkinsonism, autonomic dysfunction. MRI: T2 hyperintensities in MIDDLE CEREBELLAR PEDUNCLES (MCP sign). Granddaughter with FXS = Full mutation (>200 CGG repeats) inherited from premutation carrier mother. Premutation carriers also at risk for FXTAS (males > females) and FXPOI (females).",
+      "whyWrong": {
+        "A": "PD has rest tremor (not intention) and no MCP sign on MRI.",
+        "B": "FXTAS: Premutation carrier + Ataxia + Tremor + MCP sign. Grandchild with FXS.",
+        "C": "MSA has autonomic failure and cerebellar signs but not FMR1-related.",
+        "D": "Essential tremor is isolated tremor, no ataxia or cognitive decline.",
+        "E": "SCA has different genetic basis and no FXS association."
+      },
+      "clinicalPearl": "FXTAS: FMR1 premutation (55-200 CGG) + Ataxia + Intention tremor + MCP sign. Grandchild with FXS. Older males affected."
+    },
+    "references": [
+      "FXTAS Diagnostic Criteria 2023",
+      "ACMG FMR1 Testing Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
