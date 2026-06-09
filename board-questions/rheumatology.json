@@ -368,3 +368,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_rheum_014",
+    "specialty": "rheumatology",
+    "topic": "Lupus Nephritis",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female with SLE has proteinuria 2.5g/day, active urinary sediment (RBC casts), and elevated anti-dsDNA with low C3/C4. Renal biopsy shows diffuse proliferative glomerulonephritis (Class IV). What is the BEST maintenance therapy after induction?",
+    "options": [
+      { "id": "A", "text": "Prednisone alone" },
+      { "id": "B", "text": "Mycophenolate mofetil or Azathioprine" },
+      { "id": "C", "text": "Cyclophosphamide" },
+      { "id": "D", "text": "Rituximab" },
+      { "id": "E", "text": "Belimumab alone" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Class IV lupus nephritis: Induction (MMF or CYC + Steroids) → Maintenance (MMF or AZA). MMF is preferred (ALMS maintenance trial). Duration: At least 3-5 years of maintenance. Taper steroids slowly. Monitor urine protein, renal function, serology.",
+      "whyWrong": {
+        "A": "Prednisone alone is insufficient for maintenance.",
+        "C": "Cyclophosphamide is for INDUCTION, not maintenance (toxicity).",
+        "D": "Rituximab for refractory (not first-line maintenance).",
+        "E": "Belimumab is add-on, not monotherapy for nephritis."
+      },
+      "clinicalPearl": "Lupus nephritis maintenance: MMF or AZA x3-5 years after induction. Taper steroids slowly. Monitor proteinuria and renal function."
+    },
+    "references": ["KDIGO Lupus Nephritis Guidelines", "ALMS Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_015",
+    "specialty": "rheumatology",
+    "topic": "Septic Arthritis",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male with knee osteoarthritis presents with acute onset monoarticular knee pain, swelling, erythema, and fever (39.0°C). Joint aspiration shows WBC 85,000/μL (95% neutrophils). Gram stain shows gram-positive cocci in clusters. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Oral antibiotics and outpatient follow-up" },
+      { "id": "B", "text": "IV Vancomycin + Surgical drainage/washout" },
+      { "id": "C", "text": "Intra-articular antibiotics" },
+      { "id": "D", "text": "IV Ceftriaxone alone" },
+      { "id": "E", "text": "Oral prednisone" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Septic arthritis (S. aureus): WBC >50K (often >100K), >90% neutrophils, gram-positive cocci clusters. EMERGENCY! IV Vancomycin (MRSA coverage) + EMERGENT surgical drainage/washout. Delay in drainage destroys cartilage within 24-48h. Serial aspirations if surgery not available.",
+      "whyWrong": {
+        "A": "Septic arthritis requires IV antibiotics and drainage, not oral outpatient.",
+        "C": "Intra-articular antibiotics are unnecessary and may cause chemical synovitis.",
+        "D": "Ceftriaxone does not cover MRSA or all gram-positives adequately.",
+        "E": "Steroids would worsen infection."
+      },
+      "clinicalPearl": "Septic arthritis: EMERGENCY! IV antibiotics + Surgical drainage. WBC >50K with >90% neutrophils. S. aureus most common."
+    },
+    "references": ["IDSA Septic Arthritis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_016",
+    "specialty": "rheumatology",
+    "topic": "Pseudogout",
+    "difficulty": "medium",
+    "vignette": "A 75-year-old female presents with acute knee pain, swelling, and erythema. Joint aspiration shows positively birefringent rhomboid-shaped crystals. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Gout" },
+      { "id": "B", "text": "Pseudogout (CPPD)" },
+      { "id": "C", "text": "Septic arthritis" },
+      { "id": "D", "text": "Osteoarthritis" },
+      { "id": "E", "text": "Rheumatoid arthritis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pseudogout (CPPD arthropathy): Calcium pyrophosphate crystals = POSITIVELY birefringent, rhomboid-shaped. Gout: Negatively birefringent, needle-shaped (monosodium urate). Treatment: NSAIDs, Colchicine (less effective than gout), intra-articular steroids.",
+      "whyWrong": {
+        "A": "Gout: Negatively birefringent needle-shaped crystals (urate).",
+        "C": "Septic arthritis: WBC >50K, positive Gram stain/culture.",
+        "D": "OA: Non-inflammatory, no crystals on aspiration.",
+        "E": "RA: Inflammatory, no crystals, RF/anti-CCP positive."
+      },
+      "clinicalPearl": "Gout: Negative birefringence, needle-shaped. Pseudogout: POSITIVE birefringence, rhomboid-shaped. Remember: 'P'ositive = 'P'seudogout."
+    },
+    "references": ["ACR CPPD Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_017",
+    "specialty": "rheumatology",
+    "topic": "Reactive Arthritis",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old male presents with asymmetric oligoarthritis (knees, ankles), conjunctivitis, and dysuria 2 weeks after a diarrheal illness. He is HLA-B27 positive. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Gonococcal arthritis" },
+      { "id": "B", "text": "Reactive arthritis (Reiter syndrome)" },
+      { "id": "C", "text": "Rheumatoid arthritis" },
+      { "id": "D", "text": "Ankylosing spondylitis" },
+      { "id": "E", "text": "Psoriatic arthritis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Reactive arthritis: 'Can't see, can't pee, can't bend the knee.' Triad: Arthritis + Conjunctivitis/Uveitis + Urethritis. Post-infectious (Chlamydia, Salmonella, Shigella, Campylobacter, Yersinia). HLA-B27 associated. Treatment: NSAIDs, treat underlying infection. Steroids/DMARDs if severe.",
+      "whyWrong": {
+        "A": "Gonococcal: Migratory polyarthralgia, tenosynovitis, pustular skin lesions.",
+        "C": "RA: Symmetric, MCP/PIP, RF/anti-CCP positive.",
+        "D": "AS: Axial involvement (spine/SI joints), not peripheral with conjunctivitis/urethritis.",
+        "E": "PsA: Skin psoriasis, nail changes, dactylitis."
+      },
+      "clinicalPearl": "Reactive arthritis: Arthritis + Conjunctivitis + Urethritis post-infection. HLA-B27. NSAIDs first-line."
+    },
+    "references": ["EULAR Reactive Arthritis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_018",
+    "specialty": "rheumatology",
+    "topic": "Granulomatosis with Polyangiitis",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male presents with chronic sinusitis, cough with hemoptysis, and hematuria with RBC casts. CXR shows bilateral nodules and cavitary lesions. c-ANCA (PR3) is positive. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Goodpasture syndrome" },
+      { "id": "B", "text": "Granulomatosis with polyangiitis (GPA)" },
+      { "id": "C", "text": "Eosinophilic granulomatosis with polyangiitis (EGPA)" },
+      { "id": "D", "text": "Microscopic polyangiitis (MPA)" },
+      { "id": "E", "text": "Sarcoidosis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "GPA (Wegener): Upper respiratory (sinusitis) + Lower respiratory (nodules, hemoptysis) + Renal (RPGN with RBC casts) + c-ANCA (PR3). Treatment: Steroids + Cyclophosphamide or Rituximab (RAVE trial). Life-threatening without treatment.",
+      "whyWrong": {
+        "A": "Goodpasture: Anti-GBM antibody, pulmonary hemorrhage + GN, no sinus involvement.",
+        "C": "EGPA (Churg-Strauss): Asthma + Eosinophilia + p-ANCA (MPO).",
+        "D": "MPA: p-ANCA (MPO), no granulomas, no sinus involvement.",
+        "E": "Sarcoidosis: BHL, non-caseating granulomas, no hemoptysis or RPGN."
+      },
+      "clinicalPearl": "GPA: Sinus + Lung + Kidney + c-ANCA (PR3). Treatment: Rituximab or Cyclophosphamide + Steroids."
+    },
+    "references": ["ACR/VF Vasculitis Guidelines", "RAVE Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

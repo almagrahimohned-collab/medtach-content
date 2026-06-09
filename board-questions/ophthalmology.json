@@ -256,3 +256,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ophtho_010",
+    "specialty": "ophthalmology",
+    "topic": "Cataract",
+    "difficulty": "easy",
+    "vignette": "A 70-year-old male presents with gradual, painless vision loss over 2 years. He describes 'glare' when driving at night and difficulty reading. Fundoscopy shows an opacified lens. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Topical steroids" },
+      { "id": "B", "text": "Phacoemulsification with intraocular lens implantation" },
+      { "id": "C", "text": "Glasses prescription" },
+      { "id": "D", "text": "Topical NSAIDs" },
+      { "id": "E", "text": "Observation, cataracts never need surgery" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cataract: Opacified lens causing functional impairment. Definitive treatment: Phacoemulsification with IOL implantation. Most common surgery worldwide. Timing: When vision loss affects daily activities (driving, reading). Not emergent.",
+      "whyWrong": {
+        "A": "Steroids do not treat cataracts (may worsen them).",
+        "C": "Glasses may temporarily improve but surgery is definitive.",
+        "D": "NSAIDs have no role in cataract treatment.",
+        "E": "Cataracts that impair function require surgery."
+      },
+      "clinicalPearl": "Cataract: Gradual vision loss + Glare + Opacified lens. Phacoemulsification with IOL = Definitive treatment."
+    },
+    "references": ["AAO Cataract Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_011",
+    "specialty": "ophthalmology",
+    "topic": "Chemical Eye Injury",
+    "difficulty": "hard",
+    "vignette": "A factory worker splashes an unknown chemical in his eye. He has severe pain, blepharospasm, and conjunctival injection. What is the IMMEDIATE first step?",
+    "options": [
+      { "id": "A", "text": "Check visual acuity" },
+      { "id": "B", "text": "Copious irrigation with water or saline for at least 30 minutes" },
+      { "id": "C", "text": "Apply topical anesthetic and examine" },
+      { "id": "D", "text": "Identify the chemical using litmus paper" },
+      { "id": "E", "text": "Apply antibiotic ointment" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chemical eye injury: OPHTHALMIC EMERGENCY! Immediate copious irrigation (tap water, saline, LR) for AT LEAST 30 minutes. Do NOT delay for examination, pH testing, or identifying the chemical. Alkali injuries are worse (saponification penetrates deeper). Check pH after irrigation (goal 7.0-7.4).",
+      "whyWrong": {
+        "A": "Exam delays irrigation and increases damage.",
+        "C": "Topical anesthetic provides comfort but irrigation is priority.",
+        "D": "Identifying chemical delays irrigation (irrigate first).",
+        "E": "Antibiotic after irrigation, not before."
+      },
+      "clinicalPearl": "Chemical eye burn: IRRIGATE IMMEDIATELY (≥30 min). Then check pH. Alkali > Acid (penetrates deeper)."
+    },
+    "references": ["AAO Chemical Burn Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_012",
+    "specialty": "ophthalmology",
+    "topic": "Strabismus",
+    "difficulty": "medium",
+    "vignette": "A 3-year-old boy presents with an inward deviation of his right eye that has been present since infancy. The deviation is constant and does not alternate. What is the MOST serious complication if untreated?",
+    "options": [
+      { "id": "A", "text": "Amblyopia (lazy eye)" },
+      { "id": "B", "text": "Cataract" },
+      { "id": "C", "text": "Glaucoma" },
+      { "id": "D", "text": "Retinal detachment" },
+      { "id": "E", "text": "Optic atrophy" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Infantile esotropia (constant, non-alternating): Brain suppresses image from deviated eye → Amblyopia (irreversible vision loss if untreated by age 7-8). Treatment: Patching/atropine of good eye (forces use of weak eye), strabismus surgery, glasses. Early detection is critical.",
+      "whyWrong": {
+        "B": "Cataract is not caused by strabismus.",
+        "C": "Glaucoma is not a direct complication of strabismus.",
+        "D": "Retinal detachment is not caused by strabismus.",
+        "E": "Optic atrophy is not caused by strabismus."
+      },
+      "clinicalPearl": "Strabismus in children: Risk of AMBLYOPIA (irreversible). Treatment: Patching, glasses, surgery. Screen early!"
+    },
+    "references": ["AAO Pediatric Ophthalmology Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

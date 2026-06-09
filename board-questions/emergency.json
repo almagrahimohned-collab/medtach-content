@@ -369,3 +369,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_em_014",
+    "specialty": "emergency",
+    "topic": "Tension Pneumothorax",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male on mechanical ventilation develops sudden hypotension, distended neck veins, absent breath sounds on the right, and tracheal deviation to the left. What is the IMMEDIATE next step?",
+    "options": [
+      { "id": "A", "text": "Chest X-ray" },
+      { "id": "B", "text": "Needle decompression (2nd ICS, midclavicular line)" },
+      { "id": "C", "text": "Chest tube insertion (5th ICS, anterior axillary line)" },
+      { "id": "D", "text": "CT chest" },
+      { "id": "E", "text": "Increase PEEP on ventilator" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tension pneumothorax: CLINICAL diagnosis (do NOT wait for X-ray). Immediate needle decompression (14-16 gauge needle, 2nd ICS, midclavicular line). Then chest tube (5th ICS, anterior axillary line). Tracheal deviation is LATE finding. Hyperresonance + Absent breath sounds on affected side.",
+      "whyWrong": {
+        "A": "CXR delays life-saving intervention in tension PTX.",
+        "C": "Chest tube after needle decompression (needle buys time).",
+        "D": "CT delays treatment and patient will die.",
+        "E": "Increasing PEEP worsens tension pneumothorax."
+      },
+      "clinicalPearl": "Tension PTX: Needle decompression FIRST (clinical diagnosis). Then chest tube. Never wait for imaging."
+    },
+    "references": ["ATLS 10th Edition"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_015",
+    "specialty": "emergency",
+    "topic": "Meningitis",
+    "difficulty": "hard",
+    "vignette": "A 20-year-old college student presents with fever, severe headache, neck stiffness, and photophobia for 6 hours. He is drowsy. Non-contrast CT head is normal. What is the NEXT step?",
+    "options": [
+      { "id": "A", "text": "Lumbar puncture immediately" },
+      { "id": "B", "text": "Blood cultures + IV antibiotics + Dexamethasone, then lumbar puncture" },
+      { "id": "C", "text": "MRI brain before LP" },
+      { "id": "D", "text": "Start antibiotics and skip LP" },
+      { "id": "E", "text": "Observe for 12 hours" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Suspected bacterial meningitis: Blood cultures → IV antibiotics (ceftriaxone + vancomycin) + Dexamethasone BEFORE LP if no contraindication. LP after CT and antibiotics (steroids reduce inflammation, antibiotics won't sterilize CSF for hours). Do NOT delay antibiotics for LP.",
+      "whyWrong": {
+        "A": "LP without prior antibiotics delays treatment and increases mortality.",
+        "C": "MRI is not needed before LP if CT normal and no focal deficits.",
+        "D": "LP provides crucial diagnostic information (cell count, culture, PCR).",
+        "E": "Delaying treatment increases mortality (minutes matter)."
+      },
+      "clinicalPearl": "Meningitis: Blood cultures → Antibiotics + Steroids → LP. Do NOT delay antibiotics for LP or CT."
+    },
+    "references": ["IDSA Meningitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_016",
+    "specialty": "emergency",
+    "topic": "Hypothermia",
+    "difficulty": "medium",
+    "vignette": "A homeless man is found outside in winter, unresponsive with a core temperature of 28°C. ECG shows Osborn (J) waves. What is the BEST rewarming method?",
+    "options": [
+      { "id": "A", "text": "Warm blankets and warm IV fluids" },
+      { "id": "B", "text": "Active external rewarming (Bair Hugger) + Warm IV fluids" },
+      { "id": "C", "text": "Active internal rewarming (warm IV fluids + warm humidified O2 + bladder lavage)" },
+      { "id": "D", "text": "Cardiopulmonary bypass" },
+      { "id": "E", "text": "Immersion in hot water" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Moderate hypothermia (28-32°C): Active internal rewarming. Warm IV fluids (42°C), warm humidified O2 (42-46°C), bladder/gastric/peritoneal lavage. Severe (<28°C): Cardiopulmonary bypass. Avoid external rewarming alone (afterdrop: cold blood returns to core → arrhythmias).",
+      "whyWrong": {
+        "A": "Passive rewarming insufficient for moderate hypothermia.",
+        "B": "External rewarming alone risks afterdrop and arrhythmias.",
+        "D": "Bypass for severe (<28°C) or cardiac arrest.",
+        "E": "Hot water causes burns and rapid vasodilation (shock)."
+      },
+      "clinicalPearl": "Hypothermia: Internal rewarming for moderate (28-32°C). Bypass for severe (<28°C). 'Not dead until warm and dead.'"
+    },
+    "references": ["AHA Hypothermia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_017",
+    "specialty": "emergency",
+    "topic": "Pediatric Fever",
+    "difficulty": "medium",
+    "vignette": "A 3-week-old neonate presents with fever (38.5°C rectally). She is feeding poorly and is lethargic. What is the MOST appropriate management?",
+    "options": [
+      { "id": "A", "text": "Outpatient management with oral antibiotics" },
+      { "id": "B", "text": "Full septic workup (blood, urine, CSF cultures) + IV antibiotics + Hospital admission" },
+      { "id": "C", "text": "CBC and observation for 24 hours" },
+      { "id": "D", "text": "Urine culture only" },
+      { "id": "E", "text": "Acetaminophen and discharge" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Neonatal fever (<28 days): HIGH RISK for serious bacterial infection. FULL septic workup: Blood culture, urine culture (catheterized), LP (CSF culture) + IV antibiotics (ampicillin + gentamicin or cefotaxime) + Hospital admission. Do NOT discharge or observe.",
+      "whyWrong": {
+        "A": "Neonates cannot be managed as outpatients.",
+        "C": "Observation is inappropriate for febrile neonates.",
+        "D": "Urine alone is insufficient (bacteremia, meningitis risk).",
+        "E": "Symptomatic treatment alone risks missed serious bacterial infection."
+      },
+      "clinicalPearl": "Neonate <28 days with fever: Full septic workup + IV antibiotics + Admit. 'The younger, the sicker.'"
+    },
+    "references": ["AAP Febrile Neonate Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_018",
+    "specialty": "emergency",
+    "topic": "Wound Management",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old male presents with a 4cm laceration on his forearm from a clean kitchen knife. The wound edges are clean, no visible contamination, and he presents within 4 hours of injury. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Primary closure with sutures after irrigation" },
+      { "id": "B", "text": "Leave open to heal by secondary intention" },
+      { "id": "C", "text": "Delayed primary closure in 3-5 days" },
+      { "id": "D", "text": "Oral antibiotics and closure" },
+      { "id": "E", "text": "Topical antibiotic only" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Clean wound, <6-8 hours (face/scalp up to 24h): Primary closure after copious irrigation. No antibiotics needed for clean, non-infected wounds. Tetanus prophylaxis if >5 years since last booster (or >10 years for clean wounds).",
+      "whyWrong": {
+        "B": "Secondary intention for contaminated or infected wounds.",
+        "C": "Delayed closure for contaminated wounds or >12h on extremities.",
+        "D": "Prophylactic antibiotics for bite wounds, heavily contaminated, or immunocompromised.",
+        "E": "Topical antibiotics may cause contact dermatitis and are not necessary."
+      },
+      "clinicalPearl": "Wound closure: Clean + <6-8h = Primary closure. Contaminated or >12h = Delayed closure. Check tetanus status."
+    },
+    "references": ["ACEP Wound Management Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

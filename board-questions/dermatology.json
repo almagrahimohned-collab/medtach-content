@@ -368,3 +368,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_derm_014",
+    "specialty": "dermatology",
+    "topic": "Erythema Nodosum",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female presents with painful, tender, erythematous nodules on her shins. She also has fever, arthralgias, and hilar lymphadenopathy on CXR. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Erythema nodosum associated with sarcoidosis (Lofgren syndrome)" },
+      { "id": "B", "text": "Cellulitis" },
+      { "id": "C", "text": "Deep vein thrombosis" },
+      { "id": "D", "text": "Erythema multiforme" },
+      { "id": "E", "text": "Pyoderma gangrenosum" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Lofgren syndrome: Erythema nodosum + Bilateral hilar lymphadenopathy + Arthralgias + Fever. Acute form of sarcoidosis with EXCELLENT prognosis (usually self-limited). Treatment: NSAIDs, rest. Prednisone if severe. Erythema nodosum = septal panniculitis.",
+      "whyWrong": {
+        "B": "Cellulitis: Unilateral, warm, spreading infection, not bilateral nodules.",
+        "C": "DVT: Unilateral calf swelling/pain, not nodular.",
+        "D": "Erythema multiforme: Target lesions on extremities, not tender nodules on shins.",
+        "E": "Pyoderma gangrenosum: Ulcerative, violaceous border, pathergy, not nodules."
+      },
+      "clinicalPearl": "Lofgren syndrome: Erythema nodosum + BHL + Arthralgias = Sarcoidosis with excellent prognosis. NSAIDs for symptom control."
+    },
+    "references": ["Sarcoidosis Clinical Features"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_015",
+    "specialty": "dermatology",
+    "topic": "Vitiligo",
+    "difficulty": "easy",
+    "vignette": "A 20-year-old female presents with well-demarcated, depigmented macules on her face, hands, and axillae. She has no other symptoms. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Topical corticosteroids + Phototherapy (narrowband UVB)" },
+      { "id": "B", "text": "Oral steroids" },
+      { "id": "C", "text": "Topical antibiotics" },
+      { "id": "D", "text": "Surgical excision" },
+      { "id": "E", "text": "No treatment, always permanent" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Vitiligo: Autoimmune destruction of melanocytes. First-line: Topical corticosteroids or calcineurin inhibitors + Narrowband UVB phototherapy. Newer: JAK inhibitors (ruxolitinib cream - FDA approved). Cosmetic camouflage. Associated with autoimmune thyroid disease (check TSH).",
+      "whyWrong": {
+        "B": "Oral steroids are not first-line for localized vitiligo.",
+        "C": "Antibiotics have no role (not infectious).",
+        "D": "Surgery (melanocyte transplant) for stable, refractory cases.",
+        "E": "Vitiligo can be treated and repigmentation is possible, especially with early treatment."
+      },
+      "clinicalPearl": "Vitiligo: Topical steroids/calcineurin inhibitors + NB-UVB. JAK inhibitors (ruxolitinib cream) = Newest treatment. Check TSH."
+    },
+    "references": ["AAD Vitiligo Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_016",
+    "specialty": "dermatology",
+    "topic": "Herpes Zoster",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male presents with painful, vesicular rash in a unilateral dermatomal distribution on his chest. He describes burning pain for 2 days before the rash appeared. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Topical acyclovir cream" },
+      { "id": "B", "text": "Valacyclovir 1g PO TID x7 days + Pain management" },
+      { "id": "C", "text": "Prednisone 60mg daily" },
+      { "id": "D", "text": "IV acyclovir" },
+      { "id": "E", "text": "Observation only" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Herpes zoster (shingles): Valacyclovir or Famciclovir x7 days (start within 72h of rash). Reduces acute pain, speeds healing, reduces PHN risk. Pain management: Gabapentin, pregabalin, opioids if severe. Prednisone may reduce acute pain but does NOT prevent PHN. Shingrix vaccine for prevention.",
+      "whyWrong": {
+        "A": "Topical antivirals are ineffective for zoster.",
+        "C": "Steroids alone without antivirals are insufficient.",
+        "D": "IV acyclovir for disseminated, ophthalmic, or immunocompromised.",
+        "E": "Untreated zoster increases PHN risk and prolonged symptoms."
+      },
+      "clinicalPearl": "Zoster: Valacyclovir within 72h of rash. Reduces PHN risk. Shingrix vaccine (recombinant) > Zostavax (live) for prevention."
+    },
+    "references": ["CDC Shingles Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_017",
+    "specialty": "dermatology",
+    "topic": "Lichen Planus",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female presents with intensely pruritic, purple, polygonal, flat-topped papules on her wrists and ankles. She has white lacy lesions on her buccal mucosa (Wickham striae). What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Psoriasis" },
+      { "id": "B", "text": "Lichen planus" },
+      { "id": "C", "text": "Eczema" },
+      { "id": "D", "text": "Pityriasis rosea" },
+      { "id": "E", "text": "Dermatomyositis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Lichen planus: 6 Ps = Purple, Pruritic, Polygonal, Papules, Plaques, Planar (flat-topped) + Wickham striae (oral). Flexor wrists, ankles, oral mucosa. Can be drug-induced (thiazides, antimalarials, penicillamine). Treatment: Topical steroids, oral steroids for severe, phototherapy.",
+      "whyWrong": {
+        "A": "Psoriasis: Silvery scales, extensor surfaces, Auspitz sign.",
+        "C": "Eczema: Ill-defined, flexural, not polygonal papules.",
+        "D": "Pityriasis rosea: Herald patch, Christmas tree distribution, self-limited.",
+        "E": "Dermatomyositis: Gottron papules, heliotrope, proximal weakness."
+      },
+      "clinicalPearl": "Lichen planus: 6 Ps + Wickham striae. Pruritic purple papules on wrists/ankles. Oral involvement common. Topical steroids first-line."
+    },
+    "references": ["AAD Lichen Planus Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_018",
+    "specialty": "dermatology",
+    "topic": "Erysipelas",
+    "difficulty": "easy",
+    "vignette": "A 65-year-old male presents with a well-demarcated, raised, bright red, edematous plaque on his face with a 'peau d'orange' appearance. He has fever and chills. What is the BEST antibiotic?",
+    "options": [
+      { "id": "A", "text": "Vancomycin IV" },
+      { "id": "B", "text": "Penicillin or Amoxicillin" },
+      { "id": "C", "text": "Clindamycin" },
+      { "id": "D", "text": "TMP-SMX" },
+      { "id": "E", "text": "Metronidazole" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Erysipelas: Group A Strep (S. pyogenes). Well-demarcated, raised, peau d'orange appearance. Treatment: Penicillin or Amoxicillin. If penicillin-allergic: Clindamycin or macrolide. Cellulitis extends deeper and has less distinct borders.",
+      "whyWrong": {
+        "A": "Vancomycin covers MRSA (not needed for routine erysipelas).",
+        "C": "Clindamycin is alternative for penicillin-allergic.",
+        "D": "TMP-SMX does not cover GAS.",
+        "E": "Metronidazole has no Strep coverage."
+      },
+      "clinicalPearl": "Erysipelas: Well-demarcated, raised, GAS. Penicillin/Amoxicillin first-line. Cellulitis: Deeper, less distinct borders."
+    },
+    "references": ["IDSA Skin Infection Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

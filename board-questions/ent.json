@@ -256,3 +256,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ent_010",
+    "specialty": "ent",
+    "topic": "Laryngeal Cancer",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with 50 pack-year smoking history and heavy alcohol use presents with hoarseness for 3 months. He has no pain. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Chest X-ray" },
+      { "id": "B", "text": "Laryngoscopy with biopsy of any suspicious lesions" },
+      { "id": "C", "text": "Trial of proton pump inhibitor" },
+      { "id": "D", "text": "Voice rest and follow-up in 3 months" },
+      { "id": "E", "text": "CT neck with contrast" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hoarseness >3 weeks in smoker/drinker = RED FLAG for laryngeal cancer. Laryngoscopy (flexible or direct) with biopsy is mandatory. 95% are squamous cell carcinoma. Early stage: Radiation or laser excision. Advanced: Chemoradiation or total laryngectomy.",
+      "whyWrong": {
+        "A": "CXR does not evaluate laryngeal pathology.",
+        "C": "PPI trial for reflux (max 4-8 weeks). Persistent hoarseness >2-3 weeks = scope.",
+        "D": "Hoarseness >3 weeks requires laryngoscopy, not observation.",
+        "E": "CT is for staging after diagnosis, not initial evaluation."
+      },
+      "clinicalPearl": "Hoarseness >3 weeks + Smoking/Alcohol = Laryngoscopy to rule out cancer. 95% are SCC."
+    },
+    "references": ["AAO-HNS Laryngeal Cancer Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_011",
+    "specialty": "ent",
+    "topic": "Foreign Body Aspiration",
+    "difficulty": "medium",
+    "vignette": "A 2-year-old boy is brought in with sudden onset coughing, stridor, and wheezing after eating peanuts. He is in mild respiratory distress. CXR shows hyperinflation of the right lung. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Bronchodilators and observation" },
+      { "id": "B", "text": "Rigid bronchoscopy for foreign body removal" },
+      { "id": "C", "text": "Heimlich maneuver" },
+      { "id": "D", "text": "Chest physiotherapy" },
+      { "id": "E", "text": "Oral steroids" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Foreign body aspiration: Ball-valve effect → Hyperinflation (air enters, cannot exit). Rigid bronchoscopy = Gold standard for diagnosis AND treatment. Flexible bronchoscopy for distal foreign bodies. If complete obstruction (no breath sounds, severe distress) → Back blows/chest thrusts in infants.",
+      "whyWrong": {
+        "A": "Bronchodilators do not relieve mechanical obstruction.",
+        "C": "Heimlich for complete obstruction, not partial with stridor.",
+        "D": "Chest PT may dislodge FB and worsen obstruction.",
+        "E": "Steroids may reduce edema but do not remove FB."
+      },
+      "clinicalPearl": "Foreign body aspiration: Hyperinflation on CXR + Stridor/Cough. Rigid bronchoscopy = Diagnostic + Therapeutic."
+    },
+    "references": ["AAP Foreign Body Aspiration Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_012",
+    "specialty": "ent",
+    "topic": "Bell's Palsy",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female presents with sudden onset right-sided facial weakness involving the forehead, inability to close her right eye, and loss of the nasolabial fold. She has no other neurological symptoms. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Prednisone 60mg daily x7 days + Valacyclovir" },
+      { "id": "B", "text": "Observation only" },
+      { "id": "C", "text": "Prednisone alone" },
+      { "id": "D", "text": "Surgical decompression" },
+      { "id": "E", "text": "Acyclovir alone" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Bell's palsy (LMN facial nerve palsy): Forehead INVOLVED (differentiates from UMN stroke). Treatment: Prednisone within 72h (improves recovery) + Valacyclovir (if severe, may improve outcomes). Eye protection (artificial tears, taping eye at night). Most recover completely in 3-6 months.",
+      "whyWrong": {
+        "B": "Steroids improve recovery (should not observe).",
+        "C": "Antivirals may provide additional benefit (controversial but commonly given).",
+        "D": "Surgery is last resort for severe persistent cases.",
+        "E": "Antivirals alone are insufficient (steroids are the mainstay)."
+      },
+      "clinicalPearl": "Bell's palsy: Forehead INVOLVED = LMN. Forehead spared = UMN (stroke). Prednisone within 72h improves recovery."
+    },
+    "references": ["AAN Bell's Palsy Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

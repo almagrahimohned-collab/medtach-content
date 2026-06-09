@@ -284,3 +284,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_geri_011",
+    "specialty": "geriatrics",
+    "topic": "Inappropriate Medications",
+    "difficulty": "medium",
+    "vignette": "An 80-year-old female is on amitriptyline for neuropathy, diazepam for sleep, and oxybutynin for overactive bladder. She presents with confusion and falls. Which medication is the WORST offender according to Beers criteria?",
+    "options": [
+      { "id": "A", "text": "Amitriptyline" },
+      { "id": "B", "text": "Diazepam" },
+      { "id": "C", "text": "Oxybutynin" },
+      { "id": "D", "text": "All three are equally problematic" },
+      { "id": "E", "text": "None are inappropriate" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "ALL THREE are on the Beers list of potentially inappropriate medications for elderly. TCAs (amitriptyline): Strong anticholinergic, confusion, falls. Benzodiazepines (diazepam): Falls, cognitive impairment, dependence. Anticholinergics (oxybutynin): Confusion, constipation, urinary retention. Deprescribe all!",
+      "whyWrong": {
+        "A": "Amitriptyline is bad but all three are problematic.",
+        "B": "Diazepam is bad but all three are problematic.",
+        "C": "Oxybutynin is bad but all three are problematic.",
+        "E": "All three are on the Beers list."
+      },
+      "clinicalPearl": "Beers criteria: Avoid TCAs, benzodiazepines, and anticholinergics in elderly. Deprescribe! Use safer alternatives."
+    },
+    "references": ["AGS Beers Criteria 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_012",
+    "specialty": "geriatrics",
+    "topic": "Dementia Types",
+    "difficulty": "medium",
+    "vignette": "An 80-year-old male presents with visual hallucinations, fluctuating cognition, parkinsonism (rigidity, bradykinesia), and recurrent falls. He has severe sensitivity to antipsychotics. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Alzheimer disease" },
+      { "id": "B", "text": "Dementia with Lewy bodies (DLB)" },
+      { "id": "C", "text": "Vascular dementia" },
+      { "id": "D", "text": "Frontotemporal dementia" },
+      { "id": "E", "text": "Normal pressure hydrocephalus" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "DLB: Visual hallucinations (early, well-formed) + Fluctuating cognition + Parkinsonism + Neuroleptic sensitivity (severe reactions to antipsychotics). Second most common degenerative dementia. Pathology: Alpha-synuclein (Lewy bodies). Treatment: Cholinesterase inhibitors (donepezil, rivastigmine). Avoid antipsychotics!",
+      "whyWrong": {
+        "A": "AD: Memory prominent early, hallucinations late, no parkinsonism early.",
+        "C": "Vascular: Stepwise deterioration, focal neurological signs.",
+        "D": "FTD: Behavioral/personality changes, younger onset, no hallucinations.",
+        "E": "NPH: Wet (incontinence), Wacky (dementia), Wobbly (gait) - triad."
+      },
+      "clinicalPearl": "DLB: Visual hallucinations + Fluctuating cognition + Parkinsonism + Neuroleptic sensitivity. Avoid antipsychotics!"
+    },
+    "references": ["DLB Consortium Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_013",
+    "specialty": "geriatrics",
+    "topic": "Feeding Tube Ethics",
+    "difficulty": "hard",
+    "vignette": "An 88-year-old female with advanced dementia (bedbound, nonverbal, fully dependent) has recurrent aspiration pneumonia. Her family insists on PEG tube placement. What is the BEST recommendation?",
+    "options": [
+      { "id": "A", "text": "Place PEG tube immediately" },
+      { "id": "B", "text": "Discuss that PEG tubes do NOT prevent aspiration, prolong life, or improve quality of life in advanced dementia" },
+      { "id": "C", "text": "Refuse to place PEG tube" },
+      { "id": "D", "text": "Place NG tube temporarily" },
+      { "id": "E", "text": "Start TPN" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PEG tubes in advanced dementia: Do NOT prevent aspiration pneumonia, do NOT prolong life, do NOT improve quality of life, do NOT prevent pressure ulcers. Hand feeding (comfort feeding) is recommended. Discuss goals of care and focus on comfort rather than life-prolonging interventions.",
+      "whyWrong": {
+        "A": "PEG placement without discussing lack of benefit is inappropriate.",
+        "C": "Refusing without discussion damages therapeutic relationship.",
+        "D": "NG tube has same issues as PEG plus discomfort.",
+        "E": "TPN is invasive, expensive, and does not improve outcomes."
+      },
+      "clinicalPearl": "PEG in advanced dementia: Does NOT prevent aspiration, prolong life, or improve QoL. Comfort feeding is appropriate."
+    },
+    "references": ["AGS Feeding Tubes in Advanced Dementia", "Choosing Wisely"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
