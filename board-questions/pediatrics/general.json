@@ -1,0 +1,282 @@
+[
+  {
+    "id": "peds_2024_001",
+    "specialty": "pediatrics",
+    "topic": "Bronchiolitis",
+    "difficulty": "medium",
+    "vignette": "A 4-month-old infant presents in December with nasal congestion, cough, and wheezing for 3 days. He is tachypneic (RR 60) with subcostal retractions. SpO2 is 89% on room air. RSV nasal swab is positive. What is the BEST management per AAP 2024 guidelines?",
+    "options": [
+      { "id": "A", "text": "Albuterol nebulization" },
+      { "id": "B", "text": "Oral prednisolone" },
+      { "id": "C", "text": "Supplemental oxygen + Nasal suctioning + Hydration" },
+      { "id": "D", "text": "Nebulized hypertonic saline" },
+      { "id": "E", "text": "IV ribavirin" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "AAP 2024: Bronchiolitis management is SUPPORTIVE. Oxygen for SpO2 <90%, nasal suctioning, hydration. NO role for albuterol, steroids, or antibiotics.",
+      "whyWrong": {
+        "A": "Albuterol NOT recommended (no benefit).",
+        "B": "Steroids NOT recommended.",
+        "D": "Hypertonic saline for hospitalized only.",
+        "E": "Ribavirin for immunocompromised only."
+      },
+      "clinicalPearl": "Bronchiolitis = Supportive care ONLY. No albuterol, no steroids."
+    },
+    "references": ["AAP Bronchiolitis Guidelines 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_002",
+    "specialty": "pediatrics",
+    "topic": "Fever Without Source - Neonate",
+    "difficulty": "hard",
+    "vignette": "A 3-week-old neonate presents with rectal temperature 38.3°C. She is feeding poorly and is lethargic. No focal source on exam. What is the MOST appropriate management?",
+    "options": [
+      { "id": "A", "text": "CBC, blood culture, discharge on amoxicillin" },
+      { "id": "B", "text": "Full septic workup (blood, urine, CSF) + IV ampicillin/gentamicin + Admit" },
+      { "id": "C", "text": "Urine culture only, follow up in 24h" },
+      { "id": "D", "text": "Acetaminophen and observation at home" },
+      { "id": "E", "text": "CBC and CRP, if normal discharge" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Neonate <28 days with fever: Full septic workup + IV antibiotics + Hospital admission.",
+      "whyWrong": {
+        "A": "Oral antibiotics insufficient.",
+        "C": "Urine alone misses bacteremia/meningitis.",
+        "D": "Observation inappropriate.",
+        "E": "Normal CBC/CRP does NOT rule out SBI."
+      },
+      "clinicalPearl": "Febrile neonate <28 days = Full septic workup + IV antibiotics + Admit."
+    },
+    "references": ["AAP Febrile Infant Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_003",
+    "specialty": "pediatrics",
+    "topic": "Asthma",
+    "difficulty": "medium",
+    "vignette": "A 7-year-old with mild persistent asthma uses albuterol 4-5 times per week. She is on no controller medication. What is the BEST next step per GINA 2024?",
+    "options": [
+      { "id": "A", "text": "Continue albuterol as needed" },
+      { "id": "B", "text": "Low-dose ICS-formoterol as needed" },
+      { "id": "C", "text": "Montelukast 5mg daily" },
+      { "id": "D", "text": "Medium-dose ICS daily" },
+      { "id": "E", "text": "ICS-LABA daily" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "GINA 2024: NO MORE SABA ALONE. Step 1-2 = Low-dose ICS-formoterol AS NEEDED.",
+      "whyWrong": {
+        "A": "SABA-only NO LONGER recommended.",
+        "C": "Montelukast is second-line.",
+        "D": "Daily ICS is alternative.",
+        "E": "ICS-LABA daily for Step 3+."
+      },
+      "clinicalPearl": "GINA 2024: All patients should receive ICS-containing therapy."
+    },
+    "references": ["GINA 2024 Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_004",
+    "specialty": "pediatrics",
+    "topic": "Kawasaki Disease",
+    "difficulty": "hard",
+    "vignette": "A 3-year-old Asian male presents with 6 days of fever >39°C, bilateral conjunctival injection, strawberry tongue, and a polymorphous rash. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "IV antibiotics" },
+      { "id": "B", "text": "IVIG 2g/kg + High-dose aspirin" },
+      { "id": "C", "text": "Oral ibuprofen" },
+      { "id": "D", "text": "Prednisolone alone" },
+      { "id": "E", "text": "Observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Kawasaki disease: IVIG 2g/kg + High-dose aspirin within 10 days. Reduces coronary aneurysm risk from 25% to <5%.",
+      "whyWrong": {
+        "A": "Not infectious.",
+        "C": "Ibuprofen insufficient.",
+        "D": "Steroids for refractory.",
+        "E": "Untreated leads to coronary aneurysms."
+      },
+      "clinicalPearl": "Kawasaki: IVIG + Aspirin within 10 days of fever onset."
+    },
+    "references": ["AHA Kawasaki Guidelines 2022"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_005",
+    "specialty": "pediatrics",
+    "topic": "Croup",
+    "difficulty": "easy",
+    "vignette": "A 2-year-old presents with barking cough, stridor at rest, and retractions. SpO2 92%. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Amoxicillin" },
+      { "id": "B", "text": "Dexamethasone 0.6mg/kg PO + Nebulized racemic epinephrine" },
+      { "id": "C", "text": "Albuterol nebulization" },
+      { "id": "D", "text": "Oral prednisolone alone" },
+      { "id": "E", "text": "Observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Moderate-severe croup: Dexamethasone + Nebulized epinephrine.",
+      "whyWrong": {
+        "A": "Croup is viral, not bacterial.",
+        "C": "Albuterol ineffective.",
+        "D": "Prednisolone alone insufficient for severe.",
+        "E": "Stridor at rest requires treatment."
+      },
+      "clinicalPearl": "Croup: Dexamethasone for all + Epinephrine for moderate-severe."
+    },
+    "references": ["AAP Croup Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_006",
+    "specialty": "pediatrics",
+    "topic": "Neonatal Jaundice",
+    "difficulty": "medium",
+    "vignette": "A 4-day-old term breastfed infant with 8% weight loss has total bilirubin 18 mg/dL. He is lethargic. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Increase breastfeeding frequency" },
+      { "id": "B", "text": "Intensive phototherapy + Supplement with formula" },
+      { "id": "C", "text": "Exchange transfusion" },
+      { "id": "D", "text": "Phenobarbital" },
+      { "id": "E", "text": "Observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Above phototherapy threshold: Intensive phototherapy + Optimize feeding.",
+      "whyWrong": {
+        "A": "Breastfeeding alone insufficient.",
+        "C": "Exchange for bilirubin >25 or encephalopathy.",
+        "D": "Phenobarbital not standard.",
+        "E": "Untreated risks kernicterus."
+      },
+      "clinicalPearl": "Use AAP phototherapy nomogram based on GA, risk factors, and hour-specific bilirubin."
+    },
+    "references": ["AAP Hyperbilirubinemia Guidelines 2022"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_007",
+    "specialty": "pediatrics",
+    "topic": "Febrile Seizure",
+    "difficulty": "easy",
+    "vignette": "A 18-month-old male has a 3-minute generalized seizure with fever 39°C. He is now at baseline with normal exam. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Start phenobarbital" },
+      { "id": "B", "text": "Reassurance + Antipyretics + Parent education" },
+      { "id": "C", "text": "Emergency EEG" },
+      { "id": "D", "text": "Lumbar puncture" },
+      { "id": "E", "text": "Admit to PICU" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Simple febrile seizure: Reassurance, antipyretics, parent education. No AEDs, no EEG.",
+      "whyWrong": {
+        "A": "AEDs not indicated.",
+        "C": "EEG not recommended.",
+        "D": "LP only if meningeal signs.",
+        "E": "Admission if prolonged/complex."
+      },
+      "clinicalPearl": "Simple febrile seizure: Reassurance only. 30% recurrence, excellent prognosis."
+    },
+    "references": ["AAP Febrile Seizure Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_008",
+    "specialty": "pediatrics",
+    "topic": "UTI in Infants",
+    "difficulty": "medium",
+    "vignette": "A 6-month-old febrile female has urine culture E. coli >100K CFU/mL. She appears well but febrile for 3 days. What is recommended?",
+    "options": [
+      { "id": "A", "text": "Oral cephalexin for 7-10 days" },
+      { "id": "B", "text": "IV ceftriaxone until afebrile then oral antibiotics + Renal US" },
+      { "id": "C", "text": "Oral TMP-SMX for 3 days" },
+      { "id": "D", "text": "No antibiotics" },
+      { "id": "E", "text": "Oral nitrofurantoin for 5 days" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Febrile infant with UTI: IV antibiotics + Renal US.",
+      "whyWrong": {
+        "A": "Oral alone insufficient for febrile infant.",
+        "C": "TMP-SMX not first-line.",
+        "D": ">100K CFU + symptoms = UTI.",
+        "E": "Nitrofurantoin for older children."
+      },
+      "clinicalPearl": "Febrile UTI in infants: IV antibiotics + Renal US."
+    },
+    "references": ["AAP UTI Guidelines 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_009",
+    "specialty": "pediatrics",
+    "topic": "Vaccination",
+    "difficulty": "easy",
+    "vignette": "A healthy 2-month-old infant received Hep B at birth. Which vaccines are recommended per CDC 2024?",
+    "options": [
+      { "id": "A", "text": "MMR + Varicella" },
+      { "id": "B", "text": "DTaP, Hib, IPV, PCV13, Rotavirus, Hep B #2" },
+      { "id": "C", "text": "DTaP only" },
+      { "id": "D", "text": "Hep A + MMR" },
+      { "id": "E", "text": "HPV + MenACWY" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CDC 2024: 2-month = DTaP, Hib, IPV, PCV13, Rotavirus, Hep B #2.",
+      "whyWrong": {
+        "A": "MMR/Varicella at 12-15 months.",
+        "C": "Multiple vaccines due.",
+        "D": "Hep A at 12 months.",
+        "E": "HPV/MenACWY at 11-12 years."
+      },
+      "clinicalPearl": "2-month vaccines: 6 shots. First major immunization visit."
+    },
+    "references": ["CDC Immunization Schedule 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "peds_2024_010",
+    "specialty": "pediatrics",
+    "topic": "Autism Screening",
+    "difficulty": "medium",
+    "vignette": "A 20-month-old male has poor eye contact, no pointing/waving, no words, and stopped babbling at 15 months. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Reassure parents, wait until age 2" },
+      { "id": "B", "text": "M-CHAT-R/F screening + Refer for ASD evaluation + Audiology" },
+      { "id": "C", "text": "Start risperidone" },
+      { "id": "D", "text": "MRI brain" },
+      { "id": "E", "text": "EEG" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ASD red flags: M-CHAT-R/F + Referral + Audiology. Early intervention critical.",
+      "whyWrong": {
+        "A": "Waiting delays intervention.",
+        "C": "Risperidone for aggression.",
+        "D": "MRI not routine.",
+        "E": "EEG if suspect seizures."
+      },
+      "clinicalPearl": "M-CHAT at 18 & 24 months. Early intervention = Better outcomes."
+    },
+    "references": ["AAP Autism Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
