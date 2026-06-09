@@ -426,3 +426,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_hema_016",
+    "specialty": "hematology",
+    "topic": "Hemophagocytic Syndrome",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with EBV infection presents with persistent high fever, pancytopenia, hepatosplenomegaly, and ferritin >10,000 ng/mL. Triglycerides are elevated, fibrinogen is low. Bone marrow shows hemophagocytosis. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Aplastic anemia" },
+      { "id": "B", "text": "Hemophagocytic lymphohistiocytosis (HLH)" },
+      { "id": "C", "text": "Myelodysplastic syndrome" },
+      { "id": "D", "text": "Acute leukemia" },
+      { "id": "E", "text": "Disseminated intravascular coagulation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HLH: Hyperinflammatory syndrome with cytokine storm. Criteria (≥5/8): Fever, splenomegaly, cytopenias, hypertriglyceridemia/hypofibrinogenemia, hemophagocytosis, low NK activity, ferritin >500, elevated sIL2R (CD25). Triggers: EBV (most common), malignancy, autoimmune. Treatment: Dexamethasone + Etoposide (HLH-2004 protocol).",
+      "whyWrong": {
+        "A": "Aplastic anemia: Hypocellular marrow, no hemophagocytosis.",
+        "C": "MDS: Dysplastic marrow, blasts, not acute presentation with ferritin >10,000.",
+        "D": "Leukemia: Blasts in marrow, not hemophagocytosis.",
+        "E": "DIC: Coagulopathy with bleeding/thrombosis, not primary hemophagocytosis."
+      },
+      "clinicalPearl": "HLH: Fever + Ferritin >10,000 + Hemophagocytosis + EBV trigger. Treatment: Etoposide + Dexamethasone. High mortality if untreated."
+    },
+    "references": ["HLH-2004 Diagnostic Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_017",
+    "specialty": "hematology",
+    "topic": "Iron Overload",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with thalassemia major on chronic transfusions has ferritin 2500 ng/mL and MRI liver iron concentration (LIC) 12 mg/g (normal <2). He is on deferasirox. What complication is he at HIGHEST risk for?",
+    "options": [
+      { "id": "A", "text": "Cardiac arrhythmia and heart failure" },
+      { "id": "B", "text": "Acute leukemia" },
+      { "id": "C", "text": "Renal failure" },
+      { "id": "D", "text": "Osteoporosis" },
+      { "id": "E", "text": "Skin hyperpigmentation" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Iron overload cardiomyopathy: Leading cause of death in transfused thalassemia. Cardiac iron (T2* MRI) causes dilated cardiomyopathy, arrhythmias, and heart failure. Aggressive chelation (deferoxamine, deferasirox, deferiprone) reduces cardiac iron and mortality.",
+      "whyWrong": {
+        "B": "Leukemia is not directly related to iron overload.",
+        "C": "Renal failure is not the primary complication of iron overload.",
+        "D": "Osteoporosis occurs in thalassemia but is not the leading cause of death.",
+        "E": "Skin hyperpigmentation is cosmetic, not life-threatening."
+      },
+      "clinicalPearl": "Iron overload: Cardiac iron = Leading cause of death. Monitor with T2* MRI. Aggressive chelation therapy is life-saving."
+    },
+    "references": ["Thalassemia International Federation Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

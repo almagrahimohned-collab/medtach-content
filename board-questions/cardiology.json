@@ -708,3 +708,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_cardio_026",
+    "specialty": "cardiology",
+    "topic": "Cardiac Rehabilitation",
+    "difficulty": "easy",
+    "vignette": "A 60-year-old male post-CABG asks about cardiac rehabilitation. When should it begin and what does it include?",
+    "options": [
+      { "id": "A", "text": "Begin 6 weeks after surgery, includes exercise only" },
+      { "id": "B", "text": "Begin during hospitalization (phase 1), includes exercise, education, risk factor modification" },
+      { "id": "C", "text": "Begin after 3 months of home rest, includes diet counseling only" },
+      { "id": "D", "text": "Cardiac rehabilitation is optional and has no proven benefit" },
+      { "id": "E", "text": "Begin 1 year after surgery to ensure full recovery" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cardiac rehabilitation starts during hospitalization (Phase 1: inpatient mobilization). Phase 2: Outpatient monitored exercise (3x/week x12 weeks). Includes: Exercise training, nutrition counseling, smoking cessation, psychosocial support, medication optimization. Reduces mortality by 25-30%.",
+      "whyWrong": {
+        "A": "Should begin inpatient, not wait 6 weeks.",
+        "C": "Early mobilization reduces complications, not prolonged rest.",
+        "D": "Cardiac rehab has STRONG mortality benefit (Class IA recommendation).",
+        "E": "Delaying 1 year loses the benefit window."
+      },
+      "clinicalPearl": "Cardiac rehab: Begins INPATIENT (Phase 1) → Outpatient (Phase 2). Reduces mortality 25-30%. Highest benefit in first 3 months post-event."
+    },
+    "references": ["AHA/ACC Cardiac Rehab Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_027",
+    "specialty": "cardiology",
+    "topic": "Cardiac Trauma",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male presents after a motor vehicle accident with steering wheel impact to chest. He is hypotensive, has distended neck veins, and muffled heart sounds. FAST scan shows pericardial fluid. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Tension pneumothorax" },
+      { "id": "B", "text": "Cardiac tamponade from myocardial contusion" },
+      { "id": "C", "text": "Aortic dissection" },
+      { "id": "D", "text": "Hemothorax" },
+      { "id": "E", "text": "Diaphragmatic rupture" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Blunt cardiac trauma: Steering wheel impact → Myocardial contusion → Pericardial hemorrhage → Cardiac tamponade. Beck triad: Hypotension + JVD + Muffled heart sounds. FAST scan confirms pericardial fluid. Treatment: Emergency pericardiocentesis or thoracotomy.",
+      "whyWrong": {
+        "A": "Tension pneumothorax: Tracheal deviation, absent breath sounds, hyperresonance.",
+        "C": "Aortic dissection: Widened mediastinum, differential BP in arms.",
+        "D": "Hemothorax: Dullness, decreased breath sounds, no muffled heart sounds.",
+        "E": "Diaphragmatic rupture: Bowel sounds in chest, not Beck triad."
+      },
+      "clinicalPearl": "Blunt chest trauma + Beck triad + Pericardial fluid = Cardiac tamponade. Emergency pericardiocentesis."
+    },
+    "references": ["ATLS Guidelines", "Cardiac Trauma Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

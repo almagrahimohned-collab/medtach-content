@@ -454,3 +454,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_neuro_017",
+    "specialty": "neurology",
+    "topic": "Paraneoplastic Syndromes",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old female presents with progressive cerebellar ataxia, dysarthria, and nystagmus over 4 weeks. MRI brain is normal. CSF shows lymphocytic pleocytosis. Anti-Yo (Purkinje cell) antibody is positive. What should you screen for?",
+    "options": [
+      { "id": "A", "text": "Small cell lung cancer" },
+      { "id": "B", "text": "Breast or ovarian cancer" },
+      { "id": "C", "text": "Hodgkin lymphoma" },
+      { "id": "D", "text": "Thymoma" },
+      { "id": "E", "text": "Testicular cancer" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Anti-Yo (PCA-1) = Paraneoplastic cerebellar degeneration. Strongly associated with BREAST and OVARIAN cancer (gynecologic malignancies). Rapidly progressive pancerebellar syndrome. Treatment: Treat underlying malignancy + Immunotherapy (limited benefit once neuronal loss).",
+      "whyWrong": {
+        "A": "Anti-Hu (ANNA-1) is associated with SCLC.",
+        "C": "Hodgkin lymphoma is associated with paraneoplastic limbic encephalitis.",
+        "D": "Thymoma is associated with MG (AChR antibodies).",
+        "E": "Testicular cancer is associated with anti-Ma2 encephalitis."
+      },
+      "clinicalPearl": "Paraneoplastic cerebellar degeneration: Anti-Yo = Breast/Ovarian. Anti-Hu = SCLC. Screen aggressively for malignancy."
+    },
+    "references": ["Paraneoplastic Neurologic Syndromes"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_018",
+    "specialty": "neurology",
+    "topic": "Neuro-ophthalmology",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female presents with sudden vision loss in her left eye. She has pain with eye movement and decreased color vision (red desaturation). Fundoscopy is normal. MRI shows enhancing left optic nerve lesion. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Central retinal artery occlusion" },
+      { "id": "B", "text": "Optic neuritis" },
+      { "id": "C", "text": "Anterior ischemic optic neuropathy" },
+      { "id": "D", "text": "Papilledema" },
+      { "id": "E", "text": "Retinal detachment" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Optic neuritis: Subacute vision loss + Pain with eye movement + Decreased color vision (red desaturation) + Enhancing optic nerve on MRI. Often first presentation of MS (70% risk if MRI shows other lesions). Treatment: IV methylprednisolone speeds recovery but does not affect long-term outcome.",
+      "whyWrong": {
+        "A": "CRAO: Acute, painless, cherry-red spot on fundoscopy.",
+        "C": "AION: Acute, painless, altitudinal field defect, disc edema (older patients).",
+        "D": "Papilledema: Bilateral disc edema, headache, elevated ICP.",
+        "E": "Retinal detachment: Flashes/floaters, curtain-like vision loss."
+      },
+      "clinicalPearl": "Optic neuritis: Pain with eye movement + Red desaturation + Enhancing optic nerve. 70% MS risk if brain MRI has lesions."
+    },
+    "references": ["Optic Neuritis Treatment Trial (ONTT)"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

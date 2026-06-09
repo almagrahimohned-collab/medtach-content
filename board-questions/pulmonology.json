@@ -623,3 +623,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pulmo_023",
+    "specialty": "pulmonology",
+    "topic": "Thoracic Surgery",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with Stage I NSCLC undergoes VATS lobectomy. On post-op day 2, he develops sudden dyspnea, chest pain, and pink frothy sputum. CXR shows unilateral interstitial infiltrates in the non-operated lung. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Post-pneumonectomy pulmonary edema" },
+      { "id": "B", "text": "Pneumonia" },
+      { "id": "C", "text": "Pulmonary embolism" },
+      { "id": "D", "text": "Bronchopleural fistula" },
+      { "id": "E", "text": "ARDS" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Post-pneumonectomy pulmonary edema (non-cardiogenic): Occurs 24-72h post-lung resection. Unilateral edema in remaining lung. Due to hyperperfusion injury, fluid overload, and capillary leak. Treatment: Diuretics, supportive care, possible mechanical ventilation. Mortality 50%.",
+      "whyWrong": {
+        "B": "Pneumonia would have fever and purulent sputum, develops later (day 3-5+).",
+        "C": "PE would be acute onset, not necessarily frothy sputum.",
+        "D": "Bronchopleural fistula: Air leak, subcutaneous emphysema.",
+        "E": "ARDS would be bilateral, not unilateral."
+      },
+      "clinicalPearl": "Post-lung resection pulmonary edema: Unilateral, 24-72h post-op. Limit fluids intra/post-op. High mortality."
+    },
+    "references": ["Lung Resection Complications"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_024",
+    "specialty": "pulmonology",
+    "topic": "Altitude Medicine",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old hiker rapidly ascends to 4000m (13,000 ft). He develops severe headache, ataxia, and confusion. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Acetazolamide 250mg PO" },
+      { "id": "B", "text": "Immediate descent by at least 500-1000m" },
+      { "id": "C", "text": "Dexamethasone 8mg PO" },
+      { "id": "D", "text": "Supplemental oxygen" },
+      { "id": "E", "text": "Rest and hydration" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "High-altitude cerebral edema (HACE): Severe AMS + Ataxia + Confusion = LIFE-THREATENING. IMMEDIATE DESCENT is the priority (minimum 500-1000m). Adjunctive: Dexamethasone 8mg PO/IV/IM, oxygen, hyperbaric bag if descent impossible. Acetazolamide prevents, does not treat HACE.",
+      "whyWrong": {
+        "A": "Acetazolamide is for PREVENTION or mild AMS, not HACE.",
+        "C": "Dexamethasone is adjunctive, not substitute for descent.",
+        "D": "Oxygen is helpful but does not replace descent.",
+        "E": "Rest/hydration are for mild AMS, not HACE."
+      },
+      "clinicalPearl": "HACE: Ataxia + Confusion at altitude = DESCEND IMMEDIATELY. Dexamethasone as adjunct. Do NOT delay descent."
+    },
+    "references": ["WMS High Altitude Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -398,3 +398,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_endo_015",
+    "specialty": "endocrinology",
+    "topic": "MEN Syndromes",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male presents with kidney stones (calcium oxalate), peptic ulcer disease refractory to PPI, and hypercalcemia. PTH is elevated. His father had similar symptoms and died of a 'stomach tumor.' What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "MEN1" },
+      { "id": "B", "text": "MEN2A" },
+      { "id": "C", "text": "MEN2B" },
+      { "id": "D", "text": "Familial hypocalciuric hypercalcemia" },
+      { "id": "E", "text": "Sarcoidosis" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "MEN1 (3 Ps): Parathyroid hyperplasia (hypercalcemia, stones) + Pituitary adenoma + Pancreatic NET (gastrinoma = Zollinger-Ellison syndrome causing refractory PUD). Autosomal dominant. MEN1 gene (menin) on chromosome 11. Treatment: Parathyroidectomy + PPI for gastrinoma ± resection.",
+      "whyWrong": {
+        "B": "MEN2A: Medullary thyroid CA + Pheochromocytoma + Parathyroid hyperplasia.",
+        "C": "MEN2B: Medullary thyroid CA + Pheochromocytoma + Marfanoid + Mucosal neuromas.",
+        "D": "FHH: Hypercalcemia but LOW urinary calcium, no other tumors.",
+        "E": "Sarcoidosis: Hypercalcemia due to increased 1,25(OH)2D, not PTH-driven."
+      },
+      "clinicalPearl": "MEN1: Hyperparathyroidism + Pituitary + Pancreas (gastrinoma). Refractory PUD + Hypercalcemia = Think MEN1!"
+    },
+    "references": ["MEN1 Clinical Practice Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_016",
+    "specialty": "endocrinology",
+    "topic": "Reproductive Endocrinology",
+    "difficulty": "medium",
+    "vignette": "A 16-year-old female presents with primary amenorrhea. She has normal breast development but no uterus on pelvic US. Karyotype is 46,XY. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Turner syndrome" },
+      { "id": "B", "text": "Androgen insensitivity syndrome" },
+      { "id": "C", "text": "Mullerian agenesis (MRKH)" },
+      { "id": "D", "text": "5-alpha reductase deficiency" },
+      { "id": "E", "text": "Congenital adrenal hyperplasia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Complete androgen insensitivity syndrome (CAIS): 46,XY + Female phenotype + Breast development (androgens aromatized to estrogen) + Absent uterus (anti-Müllerian hormone from testes works) + Short/blind vagina + Absent pubic hair + Elevated testosterone. Androgen receptor mutation.",
+      "whyWrong": {
+        "A": "Turner: 45,X, short stature, webbed neck, streak ovaries.",
+        "C": "MRKH: 46,XX, absent uterus, normal ovaries and external genitalia.",
+        "D": "5-ARD: 46,XY, ambiguous genitalia, virilization at puberty.",
+        "E": "CAH: 46,XX, virilization, ambiguous genitalia, elevated 17-OHP."
+      },
+      "clinicalPearl": "CAIS: 46,XY female + Breast development + No uterus + No pubic hair + High testosterone. Androgen receptor mutation."
+    },
+    "references": ["Androgen Insensitivity Syndrome"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

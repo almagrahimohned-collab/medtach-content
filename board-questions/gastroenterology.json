@@ -370,3 +370,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gastro_014",
+    "specialty": "gastroenterology",
+    "topic": "Zollinger-Ellison Syndrome",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old male presents with severe, recurrent peptic ulcers in the duodenum and jejunum despite high-dose PPI. He also has chronic diarrhea. Fasting serum gastrin level is 1100 pg/mL (normal <100). Secretin stimulation test is positive. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "H. pylori infection" },
+      { "id": "B", "text": "Gastrinoma (Zollinger-Ellison syndrome)" },
+      { "id": "C", "text": "Antral G-cell hyperplasia" },
+      { "id": "D", "text": "Chronic atrophic gastritis" },
+      { "id": "E", "text": "Gastric adenocarcinoma" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Gastrinoma (ZES): Severe PUD (often multiple, distal, refractory) + Diarrhea + Fasting hypergastrinemia (>1000) + Positive secretin test (paradoxical ↑gastrin). Often part of MEN1. Located in duodenum or pancreas. Treatment: High-dose PPI + Surgical resection if localized.",
+      "whyWrong": {
+        "A": "H. pylori causes ulcers but not severe hypergastrinemia >1000.",
+        "C": "G-cell hyperplasia: Moderate gastrin elevation (200-500), responds to secretin with decrease.",
+        "D": "Atrophic gastritis: High gastrin but achlorhydria (low acid).",
+        "E": "Gastric cancer: Ulcer but not hypergastrinemia."
+      },
+      "clinicalPearl": "ZES: Refractory ulcers + Diarrhea + Fasting gastrin >1000 + Positive secretin test. Screen for MEN1."
+    },
+    "references": ["ACG Gastrinoma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_015",
+    "specialty": "gastroenterology",
+    "topic": "Non-Alcoholic Fatty Liver Disease",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old obese diabetic male has elevated AST 80, ALT 100. Hepatitis panel negative. Ferritin mildly elevated, transferrin saturation normal. Liver US shows echogenic (bright) liver. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Liver biopsy" },
+      { "id": "B", "text": "Weight loss, exercise, and management of metabolic risk factors" },
+      { "id": "C", "text": "Start vitamin E 800 IU daily" },
+      { "id": "D", "text": "Start pioglitazone" },
+      { "id": "E", "text": "Start metformin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NAFLD (most common liver disease): Hepatic steatosis + Metabolic syndrome. First-line: Lifestyle modification (7-10% weight loss). Vitamin E is for biopsy-proven NASH without diabetes (controversial). Pioglitazone for NASH with fibrosis. No FDA-approved medication yet.",
+      "whyWrong": {
+        "A": "Biopsy reserved for: NASH risk (high NAFLD fibrosis score), competing etiology, or clinical trial.",
+        "C": "Vitamin E for NASH (not simple steatosis) without diabetes. Increased prostate cancer risk.",
+        "D": "Pioglitazone is second-line for NASH with fibrosis (off-label).",
+        "E": "Metformin does not improve liver histology in NAFLD."
+      },
+      "clinicalPearl": "NAFLD: Weight loss 7-10% is the cornerstone. No FDA-approved medication. Biopsy only if NASH suspected or competing diagnosis."
+    },
+    "references": ["AASLD NAFLD Guidelines 2018"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
