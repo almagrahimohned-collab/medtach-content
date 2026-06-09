@@ -6,15 +6,30 @@
     "difficulty": "medium",
     "vignette": "A couple has a child with cystic fibrosis. Neither parent has the disease. What is the probability that their NEXT child will also have cystic fibrosis?",
     "options": [
-      { "id": "A", "text": "0%" },
-      { "id": "B", "text": "25%" },
-      { "id": "C", "text": "50%" },
-      { "id": "D", "text": "75%" },
-      { "id": "E", "text": "100%" }
+      {
+        "id": "A",
+        "text": "0%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "75%"
+      },
+      {
+        "id": "E",
+        "text": "100%"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "CF is autosomal recessive. Both parents carriers (Ff × Ff). Each pregnancy: 25% affected (ff).",
+      "whyCorrect": "CF is autosomal recessive. Both parents carriers (Ff \u00d7 Ff). Each pregnancy: 25% affected (ff).",
       "whyWrong": {
         "A": "Both MUST be carriers.",
         "C": "50% is for autosomal dominant.",
@@ -23,7 +38,9 @@
       },
       "clinicalPearl": "Autosomal recessive: Both parents carriers = 25% risk each pregnancy."
     },
-    "references": ["Mendelian Inheritance"],
+    "references": [
+      "Mendelian Inheritance"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,28 +51,44 @@
     "difficulty": "hard",
     "vignette": "A 38-year-old pregnant female undergoes cfDNA screening, which shows high risk for trisomy 21. Ultrasound is normal. What is the MOST appropriate next step?",
     "options": [
-      { "id": "A", "text": "Tell patient the baby has Down syndrome" },
-      { "id": "B", "text": "Recommend amniocentesis for definitive diagnosis" },
-      { "id": "C", "text": "Repeat cfDNA in 2 weeks" },
-      { "id": "D", "text": "No further testing needed" },
-      { "id": "E", "text": "Recommend termination of pregnancy" }
+      {
+        "id": "A",
+        "text": "Tell patient the baby has Down syndrome"
+      },
+      {
+        "id": "B",
+        "text": "Recommend amniocentesis for definitive diagnosis"
+      },
+      {
+        "id": "C",
+        "text": "Repeat cfDNA in 2 weeks"
+      },
+      {
+        "id": "D",
+        "text": "No further testing needed"
+      },
+      {
+        "id": "E",
+        "text": "Recommend termination of pregnancy"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "cfDNA is SCREENING (not diagnostic). Positive → amniocentesis or CVS for karyotype.",
+      "whyCorrect": "cfDNA is SCREENING (not diagnostic). Positive \u2192 amniocentesis or CVS for karyotype.",
       "whyWrong": {
         "A": "cfDNA is NOT diagnostic. Never tell diagnosis based on screening.",
         "C": "Repeating cfDNA is not indicated.",
         "D": "Positive screening requires follow-up.",
         "E": "Never recommend termination based on screening alone."
       },
-      "clinicalPearl": "Screening (cfDNA) ≠ Diagnosis. Always confirm with amniocentesis or CVS."
+      "clinicalPearl": "Screening (cfDNA) \u2260 Diagnosis. Always confirm with amniocentesis or CVS."
     },
-    "references": ["ACOG Prenatal Screening Guidelines"],
+    "references": [
+      "ACOG Prenatal Screening Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_gene_003",
     "specialty": "genetics",
@@ -63,11 +96,26 @@
     "difficulty": "medium",
     "vignette": "A newborn presents with microcephaly, rocker-bottom feet, clenched fists with overlapping fingers, and a prominent occiput. What is the MOST likely chromosomal abnormality?",
     "options": [
-      { "id": "A", "text": "Trisomy 21 (Down syndrome)" },
-      { "id": "B", "text": "Trisomy 18 (Edwards syndrome)" },
-      { "id": "C", "text": "Trisomy 13 (Patau syndrome)" },
-      { "id": "D", "text": "Turner syndrome (45,X)" },
-      { "id": "E", "text": "Klinefelter syndrome (47,XXY)" }
+      {
+        "id": "A",
+        "text": "Trisomy 21 (Down syndrome)"
+      },
+      {
+        "id": "B",
+        "text": "Trisomy 18 (Edwards syndrome)"
+      },
+      {
+        "id": "C",
+        "text": "Trisomy 13 (Patau syndrome)"
+      },
+      {
+        "id": "D",
+        "text": "Turner syndrome (45,X)"
+      },
+      {
+        "id": "E",
+        "text": "Klinefelter syndrome (47,XXY)"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -80,7 +128,9 @@
       },
       "clinicalPearl": "Trisomy 18: Rocker-bottom feet + Clenched fists (overlapping fingers) + Prominent occiput + Heart defects."
     },
-    "references": ["Smith's Recognizable Patterns of Human Malformation"],
+    "references": [
+      "Smith's Recognizable Patterns of Human Malformation"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -91,11 +141,26 @@
     "difficulty": "hard",
     "vignette": "A 40-year-old female is diagnosed with breast cancer. Her mother had breast cancer at age 45, and her sister had ovarian cancer at age 48. She has Ashkenazi Jewish ancestry. What genetic testing should be offered?",
     "options": [
-      { "id": "A", "text": "TP53 mutation testing" },
-      { "id": "B", "text": "BRCA1 and BRCA2 testing" },
-      { "id": "C", "text": "PTEN mutation testing" },
-      { "id": "D", "text": "APC mutation testing" },
-      { "id": "E", "text": "MSH2/MLH1 testing" }
+      {
+        "id": "A",
+        "text": "TP53 mutation testing"
+      },
+      {
+        "id": "B",
+        "text": "BRCA1 and BRCA2 testing"
+      },
+      {
+        "id": "C",
+        "text": "PTEN mutation testing"
+      },
+      {
+        "id": "D",
+        "text": "APC mutation testing"
+      },
+      {
+        "id": "E",
+        "text": "MSH2/MLH1 testing"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -108,7 +173,9 @@
       },
       "clinicalPearl": "HBOC: BRCA1/2. Ashkenazi Jews: 1/40 carrier rate. Prophylactic mastectomy/oophorectomy reduces risk by 90%+."
     },
-    "references": ["NCCN Genetic/Familial High-Risk Assessment 2024"],
+    "references": [
+      "NCCN Genetic/Familial High-Risk Assessment 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -119,15 +186,30 @@
     "difficulty": "hard",
     "vignette": "A 6-month-old infant presents with developmental delay, hepatosplenomegaly, and coarse facial features. Urine shows increased heparan sulfate and dermatan sulfate. What is the enzyme deficiency?",
     "options": [
-      { "id": "A", "text": "Alpha-L-iduronidase (Hurler syndrome)" },
-      { "id": "B", "text": "Glucocerebrosidase (Gaucher disease)" },
-      { "id": "C", "text": "Sphingomyelinase (Niemann-Pick)" },
-      { "id": "D", "text": "Hexosaminidase A (Tay-Sachs)" },
-      { "id": "E", "text": "Galactocerebrosidase (Krabbe)" }
+      {
+        "id": "A",
+        "text": "Alpha-L-iduronidase (Hurler syndrome)"
+      },
+      {
+        "id": "B",
+        "text": "Glucocerebrosidase (Gaucher disease)"
+      },
+      {
+        "id": "C",
+        "text": "Sphingomyelinase (Niemann-Pick)"
+      },
+      {
+        "id": "D",
+        "text": "Hexosaminidase A (Tay-Sachs)"
+      },
+      {
+        "id": "E",
+        "text": "Galactocerebrosidase (Krabbe)"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
-      "whyCorrect": "Hurler syndrome (MPS I): Alpha-L-iduronidase deficiency → accumulation of heparan sulfate and dermatan sulfate. Features: Coarse facies, developmental delay, hepatosplenomegaly, corneal clouding, dysostosis multiplex. Treatment: Enzyme replacement therapy (laronidase) + HSCT.",
+      "whyCorrect": "Hurler syndrome (MPS I): Alpha-L-iduronidase deficiency \u2192 accumulation of heparan sulfate and dermatan sulfate. Features: Coarse facies, developmental delay, hepatosplenomegaly, corneal clouding, dysostosis multiplex. Treatment: Enzyme replacement therapy (laronidase) + HSCT.",
       "whyWrong": {
         "B": "Gaucher: Glucocerebrosidase deficiency, glucocerebroside accumulation.",
         "C": "Niemann-Pick: Sphingomyelinase deficiency, sphingomyelin accumulation.",
@@ -136,7 +218,9 @@
       },
       "clinicalPearl": "Hurler syndrome (MPS I): Coarse facies + Heparan/dermatan sulfate in urine + Alpha-L-iduronidase deficiency."
     },
-    "references": ["Mucopolysaccharidosis Guidelines"],
+    "references": [
+      "Mucopolysaccharidosis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -147,11 +231,26 @@
     "difficulty": "hard",
     "vignette": "A 40-year-old male presents with progressive chorea, cognitive decline, and personality changes. His father had similar symptoms and died at age 55. What is the genetic basis of this disorder?",
     "options": [
-      { "id": "A", "text": "CGG trinucleotide repeat in FMR1 gene" },
-      { "id": "B", "text": "CAG trinucleotide repeat in HTT gene" },
-      { "id": "C", "text": "CTG trinucleotide repeat in DMPK gene" },
-      { "id": "D", "text": "GAA trinucleotide repeat in FXN gene" },
-      { "id": "E", "text": "CAG trinucleotide repeat in ATXN3 gene" }
+      {
+        "id": "A",
+        "text": "CGG trinucleotide repeat in FMR1 gene"
+      },
+      {
+        "id": "B",
+        "text": "CAG trinucleotide repeat in HTT gene"
+      },
+      {
+        "id": "C",
+        "text": "CTG trinucleotide repeat in DMPK gene"
+      },
+      {
+        "id": "D",
+        "text": "GAA trinucleotide repeat in FXN gene"
+      },
+      {
+        "id": "E",
+        "text": "CAG trinucleotide repeat in ATXN3 gene"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -164,7 +263,9 @@
       },
       "clinicalPearl": "Huntington: AD, CAG repeat >40, chromosome 4, chorea + dementia + psychiatric. Anticipation via paternal transmission."
     },
-    "references": ["Huntington Disease: Genetics and Management"],
+    "references": [
+      "Huntington Disease: Genetics and Management"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -175,15 +276,30 @@
     "difficulty": "medium",
     "vignette": "A patient started on clopidogrel after PCI develops stent thrombosis. Genetic testing reveals CYP2C19*2/*2 genotype. What is the BEST alternative antiplatelet agent?",
     "options": [
-      { "id": "A", "text": "Increase clopidogrel dose" },
-      { "id": "B", "text": "Ticagrelor 90mg BID" },
-      { "id": "C", "text": "Add aspirin only" },
-      { "id": "D", "text": "Warfarin" },
-      { "id": "E", "text": "Prasugrel 10mg daily" }
+      {
+        "id": "A",
+        "text": "Increase clopidogrel dose"
+      },
+      {
+        "id": "B",
+        "text": "Ticagrelor 90mg BID"
+      },
+      {
+        "id": "C",
+        "text": "Add aspirin only"
+      },
+      {
+        "id": "D",
+        "text": "Warfarin"
+      },
+      {
+        "id": "E",
+        "text": "Prasugrel 10mg daily"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "CYP2C19*2/*2 = Poor metabolizer. Clopidogrel is a prodrug requiring CYP2C19 activation. Poor metabolizers have reduced active metabolite → increased stent thrombosis risk. Ticagrelor is direct-acting (no metabolism needed).",
+      "whyCorrect": "CYP2C19*2/*2 = Poor metabolizer. Clopidogrel is a prodrug requiring CYP2C19 activation. Poor metabolizers have reduced active metabolite \u2192 increased stent thrombosis risk. Ticagrelor is direct-acting (no metabolism needed).",
       "whyWrong": {
         "A": "Increasing dose does not overcome genetic poor metabolism.",
         "C": "Aspirin alone is inadequate post-PCI.",
@@ -192,7 +308,10 @@
       },
       "clinicalPearl": "CYP2C19 poor metabolizer + PCI = Use ticagrelor or prasugrel. Do NOT use clopidogrel."
     },
-    "references": ["CPIC Guidelines for Clopidogrel", "PLATO Trial"],
+    "references": [
+      "CPIC Guidelines for Clopidogrel",
+      "PLATO Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -203,11 +322,26 @@
     "difficulty": "medium",
     "vignette": "A 25-year-old tall male presents with ectopia lentis (upward lens dislocation), pectus excavatum, and aortic root dilation. He has long, thin fingers and a positive wrist sign. What is the gene involved?",
     "options": [
-      { "id": "A", "text": "COL1A1 (Osteogenesis imperfecta)" },
-      { "id": "B", "text": "COL3A1 (Ehlers-Danlos vascular type)" },
-      { "id": "C", "text": "FBN1 (Fibrillin-1)" },
-      { "id": "D", "text": "TGFBR1 (Loeys-Dietz syndrome)" },
-      { "id": "E", "text": "COL5A1 (Ehlers-Danlos classical type)" }
+      {
+        "id": "A",
+        "text": "COL1A1 (Osteogenesis imperfecta)"
+      },
+      {
+        "id": "B",
+        "text": "COL3A1 (Ehlers-Danlos vascular type)"
+      },
+      {
+        "id": "C",
+        "text": "FBN1 (Fibrillin-1)"
+      },
+      {
+        "id": "D",
+        "text": "TGFBR1 (Loeys-Dietz syndrome)"
+      },
+      {
+        "id": "E",
+        "text": "COL5A1 (Ehlers-Danlos classical type)"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -220,11 +354,12 @@
       },
       "clinicalPearl": "Marfan: FBN1, UPWARD lens dislocation, aortic root dilation. Use beta-blockers/ARBs to slow aortic dilation."
     },
-    "references": ["Revised Ghent Criteria for Marfan Syndrome"],
+    "references": [
+      "Revised Ghent Criteria for Marfan Syndrome"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_gene_009",
     "specialty": "genetics",
@@ -232,15 +367,30 @@
     "difficulty": "medium",
     "vignette": "A couple is considering having a child. The wife has an autosomal dominant disorder (heterozygous). What is the probability their child will inherit the condition?",
     "options": [
-      { "id": "A", "text": "0%" },
-      { "id": "B", "text": "25%" },
-      { "id": "C", "text": "50%" },
-      { "id": "D", "text": "75%" },
-      { "id": "E", "text": "100%" }
+      {
+        "id": "A",
+        "text": "0%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "75%"
+      },
+      {
+        "id": "E",
+        "text": "100%"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "Autosomal dominant: Affected parent (heterozygous: Aa) × Unaffected parent (aa). Each pregnancy: 50% chance child inherits the mutated allele (Aa = affected). Independent for each pregnancy.",
+      "whyCorrect": "Autosomal dominant: Affected parent (heterozygous: Aa) \u00d7 Unaffected parent (aa). Each pregnancy: 50% chance child inherits the mutated allele (Aa = affected). Independent for each pregnancy.",
       "whyWrong": {
         "A": "0% only if both parents are unaffected.",
         "B": "25% is for autosomal recessive with two carrier parents.",
@@ -249,7 +399,9 @@
       },
       "clinicalPearl": "Autosomal dominant: 50% risk for each child if one parent is heterozygous. Prior outcomes do NOT affect future risk."
     },
-    "references": ["Principles of Medical Genetics"],
+    "references": [
+      "Principles of Medical Genetics"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -260,11 +412,26 @@
     "difficulty": "hard",
     "vignette": "A genetic disorder shows different severity when inherited from the mother versus the father due to differential methylation. What is this phenomenon called?",
     "options": [
-      { "id": "A", "text": "Anticipation" },
-      { "id": "B", "text": "Genomic imprinting" },
-      { "id": "C", "text": "Mosaicism" },
-      { "id": "D", "text": "Uniparental disomy" },
-      { "id": "E", "text": "Lyonization" }
+      {
+        "id": "A",
+        "text": "Anticipation"
+      },
+      {
+        "id": "B",
+        "text": "Genomic imprinting"
+      },
+      {
+        "id": "C",
+        "text": "Mosaicism"
+      },
+      {
+        "id": "D",
+        "text": "Uniparental disomy"
+      },
+      {
+        "id": "E",
+        "text": "Lyonization"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -277,7 +444,9 @@
       },
       "clinicalPearl": "Imprinting: Parent-of-origin effect due to methylation. Prader-Willi/Angelman = Classic examples (15q11-q13)."
     },
-    "references": ["Genomic Imprinting in Human Disease"],
+    "references": [
+      "Genomic Imprinting in Human Disease"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -288,11 +457,26 @@
     "difficulty": "hard",
     "vignette": "A 45-year-old female with hereditary breast cancer (BRCA1 mutation) asks about her risk of ovarian cancer. What is her approximate lifetime risk?",
     "options": [
-      { "id": "A", "text": "5-10%" },
-      { "id": "B", "text": "15-20%" },
-      { "id": "C", "text": "40-50%" },
-      { "id": "D", "text": "70-80%" },
-      { "id": "E", "text": "95-100%" }
+      {
+        "id": "A",
+        "text": "5-10%"
+      },
+      {
+        "id": "B",
+        "text": "15-20%"
+      },
+      {
+        "id": "C",
+        "text": "40-50%"
+      },
+      {
+        "id": "D",
+        "text": "70-80%"
+      },
+      {
+        "id": "E",
+        "text": "95-100%"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -305,7 +489,481 @@
       },
       "clinicalPearl": "BRCA1: Breast cancer 72%, Ovarian cancer 44%. BRCA2: Breast cancer 69%, Ovarian cancer 17%. RRSO reduces ovarian cancer risk by 90%."
     },
-    "references": ["NCCN Genetic/Familial High-Risk Assessment 2024"],
+    "references": [
+      "NCCN Genetic/Familial High-Risk Assessment 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_001",
+    "specialty": "genetics",
+    "topic": "CRISPR-Cas9 Gene Editing",
+    "difficulty": "hard",
+    "vignette": "A 12-year-old male with sickle cell disease (HbSS) is being evaluated for a one-time curative therapy. He receives exagamglogene autotemcel (Casgevy). What is the genetic target and mechanism of this CRISPR-Cas9 therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Corrects the HBB gene mutation (Glu6Val) in hematopoietic stem cells"
+      },
+      {
+        "id": "B",
+        "text": "Disables the BCL11A gene enhancer via non-homologous end joining, reactivating fetal hemoglobin (HbF) production"
+      },
+      {
+        "id": "C",
+        "text": "Inserts a functional beta-globin gene using a lentiviral vector"
+      },
+      {
+        "id": "D",
+        "text": "Activates the HBG1 gene promoter to increase gamma-globin expression"
+      },
+      {
+        "id": "E",
+        "text": "Replaces the entire HBB locus via homologous recombination"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Casgevy uses CRISPR-Cas9 to introduce a double-strand break in the erythroid-specific enhancer of BCL11A (a transcription factor that suppresses gamma-globin). Non-homologous end joining disrupts this enhancer, reducing BCL11A expression and reactivating HbF production. HbF inhibits HbS polymerization, preventing sickling. It does NOT correct the HBB mutation directly. The other approved gene therapy, Lyfgenia (lovo-cel), uses a lentiviral vector to add a modified beta-globin gene (HbAT87Q).",
+      "whyWrong": {
+        "A": "Casgevy does not correct the point mutation (Glu6Val); it reactivates HbF.",
+        "B": "Correct: Disables BCL11A enhancer \u2192 HbF reactivation \u2192 Anti-sickling effect.",
+        "C": "This describes Lyfgenia (lovo-cel), which is lentiviral gene addition, not CRISPR.",
+        "D": "CRISPR does not directly activate HBG1; it acts on the BCL11A enhancer.",
+        "E": "Homologous recombination is not the mechanism; NHEJ is used for disruption."
+      },
+      "clinicalPearl": "Casgevy: CRISPR-Cas9 disables BCL11A \u2192 HbF reactivation. Lyfgenia: Lentiviral vector adds modified beta-globin gene. Both FDA-approved Dec 2023."
+    },
+    "references": [
+      "FDA Casgevy Approval 2023",
+      "CLIMB SCD-121 Trial",
+      "NEJM CRISPR SCD Review 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_002",
+    "specialty": "genetics",
+    "topic": "Pharmacogenomics - CYP2D6",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female with breast cancer is prescribed tamoxifen for adjuvant endocrine therapy. She is found to have CYP2D6 poor metabolizer genotype (*4/*4). How does this affect tamoxifen efficacy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No effect; tamoxifen works independently of CYP2D6"
+      },
+      {
+        "id": "B",
+        "text": "Reduced conversion to active metabolite (endoxifen) \u2192 Decreased efficacy \u2192 Consider alternative (aromatase inhibitor)"
+      },
+      {
+        "id": "C",
+        "text": "Increased conversion to active metabolite \u2192 Increased toxicity"
+      },
+      {
+        "id": "D",
+        "text": "Tamoxifen is contraindicated in CYP2D6 poor metabolizers"
+      },
+      {
+        "id": "E",
+        "text": "Increase tamoxifen dose to 40mg daily"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tamoxifen is a prodrug requiring CYP2D6-mediated conversion to endoxifen (active metabolite, 100x more potent anti-estrogen). CYP2D6 poor metabolizers (e.g., *4/*4) have significantly reduced endoxifen levels \u2192 higher recurrence risk. CPIC guidelines: CYP2D6 poor metabolizers should consider ALTERNATIVE therapy (aromatase inhibitor - anastrozole, letrozole) in postmenopausal women. Increasing tamoxifen dose is NOT recommended (does not reliably increase endoxifen). Pre-menopausal women: Options are limited; ovarian suppression + AI or tamoxifen with close monitoring.",
+      "whyWrong": {
+        "A": "Tamoxifen efficacy is HIGHLY dependent on CYP2D6 metabolism.",
+        "B": "Poor metabolizer \u2192 Low endoxifen \u2192 Higher recurrence. Switch to AI if postmenopausal.",
+        "C": "Poor metabolizers have DECREASED, not increased, active metabolite.",
+        "D": "Not absolutely contraindicated, but alternative preferred per CPIC.",
+        "E": "Dose increase not recommended (does not reliably overcome poor metabolism)."
+      },
+      "clinicalPearl": "Tamoxifen + CYP2D6 poor metabolizer = Low endoxifen = Higher recurrence. Consider aromatase inhibitor (postmenopausal)."
+    },
+    "references": [
+      "CPIC Tamoxifen Guidelines 2023",
+      "BIG 1-98 CYP2D6 Substudy"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_003",
+    "specialty": "genetics",
+    "topic": "ApoE and Alzheimer Disease",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female with family history of late-onset Alzheimer disease (mother diagnosed at age 75) asks about genetic testing. Which ApoE allele confers the HIGHEST risk for late-onset AD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ApoE \u03b52 allele"
+      },
+      {
+        "id": "B",
+        "text": "ApoE \u03b54 allele (homozygous > heterozygous)"
+      },
+      {
+        "id": "C",
+        "text": "ApoE \u03b53 allele"
+      },
+      {
+        "id": "D",
+        "text": "ApoE \u03b51 allele"
+      },
+      {
+        "id": "E",
+        "text": "All ApoE alleles have equal risk"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ApoE \u03b54 is the strongest genetic risk factor for late-onset AD. Inheritance pattern: \u03b54/\u03b54 (homozygous) = 10-15x increased risk, \u03b53/\u03b54 (heterozygous) = 3-4x risk compared to \u03b53/\u03b53. ApoE \u03b52 is PROTECTIVE (reduced risk). ApoE \u03b53 is neutral (most common). However, ApoE testing is NOT routinely recommended in asymptomatic individuals (no preventive therapy available, potential for genetic discrimination). ApoE \u03b54 is also associated with cerebral amyloid angiopathy and poor outcome after TBI.",
+      "whyWrong": {
+        "A": "ApoE \u03b52 is PROTECTIVE, not risk-conferring.",
+        "B": "ApoE \u03b54: Strongest genetic risk. \u03b54/\u03b54 > \u03b53/\u03b54. Not routine testing.",
+        "C": "ApoE \u03b53 is neutral (most common allele).",
+        "D": "ApoE \u03b51 is extremely rare; not the major risk allele.",
+        "E": "Risk varies significantly by genotype."
+      },
+      "clinicalPearl": "ApoE \u03b54 = Strongest genetic risk for late-onset AD. Not routinely tested. \u03b52 is protective. \u03b54 also risk for CAA and poor TBI outcome."
+    },
+    "references": [
+      "ApoE and Alzheimer Disease Review 2023",
+      "ACMG Genetic Testing Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_004",
+    "specialty": "genetics",
+    "topic": "BRCA1/2 and PARP Inhibitors",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old female with BRCA1-mutated metastatic breast cancer receives olaparib (PARP inhibitor). What is the mechanism of synthetic lethality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Olaparib directly repairs BRCA1 mutations"
+      },
+      {
+        "id": "B",
+        "text": "PARP inhibition blocks single-strand break repair; BRCA-deficient cells cannot repair via homologous recombination \u2192 Double-strand breaks accumulate \u2192 Cell death (synthetic lethality)"
+      },
+      {
+        "id": "C",
+        "text": "Olaparib inhibits angiogenesis in BRCA-mutated tumors"
+      },
+      {
+        "id": "D",
+        "text": "Olaparib activates the immune system against BRCA-mutated cells"
+      },
+      {
+        "id": "E",
+        "text": "Olaparib corrects protein folding in BRCA mutants"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Synthetic lethality: PARP inhibitors block base excision repair (single-strand break repair). In normal cells, double-strand breaks are repaired by homologous recombination (HR), which requires BRCA1/2. In BRCA-deficient cells, HR is defective. When PARP is inhibited, unrepaired single-strand breaks become double-strand breaks during replication, which cannot be repaired without BRCA \u2192 cell death. Normal cells (with functional BRCA) are spared. This principle also applies to other HR deficiency genes (ATM, PALB2).",
+      "whyWrong": {
+        "A": "Olaparib does not repair BRCA mutations.",
+        "B": "Synthetic lethality: PARPi + BRCA mutation = Unrepaired DNA damage \u2192 Cell death.",
+        "C": "PARP inhibitors do not primarily target angiogenesis.",
+        "D": "Immune activation is a secondary effect; primary mechanism is DNA repair inhibition.",
+        "E": "Olaparib is not a protein folding chaperone."
+      },
+      "clinicalPearl": "PARP inhibitors (olaparib): Synthetic lethality with BRCA mutations. PARPi blocks SSB repair; HR defect \u2192 Unrepaired DSBs \u2192 Apoptosis."
+    },
+    "references": [
+      "OlympiAD Trial 2017",
+      "PARP Inhibitor Mechanism Review 2023",
+      "FDA Olaparib Label"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_005",
+    "specialty": "genetics",
+    "topic": "Lynch Syndrome Screening",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male is newly diagnosed with colorectal cancer. Tumor shows loss of MLH1 and PMS2 expression on immunohistochemistry. What is the NEXT step in Lynch syndrome evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagnose Lynch syndrome and test all family members"
+      },
+      {
+        "id": "B",
+        "text": "BRAF V600E mutation testing or MLH1 promoter methylation testing to exclude sporadic MSI-H cancer"
+      },
+      {
+        "id": "C",
+        "text": "No further testing needed"
+      },
+      {
+        "id": "D",
+        "text": "Start immunotherapy immediately"
+      },
+      {
+        "id": "E",
+        "text": "Test for APC gene mutation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Loss of MLH1/PMS2 on IHC: Most commonly due to SOMATIC MLH1 promoter hypermethylation (sporadic CRC, BRAF V600E mutation associated). Before diagnosing Lynch syndrome, rule out sporadic MSI-H by testing for BRAF V600E mutation (present in ~70% of sporadic MSI-H CRC but absent in Lynch) OR MLH1 promoter methylation testing. If BRAF wild-type and no MLH1 methylation \u2192 Germline MLH1 testing for Lynch syndrome. If MSH2/MSH6 loss on IHC: Go directly to germline testing (no methylation rule-out needed).",
+      "whyWrong": {
+        "A": "Must rule out sporadic MSI-H first (BRAF or methylation testing).",
+        "B": "BRAF mutation or MLH1 methylation testing to distinguish somatic from germline.",
+        "C": "Universal screening of all CRC for Lynch syndrome is recommended.",
+        "D": "Immunotherapy (pembrolizumab) is for metastatic MSI-H tumors, not for initial Lynch diagnosis.",
+        "E": "APC is for familial adenomatous polyposis (FAP), not Lynch syndrome."
+      },
+      "clinicalPearl": "CRC + Loss of MLH1/PMS2: Test for BRAF V600E or MLH1 methylation FIRST. If negative \u2192 Germline Lynch testing."
+    },
+    "references": [
+      "NCCN Colorectal Cancer Guidelines 2024",
+      "ACMG Lynch Syndrome Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_006",
+    "specialty": "genetics",
+    "topic": "Trisomy 21 Screening",
+    "difficulty": "medium",
+    "vignette": "A 32-year-old pregnant female at 12 weeks gestation has cell-free DNA (cfDNA) screening showing high risk for trisomy 21. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagnose trisomy 21 and discuss termination"
+      },
+      {
+        "id": "B",
+        "text": "Confirm with diagnostic testing: Chorionic villus sampling (CVS) or Amniocentesis with karyotype/microarray"
+      },
+      {
+        "id": "C",
+        "text": "Repeat cfDNA in 2 weeks"
+      },
+      {
+        "id": "D",
+        "text": "No further testing, cfDNA is diagnostic"
+      },
+      {
+        "id": "E",
+        "text": "Ultrasound alone is sufficient for diagnosis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "cfDNA (NIPT) is a SCREENING test, NOT diagnostic. Positive predictive value depends on maternal age and prevalence but is high for trisomy 21 (>90%). However, false positives occur (confined placental mosaicism, maternal mosaicism, vanishing twin, maternal malignancy). All positive cfDNA results should be confirmed with diagnostic testing: CVS (11-13 weeks) or Amniocentesis (>15 weeks) with karyotype or chromosomal microarray. Never make irreversible decisions based on screening alone.",
+      "whyWrong": {
+        "A": "cfDNA is screening; diagnostic confirmation required before any decisions.",
+        "B": "Confirm with CVS or Amniocentesis. Karyotype or microarray.",
+        "C": "Repeating cfDNA does not provide diagnostic confirmation.",
+        "D": "cfDNA is NOT diagnostic per ACOG/SMFM guidelines.",
+        "E": "Ultrasound can suggest but not definitively diagnose trisomy 21."
+      },
+      "clinicalPearl": "cfDNA (NIPT) = Screening, NOT diagnostic. Positive \u2192 CVS or Amniocentesis. Never act on screening results alone."
+    },
+    "references": [
+      "ACOG/SMFM Prenatal Screening Guidelines 2023",
+      "ACMG cfDNA Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_007",
+    "specialty": "genetics",
+    "topic": "Cystic Fibrosis - Newborn Screening",
+    "difficulty": "medium",
+    "vignette": "A newborn has positive cystic fibrosis newborn screening (elevated IRT + 1 F508del mutation). What is the NEXT step for confirmation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagnose CF and start CFTR modulators"
+      },
+      {
+        "id": "B",
+        "text": "Sweat chloride testing (gold standard for CF diagnosis)"
+      },
+      {
+        "id": "C",
+        "text": "Repeat IRT level"
+      },
+      {
+        "id": "D",
+        "text": "Full CFTR gene sequencing only"
+      },
+      {
+        "id": "E",
+        "text": "Chest X-ray and sputum culture"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Positive CF newborn screening (elevated IRT + 1-2 CFTR mutations) requires SWEAT CHLORIDE TEST for confirmation. Sweat chloride \u226560 mmol/L on two occasions = CF diagnosis. Intermediate (30-59): CFTR gene sequencing to confirm. Normal (<30): Unlikely CF but follow-up if high clinical suspicion. CFTR modulator eligibility depends on mutation type. Never diagnose CF based on newborn screen alone (many carriers identified).",
+      "whyWrong": {
+        "A": "Must confirm with sweat chloride test before diagnosing and treating.",
+        "B": "Sweat chloride test = Gold standard for CF diagnosis.",
+        "C": "Repeating IRT is not confirmatory.",
+        "D": "Full CFTR sequencing is used if sweat chloride intermediate or VUS found.",
+        "E": "Imaging and cultures are part of evaluation after diagnosis, not for initial confirmation."
+      },
+      "clinicalPearl": "CF newborn screen positive \u2192 Sweat chloride test (gold standard). \u226560 mmol/L = CF. 30-59 = CFTR sequencing."
+    },
+    "references": [
+      "CF Foundation Newborn Screening Guidelines 2023",
+      "ACMG CF Screening Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_008",
+    "specialty": "genetics",
+    "topic": "Hereditary Hemochromatosis",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male with fatigue and arthralgias has transferrin saturation 55% and ferritin 800 ng/mL. HFE gene testing shows C282Y homozygosity. What is the penetrance and significance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100% penetrance: All C282Y homozygotes develop clinical iron overload"
+      },
+      {
+        "id": "B",
+        "text": "Incomplete penetrance: Only 25-30% of C282Y homozygotes develop clinical iron overload (male > female)"
+      },
+      {
+        "id": "C",
+        "text": "0% penetrance: No clinical significance"
+      },
+      {
+        "id": "D",
+        "text": "100% penetrance but only in females"
+      },
+      {
+        "id": "E",
+        "text": "Penetrance unknown"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HFE C282Y homozygosity has INCOMPLETE penetrance. Only 25-30% of male homozygotes and 1-5% of female homozygotes develop clinical iron overload (due to menstrual iron loss in premenopausal women). Biochemical penetrance (elevated ferritin/TSAT) is higher (~50% males, ~25% females). Modifying factors: Alcohol, hepatitis, diet. Phlebotomy is effective treatment. C282Y/H63D compound heterozygotes have even lower penetrance (1-2%). This is why population screening is NOT recommended.",
+      "whyWrong": {
+        "A": "Incomplete penetrance; most homozygotes do NOT develop clinical disease.",
+        "B": "25-30% clinical penetrance in males. Phlebotomy for those with iron overload.",
+        "C": "Has clinical significance in a subset of patients.",
+        "D": "Penetrance is HIGHER in males, not females.",
+        "E": "Penetrance is well-studied (HEIRS study)."
+      },
+      "clinicalPearl": "C282Y/C282Y: 25-30% clinical penetrance (men). Phlebotomy if iron overloaded. Population screening NOT recommended due to low penetrance."
+    },
+    "references": [
+      "HEIRS Study 2008",
+      "ACMG HFE Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_009",
+    "specialty": "genetics",
+    "topic": "Mitochondrial Inheritance",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female has Leber hereditary optic neuropathy (LHON) due to mitochondrial DNA mutation m.11778G>A. She is planning pregnancy. What is the inheritance pattern and risk to offspring?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autosomal dominant: 50% risk to all children"
+      },
+      {
+        "id": "B",
+        "text": "Mitochondrial (maternal) inheritance: ALL children will inherit the mutation, but expression varies"
+      },
+      {
+        "id": "C",
+        "text": "X-linked: 50% risk to sons"
+      },
+      {
+        "id": "D",
+        "text": "No risk to offspring"
+      },
+      {
+        "id": "E",
+        "text": "Autosomal recessive: 25% risk"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Mitochondrial DNA is inherited EXCLUSIVELY from the mother (sperm mitochondria are eliminated during fertilization). All children of an affected female will inherit the mtDNA mutation (homoplasmy or heteroplasmy). However, clinical expression depends on heteroplasmy level (percentage of mutated mtDNA) and threshold effect. Affected males do NOT transmit to offspring. LHON primarily affects males (50% penetrance in males, 10% in females). Mitochondrial replacement therapy (MRT - 'three-parent IVF') is experimental to prevent transmission.",
+      "whyWrong": {
+        "A": "mtDNA is not autosomal; it's cytoplasmic/maternal inheritance.",
+        "B": "Maternal inheritance: All children inherit mtDNA. Variable expression due to heteroplasmy.",
+        "C": "mtDNA is not X-linked.",
+        "D": "All children inherit the mutation; there is risk.",
+        "E": "Not autosomal recessive."
+      },
+      "clinicalPearl": "Mitochondrial inheritance: ONLY females transmit. All offspring inherit. Variable expression (heteroplasmy). Affected males do NOT transmit."
+    },
+    "references": [
+      "Mitochondrial Inheritance Review 2023",
+      "LHON Genetic Counseling Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b1_010",
+    "specialty": "genetics",
+    "topic": "Tumor Mutation Burden",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with metastatic non-small cell lung cancer has tumor sequencing showing high tumor mutation burden (TMB-H, 15 mutations/Mb) and no targetable mutations. Which immunotherapy biomarker predicts response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PD-L1 expression alone"
+      },
+      {
+        "id": "B",
+        "text": "High TMB (\u226510 mutations/Mb) - Predicts response to immune checkpoint inhibitors regardless of PD-L1"
+      },
+      {
+        "id": "C",
+        "text": "EGFR mutation"
+      },
+      {
+        "id": "D",
+        "text": "ALK rearrangement"
+      },
+      {
+        "id": "E",
+        "text": "ROS1 fusion"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "TMB-H (\u226510 mutations/Mb) is a tissue-agnostic biomarker for pembrolizumab (anti-PD1) per KEYNOTE-158 trial. High TMB \u2192 more neoantigens \u2192 stronger immune recognition \u2192 better response to checkpoint inhibitors. FDA-approved for TMB-H solid tumors regardless of histology. This is complementary to PD-L1, MSI-H, and MMR deficiency. EGFR/ALK/ROS1 mutations predict response to TYROSINE KINASE INHIBITORS, not immunotherapy (actually predict POOR response to immunotherapy).",
+      "whyWrong": {
+        "A": "PD-L1 is another biomarker but TMB is independently predictive.",
+        "B": "TMB-H (\u226510): FDA-approved biomarker for pembrolizumab in any solid tumor.",
+        "C": "EGFR mutations predict response to osimertinib, not immunotherapy.",
+        "D": "ALK rearrangement predicts response to alectinib/crizotinib, not immunotherapy.",
+        "E": "ROS1 fusion predicts response to entrectinib, not immunotherapy."
+      },
+      "clinicalPearl": "TMB-H (\u226510 mut/Mb): Tissue-agnostic biomarker for pembrolizumab. KEYNOTE-158. Independent of PD-L1 and MSI."
+    },
+    "references": [
+      "KEYNOTE-158 Trial 2020",
+      "FDA Pembrolizumab TMB-H Approval 2020"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
