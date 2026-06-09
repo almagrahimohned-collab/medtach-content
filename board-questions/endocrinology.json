@@ -1,0 +1,198 @@
+[
+  {
+    "id": "board_endo_001",
+    "specialty": "endocrinology",
+    "topic": "Diabetes",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with Type 1 DM presents with nausea, vomiting, and abdominal pain for 24 hours. He ran out of insulin 2 days ago. Vitals: BP 90/60, HR 120, RR 30. Labs: Glucose 480 mg/dL, pH 7.1, HCO3 8 mEq/L, Anion gap 24, K+ 5.8 mEq/L. Urine ketones positive. What is the FIRST step in management?",
+    "options": [
+      { "id": "A", "text": "IV insulin bolus 0.1 units/kg" },
+      { "id": "B", "text": "IV normal saline 1-2 liters bolus" },
+      { "id": "C", "text": "IV sodium bicarbonate" },
+      { "id": "D", "text": "IV calcium gluconate for hyperkalemia" },
+      { "id": "E", "text": "IV insulin infusion 0.1 units/kg/hr" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "DKA management: 1st = IV FLUIDS (NS 1-2L bolus). Insulin started AFTER K+ checked (>3.3) and fluids begun.",
+      "whyWrong": {
+        "A": "Insulin bolus is NOT recommended.",
+        "C": "Bicarbonate is controversial, reserved for pH <6.9.",
+        "D": "K+ 5.8 does not require calcium (reserved for >6.5 or ECG changes).",
+        "E": "Insulin infusion is step 2."
+      },
+      "clinicalPearl": "DKA: 1) Fluids 2) Check K+ (>3.3 before insulin!) 3) Insulin infusion 4) D5 when glucose <200."
+    },
+    "references": ["ADA DKA Guidelines 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_002",
+    "specialty": "endocrinology",
+    "topic": "Thyroid",
+    "difficulty": "medium",
+    "vignette": "A 32-year-old female presents with weight loss, heat intolerance, palpitations, and tremor for 2 months. She has a diffuse, non-tender goiter. Labs: TSH <0.01, Free T4 elevated. TSI positive. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Radioactive iodine ablation" },
+      { "id": "B", "text": "Total thyroidectomy" },
+      { "id": "C", "text": "Methimazole + Propranolol" },
+      { "id": "D", "text": "Propylthiouracil (PTU)" },
+      { "id": "E", "text": "Levothyroxine" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Graves disease. First-line: Methimazole + Propranolol. PTU is reserved for 1st trimester pregnancy.",
+      "whyWrong": {
+        "A": "RAI is second-line if methimazole fails.",
+        "B": "Surgery is third-line.",
+        "D": "PTU is second-line (hepatotoxicity risk).",
+        "E": "Levothyroxine treats HYPOthyroidism."
+      },
+      "clinicalPearl": "Graves: Methimazole (NOT PTU) + Propranolol. PTU only in 1st trimester."
+    },
+    "references": ["ATA Hyperthyroidism Guidelines 2016"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_003",
+    "specialty": "endocrinology",
+    "topic": "Adrenal",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male with rheumatoid arthritis on chronic prednisone (10mg daily for 2 years) undergoes emergency surgery. Post-operatively, he develops hypotension refractory to fluids, hyponatremia (Na 128), and hyperkalemia (K+ 5.9). What is the MOST likely cause?",
+    "options": [
+      { "id": "A", "text": "Septic shock" },
+      { "id": "B", "text": "Adrenal crisis due to secondary adrenal insufficiency" },
+      { "id": "C", "text": "Acute kidney injury" },
+      { "id": "D", "text": "SIADH from surgical stress" },
+      { "id": "E", "text": "Primary adrenal insufficiency (Addison disease)" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic steroids suppress HPA axis → adrenal atrophy → adrenal crisis during stress. Treatment: IV hydrocortisone 100mg STAT.",
+      "whyWrong": {
+        "A": "Sepsis would not explain the classic electrolyte pattern.",
+        "C": "AKI alone would not cause this pattern.",
+        "D": "SIADH causes euvolemic hyponatremia without hyperkalemia.",
+        "E": "Primary AI would have hyperpigmentation."
+      },
+      "clinicalPearl": "Chronic steroids = Stress-dose steroids before surgery! Hydrocortisone 50mg q8h or 100mg IV STAT."
+    },
+    "references": ["Endocrine Society Adrenal Crisis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_004",
+    "specialty": "endocrinology",
+    "topic": "Calcium",
+    "difficulty": "easy",
+    "vignette": "A 55-year-old female has hypercalcemia on routine labs (Ca 11.2 mg/dL). She is asymptomatic. PTH is elevated (120 pg/mL). 24-hour urinary calcium is elevated. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Primary hyperparathyroidism" },
+      { "id": "B", "text": "Secondary hyperparathyroidism" },
+      { "id": "C", "text": "Familial hypocalciuric hypercalcemia (FHH)" },
+      { "id": "D", "text": "Malignancy-related hypercalcemia" },
+      { "id": "E", "text": "Vitamin D toxicity" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Hypercalcemia + elevated PTH = Primary hyperparathyroidism. Elevated urinary calcium rules out FHH.",
+      "whyWrong": {
+        "B": "Secondary hyperparathyroidism has LOW or normal calcium.",
+        "C": "FHH has low 24h urinary calcium.",
+        "D": "Malignancy causes PTH-independent hypercalcemia (low PTH).",
+        "E": "Vitamin D toxicity causes hypercalcemia with LOW PTH."
+      },
+      "clinicalPearl": "Hypercalcemia: High PTH = Primary hyperparathyroidism. Low PTH = Malignancy, Vitamin D toxicity."
+    },
+    "references": ["AAES Parathyroid Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_005",
+    "specialty": "endocrinology",
+    "topic": "Pituitary",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old female presents with amenorrhea, galactorrhea, and headaches for 6 months. Prolactin is 250 ng/mL. MRI shows 1.2cm pituitary adenoma compressing the optic chiasm. Visual field testing shows bitemporal hemianopsia. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Cabergoline 0.5mg twice weekly" },
+      { "id": "B", "text": "Transsphenoidal adenomectomy" },
+      { "id": "C", "text": "Bromocriptine 2.5mg daily" },
+      { "id": "D", "text": "Radiation therapy" },
+      { "id": "E", "text": "Observe with serial MRI" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Macroprolactinoma + visual field deficit = surgical emergency. Transsphenoidal surgery first.",
+      "whyWrong": {
+        "A": "Cabergoline is first-line for MOST prolactinomas, but visual deficits require urgent surgery.",
+        "C": "Bromocriptine is less effective than cabergoline.",
+        "D": "Radiation is adjunctive.",
+        "E": "Macroprolactinoma + visual symptoms requires treatment."
+      },
+      "clinicalPearl": "Prolactinoma + Visual deficit = Surgery first. Without visual deficit = Cabergoline."
+    },
+    "references": ["Endocrine Society Prolactinoma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_006",
+    "specialty": "endocrinology",
+    "topic": "Osteoporosis",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female with osteoporosis (T-score -3.2 at hip) is started on alendronate 70mg weekly. After 1 year, she fractures her wrist after a fall. DEXA shows T-score -3.3 (stable). What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Continue alendronate for another year" },
+      { "id": "B", "text": "Switch to denosumab 60mg SC every 6 months" },
+      { "id": "C", "text": "Switch to teriparatide 20mcg daily" },
+      { "id": "D", "text": "Add raloxifene to alendronate" },
+      { "id": "E", "text": "Switch to IV zoledronic acid 5mg annually" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Fracture on bisphosphonate = Treatment failure. Anabolic therapy (teriparatide, romosozumab) is indicated.",
+      "whyWrong": {
+        "A": "Fracture on therapy = do not continue same drug.",
+        "B": "Denosumab is antiresorptive (same class).",
+        "D": "Raloxifene is weaker antiresorptive.",
+        "E": "Zoledronic acid is same class (bisphosphonate)."
+      },
+      "clinicalPearl": "Fracture on bisphosphonate = Anabolic therapy. Do NOT switch between antiresorptives."
+    },
+    "references": ["AACE Osteoporosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_007",
+    "specialty": "endocrinology",
+    "topic": "Thyroid Nodule",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female is found to have a 2.5cm solitary thyroid nodule. She has no compressive symptoms. TSH is normal. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Thyroid ultrasound with Doppler" },
+      { "id": "B", "text": "Fine needle aspiration (FNA) biopsy" },
+      { "id": "C", "text": "Total thyroidectomy" },
+      { "id": "D", "text": "CT neck with contrast" },
+      { "id": "E", "text": "Thyroid scan (scintigraphy)" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Thyroid nodule >1cm + normal TSH: First step = ultrasound to risk-stratify (TI-RADS). FNA based on US findings.",
+      "whyWrong": {
+        "B": "FNA is based on ultrasound risk stratification.",
+        "C": "Surgery without prior FNA is inappropriate.",
+        "D": "CT is not the imaging of choice.",
+        "E": "Thyroid scan is for LOW TSH (hyperthyroidism)."
+      },
+      "clinicalPearl": "Thyroid nodule + normal/high TSH → US first → FNA based on TI-RADS."
+    },
+    "references": ["ATA Thyroid Nodule Guidelines 2015"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

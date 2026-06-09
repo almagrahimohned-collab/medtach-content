@@ -1,0 +1,170 @@
+[
+  {
+    "id": "board_gastro_001",
+    "specialty": "gastroenterology",
+    "topic": "GI Bleeding",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male with cirrhosis (Child-Pugh B, MELD 18) presents with hematemesis. Vitals: BP 85/50, HR 120. He is confused. Exam shows ascites and spider angiomata. What is the FIRST step in management?",
+    "options": [
+      { "id": "A", "text": "Emergency upper endoscopy" },
+      { "id": "B", "text": "IV octreotide + IV ceftriaxone + IV fluids" },
+      { "id": "C", "text": "Sengstaken-Blakemore tube placement" },
+      { "id": "D", "text": "Transjugular intrahepatic portosystemic shunt (TIPS)" },
+      { "id": "E", "text": "IV pantoprazole 80mg bolus" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Variceal hemorrhage: 1) IV fluids, 2) IV octreotide, 3) IV ceftriaxone. Then urgent endoscopy within 12 hours.",
+      "whyWrong": {
+        "A": "Endoscopy is step 2 (after stabilization).",
+        "C": "Blakemore tube is rescue therapy.",
+        "D": "TIPS is for refractory bleeding.",
+        "E": "PPIs are for PEPTIC ulcer bleeding."
+      },
+      "clinicalPearl": "Variceal bleed: Octreotide + Ceftriaxone + Fluids → Urgent EGD (banding)."
+    },
+    "references": ["AASLD Variceal Hemorrhage Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_002",
+    "specialty": "gastroenterology",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "vignette": "A 42-year-old female presents with severe epigastric pain radiating to the back, nausea, and vomiting after a fatty meal. Lipase is 1,200 U/L. CT shows acute interstitial pancreatitis with no necrosis. What is the MOST important next step?",
+    "options": [
+      { "id": "A", "text": "Start IV antibiotics" },
+      { "id": "B", "text": "Start early enteral nutrition within 24 hours" },
+      { "id": "C", "text": "NPO with parenteral nutrition" },
+      { "id": "D", "text": "Emergency ERCP" },
+      { "id": "E", "text": "Surgical debridement" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Early enteral nutrition (within 24-48 hours) reduces mortality, infections, and length of stay.",
+      "whyWrong": {
+        "A": "Prophylactic antibiotics are NOT recommended.",
+        "C": "NPO and TPN are outdated. Enteral nutrition is superior.",
+        "D": "ERCP is for gallstone pancreatitis with cholangitis.",
+        "E": "Surgery is for infected necrosis after 4 weeks."
+      },
+      "clinicalPearl": "Pancreatitis: Aggressive IV fluids + Early enteral nutrition = Reduced mortality."
+    },
+    "references": ["AGA Pancreatitis Guidelines 2018"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_003",
+    "specialty": "gastroenterology",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "vignette": "A 28-year-old female presents with jaundice, fatigue, and arthralgias. Labs: AST 180, ALT 220, ALP 150, Total bilirubin 4.5. ANA positive (1:320), Anti-smooth muscle antibody positive. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Primary biliary cholangitis" },
+      { "id": "B", "text": "Autoimmune hepatitis" },
+      { "id": "C", "text": "Primary sclerosing cholangitis" },
+      { "id": "D", "text": "Drug-induced liver injury" },
+      { "id": "E", "text": "Wilson disease" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Young female + Hepatitis pattern + ANA + ASMA positive = Autoimmune hepatitis Type 1.",
+      "whyWrong": {
+        "A": "PBC has cholestatic pattern + AMA positive.",
+        "C": "PSC has cholestatic pattern + MRCP shows beaded ducts.",
+        "D": "Drug-induced would not have positive autoimmune markers.",
+        "E": "Wilson presents with neuropsychiatric symptoms + KF rings."
+      },
+      "clinicalPearl": "Autoimmune hepatitis: Young female + Hepatitis pattern + ANA/ASMA positive. Treatment: Steroids + Azathioprine."
+    },
+    "references": ["AASLD AIH Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_004",
+    "specialty": "gastroenterology",
+    "topic": "Colorectal Cancer",
+    "difficulty": "easy",
+    "vignette": "A 50-year-old male at average risk for colorectal cancer asks about screening options. He prefers a non-invasive test. Which is the MOST appropriate recommendation?",
+    "options": [
+      { "id": "A", "text": "Colonoscopy every 10 years" },
+      { "id": "B", "text": "Fecal immunochemical test (FIT) annually" },
+      { "id": "C", "text": "CT colonography every 5 years" },
+      { "id": "D", "text": "Flexible sigmoidoscopy every 5 years" },
+      { "id": "E", "text": "No screening needed until age 55" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CRC screening starts at 45. Non-invasive option: FIT annually. If positive → colonoscopy.",
+      "whyWrong": {
+        "A": "Colonoscopy is invasive. Patient requested non-invasive.",
+        "C": "CT colonography is an option but FIT is preferred.",
+        "D": "Flex sig is less common now.",
+        "E": "Screening starts at 45, not 55."
+      },
+      "clinicalPearl": "CRC screening: Start at 45! Options: Colonoscopy q10yr, FIT q1yr."
+    },
+    "references": ["USPSTF CRC Screening 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_005",
+    "specialty": "gastroenterology",
+    "topic": "Esophageal Disorders",
+    "difficulty": "hard",
+    "vignette": "A 48-year-old male with history of heartburn for 10 years presents with progressive dysphagia to solids. EGD shows distal esophageal stricture and biopsy shows intestinal metaplasia without dysplasia. What is the BEST long-term management?",
+    "options": [
+      { "id": "A", "text": "Endoscopic surveillance every 3-5 years + PPI BID" },
+      { "id": "B", "text": "Endoscopic mucosal resection (EMR)" },
+      { "id": "C", "text": "Esophagectomy" },
+      { "id": "D", "text": "Endoscopic surveillance every 1 year + PPI daily" },
+      { "id": "E", "text": "Radiofrequency ablation (RFA)" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Barrett esophagus WITHOUT dysplasia: Surveillance every 3-5 years + PPI BID.",
+      "whyWrong": {
+        "B": "EMR is for visible lesions or high-grade dysplasia.",
+        "C": "Esophagectomy is last resort.",
+        "D": "Annual surveillance is for low-grade dysplasia.",
+        "E": "RFA is for dysplasia."
+      },
+      "clinicalPearl": "Non-dysplastic Barrett: PPI BID + surveillance q3-5yr."
+    },
+    "references": ["ACG Barrett Esophagus Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_006",
+    "specialty": "gastroenterology",
+    "topic": "Biliary Disease",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old obese female presents with episodic RUQ pain after fatty meals for 3 months. US shows multiple gallstones, CBD 4mm, no wall thickening. LFTs are normal. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Elective laparoscopic cholecystectomy" },
+      { "id": "B", "text": "ERCP with sphincterotomy" },
+      { "id": "C", "text": "Ursodeoxycholic acid 600mg daily" },
+      { "id": "D", "text": "Observation and dietary modification" },
+      { "id": "E", "text": "Emergency cholecystectomy within 24 hours" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Symptomatic cholelithiasis: Elective laparoscopic cholecystectomy is definitive treatment.",
+      "whyWrong": {
+        "B": "ERCP is for choledocholithiasis or cholangitis.",
+        "C": "UDCA is for non-surgical candidates.",
+        "D": "Symptomatic gallstones should be treated surgically.",
+        "E": "Emergency surgery is for acute cholecystitis."
+      },
+      "clinicalPearl": "Symptomatic cholelithiasis: Elective cholecystectomy. Acute cholecystitis: Early cholecystectomy (within 72h)."
+    },
+    "references": ["SAGES Cholecystectomy Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

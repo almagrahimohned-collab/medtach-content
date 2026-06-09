@@ -1,0 +1,226 @@
+[
+  {
+    "id": "board_neuro_001",
+    "specialty": "neurology",
+    "topic": "Stroke",
+    "difficulty": "hard",
+    "vignette": "A 72-year-old female presents with acute onset right-sided weakness and aphasia that started 2 hours ago. NIHSS is 18. CT head shows no hemorrhage. CTA shows left MCA occlusion. She takes warfarin for AF and INR is 1.8. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "IV tPA (alteplase) 0.9 mg/kg" },
+      { "id": "B", "text": "Mechanical thrombectomy" },
+      { "id": "C", "text": "IV tPA followed by mechanical thrombectomy" },
+      { "id": "D", "text": "Aspirin 325mg and admit to stroke unit" },
+      { "id": "E", "text": "Start heparin infusion" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Patient presents within 4.5 hours with large vessel occlusion (MCA) and NIHSS >6. Best outcome: IV tPA + mechanical thrombectomy (bridging therapy).",
+      "whyWrong": {
+        "A": "tPA alone is insufficient for large vessel occlusion.",
+        "B": "Thrombectomy alone without tPA provides less benefit than combined therapy.",
+        "D": "Aspirin alone for large vessel occlusion is inadequate.",
+        "E": "Heparin is not indicated in acute ischemic stroke management."
+      },
+      "clinicalPearl": "Acute stroke <4.5h + LVO (ICA, MCA): IV tPA + Mechanical thrombectomy. Time is brain!"
+    },
+    "references": ["AHA/ASA Stroke Guidelines 2019", "DAWN Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_002",
+    "specialty": "neurology",
+    "topic": "Meningitis",
+    "difficulty": "medium",
+    "vignette": "A 19-year-old college student presents with fever, severe headache, and neck stiffness for 12 hours. He is drowsy but arousable. Vitals: Temp 39.5°C, HR 120, BP 100/60. No rash. What is the MOST appropriate empiric antibiotic regimen?",
+    "options": [
+      { "id": "A", "text": "Ceftriaxone + Vancomycin + Ampicillin" },
+      { "id": "B", "text": "Ceftriaxone + Vancomycin + Dexamethasone" },
+      { "id": "C", "text": "Meropenem + Vancomycin" },
+      { "id": "D", "text": "Ceftriaxone alone" },
+      { "id": "E", "text": "Ceftriaxone + Metronidazole" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Bacterial meningitis: empiric = Ceftriaxone + Vancomycin + Dexamethasone (before or with first antibiotic dose).",
+      "whyWrong": {
+        "A": "Ampicillin is added for Listeria in patients >50 or immunocompromised.",
+        "C": "Meropenem is reserved for severe penicillin allergy.",
+        "D": "Ceftriaxone alone does not cover resistant pneumococcus.",
+        "E": "Metronidazole is not part of empiric meningitis treatment."
+      },
+      "clinicalPearl": "Meningitis: Steroids BEFORE antibiotics! Dexamethasone reduces mortality by 50% in pneumococcal meningitis."
+    },
+    "references": ["IDSA Meningitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_003",
+    "specialty": "neurology",
+    "topic": "Seizure",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old male with known epilepsy on levetiracetam presents with continuous seizure activity for 12 minutes. He received 4mg IV lorazepam by EMS without response. In the ED, he is still seizing. What is the NEXT best step?",
+    "options": [
+      { "id": "A", "text": "Administer another 4mg IV lorazepam" },
+      { "id": "B", "text": "Load IV fosphenytoin 20mg/kg" },
+      { "id": "C", "text": "Intubate and start propofol infusion" },
+      { "id": "D", "text": "Load IV levetiracetam 60mg/kg" },
+      { "id": "E", "text": "Obtain STAT CT head first" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Status epilepticus: 1st line = benzodiazepine (given). 2nd line = IV fosphenytoin, valproate, or levetiracetam.",
+      "whyWrong": {
+        "A": "Repeating benzodiazepines after failed first dose is less effective.",
+        "C": "Intubation/propofol is 3rd line (refractory status).",
+        "D": "Levetiracetam is alternative but patient is already on it.",
+        "E": "Neuroimaging is important but should NOT delay seizure control."
+      },
+      "clinicalPearl": "Status Epilepticus: BZD → Fosphenytoin/Valproate/Levetiracetam → Propofol/Midazolam/Phenobarbital."
+    },
+    "references": ["Neurocritical Care Society Guidelines", "ESETT Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_004",
+    "specialty": "neurology",
+    "topic": "Neuromuscular",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female presents with progressive weakness over 3 weeks. It started in her legs and is now in her arms. She had a diarrheal illness 2 weeks ago. Exam: Symmetric weakness 4/5 in all limbs, absent reflexes. CSF shows albuminocytologic dissociation. What is the MOST important next step?",
+    "options": [
+      { "id": "A", "text": "Start IV methylprednisolone 1g daily" },
+      { "id": "B", "text": "Start IVIG or plasmapheresis" },
+      { "id": "C", "text": "Obtain MRI of the brain and spine" },
+      { "id": "D", "text": "Start IV acyclovir" },
+      { "id": "E", "text": "Monitor FVC every 2-4 hours" }
+    ],
+    "correctOptionId": "E",
+    "explanation": {
+      "whyCorrect": "Guillain-Barré syndrome. The MOST critical immediate step is monitoring respiratory function (FVC). 25-30% require mechanical ventilation.",
+      "whyWrong": {
+        "A": "Steroids are NOT effective in GBS.",
+        "B": "IVIG/Plasmapheresis is treatment but respiratory monitoring takes priority.",
+        "C": "MRI is not first-line for GBS.",
+        "D": "Acyclovir is for HSV encephalitis, not GBS."
+      },
+      "clinicalPearl": "GBS: Monitor FVC q2-4h. Intubate if FVC <15-20 mL/kg. Treatment: IVIG or Plasmapheresis (NOT steroids)."
+    },
+    "references": ["AAN GBS Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_005",
+    "specialty": "neurology",
+    "topic": "Stroke Subtypes",
+    "difficulty": "hard",
+    "vignette": "A 78-year-old female with hypertension and diabetes presents with acute onset left-sided weakness and left hemineglect. NIHSS is 16. CT shows hyperdense right MCA sign. CTA confirms right MCA occlusion. She takes apixaban for AF. Last dose was 4 hours ago. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "IV tPA (alteplase)" },
+      { "id": "B", "text": "Mechanical thrombectomy alone" },
+      { "id": "C", "text": "IV tPA + mechanical thrombectomy" },
+      { "id": "D", "text": "Aspirin + admit to stroke unit" },
+      { "id": "E", "text": "Reverse apixaban with andexanet alfa, then treat" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Recent DOAC (4h) is CONTRAINDICATION to IV tPA. Thrombectomy alone is appropriate for LVO within 24h.",
+      "whyWrong": {
+        "A": "Recent DOAC use within 48h contraindicates IV tPA.",
+        "C": "Cannot give tPA due to recent apixaban.",
+        "D": "Aspirin alone is inadequate for LVO.",
+        "E": "Reversal agents delay definitive treatment."
+      },
+      "clinicalPearl": "Recent DOAC (<48h) = NO tPA. Thrombectomy alone for LVO within 24h."
+    },
+    "references": ["AHA/ASA Stroke Guidelines 2019", "DAWN Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_006",
+    "specialty": "neurology",
+    "topic": "Movement Disorders",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male presents with progressive gait difficulty. His wife reports he 'walks like he is stuck to the floor.' Exam: Lead-pipe rigidity, bradykinesia, postural instability. No tremor. Frequent falls. Levodopa trial shows minimal improvement. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Parkinson disease" },
+      { "id": "B", "text": "Progressive supranuclear palsy (PSP)" },
+      { "id": "C", "text": "Multiple system atrophy (MSA)" },
+      { "id": "D", "text": "Corticobasal degeneration" },
+      { "id": "E", "text": "Drug-induced parkinsonism" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PSP: Early falls + Vertical gaze palsy + Axial rigidity + Poor levodopa response.",
+      "whyWrong": {
+        "A": "PD has rest tremor + excellent levodopa response + no early falls.",
+        "C": "MSA has autonomic failure + cerebellar signs.",
+        "D": "CBD has asymmetric apraxia + alien limb phenomenon.",
+        "E": "Drug-induced is symmetric with history of antipsychotic use."
+      },
+      "clinicalPearl": "PSP: Early falls + Vertical gaze palsy + Axial rigidity + Poor levodopa response."
+    },
+    "references": ["MDS PSP Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_007",
+    "specialty": "neurology",
+    "topic": "Neuromuscular Junction",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male with small cell lung cancer presents with proximal muscle weakness that worsens with repetitive activity and improves with rest. He also has dry mouth and erectile dysfunction. EMG shows incremental response to repetitive stimulation. What antibody is MOST likely positive?",
+    "options": [
+      { "id": "A", "text": "Anti-acetylcholine receptor (AChR) antibody" },
+      { "id": "B", "text": "Anti-voltage-gated calcium channel (VGCC) antibody" },
+      { "id": "C", "text": "Anti-MuSK antibody" },
+      { "id": "D", "text": "Anti-Hu antibody" },
+      { "id": "E", "text": "Anti-striated muscle antibody" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "LEMS: Proximal weakness + Autonomic symptoms + SCLC + Anti-VGCC. EMG: Increment (opposite of MG).",
+      "whyWrong": {
+        "A": "AChR antibody = Myasthenia gravis (postsynaptic).",
+        "C": "MuSK = Seronegative MG.",
+        "D": "Anti-Hu = Paraneoplastic encephalomyelitis.",
+        "E": "Anti-striated muscle = Thymoma-associated MG."
+      },
+      "clinicalPearl": "LEMS: Proximal weakness + Autonomic symptoms + SCLC + Anti-VGCC. MG: Ocular/bulbar + Anti-AChR."
+    },
+    "references": ["LEMS Diagnostic Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_008",
+    "specialty": "neurology",
+    "topic": "Dementia",
+    "difficulty": "medium",
+    "vignette": "A 72-year-old male presents with progressive memory loss over 2 years. He got lost driving home from the grocery store. MMSE is 22/30. MRI shows hippocampal atrophy. What is the BEST initial pharmacotherapy?",
+    "options": [
+      { "id": "A", "text": "Donepezil 5mg daily" },
+      { "id": "B", "text": "Memantine 5mg daily" },
+      { "id": "C", "text": "Donepezil + Memantine combination" },
+      { "id": "D", "text": "Aducanumab (Aduhelm) infusion" },
+      { "id": "E", "text": "Vitamin E 2000 IU daily" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Alzheimer disease. Mild-moderate: Cholinesterase inhibitor (donepezil). Memantine is for moderate-severe.",
+      "whyWrong": {
+        "B": "Memantine monotherapy is for moderate-severe AD.",
+        "C": "Combination is for moderate-severe or if progressing on ChEI alone.",
+        "D": "Aducanumab is controversial, not first-line.",
+        "E": "Vitamin E has weak evidence."
+      },
+      "clinicalPearl": "Mild-moderate AD: Donepezil (ChEI). Moderate-severe: Add Memantine."
+    },
+    "references": ["AAN Dementia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

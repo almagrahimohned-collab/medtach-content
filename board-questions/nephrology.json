@@ -1,0 +1,142 @@
+[
+  {
+    "id": "board_nephro_001",
+    "specialty": "nephrology",
+    "topic": "Acute Kidney Injury",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with CKD stage 3 undergoes cardiac catheterization. He receives 150mL of contrast. 48 hours later, his Cr rises from 1.8 to 3.2. Urine sodium is 12 mEq/L, FeNa 0.8%. Urinalysis shows muddy brown casts. What is the MOST likely cause of AKI?",
+    "options": [
+      { "id": "A", "text": "Contrast-induced nephropathy (ATN)" },
+      { "id": "B", "text": "Prerenal AKI from hypovolemia" },
+      { "id": "C", "text": "Acute interstitial nephritis" },
+      { "id": "D", "text": "Cholesterol emboli syndrome" },
+      { "id": "E", "text": "Acute glomerulonephritis" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Contrast-induced nephropathy = ATN: Recent contrast, rise in Cr within 48-72h, muddy brown casts.",
+      "whyWrong": {
+        "B": "Prerenal AKI has FeNa <1% and bland urine sediment.",
+        "C": "AIN has WBC casts, eosinophiluria.",
+        "D": "Cholesterol emboli have livedo reticularis, eosinophilia.",
+        "E": "AGN has dysmorphic RBCs, RBC casts."
+      },
+      "clinicalPearl": "Muddy brown casts = ATN. Prevention of contrast nephropathy: IV NS before and after."
+    },
+    "references": ["KDIGO AKI Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_002",
+    "specialty": "nephrology",
+    "topic": "Electrolytes",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with small cell lung cancer presents with confusion. Labs: Na 118, serum osmolality 250, urine osmolality 600, urine sodium 80. He is euvolemic. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Fluid restriction to <800mL/day" },
+      { "id": "B", "text": "Hypertonic saline (3%) infusion" },
+      { "id": "C", "text": "Normal saline infusion" },
+      { "id": "D", "text": "Tolvaptan (vasopressin antagonist)" },
+      { "id": "E", "text": "Demeclocycline" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "SIADH. First-line: Fluid restriction. If severe symptoms → hypertonic saline.",
+      "whyWrong": {
+        "B": "Hypertonic saline is for severe symptomatic hyponatremia.",
+        "C": "NS would worsen hyponatremia in SIADH.",
+        "D": "Tolvaptan is second-line.",
+        "E": "Demeclocycline is rarely used now."
+      },
+      "clinicalPearl": "SIADH: Fluid restrict. Correct Na by <8-10 mEq/day to avoid osmotic demyelination."
+    },
+    "references": ["European Hyponatremia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_003",
+    "specialty": "nephrology",
+    "topic": "Acid-Base",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male with Type 1 DM presents with ABG: pH 7.28, PaCO2 28, HCO3 12. Na 138, Cl 105. Anion gap is 21. What is the acid-base disorder?",
+    "options": [
+      { "id": "A", "text": "Anion gap metabolic acidosis with appropriate respiratory compensation" },
+      { "id": "B", "text": "Anion gap metabolic acidosis with respiratory alkalosis" },
+      { "id": "C", "text": "Non-anion gap metabolic acidosis" },
+      { "id": "D", "text": "Mixed metabolic acidosis and respiratory acidosis" },
+      { "id": "E", "text": "Metabolic alkalosis with respiratory compensation" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 ± 2 = 26 ± 2. Actual PaCO2 28 = appropriate compensation.",
+      "whyWrong": {
+        "B": "PaCO2 28 is appropriate, not lower than expected.",
+        "C": "Anion gap is 21 (elevated).",
+        "D": "PaCO2 28 is lower than 40 (not higher).",
+        "E": "pH is acidotic and HCO3 is low."
+      },
+      "clinicalPearl": "Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 ± 2."
+    },
+    "references": ["Acid-Base Physiology"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_004",
+    "specialty": "nephrology",
+    "topic": "Glomerulonephritis",
+    "difficulty": "hard",
+    "vignette": "A 22-year-old male presents with coca-cola colored urine, hypertension (160/95), and periorbital edema 2 weeks after a sore throat. Labs: Cr 1.8, C3 low, C4 normal, ASO elevated. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Post-streptococcal glomerulonephritis" },
+      { "id": "B", "text": "IgA nephropathy" },
+      { "id": "C", "text": "Membranoproliferative GN" },
+      { "id": "D", "text": "Lupus nephritis" },
+      { "id": "E", "text": "Goodpasture syndrome" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Post-strep GN: 1-4 weeks post-GAS, low C3, normal C4, elevated ASO.",
+      "whyWrong": {
+        "B": "IgA nephropathy occurs 1-3 days post-infection.",
+        "C": "MPGN has persistent low C3.",
+        "D": "Lupus has low C3 AND C4.",
+        "E": "Goodpasture has pulmonary hemorrhage + anti-GBM."
+      },
+      "clinicalPearl": "Post-strep GN: 1-4 weeks post-GAS, low C3, normal C4."
+    },
+    "references": ["KDIGO GN Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_005",
+    "specialty": "nephrology",
+    "topic": "CKD Management",
+    "difficulty": "easy",
+    "vignette": "A 65-year-old male with CKD stage 3b (eGFR 38) has: Hb 9.8, Ferritin 45, TSAT 12%. What is the BEST treatment for his anemia?",
+    "options": [
+      { "id": "A", "text": "Oral ferrous sulfate 325mg TID" },
+      { "id": "B", "text": "IV iron sucrose 200mg" },
+      { "id": "C", "text": "Darbepoetin alfa 0.45mcg/kg SC monthly" },
+      { "id": "D", "text": "Blood transfusion" },
+      { "id": "E", "text": "Combined IV iron + darbepoetin alfa" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Iron deficiency in CKD: First step = Oral iron trial. ESA after iron stores replete and Hb <10.",
+      "whyWrong": {
+        "B": "IV iron is second-line if oral fails.",
+        "C": "ESA is NOT first-line. Iron deficiency must be corrected first.",
+        "D": "Transfusion only for severe symptomatic anemia.",
+        "E": "ESA is added AFTER iron correction."
+      },
+      "clinicalPearl": "CKD anemia: Iron first (oral → IV) → If Hb <10 after iron → Add ESA."
+    },
+    "references": ["KDIGO Anemia in CKD Guidelines 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
