@@ -195,7 +195,8 @@
     "highYield": true,
     "timeAllocated": 72
   }
-,
+]
+[
   {
     "id": "board_endo_008",
     "specialty": "endocrinology",
@@ -252,7 +253,8 @@
     "highYield": true,
     "timeAllocated": 72
   }
-,
+]
+[
   {
     "id": "board_endo_010",
     "specialty": "endocrinology",
@@ -309,7 +311,8 @@
     "highYield": true,
     "timeAllocated": 72
   }
-,
+]
+[
   {
     "id": "board_endo_012",
     "specialty": "endocrinology",
@@ -394,7 +397,8 @@
     "highYield": true,
     "timeAllocated": 72
   }
-,
+]
+[
   {
     "id": "board_endo_015",
     "specialty": "endocrinology",
