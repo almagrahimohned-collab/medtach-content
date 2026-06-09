@@ -1614,5 +1614,240 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "id_b3_001",
+    "specialty": "infectious",
+    "topic": "Bacteriophage Therapy",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male with prosthetic aortic valve has persistent P. aeruginosa bacteremia despite appropriate antibiotics and source control. Cultures show MDR strain resistant to all available antibiotics. What is an emerging therapeutic option?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase antibiotic doses beyond standard"
+      },
+      {
+        "id": "B",
+        "text": "Bacteriophage therapy (compassionate use/clinical trial) targeting the specific P. aeruginosa isolate"
+      },
+      {
+        "id": "C",
+        "text": "Withdraw all antibiotics"
+      },
+      {
+        "id": "D",
+        "text": "Colistin monotherapy"
+      },
+      {
+        "id": "E",
+        "text": "Hyperbaric oxygen"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MDR infections with no antibiotic options: Bacteriophage therapy is an emerging option. Phages are viruses that specifically infect and lyse bacteria. Advantages: Species-specific (preserves microbiome), self-replicating at infection site, effective against biofilms, can be combined with antibiotics. Available via compassionate use/clinical trials (FDA allows expanded access). Requires phage susceptibility testing against patient's isolate. Growing evidence in prosthetic valve endocarditis and CF.",
+      "whyWrong": {
+        "A": "Increasing doses will not overcome MDR if all antibiotics resistant.",
+        "B": "Bacteriophage therapy: Targeted bacterial viruses. Compassionate use for MDR infections.",
+        "C": "Withdrawing antibiotics in active endocarditis is fatal.",
+        "D": "Colistin alone may be insufficient if already resistant; nephrotoxic.",
+        "E": "Hyperbaric oxygen ineffective for endovascular infection."
+      },
+      "clinicalPearl": "MDR infections with no antibiotic options: Bacteriophage therapy (compassionate use). Species-specific viruses. Effective against biofilms."
+    },
+    "references": [
+      "FDA Phage Therapy Guidelines 2023",
+      "Clinical Infectious Diseases Phage Review 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b3_002",
+    "specialty": "infectious",
+    "topic": "Aspergillosis - New Diagnostic Criteria",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old neutropenic patient with AML has persistent fever despite broad-spectrum antibiotics. CT chest shows a nodule with halo sign. Serum galactomannan is positive. What is the diagnosis and treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Candidemia - Micafungin"
+      },
+      {
+        "id": "B",
+        "text": "Probable invasive pulmonary aspergillosis - Voriconazole (first-line) OR Isavuconazole"
+      },
+      {
+        "id": "C",
+        "text": "Mucormycosis - Amphotericin B"
+      },
+      {
+        "id": "D",
+        "text": "Pneumocystis pneumonia - TMP-SMX"
+      },
+      {
+        "id": "E",
+        "text": "Nocardiosis - TMP-SMX"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Probable invasive aspergillosis (EORTC/MSG criteria): Host factor (neutropenia) + Clinical (halo sign on CT) + Mycological (positive galactomannan) = Probable IA. First-line: Voriconazole (IV, then PO) OR Isavuconazole (fewer drug interactions, less hepatotoxic). Liposomal Amphotericin B is second-line. Posaconazole for salvage. Mucormycosis has reversed halo sign and negative galactomannan. Echinocandins have no activity against Aspergillus.",
+      "whyWrong": {
+        "A": "Candidemia has no halo sign on CT; echinocandins first-line.",
+        "B": "Voriconazole or Isavuconazole = First-line for invasive aspergillosis.",
+        "C": "Mucormycosis: Reversed halo sign, negative galactomannan, treat with AmB.",
+        "D": "PCP: Bilateral ground-glass opacities, not nodule with halo sign.",
+        "E": "Nocardiosis: Cavitary lesions, not halo sign."
+      },
+      "clinicalPearl": "Invasive aspergillosis: Halo sign + Positive galactomannan + Neutropenia. Voriconazole or Isavuconazole first-line."
+    },
+    "references": [
+      "EORTC/MSG Fungal Infection Criteria 2023",
+      "IDSA Aspergillosis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b3_003",
+    "specialty": "infectious",
+    "topic": "Antimicrobial Resistance - CRE",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old ICU patient develops VAP. Bronchoalveolar lavage grows Klebsiella pneumoniae resistant to all carbapenems (CRE). What is the BEST treatment option?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meropenem-vaborbactam (Vabomere) OR Cefiderocol (Fetroja) OR Ceftazidime-avibactam (if susceptible)"
+      },
+      {
+        "id": "B",
+        "text": "Colistin + Tigecycline (old regimen)"
+      },
+      {
+        "id": "C",
+        "text": "Meropenem increased dose"
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone + Metronidazole"
+      },
+      {
+        "id": "E",
+        "text": "No treatment options available"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "CRE (Carbapenem-Resistant Enterobacteriaceae): New beta-lactam/beta-lactamase inhibitor combinations are preferred over old toxic regimens. Options: Meropenem-vaborbactam (Vabomere), Cefiderocol (siderophore cephalosporin), Ceftazidime-avibactam (if KPC-producer, not MBL), Imipenem-relebactam. Colistin-based regimens are OUTDATED (nephrotoxic, inferior efficacy). Check susceptibility testing for specific carbapenemase type (KPC, NDM, OXA-48).",
+      "whyWrong": {
+        "A": "New beta-lactamase inhibitor combos preferred over colistin-based therapy.",
+        "B": "Colistin + Tigecycline has high toxicity and inferior outcomes (CREDIBLE-CR trial).",
+        "C": "Increasing meropenem dose ineffective against carbapenemase-producers.",
+        "D": "Ceftriaxone hydrolyzed by ESBL and carbapenemases.",
+        "E": "Multiple new antibiotics available for CRE (Vabomere, Fetroja, Avycaz)."
+      },
+      "clinicalPearl": "CRE treatment: Meropenem-vaborbactam, Cefiderocol, or Ceftazidime-avibactam. Avoid colistin (toxic). Check carbapenemase type."
+    },
+    "references": [
+      "CREDIBLE-CR Trial 2021",
+      "IDSA CRE Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b3_004",
+    "specialty": "infectious",
+    "topic": "Yellow Fever Vaccine",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old healthy traveler needs yellow fever vaccination for travel to rural Brazil. She is not pregnant and has no egg allergy. What is TRUE about the yellow fever vaccine?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a killed vaccine, safe for all immunocompromised patients"
+      },
+      {
+        "id": "B",
+        "text": "Live attenuated vaccine (17D strain); Contraindicated in immunocompromised, thymus disease, and infants <6 months"
+      },
+      {
+        "id": "C",
+        "text": "Requires booster every 5 years"
+      },
+      {
+        "id": "D",
+        "text": "Oral vaccine"
+      },
+      {
+        "id": "E",
+        "text": "No longer recommended"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Yellow fever vaccine (17D) is a LIVE ATTENUATED vaccine. WHO: Single dose provides LIFELONG protection (no booster needed per updated IHR 2016). Contraindications: Immunocompromised (including HIV with CD4 <200), thymus disease (risk of YEL-AVD), infants <6 months (encephalitis risk), egg anaphylaxis, pregnancy (theoretical risk). Most common serious adverse event: YEL-AVD (viscerotropic disease, 0.3-0.4 per 100,000).",
+      "whyWrong": {
+        "A": "Live attenuated, NOT killed. Contraindicated in immunocompromised.",
+        "B": "Live vaccine, lifelong protection, multiple contraindications.",
+        "C": "LIFELONG protection (no booster needed per WHO since 2016).",
+        "D": "Subcutaneous injection, not oral.",
+        "E": "Still recommended for travel to endemic areas (Africa, South America)."
+      },
+      "clinicalPearl": "Yellow fever vaccine: Live attenuated (17D). Single dose = LIFELONG protection. Contraindicated: Immunocompromised, thymus disease, infants <6mo."
+    },
+    "references": [
+      "WHO Yellow Fever Guidelines 2023",
+      "CDC Yellow Book 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "id_b3_005",
+    "specialty": "infectious",
+    "topic": "Hepatitis D",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old male with chronic hepatitis B (HBsAg+, HBeAg-) has elevated ALT and detectable HDV RNA. What is the recommended treatment per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tenofovir alone"
+      },
+      {
+        "id": "B",
+        "text": "Bulevirtide (Hepcludex) - HBV/HDV entry inhibitor + Pegylated interferon (if available)"
+      },
+      {
+        "id": "C",
+        "text": "Lamivudine + Adefovir"
+      },
+      {
+        "id": "D",
+        "text": "No treatment, HDV is benign"
+      },
+      {
+        "id": "E",
+        "text": "Liver transplant only option"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic hepatitis D (HDV) with active replication: Bulevirtide (Hepcludex) is the FIRST FDA-approved HDV therapy (2024). Blocks NTCP receptor preventing HBV/HDV entry into hepatocytes. Subcutaneous injection. Used in combination with Peg-IFN or as monotherapy. Previously, Peg-IFN was the only option (20-30% response). Nucleos(t)ide analogues (tenofovir) suppress HBV but do NOT treat HDV directly. HDV is the most severe form of viral hepatitis.",
+      "whyWrong": {
+        "A": "Tenofovir suppresses HBV but does not treat HDV.",
+        "B": "Bulevirtide: First FDA-approved HDV therapy. Entry inhibitor. Game-changer.",
+        "C": "Lamivudine and Adefovir are obsolete.",
+        "D": "HDV is the most severe viral hepatitis (rapid progression to cirrhosis).",
+        "E": "Liver transplant is for decompensated cirrhosis or HCC."
+      },
+      "clinicalPearl": "Hepatitis D: Bulevirtide (entry inhibitor) = First FDA-approved therapy (2024). Peg-IFN alternative. Most severe viral hepatitis."
+    },
+    "references": [
+      "AASLD Hepatitis D Guidelines 2024",
+      "MYR301 Trial (Bulevirtide) 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
