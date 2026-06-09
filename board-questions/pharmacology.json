@@ -1667,5 +1667,193 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b3_001",
+    "specialty": "pharmacology",
+    "topic": "GLP-1 Receptor Agonists - New Indications",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old obese male with HFpEF (EF 55%) and diabetes is on empagliflozin. Which medication has shown benefit in HFpEF with obesity per STEP-HFpEF trial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metformin"
+      },
+      {
+        "id": "B",
+        "text": "Semaglutide (Wegovy) 2.4mg weekly - Improved HF symptoms, physical function, and weight loss in HFpEF with obesity"
+      },
+      {
+        "id": "C",
+        "text": "Sitagliptin"
+      },
+      {
+        "id": "D",
+        "text": "Insulin glargine"
+      },
+      {
+        "id": "E",
+        "text": "Glimepiride"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "STEP-HFpEF trial (2023): Semaglutide 2.4mg significantly improved HF-related symptoms, physical limitations, exercise function, AND reduced inflammation (CRP) and natriuretic peptides in patients with HFpEF and obesity. Weight loss was 13.3% vs 2.6% placebo. Semaglutide is the FIRST medication to show symptom benefit specifically in HFpEF with obesity. SGLT2i (DELIVER, EMPEROR-Preserved) reduce HF hospitalizations but did not improve symptoms as dramatically.",
+      "whyWrong": {
+        "A": "Metformin has no HF outcome benefit.",
+        "B": "Semaglutide 2.4mg: STEP-HFpEF showed symptom + functional improvement in HFpEF with obesity.",
+        "C": "DPP4i have neutral HF effects; some may worsen HF.",
+        "D": "Insulin causes weight gain and has no HF benefit.",
+        "E": "Sulfonylureas cause weight gain; no HF benefit."
+      },
+      "clinicalPearl": "HFpEF + Obesity: Semaglutide (GLP-1 RA) improves symptoms, function, and weight loss. STEP-HFpEF trial (2023)."
+    },
+    "references": [
+      "STEP-HFpEF Trial 2023",
+      "NEJM STEP-HFpEF Publication 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b3_002",
+    "specialty": "pharmacology",
+    "topic": "CETP Inhibitors - New Data",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male with ASCVD on high-intensity statin has low HDL (28) and elevated Lp(a). Which CETP inhibitor showed REDUCTION in major adverse cardiovascular events in the CLEAR Outcomes trial context?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Torcetrapib (failed - increased mortality)"
+      },
+      {
+        "id": "B",
+        "text": "Anacetrapib (modest benefit but not approved)"
+      },
+      {
+        "id": "C",
+        "text": "Obicetrapib - Currently in phase 3 (BROOKLYN, BROADWAY trials); showing LDL reduction and Lp(a) lowering without torcetrapib toxicity"
+      },
+      {
+        "id": "D",
+        "text": "Evacetrapib (failed - no benefit)"
+      },
+      {
+        "id": "E",
+        "text": "Dalcetrapib (failed - no benefit)"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "CETP inhibitors have a checkered history. Torcetrapib increased mortality (off-target mineralocorticoid activation). Dalcetrapib and evacetrapib showed no CV benefit. Anacetrapib showed modest CV benefit but was not approved (long tissue half-life concerns). Obicetrapib is a new-generation CETP inhibitor showing: Robust LDL-C reduction (40-50%), significant Lp(a) reduction (50%), and HDL increase WITHOUT torcetrapib-like toxicity. BROOKLYN and BROADWAY phase 3 trials ongoing (2024).",
+      "whyWrong": {
+        "A": "Torcetrapib FAILED (increased mortality - off-target effects).",
+        "B": "Anacetrapib had modest benefit but not approved (lipophilic, accumulates in adipose).",
+        "C": "Obicetrapib: Next-gen CETP inhibitor. LDL-C \u219340-50%, Lp(a) \u219350%. Phase 3 ongoing.",
+        "D": "Evacetrapib FAILED (ACCELERATE trial - no CV benefit).",
+        "E": "Dalcetrapib FAILED (dal-OUTCOMES - no CV benefit)."
+      },
+      "clinicalPearl": "CETP inhibitors: Obicetrapib (new-gen) shows promise. LDL-C \u219340-50%, Lp(a) \u219350%. Phase 3 ongoing. Previous CETP inhibitors failed."
+    },
+    "references": [
+      "ROSE2 Trial (Obicetrapib) 2023",
+      "BROADWAY Trial 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b3_003",
+    "specialty": "pharmacology",
+    "topic": "Antibiotic Cross-Reactivity",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female with reported penicillin allergy (anaphylaxis) needs treatment for MSSA bacteremia. What is the SAFEST beta-lactam option?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nafcillin (penicillinase-resistant penicillin) - High cross-reactivity"
+      },
+      {
+        "id": "B",
+        "text": "Cefazolin (1st gen cephalosporin) - Cross-reactivity <1% with true penicillin allergy; Can use after risk stratification"
+      },
+      {
+        "id": "C",
+        "text": "Aztreonam (monobactam) - No cross-reactivity with penicillin; Safe for IgE-mediated allergy"
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone (3rd gen cephalosporin)"
+      },
+      {
+        "id": "E",
+        "text": "Piperacillin-tazobactam"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Penicillin anaphylaxis (IgE-mediated, Type I): Aztreonam is the SAFEST beta-lactam (monobactam with NO cross-reactivity with penicillin or cephalosporins). Cefazolin cross-reactivity is <1% and may be safe after allergy evaluation (skin testing), but not first choice for anaphylaxis history. Nafcillin, piperacillin, and cephalosporins all share beta-lactam ring. Vancomycin is non-beta-lactam alternative. Always take detailed allergy history: Only 1-10% of reported penicillin allergies are true.",
+      "whyWrong": {
+        "A": "Nafcillin is a penicillin derivative; contraindicated in penicillin anaphylaxis.",
+        "B": "Cefazolin cross-reactivity <1% but should be used cautiously after risk stratification for anaphylaxis.",
+        "C": "Aztreonam: No cross-reactivity. Safe for penicillin anaphylaxis (IgE-mediated).",
+        "D": "Cephalosporins have low cross-reactivity but aztreonam is safest.",
+        "E": "Piperacillin is a penicillin derivative; contraindicated."
+      },
+      "clinicalPearl": "Penicillin anaphylaxis: Aztreonam (monobactam) = No cross-reactivity. Cephalosporins <1% cross-reactivity. Vancomycin for non-beta-lactam option."
+    },
+    "references": [
+      "AAAAI Penicillin Allergy Guidelines 2023",
+      "JAMA Penicillin Allergy Delabeling 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b3_004",
+    "specialty": "pharmacology",
+    "topic": "Psychedelic-Assisted Therapy",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old veteran with severe PTSD refractory to SSRIs and CBT is referred for a clinical trial. What is the investigational treatment showing breakthrough results?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High-dose benzodiazepines"
+      },
+      {
+        "id": "B",
+        "text": "MDMA-assisted psychotherapy (3,4-methylenedioxymethamphetamine) - FDA breakthrough therapy designation"
+      },
+      {
+        "id": "C",
+        "text": "Antipsychotic augmentation"
+      },
+      {
+        "id": "D",
+        "text": "ECT (electroconvulsive therapy)"
+      },
+      {
+        "id": "E",
+        "text": "Opioid therapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MDMA-assisted psychotherapy for PTSD has received FDA Breakthrough Therapy designation. MAPP1 and MAPP2 phase 3 trials showed 67-71% of participants no longer met PTSD diagnostic criteria after 3 MDMA-assisted therapy sessions (vs 32-48% with placebo + therapy). MDMA is administered in controlled therapeutic setting (not take-home). Proposed mechanism: Enhances fear extinction, increases trust/empathy (oxytocin release), reduces amygdala reactivity. Potential FDA approval in 2024. Psilocybin also studied for depression.",
+      "whyWrong": {
+        "A": "Benzodiazepines may worsen PTSD outcomes (avoid per VA guidelines).",
+        "B": "MDMA-assisted therapy: 67-71% PTSD remission in phase 3. FDA Breakthrough Therapy.",
+        "C": "Antipsychotics have limited evidence in PTSD.",
+        "D": "ECT is for severe depression, not first-line for PTSD.",
+        "E": "Opioids are contraindicated in PTSD (high addiction risk)."
+      },
+      "clinicalPearl": "MDMA-assisted psychotherapy for PTSD: 67-71% remission (MAPP1/MAPP2). FDA Breakthrough Therapy. Psilocybin for depression. Psychedelic renaissance."
+    },
+    "references": [
+      "MAPP2 Trial 2023 (Nature Medicine)",
+      "FDA MDMA Breakthrough Therapy 2017"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
