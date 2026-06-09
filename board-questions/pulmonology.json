@@ -1278,5 +1278,236 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b3_001",
+    "specialty": "pulmonology",
+    "topic": "ARDS - PEEP Strategy",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male with ARDS (PaO2/FiO2 110) is on mechanical ventilation. After recruitment maneuver, PEEP is set at 16 cmH2O. Plateau pressure is 32 cmH2O, driving pressure is 14 cmH2O. ABG shows PaO2 68, PaCO2 52, pH 7.28. What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase PEEP to 20 cmH2O"
+      },
+      {
+        "id": "B",
+        "text": "Increase respiratory rate"
+      },
+      {
+        "id": "C",
+        "text": "Start prone positioning"
+      },
+      {
+        "id": "D",
+        "text": "Increase FiO2 to 1.0"
+      },
+      {
+        "id": "E",
+        "text": "Start ECMO"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "ARDS with PaO2/FiO2 <150: Prone positioning for >16 hours/day reduces mortality by 50% (PROSEVA trial). This patient has moderate-severe ARDS (PaO2/FiO2 110). Driving pressure 14 is acceptable (<15 goal). PEEP is already optimized. Increasing RR addresses respiratory acidosis but proning is the priority for oxygenation and mortality benefit.",
+      "whyWrong": {
+        "A": "PEEP is already at high level (16); further increase may worsen driving pressure and barotrauma.",
+        "B": "Increasing RR treats respiratory acidosis but does not address oxygenation or mortality.",
+        "D": "Increasing FiO2 is temporizing; proning provides mortality benefit.",
+        "E": "ECMO is rescue therapy after proning and neuromuscular blockade fail (EOLIA trial criteria)."
+      },
+      "clinicalPearl": "ARDS PaO2/FiO2 <150: PRONE POSITIONING (16+ hours/day). PROSEVA: 50% mortality reduction. Driving pressure <15 is key goal."
+    },
+    "references": [
+      "PROSEVA Trial 2013",
+      "ARDSNet Ventilator Protocol",
+      "EOLIA Trial 2018"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b3_002",
+    "specialty": "pulmonology",
+    "topic": "Lung Nodule - New Fleischner 2023",
+    "difficulty": "medium",
+    "vignette": "A 48-year-old never-smoker is found to have a 10mm pure ground-glass nodule (GGN) in the right upper lobe on screening CT. No solid component. What is the appropriate follow-up per Fleischner 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No follow-up needed"
+      },
+      {
+        "id": "B",
+        "text": "CT in 6-12 months to confirm persistence, then CT every 2 years for 5 years"
+      },
+      {
+        "id": "C",
+        "text": "PET-CT now"
+      },
+      {
+        "id": "D",
+        "text": "Immediate biopsy"
+      },
+      {
+        "id": "E",
+        "text": "Surgical resection"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fleischner 2023: Pure GGN \u226510mm (or new): CT surveillance at 6-12 months to confirm persistence. If persistent and unchanged, CT every 2 years for total of 5 years. Pure GGNs have very low malignancy risk (often transient inflammation). PET-CT not indicated (GGN has low FDG avidity). Biopsy reserved for: Growth, development of solid component >6mm, or patient anxiety.",
+      "whyWrong": {
+        "A": "\u226510mm GGN requires follow-up (only <6mm GGN can be no follow-up).",
+        "C": "PET-CT has low sensitivity for GGN (low metabolic activity).",
+        "D": "Biopsy is invasive; not indicated for initial evaluation of stable GGN.",
+        "E": "Surgery is overtreatment for pure GGN without growth or solid component."
+      },
+      "clinicalPearl": "Pure GGN \u226510mm: CT at 6-12mo, then q2yr x5yr. No PET-CT needed. Biopsy if growth or new solid component."
+    },
+    "references": [
+      "Fleischner Society Guidelines 2023",
+      "Lung-RADS 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b3_003",
+    "specialty": "pulmonology",
+    "topic": "Pneumothorax - Conservative vs Intervention",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old tall, thin male presents with sudden left pleuritic chest pain and mild dyspnea. CXR shows 35% left pneumothorax without tension. SpO2 is 96% on room air. What is the BEST management per BTS 2023 guidelines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Needle aspiration"
+      },
+      {
+        "id": "B",
+        "text": "Chest tube insertion"
+      },
+      {
+        "id": "C",
+        "text": "Conservative management with observation + high-flow oxygen"
+      },
+      {
+        "id": "D",
+        "text": "VATS pleurodesis"
+      },
+      {
+        "id": "E",
+        "text": "Surgical bullectomy"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "BTS 2023: Primary spontaneous pneumothorax <2cm (or <35%) with minimal symptoms can be managed CONSERVATIVELY with observation and high-flow oxygen (increases pleural air absorption rate 4x). Needle aspiration if >2cm or symptomatic. Chest tube if aspiration fails. VATS pleurodesis for recurrent PTX or persistent air leak >5 days.",
+      "whyWrong": {
+        "A": "Needle aspiration for larger PTX (>2cm) or significant dyspnea.",
+        "B": "Chest tube for secondary PTX, tension PTX, or failed aspiration.",
+        "D": "VATS for recurrent PTX (second episode) or persistent air leak.",
+        "E": "Bullectomy is part of VATS procedure; not first-line for initial PTX."
+      },
+      "clinicalPearl": "Small primary PTX (<2cm) + Minimal symptoms: Conservative (observation + O2). Reabsorbs 1.25% of lung volume/day. O2 speeds absorption 4x."
+    },
+    "references": [
+      "BTS Pleural Disease Guidelines 2023",
+      "ACCP Pneumothorax Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b3_004",
+    "specialty": "pulmonology",
+    "topic": "Sarcoidosis - Treatment Indications",
+    "difficulty": "medium",
+    "vignette": "A 32-year-old African American female with sarcoidosis has bilateral hilar lymphadenopathy, non-caseating granulomas on biopsy, and ACE level 120. She is asymptomatic with normal PFT and normal EKG. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone 0.5mg/kg daily"
+      },
+      {
+        "id": "B",
+        "text": "Methotrexate 15mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Observation without treatment"
+      },
+      {
+        "id": "D",
+        "text": "Infliximab"
+      },
+      {
+        "id": "E",
+        "text": "Hydroxychloroquine"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Asymptomatic sarcoidosis with normal PFT, normal EKG, and no organ-threatening disease: OBSERVATION without treatment. Most patients (60-80%) have spontaneous remission within 2-5 years. Treatment indicated for: Symptomatic pulmonary disease, declining PFT (>10% FVC decline), cardiac sarcoidosis, neurologic sarcoidosis, ocular sarcoidosis, hypercalcemia, or renal involvement.",
+      "whyWrong": {
+        "A": "Steroids NOT indicated for asymptomatic sarcoidosis with normal PFT (no mortality benefit, significant side effects).",
+        "B": "Methotrexate is steroid-sparing for chronic disease requiring long-term treatment.",
+        "D": "Infliximab is third-line for refractory sarcoidosis after steroids and methotrexate fail.",
+        "E": "Hydroxychloroquine is for skin sarcoidosis or mild hypercalcemia; not for asymptomatic pulmonary."
+      },
+      "clinicalPearl": "Asymptomatic sarcoidosis + Normal PFT/EKG = Observe. 60-80% spontaneous remission. Treat ONLY if symptomatic, declining PFT, or organ-threatening."
+    },
+    "references": [
+      "ATS Sarcoidosis Guidelines 2022",
+      "WASOG Sarcoidosis Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pulmo_b3_005",
+    "specialty": "pulmonology",
+    "topic": "Cystic Fibrosis - CFTR Modulators",
+    "difficulty": "hard",
+    "vignette": "A 14-year-old male with CF (homozygous \u0394F508 mutation) has FEV1 75% predicted and chronic Pseudomonas colonization. He has not been on CFTR modulators before. What is the BEST therapy per CF Foundation 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ivacaftor monotherapy"
+      },
+      {
+        "id": "B",
+        "text": "Elexacaftor/Tezacaftor/Ivacaftor (Trikafta)"
+      },
+      {
+        "id": "C",
+        "text": "Lumacaftor/Ivacaftor"
+      },
+      {
+        "id": "D",
+        "text": "Tezacaftor/Ivacaftor"
+      },
+      {
+        "id": "E",
+        "text": "Inhaled tobramycin alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Elexacaftor/Tezacaftor/Ivacaftor (ETI/Trikafta) is indicated for CF patients \u22652 years with at least ONE \u0394F508 mutation (homozygous or heterozygous). Triple combination CFTR modulator therapy improves FEV1 by 13-14%, reduces exacerbations by 63%, and improves quality of life. Now first-line for all eligible patients. Earlier initiation = better preservation of lung function.",
+      "whyWrong": {
+        "A": "Ivacaftor alone is for gating mutations (G551D), not \u0394F508.",
+        "C": "Lumacaftor/Ivacaftor was previous standard but less effective than ETI.",
+        "D": "Tezacaftor/Ivacaftor is for residual function mutations or heterozygous \u0394F508 with residual function mutation.",
+        "E": "Inhaled antibiotics treat infection but do NOT address underlying CFTR defect."
+      },
+      "clinicalPearl": "CF \u0394F508 (homozygous or heterozygous): Trikafta (ETI) is standard of care. FEV1 improvement + Exacerbation reduction. Start EARLY."
+    },
+    "references": [
+      "CF Foundation Guidelines 2023",
+      "VX17-445-102 Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
