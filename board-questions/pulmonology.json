@@ -1,0 +1,281 @@
+[
+  {
+    "id": "board_pulmo_001",
+    "specialty": "pulmonology",
+    "topic": "Pneumonia",
+    "difficulty": "medium",
+    "vignette": "A 68-year-old nursing home resident presents with fever, productive cough, and confusion. Vitals: Temp 39.1°C, BP 100/60, HR 110, RR 28, SpO2 88%. CXR shows right lower lobe consolidation. Labs: WBC 18K, BUN 32, Creatinine 1.6. CURB-65 score is 4. What is the MOST appropriate management?",
+    "options": [
+      { "id": "A", "text": "Oral levofloxacin and discharge with follow-up" },
+      { "id": "B", "text": "IV ceftriaxone + azithromycin, admit to medical ward" },
+      { "id": "C", "text": "IV vancomycin + piperacillin-tazobactam, admit to ICU" },
+      { "id": "D", "text": "IV ceftriaxone + azithromycin, admit to ICU" },
+      { "id": "E", "text": "Obtain sputum culture first, then start antibiotics" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "CURB-65 score 4 (Confusion, Urea >7, RR >30, BP <90/60) = severe pneumonia with 27% mortality. ICU admission is indicated. Initial empiric therapy: IV ceftriaxone + azithromycin (covers typical + atypical organisms). Add vancomycin if MRSA risk factors.",
+      "whyWrong": {
+        "A": "Oral antibiotics are for CURB-65 0-1 (outpatient). Score 4 requires ICU.",
+        "B": "Medical ward is insufficient. CURB-65 ≥3 requires ICU consideration.",
+        "C": "Vancomycin + pip-tazo is overly broad without specific risk factors.",
+        "E": "Antibiotics should NEVER be delayed for cultures in pneumonia."
+      },
+      "clinicalPearl": "CURB-65: Confusion, Urea >7, RR ≥30, BP <90/60, Age ≥65. Score 0-1: outpatient, 2: ward, ≥3: ICU."
+    },
+    "references": ["IDSA/ATS CAP Guidelines 2019"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_002",
+    "specialty": "pulmonology",
+    "topic": "COPD",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with COPD (FEV1 45% predicted, 2 exacerbations in past year) presents with increased dyspnea and purulent sputum for 3 days. He uses tiotropium and albuterol as needed. SpO2 is 86% on room air. What is the BEST treatment for this acute exacerbation?",
+    "options": [
+      { "id": "A", "text": "Increase albuterol frequency only" },
+      { "id": "B", "text": "Oral prednisone + azithromycin + short-acting bronchodilators" },
+      { "id": "C", "text": "Start inhaled fluticasone/salmeterol" },
+      { "id": "D", "text": "IV methylprednisolone + levofloxacin + oxygen" },
+      { "id": "E", "text": "NIV + IV steroids + antibiotics" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Moderate COPD exacerbation. Treatment: Oral steroids (prednisone 40mg x5 days), antibiotics (azithromycin or doxycycline) if purulent sputum, and increase bronchodilators.",
+      "whyWrong": {
+        "A": "Bronchodilators alone are insufficient for moderate exacerbation.",
+        "C": "ICS/LABA should be started when stable, not during acute exacerbation.",
+        "D": "IV steroids and IV antibiotics are for severe exacerbations with respiratory failure.",
+        "E": "NIV is reserved for acute respiratory failure (pH <7.35, PaCO2 >45)."
+      },
+      "clinicalPearl": "COPD exacerbation: Antibiotics indicated if 2 of 3: increased dyspnea, increased sputum volume, increased sputum purulence."
+    },
+    "references": ["GOLD 2024 Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_003",
+    "specialty": "pulmonology",
+    "topic": "Pulmonary Embolism",
+    "difficulty": "hard",
+    "vignette": "A 34-year-old female on oral contraceptives presents with sudden onset pleuritic chest pain and dyspnea. She is tachycardic (HR 115) but normotensive. SpO2 is 93%. D-dimer is elevated. CTPA shows bilateral segmental pulmonary emboli. Echo shows RV dilation with McConnell sign. Troponin is elevated. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Start warfarin with enoxaparin bridge" },
+      { "id": "B", "text": "Start rivaroxaban 15mg BID" },
+      { "id": "C", "text": "IV unfractionated heparin then thrombolytics" },
+      { "id": "D", "text": "Catheter-directed thrombolysis" },
+      { "id": "E", "text": "Start apixaban 10mg BID for 7 days" }
+    ],
+    "correctOptionId": "E",
+    "explanation": {
+      "whyCorrect": "Submassive PE (normotensive but RV dysfunction + elevated troponin). DOACs are first-line. Apixaban dosing: 10mg BID x7 days, then 5mg BID.",
+      "whyWrong": {
+        "A": "Warfarin requires bridging. DOACs are preferred.",
+        "C": "Thrombolytics are for MASSIVE PE only (SBP <90).",
+        "D": "Catheter-directed therapy is second-line."
+      },
+      "clinicalPearl": "PE classification: Massive (hypotension) → Thrombolytics. Submassive (RV dysfunction, normal BP) → Anticoagulation."
+    },
+    "references": ["CHEST PE Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_004",
+    "specialty": "pulmonology",
+    "topic": "Pleural Disease",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with cirrhosis and ascites presents with progressive dyspnea. CXR shows large right pleural effusion. Thoracentesis: Protein 1.5 g/dL (serum 6.0), LDH 80 U/L (serum 300 U/L). What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Empyema" },
+      { "id": "B", "text": "Tuberculous pleural effusion" },
+      { "id": "C", "text": "Hepatic hydrothorax" },
+      { "id": "D", "text": "Malignant pleural effusion" },
+      { "id": "E", "text": "Parapneumonic effusion" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Transudate (pleural/serum protein ratio <0.5, LDH ratio <0.6). In cirrhotic patient = hepatic hydrothorax.",
+      "whyWrong": {
+        "A": "Empyema is exudative with frank pus.",
+        "B": "TB effusion is exudative with lymphocyte predominance.",
+        "D": "Malignant effusion is exudative, often bloody.",
+        "E": "Parapneumonic effusion is exudative with neutrophils."
+      },
+      "clinicalPearl": "Transudate = CHF, Cirrhosis, Nephrotic syndrome. Exudate = Infection, Malignancy, PE, CTD."
+    },
+    "references": ["Light's Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_005",
+    "specialty": "pulmonology",
+    "topic": "Asthma",
+    "difficulty": "easy",
+    "vignette": "A 22-year-old female with mild persistent asthma reports using her albuterol inhaler 4-5 times per week. She is on no controller medication. Spirometry shows FEV1 82% predicted. What is the BEST next step per GINA 2024 guidelines?",
+    "options": [
+      { "id": "A", "text": "Continue albuterol as needed only" },
+      { "id": "B", "text": "Start low-dose ICS-formoterol as needed" },
+      { "id": "C", "text": "Start montelukast daily" },
+      { "id": "D", "text": "Start medium-dose ICS daily" },
+      { "id": "E", "text": "Start ICS-LABA daily + albuterol as needed" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "GINA 2024: Low-dose ICS-formoterol AS NEEDED. SABA-only is NO LONGER recommended.",
+      "whyWrong": {
+        "A": "SABA-only increases mortality.",
+        "C": "Montelukast is less effective than ICS.",
+        "D": "Daily ICS alone is alternative but ICS-formoterol as needed is preferred.",
+        "E": "Daily ICS-LABA is for Step 3-4."
+      },
+      "clinicalPearl": "GINA 2024: NO MORE SABA ALONE. All patients should receive ICS-containing therapy."
+    },
+    "references": ["GINA 2024 Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_006",
+    "specialty": "pulmonology",
+    "topic": "Interstitial Lung Disease",
+    "difficulty": "hard",
+    "vignette": "A 58-year-old male with idiopathic pulmonary fibrosis (IPF) on nintedanib presents with acute worsening dyspnea over 3 days. CT chest shows new diffuse ground-glass opacities superimposed on UIP pattern. He has no fever, purulent sputum, or heart failure. What is the MOST likely cause?",
+    "options": [
+      { "id": "A", "text": "Acute exacerbation of IPF" },
+      { "id": "B", "text": "Community-acquired pneumonia" },
+      { "id": "C", "text": "Drug-induced pneumonitis from nintedanib" },
+      { "id": "D", "text": "Pulmonary embolism" },
+      { "id": "E", "text": "Congestive heart failure" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Acute exacerbation of IPF: New GGOs on UIP background, no infection/CHF/drug cause. Mortality 50-80%.",
+      "whyWrong": {
+        "B": "No fever, purulent sputum, or consolidation.",
+        "C": "Nintedanib REDUCES exacerbation risk.",
+        "D": "PE would show V/Q mismatch, not GGOs.",
+        "E": "No cardiomegaly, pleural effusions, or clinical signs of CHF."
+      },
+      "clinicalPearl": "Acute exacerbation IPF: New GGOs on UIP pattern. High mortality. Pulse steroids + supportive care."
+    },
+    "references": ["ATS/ERS IPF Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_007",
+    "specialty": "pulmonology",
+    "topic": "Lung Cancer",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female never-smoker is found to have a 3cm spiculated lung nodule in the right upper lobe. PET-CT shows high FDG avidity. No mediastinal lymphadenopathy. Brain MRI negative. PFTs show FEV1 65% predicted. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "CT-guided biopsy then surgical resection" },
+      { "id": "B", "text": "Surgical lobectomy with mediastinal lymph node sampling" },
+      { "id": "C", "text": "Stereotactic body radiation therapy (SBRT)" },
+      { "id": "D", "text": "Chemotherapy and immunotherapy" },
+      { "id": "E", "text": "Repeat CT in 3 months" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Stage IA NSCLC (T1bN0M0). Surgical lobectomy with mediastinal LN sampling is standard of care.",
+      "whyWrong": {
+        "A": "Biopsy may delay definitive treatment.",
+        "C": "SBRT is for non-surgical candidates.",
+        "D": "Chemo/immunotherapy is for Stage III-IV.",
+        "E": "High-risk nodule should NOT be observed."
+      },
+      "clinicalPearl": "Early-stage NSCLC: Surgical resection. SBRT if not surgical candidate."
+    },
+    "references": ["NCCN NSCLC Guidelines 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_008",
+    "specialty": "pulmonology",
+    "topic": "Pulmonary Hypertension",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female with scleroderma presents with progressive dyspnea. Echo shows RVSP 65mmHg, dilated RV. RHC: mPAP 42mmHg, PCWP 10mmHg, PVR 8 Wood units. Vasoreactivity testing negative. What is the BEST initial therapy?",
+    "options": [
+      { "id": "A", "text": "High-dose calcium channel blocker" },
+      { "id": "B", "text": "Sildenafil + Macitentan" },
+      { "id": "C", "text": "Inhaled iloprost" },
+      { "id": "D", "text": "Riociguat" },
+      { "id": "E", "text": "Epoprostenol (IV prostacyclin)" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "WHO Group 1 PAH, negative vasoreactivity test. Low/intermediate risk → Oral combination (PDE5i + ERA).",
+      "whyWrong": {
+        "A": "CCBs only if positive vasoreactivity test (<10% of PAH).",
+        "C": "Iloprost is second-line or add-on.",
+        "D": "Riociguat is alternative to PDE5i.",
+        "E": "IV epoprostenol is for high-risk patients."
+      },
+      "clinicalPearl": "PAH: PDE5i + ERA (oral combo) for low/intermediate risk. IV prostacyclin for high risk."
+    },
+    "references": ["ERS/ESC PH Guidelines 2022"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_009",
+    "specialty": "pulmonology",
+    "topic": "Tuberculosis",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old immigrant from India presents with cough, night sweats, and weight loss for 2 months. CXR shows right upper lobe cavitary lesion. Sputum AFB smear is positive. HIV test negative. What is the recommended initial treatment regimen?",
+    "options": [
+      { "id": "A", "text": "RIPE x2 months, then RI x4 months" },
+      { "id": "B", "text": "Rifampin + Isoniazid for 9 months" },
+      { "id": "C", "text": "RIPE for 6 months" },
+      { "id": "D", "text": "RIP x2 months, then Rifampin x4 months" },
+      { "id": "E", "text": "Isoniazid + Rifapentine weekly for 3 months" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Active pulmonary TB: RIPE x2 months (intensive) → RI x4 months (continuation). Total: 6 months.",
+      "whyWrong": {
+        "B": "9 months INH+RIF is for latent TB.",
+        "C": "Continuing all 4 drugs for 6 months is unnecessary toxicity.",
+        "D": "Continuation phase should include INH+RIF.",
+        "E": "Weekly INH+Rifapentine is for LATENT TB."
+      },
+      "clinicalPearl": "Active TB: RIPE x2mo → RI x4mo. Always add pyridoxine with INH."
+    },
+    "references": ["ATS/CDC/IDSA TB Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_010",
+    "specialty": "pulmonology",
+    "topic": "OSA",
+    "difficulty": "easy",
+    "vignette": "A 45-year-old obese male (BMI 34) presents with daytime sleepiness, snoring, and witnessed apneas. Epworth Sleepiness Scale is 16. What is the GOLD STANDARD diagnostic test?",
+    "options": [
+      { "id": "A", "text": "Home sleep apnea testing (HSAT)" },
+      { "id": "B", "text": "In-laboratory polysomnography (PSG)" },
+      { "id": "C", "text": "Overnight pulse oximetry" },
+      { "id": "D", "text": "CT upper airway" },
+      { "id": "E", "text": "Lateral cephalometry" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Polysomnography is the gold standard for diagnosing OSA.",
+      "whyWrong": {
+        "A": "HSAT is alternative but not gold standard.",
+        "C": "Oximetry alone has poor sensitivity.",
+        "D": "CT is for surgical planning.",
+        "E": "Cephalometry is research/orthodontic."
+      },
+      "clinicalPearl": "Gold standard for OSA: In-lab PSG. AHI ≥5 = OSA."
+    },
+    "references": ["AASM OSA Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
