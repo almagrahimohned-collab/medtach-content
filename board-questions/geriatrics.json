@@ -1,0 +1,114 @@
+[
+  {
+    "id": "board_geri_001",
+    "specialty": "geriatrics",
+    "topic": "Delirium",
+    "difficulty": "medium",
+    "vignette": "An 82-year-old male is 3 days post-hip surgery. He is agitated, pulling at lines, and oriented only to self. Symptoms are worse at night. His family says 'this is not like him.' What is the MOST important initial step?",
+    "options": [
+      { "id": "A", "text": "Start haloperidol 2mg IM" },
+      { "id": "B", "text": "Apply physical restraints" },
+      { "id": "C", "text": "Identify and treat the underlying cause" },
+      { "id": "D", "text": "Start lorazepam 1mg PO" },
+      { "id": "E", "text": "Discharge to a nursing home" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Delirium is a MEDICAL EMERGENCY. The priority is identifying and treating the underlying cause (infection, medication, metabolic, pain, constipation, urinary retention). Non-pharmacologic interventions first: Reorientation, family presence, minimize lines, normal sleep-wake cycle. Antipsychotics only if dangerous to self/others.",
+      "whyWrong": {
+        "A": "Antipsychotics are for severe agitation after non-pharm measures fail.",
+        "B": "Restraints increase agitation and injury risk (last resort).",
+        "D": "Benzodiazepines worsen delirium (except in alcohol/sedative withdrawal).",
+        "E": "Discharge does not address the underlying medical issue."
+      },
+      "clinicalPearl": "Delirium: Find and treat the CAUSE first. Non-pharmacologic interventions. Avoid benzodiazepines. Antipsychotics only for severe agitation."
+    },
+    "references": ["NICE Delirium Guidelines", "AGS Delirium Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_002",
+    "specialty": "geriatrics",
+    "topic": "Polypharmacy",
+    "difficulty": "hard",
+    "vignette": "A 78-year-old female is on 12 medications. She presents with fatigue, bradycardia (HR 48), and confusion. Her medications include metoprolol, amlodipine, digoxin, warfarin, omeprazole, simvastatin, metformin, glyburide, oxybutynin, amitriptyline, lorazepam, and zolpidem. Which medication should be DEPRESCRIBED FIRST based on Beers criteria?",
+    "options": [
+      { "id": "A", "text": "Metformin" },
+      { "id": "B", "text": "Amitriptyline" },
+      { "id": "C", "text": "Warfarin" },
+      { "id": "D", "text": "Omeprazole" },
+      { "id": "E", "text": "Simvastatin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Beers criteria: Amitriptyline (TCA) is STRONGLY ANTICHOLINERGIC and should be AVOIDED in elderly. Causes confusion, constipation, urinary retention, falls. The combination of amitriptyline + oxybutynin + lorazepam = severe anticholinergic burden. Deprescribe TCAs first.",
+      "whyWrong": {
+        "A": "Metformin is appropriate (avoid if eGFR <30).",
+        "C": "Warfarin requires careful monitoring but is not inherently inappropriate.",
+        "D": "PPIs should be used at lowest effective dose for shortest duration (not most urgent).",
+        "E": "Statins are recommended for secondary prevention unless limited life expectancy."
+      },
+      "clinicalPearl": "Beers criteria: AVOID TCAs (amitriptyline), anticholinergics (oxybutynin), benzodiazepines, and Z-drugs (zolpidem) in elderly."
+    },
+    "references": ["AGS Beers Criteria 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_003",
+    "specialty": "geriatrics",
+    "topic": "Falls",
+    "difficulty": "medium",
+    "vignette": "An 80-year-old female presents after her third fall in 6 months. She has hypertension and osteoarthritis. She is on lisinopril, HCTZ, and naproxen. BP lying is 140/80, standing is 110/70. What is the MOST important modifiable risk factor to address?",
+    "options": [
+      { "id": "A", "text": "Hypertension" },
+      { "id": "B", "text": "Orthostatic hypotension" },
+      { "id": "C", "text": "Osteoarthritis" },
+      { "id": "D", "text": "Age" },
+      { "id": "E", "text": "Gender" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Orthostatic hypotension (drop in SBP ≥20 or DBP ≥10 within 3 min of standing) is a MAJOR modifiable fall risk factor. Likely caused by HCTZ (volume depletion) + lisinopril + naproxen (NSAID reduces antihypertensive effect). Reduce/stop HCTZ, adjust BP meds, review NSAID use.",
+      "whyWrong": {
+        "A": "Hypertension itself is not a direct fall risk factor.",
+        "C": "Osteoarthritis contributes but orthostasis is more immediately modifiable.",
+        "D": "Age is non-modifiable.",
+        "E": "Gender is non-modifiable."
+      },
+      "clinicalPearl": "Falls workup: Check orthostatic vitals! Review medications (antihypertensives, psychotropics). Multifactorial intervention reduces falls."
+    },
+    "references": ["CDC STEADI Fall Prevention", "AGS Falls Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_004",
+    "specialty": "geriatrics",
+    "topic": "Dementia vs Delirium",
+    "difficulty": "easy",
+    "vignette": "An 85-year-old female with Alzheimer dementia is admitted with pneumonia. On day 2, she becomes acutely confused, agitated, and inattentive. Her son says 'she is much worse than usual.' What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Progression of Alzheimer disease" },
+      { "id": "B", "text": "Delirium superimposed on dementia" },
+      { "id": "C", "text": "Lewy body dementia" },
+      { "id": "D", "text": "Depression (pseudodementia)" },
+      { "id": "E", "text": "Medication side effect" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Delirium superimposed on dementia (DSD): Acute change from baseline + Inattention + Fluctuation + Infection trigger. Patients with dementia are at HIGH risk for delirium. Diagnosis of delirium does NOT rule out dementia. Treat the infection, reorient, minimize deliriogenic medications.",
+      "whyWrong": {
+        "A": "Dementia progression is gradual (months-years), not acute (hours-days).",
+        "C": "LBD has visual hallucinations, parkinsonism, fluctuating cognition (but not acute on chronic).",
+        "D": "Depression causes pseudodementia (gradual, not acute confusion).",
+        "E": "Medications can cause delirium but infection is the trigger here."
+      },
+      "clinicalPearl": "Dementia + Acute confusion = Delirium superimposed on dementia. Find and treat the underlying cause."
+    },
+    "references": ["DSM-5 Neurocognitive Disorders"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

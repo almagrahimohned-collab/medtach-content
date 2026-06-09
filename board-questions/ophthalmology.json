@@ -1,0 +1,86 @@
+[
+  {
+    "id": "board_ophtho_001",
+    "specialty": "ophthalmology",
+    "topic": "Acute Vision Loss",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old female presents with sudden, painless vision loss in her right eye. She describes it as 'a curtain coming down.' Fundoscopy shows a pale retina with a cherry-red spot at the macula. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Central retinal vein occlusion" },
+      { "id": "B", "text": "Central retinal artery occlusion" },
+      { "id": "C", "text": "Retinal detachment" },
+      { "id": "D", "text": "Vitreous hemorrhage" },
+      { "id": "E", "text": "Optic neuritis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CRAO: Sudden, painless vision loss + Cherry-red spot + Pale retina. Ophthalmic EMERGENCY. Treatment: Immediate ocular massage, anterior chamber paracentesis, hyperventilation (to lower IOP and dislodge embolus). Evaluate for GCA (if >50 with headache, jaw claudication, elevated ESR).",
+      "whyWrong": {
+        "A": "CRVO: Painless vision loss + 'Blood and thunder' fundus (hemorrhages in all quadrants).",
+        "C": "Retinal detachment: Flashes/floaters → Curtain/veil, wavy retina on US.",
+        "D": "Vitreous hemorrhage: Floaters, red haze, no view of retina.",
+        "E": "Optic neuritis: Pain with eye movement, normal fundus initially."
+      },
+      "clinicalPearl": "CRAO: Painless vision loss + Cherry-red spot. Emergency! Ocular massage, paracentesis. Rule out GCA if >50."
+    },
+    "references": ["AAO CRAO Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_002",
+    "specialty": "ophthalmology",
+    "topic": "Glaucoma",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old female presents with severe right eye pain, headache, nausea, and blurred vision. She sees halos around lights. Exam: Fixed mid-dilated pupil, red eye, corneal edema, IOP is 55 mmHg (normal 10-21). What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Open-angle glaucoma" },
+      { "id": "B", "text": "Acute angle-closure glaucoma" },
+      { "id": "C", "text": "Anterior uveitis" },
+      { "id": "D", "text": "Corneal abrasion" },
+      { "id": "E", "text": "Optic neuritis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute angle-closure glaucoma: Severe eye pain + Headache + Nausea + Halos + Fixed mid-dilated pupil + Corneal edema + IOP >30. Emergency! Treatment: Pilocarpine (after laser iridotomy), Acetazolamide, Timolol, Brimonidine, Latanoprost, Mannitol IV. Definitive: Laser peripheral iridotomy.",
+      "whyWrong": {
+        "A": "Open-angle glaucoma is chronic, painless, with cupping of optic disc.",
+        "C": "Uveitis: Pain, photophobia, miotic pupil (not dilated), no corneal edema.",
+        "D": "Corneal abrasion: Pain, tearing, fluorescein uptake, normal IOP.",
+        "E": "Optic neuritis: Normal IOP, no corneal edema, pupil reacts."
+      },
+      "clinicalPearl": "Acute angle-closure: Pain + Mid-dilated fixed pupil + Corneal edema + IOP >30. Emergency! Laser iridotomy definitive."
+    },
+    "references": ["AAO Glaucoma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_003",
+    "specialty": "ophthalmology",
+    "topic": "Diabetic Retinopathy",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with Type 2 DM for 15 years presents for routine eye exam. Fundoscopy shows cotton-wool spots, dot-blot hemorrhages, and neovascularization at the optic disc. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Non-proliferative diabetic retinopathy (NPDR)" },
+      { "id": "B", "text": "Proliferative diabetic retinopathy (PDR)" },
+      { "id": "C", "text": "Diabetic macular edema" },
+      { "id": "D", "text": "Hypertensive retinopathy" },
+      { "id": "E", "text": "Central retinal vein occlusion" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PDR: Neovascularization (NVD = new vessels at disc, NVE = elsewhere) + Cotton-wool spots + Hemorrhages. High risk for vitreous hemorrhage and tractional retinal detachment. Treatment: Panretinal photocoagulation (PRP) + Anti-VEGF injections.",
+      "whyWrong": {
+        "A": "NPDR has microaneurysms, hemorrhages, exudates but NO neovascularization.",
+        "C": "DME is macular thickening (OCT diagnosis), not neovascularization.",
+        "D": "Hypertensive retinopathy: AV nicking, copper/silver wiring, flame hemorrhages.",
+        "E": "CRVO: Unilateral, acute, diffuse hemorrhages (blood and thunder)."
+      },
+      "clinicalPearl": "PDR: Neovascularization = High risk! PRP laser + Anti-VEGF. NPDR: No neovascularization. Annual screening for all diabetics."
+    },
+    "references": ["ADA Diabetic Retinopathy Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

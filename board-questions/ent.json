@@ -1,0 +1,86 @@
+[
+  {
+    "id": "board_ent_001",
+    "specialty": "ent",
+    "topic": "Epistaxis",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male on warfarin presents with profuse epistaxis for 1 hour. He is hemodynamically stable. Direct pressure and topical oxymetazoline have not stopped the bleeding. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Anterior nasal packing" },
+      { "id": "B", "text": "Posterior nasal packing" },
+      { "id": "C", "text": "Endoscopic cauterization or ligation" },
+      { "id": "D", "text": "IV vitamin K and FFP" },
+      { "id": "E", "text": "Nasal balloon (Foley/Rapid Rhino)" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Anterior epistaxis (Kiesselbach plexus - most common): Initial management: Direct pressure (lean forward) + Topical vasoconstrictors. If persistent: Anterior nasal packing (Merocel, Rapid Rhino) or chemical cauterization (silver nitrate). Posterior packing if anterior fails or bleeding is posterior.",
+      "whyWrong": {
+        "B": "Posterior packing for posterior bleeds (not first-line for anterior).",
+        "C": "Endoscopic ligation is for refractory bleeding after packing fails.",
+        "D": "Reversing anticoagulation if life-threatening or packing fails. Not first step.",
+        "E": "Nasal balloon is alternative packing (similar to anterior packing)."
+      },
+      "clinicalPearl": "Epistaxis: Direct pressure + Topical vasoconstrictors → Anterior packing → Posterior packing → Surgical/IR intervention."
+    },
+    "references": ["AAO-HNS Epistaxis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_002",
+    "specialty": "ent",
+    "topic": "Hearing Loss",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old male presents with gradual hearing loss in his left ear. Tuning fork: Rinne test positive in both ears (AC > BC), Weber test localizes to the RIGHT ear. What type of hearing loss is in the left ear?",
+    "options": [
+      { "id": "A", "text": "Conductive hearing loss - left ear" },
+      { "id": "B", "text": "Sensorineural hearing loss - left ear" },
+      { "id": "C", "text": "Mixed hearing loss - left ear" },
+      { "id": "D", "text": "Normal hearing - both ears" },
+      { "id": "E", "text": "Conductive hearing loss - right ear" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Sensorineural hearing loss (SNHL): Rinne positive (AC > BC) in both ears, Weber localizes to the BETTER ear (right). Left ear has SNHL. Left cochlear nerve or inner ear problem. Causes: Acoustic neuroma, Meniere disease, noise-induced, presbycusis, ototoxic drugs.",
+      "whyWrong": {
+        "A": "Conductive loss: Rinne negative (BC > AC) on affected side, Weber to affected ear.",
+        "C": "Mixed: Rinne negative on affected side, Weber variable.",
+        "D": "Abnormal tuning fork = not normal.",
+        "E": "Weber to right (better ear) indicates LEFT ear problem, not right."
+      },
+      "clinicalPearl": "SNHL: Rinne positive bilaterally + Weber to BETTER ear. Conductive loss: Rinne negative on affected side + Weber to AFFECTED ear."
+    },
+    "references": ["Tuning Fork Tests for Hearing Loss"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_003",
+    "specialty": "ent",
+    "topic": "Sinusitis",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female presents with facial pain, purulent nasal discharge, and fever for 10 days. She had a cold that 'got worse' after 5 days. CT shows air-fluid levels in the maxillary sinuses. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Amoxicillin 500mg TID x10 days" },
+      { "id": "B", "text": "Amoxicillin-clavulanate 875/125mg BID x5-7 days" },
+      { "id": "C", "text": "Azithromycin 500mg daily x3 days" },
+      { "id": "D", "text": "Nasal saline irrigation only" },
+      { "id": "E", "text": "Immediate ENT referral for surgery" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute bacterial rhinosinusitis: Symptoms >10 days OR 'double worsening' (worse after initial improvement). First-line: Amoxicillin-clavulanate 875/125mg BID x5-7 days. Amoxicillin alone is not recommended (H. influenzae and M. catarrhalis produce beta-lactamase).",
+      "whyWrong": {
+        "A": "Amoxicillin alone is ineffective due to beta-lactamase-producing organisms.",
+        "C": "Azithromycin has high resistance rates (not recommended for sinusitis).",
+        "D": "Saline irrigation is adjunctive, not sole treatment for bacterial sinusitis.",
+        "E": "Surgery is for chronic sinusitis (>12 weeks) refractory to medical therapy."
+      },
+      "clinicalPearl": "Bacterial sinusitis: Symptoms >10 days or 'double worsening.' Amoxicillin-clavulanate first-line. CT only if complicated or recurrent."
+    },
+    "references": ["IDSA Sinusitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
