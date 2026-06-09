@@ -282,3 +282,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_id_011",
+    "specialty": "infectious",
+    "topic": "Surgical Site Infection",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female develops erythema, warmth, and purulent drainage from her abdominal surgical incision 10 days after colectomy. She has a temperature of 38.5°C. What is the MOST important management step?",
+    "options": [
+      { "id": "A", "text": "Start IV vancomycin" },
+      { "id": "B", "text": "Open and drain the wound" },
+      { "id": "C", "text": "CT abdomen to rule out abscess" },
+      { "id": "D", "text": "Start broad-spectrum antibiotics" },
+      { "id": "E", "text": "Apply topical antibiotic ointment" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Surgical site infection with purulent drainage: Source control is paramount. Open the wound, drain pus, debride necrotic tissue. Antibiotics are ADJUNCTIVE (not primary) for most SSIs unless there is systemic spread.",
+      "whyWrong": {
+        "A": "Antibiotics alone without drainage will fail.",
+        "C": "CT is indicated if deep infection/abscess suspected, but opening wound comes first.",
+        "D": "Antibiotics are secondary to source control.",
+        "E": "Topical antibiotics are insufficient for established infection."
+      },
+      "clinicalPearl": "SSI with pus: Drain first, antibiotics second. Source control > Antibiotics in surgical infections."
+    },
+    "references": ["SHEA/IDSA SSI Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_012",
+    "specialty": "infectious",
+    "topic": "Antibiotic Stewardship",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male is admitted with urosepsis. Blood cultures grow E. coli sensitive to ceftriaxone, ciprofloxacin, and TMP-SMX. He has been on IV piperacillin-tazobactam for 3 days and is now afebrile and stable. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Continue IV piperacillin-tazobactam for 7 more days" },
+      { "id": "B", "text": "Switch to oral TMP-SMX to complete 7 days" },
+      { "id": "C", "text": "Switch to IV ceftriaxone" },
+      { "id": "D", "text": "Stop antibiotics, blood cultures are negative now" },
+      { "id": "E", "text": "Switch to IV ciprofloxacin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Antibiotic de-escalation: Narrow to the most targeted agent based on sensitivities. Switch from IV to PO when clinically stable (afebrile, tolerating PO). TMP-SMX PO is appropriate for susceptible E. coli. Complete 7-10 days total.",
+      "whyWrong": {
+        "A": "Continuing broad-spectrum IV therapy promotes resistance and C. diff.",
+        "C": "Switching to another IV when patient is stable for PO is unnecessary.",
+        "D": "Urosepsis requires full course (7-10 days), not stopping at 3 days.",
+        "E": "Fluoroquinolones have black box warnings and should be avoided if alternatives exist."
+      },
+      "clinicalPearl": "Antibiotic stewardship: De-escalate to narrowest spectrum. IV→PO switch when stable. Shortest effective duration."
+    },
+    "references": ["IDSA Antibiotic Stewardship Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_013",
+    "specialty": "infectious",
+    "topic": "Zoonotic Infections",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old farmer presents with fever, headache, myalgia, and conjunctival suffusion. He has jaundice and acute kidney injury. He raises cattle and his farm flooded recently. What is the MOST likely pathogen?",
+    "options": [
+      { "id": "A", "text": "Brucella abortus" },
+      { "id": "B", "text": "Leptospira interrogans" },
+      { "id": "C", "text": "Coxiella burnetii" },
+      { "id": "D", "text": "Francisella tularensis" },
+      { "id": "E", "text": "Rickettsia rickettsii" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Leptospirosis: Contact with animal urine-contaminated water (flooding, farming). Triad: Fever + Conjunctival suffusion + Jaundice/AKI (Weil disease). Treatment: Penicillin or doxycycline. Prevention: Doxycycline prophylaxis for high-risk exposure.",
+      "whyWrong": {
+        "A": "Brucellosis: Undulant fever, from unpasteurized dairy or animal contact.",
+        "C": "Q fever: Pneumonia + Hepatitis, from farm animals (inhalation).",
+        "D": "Tularemia: Ulceroglandular syndrome, from rabbits/ticks.",
+        "E": "RMSF: Rash (palms/soles), tick bite, not associated with flooding."
+      },
+      "clinicalPearl": "Leptospirosis: Fever + Conjunctival suffusion + Jaundice/AKI + Flooding exposure. Treat with penicillin or doxycycline."
+    },
+    "references": ["CDC Leptospirosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

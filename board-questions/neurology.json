@@ -224,3 +224,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_neuro_009",
+    "specialty": "neurology",
+    "topic": "Neuropathy",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with diabetes presents with burning pain in his feet, worse at night. Exam shows decreased sensation in a stocking-glove distribution, absent ankle reflexes, and normal strength. What is the BEST first-line treatment?",
+    "options": [
+      { "id": "A", "text": "Opioids" },
+      { "id": "B", "text": "Gabapentin or pregabalin" },
+      { "id": "C", "text": "Amitriptyline" },
+      { "id": "D", "text": "Duloxetine" },
+      { "id": "E", "text": "Carbamazepine" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Diabetic peripheral neuropathy: First-line = Gabapentinoids (gabapentin, pregabalin) OR SNRIs (duloxetine) OR TCAs (amitriptyline). All have equal efficacy. Gabapentin/pregabalin often preferred due to fewer drug interactions.",
+      "whyWrong": {
+        "A": "Opioids are NOT first-line for neuropathic pain (addiction risk, tolerance).",
+        "C": "TCAs are effective but more side effects (anticholinergic, cardiac).",
+        "D": "Duloxetine is equally effective but gabapentinoids often tried first.",
+        "E": "Carbamazepine is for trigeminal neuralgia, not diabetic neuropathy."
+      },
+      "clinicalPearl": "Neuropathic pain: Gabapentin/pregabalin, duloxetine, or amitriptyline. All first-line. Opioids = last resort."
+    },
+    "references": ["AAN Neuropathic Pain Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_010",
+    "specialty": "neurology",
+    "topic": "Spinal Cord",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male presents with progressive leg weakness over 6 months. Exam: Spastic paraparesis, hyperreflexia in legs, Babinski sign positive. Sensory level at T10. MRI shows intramedullary lesion from T8-T12 with syringomyelia. What is the MOST likely associated finding?",
+    "options": [
+      { "id": "A", "text": "Optic neuritis" },
+      { "id": "B", "text": "Scoliosis and foot deformities" },
+      { "id": "C", "text": "Multiple cranial nerve palsies" },
+      { "id": "D", "text": "Cerebellar ataxia" },
+      { "id": "E", "text": "Peripheral neuropathy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Syringomyelia (fluid-filled cavity in spinal cord): Often associated with Chiari malformation. Presents with loss of pain/temperature (crossing spinothalamic fibers), spastic paraparesis, scoliosis, and foot deformities. Most common at C8-T1 but can occur anywhere.",
+      "whyWrong": {
+        "A": "Optic neuritis suggests multiple sclerosis, not syringomyelia.",
+        "C": "Multiple cranial neuropathies suggest brainstem or meningeal pathology.",
+        "D": "Cerebellar ataxia is not typical for syringomyelia.",
+        "E": "Peripheral neuropathy would cause hyporeflexia, not hyperreflexia."
+      },
+      "clinicalPearl": "Syringomyelia: Cape-like loss of pain/temperature + Spastic paraparesis + Scoliosis. Associated with Chiari malformation."
+    },
+    "references": ["Syringomyelia: Diagnosis and Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_011",
+    "specialty": "neurology",
+    "topic": "Multiple Sclerosis Treatment",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female with relapsing-remitting MS (RRMS) on glatiramer acetate has 3 relapses in 12 months. MRI shows 2 new enhancing lesions. She is JCV antibody negative. What is the BEST next treatment?",
+    "options": [
+      { "id": "A", "text": "Increase glatiramer acetate dose" },
+      { "id": "B", "text": "Switch to interferon beta-1a" },
+      { "id": "C", "text": "Switch to natalizumab" },
+      { "id": "D", "text": "Switch to ocrelizumab" },
+      { "id": "E", "text": "Add prednisone for relapses" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "RRMS with breakthrough disease on first-line (glatiramer): Escalate to high-efficacy therapy. Ocrelizumab (anti-CD20) is highly effective, reduces relapses by 46% vs interferon, and is first-line for highly active disease. Natalizumab is also highly effective but reserved for JCV+ with monitoring.",
+      "whyWrong": {
+        "A": "Breakthrough disease on glatiramer = treatment failure. Do not continue.",
+        "B": "Switching between first-line agents (interferon, glatiramer) is inappropriate after breakthrough.",
+        "C": "Natalizumab is highly effective but risk of PML (even in JCV-). Ocrelizumab preferred.",
+        "E": "Steroids treat acute relapses but do not prevent future relapses."
+      },
+      "clinicalPearl": "MS breakthrough on first-line: Escalate to high-efficacy (ocrelizumab, natalizumab, fingolimod). JCV- = lower PML risk."
+    },
+    "references": ["ECTRIMS/EAN MS Guidelines", "OPERA Trials"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

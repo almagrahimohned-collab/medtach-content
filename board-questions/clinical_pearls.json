@@ -170,3 +170,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pearls_007",
+    "specialty": "quick_review",
+    "topic": "Chest Pain DDx",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old male presents with sharp chest pain worse with lying down and improved with leaning forward. He had a cold last week. ECG: Diffuse ST elevation. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Emergent cardiac catheterization" },
+      { "id": "B", "text": "Ibuprofen 600mg TID + Colchicine 0.5mg BID" },
+      { "id": "C", "text": "CT chest to rule out PE" },
+      { "id": "D", "text": "Echocardiogram" },
+      { "id": "E", "text": "Omeprazole 40mg daily" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute pericarditis: Positional chest pain + Diffuse ST elevation + Viral prodrome. Treatment: NSAIDs + Colchicine (3 months). Do NOT use steroids first-line.",
+      "whyWrong": {
+        "A": "Diffuse (not territorial) ST elevation = pericarditis, not STEMI.",
+        "C": "PE would cause dyspnea, tachycardia, and normal CXR.",
+        "D": "Echo may show effusion but diagnosis is clinical + ECG.",
+        "E": "PPI treats GERD, not pericarditis."
+      },
+      "clinicalPearl": "Pericarditis: Positional CP + Diffuse STE + PR depression. Tx: NSAIDs + Colchicine. NEVER steroids first."
+    },
+    "references": ["ESC Pericarditis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_008",
+    "specialty": "quick_review",
+    "topic": "Delirium vs Dementia",
+    "difficulty": "easy",
+    "vignette": "An 80-year-old male is 2 days post-hip surgery. He is agitated, disoriented, and trying to pull out his IV lines. His son says 'he was fine yesterday.' Symptoms fluctuate throughout the day. What is the BEST diagnosis?",
+    "options": [
+      { "id": "A", "text": "Alzheimer dementia" },
+      { "id": "B", "text": "Delirium" },
+      { "id": "C", "text": "Lewy body dementia" },
+      { "id": "D", "text": "Vascular dementia" },
+      { "id": "E", "text": "Frontotemporal dementia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Delirium: Acute onset (hours-days), fluctuating course, inattention, altered consciousness. Often triggered by surgery, medications, infection, or metabolic disturbance. Reversible if underlying cause treated.",
+      "whyWrong": {
+        "A": "Alzheimer: Chronic, progressive, insidious onset over years.",
+        "C": "Lewy body: Visual hallucinations, parkinsonism, fluctuating cognition (chronic).",
+        "D": "Vascular: Stepwise deterioration, focal neurological signs.",
+        "E": "FTD: Personality/behavior changes, younger onset."
+      },
+      "clinicalPearl": "Delirium = Acute + Fluctuating + Inattention. Dementia = Chronic + Progressive + Memory. Delirium is a medical emergency."
+    },
+    "references": ["DSM-5 Delirium Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
