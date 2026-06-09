@@ -1378,5 +1378,236 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b4_001",
+    "specialty": "cardiology",
+    "topic": "Inclisiran for LDL Reduction",
+    "difficulty": "medium",
+    "vignette": "A 58-year-old male with heterozygous familial hypercholesterolemia (HeFH) has LDL-C 160 despite maximally tolerated atorvastatin 80mg + ezetimibe. He cannot tolerate PCSK9 monoclonal antibodies due to severe injection site reactions. What is the BEST alternative?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bempedoic acid 180mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Inclisiran 284mg SC at baseline, 3 months, then every 6 months"
+      },
+      {
+        "id": "C",
+        "text": "Colesevelam 3.75g daily"
+      },
+      {
+        "id": "D",
+        "text": "Fenofibrate 145mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Niacin 1000mg daily"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Inclisiran (siRNA therapy) reduces PCSK9 synthesis by RNA interference. ORION trials showed 50% LDL-C reduction with ONLY twice-yearly dosing (after initial 2 doses). FDA-approved 2021. Ideal for patients intolerant to PCSK9 monoclonal antibodies. Administered by healthcare provider (improves adherence).",
+      "whyWrong": {
+        "A": "Bempedoic acid reduces LDL-C 18-20% (less potent than inclisiran). CLEAR Outcomes trial showed CV benefit.",
+        "C": "Bile acid sequestrants reduce LDL-C 15-20% but GI side effects and TG elevation limit use.",
+        "D": "Fenofibrate primarily lowers TG, not LDL-C (may increase LDL-C in some patients).",
+        "E": "Niacin has no proven CV benefit and significant side effects (flushing, hepatotoxicity)."
+      },
+      "clinicalPearl": "Inclisiran: siRNA targeting PCSK9. 50% LDL-C reduction with injection every 6 months. Game-changer for adherence. ORION trials."
+    },
+    "references": [
+      "ORION-10/11 Trials 2020",
+      "ACC/AHA Cholesterol Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b4_002",
+    "specialty": "cardiology",
+    "topic": "Bempedoic Acid",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female with statin intolerance (severe myalgias with 3 different statins) and ASCVD has LDL-C 130. She has no diabetes. What is the BEST option per CLEAR Outcomes trial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retry atorvastatin at lowest dose"
+      },
+      {
+        "id": "B",
+        "text": "Bempedoic acid 180mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Ezetimibe 10mg alone"
+      },
+      {
+        "id": "D",
+        "text": "PCSK9 inhibitor only"
+      },
+      {
+        "id": "E",
+        "text": "Diet and exercise only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Bempedoic acid is a prodrug activated ONLY in the liver (not in skeletal muscle), making it IDEAL for statin-intolerant patients. CLEAR Outcomes trial (2023) showed 13% MACE reduction in statin-intolerant patients. Reduces LDL-C 18-20%. Combine with ezetimibe for greater reduction (38% with fixed-dose combination).",
+      "whyWrong": {
+        "A": "Already failed 3 statins; rechallenge unlikely to succeed.",
+        "C": "Ezetimibe alone reduces LDL-C 15-20% but lacks outcome data as monotherapy in statin-intolerant.",
+        "D": "PCSK9 inhibitors are effective but expensive and require injections.",
+        "E": "ASCVD requires pharmacotherapy; lifestyle alone insufficient for secondary prevention."
+      },
+      "clinicalPearl": "Bempedoic acid: Prodrug activated in liver only = No muscle symptoms. Ideal for statin intolerance. CLEAR Outcomes: 13% MACE reduction."
+    },
+    "references": [
+      "CLEAR Outcomes Trial 2023",
+      "FDA Bempedoic Acid Label"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b4_003",
+    "specialty": "cardiology",
+    "topic": "Pulmonary Embolism Risk Stratification",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with acute PE is normotensive (BP 118/72) but has RV dysfunction on echo, elevated troponin I (0.8 ng/mL), and elevated BNP (450 pg/mL). PESI score is 115 (Class IV). What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Outpatient management with rivaroxaban"
+      },
+      {
+        "id": "B",
+        "text": "Admit for anticoagulation + Consider catheter-directed thrombolysis if deterioration"
+      },
+      {
+        "id": "C",
+        "text": "Systemic thrombolytics (tPA) immediately"
+      },
+      {
+        "id": "D",
+        "text": "Surgical embolectomy"
+      },
+      {
+        "id": "E",
+        "text": "IVC filter alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Submassive (intermediate-high risk) PE: Normotensive + RV dysfunction + Elevated biomarkers. Admit for anticoagulation + close monitoring. Systemic thrombolytics NOT routinely recommended (PEITHO trial: reduced decompensation but increased major bleeding including ICH). Catheter-directed thrombolysis if deterioration (reduced bleeding risk vs systemic).",
+      "whyWrong": {
+        "A": "PESI Class IV = High risk; requires admission. Outpatient only for PESI I-II.",
+        "C": "Systemic tPA is for MASSIVE PE (hypotension); PEITHO showed no net benefit in submassive.",
+        "D": "Surgical embolectomy is last resort for failed thrombolysis or contraindications.",
+        "E": "IVC filter if anticoagulation contraindicated; not primary therapy."
+      },
+      "clinicalPearl": "Submassive PE: Anticoagulation + Monitor. No routine systemic thrombolysis (PEITHO). Catheter-directed lysis if deterioration."
+    },
+    "references": [
+      "PEITHO Trial 2014",
+      "CHEST PE Guidelines 2021",
+      "PESI Score Validation"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b4_004",
+    "specialty": "cardiology",
+    "topic": "Aortic Stenosis - Timing",
+    "difficulty": "hard",
+    "vignette": "A 72-year-old asymptomatic male with severe aortic stenosis (AVA 0.8 cm\u00b2, mean gradient 52 mmHg, Vmax 4.8 m/s) has normal EF (62%), normal exercise test (achieved 10 METs without symptoms), and BNP 35 pg/mL. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TAVR now"
+      },
+      {
+        "id": "B",
+        "text": "SAVR now"
+      },
+      {
+        "id": "C",
+        "text": "Watchful waiting with echo every 6-12 months"
+      },
+      {
+        "id": "D",
+        "text": "Start metoprolol and observe"
+      },
+      {
+        "id": "E",
+        "text": "Balloon aortic valvuloplasty"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Asymptomatic severe AS with normal EF, normal exercise test, and normal BNP: Watchful waiting is appropriate (ACC/AHA 2020 Class I). Echo surveillance every 6-12 months. TAVR/SAVR indicated when: Symptoms develop, EF <50%, abnormal exercise test, very severe AS (Vmax \u22655 m/s), or rapid progression. EARLY TAVR trial showed benefit in asymptomatic AS but criteria still evolving.",
+      "whyWrong": {
+        "A": "TAVR reserved for symptomatic AS or high-risk asymptomatic patients per strict criteria.",
+        "B": "SAVR has higher risk and is for patients without TAVR candidacy or concomitant CABG.",
+        "D": "Beta-blockers have no role in asymptomatic AS (may reduce cardiac output).",
+        "E": "Balloon valvuloplasty is palliative bridge, not definitive treatment."
+      },
+      "clinicalPearl": "Asymptomatic severe AS + Normal EF + Normal exercise test + Normal BNP = Watchful waiting. Echo every 6-12 months."
+    },
+    "references": [
+      "ACC/AHA Valve Guidelines 2020",
+      "EARLY TAVR Trial 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b4_005",
+    "specialty": "cardiology",
+    "topic": "Cardiac Sarcoidosis",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old African American female presents with new complete heart block, LVEF 40% with regional wall motion abnormalities not matching coronary distribution. CMR shows patchy LGE in basal septum. PET-CT shows FDG uptake in the same regions. What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pacemaker alone"
+      },
+      {
+        "id": "B",
+        "text": "Pacemaker + Prednisone 30-40mg daily + Methotrexate"
+      },
+      {
+        "id": "C",
+        "text": "ICD alone"
+      },
+      {
+        "id": "D",
+        "text": "CRT-D alone"
+      },
+      {
+        "id": "E",
+        "text": "Heart transplant evaluation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cardiac sarcoidosis: Young patient + CHB + Cardiomyopathy not matching CAD + LGE on CMR + FDG uptake on PET. Treatment: Immunosuppression (Prednisone 30-40mg/day taper + Methotrexate as steroid-sparing) + Device therapy (Pacemaker for CHB, ICD if EF <35% despite immunosuppression). CRT-D if LBBB with EF <35%.",
+      "whyWrong": {
+        "A": "Pacemaker alone does not treat underlying inflammation (sarcoidosis).",
+        "C": "ICD alone if EF remains <35% after immunosuppression trial.",
+        "D": "CRT-D if LBBB and EF <35% after immunosuppression.",
+        "E": "Transplant evaluation if refractory to immunosuppression and device therapy."
+      },
+      "clinicalPearl": "Cardiac sarcoidosis: CHB + Cardiomyopathy + LGE/PET. Immunosuppression + Device therapy. HRS consensus guidelines."
+    },
+    "references": [
+      "HRS Cardiac Sarcoidosis Guidelines 2022",
+      "WASOG Sarcoidosis Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
