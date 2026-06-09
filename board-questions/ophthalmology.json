@@ -514,3 +514,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ophtho_019",
+    "specialty": "ophthalmology",
+    "topic": "Retinopathy of Prematurity",
+    "difficulty": "medium",
+    "vignette": "A premature infant born at 26 weeks gestation (birth weight 800g) should be screened for which vision-threatening condition?",
+    "options": [
+      { "id": "A", "text": "Congenital cataract" },
+      { "id": "B", "text": "Retinopathy of prematurity (ROP)" },
+      { "id": "C", "text": "Congenital glaucoma" },
+      { "id": "D", "text": "Retinoblastoma" },
+      { "id": "E", "text": "Optic nerve hypoplasia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ROP: Abnormal retinal vascular development in premature infants. Screening: All infants <30 weeks GA or <1500g birth weight. First exam at 4 weeks of age or 31 weeks post-menstrual age (whichever is later). Treatment: Laser photocoagulation or anti-VEGF injections for high-risk disease.",
+      "whyWrong": {
+        "A": "Congenital cataract is not specifically related to prematurity.",
+        "C": "Congenital glaucoma is rare and not screened by ROP exam.",
+        "D": "Retinoblastoma is a childhood tumor, not prematurity-related.",
+        "E": "Optic nerve hypoplasia is not specifically screened by ROP protocol."
+      },
+      "clinicalPearl": "ROP screening: All infants <30 weeks or <1500g. First exam at 4 weeks or 31 weeks PMA. Laser or Anti-VEGF for treatment."
+    },
+    "references": ["AAP ROP Screening Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_020",
+    "specialty": "ophthalmology",
+    "topic": "Pterygium",
+    "difficulty": "easy",
+    "vignette": "A 50-year-old farmer presents with a fleshy, triangular growth on the nasal side of his eye extending onto the cornea. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Pinguecula" },
+      { "id": "B", "text": "Pterygium" },
+      { "id": "C", "text": "Conjunctivitis" },
+      { "id": "D", "text": "Corneal ulcer" },
+      { "id": "E", "text": "Xanthelasma" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pterygium: Fibrovascular tissue extending ONTO the cornea (nasal > temporal). Associated with UV exposure. Pinguecula is similar but does NOT cross limbus. Treatment: Sun protection, artificial tears. Surgery if: Visual axis threatened, diplopia, cosmetic.",
+      "whyWrong": {
+        "A": "Pinguecula is similar but stops at the limbus (does NOT cross onto cornea).",
+        "C": "Conjunctivitis is diffuse injection, not localized growth.",
+        "D": "Corneal ulcer has epithelial defect on staining.",
+        "E": "Xanthelasma is lipid deposits on eyelids, not conjunctiva."
+      },
+      "clinicalPearl": "Pterygium: Fleshy growth crossing limbus onto cornea. Pinguecula: Similar but stops at limbus. UV protection prevents."
+    },
+    "references": ["AAO Pterygium Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_021",
+    "specialty": "ophthalmology",
+    "topic": "Giant Cell Arteritis Eye",
+    "difficulty": "hard",
+    "vignette": "A 75-year-old female with new-onset headache and jaw claudication develops sudden, painless vision loss in her right eye. Fundoscopy shows pale, swollen optic disc. What is the EMERGENCY treatment?",
+    "options": [
+      { "id": "A", "text": "Refer to ophthalmology in 1 week" },
+      { "id": "B", "text": "IV methylprednisolone 1g daily x3 days + Temporal artery biopsy" },
+      { "id": "C", "text": "Oral prednisone 10mg daily" },
+      { "id": "D", "text": "Topical steroid eye drops" },
+      { "id": "E", "text": "Aspirin and observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "GCA with vision loss (AAION): OPHTHALMIC EMERGENCY! IV methylprednisolone 1g x3 days to prevent blindness in the other eye. Temporal artery biopsy within 2 weeks (steroids do not affect histology for 2 weeks). If GCA confirmed: Prednisone taper over 12-18 months + Tocilizumab.",
+      "whyWrong": {
+        "A": "Vision loss from GCA requires EMERGENT treatment (hours, not weeks).",
+        "C": "Oral prednisone at low dose is insufficient for acute vision loss.",
+        "D": "Topical steroids are ineffective for AAION.",
+        "E": "Aspirin does not treat GCA. Vision loss is irreversible without steroids."
+      },
+      "clinicalPearl": "GCA + Vision loss = IV steroids NOW. Temporal artery biopsy within 2 weeks. Tocilizumab for maintenance."
+    },
+    "references": ["ACR GCA Guidelines", "GiACTA Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

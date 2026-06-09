@@ -682,3 +682,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_rheum_025",
+    "specialty": "rheumatology",
+    "topic": "Dermatomyositis Malignancy",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old female with dermatomyositis (Gottron papules, heliotrope, proximal weakness, elevated CK) should be screened for which associated malignancy?",
+    "options": [
+      { "id": "A", "text": "Colorectal cancer" },
+      { "id": "B", "text": "Ovarian, breast, lung, and GI cancers" },
+      { "id": "C", "text": "Melanoma" },
+      { "id": "D", "text": "Prostate cancer" },
+      { "id": "E", "text": "No malignancy risk" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Dermatomyositis in adults (>40) = HIGH malignancy risk (15-25%). Screen for: Ovarian, breast, lung, GI (especially ovarian in women, lung in men). Most malignancies diagnosed within 1 year of DM diagnosis. Age-appropriate cancer screening + CT chest/abdomen/pelvis.",
+      "whyWrong": {
+        "A": "Colorectal is one of many, not the primary.",
+        "C": "Melanoma is not the most associated.",
+        "D": "Prostate in men, but broader screen needed.",
+        "E": "DM has significant malignancy risk."
+      },
+      "clinicalPearl": "Dermatomyositis >40: Screen for malignancy (ovarian, breast, lung, GI). CT CAP + Age-appropriate screening."
+    },
+    "references": ["Dermatomyositis and Malignancy"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_026",
+    "specialty": "rheumatology",
+    "topic": "Igg4-Related Disease",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male presents with bilateral submandibular gland swelling, autoimmune pancreatitis, and retroperitoneal fibrosis. Serum IgG4 is elevated. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Sjögren syndrome" },
+      { "id": "B", "text": "IgG4-related disease" },
+      { "id": "C", "text": "Sarcoidosis" },
+      { "id": "D", "text": "Lymphoma" },
+      { "id": "E", "text": "Amyloidosis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "IgG4-related disease: Multisystem fibroinflammatory disorder. Elevated serum IgG4 (70% of patients). Histology: Lymphoplasmacytic infiltrate, storiform fibrosis, obliterative phlebitis. Organs: Pancreas, salivary glands, lacrimal glands, retroperitoneum, kidneys. Treatment: Prednisone ± Rituximab.",
+      "whyWrong": {
+        "A": "Sjögren: Dry eyes/mouth, anti-SSA/SSB, not pancreatitis or retroperitoneal fibrosis.",
+        "C": "Sarcoidosis: Non-caseating granulomas, not storiform fibrosis.",
+        "D": "Lymphoma: Monoclonal, not polyclonal IgG4.",
+        "E": "Amyloidosis: Congo red positive, not storiform fibrosis."
+      },
+      "clinicalPearl": "IgG4 disease: Pancreatitis + Salivary swelling + Retroperitoneal fibrosis + Elevated IgG4. Prednisone responsive."
+    },
+    "references": ["IgG4-Related Disease Consensus"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_027",
+    "specialty": "rheumatology",
+    "topic": "Raynaud Phenomenon",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old female presents with triphasic color changes in her fingers (white → blue → red) when exposed to cold. She has no other symptoms. Nailfold capillaroscopy is normal. ANA is negative. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Primary Raynaud phenomenon" },
+      { "id": "B", "text": "Secondary Raynaud (scleroderma)" },
+      { "id": "C", "text": "Thromboangiitis obliterans" },
+      { "id": "D", "text": "Acrocyanosis" },
+      { "id": "E", "text": "Chilblains" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Primary Raynaud: Young female, symmetric, no underlying disease, normal capillaroscopy, negative ANA. Benign. Treatment: Avoid cold, keep warm, calcium channel blockers (nifedipine) if severe. Secondary Raynaud: Age >30, asymmetric, abnormal capillaroscopy, positive autoantibodies (scleroderma, SLE).",
+      "whyWrong": {
+        "B": "Secondary would have abnormal capillaroscopy and positive ANA.",
+        "C": "Buerger: Young male smoker, claudication, gangrene.",
+        "D": "Acrocyanosis: Persistent bluish discoloration (not triphasic).",
+        "E": "Chilblains: Itchy, painful plaques in cold (not triphasic color changes)."
+      },
+      "clinicalPearl": "Primary Raynaud: Young female + Normal capillaroscopy + Negative ANA. Secondary: Age >30 + Abnormal nails + Positive serology."
+    },
+    "references": ["Raynaud Phenomenon Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -683,3 +683,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_em_025",
+    "specialty": "emergency",
+    "topic": "Heat Stroke",
+    "difficulty": "hard",
+    "vignette": "A marathon runner collapses at mile 20 on a hot day. He is confused, has hot dry skin, and a core temperature of 41.5°C. What is the BEST cooling method?",
+    "options": [
+      { "id": "A", "text": "Oral fluids and rest" },
+      { "id": "B", "text": "Ice water immersion" },
+      { "id": "C", "text": "Fanning and misting" },
+      { "id": "D", "text": "IV acetaminophen" },
+      { "id": "E", "text": "Ice packs to axillae and groin only" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Heat stroke: Core temp >40°C + CNS dysfunction + Hot skin. MEDICAL EMERGENCY! Ice water immersion = FASTEST cooling rate (0.15-0.35°C/min). Goal: Cool to 39°C within 30 min. Ice packs to axillae/groin if immersion unavailable. Acetaminophen has NO role (not fever-mediated).",
+      "whyWrong": {
+        "A": "Oral fluids insufficient and aspiration risk with AMS.",
+        "C": "Evaporative cooling is slower than immersion.",
+        "D": "Antipyretics are ineffective (heat stroke is not cytokine-mediated).",
+        "E": "Ice packs alone are slower than full immersion."
+      },
+      "clinicalPearl": "Heat stroke: Core temp >40°C + AMS. Ice water immersion = Fastest cooling. Do NOT give antipyretics."
+    },
+    "references": ["Wilderness Medical Society Heat Illness Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_026",
+    "specialty": "emergency",
+    "topic": "Acute Abdomen",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old female presents with acute abdominal pain out of proportion to exam. She has atrial fibrillation and is on no anticoagulation. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Pancreatitis" },
+      { "id": "B", "text": "Mesenteric ischemia" },
+      { "id": "C", "text": "Diverticulitis" },
+      { "id": "D", "text": "Small bowel obstruction" },
+      { "id": "E", "text": "Appendicitis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Mesenteric ischemia: Pain OUT OF PROPORTION to exam (severe pain, minimal tenderness) + AFib (embolic source) + Elderly + No anticoagulation. CT angiography is diagnostic. Treatment: Emergent surgical consult, heparin, revascularization. High mortality if missed.",
+      "whyWrong": {
+        "A": "Pancreatitis: Epigastric radiating to back, lipase elevated, alcohol/gallstones.",
+        "C": "Diverticulitis: LLQ pain, fever, leukocytosis.",
+        "D": "SBO: Cramping, distension, prior surgeries.",
+        "E": "Appendicitis: RLQ pain, McBurney point, younger patients."
+      },
+      "clinicalPearl": "Mesenteric ischemia: Pain out of proportion + AFib + Elderly. CT angiography STAT. Call surgery. High mortality."
+    },
+    "references": ["ACEP Acute Abdominal Pain Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_027",
+    "specialty": "emergency",
+    "topic": "Testicular Torsion",
+    "difficulty": "medium",
+    "vignette": "A 14-year-old boy presents with sudden onset severe left testicular pain, nausea, and vomiting that woke him from sleep. Exam: Left testis is high-riding with a horizontal lie and absent cremasteric reflex. What is the management?",
+    "options": [
+      { "id": "A", "text": "Outpatient ultrasound in the morning" },
+      { "id": "B", "text": "EMERGENT surgical exploration (do NOT delay for ultrasound)" },
+      { "id": "C", "text": "Manual detorsion and discharge" },
+      { "id": "D", "text": "IV antibiotics" },
+      { "id": "E", "text": "Scrotal support and NSAIDs" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Testicular torsion: SURGICAL EMERGENCY! Sudden pain + High-riding testis + Horizontal lie + Absent cremasteric reflex. Do NOT delay surgery for ultrasound (viability window = 6-8 hours from onset). Manual detorsion attempt while preparing for OR (open book: detorse laterally → medially).",
+      "whyWrong": {
+        "A": "Ultrasound delays definitive treatment and risks testicular loss.",
+        "C": "Manual detorsion is temporizing; still needs surgical fixation (orchidopexy).",
+        "D": "Antibiotics are for epididymitis, not torsion.",
+        "E": "NSAIDs do not address torsion."
+      },
+      "clinicalPearl": "Testicular torsion: Sudden pain + Absent cremasteric + High-riding testis. EMERGENT surgery (6-8h window)."
+    },
+    "references": ["AUA Testicular Torsion Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

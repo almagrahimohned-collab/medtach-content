@@ -514,3 +514,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ent_019",
+    "specialty": "ent",
+    "topic": "Cholesteatoma",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male with history of recurrent ear infections presents with chronic ear drainage, hearing loss, and a pearly white mass behind the tympanic membrane. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Acute otitis media" },
+      { "id": "B", "text": "Cholesteatoma" },
+      { "id": "C", "text": "Otosclerosis" },
+      { "id": "D", "text": "Tympanosclerosis" },
+      { "id": "E", "text": "Glomus tumor" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cholesteatoma: Keratinized squamous epithelium in middle ear. Pearly white mass behind TM + Chronic drainage + Conductive hearing loss. Can erode ossicles and temporal bone (facial nerve, labyrinth, tegmen). Treatment: Surgical excision (tympanomastoidectomy).",
+      "whyWrong": {
+        "A": "AOM: Acute infection, bulging TM, not pearly mass.",
+        "C": "Otosclerosis: Conductive hearing loss, normal TM, Schwartz sign.",
+        "D": "Tympanosclerosis: White plaques on TM (not a mass), post-OM/tubes.",
+        "E": "Glomus tumor: Pulsatile tinnitus, reddish mass behind TM."
+      },
+      "clinicalPearl": "Cholesteatoma: Pearly white mass + Chronic drainage + Hearing loss. Requires surgical excision."
+    },
+    "references": ["AAO-HNS Cholesteatoma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_020",
+    "specialty": "ent",
+    "topic": "Vocal Cord Paralysis",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male develops hoarseness and aspiration after thyroidectomy. Laryngoscopy shows a paralyzed right vocal cord in the paramedian position. What nerve was injured?",
+    "options": [
+      { "id": "A", "text": "Superior laryngeal nerve" },
+      { "id": "B", "text": "Recurrent laryngeal nerve" },
+      { "id": "C", "text": "Hypoglossal nerve" },
+      { "id": "D", "text": "Glossopharyngeal nerve" },
+      { "id": "E", "text": "Vagus nerve" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Recurrent laryngeal nerve (RLN): Most commonly injured during thyroidectomy. Unilateral = Hoarseness + Aspiration (cord in paramedian position). Bilateral = Stridor, airway emergency (cords adducted). RLN innervates all intrinsic laryngeal muscles EXCEPT cricothyroid (superior laryngeal nerve).",
+      "whyWrong": {
+        "A": "SLN injury: Cannot pitch voice high, subtle, cricothyroid muscle paralysis.",
+        "C": "Hypoglossal: Tongue deviation, not vocal cord.",
+        "D": "Glossopharyngeal: Swallowing, taste, not vocal cord.",
+        "E": "Vagus: Above RLN branch would cause multiple cranial nerve deficits."
+      },
+      "clinicalPearl": "RLN injury post-thyroidectomy: Hoarseness + Aspiration. Unilateral = Paramedian cord. Bilateral = Airway emergency."
+    },
+    "references": ["AAO-HNS Vocal Cord Paralysis"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_021",
+    "specialty": "ent",
+    "topic": "Acoustic Neuroma",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old female presents with gradual, unilateral sensorineural hearing loss, tinnitus, and balance problems. MRI shows a cerebellopontine angle mass. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Meningioma" },
+      { "id": "B", "text": "Vestibular schwannoma (acoustic neuroma)" },
+      { "id": "C", "text": "Epidermoid cyst" },
+      { "id": "D", "text": "Trigeminal schwannoma" },
+      { "id": "E", "text": "Cerebellar hemangioblastoma" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Vestibular schwannoma (acoustic neuroma): Benign tumor of CN VIII (Schwann cells). Unilateral SNHL + Tinnitus + Balance issues. MRI: Enhancing CPA mass. Associated with NF2 (bilateral). Treatment: Observation (<1.5cm), Stereotactic radiosurgery, Microsurgical resection.",
+      "whyWrong": {
+        "A": "Meningioma: Dural tail on MRI, not primarily from CN VIII.",
+        "C": "Epidermoid: Congenital, diffusion restriction on MRI.",
+        "D": "Trigeminal schwannoma: From CN V, not CN VIII.",
+        "E": "Hemangioblastoma: Cerebellar, associated with VHL."
+      },
+      "clinicalPearl": "Acoustic neuroma: Unilateral SNHL + Tinnitus + CPA mass on MRI. NF2 = Bilateral. Observation, SRS, or surgery."
+    },
+    "references": ["AAO-HNS Acoustic Neuroma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
