@@ -1883,5 +1883,98 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b7_001",
+    "specialty": "neurology",
+    "topic": "Wernicke Encephalopathy",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old male with alcohol use disorder presents with confusion, ataxia, and nystagmus. He received IV fluids with dextrose in the ambulance and his symptoms worsened. What is the MOST likely diagnosis and what should have been done?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hepatic encephalopathy - Lactulose"
+      },
+      {
+        "id": "B",
+        "text": "Wernicke encephalopathy - Thiamine 500mg IV BEFORE dextrose"
+      },
+      {
+        "id": "C",
+        "text": "Alcohol withdrawal - Lorazepam"
+      },
+      {
+        "id": "D",
+        "text": "Subdural hematoma - CT head"
+      },
+      {
+        "id": "E",
+        "text": "Methanol poisoning - Fomepizole"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Wernicke encephalopathy: Classic triad (confusion, ataxia, nystagmus) + WORSENED by glucose without thiamine. Dextrose increases carbohydrate metabolism which depletes remaining thiamine stores, precipitating or worsening WE. ALWAYS give thiamine 500mg IV BEFORE dextrose in alcoholic/malnourished patients. Untreated WE can progress to Korsakoff syndrome (irreversible amnesia).",
+      "whyWrong": {
+        "A": "Hepatic encephalopathy: Asterixis, elevated ammonia, liver disease history.",
+        "C": "Alcohol withdrawal: Tremulousness, hallucinations, autonomic hyperactivity; not worsened by dextrose.",
+        "D": "Subdural hematoma: Trauma history, focal deficits, CT findings.",
+        "E": "Methanol: Visual symptoms (optic neuropathy), anion gap acidosis, not worsened by dextrose."
+      },
+      "clinicalPearl": "Wernicke encephalopathy: Thiamine 500mg IV BEFORE ANY dextrose in alcoholic/malnourished patients. Dextrose without thiamine = WORSENS WE."
+    },
+    "references": [
+      "AAN Wernicke Guidelines",
+      "EFNS Thiamine Deficiency Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b7_002",
+    "specialty": "neurology",
+    "topic": "Myasthenic Crisis",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female with seropositive MG (AChR antibody positive) on pyridostigmine and prednisone presents with acute respiratory failure requiring intubation. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue pyridostigmine via NG tube and observe"
+      },
+      {
+        "id": "B",
+        "text": "PLEX or IVIG + Hold pyridostigmine while intubated"
+      },
+      {
+        "id": "C",
+        "text": "High-dose prednisone 1g IV daily"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab infusion"
+      },
+      {
+        "id": "E",
+        "text": "Efgartigimod (FcRn inhibitor)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Myasthenic crisis: PLEX (plasma exchange) or IVIG are first-line for rapid treatment. HOLD anticholinesterases (pyridostigmine) while intubated (increased secretions, risk of cholinergic crisis indistinguishable from myasthenic crisis). Avoid high-dose steroids initially (may worsen weakness). Efgartigimod and rituximab are for maintenance, not acute crisis.",
+      "whyWrong": {
+        "A": "Pyridostigmine should be HELD in intubated patients; PLEX/IVIG needed for crisis.",
+        "B": "PLEX or IVIG are rapid-acting therapies for crisis. Hold pyridostigmine while intubated.",
+        "C": "High-dose steroids may initially WORSEN myasthenic weakness.",
+        "D": "Rituximab is maintenance/prevention, not rapid enough for acute crisis.",
+        "E": "Efgartigimod is for chronic management, not FDA-approved for acute crisis."
+      },
+      "clinicalPearl": "Myasthenic crisis: PLEX or IVIG (rapid). Hold pyridostigmine while intubated. Avoid high-dose steroids initially."
+    },
+    "references": [
+      "MGFA Crisis Guidelines 2023",
+      "REGain Trial (Efgartigimod)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
