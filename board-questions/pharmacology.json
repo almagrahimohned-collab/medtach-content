@@ -6,11 +6,26 @@
     "difficulty": "hard",
     "vignette": "A 55-year-old male on amiodarone for AF presents with progressive dyspnea and dry cough for 2 months. CXR shows diffuse interstitial infiltrates. PFT shows restrictive pattern with reduced DLCO. What is the MOST likely diagnosis?",
     "options": [
-      { "id": "A", "text": "Amiodarone-induced pulmonary fibrosis" },
-      { "id": "B", "text": "Congestive heart failure" },
-      { "id": "C", "text": "Community-acquired pneumonia" },
-      { "id": "D", "text": "Hypersensitivity pneumonitis" },
-      { "id": "E", "text": "Pulmonary embolism" }
+      {
+        "id": "A",
+        "text": "Amiodarone-induced pulmonary fibrosis"
+      },
+      {
+        "id": "B",
+        "text": "Congestive heart failure"
+      },
+      {
+        "id": "C",
+        "text": "Community-acquired pneumonia"
+      },
+      {
+        "id": "D",
+        "text": "Hypersensitivity pneumonitis"
+      },
+      {
+        "id": "E",
+        "text": "Pulmonary embolism"
+      }
     ],
     "correctOptionId": "A",
     "explanation": {
@@ -23,7 +38,9 @@
       },
       "clinicalPearl": "Amiodarone pulmonary toxicity: Stop the drug! May need steroids. High mortality if unrecognized."
     },
-    "references": ["Amiodarone Prescribing Information"],
+    "references": [
+      "Amiodarone Prescribing Information"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,15 +51,30 @@
     "difficulty": "medium",
     "vignette": "A 65-year-old female on warfarin for mechanical mitral valve develops a UTI. Her physician prescribes an antibiotic. Three days later, her INR increases from 2.5 to 6.8. Which antibiotic was MOST likely prescribed?",
     "options": [
-      { "id": "A", "text": "Nitrofurantoin" },
-      { "id": "B", "text": "Trimethoprim-sulfamethoxazole (TMP-SMX)" },
-      { "id": "C", "text": "Amoxicillin" },
-      { "id": "D", "text": "Cephalexin" },
-      { "id": "E", "text": "Fosfomycin" }
+      {
+        "id": "A",
+        "text": "Nitrofurantoin"
+      },
+      {
+        "id": "B",
+        "text": "Trimethoprim-sulfamethoxazole (TMP-SMX)"
+      },
+      {
+        "id": "C",
+        "text": "Amoxicillin"
+      },
+      {
+        "id": "D",
+        "text": "Cephalexin"
+      },
+      {
+        "id": "E",
+        "text": "Fosfomycin"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "TMP-SMX inhibits CYP2C9 and displaces warfarin from protein binding → INR skyrockets.",
+      "whyCorrect": "TMP-SMX inhibits CYP2C9 and displaces warfarin from protein binding \u2192 INR skyrockets.",
       "whyWrong": {
         "A": "Nitrofurantoin has minimal warfarin interaction.",
         "C": "Amoxicillin can slightly increase INR but much less than TMP-SMX.",
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "Warfarin interactions: TMP-SMX, Metronidazole, Fluconazole, Amiodarone all increase INR significantly."
     },
-    "references": ["Warfarin Drug Interactions Database"],
+    "references": [
+      "Warfarin Drug Interactions Database"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -62,44 +96,75 @@
     "difficulty": "easy",
     "vignette": "A patient requires a loading dose of a drug with Vd of 40L and target plasma concentration of 10 mg/L. Bioavailability is 80%. What is the required oral loading dose?",
     "options": [
-      { "id": "A", "text": "320 mg" },
-      { "id": "B", "text": "400 mg" },
-      { "id": "C", "text": "500 mg" },
-      { "id": "D", "text": "800 mg" },
-      { "id": "E", "text": "1000 mg" }
+      {
+        "id": "A",
+        "text": "320 mg"
+      },
+      {
+        "id": "B",
+        "text": "400 mg"
+      },
+      {
+        "id": "C",
+        "text": "500 mg"
+      },
+      {
+        "id": "D",
+        "text": "800 mg"
+      },
+      {
+        "id": "E",
+        "text": "1000 mg"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "Loading dose = (Vd × Cp) / F = (40 × 10) / 0.8 = 500 mg.",
+      "whyCorrect": "Loading dose = (Vd \u00d7 Cp) / F = (40 \u00d7 10) / 0.8 = 500 mg.",
       "whyWrong": {
-        "A": "This would be IV dose × 0.8.",
-        "B": "This is IV loading dose (40 × 10 = 400).",
+        "A": "This would be IV dose \u00d7 0.8.",
+        "B": "This is IV loading dose (40 \u00d7 10 = 400).",
         "D": "800 mg if bioavailability was 50%.",
         "E": "1000 mg is too high."
       },
-      "clinicalPearl": "Loading dose (oral) = (Vd × Cp) / F. IV loading dose = Vd × Cp."
+      "clinicalPearl": "Loading dose (oral) = (Vd \u00d7 Cp) / F. IV loading dose = Vd \u00d7 Cp."
     },
-    "references": ["Basic Pharmacokinetics"],
+    "references": [
+      "Basic Pharmacokinetics"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_pharma_004",
     "specialty": "pharmacology",
     "topic": "Anticoagulation",
     "difficulty": "hard",
-    "vignette": "A 70-year-old female with non-valvular AF (CHA₂DS₂-VASc 5) and CKD stage 4 (eGFR 25) requires long-term anticoagulation. Which of the following is MOST appropriate?",
+    "vignette": "A 70-year-old female with non-valvular AF (CHA\u2082DS\u2082-VASc 5) and CKD stage 4 (eGFR 25) requires long-term anticoagulation. Which of the following is MOST appropriate?",
     "options": [
-      { "id": "A", "text": "Warfarin (target INR 2-3)" },
-      { "id": "B", "text": "Dabigatran 150mg BID" },
-      { "id": "C", "text": "Rivaroxaban 20mg daily" },
-      { "id": "D", "text": "Apixaban 5mg BID" },
-      { "id": "E", "text": "Enoxaparin 1mg/kg BID" }
+      {
+        "id": "A",
+        "text": "Warfarin (target INR 2-3)"
+      },
+      {
+        "id": "B",
+        "text": "Dabigatran 150mg BID"
+      },
+      {
+        "id": "C",
+        "text": "Rivaroxaban 20mg daily"
+      },
+      {
+        "id": "D",
+        "text": "Apixaban 5mg BID"
+      },
+      {
+        "id": "E",
+        "text": "Enoxaparin 1mg/kg BID"
+      }
     ],
     "correctOptionId": "D",
     "explanation": {
-      "whyCorrect": "Apixaban is the preferred DOAC in CKD stage 4 (eGFR 15-29). Dose: 5mg BID (reduce to 2.5mg BID if age ≥80, weight ≤60kg, or Cr ≥1.5). Less renal clearance than other DOACs.",
+      "whyCorrect": "Apixaban is the preferred DOAC in CKD stage 4 (eGFR 15-29). Dose: 5mg BID (reduce to 2.5mg BID if age \u226580, weight \u226460kg, or Cr \u22651.5). Less renal clearance than other DOACs.",
       "whyWrong": {
         "A": "Warfarin is alternative but DOACs are preferred for non-valvular AF.",
         "B": "Dabigatran is contraindicated if eGFR <30.",
@@ -108,7 +173,10 @@
       },
       "clinicalPearl": "Apixaban: Only DOAC approved for eGFR 15-29 (CKD stage 4). Dabigatran/Rivaroxaban: Contraindicated if eGFR <30."
     },
-    "references": ["AHA/ACC AF Guidelines 2023", "DOAC Prescribing in CKD"],
+    "references": [
+      "AHA/ACC AF Guidelines 2023",
+      "DOAC Prescribing in CKD"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -119,11 +187,26 @@
     "difficulty": "hard",
     "vignette": "A 22-year-old female presents with altered mental status, hyperthermia, tachycardia, diaphoresis, and mydriasis. She is agitated and has hyperactive bowel sounds and clonus. Her friend says she took 'several pills' at a party. What toxidrome is this?",
     "options": [
-      { "id": "A", "text": "Anticholinergic toxidrome" },
-      { "id": "B", "text": "Serotonin syndrome" },
-      { "id": "C", "text": "Sympathomimetic toxidrome" },
-      { "id": "D", "text": "Opioid toxidrome" },
-      { "id": "E", "text": "Sedative-hypnotic toxidrome" }
+      {
+        "id": "A",
+        "text": "Anticholinergic toxidrome"
+      },
+      {
+        "id": "B",
+        "text": "Serotonin syndrome"
+      },
+      {
+        "id": "C",
+        "text": "Sympathomimetic toxidrome"
+      },
+      {
+        "id": "D",
+        "text": "Opioid toxidrome"
+      },
+      {
+        "id": "E",
+        "text": "Sedative-hypnotic toxidrome"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -136,7 +219,10 @@
       },
       "clinicalPearl": "Serotonin syndrome CLUES: Clonus, hyperreflexia, tachycardia, diaphoresis. Treatment: Cyproheptadine, benzodiazepines."
     },
-    "references": ["Toxidrome Recognition", "Serotonin Syndrome Criteria"],
+    "references": [
+      "Toxidrome Recognition",
+      "Serotonin Syndrome Criteria"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -147,24 +233,41 @@
     "difficulty": "medium",
     "vignette": "A 60-year-old male develops severe C. difficile colitis after a course of clindamycin. He fails oral vancomycin. What is the BEST next treatment option?",
     "options": [
-      { "id": "A", "text": "Metronidazole IV" },
-      { "id": "B", "text": "Fidaxomicin 200mg BID x10 days" },
-      { "id": "C", "text": "Higher dose vancomycin (500mg QID)" },
-      { "id": "D", "text": "Fecal microbiota transplant (FMT)" },
-      { "id": "E", "text": "Rifaximin 400mg TID" }
+      {
+        "id": "A",
+        "text": "Metronidazole IV"
+      },
+      {
+        "id": "B",
+        "text": "Fidaxomicin 200mg BID x10 days"
+      },
+      {
+        "id": "C",
+        "text": "Higher dose vancomycin (500mg QID)"
+      },
+      {
+        "id": "D",
+        "text": "Fecal microbiota transplant (FMT)"
+      },
+      {
+        "id": "E",
+        "text": "Rifaximin 400mg TID"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Fidaxomicin is superior to vancomycin for recurrent C. diff and has lower recurrence rates. If vancomycin fails → Fidaxomicin. FMT is reserved for multiple recurrences (≥3 episodes).",
+      "whyCorrect": "Fidaxomicin is superior to vancomycin for recurrent C. diff and has lower recurrence rates. If vancomycin fails \u2192 Fidaxomicin. FMT is reserved for multiple recurrences (\u22653 episodes).",
       "whyWrong": {
         "A": "Oral vancomycin or fidaxomicin is preferred over metronidazole.",
         "C": "Increasing vancomycin dose provides no additional benefit.",
-        "D": "FMT is for ≥3 recurrences, not first-line failure.",
+        "D": "FMT is for \u22653 recurrences, not first-line failure.",
         "E": "Rifaximin is third-line or post-vancomycin 'chaser' therapy."
       },
       "clinicalPearl": "C. diff treatment: Vancomycin or Fidaxomicin (first-line). Metronidazole is second-line. FMT for multiple recurrences."
     },
-    "references": ["IDSA/SHEA C. diff Guidelines 2021"],
+    "references": [
+      "IDSA/SHEA C. diff Guidelines 2021"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -175,11 +278,26 @@
     "difficulty": "medium",
     "vignette": "A 55-year-old male with HFrEF (EF 30%) is on lisinopril 20mg, carvedilol 25mg BID, and spironolactone 25mg. He has persistent dyspnea and elevated BNP. HR is 72 in sinus rhythm. What medication should be added NEXT to reduce mortality and hospitalizations?",
     "options": [
-      { "id": "A", "text": "Digoxin 0.125mg daily" },
-      { "id": "B", "text": "Dapagliflozin 10mg daily" },
-      { "id": "C", "text": "Isosorbide dinitrate + Hydralazine" },
-      { "id": "D", "text": "Amiodarone 200mg daily" },
-      { "id": "E", "text": "Verapamil 120mg daily" }
+      {
+        "id": "A",
+        "text": "Digoxin 0.125mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Dapagliflozin 10mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Isosorbide dinitrate + Hydralazine"
+      },
+      {
+        "id": "D",
+        "text": "Amiodarone 200mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Verapamil 120mg daily"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -192,7 +310,10 @@
       },
       "clinicalPearl": "HFrEF Quad Therapy: ACEi/ARB/ARNI + BB + MRA + SGLT2i. All 4 reduce mortality!"
     },
-    "references": ["DAPA-HF Trial", "EMPEROR-Reduced Trial"],
+    "references": [
+      "DAPA-HF Trial",
+      "EMPEROR-Reduced Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -203,11 +324,26 @@
     "difficulty": "hard",
     "vignette": "A 50-year-old male on chronic morphine for cancer pain develops myoclonus, hyperalgesia, and confusion. What is the BEST management?",
     "options": [
-      { "id": "A", "text": "Increase morphine dose" },
-      { "id": "B", "text": "Add naloxone" },
-      { "id": "C", "text": "Rotate to a different opioid" },
-      { "id": "D", "text": "Add midazolam for myoclonus" },
-      { "id": "E", "text": "Add gabapentin" }
+      {
+        "id": "A",
+        "text": "Increase morphine dose"
+      },
+      {
+        "id": "B",
+        "text": "Add naloxone"
+      },
+      {
+        "id": "C",
+        "text": "Rotate to a different opioid"
+      },
+      {
+        "id": "D",
+        "text": "Add midazolam for myoclonus"
+      },
+      {
+        "id": "E",
+        "text": "Add gabapentin"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -220,11 +356,13 @@
       },
       "clinicalPearl": "Opioid neurotoxicity: Rotate to different opioid. Common with morphine (M3G accumulation) in renal impairment."
     },
-    "references": ["Opioid Rotation Guidelines", "Palliative Care"],
+    "references": [
+      "Opioid Rotation Guidelines",
+      "Palliative Care"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_pharma_009",
     "specialty": "pharmacology",
@@ -232,11 +370,26 @@
     "difficulty": "hard",
     "vignette": "A 25-year-old male with bipolar disorder on lithium develops tremor, confusion, and hyperreflexia. Labs: Li+ level 2.8 mEq/L (therapeutic 0.6-1.2), Na 140, Cr 2.5 (baseline 1.0). What is the BEST management?",
     "options": [
-      { "id": "A", "text": "Discontinue lithium and observe" },
-      { "id": "B", "text": "IV normal saline hydration" },
-      { "id": "C", "text": "Hemodialysis" },
-      { "id": "D", "text": "Activated charcoal" },
-      { "id": "E", "text": "Oral sodium polystyrene sulfonate" }
+      {
+        "id": "A",
+        "text": "Discontinue lithium and observe"
+      },
+      {
+        "id": "B",
+        "text": "IV normal saline hydration"
+      },
+      {
+        "id": "C",
+        "text": "Hemodialysis"
+      },
+      {
+        "id": "D",
+        "text": "Activated charcoal"
+      },
+      {
+        "id": "E",
+        "text": "Oral sodium polystyrene sulfonate"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -249,7 +402,9 @@
       },
       "clinicalPearl": "Lithium toxicity: Hemodialysis if Li+ >4.0, >2.5 with severe symptoms, AKI, or deteriorating on fluids."
     },
-    "references": ["EXTRIP Lithium Poisoning Guidelines"],
+    "references": [
+      "EXTRIP Lithium Poisoning Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -260,11 +415,26 @@
     "difficulty": "hard",
     "vignette": "A 65-year-old female develops VRE (vancomycin-resistant Enterococcus) bacteremia from a central line. What is the BEST treatment?",
     "options": [
-      { "id": "A", "text": "Metronidazole" },
-      { "id": "B", "text": "Daptomycin" },
-      { "id": "C", "text": "Clindamycin" },
-      { "id": "D", "text": "Ceftriaxone" },
-      { "id": "E", "text": "Higher dose vancomycin" }
+      {
+        "id": "A",
+        "text": "Metronidazole"
+      },
+      {
+        "id": "B",
+        "text": "Daptomycin"
+      },
+      {
+        "id": "C",
+        "text": "Clindamycin"
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone"
+      },
+      {
+        "id": "E",
+        "text": "Higher dose vancomycin"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -277,7 +447,9 @@
       },
       "clinicalPearl": "VRE: Daptomycin or Linezolid. Remove source (line). Enterococci are resistant to cephalosporins and metronidazole."
     },
-    "references": ["IDSA VRE Guidelines"],
+    "references": [
+      "IDSA VRE Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -288,15 +460,30 @@
     "difficulty": "medium",
     "vignette": "A 60-year-old male with Type 2 DM, CKD (eGFR 35), and heart failure is on metformin. His HbA1c is 8.0%. What is the BEST medication to add?",
     "options": [
-      { "id": "A", "text": "Glipizide" },
-      { "id": "B", "text": "Pioglitazone" },
-      { "id": "C", "text": "Empagliflozin" },
-      { "id": "D", "text": "Sitagliptin" },
-      { "id": "E", "text": "Liraglutide" }
+      {
+        "id": "A",
+        "text": "Glipizide"
+      },
+      {
+        "id": "B",
+        "text": "Pioglitazone"
+      },
+      {
+        "id": "C",
+        "text": "Empagliflozin"
+      },
+      {
+        "id": "D",
+        "text": "Sitagliptin"
+      },
+      {
+        "id": "E",
+        "text": "Liraglutide"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "Empagliflozin (SGLT2i): Reduces HF hospitalizations + CVD death + slows CKD progression. Approved for eGFR ≥20. EMPEROR-Reduced trial showed benefit in HF regardless of DM. DAPA-CKD showed renal benefit.",
+      "whyCorrect": "Empagliflozin (SGLT2i): Reduces HF hospitalizations + CVD death + slows CKD progression. Approved for eGFR \u226520. EMPEROR-Reduced trial showed benefit in HF regardless of DM. DAPA-CKD showed renal benefit.",
       "whyWrong": {
         "A": "Sulfonylureas cause hypoglycemia and weight gain, no CV/renal benefit.",
         "B": "Pioglitazone causes fluid retention (worsens HF) and is contraindicated.",
@@ -305,11 +492,14 @@
       },
       "clinicalPearl": "DM + HF + CKD: SGLT2i (empagliflozin/dapagliflozin). Reduces HF hospitalizations, CKD progression, and CVD death."
     },
-    "references": ["EMPEROR-Reduced Trial", "DAPA-CKD Trial", "ADA Guidelines 2024"],
+    "references": [
+      "EMPEROR-Reduced Trial",
+      "DAPA-CKD Trial",
+      "ADA Guidelines 2024"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_pharma_012",
     "specialty": "pharmacology",
@@ -317,11 +507,26 @@
     "difficulty": "hard",
     "vignette": "A 45-year-old renal transplant recipient on tacrolimus, mycophenolate, and prednisone develops rising Cr and BK viremia (>10,000 copies/mL). What is the BEST management?",
     "options": [
-      { "id": "A", "text": "Increase tacrolimus dose" },
-      { "id": "B", "text": "Reduce immunosuppression" },
-      { "id": "C", "text": "Start cidofovir" },
-      { "id": "D", "text": "Start leflunomide" },
-      { "id": "E", "text": "Transplant nephrectomy" }
+      {
+        "id": "A",
+        "text": "Increase tacrolimus dose"
+      },
+      {
+        "id": "B",
+        "text": "Reduce immunosuppression"
+      },
+      {
+        "id": "C",
+        "text": "Start cidofovir"
+      },
+      {
+        "id": "D",
+        "text": "Start leflunomide"
+      },
+      {
+        "id": "E",
+        "text": "Transplant nephrectomy"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -334,7 +539,10 @@
       },
       "clinicalPearl": "BK virus in transplant: Reduce immunosuppression first. Monitor viral load and renal function. No proven antiviral therapy."
     },
-    "references": ["KDIGO Transplant Guidelines", "AST BK Virus Guidelines"],
+    "references": [
+      "KDIGO Transplant Guidelines",
+      "AST BK Virus Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -345,24 +553,41 @@
     "difficulty": "medium",
     "vignette": "A 60-year-old female receiving doxorubicin + cyclophosphamide for breast cancer develops fever, neutropenia, and a new cardiac murmur. Echo shows LVEF dropped from 60% to 40%. Which drug is responsible?",
     "options": [
-      { "id": "A", "text": "Cyclophosphamide" },
-      { "id": "B", "text": "Doxorubicin" },
-      { "id": "C", "text": "Both equally" },
-      { "id": "D", "text": "Neither, this is septic cardiomyopathy" },
-      { "id": "E", "text": "Paraneoplastic syndrome" }
+      {
+        "id": "A",
+        "text": "Cyclophosphamide"
+      },
+      {
+        "id": "B",
+        "text": "Doxorubicin"
+      },
+      {
+        "id": "C",
+        "text": "Both equally"
+      },
+      {
+        "id": "D",
+        "text": "Neither, this is septic cardiomyopathy"
+      },
+      {
+        "id": "E",
+        "text": "Paraneoplastic syndrome"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Doxorubicin (anthracycline) causes dose-dependent cardiomyopathy (Type 1 chemotherapy-related cardiac dysfunction). Risk increases with cumulative dose (>400 mg/m²). Mechanism: Free radical generation → myocardial damage. Prevention: Dexrazoxane, liposomal formulations.",
+      "whyCorrect": "Doxorubicin (anthracycline) causes dose-dependent cardiomyopathy (Type 1 chemotherapy-related cardiac dysfunction). Risk increases with cumulative dose (>400 mg/m\u00b2). Mechanism: Free radical generation \u2192 myocardial damage. Prevention: Dexrazoxane, liposomal formulations.",
       "whyWrong": {
         "A": "Cyclophosphamide causes hemorrhagic cystitis (acrolein metabolite), not cardiomyopathy.",
         "C": "Cyclophosphamide cardiotoxicity is rare and occurs at very high doses (transplant conditioning).",
         "D": "Sepsis can cause reversible LV dysfunction but anthracycline cardiotoxicity is the primary concern.",
         "E": "Paraneoplastic would not cause acute drop after chemotherapy."
       },
-      "clinicalPearl": "Doxorubicin: Dose-dependent cardiomyopathy (>400 mg/m²). Monitor EF. Dexrazoxane for cardioprotection in high cumulative doses."
+      "clinicalPearl": "Doxorubicin: Dose-dependent cardiomyopathy (>400 mg/m\u00b2). Monitor EF. Dexrazoxane for cardioprotection in high cumulative doses."
     },
-    "references": ["ASCO Cardio-Oncology Guidelines"],
+    "references": [
+      "ASCO Cardio-Oncology Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -373,15 +598,30 @@
     "difficulty": "medium",
     "vignette": "A 70-year-old female on metformin develops lactic acidosis (pH 7.1, lactate 8 mmol/L). She has CKD stage 4 (eGFR 22). What is the mechanism of metformin toxicity in this patient?",
     "options": [
-      { "id": "A", "text": "Metformin directly damages mitochondria" },
-      { "id": "B", "text": "Metformin inhibits hepatic gluconeogenesis, increasing lactate" },
-      { "id": "C", "text": "Metformin accumulation due to reduced renal clearance" },
-      { "id": "D", "text": "Metformin causes liver failure" },
-      { "id": "E", "text": "Metformin induces sepsis" }
+      {
+        "id": "A",
+        "text": "Metformin directly damages mitochondria"
+      },
+      {
+        "id": "B",
+        "text": "Metformin inhibits hepatic gluconeogenesis, increasing lactate"
+      },
+      {
+        "id": "C",
+        "text": "Metformin accumulation due to reduced renal clearance"
+      },
+      {
+        "id": "D",
+        "text": "Metformin causes liver failure"
+      },
+      {
+        "id": "E",
+        "text": "Metformin induces sepsis"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "Metformin is RENALLY cleared. In CKD stage 4 (eGFR <30), metformin accumulates → increased risk of lactic acidosis. Metformin is contraindicated when eGFR <30. Mechanism: Metformin inhibits complex I of mitochondria → reduced lactate clearance + increased lactate production.",
+      "whyCorrect": "Metformin is RENALLY cleared. In CKD stage 4 (eGFR <30), metformin accumulates \u2192 increased risk of lactic acidosis. Metformin is contraindicated when eGFR <30. Mechanism: Metformin inhibits complex I of mitochondria \u2192 reduced lactate clearance + increased lactate production.",
       "whyWrong": {
         "A": "Metformin inhibits mitochondrial complex I, but toxicity is primarily due to accumulation, not direct damage.",
         "B": "Inhibition of gluconeogenesis is the therapeutic effect, not the cause of lactic acidosis.",
@@ -390,7 +630,9 @@
       },
       "clinicalPearl": "Metformin: Contraindicated if eGFR <30 (CKD stage 4-5). Lactic acidosis risk due to drug accumulation. Treatment: Hemodialysis."
     },
-    "references": ["FDA Metformin Prescribing Information"],
+    "references": [
+      "FDA Metformin Prescribing Information"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -401,11 +643,26 @@
     "difficulty": "hard",
     "vignette": "A 65-year-old male with MRSA bacteremia has vancomycin trough of 10 mcg/mL (target 15-20). He weighs 80kg with normal renal function. What adjustment should be made?",
     "options": [
-      { "id": "A", "text": "Increase dose by 250mg" },
-      { "id": "B", "text": "Increase dose frequency from q12h to q8h" },
-      { "id": "C", "text": "Switch to linezolid" },
-      { "id": "D", "text": "Add gentamicin synergy" },
-      { "id": "E", "text": "AUC-guided dosing with increased total daily dose" }
+      {
+        "id": "A",
+        "text": "Increase dose by 250mg"
+      },
+      {
+        "id": "B",
+        "text": "Increase dose frequency from q12h to q8h"
+      },
+      {
+        "id": "C",
+        "text": "Switch to linezolid"
+      },
+      {
+        "id": "D",
+        "text": "Add gentamicin synergy"
+      },
+      {
+        "id": "E",
+        "text": "AUC-guided dosing with increased total daily dose"
+      }
     ],
     "correctOptionId": "E",
     "explanation": {
@@ -418,7 +675,9 @@
       },
       "clinicalPearl": "Vancomycin: AUC/MIC 400-600 (not just trough 15-20). AUC-guided dosing is new standard. Calculate AUC using Bayesian software."
     },
-    "references": ["ASHP/IDSA Vancomycin Guidelines 2020"],
+    "references": [
+      "ASHP/IDSA Vancomycin Guidelines 2020"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -429,24 +688,511 @@
     "difficulty": "medium",
     "vignette": "A patient on phenytoin for seizure disorder develops nystagmus, ataxia, and slurred speech. Phenytoin level is 32 mcg/mL (therapeutic 10-20). Albumin is 2.0 g/dL. What is the MOST accurate interpretation?",
     "options": [
-      { "id": "A", "text": "Phenytoin is therapeutic, symptoms are from another cause" },
-      { "id": "B", "text": "Phenytoin toxicity, hold dose and recheck level" },
-      { "id": "C", "text": "Correct for low albumin - free phenytoin is even higher" },
-      { "id": "D", "text": "Decrease phenytoin dose by 50%" },
-      { "id": "E", "text": "Switch to levetiracetam" }
+      {
+        "id": "A",
+        "text": "Phenytoin is therapeutic, symptoms are from another cause"
+      },
+      {
+        "id": "B",
+        "text": "Phenytoin toxicity, hold dose and recheck level"
+      },
+      {
+        "id": "C",
+        "text": "Correct for low albumin - free phenytoin is even higher"
+      },
+      {
+        "id": "D",
+        "text": "Decrease phenytoin dose by 50%"
+      },
+      {
+        "id": "E",
+        "text": "Switch to levetiracetam"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
-      "whyCorrect": "Phenytoin is highly protein-bound (90%). Low albumin means more FREE (active) drug. Corrected phenytoin = Measured total / (0.2 × albumin + 0.1) = 32 / (0.2×2.0 + 0.1) = 32/0.5 = 64 mcg/mL (toxic!). Symptoms are from severe phenytoin toxicity.",
+      "whyCorrect": "Phenytoin is highly protein-bound (90%). Low albumin means more FREE (active) drug. Corrected phenytoin = Measured total / (0.2 \u00d7 albumin + 0.1) = 32 / (0.2\u00d72.0 + 0.1) = 32/0.5 = 64 mcg/mL (toxic!). Symptoms are from severe phenytoin toxicity.",
       "whyWrong": {
         "A": "Total level of 32 is already supratherapeutic. With low albumin, free drug is dangerously high.",
         "B": "Holding the dose is correct but understanding the albumin effect is crucial.",
         "D": "Dose reduction alone is insufficient without understanding the albumin effect.",
         "E": "Switching medications should be done after acute toxicity is managed."
       },
-      "clinicalPearl": "Phenytoin: Correct for low albumin! Corrected = Measured / (0.2 × albumin + 0.1). Low albumin → Toxic free phenytoin despite 'normal' total level."
+      "clinicalPearl": "Phenytoin: Correct for low albumin! Corrected = Measured / (0.2 \u00d7 albumin + 0.1). Low albumin \u2192 Toxic free phenytoin despite 'normal' total level."
     },
-    "references": ["Phenytoin Therapeutic Drug Monitoring"],
+    "references": [
+      "Phenytoin Therapeutic Drug Monitoring"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_001",
+    "specialty": "pharmacology",
+    "topic": "GLP-1/GIP Dual Agonist",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old obese male with T2DM (HbA1c 8.5% on metformin + empagliflozin) needs additional glucose control with weight loss. What is the mechanism of tirzepatide (Mounjaro/Zepbound)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DPP-4 inhibitor"
+      },
+      {
+        "id": "B",
+        "text": "Dual GIP/GLP-1 receptor agonist"
+      },
+      {
+        "id": "C",
+        "text": "SGLT2 inhibitor"
+      },
+      {
+        "id": "D",
+        "text": "Insulin secretagogue"
+      },
+      {
+        "id": "E",
+        "text": "Amylin analog"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tirzepatide is the FIRST dual GIP/GLP-1 receptor agonist. GIP (glucose-dependent insulinotropic polypeptide) adds incretin effect beyond GLP-1 alone. SURPASS trials: HbA1c reduction 2.0-2.4%, weight loss 10-15%. SURMOUNT-1: 22.5% weight loss in obesity without diabetes. More effective than selective GLP-1 RAs (semaglutide). FDA-approved for T2DM (Mounjaro) and obesity (Zepbound).",
+      "whyWrong": {
+        "A": "DPP-4i (sitagliptin) block incretin degradation; less effective than tirzepatide.",
+        "B": "Dual GIP/GLP-1 RA: Superior efficacy via dual incretin agonism.",
+        "C": "SGLT2i (empagliflozin) is a different class (glycosuric effect).",
+        "D": "Sulfonylureas (glimepiride) are insulin secretagogues; cause weight gain.",
+        "E": "Pramlintide is an amylin analog; different mechanism."
+      },
+      "clinicalPearl": "Tirzepatide: Dual GIP/GLP-1 agonist. Superior A1c reduction + Weight loss vs GLP-1 alone. SURPASS/SURMOUNT trials."
+    },
+    "references": [
+      "SURPASS-2 Trial 2021",
+      "SURMOUNT-1 Trial 2022",
+      "FDA Tirzepatide Label 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_002",
+    "specialty": "pharmacology",
+    "topic": "CRISPR Gene Therapy",
+    "difficulty": "hard",
+    "vignette": "A 12-year-old female with sickle cell disease (HbSS, recurrent VOC) is referred for gene therapy. What is the mechanism of exagamglogene autotemcel (Casgevy)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AAV vector delivering beta-globin gene"
+      },
+      {
+        "id": "B",
+        "text": "CRISPR-Cas9 gene editing to reactivate fetal hemoglobin (HbF) by disabling BCL11A"
+      },
+      {
+        "id": "C",
+        "text": "Lentiviral vector adding normal beta-globin gene"
+      },
+      {
+        "id": "D",
+        "text": "Antisense oligonucleotide"
+      },
+      {
+        "id": "E",
+        "text": "siRNA therapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Exagamglogene autotemcel (Casgevy) is the FIRST CRISPR-Cas9 gene therapy approved by FDA (December 2023) for SCD. Mechanism: CRISPR-Cas9 edits patient's hematopoietic stem cells to disable BCL11A gene (transcription factor that suppresses fetal hemoglobin). This reactivates HbF production, which prevents HbS polymerization. Single infusion. 90% VOC-free at 12 months. Lyfgenia (lovotibeglogene autotemcel) is alternative lentiviral gene therapy approved same day.",
+      "whyWrong": {
+        "A": "AAV gene therapy is for hemophilia (Roctavian), not SCD.",
+        "B": "CRISPR-Cas9 editing BCL11A \u2192 Reactivates HbF. First CRISPR therapy approved!",
+        "C": "Lyfgenia uses lentiviral vector (different approach).",
+        "D": "ASOs (eteplirsen) are for DMD exon skipping, not SCD.",
+        "E": "siRNA (inclisiran) is for LDL reduction, not SCD."
+      },
+      "clinicalPearl": "Casgevy: First CRISPR-Cas9 therapy (2023). Edits BCL11A \u2192 Reactivates HbF \u2192 Prevents sickling. Single infusion. 90% VOC-free."
+    },
+    "references": [
+      "FDA Casgevy Approval December 2023",
+      "CLIMB SCD-121 Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_003",
+    "specialty": "pharmacology",
+    "topic": "Antisense Oligonucleotides",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with hyperlipidemia on maximally tolerated statin + ezetimibe has LDL-C 120. He cannot tolerate PCSK9 monoclonal antibodies. Which agent uses siRNA mechanism to lower PCSK9?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evolocumab (Repatha)"
+      },
+      {
+        "id": "B",
+        "text": "Inclisiran (Leqvio) - siRNA targeting PCSK9 mRNA"
+      },
+      {
+        "id": "C",
+        "text": "Alirocumab (Praluent)"
+      },
+      {
+        "id": "D",
+        "text": "Bempedoic acid (Nexletol)"
+      },
+      {
+        "id": "E",
+        "text": "Ezetimibe (Zetia)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Inclisiran is a small interfering RNA (siRNA) that degrades PCSK9 mRNA in hepatocytes, preventing PCSK9 protein synthesis. Administered SC at baseline, 3 months, then every 6 months. ORION trials: 50% LDL-C reduction with twice-yearly dosing. Advantages: Infrequent dosing (improved adherence), no injection site reactions (unlike monoclonal antibodies). Bempedoic acid is oral prodrug (ATP-citrate lyase inhibitor).",
+      "whyWrong": {
+        "A": "Evolocumab is a PCSK9 monoclonal antibody, not siRNA.",
+        "B": "Inclisiran: siRNA. Twice-yearly. Degrades PCSK9 mRNA.",
+        "C": "Alirocumab is also a PCSK9 monoclonal antibody.",
+        "D": "Bempedoic acid inhibits ATP-citrate lyase (upstream of HMG-CoA reductase).",
+        "E": "Ezetimibe blocks NPC1L1 (cholesterol absorption)."
+      },
+      "clinicalPearl": "Inclisiran: siRNA targeting PCSK9. Twice-yearly injection. 50% LDL-C reduction. ORION trials. Game-changer for adherence."
+    },
+    "references": [
+      "ORION-10/11 Trials 2020",
+      "FDA Inclisiran Label 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_004",
+    "specialty": "pharmacology",
+    "topic": "Proteolysis-Targeting Chimeras",
+    "difficulty": "hard",
+    "vignette": "A researcher is studying a new class of drugs that tag disease-causing proteins for ubiquitination and proteasomal degradation. What is this novel therapeutic modality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monoclonal antibody"
+      },
+      {
+        "id": "B",
+        "text": "PROTACs (Proteolysis-Targeting Chimeras) - Bifunctional molecules recruiting E3 ligase to target protein"
+      },
+      {
+        "id": "C",
+        "text": "Tyrosine kinase inhibitor"
+      },
+      {
+        "id": "D",
+        "text": "Immunomodulatory drug (IMiD)"
+      },
+      {
+        "id": "E",
+        "text": "Checkpoint inhibitor"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PROTACs are bifunctional molecules: One end binds target protein (e.g., oncogenic kinase), other end recruits E3 ubiquitin ligase. This brings target protein into proximity with E3 ligase \u2192 ubiquitination \u2192 proteasomal degradation. Unlike traditional inhibitors (which block function), PROTACs ELIMINATE the protein entirely. Advantages: Catalytic (one PROTAC molecule can degrade multiple target proteins), overcome drug resistance, target 'undruggable' proteins.",
+      "whyWrong": {
+        "A": "Monoclonal antibodies bind extracellular proteins, not intracellular degradation.",
+        "B": "PROTACs: Hijack ubiquitin-proteasome system to degrade disease proteins.",
+        "C": "TKIs (imatinib) inhibit kinase activity, not degrade the kinase.",
+        "D": "IMiDs (lenalidomide) are a type of molecular glue (related but distinct from PROTACs).",
+        "E": "Checkpoint inhibitors (pembrolizumab) block PD-1/PD-L1, not protein degradation."
+      },
+      "clinicalPearl": "PROTACs: Bifunctional molecules that degrade target proteins via ubiquitin-proteasome system. Catalytic mechanism. Overcomes drug resistance."
+    },
+    "references": [
+      "PROTAC Technology Review 2023",
+      "ARV-471 (PROTAC ER degrader) Clinical Trials"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_005",
+    "specialty": "pharmacology",
+    "topic": "Antibody-Drug Conjugates",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old female with HER2-low metastatic breast cancer receives trastuzumab deruxtecan (Enhertu). What is the mechanism of this antibody-drug conjugate (ADC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anti-HER2 antibody alone blocking HER2 signaling"
+      },
+      {
+        "id": "B",
+        "text": "Anti-HER2 antibody linked to topoisomerase I inhibitor (deruxtecan) - Internalized and releases cytotoxic payload inside cancer cells + Bystander killing effect"
+      },
+      {
+        "id": "C",
+        "text": "Anti-HER2 antibody stimulating ADCC"
+      },
+      {
+        "id": "D",
+        "text": "Radioimmunotherapy"
+      },
+      {
+        "id": "E",
+        "text": "Bispecific T-cell engager"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Enhertu (T-DXd) is an ADC: Trastuzumab (anti-HER2 antibody) + Deruxtecan (topoisomerase I inhibitor payload) + Cleavable linker. After binding HER2, ADC is internalized, linker cleaved, payload released \u2192 DNA damage \u2192 apoptosis. UNIQUE FEATURE: High drug-to-antibody ratio (8:1) + bystander killing effect (payload crosses membranes to kill neighboring HER2-negative tumor cells). Effective even in HER2-LOW tumors. DESTINY-Breast04 trial revolutionized treatment.",
+      "whyWrong": {
+        "A": "Trastuzumab alone is for HER2+ disease; T-DXd has additional cytotoxic payload.",
+        "B": "ADC: Targeted delivery of chemotherapy to cancer cells + Bystander killing.",
+        "C": "ADCC is part of trastuzumab mechanism but not the primary ADC mechanism.",
+        "D": "Not a radioimmunotherapy (those use radioactive isotopes).",
+        "E": "BiTE (blinatumomab) is a different immunotherapy modality."
+      },
+      "clinicalPearl": "ADC (Enhertu): Antibody delivers chemotherapy directly to cancer cells + Bystander killing. High DAR (8:1). Effective in HER2-low."
+    },
+    "references": [
+      "DESTINY-Breast04 Trial 2022",
+      "FDA Enhertu Label 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_006",
+    "specialty": "pharmacology",
+    "topic": "SGLT2i Drug Interactions",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old diabetic male on canagliflozin develops euglycemic diabetic ketoacidosis (DKA) after elective surgery during which he was NPO and continued SGLT2i. What is the FDA recommendation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue SGLT2i through surgery"
+      },
+      {
+        "id": "B",
+        "text": "Hold SGLT2i 3-4 days before scheduled surgery; Restart when eating normally"
+      },
+      {
+        "id": "C",
+        "text": "Double SGLT2i dose post-op"
+      },
+      {
+        "id": "D",
+        "text": "SGLT2i does not cause DKA"
+      },
+      {
+        "id": "E",
+        "text": "Switch to dapagliflozin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SGLT2i-associated euglycemic DKA: Occurs during physiologic stress (surgery, illness, low-carb diet) even with normal glucose levels. Mechanism: SGLT2i \u2192 glucosuria \u2192 reduced insulin secretion \u2192 increased glucagon \u2192 ketogenesis. FDA Black Box Warning: Hold SGLT2i 3-4 days BEFORE scheduled surgery. Restart only when patient is clinically stable and eating normally. Check ketones if symptoms develop post-op.",
+      "whyWrong": {
+        "A": "Continuing SGLT2i peri-operatively increases DKA risk.",
+        "B": "Hold 3-4 days pre-op. Restart when eating. FDA recommendation.",
+        "C": "Doubling dose would worsen DKA risk.",
+        "D": "SGLT2i are well-documented to cause euglycemic DKA (FDA warning).",
+        "E": "All SGLT2i have this class effect; switching does not eliminate risk."
+      },
+      "clinicalPearl": "SGLT2i perioperative: HOLD 3-4 days before surgery. Euglycemic DKA: Normal glucose + Anion gap + Ketones. FDA Black Box Warning."
+    },
+    "references": [
+      "FDA SGLT2i DKA Warning 2022",
+      "AACE Perioperative Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_007",
+    "specialty": "pharmacology",
+    "topic": "CYP450 Drug Interactions",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female on warfarin (CYP2C9 substrate) develops supratherapeutic INR after starting a new medication. Which drug MOST likely caused this interaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rifampin (CYP inducer)"
+      },
+      {
+        "id": "B",
+        "text": "Fluconazole (CYP2C9 inhibitor)"
+      },
+      {
+        "id": "C",
+        "text": "Phenytoin (CYP inducer)"
+      },
+      {
+        "id": "D",
+        "text": "Carbamazepine (CYP inducer)"
+      },
+      {
+        "id": "E",
+        "text": "St. John's Wort (CYP inducer)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Warfarin is metabolized primarily by CYP2C9 (S-warfarin, more potent isomer). Fluconazole is a potent CYP2C9 INHIBITOR \u2192 decreases warfarin clearance \u2192 increased INR/bleeding risk. Other CYP2C9 inhibitors: Amiodarone, Metronidazole, TMP-SMX, Voriconazole. CYP2C9 INDUCERS (rifampin, phenytoin, carbamazepine) would DECREASE INR. Always check drug interactions when starting new medications in warfarin patients.",
+      "whyWrong": {
+        "A": "Rifampin is CYP INDUCER \u2192 decreases warfarin levels \u2192 subtherapeutic INR.",
+        "B": "Fluconazole: CYP2C9 inhibitor \u2192 increases warfarin \u2192 supratherapeutic INR.",
+        "C": "Phenytoin is CYP INDUCER; decreases warfarin effect.",
+        "D": "Carbamazepine is CYP INDUCER.",
+        "E": "St. John's Wort induces CYP3A4 and P-gp; decreases warfarin."
+      },
+      "clinicalPearl": "Warfarin interactions: CYP2C9 INHIBITORS (fluconazole, amiodarone, TMP-SMX) \u2192 \u2191INR. CYP INDUCERS (rifampin, phenytoin) \u2192 \u2193INR."
+    },
+    "references": [
+      "FDA Warfarin Drug Interactions Table 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_008",
+    "specialty": "pharmacology",
+    "topic": "Therapeutic Drug Monitoring",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male on vancomycin for MRSA bacteremia has a trough of 10 mcg/mL (target 15-20 for serious MRSA). What is the PREFERRED monitoring strategy per ASHP 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase dose to achieve trough 15-20"
+      },
+      {
+        "id": "B",
+        "text": "AUC-guided dosing (target AUC24/MIC 400-600) using Bayesian software, rather than trough-only monitoring"
+      },
+      {
+        "id": "C",
+        "text": "Peak monitoring"
+      },
+      {
+        "id": "D",
+        "text": "Random vancomycin level"
+      },
+      {
+        "id": "E",
+        "text": "No monitoring needed"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ASHP 2020 (updated 2023): AUC-guided dosing is PREFERRED over trough-only monitoring. Target AUC24/MIC 400-600 mg*h/L for serious MRSA infections. AUC monitoring achieves therapeutic targets faster and reduces nephrotoxicity compared to trough-guided dosing. Bayesian software estimates AUC using 1-2 serum concentrations. If AUC unavailable, trough 15-20 mcg/mL is acceptable surrogate but AUC is preferred.",
+      "whyWrong": {
+        "A": "Trough-only monitoring is outdated; AUC-guided dosing preferred.",
+        "B": "AUC24/MIC 400-600 = Current standard. Bayesian software preferred.",
+        "C": "Peak monitoring is no longer recommended.",
+        "D": "Random levels not useful without pharmacokinetic modeling.",
+        "E": "Vancomycin requires TDM for serious infections."
+      },
+      "clinicalPearl": "Vancomycin TDM: AUC-guided dosing (target 400-600) > Trough-only. Bayesian software. Reduces nephrotoxicity."
+    },
+    "references": [
+      "ASHP/IDSA Vancomycin Guidelines 2020 (updated 2023)",
+      "AUC Dosing Protocols"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_009",
+    "specialty": "pharmacology",
+    "topic": "Oncologic Immunotherapy Toxicities",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male on pembrolizumab (anti-PD1) for melanoma develops severe diarrhea (8x/day), colonoscopy showing mucosal inflammation. What is the diagnosis and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infectious colitis - Antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Grade 3 immune-mediated colitis - Hold pembrolizumab + IV methylprednisolone 1-2mg/kg + Infliximab if steroid-refractory"
+      },
+      {
+        "id": "C",
+        "text": "Irritable bowel syndrome - Loperamide"
+      },
+      {
+        "id": "D",
+        "text": "Continue pembrolizumab, add loperamide"
+      },
+      {
+        "id": "E",
+        "text": "Surgical resection"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Immune-related adverse events (irAEs) from checkpoint inhibitors: Grade 3-4 colitis = HOLD immunotherapy + IV steroids (methylprednisolone 1-2mg/kg/day). If no improvement in 48-72h: Add Infliximab (anti-TNF) or Vedolizumab (gut-selective). Do NOT give loperamide alone (masks severity). Restart immunotherapy only after resolution to Grade \u22641 and steroid taper to <10mg prednisone. Permanent discontinuation for life-threatening irAEs.",
+      "whyWrong": {
+        "A": "Must rule out infection but immune-mediated colitis is the primary concern.",
+        "B": "Hold ICI + High-dose steroids + Infliximab if refractory. Standard algorithm.",
+        "C": "This is immune-mediated colitis, not IBS.",
+        "D": "Continuing ICI in Grade 3-4 toxicity is contraindicated.",
+        "E": "Surgery is last resort (toxic megacolon, perforation)."
+      },
+      "clinicalPearl": "Checkpoint colitis: Grade 3-4 = Hold ICI + IV steroids + Infliximab if refractory. Early recognition prevents complications."
+    },
+    "references": [
+      "ASCO irAE Guidelines 2023",
+      "NCCN Immunotherapy Toxicity Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pharma_b1_010",
+    "specialty": "pharmacology",
+    "topic": "Pharmacogenomics - Clopidogrel",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male post-PCI with DES has recurrent stent thrombosis on clopidogrel. Genetic testing reveals CYP2C19*2/*2 (poor metabolizer). What is the BEST alternative antiplatelet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase clopidogrel dose to 150mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Ticagrelor 90mg BID OR Prasugrel 10mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Add aspirin 325mg only"
+      },
+      {
+        "id": "D",
+        "text": "Warfarin"
+      },
+      {
+        "id": "E",
+        "text": "Cilostazol"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CYP2C19*2/*2 = Poor metabolizer. Clopidogrel is a PRODRUG requiring CYP2C19 activation. Poor metabolizers have reduced active metabolite \u2192 increased stent thrombosis risk. Switch to Ticagrelor (direct-acting, reversible P2Y12 inhibitor) or Prasugrel (requires CYP activation but less affected than clopidogrel). Increasing clopidogrel dose does NOT overcome poor metabolism. FDA Box Warning: Consider alternative in CYP2C19 poor metabolizers.",
+      "whyWrong": {
+        "A": "Dose increase does not overcome genetic poor metabolism.",
+        "B": "Ticagrelor (direct-acting) or Prasugrel = Preferred in CYP2C19 poor metabolizers.",
+        "C": "Aspirin alone insufficient post-PCI (DAPT required).",
+        "D": "Warfarin is anticoagulant, not antiplatelet.",
+        "E": "Cilostazol is adjunct for peripheral artery disease, not post-PCI."
+      },
+      "clinicalPearl": "CYP2C19 poor metabolizer + PCI = Switch to ticagrelor or prasugrel. Do NOT increase clopidogrel dose. FDA Box Warning."
+    },
+    "references": [
+      "CPIC Clopidogrel Guidelines 2023",
+      "FDA Clopidogrel Box Warning"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
