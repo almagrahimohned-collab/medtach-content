@@ -921,5 +921,476 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_001",
+    "specialty": "quick_review",
+    "topic": "SIRS vs qSOFA vs SOFA",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with pneumonia has temp 38.5\u00b0C, HR 110, RR 24, WBC 14K. BP is 100/60, GCS 14, Cr 1.8, Bilirubin 2.5, Platelets 110K. Lactate 3.5. What is the SOFA score and sepsis classification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SOFA 2: Not sepsis"
+      },
+      {
+        "id": "B",
+        "text": "SOFA 8 (increase \u22652 from baseline): Sepsis with organ dysfunction"
+      },
+      {
+        "id": "C",
+        "text": "qSOFA 3: Sepsis"
+      },
+      {
+        "id": "D",
+        "text": "SIRS 4: Sepsis"
+      },
+      {
+        "id": "E",
+        "text": "SOFA 1: Infection without sepsis"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Sepsis-3 (2016): Sepsis = Infection + SOFA increase \u22652 from baseline. SOFA components: Resp (PaO2/FiO2 - assume normal = 0), Coag (Plt 110K = 2), Liver (Bili 2.5 = 2), CV (MAP <70 or vasopressors - BP 100/60 MAP ~73 = 0), Neuro (GCS 14 = 1), Renal (Cr 1.8 = 2). Total SOFA = 7 (assuming normal baseline 0-1, increase \u22652). qSOFA is screening tool (RR\u226522, SBP\u2264100, GCS\u226413) but not diagnostic. SIRS is outdated for sepsis diagnosis.",
+      "whyWrong": {
+        "A": "SOFA increase \u22652 = Sepsis.",
+        "B": "SOFA \u22657 (increase \u22652 from baseline) = Sepsis with organ dysfunction.",
+        "C": "qSOFA is screening, not diagnostic.",
+        "D": "SIRS criteria are outdated (Sepsis-3 replaced them).",
+        "E": "SOFA increase \u22652 defines sepsis."
+      },
+      "clinicalPearl": "Sepsis-3: SOFA increase \u22652 = Sepsis. qSOFA for screening. SIRS is obsolete. Lactate >2 indicates hypoperfusion."
+    },
+    "references": [
+      "Sepsis-3 Definition (2016)",
+      "Surviving Sepsis Campaign 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_002",
+    "specialty": "quick_review",
+    "topic": "Anion Gap Metabolic Acidosis",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male with vomiting, abdominal pain, and AMS. Labs: Na 138, Cl 100, HCO3 10, pH 7.25, PaCO2 24. What is the anion gap and MUDPILES differential?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AG 18: Normal gap"
+      },
+      {
+        "id": "B",
+        "text": "AG 28: Elevated gap - MUDPILES (Methanol, Uremia, DKA, Propylene glycol, Iron/INH, Lactic acidosis, Ethylene glycol, Salicylates)"
+      },
+      {
+        "id": "C",
+        "text": "AG 12: Non-gap acidosis"
+      },
+      {
+        "id": "D",
+        "text": "AG 8: Normal"
+      },
+      {
+        "id": "E",
+        "text": "AG 10: Diarrhea"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Anion gap = Na - (Cl + HCO3) = 138 - (100 + 10) = 28 (normal 8-12). ELEVATED AG metabolic acidosis. Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 \u00b1 2 = 1.5(10) + 8 = 23 \u00b1 2. Actual PaCO2 = 24 (appropriate respiratory compensation). MUDPILES: Methanol, Uremia, DKA, Propylene glycol, Iron/INH, Lactic acidosis, Ethylene glycol, Salicylates. Also check osmolar gap (toxic alcohols) and ketones.",
+      "whyWrong": {
+        "A": "AG = 28, not 18.",
+        "B": "AG 28 = Elevated. MUDPILES differential. Winter formula confirms compensation.",
+        "C": "AG 28 is elevated, not normal (non-gap is AG <12).",
+        "D": "AG 28 is elevated, not 8.",
+        "E": "Diarrhea causes non-gap (hyperchloremic) acidosis."
+      },
+      "clinicalPearl": "AG = Na - (Cl + HCO3). Normal 8-12. MUDPILES for elevated AG. Winter formula: Expected PaCO2 = 1.5(HCO3) + 8 \u00b1 2."
+    },
+    "references": [
+      "Acid-Base Physiology",
+      "Clinical Chemistry Review 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_003",
+    "specialty": "quick_review",
+    "topic": "Light's Criteria",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old with CHF and left pleural effusion. Pleural fluid: Protein 2.0 (serum 6.0), LDH 80 (serum 200). Is this transudate or exudate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exudate: Meets Light's criteria"
+      },
+      {
+        "id": "B",
+        "text": "Transudate: Pleural/Serum protein 0.33 (<0.5), LDH ratio 0.4 (<0.6) - None of Light's criteria met"
+      },
+      {
+        "id": "C",
+        "text": "Indeterminate"
+      },
+      {
+        "id": "D",
+        "text": "Empyema"
+      },
+      {
+        "id": "E",
+        "text": "Hemothorax"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Light's criteria for exudate (\u22651 of 3): 1. Pleural/Serum protein >0.5 (2.0/6.0 = 0.33 - NOT met), 2. Pleural/Serum LDH >0.6 (80/200 = 0.4 - NOT met), 3. Pleural LDH >2/3 upper limit serum LDH (80 < 133 - NOT met). NONE met = Transudate. CHF is most common cause of transudate. Exudate causes: Infection, malignancy, PE, CTD. If transudate suspected but protein ratio borderline, check NT-proBNP or albumin gradient.",
+      "whyWrong": {
+        "A": "None of Light's criteria met.",
+        "B": "All ratios below threshold = Transudate. Consistent with CHF.",
+        "C": "Clearly transudate (all criteria negative).",
+        "D": "Empyema is exudate with frank pus.",
+        "E": "Hemothorax has bloody fluid with Hct >50% blood."
+      },
+      "clinicalPearl": "Light's criteria: \u22651 = Exudate. None = Transudate. CHF = Transudate. Infection/malignancy = Exudate."
+    },
+    "references": [
+      "Light's Criteria (1972)",
+      "BTS Pleural Disease Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_004",
+    "specialty": "quick_review",
+    "topic": "Centor Criteria for Strep Pharyngitis",
+    "difficulty": "easy",
+    "vignette": "A 20-year-old college student has sore throat, fever 38.5\u00b0C, tender anterior cervical lymphadenopathy, tonsillar exudates, and NO cough. What is the Centor score and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 1: No testing or antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Score 4: Rapid strep test or throat culture; Antibiotics if positive"
+      },
+      {
+        "id": "C",
+        "text": "Score 2: Antibiotics without testing"
+      },
+      {
+        "id": "D",
+        "text": "Score 0: Reassurance"
+      },
+      {
+        "id": "E",
+        "text": "Score 3: Antibiotics empirically"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Centor criteria (modified McIsaac adds age): Fever (1), Tender anterior cervical LAD (1), Tonsillar exudates (1), Absence of cough (1). Score = 4. Centor 0-1: No testing (viral). Centor 2-3: Rapid strep test. Centor \u22654: Rapid strep test or empiric antibiotics per some guidelines. Treatment: Penicillin V or Amoxicillin x10 days (prevents rheumatic fever). Azithromycin if penicillin-allergic. Steroids may reduce pain.",
+      "whyWrong": {
+        "A": "Score is 4, not 1.",
+        "B": "Centor 4 = Test or treat. Penicillin x10 days. Prevents rheumatic fever.",
+        "C": "Score 4 warrants testing; empiric antibiotics acceptable in high prevalence.",
+        "D": "Score is 4, not 0.",
+        "E": "Score \u22654 may warrant empiric treatment per some guidelines."
+      },
+      "clinicalPearl": "Centor \u22654: Test for GAS. Penicillin x10 days (prevents rheumatic fever). NO antibiotics for Centor 0-1."
+    },
+    "references": [
+      "Centor Criteria (1981)",
+      "IDSA Strep Pharyngitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_005",
+    "specialty": "quick_review",
+    "topic": "CHA\u2082DS\u2082-VASc Score",
+    "difficulty": "medium",
+    "vignette": "A 72-year-old female with AF has HTN, DM, and prior stroke. What is her CHA\u2082DS\u2082-VASc score and anticoagulation recommendation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Aspirin alone"
+      },
+      {
+        "id": "B",
+        "text": "Score 6: Oral anticoagulation strongly recommended (DOAC preferred over warfarin)"
+      },
+      {
+        "id": "C",
+        "text": "Score 1: No anticoagulation"
+      },
+      {
+        "id": "D",
+        "text": "Score 3: Aspirin"
+      },
+      {
+        "id": "E",
+        "text": "Score 4: Aspirin + Clopidogrel"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CHA\u2082DS\u2082-VASc: CHF (0), HTN (1), Age \u226575 (2 - she is 72, so Age 65-74 = 1), DM (1), Stroke/TIA (2), Vascular disease (0), Sex female (1). Total = 6. CHA\u2082DS\u2082-VASc \u22652 in men or \u22653 in women: Oral anticoagulation recommended. CHA\u2082DS\u2082-VASc 1 in men or 2 in women: Consider anticoagulation. DOACs (apixaban, rivaroxaban, edoxaban, dabigatran) preferred over warfarin per ESC 2023. Aspirin is NO LONGER recommended for AF stroke prevention.",
+      "whyWrong": {
+        "A": "Score 6 requires anticoagulation, not aspirin.",
+        "B": "Score 6 = High stroke risk (6.4%/year). DOAC strongly recommended.",
+        "C": "Score is 6, not 1.",
+        "D": "Aspirin not recommended for AF stroke prevention regardless of score.",
+        "E": "DAPT not recommended for AF stroke prevention."
+      },
+      "clinicalPearl": "CHA\u2082DS\u2082-VASc \u22652 (men) or \u22653 (women) = Anticoagulation. DOAC > Warfarin. Aspirin NO longer recommended."
+    },
+    "references": [
+      "CHA\u2082DS\u2082-VASc Score (2010)",
+      "ESC AF Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_006",
+    "specialty": "quick_review",
+    "topic": "Alvarado Score for Appendicitis",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male has RLQ pain (migrated from periumbilical), anorexia, nausea, tenderness with rebound, temp 38.0\u00b0C, WBC 14K with left shift. What is the Alvarado score and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Discharge"
+      },
+      {
+        "id": "B",
+        "text": "Score 9: Surgery consultation - High probability of appendicitis"
+      },
+      {
+        "id": "C",
+        "text": "Score 3: Observe"
+      },
+      {
+        "id": "D",
+        "text": "Score 5: CT scan first"
+      },
+      {
+        "id": "E",
+        "text": "Score 1: Outpatient follow-up"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Alvarado (MANTRELS): Migration of pain (1), Anorexia (1), Nausea/vomiting (1), Tenderness RLQ (2), Rebound tenderness (1), Elevated temp >37.3\u00b0C (1), Leukocytosis >10K (1), Left shift (1). Total = 9. Score 1-4: Low risk (observe). Score 5-6: Intermediate (CT or US). Score 7-10: High risk (surgery consultation). In young males with classic presentation, imaging may be optional before surgery per some protocols.",
+      "whyWrong": {
+        "A": "Score 9 is high risk, not low.",
+        "B": "Alvarado 9 = High probability. Surgery consultation. May proceed to OR.",
+        "C": "Score 9 is too high for observation.",
+        "D": "Score 9 may not need CT (classic presentation).",
+        "E": "Score 9 is high risk, not low."
+      },
+      "clinicalPearl": "Alvarado: 1-4 = Observe, 5-6 = CT/US, 7-10 = Surgery. MANTRELS: Migration, Anorexia, Nausea, Tenderness, Rebound, Elevated temp, Leukocytosis, Shift."
+    },
+    "references": [
+      "Alvarado Score (1986)",
+      "WSES Appendicitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_007",
+    "specialty": "quick_review",
+    "topic": "MELD Score Components",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male with cirrhosis has bilirubin 5.0, INR 1.8, Cr 1.5, Na 130. He is not on dialysis. What is the approximate MELD-Na score and transplant priority?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MELD 10: Low priority"
+      },
+      {
+        "id": "B",
+        "text": "MELD 22: High priority for liver transplant (MELD >15 qualifies for listing)"
+      },
+      {
+        "id": "C",
+        "text": "MELD 8: No transplant needed"
+      },
+      {
+        "id": "D",
+        "text": "MELD 15: Moderate"
+      },
+      {
+        "id": "E",
+        "text": "MELD 30: Urgent transplant"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MELD-Na = 3.78 \u00d7 ln(Bilirubin) + 11.2 \u00d7 ln(INR) + 9.57 \u00d7 ln(Creatinine) + 6.43 + 1.59 \u00d7 (135 - Na) [if Na <135]. Approximate calculation: ~22 (high priority). MELD >15 qualifies for transplant listing. MELD >25: High priority. MELD >35: Urgent (Status 1B). Hyponatremia increases MELD-Na (adds points for Na <135). MELD-Na replaced original MELD in 2016 for better prediction.",
+      "whyWrong": {
+        "A": "MELD is ~22, not 10.",
+        "B": "MELD 22 qualifies for transplant listing (MELD >15). High priority.",
+        "C": "MELD 22 is high, not low.",
+        "D": "MELD is ~22, higher than 15.",
+        "E": "MELD 22 is high but not urgent (MELD >35)."
+      },
+      "clinicalPearl": "MELD-Na: Bilirubin, INR, Cr, Na. MELD >15 = List for transplant. MELD >35 = Urgent. Hyponatremia increases score."
+    },
+    "references": [
+      "MELD-Na Score (2016)",
+      "OPTN/UNOS Liver Transplant Policy 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_008",
+    "specialty": "quick_review",
+    "topic": "4T Score for HIT",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male post-CABG on heparin has platelets drop from 250K to 75K on day 6. He develops new DVT. No other cause of thrombocytopenia. What is the 4T score and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Continue heparin"
+      },
+      {
+        "id": "B",
+        "text": "Score 7: High probability HIT - Stop ALL heparin; Start argatroban or bivalirudin; Check PF4 ELISA"
+      },
+      {
+        "id": "C",
+        "text": "Score 3: Low probability"
+      },
+      {
+        "id": "D",
+        "text": "Score 1: No HIT"
+      },
+      {
+        "id": "E",
+        "text": "Score 5: Observe"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "4T score: Thrombocytopenia (Plt drop >50% + nadir \u226520 = 2), Timing (day 5-10 = 2), Thrombosis (new DVT = 2), Other causes (none = 1). Total = 7. Score 0-3: Low probability (HIT unlikely, continue heparin). Score 4-5: Intermediate (check PF4, consider alternative). Score 6-8: High probability (STOP heparin, start DTI, send PF4 ELISA + SRA if available). Do NOT wait for results to stop heparin in high probability.",
+      "whyWrong": {
+        "A": "Score 7 = High probability; must stop heparin.",
+        "B": "4T 7 = High probability HIT. Stop heparin + Start argatroban + Check PF4.",
+        "C": "Score is 7, not 3.",
+        "D": "Score is 7, not 1.",
+        "E": "Score 7 is high probability; requires immediate action."
+      },
+      "clinicalPearl": "4T \u22656 = High probability HIT. Stop ALL heparin (including flushes, LMWH, heparin-coated catheters). Start DTI. Check PF4."
+    },
+    "references": [
+      "4T Score (2003)",
+      "ASH HIT Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_009",
+    "specialty": "quick_review",
+    "topic": "APACHE II Score",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old post-op patient is admitted to ICU with temp 39\u00b0C, MAP 55, HR 120, RR 30, PaO2 60 on FiO2 0.4, pH 7.2, Na 150, K 5.5, Cr 3.0, Hct 25, WBC 20K, GCS 9. What is the approximate APACHE II score and mortality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "APACHE 10: Low mortality (<10%)"
+      },
+      {
+        "id": "B",
+        "text": "APACHE 30: High mortality (50-70%)"
+      },
+      {
+        "id": "C",
+        "text": "APACHE 5: Very low mortality"
+      },
+      {
+        "id": "D",
+        "text": "APACHE 15: Moderate mortality (20%)"
+      },
+      {
+        "id": "E",
+        "text": "APACHE 20: Moderate mortality (30%)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "APACHE II components: Temperature, MAP, HR, RR, A-a DO2, pH, Na, K, Cr, Hct, WBC, GCS (15-GCS), Age points, Chronic health points. His severe derangements: Temp 39 (+1), MAP 55 (+2), HR 120 (+2), RR 30 (+2), A-a gradient elevated (+3), pH 7.2 (+3), Na 150 (+2), Cr 3 (+4), Hct 25 (+2), WBC 20K (+2), GCS 9 (+6), Age 65 (+3), Post-op emergency surgery (+0). Estimated score ~30. Mortality 50-70%.",
+      "whyWrong": {
+        "A": "Multiple severe derangements = High score.",
+        "B": "APACHE ~30: Multiple organ dysfunction. 50-70% predicted mortality.",
+        "C": "Severe abnormalities preclude low score.",
+        "D": "Too many derangements for 15.",
+        "E": "Score is higher than 20."
+      },
+      "clinicalPearl": "APACHE II: Higher score = Higher mortality. Multi-organ dysfunction = APACHE \u226525 (mortality >50%). Used for ICU benchmarking."
+    },
+    "references": [
+      "APACHE II Score (1985)",
+      "Critical Care Medicine Review 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b2_010",
+    "specialty": "quick_review",
+    "topic": "NIHSS Interpretation",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with acute left MCA stroke has right hemiplegia, right facial droop, aphasia, and hemineglect. NIHSS is 22. What is the interpretation and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NIHSS 5: Minor stroke, discharge"
+      },
+      {
+        "id": "B",
+        "text": "NIHSS 22: Severe stroke - Large vessel occlusion likely; Thrombectomy candidate + tPA if within window"
+      },
+      {
+        "id": "C",
+        "text": "NIHSS 10: Moderate stroke"
+      },
+      {
+        "id": "D",
+        "text": "NIHSS 0: No stroke"
+      },
+      {
+        "id": "E",
+        "text": "NIHSS 15: Moderate stroke"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NIHSS interpretation: 0 = No stroke, 1-4 = Minor, 5-15 = Moderate, 16-20 = Moderate-severe, 21-42 = Severe. NIHSS \u22656 + LVO (ICA or proximal MCA M1) = Thrombectomy candidate within 24h with perfusion mismatch (DAWN/DEFUSE-3). NIHSS \u226510 strongly predicts LVO. He has NIHSS 22 (severe) with cortical signs (aphasia, neglect) = High probability of LVO. CT/CTA to confirm, then thrombectomy if indicated.",
+      "whyWrong": {
+        "A": "NIHSS 22 is severe, not minor.",
+        "B": "NIHSS 22 = Severe stroke. LVO likely. Thrombectomy + tPA if in window.",
+        "C": "NIHSS 22 is severe, not moderate.",
+        "D": "NIHSS 22 is not 0.",
+        "E": "NIHSS is 22, not 15."
+      },
+      "clinicalPearl": "NIHSS: 0 = No stroke, 1-4 = Minor, 5-15 = Moderate, 16-20 = Mod-severe, 21-42 = Severe. NIHSS \u22656 + LVO = Thrombectomy candidate."
+    },
+    "references": [
+      "NIHSS Training",
+      "DAWN/DEFUSE-3 Criteria",
+      "AHA/ASA Stroke Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
