@@ -965,5 +965,463 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_001",
+    "specialty": "endocrinology",
+    "topic": "Thyroid Storm Management",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female with Graves disease on methimazole presents with fever 40\u00b0C, tachycardia 180 bpm, confusion, and jaundice. She missed her medications for 2 weeks due to illness. What is the FIRST step in management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV propranolol 1mg slowly"
+      },
+      {
+        "id": "B",
+        "text": "PTU 500-1000mg load then 250mg q4h + IV propranolol + Hydrocortisone 100mg IV"
+      },
+      {
+        "id": "C",
+        "text": "Radioactive iodine immediately"
+      },
+      {
+        "id": "D",
+        "text": "Emergency total thyroidectomy"
+      },
+      {
+        "id": "E",
+        "text": "Acetaminophen for fever"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Thyroid storm (Burch-Wartofsky score \u226545): 1. PTU (blocks synthesis AND T4\u2192T3 conversion), 2. Propranolol (blocks adrenergic symptoms, reduces T4\u2192T3 conversion), 3. Hydrocortisone (blocks T4\u2192T3 conversion, treats relative adrenal insufficiency). Lugol's iodine AFTER PTU (blocks release). Supportive: Cooling, fluids, treat precipitant.",
+      "whyWrong": {
+        "A": "Propranolol alone insufficient; must block synthesis and release.",
+        "C": "RAI is contraindicated in thyroid storm (worsens hyperthyroidism initially).",
+        "D": "Surgery after stabilization (not acutely in storm).",
+        "E": "Acetaminophen may worsen hepatic dysfunction; cooling blankets preferred."
+      },
+      "clinicalPearl": "Thyroid storm: PTU (blocks synthesis) + Propranolol (symptoms) + Hydrocortisone (blocks conversion) + Iodine (AFTER PTU). Burch-Wartofsky score."
+    },
+    "references": [
+      "ATA Hyperthyroidism Guidelines 2023",
+      "Burch-Wartofsky Score"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_002",
+    "specialty": "endocrinology",
+    "topic": "Cushing Syndrome Diagnosis",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female with central obesity, moon face, purple striae, and hypertension has abnormal 1mg overnight dexamethasone suppression test (cortisol 8 \u03bcg/dL, normal <1.8). What is the NEXT step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagnose Cushing syndrome and start ketoconazole"
+      },
+      {
+        "id": "B",
+        "text": "24-hour urinary free cortisol OR late-night salivary cortisol x2"
+      },
+      {
+        "id": "C",
+        "text": "Adrenal CT"
+      },
+      {
+        "id": "D",
+        "text": "Pituitary MRI"
+      },
+      {
+        "id": "E",
+        "text": "Bilateral adrenalectomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Abnormal screening test (dex suppression) requires CONFIRMATION with a second test: 24h urinary free cortisol (x2) OR late-night salivary cortisol (x2). Need at least 2 positive tests to diagnose Cushing syndrome. After confirmation: ACTH level to determine ACTH-dependent (pituitary/ectopic) vs ACTH-independent (adrenal). Imaging follows biochemical localization.",
+      "whyWrong": {
+        "A": "Need confirmatory testing before diagnosing and treating Cushing syndrome.",
+        "B": "Confirm with 24h UFC or late-night salivary cortisol before imaging.",
+        "C": "Adrenal CT after biochemical confirmation AND ACTH level suggesting adrenal source.",
+        "D": "Pituitary MRI after biochemical confirmation AND ACTH level suggesting pituitary source.",
+        "E": "Surgery after complete biochemical and localization workup."
+      },
+      "clinicalPearl": "Cushing workup: Screen (dex test) \u2192 Confirm (24h UFC or salivary cortisol) \u2192 ACTH level \u2192 Imaging (pituitary MRI or adrenal CT)."
+    },
+    "references": [
+      "Endocrine Society Cushing Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_003",
+    "specialty": "endocrinology",
+    "topic": "Diabetic Ketoacidosis - New Guidelines",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male with T1DM presents with DKA (pH 7.1, HCO3 8, glucose 450, K+ 5.5). After initial fluid bolus, what is the correct insulin management per ADA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV insulin bolus 0.1 units/kg then infusion 0.1 units/kg/hr"
+      },
+      {
+        "id": "B",
+        "text": "IV insulin infusion 0.1 units/kg/hr WITHOUT bolus"
+      },
+      {
+        "id": "C",
+        "text": "Subcutaneous insulin lispro q2h"
+      },
+      {
+        "id": "D",
+        "text": "Wait until K+ normalized before starting insulin"
+      },
+      {
+        "id": "E",
+        "text": "IV insulin infusion 0.05 units/kg/hr"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ADA 2024: IV insulin infusion 0.1 units/kg/hr WITHOUT bolus. Insulin bolus is NO LONGER recommended (increases risk of hypoglycemia and cerebral edema without benefit). Start insulin AFTER K+ confirmed >3.3 mEq/L. Continue until anion gap closed. Transition to SC insulin when pH >7.3 and HCO3 >15 with overlap of IV and SC insulin for 2-4 hours.",
+      "whyWrong": {
+        "A": "Insulin bolus is NOT recommended in ADA 2024 guidelines.",
+        "C": "SC insulin is for mild DKA; IV route preferred for moderate-severe (pH <7.2).",
+        "D": "K+ 5.5 is safe to start insulin (>3.3 threshold). Insulin will lower K+.",
+        "E": "0.05 units/kg/hr is for low-dose protocol; 0.1 units/kg/hr is standard."
+      },
+      "clinicalPearl": "DKA 2024: IV insulin infusion 0.1 units/kg/hr WITHOUT bolus. No bolus! Check K+ >3.3 before starting."
+    },
+    "references": [
+      "ADA DKA Guidelines 2024",
+      "UK DKA Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_004",
+    "specialty": "endocrinology",
+    "topic": "Hyperparathyroidism - Surgery Indications",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old female with primary hyperparathyroidism has Ca 11.0, PTH 150, eGFR 55, and T-score -1.5 at hip (osteopenia). No fractures or kidney stones. What is the recommendation per NIH 2023 criteria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parathyroidectomy is indicated"
+      },
+      {
+        "id": "B",
+        "text": "Observation with annual labs and DEXA"
+      },
+      {
+        "id": "C",
+        "text": "Start cinacalcet 30mg BID"
+      },
+      {
+        "id": "D",
+        "text": "Start bisphosphonate"
+      },
+      {
+        "id": "E",
+        "text": "Start calcitonin"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "NIH 2023 Criteria for parathyroidectomy: Age <50, Ca >1 mg/dL above normal, eGFR <60, T-score \u2264-2.5 at any site OR vertebral fracture, nephrolithiasis on imaging, or 24h urine Ca >400 mg/day. This patient has eGFR 55 (<60) = Meets criteria for surgery. Surgery is CURATIVE (adenoma resection).",
+      "whyWrong": {
+        "A": "eGFR <60 is a surgical indication (meets NIH criteria).",
+        "B": "Observation is for asymptomatic patients NOT meeting surgical criteria.",
+        "C": "Cinacalcet is for secondary hyperparathyroidism or non-surgical candidates.",
+        "D": "Bisphosphonates address bone density but not underlying hyperparathyroidism.",
+        "E": "Calcitonin is for acute hypercalcemia, not chronic management."
+      },
+      "clinicalPearl": "Primary hyperparathyroidism surgery: Age <50, Ca >1 above normal, eGFR <60, T-score \u2264-2.5, kidney stones, urine Ca >400."
+    },
+    "references": [
+      "NIH Primary Hyperparathyroidism Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_005",
+    "specialty": "endocrinology",
+    "topic": "Addison Disease - Sick Day Rules",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female with primary adrenal insufficiency (Addison disease) on hydrocortisone 20mg AM and 10mg PM and fludrocortisone 0.1mg daily develops gastroenteritis with vomiting. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue oral medications as usual"
+      },
+      {
+        "id": "B",
+        "text": "Double oral hydrocortisone dose"
+      },
+      {
+        "id": "C",
+        "text": "IM hydrocortisone 100mg STAT and seek emergency care"
+      },
+      {
+        "id": "D",
+        "text": "Stop all medications until vomiting resolves"
+      },
+      {
+        "id": "E",
+        "text": "Increase fludrocortisone dose"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Adrenal crisis prevention: Vomiting = CANNOT take oral medications = Adrenal crisis imminent. Give IM hydrocortisone 100mg STAT and go to ER. Sick day rules: For fever/infection: Double oral dose x3 days. For vomiting/surgery/trauma: IM/IV hydrocortisone (cannot rely on oral). Patients should have emergency injection kit at home and wear medical alert bracelet.",
+      "whyWrong": {
+        "A": "Cannot absorb oral medications if vomiting.",
+        "B": "Vomiting = cannot take oral; needs parenteral steroids.",
+        "D": "Stopping steroids in adrenal insufficiency can be fatal.",
+        "E": "Fludrocortisone dose is unchanged acutely; hydrocortisone is the stress steroid."
+      },
+      "clinicalPearl": "Adrenal insufficiency + Vomiting = IM hydrocortisone 100mg + ER. Cannot rely on oral. Sick day: Double dose x3 days for fever. Emergency injection kit!"
+    },
+    "references": [
+      "Endocrine Society Adrenal Crisis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_006",
+    "specialty": "endocrinology",
+    "topic": "Pituitary Apoplexy",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male with known pituitary macroadenoma presents with sudden severe headache, visual loss, and hypotension. CT shows hemorrhage into the pituitary. What is the EMERGENCY management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MRI pituitary and observe"
+      },
+      {
+        "id": "B",
+        "text": "IV hydrocortisone 100mg STAT + Transsphenoidal surgical decompression"
+      },
+      {
+        "id": "C",
+        "text": "High-dose bromocriptine"
+      },
+      {
+        "id": "D",
+        "text": "Radiation therapy"
+      },
+      {
+        "id": "E",
+        "text": "Desmopressin (DDAVP)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pituitary apoplexy = NEUROSURGICAL EMERGENCY. Sudden hemorrhage into pituitary causes acute hypopituitarism (hypotension from adrenal crisis) + Mass effect (visual loss). 1. IV hydrocortisone (treats adrenal insufficiency), 2. Emergency transsphenoidal decompression. Steroids BEFORE surgery (prevent adrenal crisis). MRI confirms but does not delay treatment.",
+      "whyWrong": {
+        "A": "Observation inappropriate for acute apoplexy with visual loss and hypotension.",
+        "B": "IV hydrocortisone (adrenal crisis) + Surgical decompression (mass effect).",
+        "C": "Bromocriptine is for prolactinoma, not acute apoplexy.",
+        "D": "Radiation is for residual tumor, not acute apoplexy.",
+        "E": "DDAVP for diabetes insipidus (may develop post-op)."
+      },
+      "clinicalPearl": "Pituitary apoplexy: Sudden headache + Visual loss + Hypotension = IV steroids + Emergency surgery. Adrenal crisis + Mass effect."
+    },
+    "references": [
+      "Pituitary Society Apoplexy Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_007",
+    "specialty": "endocrinology",
+    "topic": "Hypoglycemia - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with T2DM on insulin glargine and glimepiride presents with confusion and glucose 45 mg/dL. He is conscious and able to swallow. What is the BEST initial treatment per ADA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glucagon 1mg IM"
+      },
+      {
+        "id": "B",
+        "text": "15g fast-acting carbohydrate (glucose tablets or juice) - Rule of 15"
+      },
+      {
+        "id": "C",
+        "text": "IV dextrose 50% (D50) 25g"
+      },
+      {
+        "id": "D",
+        "text": "Sandwich with complex carbohydrates"
+      },
+      {
+        "id": "E",
+        "text": "Octreotide 50mcg SC"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Conscious hypoglycemic patient able to swallow: Rule of 15 = 15g fast-acting carbs (4 glucose tablets, 4 oz juice, or 1 tbsp honey). Recheck glucose in 15 minutes. If still <70, repeat. Once >70, eat meal/snack to prevent recurrence. Glucagon for unconscious patients (unable to swallow). IV D50 for hospitalized or unconscious patients.",
+      "whyWrong": {
+        "A": "Glucagon is for unconscious patients or those unable to swallow.",
+        "C": "IV D50 is for hospitalized patients or unconscious (requires IV access).",
+        "D": "Complex carbs after glucose normalized to prevent recurrence, not initial treatment.",
+        "E": "Octreotide is for sulfonylurea overdose, not routine hypoglycemia."
+      },
+      "clinicalPearl": "Hypoglycemia (conscious): Rule of 15 = 15g carbs \u2192 Recheck in 15 min. Unconscious: Glucagon IM or D50 IV."
+    },
+    "references": [
+      "ADA Hypoglycemia Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_008",
+    "specialty": "endocrinology",
+    "topic": "Testosterone Therapy",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with obesity and T2DM has low testosterone (180 ng/dL on 2 morning levels), low libido, and ED. LH is low. Prolactin is normal. He wants testosterone therapy. What must be done FIRST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start testosterone gel 50mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Weight loss and lifestyle modification; discuss fertility implications"
+      },
+      {
+        "id": "C",
+        "text": "Pituitary MRI"
+      },
+      {
+        "id": "D",
+        "text": "Start clomiphene citrate"
+      },
+      {
+        "id": "E",
+        "text": "Testosterone injections every 2 weeks"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Functional hypogonadotropic hypogonadism (low T + low/normal LH) in obese T2DM: WEIGHT LOSS is the primary treatment. Obesity causes aromatization of testosterone to estradiol in adipose tissue \u2192 suppresses HPG axis. Weight loss can increase testosterone by 200-300 ng/dL. Also discuss: Fertility (testosterone therapy suppresses spermatogenesis), CV safety (TRAVERSE trial showed non-inferior CV safety but long-term data limited).",
+      "whyWrong": {
+        "A": "Weight loss first; testosterone therapy may not be needed and causes infertility.",
+        "C": "MRI if high prolactin, panhypopituitarism, or severe hypogonadism with very low T.",
+        "D": "Clomiphene is off-label for hypogonadism; preserves fertility but less studied.",
+        "E": "Injections if testosterone therapy truly indicated after lifestyle modification."
+      },
+      "clinicalPearl": "Low T in obesity: Weight loss FIRST (aromatase activity in fat). Testosterone therapy = INFERTILITY (discuss sperm banking if desired)."
+    },
+    "references": [
+      "Endocrine Society Testosterone Guidelines 2023",
+      "TRAVERSE Trial 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_009",
+    "specialty": "endocrinology",
+    "topic": "MEN1 Management",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with MEN1 has primary hyperparathyroidism (Ca 11.8, PTH 200) and a 2cm pancreatic neuroendocrine tumor (gastrinoma) with fasting gastrin 1100 pg/mL. What is the BEST surgical approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parathyroidectomy only"
+      },
+      {
+        "id": "B",
+        "text": "Subtotal parathyroidectomy + Distal pancreatectomy with lymph node dissection"
+      },
+      {
+        "id": "C",
+        "text": "Total pancreatectomy"
+      },
+      {
+        "id": "D",
+        "text": "Whipple procedure (pancreaticoduodenectomy)"
+      },
+      {
+        "id": "E",
+        "text": "Proton pump inhibitors alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MEN1 with hyperparathyroidism and functional PanNET (gastrinoma): Subtotal parathyroidectomy (3.5 glands, leave 0.5 or total with autotransplant) + Distal pancreatectomy with lymph node dissection. Gastrinomas in MEN1 are often multiple and in duodenum. PPI for symptom control. Cure is rare but debulking reduces malignant risk. Whipple only for large pancreatic head lesions.",
+      "whyWrong": {
+        "A": "Pancreatic NET also needs surgical management.",
+        "C": "Total pancreatectomy is excessive (diabetes risk).",
+        "D": "Whipple reserved for pancreatic head lesions not amenable to enucleation.",
+        "E": "PPIs control symptoms but surgery needed for malignant potential and cure."
+      },
+      "clinicalPearl": "MEN1: Parathyroidectomy (subtotal) + PanNET surgery (distal pancreatectomy or enucleation). PPIs for gastrinoma symptoms."
+    },
+    "references": [
+      "MEN1 Clinical Practice Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "endo_b2_010",
+    "specialty": "endocrinology",
+    "topic": "Hashimoto Encephalopathy",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female with Hashimoto thyroiditis (euthyroid on levothyroxine, TPO antibodies >1000) presents with subacute confusion, seizures, and tremors. CSF shows elevated protein without pleocytosis. Anti-thyroid antibodies are elevated in CSF. What is the diagnosis and treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Viral encephalitis - Acyclovir"
+      },
+      {
+        "id": "B",
+        "text": "Hashimoto encephalopathy (SREAT) - IV methylprednisolone 1g x5 days"
+      },
+      {
+        "id": "C",
+        "text": "Creutzfeldt-Jakob disease - Supportive care"
+      },
+      {
+        "id": "D",
+        "text": "Anti-NMDA receptor encephalitis - IVIG"
+      },
+      {
+        "id": "E",
+        "text": "Myxedema coma - IV levothyroxine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hashimoto encephalopathy (SREAT - Steroid-Responsive Encephalopathy Associated with Autoimmune Thyroiditis): Elevated TPO/Tg antibodies + Encephalopathy + Elevated CSF protein + Dramatic response to STEROIDS. Diagnosis of exclusion (rule out infection, CJD, autoimmune encephalitis). Treatment: IV methylprednisolone 1g x3-5 days, then oral prednisone taper. Most patients recover completely.",
+      "whyWrong": {
+        "A": "CSF without pleocytosis argues against viral encephalitis.",
+        "B": "SREAT: Steroid-responsive, elevated TPO, normal thyroid function.",
+        "C": "CJD has rapid progression, DWI changes, 14-3-3 protein, no steroid response.",
+        "D": "Anti-NMDAR has orofacial dyskinesias, ovarian teratoma, CSF oligoclonal bands.",
+        "E": "Myxedema coma has severe hypothyroidism (not euthyroid), hypothermia, bradycardia."
+      },
+      "clinicalPearl": "Hashimoto encephalopathy (SREAT): High TPO antibodies + Encephalopathy + Steroid-responsive. Normal thyroid function! Steroids = Dramatic improvement."
+    },
+    "references": [
+      "SREAT Diagnostic Criteria",
+      "Autoimmune Encephalitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
