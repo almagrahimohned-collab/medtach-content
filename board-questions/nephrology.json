@@ -1436,5 +1436,428 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_001",
+    "specialty": "nephrology",
+    "topic": "Hepatorenal Syndrome - Terlipressin",
+    "difficulty": "hard",
+    "vignette": "A 58-year-old male with alcoholic cirrhosis (MELD 25, ascites) develops HRS-AKI (Cr 3.2, no response to albumin challenge). What is the FDA-approved treatment per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Midodrine + Octreotide + Albumin"
+      },
+      {
+        "id": "B",
+        "text": "Terlipressin + Albumin"
+      },
+      {
+        "id": "C",
+        "text": "Norepinephrine + Albumin"
+      },
+      {
+        "id": "D",
+        "text": "Dopamine + Albumin"
+      },
+      {
+        "id": "E",
+        "text": "Emergency TIPS"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Terlipressin (vasopressin V1 receptor agonist) is the ONLY FDA-approved medication for HRS (2022). CONFIRM trial showed terlipressin + albumin reversed HRS in 32% vs 17% with placebo. Improves transplant-free survival. Midodrine + Octreotide is alternative if terlipressin unavailable. Norepinephrine in ICU setting. TIPS is for refractory ascites, not acute HRS.",
+      "whyWrong": {
+        "A": "Midodrine/Octreotide is off-label alternative; terlipressin is FDA-approved.",
+        "B": "Terlipressin: FDA-approved 2022. V1 agonist. Splits splanchnic vasodilation.",
+        "C": "Norepinephrine requires ICU monitoring; terlipressin preferred.",
+        "D": "Dopamine is NOT effective for HRS.",
+        "E": "TIPS is contraindicated in active HRS-AKI (worsens hepatic encephalopathy)."
+      },
+      "clinicalPearl": "HRS-AKI: Terlipressin + Albumin (FDA 2022). Midodrine + Octreotide if terlipressin unavailable. Liver transplant = definitive."
+    },
+    "references": [
+      "CONFIRM Trial 2021",
+      "AASLD HRS Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_002",
+    "specialty": "nephrology",
+    "topic": "Mineralocorticoid Receptor Antagonists in CKD",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old diabetic male with CKD stage 3 (eGFR 38, UACR 450) and resistant hypertension is on lisinopril 40mg, amlodipine 10mg. K+ is 4.6. What is the best add-on for BP and proteinuria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrochlorothiazide"
+      },
+      {
+        "id": "B",
+        "text": "Spironolactone 25mg OR Eplerenone 50mg"
+      },
+      {
+        "id": "C",
+        "text": "Clonidine"
+      },
+      {
+        "id": "D",
+        "text": "Metoprolol"
+      },
+      {
+        "id": "E",
+        "text": "Hydralazine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Resistant HTN in CKD with proteinuria: Mineralocorticoid receptor antagonist (spironolactone or eplerenone) is preferred 4th-line agent per PATHWAY-2 trial. Provides BP reduction AND antiproteinuric effect independent of BP. Monitor K+ closely (risk of hyperkalemia with ACEi + MRA in CKD). Finerenone is alternative (non-steroidal MRA) with lower hyperkalemia risk. K+ 4.6 allows initiation.",
+      "whyWrong": {
+        "A": "Thiazides are less effective when eGFR <30; still useful but less potent than MRA.",
+        "B": "MRA = Preferred 4th-line for resistant HTN. PATHWAY-2 trial. Additive antiproteinuric effect.",
+        "C": "Clonidine is 5th+ line; rebound hypertension if stopped.",
+        "D": "Beta-blockers have less BP reduction and no antiproteinuric effect.",
+        "E": "Hydralazine causes reflex tachycardia and fluid retention."
+      },
+      "clinicalPearl": "Resistant HTN in CKD: MRA (spironolactone/eplerenone) = Preferred 4th-line. Monitor K+. PATHWAY-2 trial."
+    },
+    "references": [
+      "PATHWAY-2 Trial 2015",
+      "KDIGO HTN Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_003",
+    "specialty": "nephrology",
+    "topic": "Fabry Disease",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old male presents with acroparesthesias (burning pain in hands/feet), angiokeratomas, hypohidrosis, and CKD (eGFR 40, proteinuria). Alpha-galactosidase A activity is <1%. What is the treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone"
+      },
+      {
+        "id": "B",
+        "text": "Agalsidase beta (enzyme replacement therapy) OR Migalastat (chaperone)"
+      },
+      {
+        "id": "C",
+        "text": "Rituximab"
+      },
+      {
+        "id": "D",
+        "text": "Plasma exchange"
+      },
+      {
+        "id": "E",
+        "text": "No treatment available"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fabry disease: X-linked lysosomal storage disorder (alpha-Gal A deficiency) \u2192 globotriaosylceramide (GL-3) accumulation. Enzyme replacement therapy (agalsidase beta or alpha) replaces deficient enzyme. Migalastat is an oral chaperone for amenable mutations. Treatment slows CKD progression, reduces cardiomyopathy, and improves pain. Start at diagnosis or early signs of organ involvement.",
+      "whyWrong": {
+        "A": "Steroids have no role in Fabry disease.",
+        "B": "ERT or chaperone therapy = Disease-modifying. Start early.",
+        "C": "Rituximab not indicated (not autoimmune).",
+        "D": "Plasma exchange ineffective for lysosomal storage disease.",
+        "E": "Effective treatments available (ERT and chaperones)."
+      },
+      "clinicalPearl": "Fabry disease: Acroparesthesias + Angiokeratomas + CKD. ERT (agalsidase) or Migalastat (chaperone). X-linked; males more severe."
+    },
+    "references": [
+      "KDIGO Fabry Guidelines 2023",
+      "Fabry Registry Data"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_004",
+    "specialty": "nephrology",
+    "topic": "Tumor Lysis Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male receiving chemotherapy for Burkitt lymphoma develops AKI (Cr 3.0), hyperkalemia (K+ 6.8), hyperphosphatemia (Phos 9.0), hypocalcemia (Ca 6.8), and hyperuricemia (UA 14). What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV normal saline alone"
+      },
+      {
+        "id": "B",
+        "text": "Aggressive IV fluids + Rasburicase (recombinant urate oxidase) + Calcium gluconate for hyperkalemia"
+      },
+      {
+        "id": "C",
+        "text": "Allopurinol + Oral fluids"
+      },
+      {
+        "id": "D",
+        "text": "Sodium bicarbonate + Furosemide"
+      },
+      {
+        "id": "E",
+        "text": "Hemodialysis is not indicated"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tumor lysis syndrome with AKI and severe hyperuricemia: 1. Aggressive IV fluids (3L/m\u00b2/day), 2. RASBURICASE (rapidly lowers uric acid, preferred over allopurinol in established TLS), 3. Calcium gluconate for hyperkalemia (cardioprotection), 4. Hemodialysis if severe AKI, refractory hyperkalemia, or hyperphosphatemia with hypocalcemia. Allopurinol is for PREVENTION, not treatment.",
+      "whyWrong": {
+        "A": "Fluids alone insufficient for established severe TLS.",
+        "B": "Rasburicase + Fluids + Cardiac protection. Dialysis if refractory.",
+        "C": "Allopurinol prevents but does NOT treat established TLS.",
+        "D": "Bicarbonate may worsen hypocalcemia (calcium-phosphate precipitation).",
+        "E": "Dialysis often indicated for TLS with AKI and electrolyte emergencies."
+      },
+      "clinicalPearl": "TLS treatment: Aggressive IVF + Rasburicase (NOT allopurinol). Dialysis for AKI + Refractory electrolytes. Allopurinol for PREVENTION only."
+    },
+    "references": [
+      "Cairo-Bishop TLS Classification",
+      "ASCO TLS Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_005",
+    "specialty": "nephrology",
+    "topic": "Polycystic Kidney Disease - Pain",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female with ADPKD has chronic severe flank pain interfering with daily activities. CT shows multiple large cysts without hemorrhage. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opioid analgesics long-term"
+      },
+      {
+        "id": "B",
+        "text": "Laparoscopic cyst fenestration OR Renal denervation"
+      },
+      {
+        "id": "C",
+        "text": "Increase tolvaptan dose"
+      },
+      {
+        "id": "D",
+        "text": "Nephrectomy"
+      },
+      {
+        "id": "E",
+        "text": "NSAIDs scheduled"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ADPKD with chronic refractory pain: Sequential approach: 1. Non-pharmacologic (ice, heat), 2. Non-opioid analgesics (acetaminophen, tramadol - avoid NSAIDs in CKD), 3. Laparoscopic cyst fenestration (for large dominant cysts causing pain), 4. Renal denervation (emerging evidence). Opioids reserved for acute episodes only (risk of dependence). Nephrectomy is last resort (pre-transplant or severe refractory pain).",
+      "whyWrong": {
+        "A": "Long-term opioids cause dependence and hyperalgesia; avoid in chronic non-malignant pain.",
+        "B": "Cyst fenestration or denervation for chronic refractory pain.",
+        "C": "Tolvaptan slows cyst growth but does not treat acute/chronic pain.",
+        "D": "Nephrectomy is last resort (renders patient anephric).",
+        "E": "NSAIDs contraindicated in CKD (nephrotoxic, worsen renal function)."
+      },
+      "clinicalPearl": "ADPKD pain: Avoid NSAIDs and opioids. Cyst fenestration or renal denervation for refractory pain. Tolvaptan for disease modification."
+    },
+    "references": [
+      "KDIGO ADPKD Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_006",
+    "specialty": "nephrology",
+    "topic": "Membranous Nephropathy - New Biomarkers",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male with nephrotic syndrome (proteinuria 8g/day, hypoalbuminemia 2.5) has biopsy-proven membranous nephropathy. Anti-PLA2R antibody is positive at 150 RU/mL. What is the BEST treatment per KDIGO 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "B",
+        "text": "Rituximab OR Cyclophosphamide + Prednisone (Ponticelli regimen)"
+      },
+      {
+        "id": "C",
+        "text": "Mycophenolate mofetil alone"
+      },
+      {
+        "id": "D",
+        "text": "ACE inhibitor alone"
+      },
+      {
+        "id": "E",
+        "text": "Observation for 12 more months"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "High-risk membranous nephropathy (PLA2R+, nephrotic-range proteinuria): Immunosuppression is indicated. KDIGO 2024: Rituximab is preferred (MENTOR trial: non-inferior to cyclophosphamide, better safety). Cyclophosphamide + Prednisone (Ponticelli) is alternative. Anti-PLA2R titer guides treatment response and predicts relapse. Supportive therapy (ACEi/ARB) alone insufficient for high-risk disease.",
+      "whyWrong": {
+        "A": "Steroid monotherapy is ineffective in membranous nephropathy.",
+        "B": "Rituximab (preferred) or Ponticelli regimen. Anti-PLA2R guides therapy.",
+        "C": "Mycophenolate is second-line; less effective than rituximab or cyclophosphamide.",
+        "D": "ACEi/ARB alone insufficient with nephrotic-range proteinuria and high PLA2R.",
+        "E": "Nephrotic-range proteinuria with high PLA2R warrants treatment (risk of progression)."
+      },
+      "clinicalPearl": "Membranous nephropathy (PLA2R+): Rituximab preferred (MENTOR trial). Anti-PLA2R titer = Biomarker for response. Ponticelli regimen alternative."
+    },
+    "references": [
+      "KDIGO Glomerular Guidelines 2024",
+      "MENTOR Trial 2019",
+      "RI-CYCLO Trial 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_007",
+    "specialty": "nephrology",
+    "topic": "Chronic Lithium Nephrotoxicity",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with bipolar disorder on lithium for 20 years presents with polyuria (4L/day), nocturia, and CKD (eGFR 35). Urine osmolality after water deprivation is 250 (low). What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diabetic nephropathy"
+      },
+      {
+        "id": "B",
+        "text": "Lithium-induced nephrogenic diabetes insipidus + Chronic tubulointerstitial nephritis"
+      },
+      {
+        "id": "C",
+        "text": "Primary polydipsia"
+      },
+      {
+        "id": "D",
+        "text": "Central diabetes insipidus"
+      },
+      {
+        "id": "E",
+        "text": "SIADH"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic lithium therapy causes: 1. Nephrogenic diabetes insipidus (resistance to ADH in collecting duct, downregulation of aquaporin-2). Polyuria with low urine osmolality despite water deprivation. 2. Chronic tubulointerstitial nephritis (slowly progressive CKD). Treatment: Amiloride (blocks lithium entry into collecting duct cells). Stop lithium if possible (psychiatry consultation). Thiazides may help NDI.",
+      "whyWrong": {
+        "A": "Not diabetic; no diabetes history and urine osmolality points to NDI.",
+        "B": "Lithium causes NDI + Chronic TIN. Amiloride is specific treatment.",
+        "C": "Primary polydipsia has low-normal plasma osmolality.",
+        "D": "Central DI responds to desmopressin; NDI does not.",
+        "E": "SIADH has hyponatremia and concentrated urine (opposite of this case)."
+      },
+      "clinicalPearl": "Lithium nephrotoxicity: Nephrogenic DI + Chronic TIN. Amiloride for NDI (blocks lithium entry). Monitor eGFR annually in lithium patients."
+    },
+    "references": [
+      "Lithium Nephrotoxicity Review 2023",
+      "KDIGO Drug-Induced Kidney Disease"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_008",
+    "specialty": "nephrology",
+    "topic": "Alport Syndrome - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male with X-linked Alport syndrome (COL4A5 mutation) has sensorineural hearing loss, anterior lenticonus, and CKD (eGFR 50, proteinuria 1.5g/day). What is the BEST therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone"
+      },
+      {
+        "id": "B",
+        "text": "Ramipril (ACE inhibitor) - titrate to maximum tolerated dose"
+      },
+      {
+        "id": "C",
+        "text": "Cyclosporine"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "No treatment, CKD is inevitable"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Alport syndrome: ACEi/ARB are the cornerstone of therapy. EARLY initiation (at microalbuminuria stage) delays ESKD by 15-20 years. Titrate to maximum tolerated dose. SGLT2i (dapagliflozin) may be added per recent data. Novel therapies: Bardoxolone methyl (Nrf2 activator) showed slowing of eGFR decline in CARDINAL trial. Gene therapy in development. Avoid calcineurin inhibitors (nephrotoxic).",
+      "whyWrong": {
+        "A": "Steroids have no role in Alport syndrome.",
+        "B": "ACEi/ARB = Standard of care. Initiate EARLY. Delays ESKD by decades.",
+        "C": "Cyclosporine is nephrotoxic and worsens Alport progression.",
+        "D": "Not immune-mediated; rituximab not effective.",
+        "E": "Progression can be significantly delayed with RAAS blockade."
+      },
+      "clinicalPearl": "Alport syndrome: ACEi/ARB EARLY (at microalbuminuria). Delays ESKD 15-20 years. SGLT2i emerging. Bardoxolone (CARDINAL trial)."
+    },
+    "references": [
+      "KDIGO Alport Guidelines 2023",
+      "CARDINAL Trial 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b3_009",
+    "specialty": "nephrology",
+    "topic": "Calcineurin Inhibitor Nephrotoxicity",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old kidney transplant recipient on tacrolimus, mycophenolate, and prednisone develops slowly rising Cr (from 1.0 to 2.2 over 3 years). Tacrolimus trough is 8 ng/mL (target 6-8). Biopsy shows striped interstitial fibrosis and arteriolar hyalinosis. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase tacrolimus dose"
+      },
+      {
+        "id": "B",
+        "text": "Reduce tacrolimus dose; Consider switch to belatacept (if EBV seropositive)"
+      },
+      {
+        "id": "C",
+        "text": "Pulse steroids for rejection"
+      },
+      {
+        "id": "D",
+        "text": "Add sirolimus"
+      },
+      {
+        "id": "E",
+        "text": "Plasma exchange"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic calcineurin inhibitor (CNI) nephrotoxicity: Striped fibrosis + Arteriolar hyalinosis. Management: REDUCE CNI dose (minimize nephrotoxicity). Consider CNI-free regimen: Belatacept (costimulation blocker) + MMF + Prednisone - improved long-term GFR in BENEFIT trial. Requires EBV seropositivity. Sirolimus (mTOR inhibitor) can be used but has proteinuria risk. Not rejection (no inflammation on biopsy).",
+      "whyWrong": {
+        "A": "Increasing CNI worsens nephrotoxicity.",
+        "B": "Reduce CNI exposure; Belatacept conversion improves long-term GFR.",
+        "C": "Biopsy shows CNI toxicity, not rejection (no tubulitis, no C4d).",
+        "D": "Sirolimus is alternative but has proteinuria and wound healing risks.",
+        "E": "Plasma exchange is for antibody-mediated rejection (AMR), not CNI toxicity."
+      },
+      "clinicalPearl": "CNI nephrotoxicity: Striped fibrosis + Arteriolar hyalinosis. Reduce CNI or switch to Belatacept (BENEFIT trial). Not rejection."
+    },
+    "references": [
+      "BENEFIT Trial 2010",
+      "KDIGO Transplant Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
