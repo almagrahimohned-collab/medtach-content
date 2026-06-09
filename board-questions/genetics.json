@@ -1,0 +1,58 @@
+[
+  {
+    "id": "board_gene_001",
+    "specialty": "genetics",
+    "topic": "Inheritance Patterns",
+    "difficulty": "medium",
+    "vignette": "A couple has a child with cystic fibrosis. Neither parent has the disease. What is the probability that their NEXT child will also have cystic fibrosis?",
+    "options": [
+      { "id": "A", "text": "0%" },
+      { "id": "B", "text": "25%" },
+      { "id": "C", "text": "50%" },
+      { "id": "D", "text": "75%" },
+      { "id": "E", "text": "100%" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CF is autosomal recessive. Both parents carriers (Ff × Ff). Each pregnancy: 25% affected (ff).",
+      "whyWrong": {
+        "A": "Both MUST be carriers.",
+        "C": "50% is for autosomal dominant.",
+        "D": "75% would be dominant with heterozygous parents.",
+        "E": "100% only if both affected."
+      },
+      "clinicalPearl": "Autosomal recessive: Both parents carriers = 25% risk each pregnancy."
+    },
+    "references": ["Mendelian Inheritance"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_002",
+    "specialty": "genetics",
+    "topic": "Genetic Testing",
+    "difficulty": "hard",
+    "vignette": "A 38-year-old pregnant female undergoes cfDNA screening, which shows high risk for trisomy 21. Ultrasound is normal. What is the MOST appropriate next step?",
+    "options": [
+      { "id": "A", "text": "Tell patient the baby has Down syndrome" },
+      { "id": "B", "text": "Recommend amniocentesis for definitive diagnosis" },
+      { "id": "C", "text": "Repeat cfDNA in 2 weeks" },
+      { "id": "D", "text": "No further testing needed" },
+      { "id": "E", "text": "Recommend termination of pregnancy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "cfDNA is SCREENING (not diagnostic). Positive → amniocentesis or CVS for karyotype.",
+      "whyWrong": {
+        "A": "cfDNA is NOT diagnostic. Never tell diagnosis based on screening.",
+        "C": "Repeating cfDNA is not indicated.",
+        "D": "Positive screening requires follow-up.",
+        "E": "Never recommend termination based on screening alone."
+      },
+      "clinicalPearl": "Screening (cfDNA) ≠ Diagnosis. Always confirm with amniocentesis or CVS."
+    },
+    "references": ["ACOG Prenatal Screening Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

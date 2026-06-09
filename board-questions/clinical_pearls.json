@@ -1,0 +1,86 @@
+[
+  {
+    "id": "board_pearls_001",
+    "specialty": "quick_review",
+    "topic": "Preventive Medicine",
+    "difficulty": "easy",
+    "vignette": "A 55-year-old male with no significant medical history asks about age-appropriate cancer screenings. He is a never-smoker. Which screening is recommended for him?",
+    "options": [
+      { "id": "A", "text": "Low-dose CT chest for lung cancer" },
+      { "id": "B", "text": "Colonoscopy for colorectal cancer" },
+      { "id": "C", "text": "PSA for prostate cancer" },
+      { "id": "D", "text": "Abdominal ultrasound for AAA" },
+      { "id": "E", "text": "No screenings needed until age 60" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CRC screening starts at 45. Lung cancer screening is for smokers ≥20 pack-years.",
+      "whyWrong": {
+        "A": "Lung cancer screening is only for heavy smokers.",
+        "C": "PSA requires shared decision-making.",
+        "D": "AAA screening is for males 65-75 who ever smoked.",
+        "E": "CRC screening starts at 45, not 60."
+      },
+      "clinicalPearl": "Screenings at 50: CRC (colonoscopy), Lung (if smoker), Breast (mammogram if female)."
+    },
+    "references": ["USPSTF Screening Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_002",
+    "specialty": "quick_review",
+    "topic": "Medical Ethics",
+    "difficulty": "medium",
+    "vignette": "A 78-year-old male with advanced dementia is admitted with aspiration pneumonia. His daughter (healthcare proxy) requests 'everything possible be done.' The medical team believes this would be futile. What is the BEST approach?",
+    "options": [
+      { "id": "A", "text": "Follow the daughter's wishes and intubate if needed" },
+      { "id": "B", "text": "Refuse to intubate as it is medically futile" },
+      { "id": "C", "text": "Consult the ethics committee and arrange a family meeting" },
+      { "id": "D", "text": "Transfer care to another physician" },
+      { "id": "E", "text": "Ask the daughter to prove the patient would want this" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Futility disputes: Ethics consult + Family meeting. Focus on patient's values.",
+      "whyWrong": {
+        "A": "Blindly following futile wishes violates ethical duty.",
+        "B": "Unilaterally refusing damages relationship.",
+        "D": "Transfer avoids the problem.",
+        "E": "Confrontational approach escalates conflict."
+      },
+      "clinicalPearl": "Futility disputes: Ethics consult + Family meeting. Time-limited trials can help."
+    },
+    "references": ["AMA Code of Medical Ethics"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_003",
+    "specialty": "quick_review",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "vignette": "A diagnostic test has sensitivity 95% and specificity 90% for a disease with 2% prevalence. If a patient tests positive, what is the approximate probability they actually have the disease?",
+    "options": [
+      { "id": "A", "text": "95%" },
+      { "id": "B", "text": "90%" },
+      { "id": "C", "text": "50%" },
+      { "id": "D", "text": "16%" },
+      { "id": "E", "text": "84%" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "PPV = (0.95 × 0.02) / [0.95×0.02 + (0.10)(0.98)] = 0.019/0.117 = 16.2%.",
+      "whyWrong": {
+        "A": "95% is sensitivity, not PPV.",
+        "B": "90% is specificity, not PPV.",
+        "C": "50% would require higher prevalence.",
+        "E": "84% is closer to NPV."
+      },
+      "clinicalPearl": "PPV depends on PREVALENCE! Even excellent tests have low PPV when disease is rare."
+    },
+    "references": ["Biostatistics", "Bayes Theorem"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

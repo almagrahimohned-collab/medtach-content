@@ -1,0 +1,142 @@
+[
+  {
+    "id": "board_hema_001",
+    "specialty": "hematology",
+    "topic": "Anemia",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old vegetarian female presents with fatigue and pallor. Labs: Hb 9.0, MCV 72 fL, RDW 18%. Serum iron low, TIBC elevated, Ferritin 8 ng/mL. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Iron deficiency anemia" },
+      { "id": "B", "text": "Anemia of chronic disease" },
+      { "id": "C", "text": "Thalassemia trait" },
+      { "id": "D", "text": "Sideroblastic anemia" },
+      { "id": "E", "text": "Lead poisoning" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Microcytic anemia + Low ferritin + Low iron + High TIBC = Iron deficiency anemia.",
+      "whyWrong": {
+        "B": "ACD has low iron, LOW TIBC, HIGH ferritin.",
+        "C": "Thalassemia trait has normal/high ferritin, normal RDW.",
+        "D": "Sideroblastic anemia has ringed sideroblasts on bone marrow.",
+        "E": "Lead poisoning has basophilic stippling."
+      },
+      "clinicalPearl": "Iron deficiency: Low ferritin + Low iron + High TIBC. ACD: Low iron + Low TIBC + High ferritin."
+    },
+    "references": ["ASH Anemia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_002",
+    "specialty": "hematology",
+    "topic": "Thrombocytopenia",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female presents with petechiae and epistaxis. Labs: Platelets 18K, Hb 11.5, WBC normal. Peripheral smear shows megathrombocytes. HIV and HCV negative. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Platelet transfusion" },
+      { "id": "B", "text": "Prednisone 1mg/kg daily" },
+      { "id": "C", "text": "IVIG 1g/kg" },
+      { "id": "D", "text": "Rituximab" },
+      { "id": "E", "text": "Splenectomy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ITP: Isolated thrombocytopenia, megathrombocytes. First-line: Prednisone 1mg/kg/day.",
+      "whyWrong": {
+        "A": "Platelet transfusion is avoided in ITP.",
+        "C": "IVIG is for severe bleeding or pre-surgery.",
+        "D": "Rituximab is second-line.",
+        "E": "Splenectomy is third-line."
+      },
+      "clinicalPearl": "ITP: First-line = Steroids. Do NOT transfuse platelets unless life-threatening bleeding."
+    },
+    "references": ["ASH ITP Guidelines 2019"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_003",
+    "specialty": "hematology",
+    "topic": "Coagulation",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male develops thrombocytopenia (250K → 80K) 7 days after starting heparin for DVT. He develops new leg swelling. What is the MOST appropriate next step?",
+    "options": [
+      { "id": "A", "text": "Continue heparin and add warfarin" },
+      { "id": "B", "text": "Stop heparin and start argatroban" },
+      { "id": "C", "text": "Platelet transfusion" },
+      { "id": "D", "text": "Stop heparin and start warfarin alone" },
+      { "id": "E", "text": "Increase heparin dose" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HIT: Stop ALL heparin. Start non-heparin anticoagulant (argatroban or bivalirudin).",
+      "whyWrong": {
+        "A": "Continuing heparin can be fatal.",
+        "C": "Platelet transfusion is contraindicated.",
+        "D": "Warfarin alone is contraindicated initially.",
+        "E": "Increasing heparin worsens HIT."
+      },
+      "clinicalPearl": "HIT: Stop heparin → Start argatroban → Check PF4 → Warfarin only after platelets recover."
+    },
+    "references": ["ASH HIT Guidelines 2018"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_004",
+    "specialty": "hematology",
+    "topic": "Leukemia",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old male presents with fever, fatigue, and easy bruising. Labs: WBC 45K (90% blasts), Hb 7.5, Plt 15K. Auer rods present. MPO positive. t(8;21). What is the BEST induction therapy?",
+    "options": [
+      { "id": "A", "text": "Cytarabine + Daunorubicin ('7+3' regimen)" },
+      { "id": "B", "text": "ATRA + Arsenic trioxide" },
+      { "id": "C", "text": "Imatinib 400mg daily" },
+      { "id": "D", "text": "R-CHOP chemotherapy" },
+      { "id": "E", "text": "Allogeneic stem cell transplant" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "AML with t(8;21) = good-risk. Induction: '7+3' (cytarabine + daunorubicin).",
+      "whyWrong": {
+        "B": "ATRA + Arsenic is for APL (M3).",
+        "C": "Imatinib is for CML.",
+        "D": "R-CHOP is for NHL.",
+        "E": "Allo transplant is consolidation, not induction."
+      },
+      "clinicalPearl": "AML induction: '7+3'. APL: ATRA + Arsenic. CML: Imatinib."
+    },
+    "references": ["NCCN AML Guidelines 2024"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_005",
+    "specialty": "hematology",
+    "topic": "Lymphoma",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male presents with painless enlarged lymph nodes, night sweats, and weight loss. Biopsy shows Reed-Sternberg cells (CD15+, CD30+, CD45-). What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Diffuse large B-cell lymphoma" },
+      { "id": "B", "text": "Follicular lymphoma" },
+      { "id": "C", "text": "Classical Hodgkin lymphoma" },
+      { "id": "D", "text": "Mantle cell lymphoma" },
+      { "id": "E", "text": "Burkitt lymphoma" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Classical Hodgkin lymphoma: Reed-Sternberg cells + CD15+ + CD30+ + CD45-.",
+      "whyWrong": {
+        "A": "DLBCL is CD20+, CD45+.",
+        "B": "Follicular is CD10+, BCL2+.",
+        "D": "Mantle cell is CD5+, Cyclin D1+.",
+        "E": "Burkitt is MYC translocation, Ki-67 100%."
+      },
+      "clinicalPearl": "Reed-Sternberg cells + CD15+ + CD30+ + CD45- = Classical Hodgkin lymphoma."
+    },
+    "references": ["WHO Lymphoma Classification"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

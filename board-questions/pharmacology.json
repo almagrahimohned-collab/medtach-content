@@ -1,0 +1,86 @@
+[
+  {
+    "id": "board_pharma_001",
+    "specialty": "pharmacology",
+    "topic": "Adverse Drug Reactions",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male on amiodarone for AF presents with progressive dyspnea and dry cough for 2 months. CXR shows diffuse interstitial infiltrates. PFT shows restrictive pattern with reduced DLCO. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Amiodarone-induced pulmonary fibrosis" },
+      { "id": "B", "text": "Congestive heart failure" },
+      { "id": "C", "text": "Community-acquired pneumonia" },
+      { "id": "D", "text": "Hypersensitivity pneumonitis" },
+      { "id": "E", "text": "Pulmonary embolism" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Amiodarone pulmonary toxicity (1-2%): Restrictive PFT, reduced DLCO, interstitial infiltrates. Treatment: STOP amiodarone.",
+      "whyWrong": {
+        "B": "CHF would have cardiomegaly, pleural effusions.",
+        "C": "CAP would be acute with fever, consolidation.",
+        "D": "Hypersensitivity pneumonitis is acute with environmental exposures.",
+        "E": "PE would be acute with normal CXR."
+      },
+      "clinicalPearl": "Amiodarone pulmonary toxicity: Stop the drug! May need steroids. High mortality if unrecognized."
+    },
+    "references": ["Amiodarone Prescribing Information"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_002",
+    "specialty": "pharmacology",
+    "topic": "Drug Interactions",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female on warfarin for mechanical mitral valve develops a UTI. Her physician prescribes an antibiotic. Three days later, her INR increases from 2.5 to 6.8. Which antibiotic was MOST likely prescribed?",
+    "options": [
+      { "id": "A", "text": "Nitrofurantoin" },
+      { "id": "B", "text": "Trimethoprim-sulfamethoxazole (TMP-SMX)" },
+      { "id": "C", "text": "Amoxicillin" },
+      { "id": "D", "text": "Cephalexin" },
+      { "id": "E", "text": "Fosfomycin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "TMP-SMX inhibits CYP2C9 and displaces warfarin from protein binding → INR skyrockets.",
+      "whyWrong": {
+        "A": "Nitrofurantoin has minimal warfarin interaction.",
+        "C": "Amoxicillin can slightly increase INR but much less than TMP-SMX.",
+        "D": "Cephalexin has minimal interaction.",
+        "E": "Fosfomycin is single-dose with no interaction."
+      },
+      "clinicalPearl": "Warfarin interactions: TMP-SMX, Metronidazole, Fluconazole, Amiodarone all increase INR significantly."
+    },
+    "references": ["Warfarin Drug Interactions Database"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_003",
+    "specialty": "pharmacology",
+    "topic": "Pharmacokinetics",
+    "difficulty": "easy",
+    "vignette": "A patient requires a loading dose of a drug with Vd of 40L and target plasma concentration of 10 mg/L. Bioavailability is 80%. What is the required oral loading dose?",
+    "options": [
+      { "id": "A", "text": "320 mg" },
+      { "id": "B", "text": "400 mg" },
+      { "id": "C", "text": "500 mg" },
+      { "id": "D", "text": "800 mg" },
+      { "id": "E", "text": "1000 mg" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Loading dose = (Vd × Cp) / F = (40 × 10) / 0.8 = 500 mg.",
+      "whyWrong": {
+        "A": "This would be IV dose × 0.8.",
+        "B": "This is IV loading dose (40 × 10 = 400).",
+        "D": "800 mg if bioavailability was 50%.",
+        "E": "1000 mg is too high."
+      },
+      "clinicalPearl": "Loading dose (oral) = (Vd × Cp) / F. IV loading dose = Vd × Cp."
+    },
+    "references": ["Basic Pharmacokinetics"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

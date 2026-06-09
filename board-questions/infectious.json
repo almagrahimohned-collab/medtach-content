@@ -1,0 +1,86 @@
+[
+  {
+    "id": "board_id_001",
+    "specialty": "infectious",
+    "topic": "Sepsis",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old nursing home resident presents with fever, confusion, and hypotension. Vitals: Temp 38.9°C, BP 78/45, HR 115, RR 30. Lactate is 4.5 mmol/L. She has a chronic Foley catheter. What is the FIRST priority in the 1-hour sepsis bundle?",
+    "options": [
+      { "id": "A", "text": "Broad-spectrum antibiotics" },
+      { "id": "B", "text": "Blood cultures" },
+      { "id": "C", "text": "IV crystalloid fluids 30mL/kg" },
+      { "id": "D", "text": "Measure lactate level" },
+      { "id": "E", "text": "Insert central line" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Sepsis 1-hour bundle: Fluids 30mL/kg first to restore perfusion. Then blood cultures, antibiotics, vasopressors.",
+      "whyWrong": {
+        "A": "Antibiotics are crucial but fluids come first.",
+        "B": "Blood cultures before antibiotics but not before fluids.",
+        "D": "Lactate already measured.",
+        "E": "Central line is not in the 1-hour bundle."
+      },
+      "clinicalPearl": "Sepsis: Lactate → Blood cultures → Antibiotics → Fluids 30mL/kg → Vasopressors. Time = Tissue."
+    },
+    "references": ["Surviving Sepsis Campaign 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_002",
+    "specialty": "infectious",
+    "topic": "UTI",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old healthy female presents with dysuria, frequency, and urgency for 2 days. No fever, flank pain, or vaginal discharge. Urine dipstick: positive nitrites and leukocyte esterase. Not pregnant. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Ceftriaxone 1g IM once" },
+      { "id": "B", "text": "Nitrofurantoin 100mg BID x5 days" },
+      { "id": "C", "text": "Ciprofloxacin 500mg BID x7 days" },
+      { "id": "D", "text": "Wait for urine culture results" },
+      { "id": "E", "text": "TMP-SMX DS BID x3 days" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Uncomplicated cystitis: Nitrofurantoin 100mg BID x5 days (first-line).",
+      "whyWrong": {
+        "A": "Ceftriaxone IM is for pyelonephritis.",
+        "C": "Fluoroquinolones should be AVOIDED for uncomplicated cystitis.",
+        "D": "Empiric treatment without culture is appropriate.",
+        "E": "TMP-SMX is alternative if resistance <20%."
+      },
+      "clinicalPearl": "Uncomplicated cystitis: Nitrofurantoin > TMP-SMX > Fosfomycin. AVOID fluoroquinolones."
+    },
+    "references": ["IDSA UTI Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_003",
+    "specialty": "infectious",
+    "topic": "HIV",
+    "difficulty": "medium",
+    "vignette": "A 28-year-old male is newly diagnosed with HIV. CD4 count is 180 cells/μL. He is started on TDF/FTC + dolutegravir. Which prophylactic medication should he also receive?",
+    "options": [
+      { "id": "A", "text": "TMP-SMX DS daily" },
+      { "id": "B", "text": "Azithromycin 1200mg weekly" },
+      { "id": "C", "text": "Fluconazole 100mg daily" },
+      { "id": "D", "text": "Valganciclovir 900mg daily" },
+      { "id": "E", "text": "No prophylaxis needed" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "CD4 <200 = PCP prophylaxis with TMP-SMX DS daily.",
+      "whyWrong": {
+        "B": "MAC prophylaxis is for CD4 <50.",
+        "C": "Fluconazole is not routine prophylaxis.",
+        "D": "Valganciclovir is for CMV in transplant.",
+        "E": "CD4 <200 requires PCP prophylaxis."
+      },
+      "clinicalPearl": "HIV prophylaxis: CD4 <200 → TMP-SMX (PCP). CD4 <50 → Add Azithromycin (MAC)."
+    },
+    "references": ["CDC OI Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
