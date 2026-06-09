@@ -1436,5 +1436,429 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_001",
+    "specialty": "genetics",
+    "topic": "Hereditary Breast and Ovarian Cancer",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old female with BRCA1 mutation has completed childbearing. What is the recommended risk-reducing strategy per NCCN 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Annual mammogram and MRI breast only"
+      },
+      {
+        "id": "B",
+        "text": "Risk-reducing bilateral salpingo-oophorectomy (RRSO) at age 35-40 + Risk-reducing mastectomy (consider) + Annual breast MRI/mammogram if no mastectomy"
+      },
+      {
+        "id": "C",
+        "text": "Tamoxifen for prevention"
+      },
+      {
+        "id": "D",
+        "text": "No intervention, BRCA1 has low penetrance"
+      },
+      {
+        "id": "E",
+        "text": "Annual CA-125 and pelvic ultrasound only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NCCN 2024 for BRCA1 mutation carriers: 1. RRSO (bilateral salpingo-oophorectomy) at age 35-40 after completion of childbearing - reduces ovarian cancer risk by 90% and breast cancer risk by 50%. 2. Consider risk-reducing mastectomy (reduces breast cancer by 90%). 3. If no mastectomy: Annual breast MRI (starting at age 25) + Annual mammogram (starting at age 30). 4. Transvaginal US and CA-125 are NOT effective for ovarian cancer screening (not recommended). Tamoxifen is for BRCA2 carriers or as adjuvant therapy.",
+      "whyWrong": {
+        "A": "Imaging alone insufficient; RRSO is life-saving (90% ovarian cancer reduction).",
+        "B": "RRSO (35-40) + Consider mastectomy. Annual MRI/mammo if no mastectomy.",
+        "C": "Tamoxifen is for prevention in high-risk women (including BRCA2), but RRSO is primary for BRCA1.",
+        "D": "BRCA1 has 44-72% lifetime breast cancer and 40% ovarian cancer risk.",
+        "E": "CA-125 and TVUS are NOT effective screening and NOT recommended per NCCN."
+      },
+      "clinicalPearl": "BRCA1: RRSO at 35-40 (life-saving). Consider risk-reducing mastectomy. Annual MRI if no mastectomy. CA-125/TVUS NOT recommended."
+    },
+    "references": [
+      "NCCN Genetic/Familial High-Risk Breast Cancer 2024",
+      "PROSE Study"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_002",
+    "specialty": "genetics",
+    "topic": "Spinal Muscular Atrophy",
+    "difficulty": "hard",
+    "vignette": "A 6-month-old infant with hypotonia, tongue fasciculations, absent reflexes, and respiratory difficulty is diagnosed with SMA type 1 (SMN1 deletion). What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supportive care only"
+      },
+      {
+        "id": "B",
+        "text": "Onasemnogene abeparvovec (Zolgensma - AAV9-SMN1 gene therapy) OR Nusinersen (Spinraza - ASO) OR Risdiplam (Evrysdi - oral SMN2 splice modifier)"
+      },
+      {
+        "id": "C",
+        "text": "Prednisone"
+      },
+      {
+        "id": "D",
+        "text": "Pyridostigmine"
+      },
+      {
+        "id": "E",
+        "text": "Physical therapy alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SMA is caused by homozygous SMN1 deletion with SMN2 copy number determining severity. Three FDA-approved disease-modifying therapies: 1. Zolgensma (gene therapy): AAV9 vector delivers functional SMN1 gene, one-time IV infusion, best outcomes if given <2 years old. 2. Spinraza (nusinersen): Antisense oligonucleotide that modifies SMN2 splicing to include exon 7 \u2192 produces functional SMN protein; intrathecal every 4 months. 3. Evrysdi (risdiplam): Oral SMN2 splice modifier, taken daily. Early treatment is critical (motor neurons are irreversibly lost).",
+      "whyWrong": {
+        "A": "Effective disease-modifying therapies exist; supportive care alone is outdated.",
+        "B": "Zolgensma (gene therapy) or Spinraza or Evrysdi = Disease-modifying. Start ASAP.",
+        "C": "Prednisone has no benefit in SMA.",
+        "D": "Pyridostigmine is for myasthenia gravis, not SMA.",
+        "E": "Physical therapy is supportive, not disease-modifying."
+      },
+      "clinicalPearl": "SMA: Zolgensma (gene therapy), Spinraza (ASO), Evrysdi (oral). Treat URGENTLY - motor neurons are lost permanently."
+    },
+    "references": [
+      "STR1VE Trial (Zolgensma) 2020",
+      "ENDEAR Trial (Nusinersen) 2017",
+      "FIREFISH Trial (Risdiplam) 2020"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_003",
+    "specialty": "genetics",
+    "topic": "Pharmacogenomics - Allopurinol",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old Han Chinese male with gout is being started on allopurinol. What pharmacogenomic testing is recommended per ACR 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No testing needed"
+      },
+      {
+        "id": "B",
+        "text": "HLA-B*5801 testing - Positive predicts high risk of severe cutaneous adverse reaction (SCAR) - DRESS/Stevens-Johnson syndrome"
+      },
+      {
+        "id": "C",
+        "text": "TPMT testing"
+      },
+      {
+        "id": "D",
+        "text": "G6PD testing"
+      },
+      {
+        "id": "E",
+        "text": "CYP2C9 testing"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ACR 2023: HLA-B*5801 testing is recommended for high-risk populations (Han Chinese, Thai, Korean, African American) BEFORE starting allopurinol. HLA-B*5801 positive = HIGH risk of allopurinol-induced SCAR (DRESS, SJS/TEN) \u2192 DO NOT use allopurinol (use febuxostat or other ULT). HLA-B*5801 frequency: Han Chinese 8-10%, Caucasians <1%. This is a cost-effective pharmacogenomic test. TPMT is for azathioprine, G6PD for rasburicase/pegloticase, CYP2C9 for warfarin.",
+      "whyWrong": {
+        "A": "HLA-B*5801 testing recommended in high-risk ethnic groups per ACR.",
+        "B": "HLA-B*5801 testing for high-risk populations. If positive = NO allopurinol.",
+        "C": "TPMT is for azathioprine/mercaptopurine, not allopurinol.",
+        "D": "G6PD is for pegloticase and rasburicase, not allopurinol.",
+        "E": "CYP2C9 is for warfarin, not allopurinol."
+      },
+      "clinicalPearl": "Allopurinol + High-risk ethnicity \u2192 HLA-B*5801 test. If positive = NO allopurinol (risk of SJS/TEN). Febuxostat alternative."
+    },
+    "references": [
+      "ACR Gout Guidelines 2023",
+      "FDA Allopurinol Label"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_004",
+    "specialty": "genetics",
+    "topic": "Exome vs Genome Sequencing",
+    "difficulty": "medium",
+    "vignette": "A 5-year-old boy with severe intellectual disability, seizures, and dysmorphic features has had negative CMA and Fragile X testing. What is the NEXT best genetic test?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeat CMA"
+      },
+      {
+        "id": "B",
+        "text": "Trio whole exome sequencing (WES) - Tests parents and child to identify de novo or recessive variants"
+      },
+      {
+        "id": "C",
+        "text": "Single gene testing for Rett syndrome"
+      },
+      {
+        "id": "D",
+        "text": "No further testing"
+      },
+      {
+        "id": "E",
+        "text": "Karyotype"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "After negative CMA and Fragile X testing, Trio WES (sequencing the child and both biological parents) is the next step. WES sequences the coding regions (~1-2% of genome) where 85% of disease-causing variants reside. Trio analysis identifies: De novo dominant mutations (most common cause of severe ID), autosomal recessive (compound heterozygous variants), and X-linked variants. Diagnostic yield: 30-40% for severe ID. Whole genome sequencing (WGS) has slightly higher yield (45-50%) and detects non-coding variants but is more expensive.",
+      "whyWrong": {
+        "A": "Repeating CMA is low yield if initial was normal.",
+        "B": "Trio WES = 30-40% diagnostic yield. Identifies de novo and recessive variants.",
+        "C": "Single gene testing is outdated after negative CMA/Fragile X; WES covers all genes.",
+        "D": "WES is indicated after negative CMA/Fragile X.",
+        "E": "Karyotype has lower resolution than CMA (already done)."
+      },
+      "clinicalPearl": "Severe ID after CMA/Fragile X negative \u2192 Trio WES (30-40% yield). WGS (45-50%). Single gene testing outdated."
+    },
+    "references": [
+      "ACMG Exome/Genome Guidelines 2023",
+      "NEJM WES in Neurodevelopmental Disorders 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_005",
+    "specialty": "genetics",
+    "topic": "Noonan Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 10-year-old boy has short stature, webbed neck, pectus excavatum, pulmonic stenosis, and cryptorchidism. Genetic testing shows PTPN11 mutation. What is the inheritance pattern and RAS/MAPK pathway?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autosomal recessive"
+      },
+      {
+        "id": "B",
+        "text": "Autosomal dominant - Gain-of-function mutation in RAS-MAPK pathway \u2192 Noonan syndrome (RASopathy)"
+      },
+      {
+        "id": "C",
+        "text": "X-linked recessive"
+      },
+      {
+        "id": "D",
+        "text": "Mitochondrial"
+      },
+      {
+        "id": "E",
+        "text": "Autosomal dominant - Loss of function"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Noonan syndrome is an autosomal dominant RASopathy (RAS-MAPK pathway overactivation). Most common gene: PTPN11 (50%). Other genes: SOS1, RAF1, KRAS, NRAS, BRAF, SHOC2, CBL. Features: Short stature, webbed neck, pectus excavatum/carinatum, pulmonic stenosis (most common CHD), cryptorchidism, bleeding diathesis, lymphatic dysplasia. Intelligence usually normal but mild ID possible. Similar features with other RASopathies: Cardiofaciocutaneous syndrome, Costello syndrome, Neurofibromatosis type 1, Legius syndrome.",
+      "whyWrong": {
+        "A": "Autosomal dominant, not recessive.",
+        "B": "AD gain-of-function in RAS-MAPK pathway. PTPN11 most common (50%). RASopathy.",
+        "C": "Not X-linked.",
+        "D": "Not mitochondrial.",
+        "E": "Gain-of-function, not loss of function."
+      },
+      "clinicalPearl": "Noonan syndrome: AD RASopathy (PTPN11). Short stature + Pulmonic stenosis + Webbed neck + Cryptorchidism. RAS-MAPK pathway."
+    },
+    "references": [
+      "Noonan Syndrome Management Guidelines 2023",
+      "RASopathies Overview"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_006",
+    "specialty": "genetics",
+    "topic": "Klinefelter Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 16-year-old tall male with gynecomastia, small firm testes, and learning difficulties is diagnosed with 47,XXY Klinefelter syndrome. What is the genetic mechanism and testosterone recommendation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paternal meiotic nondisjunction; No testosterone needed"
+      },
+      {
+        "id": "B",
+        "text": "Maternal (50%) or paternal (50%) meiotic nondisjunction; Testosterone replacement at puberty for hypogonadism"
+      },
+      {
+        "id": "C",
+        "text": "Uniparental disomy; Surgery only"
+      },
+      {
+        "id": "D",
+        "text": "Mosaicism only; No treatment"
+      },
+      {
+        "id": "E",
+        "text": "Inherited from father only"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Klinefelter syndrome (47,XXY): Most common sex chromosome aneuploidy (1:600 males). Mechanism: Meiotic nondisjunction (50% maternal, 50% paternal). Features: Tall stature, gynecomastia, small firm testes (seminiferous tubule dysgenesis), azoospermia (infertility), learning disabilities, increased risk of breast cancer, autoimmune disease, VTE. Labs: Hypergonadotropic hypogonadism (high FSH/LH, low testosterone). Management: Testosterone replacement starting at puberty (improves bone density, muscle mass, libido). Fertility: MicroTESE may retrieve sperm in 50%.",
+      "whyWrong": {
+        "A": "Testosterone replacement is standard of care for hypogonadism.",
+        "B": "50/50 maternal/paternal nondisjunction. Testosterone at puberty.",
+        "C": "UPD is not the mechanism.",
+        "D": "Mosaicism (46,XY/47,XXY) accounts for 15% of cases only.",
+        "E": "Both maternal and paternal origin occur equally."
+      },
+      "clinicalPearl": "Klinefelter (47,XXY): Tall + Gynecomastia + Small firm testes. Testosterone at puberty. MicroTESE for fertility."
+    },
+    "references": [
+      "Endocrine Society Klinefelter Guidelines 2023",
+      "Klinefelter Syndrome Registry"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_007",
+    "specialty": "genetics",
+    "topic": "Homocystinuria",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old male with marfanoid habitus, lens dislocation (DOWNWARD), intellectual disability, and thromboembolism has elevated homocysteine and low methionine. What is the enzyme deficiency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FBN1 mutation causing Marfan syndrome"
+      },
+      {
+        "id": "B",
+        "text": "Cystathionine beta-synthase (CBS) deficiency - Homocystinuria type 1"
+      },
+      {
+        "id": "C",
+        "text": "MTHFR deficiency"
+      },
+      {
+        "id": "D",
+        "text": "Methionine synthase deficiency"
+      },
+      {
+        "id": "E",
+        "text": "Fibrillin-2 mutation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Classic homocystinuria (CBS deficiency): Marfanoid habitus + DOWNWARD lens dislocation (ectopia lentis - opposite of Marfan which is UPWARD) + Intellectual disability + Thromboembolism (leading cause of death). Labs: Elevated homocysteine, elevated methionine (opposite of MTHFR where methionine is low). Treatment: Vitamin B6 (pyridoxine) responsive in 50% (give B6 trial). If B6 non-responsive: Methionine-restricted diet + Betaine (remethylation) + Cysteine supplementation. Folate and B12 are cofactors.",
+      "whyWrong": {
+        "A": "Marfan has UPWARD lens dislocation, normal homocysteine, no ID.",
+        "B": "CBS deficiency: Downward lens dislocation + Homocysteine \u2191 + Methionine \u2191 + ID.",
+        "C": "MTHFR deficiency: Homocysteine \u2191 but Methionine \u2193 (different).",
+        "D": "Methionine synthase deficiency: Homocysteine \u2191, Methionine \u2193, methylmalonic acid normal.",
+        "E": "Fibrillin-2 mutation causes congenital contractural arachnodactyly (Beals syndrome)."
+      },
+      "clinicalPearl": "Homocystinuria: DOWNWARD lens dislocation (Marfan = UPWARD). CBS deficiency. B6 trial + Methionine-restricted diet. Thromboembolism risk."
+    },
+    "references": [
+      "ACMG Homocystinuria Guidelines 2023",
+      "Inborn Errors of Metabolism Review"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_008",
+    "specialty": "genetics",
+    "topic": "MCADD Newborn Screening",
+    "difficulty": "medium",
+    "vignette": "A 2-day-old newborn has abnormal newborn screening showing elevated C8 (octanoylcarnitine). What is the MOST likely diagnosis and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenylketonuria (PKU)"
+      },
+      {
+        "id": "B",
+        "text": "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency - Avoid fasting; Provide frequent feeds with adequate carbohydrates"
+      },
+      {
+        "id": "C",
+        "text": "Maple syrup urine disease"
+      },
+      {
+        "id": "D",
+        "text": "Galactosemia"
+      },
+      {
+        "id": "E",
+        "text": "Congenital adrenal hyperplasia"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MCAD deficiency is the most common fatty acid oxidation disorder (1:15,000). Newborn screen: Elevated C8 (octanoylcarnitine), C6, C10, and C8/C2 ratio. Confirm with ACADM gene sequencing or enzyme assay. Pathophysiology: Cannot metabolize medium-chain fatty acids \u2192 During fasting/stress \u2192 hypoketotic hypoglycemia, Reye-like syndrome, sudden death. Management: AVOID FASTING (max 4-6 hours in infants, 8-12 hours in older children), high-carbohydrate, low-fat diet. Excellent prognosis if diagnosed early and managed appropriately.",
+      "whyWrong": {
+        "A": "PKU has elevated phenylalanine, not C8.",
+        "B": "MCAD deficiency: Elevated C8. Avoid fasting. Excellent prognosis with management.",
+        "C": "MSUD has elevated leucine/isoleucine/valine.",
+        "D": "Galactosemia has elevated galactose, not C8.",
+        "E": "CAH has elevated 17-OHP, not C8."
+      },
+      "clinicalPearl": "MCAD deficiency: Elevated C8 on newborn screen. Avoid fasting! Frequent feeds. Hypoketotic hypoglycemia during illness."
+    },
+    "references": [
+      "ACMG MCAD Guidelines 2023",
+      "Newborn Screening Task Force Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gene_b3_009",
+    "specialty": "genetics",
+    "topic": "Marfan Syndrome Genetics",
+    "difficulty": "medium",
+    "vignette": "A 20-year-old tall male with arachnodactyly, pectus excavatum, aortic root dilation (Z-score 4.5), and UPWARD lens dislocation (ectopia lentis). FBN1 mutation confirmed. What is the inheritance and aortic surveillance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autosomal recessive; Echo every 5 years"
+      },
+      {
+        "id": "B",
+        "text": "Autosomal dominant; Echo annually; Beta-blocker or ARB; Prophylactic aortic surgery at 50mm"
+      },
+      {
+        "id": "C",
+        "text": "X-linked; CT annually"
+      },
+      {
+        "id": "D",
+        "text": "Autosomal dominant; No surveillance needed"
+      },
+      {
+        "id": "E",
+        "text": "Mitochondrial; Echo every 2 years"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Marfan syndrome: Autosomal dominant (FBN1 mutation). Aortic surveillance: Transthoracic echo ANNUALLY (more frequently if rapid progression). Beta-blocker (propranolol, atenolol) or ARB (losartan - may be superior per some trials) to slow aortic dilation. Prophylactic aortic root replacement when \u226550mm (or \u226545mm with risk factors: family history of dissection, rapid growth >3mm/year, severe AR, planning pregnancy). UPWARD lens dislocation (ectopia lentis) is classic (vs DOWNWARD in homocystinuria).",
+      "whyWrong": {
+        "A": "Autosomal dominant, not recessive. Annual echo, not q5yr.",
+        "B": "AD FBN1. Annual echo + Beta-blocker/ARB. Surgery at 50mm.",
+        "C": "Not X-linked.",
+        "D": "Annual surveillance is mandatory (risk of aortic dissection).",
+        "E": "Not mitochondrial."
+      },
+      "clinicalPearl": "Marfan: AD FBN1. UPWARD lens dislocation. Annual echo + Beta-blocker/ARB. Aortic surgery at 50mm."
+    },
+    "references": [
+      "ACC/AHA Aortic Disease Guidelines 2023",
+      "Revised Ghent Criteria for Marfan"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
