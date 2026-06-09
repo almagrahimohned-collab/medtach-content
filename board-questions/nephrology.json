@@ -312,3 +312,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_nephro_012",
+    "specialty": "nephrology",
+    "topic": "Renal Artery Stenosis",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with resistant hypertension (on 3 drugs) and recurrent flash pulmonary edema has an abdominal bruit. Renal artery duplex shows >75% bilateral renal artery stenosis. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Increase antihypertensive medications" },
+      { "id": "B", "text": "Bilateral renal artery stenting" },
+      { "id": "C", "text": "Surgical revascularization" },
+      { "id": "D", "text": "Continue medical therapy, stenting has no benefit" },
+      { "id": "E", "text": "Nephrectomy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Renal artery stenosis with high-risk features (flash pulmonary edema, resistant hypertension, bilateral disease): Renal artery stenting is indicated. CORAL trial showed no benefit for unselected patients but flash pulmonary edema and bilateral high-grade stenosis are exceptions.",
+      "whyWrong": {
+        "A": "Medical therapy alone is insufficient for flash pulmonary edema.",
+        "C": "Surgery is reserved for failed stenting or complex anatomy.",
+        "D": "CORAL trial does NOT apply to patients with flash pulmonary edema.",
+        "E": "Nephrectomy is last resort for non-functioning kidney."
+      },
+      "clinicalPearl": "Renal artery stenosis: Stenting if flash pulmonary edema, bilateral high-grade stenosis, or resistant HTN despite 3+ drugs."
+    },
+    "references": ["CORAL Trial", "ACC/AHA PAD Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_013",
+    "specialty": "nephrology",
+    "topic": "Bartter and Gitelman",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old female presents with muscle cramps, fatigue, and paresthesias. BP is 100/65. Labs: K+ 2.8, Mg 1.2, Ca 8.5 (normal), HCO3 30. Urine Ca is LOW. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Bartter syndrome" },
+      { "id": "B", "text": "Gitelman syndrome" },
+      { "id": "C", "text": "Liddle syndrome" },
+      { "id": "D", "text": "Primary hyperaldosteronism" },
+      { "id": "E", "text": "Diuretic abuse" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Gitelman syndrome: NCC cotransporter defect in DCT (like thiazide effect). Features: Hypokalemia + Hypomagnesemia + LOW urine Ca + Metabolic alkalosis. Milder than Bartter. Presents in adolescence/adulthood. Treatment: K+/Mg++ replacement, spironolactone.",
+      "whyWrong": {
+        "A": "Bartter: NKCC2 defect in TAL (like furosemide). HIGH urine Ca, normal Mg. Presents in childhood.",
+        "C": "Liddle: ENaC gain-of-function, hypertension, hypokalemia, metabolic alkalosis.",
+        "D": "Primary hyperaldosteronism: Hypertension, not hypotension.",
+        "E": "Diuretic abuse: Similar labs but history of diuretic use, urine drug screen positive."
+      },
+      "clinicalPearl": "Gitelman: Hypokalemia + Hypomagnesemia + LOW urine Ca. Bartter: Hypokalemia + Normal Mg + HIGH urine Ca."
+    },
+    "references": ["Inherited Tubulopathies"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_014",
+    "specialty": "nephrology",
+    "topic": "Onconephrology",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with multiple myeloma develops AKI with an elevated FLC ratio (kappa > lambda) and positive Bence-Jones protein in urine. Kidney biopsy shows eosinophilic, PAS-negative casts with giant cell reaction. What is this pattern called?",
+    "options": [
+      { "id": "A", "text": "Minimal change disease" },
+      { "id": "B", "text": "Membranous nephropathy" },
+      { "id": "C", "text": "Cast nephropathy (myeloma kidney)" },
+      { "id": "D", "text": "AL amyloidosis" },
+      { "id": "E", "text": "Focal segmental glomerulosclerosis" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Cast nephropathy (myeloma kidney): Most common renal manifestation of multiple myeloma. Eosinophilic casts with giant cell reaction (PAS-negative). Caused by precipitation of light chains with Tamm-Horsfall protein in tubules. Treatment: Hydration + Treat underlying myeloma (Bortezomib-based).",
+      "whyWrong": {
+        "A": "MCD: Podocyte effacement, no casts, selective proteinuria.",
+        "B": "MN: Thickened GBM, subepithelial deposits, PLA2R+.",
+        "D": "AL amyloidosis: Congo red positive, apple-green birefringence, lambda > kappa.",
+        "E": "FSGS: Segmental sclerosis on light microscopy, not casts."
+      },
+      "clinicalPearl": "Myeloma kidney (cast nephropathy): Eosinophilic casts + Giant cell reaction. Hydration + Treat myeloma. Avoid nephrotoxins."
+    },
+    "references": ["KDIGO Myeloma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

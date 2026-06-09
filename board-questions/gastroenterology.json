@@ -284,3 +284,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gastro_011",
+    "specialty": "gastroenterology",
+    "topic": "Microscopic Colitis",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old female presents with chronic watery diarrhea (non-bloody) for 3 months. She takes ibuprofen for knee arthritis. Colonoscopy shows normal mucosa. Biopsies show intraepithelial lymphocytosis and thickened collagen band. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Crohn disease" },
+      { "id": "B", "text": "Ulcerative colitis" },
+      { "id": "C", "text": "Collagenous colitis" },
+      { "id": "D", "text": "Lymphocytic colitis" },
+      { "id": "E", "text": "Irritable bowel syndrome" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Microscopic colitis (collagenous subtype): Chronic watery diarrhea + Normal colonoscopy + Biopsy shows thickened subepithelial collagen band (>10μm) + Intraepithelial lymphocytosis. Associated with NSAIDs, PPIs, SSRIs. Treatment: Stop offending drug, budesonide 9mg daily.",
+      "whyWrong": {
+        "A": "Crohn would show ulcers, skip lesions, transmural inflammation.",
+        "B": "UC would show continuous inflammation from rectum, friability, erosions.",
+        "D": "Lymphocytic colitis has intraepithelial lymphocytosis WITHOUT thickened collagen band.",
+        "E": "IBS does not have histologic abnormalities."
+      },
+      "clinicalPearl": "Microscopic colitis: Normal colonoscopy + Chronic watery diarrhea. Collagenous (thick collagen band) vs Lymphocytic (IEL only). Treatment: Budesonide."
+    },
+    "references": ["AGA Microscopic Colitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_012",
+    "specialty": "gastroenterology",
+    "topic": "SIBO",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old female with scleroderma presents with bloating, abdominal distension, and diarrhea. She has lost 10kg. Breath test shows elevated hydrogen after glucose ingestion. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Rifaximin 550mg TID x14 days" },
+      { "id": "B", "text": "Metronidazole 500mg TID x10 days" },
+      { "id": "C", "text": "Probiotics daily" },
+      { "id": "D", "text": "Low-FODMAP diet" },
+      { "id": "E", "text": "Octreotide" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "SIBO (Small Intestinal Bacterial Overgrowth): Common in scleroderma (dysmotility). Diagnosed by glucose breath test (elevated hydrogen). Treatment: Rifaximin 550mg TID x14 days (non-absorbable antibiotic). Treat underlying cause (prokinetics for dysmotility). Recurrence is common.",
+      "whyWrong": {
+        "B": "Metronidazole is alternative but rifaximin is preferred (fewer side effects, less resistance).",
+        "C": "Probiotics have limited evidence for SIBO treatment.",
+        "D": "Low-FODMAP helps IBS symptoms but does not treat SIBO.",
+        "E": "Octreotide is prokinetic for scleroderma but not first-line for SIBO alone."
+      },
+      "clinicalPearl": "SIBO: Scleroderma + Bloating + Diarrhea. Diagnosis: Glucose breath test. Treatment: Rifaximin + Prokinetics."
+    },
+    "references": ["ACG SIBO Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_013",
+    "specialty": "gastroenterology",
+    "topic": "Achalasia",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male presents with progressive dysphagia to solids AND liquids, regurgitation of undigested food, and nocturnal cough. Barium swallow shows dilated esophagus with 'bird's beak' narrowing at the LES. What is the BEST definitive treatment?",
+    "options": [
+      { "id": "A", "text": "Calcium channel blockers" },
+      { "id": "B", "text": "Botulinum toxin injection" },
+      { "id": "C", "text": "Pneumatic dilation" },
+      { "id": "D", "text": "Laparoscopic Heller myotomy with fundoplication" },
+      { "id": "E", "text": "Esophagectomy" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Achalasia: Loss of inhibitory neurons in myenteric plexus → Failed LES relaxation + Absent peristalsis. Definitive treatment: Heller myotomy (surgical division of LES) + Partial fundoplication (prevents reflux). POEM (per-oral endoscopic myotomy) is alternative.",
+      "whyWrong": {
+        "A": "CCBs are temporizing only, for patients not candidates for definitive therapy.",
+        "B": "Botox is for elderly/high-risk patients, temporary (wears off in 6-12 months).",
+        "C": "Pneumatic dilation is effective but has higher perforation risk and may need repeat.",
+        "E": "Esophagectomy is for end-stage achalasia with megaesophagus or malignancy."
+      },
+      "clinicalPearl": "Achalasia: Dysphagia to solids AND liquids + Bird's beak on barium swallow. Treatment: Heller myotomy or POEM."
+    },
+    "references": ["ACG Achalasia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

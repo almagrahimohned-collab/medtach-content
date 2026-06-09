@@ -340,3 +340,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_hema_013",
+    "specialty": "hematology",
+    "topic": "Myelofibrosis",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male presents with massive splenomegaly, night sweats, and weight loss. CBC: Hb 9.0, WBC 15K, Platelets 200K. Peripheral smear shows teardrop cells (dacrocytes) and leukoerythroblastic picture. JAK2 V617F mutation positive. Bone marrow: Fibrosis grade 3. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Imatinib" },
+      { "id": "B", "text": "Ruxolitinib" },
+      { "id": "C", "text": "Hydroxyurea" },
+      { "id": "D", "text": "Allogeneic stem cell transplant" },
+      { "id": "E", "text": "Splenectomy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Primary myelofibrosis: Teardrop cells + Massive splenomegaly + JAK2+. Ruxolitinib (JAK2 inhibitor) is first-line for symptomatic splenomegaly and constitutional symptoms. Reduces spleen size, improves symptoms, may improve survival. Allo-HSCT is only curative but for eligible high-risk patients.",
+      "whyWrong": {
+        "A": "Imatinib is for CML (BCR-ABL), not JAK2-mutated diseases.",
+        "C": "Hydroxyurea can reduce counts but less effective for splenomegaly.",
+        "D": "Allo-HSCT is curative but reserved for high-risk patients who are transplant candidates.",
+        "E": "Splenectomy is last resort (high morbidity, thrombocytosis risk)."
+      },
+      "clinicalPearl": "Myelofibrosis: Teardrop cells + Massive splenomegaly + JAK2+. Ruxolitinib = First-line for symptoms."
+    },
+    "references": ["NCCN MPN Guidelines 2024", "COMFORT Trials"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_014",
+    "specialty": "hematology",
+    "topic": "Aplastic Anemia",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male presents with fatigue, easy bruising, and recurrent infections. CBC: Pancytopenia (Hb 7.0, WBC 1.5, Plt 20K). Bone marrow: Hypocellular (<25%) with fatty replacement. No blasts. What is the BEST initial treatment for a young patient with matched sibling donor?",
+    "options": [
+      { "id": "A", "text": "Immunosuppressive therapy (ATG + Cyclosporine)" },
+      { "id": "B", "text": "Allogeneic hematopoietic stem cell transplant" },
+      { "id": "C", "text": "Eltrombopag" },
+      { "id": "D", "text": "Supportive care with transfusions" },
+      { "id": "E", "text": "G-CSF" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Severe aplastic anemia (young patient, ANC <500, Plt <20K, hypocellular marrow): Curative treatment = Allogeneic HSCT if matched sibling donor available. Age <40 + matched donor = HSCT first-line. If no donor: Immunosuppressive therapy (ATG + Cyclosporine + Eltrombopag).",
+      "whyWrong": {
+        "A": "IST is for patients without a donor or age >40.",
+        "C": "Eltrombopag is added to IST or for refractory cases.",
+        "D": "Supportive care alone has high mortality.",
+        "E": "G-CSF is supportive but not definitive treatment."
+      },
+      "clinicalPearl": "Severe aplastic anemia (<40yo + matched donor): Allo-HSCT (curative). No donor: IST (ATG + Cyclosporine + Eltrombopag)."
+    },
+    "references": ["ASH Aplastic Anemia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_015",
+    "specialty": "hematology",
+    "topic": "PNH",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old female presents with dark urine in the morning, dysphagia, and abdominal pain. Labs: Hb 7.5, LDH 1200, Haptoglobin undetectable. Flow cytometry shows CD55 and CD59 deficient RBCs. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Prednisone" },
+      { "id": "B", "text": "Eculizumab" },
+      { "id": "C", "text": "Iron supplementation" },
+      { "id": "D", "text": "Allogeneic HSCT" },
+      { "id": "E", "text": "Folic acid" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Paroxysmal nocturnal hemoglobinuria (PNH): Acquired mutation in PIG-A gene → deficient CD55/CD59 (complement inhibitors) → Complement-mediated hemolysis. Hemoglobinuria (morning), thrombosis, smooth muscle dystonia. Treatment: Eculizumab (anti-C5 monoclonal) prevents MAC formation. Ravulizumab is longer-acting alternative.",
+      "whyWrong": {
+        "A": "Steroids are not standard treatment for PNH.",
+        "C": "Iron may be needed for deficiency but does not treat underlying hemolysis.",
+        "D": "HSCT is curative but reserved for severe cases with bone marrow failure.",
+        "E": "Folic acid is supportive (increased erythropoiesis) but not primary treatment."
+      },
+      "clinicalPearl": "PNH: CD55/CD59 deficiency → Complement-mediated hemolysis. Morning hemoglobinuria + Thrombosis + Dysphagia. Eculizumab = Life-saving."
+    },
+    "references": ["ASH PNH Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
