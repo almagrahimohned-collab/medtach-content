@@ -510,3 +510,117 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_derm_019",
+    "specialty": "dermatology",
+    "topic": "Necrotizing Fasciitis",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old diabetic male presents with severe pain out of proportion to exam findings in his left leg. He has fever, tachycardia, and crepitus on palpation. CT shows gas in the tissues. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "IV antibiotics alone" },
+      { "id": "B", "text": "Emergent surgical debridement + Broad-spectrum IV antibiotics" },
+      { "id": "C", "text": "Hyperbaric oxygen therapy first" },
+      { "id": "D", "text": "Incision and drainage at bedside" },
+      { "id": "E", "text": "Observation with serial exams" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Necrotizing fasciitis: SURGICAL EMERGENCY! Pain out of proportion + Crepitus + Gas on CT. Immediate radical surgical debridement + Broad-spectrum antibiotics (Vancomycin + Pip-Tazo or Carbapenem + Clindamycin for toxin suppression). Do NOT delay surgery for imaging or antibiotics.",
+      "whyWrong": {
+        "A": "Antibiotics alone without debridement = 100% mortality.",
+        "C": "HBO is adjunctive, not primary (do not delay surgery).",
+        "D": "Bedside I&D is inadequate (needs radical OR debridement).",
+        "E": "Observation will result in death."
+      },
+      "clinicalPearl": "Necrotizing fasciitis: Pain out of proportion + Crepitus = EMERGENT surgical debridement. Antibiotics alone = 100% mortality."
+    },
+    "references": ["IDSA Skin and Soft Tissue Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_020",
+    "specialty": "dermatology",
+    "topic": "Dermatitis Herpetiformis",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male presents with intensely pruritic vesicles on his elbows, knees, and buttocks. He also has chronic diarrhea and weight loss. Skin biopsy shows IgA deposition at the dermal papillae. What is the underlying condition?",
+    "options": [
+      { "id": "A", "text": "Crohn disease" },
+      { "id": "B", "text": "Celiac disease" },
+      { "id": "C", "text": "Ulcerative colitis" },
+      { "id": "D", "text": "Dermatomyositis" },
+      { "id": "E", "text": "Bullous pemphigoid" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Dermatitis herpetiformis: Cutaneous manifestation of CELIAC DISEASE. IgA deposition in dermal papillae on direct immunofluorescence. Associated with HLA-DQ2/DQ8. Treatment: Strict gluten-free diet (resolves skin lesions over months) + Dapsone (rapid symptom relief).",
+      "whyWrong": {
+        "A": "Crohn: GI symptoms, not IgA skin deposits.",
+        "C": "UC: Bloody diarrhea, not pruritic vesicles.",
+        "D": "Dermatomyositis: Gottron papules, heliotrope, not IgA deposits.",
+        "E": "BP: IgG at basement membrane, not IgA in dermal papillae."
+      },
+      "clinicalPearl": "Dermatitis herpetiformis = Celiac disease of the skin. IgA in dermal papillae. Gluten-free diet + Dapsone."
+    },
+    "references": ["AAD Dermatitis Herpetiformis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_021",
+    "specialty": "dermatology",
+    "topic": "Pityriasis Rosea",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old female presents with a single 3cm oval, scaly patch on her trunk, followed by multiple smaller similar lesions in a 'Christmas tree' pattern. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Psoriasis" },
+      { "id": "B", "text": "Pityriasis rosea" },
+      { "id": "C", "text": "Tinea corporis" },
+      { "id": "D", "text": "Secondary syphilis" },
+      { "id": "E", "text": "Lichen planus" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pityriasis rosea: Herald patch (large, solitary) → Christmas tree distribution of smaller oval macules with collarette scale. Self-limited (6-8 weeks). Treatment: Symptomatic (emollients, topical steroids, antihistamines). No specific antiviral needed. Check RPR if syphilis suspected.",
+      "whyWrong": {
+        "A": "Psoriasis: Silvery scales, extensor, chronic, not self-limited.",
+        "C": "Tinea: Annular with central clearing, KOH positive.",
+        "D": "Syphilis: Diffuse maculopapular rash involving palms/soles, not Christmas tree pattern.",
+        "E": "Lichen planus: Purple polygonal papules, Wickham striae."
+      },
+      "clinicalPearl": "Pityriasis rosea: Herald patch → Christmas tree pattern. Self-limited (6-8 weeks). Symptomatic treatment only."
+    },
+    "references": ["AAD Pityriasis Rosea"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_022",
+    "specialty": "dermatology",
+    "topic": "Melasma",
+    "difficulty": "easy",
+    "vignette": "A 30-year-old pregnant female (28 weeks) presents with symmetric, hyperpigmented patches on her cheeks and forehead. What is the MOST appropriate management?",
+    "options": [
+      { "id": "A", "text": "Hydroquinone 4% cream" },
+      { "id": "B", "text": "Sun protection and reassurance that it often fades postpartum" },
+      { "id": "C", "text": "Chemical peel" },
+      { "id": "D", "text": "Laser therapy" },
+      { "id": "E", "text": "Tretinoin cream" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Melasma (chloasma, 'mask of pregnancy'): Sun protection is the MOST important intervention. Often fades postpartum. Avoid hydroquinone, tretinoin, and chemical peels during pregnancy (Category C). Postpartum: Hydroquinone + Tretinoin + Sunscreen (triple combination).",
+      "whyWrong": {
+        "A": "Hydroquinone is Category C (avoid in pregnancy).",
+        "C": "Chemical peels not recommended during pregnancy.",
+        "D": "Laser not first-line for melasma.",
+        "E": "Tretinoin is Category X (contraindicated in pregnancy)."
+      },
+      "clinicalPearl": "Melasma in pregnancy: Sunscreen + Reassurance. Avoid hydroquinone/tretinoin. Often fades postpartum."
+    },
+    "references": ["AAD Melasma Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

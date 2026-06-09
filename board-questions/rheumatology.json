@@ -510,3 +510,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_rheum_019",
+    "specialty": "rheumatology",
+    "topic": "Osteomyelitis",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old diabetic male with a foot ulcer that probes to bone. MRI shows osteomyelitis of the 1st metatarsal. What is the BEST diagnostic test?",
+    "options": [
+      { "id": "A", "text": "MRI alone is sufficient" },
+      { "id": "B", "text": "Bone biopsy with culture and histopathology" },
+      { "id": "C", "text": "Wound swab culture" },
+      { "id": "D", "text": "X-ray" },
+      { "id": "E", "text": "Blood cultures" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Osteomyelitis: Bone biopsy is the GOLD STANDARD for diagnosis and identifying the causative organism. Culture guides antibiotic therapy (6 weeks). MRI is excellent for diagnosis but does not provide microbiology. Wound swabs correlate poorly with bone pathogens.",
+      "whyWrong": {
+        "A": "MRI cannot identify the organism or antibiotic sensitivities.",
+        "C": "Wound swabs have poor correlation with bone cultures.",
+        "D": "X-ray has low sensitivity (changes take 2-4 weeks).",
+        "E": "Blood cultures positive in only 25-50%."
+      },
+      "clinicalPearl": "Osteomyelitis: Bone biopsy = Gold standard. Guides 6 weeks of targeted antibiotics. Wound swabs are unreliable."
+    },
+    "references": ["IDSA Osteomyelitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_020",
+    "specialty": "rheumatology",
+    "topic": "Sarcoidosis",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old African American female presents with cough, dyspnea, erythema nodosum, and bilateral hilar lymphadenopathy on CXR. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Tuberculosis" },
+      { "id": "B", "text": "Sarcoidosis" },
+      { "id": "C", "text": "Lymphoma" },
+      { "id": "D", "text": "Histoplasmosis" },
+      { "id": "E", "text": "Lung cancer" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Sarcoidosis: BHL + Erythema nodosum + African American female = Lofgren syndrome (good prognosis). Non-caseating granulomas on biopsy. Elevated ACE levels (not diagnostic). Treatment: NSAIDs for mild, Prednisone for pulmonary/ocular/cardiac involvement.",
+      "whyWrong": {
+        "A": "TB: Cavitary lesions, caseating granulomas, positive AFB.",
+        "C": "Lymphoma: Anterior mediastinal mass, not symmetric BHL.",
+        "D": "Histoplasmosis: Calcified granulomas, not BHL with erythema nodosum.",
+        "E": "Lung cancer: Mass, not symmetric BHL."
+      },
+      "clinicalPearl": "Lofgren syndrome: BHL + Erythema nodosum = Sarcoidosis with excellent prognosis. NSAIDs for symptom control."
+    },
+    "references": ["ATS Sarcoidosis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_021",
+    "specialty": "rheumatology",
+    "topic": "Polymyositis vs Dermatomyositis",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male presents with progressive proximal muscle weakness (difficulty standing from chair) and elevated CK (3000). He has NO rash. EMG shows myopathic changes. Anti-Jo-1 antibody is positive. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Dermatomyositis" },
+      { "id": "B", "text": "Polymyositis" },
+      { "id": "C", "text": "Inclusion body myositis" },
+      { "id": "D", "text": "Statin-induced myopathy" },
+      { "id": "E", "text": "Polymyalgia rheumatica" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Polymyositis: Proximal weakness + Elevated CK + Anti-Jo-1 (anti-synthetase syndrome) + NO rash. If rash present (Gottron, heliotrope) = Dermatomyositis. Anti-Jo-1 associated with ILD, mechanic's hands, Raynaud, arthritis. Treatment: Steroids + Methotrexate or Azathioprine.",
+      "whyWrong": {
+        "A": "Dermatomyositis has characteristic rash.",
+        "C": "IBM: Distal > proximal, forearm flexors, CK normal-mild.",
+        "D": "Statin myopathy: Improves with discontinuation, CK moderately elevated.",
+        "E": "PMR: Shoulder/hip girdle pain, normal CK, age >50, responds to low-dose steroids."
+      },
+      "clinicalPearl": "Polymyositis: Proximal weakness + High CK + Anti-Jo1 + No rash. Dermatomyositis: Same + Characteristic rash."
+    },
+    "references": ["ACR/EULAR Myositis Classification"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -342,3 +342,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ent_013",
+    "specialty": "ent",
+    "topic": "Thyroid Nodule",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female is found to have a 2cm solitary thyroid nodule on physical exam. She has no compressive symptoms. TSH is normal. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Fine needle aspiration (FNA) biopsy" },
+      { "id": "B", "text": "Thyroid ultrasound" },
+      { "id": "C", "text": "Total thyroidectomy" },
+      { "id": "D", "text": "Thyroid scan (scintigraphy)" },
+      { "id": "E", "text": "Observation only" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Thyroid nodule >1cm + Normal TSH: ULTRASOUND first to risk-stratify (TI-RADS). FNA decision based on US features: TI-RADS 1-2: No FNA. TI-RADS 3: FNA if >2.5cm. TI-RADS 4: FNA if >1.5cm. TI-RADS 5: FNA if >1cm. Thyroid scan only if LOW TSH (hyperthyroidism).",
+      "whyWrong": {
+        "A": "FNA is based on ultrasound risk stratification, not automatic.",
+        "C": "Surgery without FNA is inappropriate.",
+        "D": "Thyroid scan is for low TSH (evaluate for hyperfunctioning nodule).",
+        "E": "Nodule >1cm needs ultrasound evaluation."
+      },
+      "clinicalPearl": "Thyroid nodule: US first (TI-RADS). FNA based on US features. Thyroid scan only if TSH low."
+    },
+    "references": ["ATA Thyroid Nodule Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_014",
+    "specialty": "ent",
+    "topic": "Deep Neck Infection",
+    "difficulty": "hard",
+    "vignette": "A 35-year-old male with dental infection presents with trismus, difficulty swallowing, and swelling in the submandibular space extending to the floor of mouth. He is drooling and his voice is muffled. What is this life-threatening condition?",
+    "options": [
+      { "id": "A", "text": "Peritonsillar abscess" },
+      { "id": "B", "text": "Ludwig angina" },
+      { "id": "C", "text": "Epiglottitis" },
+      { "id": "D", "text": "Retropharyngeal abscess" },
+      { "id": "E", "text": "Croup" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Ludwig angina: Bilateral submandibular/sublingual space infection (dental source). Woody edema of floor of mouth + Trismus + Drooling + Airway compromise. EMERGENCY! Secure airway (awake fiberoptic intubation or surgical airway). IV antibiotics (Pip-Tazo or Clindamycin). Surgical drainage.",
+      "whyWrong": {
+        "A": "PTA: Unilateral, uvular deviation, not submandibular.",
+        "C": "Epiglottitis: Stridor, drooling, thumb sign on X-ray.",
+        "D": "Retropharyngeal: Posterior pharyngeal swelling, neck stiffness.",
+        "E": "Croup: Pediatric, barking cough, subglottic narrowing (steeple sign)."
+      },
+      "clinicalPearl": "Ludwig angina: Submandibular swelling + Trismus + Drooling = Airway emergency! Awake fiberoptic intubation."
+    },
+    "references": ["AAO-HNS Deep Neck Infection Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_015",
+    "specialty": "ent",
+    "topic": "Salivary Gland Tumors",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male presents with a painless, slow-growing mass in the tail of the parotid gland for 1 year. He has no facial weakness. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Pleomorphic adenoma" },
+      { "id": "B", "text": "Warthin tumor" },
+      { "id": "C", "text": "Mucoepidermoid carcinoma" },
+      { "id": "D", "text": "Adenoid cystic carcinoma" },
+      { "id": "E", "text": "Sialadenitis" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Pleomorphic adenoma: Most common salivary gland tumor (80% of parotid tumors). Painless, slow-growing, mobile. Treatment: Superficial parotidectomy with facial nerve preservation. Incomplete excision → Recurrence risk. Malignant transformation in 2-12% (carcinoma ex-pleomorphic adenoma).",
+      "whyWrong": {
+        "B": "Warthin: Older males, smokers, bilateral, tail of parotid (2nd most common).",
+        "C": "Mucoepidermoid: Most common MALIGNANT salivary tumor.",
+        "D": "Adenoid cystic: Perineural invasion, facial nerve involvement.",
+        "E": "Sialadenitis: Painful, acute, associated with stones or dehydration."
+      },
+      "clinicalPearl": "Parotid mass: Pleomorphic adenoma most common (80%). Painless, slow-growing. Superficial parotidectomy."
+    },
+    "references": ["AAO-HNS Salivary Gland Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

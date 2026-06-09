@@ -511,3 +511,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_em_019",
+    "specialty": "emergency",
+    "topic": "Subarachnoid Hemorrhage",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female presents with sudden onset 'worst headache of my life' (thunderclap). She has neck stiffness but no focal neurological deficits. CT head is NORMAL. What is the NEXT step?",
+    "options": [
+      { "id": "A", "text": "Discharge with analgesics" },
+      { "id": "B", "text": "Lumbar puncture to check for xanthochromia" },
+      { "id": "C", "text": "MRI brain" },
+      { "id": "D", "text": "CT angiogram" },
+      { "id": "E", "text": "Observation for 6 hours" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Thunderclap headache + Normal CT: LP is MANDATORY to rule out SAH. Check for xanthochromia (bilirubin from RBC breakdown in CSF, takes 6-12h to develop). CT sensitivity is 98% within 6h but decreases after. If LP negative → Consider CT angiogram (aneurysm, RCVS).",
+      "whyWrong": {
+        "A": "Discharging thunderclap headache without LP risks missing SAH (mortality 50%).",
+        "C": "MRI may miss small SAH and delays diagnosis.",
+        "D": "CTA is second step if LP positive or high suspicion.",
+        "E": "Observation alone is inadequate for thunderclap headache."
+      },
+      "clinicalPearl": "Thunderclap headache + Normal CT = LP mandatory (xanthochromia). If LP negative, consider CTA for aneurysm/RCVS."
+    },
+    "references": ["AHA SAH Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_020",
+    "specialty": "emergency",
+    "topic": "Hyperkalemia",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with CKD stage 5 presents with weakness. ECG shows peaked T waves and loss of P waves. K+ is 7.2 mEq/L. What is the FIRST medication to administer?",
+    "options": [
+      { "id": "A", "text": "Sodium bicarbonate" },
+      { "id": "B", "text": "Calcium gluconate IV" },
+      { "id": "C", "text": "Insulin + D50" },
+      { "id": "D", "text": "Kayexalate" },
+      { "id": "E", "text": "Albuterol nebulized" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hyperkalemia with ECG changes: IV Calcium gluconate FIRST (cardioprotective, stabilizes myocardium). Then shift K+ intracellularly (Insulin + D50, Bicarb, Albuterol). Then eliminate (Furosemide, Dialysis, Kayexalate). Calcium does NOT lower K+, only protects the heart.",
+      "whyWrong": {
+        "A": "Bicarb is second step (shifts K+ intracellularly).",
+        "C": "Insulin + D50 lowers K+ but does NOT protect heart.",
+        "D": "Kayexalate is slow (takes hours), not for acute management.",
+        "E": "Albuterol is adjunctive, not first-line."
+      },
+      "clinicalPearl": "Hyperkalemia with ECG changes: Calcium FIRST (protects heart) → Then shift K+ (Insulin, Bicarb) → Then eliminate (Dialysis)."
+    },
+    "references": ["AHA Hyperkalemia Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_021",
+    "specialty": "emergency",
+    "topic": "Carbon Monoxide Poisoning",
+    "difficulty": "medium",
+    "vignette": "A family of 4 presents with headache, nausea, and confusion in winter. They have a faulty furnace. What is the BEST diagnostic test and treatment?",
+    "options": [
+      { "id": "A", "text": "ABG with co-oximetry; 100% O2 via non-rebreather" },
+      { "id": "B", "text": "Pulse oximetry; oxygen via nasal cannula" },
+      { "id": "C", "text": "CBC; observation" },
+      { "id": "D", "text": "CT head; admission" },
+      { "id": "E", "text": "Lumbar puncture; antibiotics" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "CO poisoning: CO-oximetry (not pulse ox - falsely normal) measures carboxyhemoglobin (COHb). Treatment: 100% O2 via non-rebreather mask (reduces COHb half-life from 4-6h to 60-90min). Hyperbaric O2 if: COHb >25%, LOC, neurological deficits, pregnancy with COHb >15%.",
+      "whyWrong": {
+        "B": "Pulse oximetry cannot distinguish COHb from O2Hb (reads normal).",
+        "C": "CBC does not diagnose CO poisoning.",
+        "D": "CT head is not first-line for CO poisoning.",
+        "E": "LP is not indicated for CO poisoning."
+      },
+      "clinicalPearl": "CO poisoning: Co-oximetry (not pulse ox). 100% O2 by NRB. Hyperbaric if severe (LOC, COHb >25%, pregnancy)."
+    },
+    "references": ["CDC CO Poisoning Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

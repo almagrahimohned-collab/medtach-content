@@ -342,3 +342,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ophtho_013",
+    "specialty": "ophthalmology",
+    "topic": "Endophthalmitis",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male is 3 days post-cataract surgery. He presents with severe eye pain, decreased vision, hypopyon, and corneal edema. What is the diagnosis and management?",
+    "options": [
+      { "id": "A", "text": "Corneal abrasion - Topical antibiotics" },
+      { "id": "B", "text": "Endophthalmitis - EMERGENT vitreous tap and inject intravitreal antibiotics" },
+      { "id": "C", "text": "Uveitis - Topical steroids" },
+      { "id": "D", "text": "Acute glaucoma - IOP-lowering drops" },
+      { "id": "E", "text": "Normal post-op inflammation - Observe" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Post-operative endophthalmitis: OPHTHALMIC EMERGENCY! Pain + Hypopyon + Decreased vision within days of surgery. Emergent vitreous tap (culture) + Intravitreal antibiotics (vancomycin + ceftazidime). May need vitrectomy. Without treatment = permanent blindness.",
+      "whyWrong": {
+        "A": "Corneal abrasion has epithelial defect on staining, no hypopyon.",
+        "C": "Uveitis has no history of recent surgery.",
+        "D": "Glaucoma has elevated IOP, not necessarily post-surgery.",
+        "E": "Normal post-op inflammation is mild and improves, not severe with hypopyon."
+      },
+      "clinicalPearl": "Endophthalmitis: Post-op + Pain + Hypopyon = EMERGENCY! Vitreous tap + Intravitreal antibiotics. Call ophthalmology STAT."
+    },
+    "references": ["AAO Endophthalmitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_014",
+    "specialty": "ophthalmology",
+    "topic": "Amaurosis Fugax",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with hypertension and diabetes presents with transient vision loss in his right eye lasting 5 minutes, described as a 'curtain coming down.' Vision is now normal. What is the MOST likely cause?",
+    "options": [
+      { "id": "A", "text": "Retinal detachment" },
+      { "id": "B", "text": "Amaurosis fugax from carotid artery disease" },
+      { "id": "C", "text": "Optic neuritis" },
+      { "id": "D", "text": "Migraine aura" },
+      { "id": "E", "text": "Central retinal vein occlusion" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Amaurosis fugax: Transient monocular vision loss (curtain) lasting 2-30 min. Usually due to emboli from ipsilateral carotid artery stenosis. HIGH risk for future stroke (2-3% within first week). Workup: Carotid duplex, echo, ECG (rule out AF). Treatment: Antiplatelet + Carotid endarterectomy if >70% stenosis.",
+      "whyWrong": {
+        "A": "Retinal detachment is persistent, not transient.",
+        "C": "Optic neuritis: Pain with eye movement, persistent, not fleeting.",
+        "D": "Migraine: Visual aura is binocular, with headache.",
+        "E": "CRVO: Persistent vision loss, not transient."
+      },
+      "clinicalPearl": "Amaurosis fugax = Transient monocular vision loss = TIA of the eye. HIGH stroke risk! Carotid duplex + Antiplatelet therapy."
+    },
+    "references": ["AHA Stroke Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_015",
+    "specialty": "ophthalmology",
+    "topic": "Preseptal vs Orbital Cellulitis",
+    "difficulty": "hard",
+    "vignette": "A 5-year-old boy presents with eyelid swelling, erythema, and fever. He has painful eye movements, proptosis, and limited extraocular movements. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Preseptal cellulitis" },
+      { "id": "B", "text": "Orbital cellulitis" },
+      { "id": "C", "text": "Allergic reaction" },
+      { "id": "D", "text": "Dacryocystitis" },
+      { "id": "E", "text": "Hordeolum" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Orbital cellulitis: Painful eye movement + Proptosis + Limited EOM + Vision changes. MEDICAL EMERGENCY! Differentiates from preseptal (no proptosis, no pain with EOM, no vision changes). CT orbit with contrast to evaluate abscess. IV antibiotics (Vancomycin + Ceftriaxone) + ENT/ophtho consult.",
+      "whyWrong": {
+        "A": "Preseptal: Eyelid swelling only, no proptosis, no EOM restriction, no vision changes.",
+        "C": "Allergic: Pruritic, no fever, no proptosis.",
+        "D": "Dacryocystitis: Medial canthal swelling, no proptosis.",
+        "E": "Hordeolum: Localized lid abscess, no proptosis."
+      },
+      "clinicalPearl": "Orbital cellulitis: Proptosis + Painful EOM + Vision changes = EMERGENCY! CT + IV antibiotics + Surgical drainage if abscess."
+    },
+    "references": ["AAO Orbital Cellulitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

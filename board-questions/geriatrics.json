@@ -370,3 +370,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_geri_014",
+    "specialty": "geriatrics",
+    "topic": "Normal Pressure Hydrocephalus",
+    "difficulty": "hard",
+    "vignette": "A 75-year-old male presents with a triad of gait apraxia (magnetic gait), urinary incontinence, and progressive cognitive decline over 6 months. MRI shows ventriculomegaly out of proportion to sulcal atrophy. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Alzheimer disease" },
+      { "id": "B", "text": "Normal pressure hydrocephalus (NPH)" },
+      { "id": "C", "text": "Vascular dementia" },
+      { "id": "D", "text": "Parkinson disease" },
+      { "id": "E", "text": "Depression (pseudodementia)" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NPH: Triad = Wet (incontinence) + Wacky (dementia) + Wobbly (gait apraxia - magnetic gait, feet stuck to floor). MRI: Ventriculomegaly WITHOUT obstruction. Potentially REVERSIBLE with CSF shunting (VP shunt). High-volume LP (30-50mL) with gait improvement predicts shunt response.",
+      "whyWrong": {
+        "A": "AD: Memory prominent, no gait apraxia or incontinence early.",
+        "C": "Vascular: Stepwise decline, focal neuro deficits.",
+        "D": "PD: Tremor, rigidity, bradykinesia, not incontinence early.",
+        "E": "Pseudodementia: Normal gait, no incontinence."
+      },
+      "clinicalPearl": "NPH: Wet, Wacky, Wobbly + Ventriculomegaly. Potentially REVERSIBLE with VP shunt! High-volume LP predicts response."
+    },
+    "references": ["NPH Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_015",
+    "specialty": "geriatrics",
+    "topic": "Deprescribing",
+    "difficulty": "medium",
+    "vignette": "An 82-year-old female on a PPI for 5 years for GERD (no longer symptomatic) is at increased risk for which of the following?",
+    "options": [
+      { "id": "A", "text": "C. difficile infection, pneumonia, fractures, B12 deficiency" },
+      { "id": "B", "text": "No significant risks, PPIs are benign" },
+      { "id": "C", "text": "Only B12 deficiency" },
+      { "id": "D", "text": "Only fractures" },
+      { "id": "E", "text": "Liver failure" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Long-term PPI use: Increased risk of C. diff (reduced gastric acid barrier), pneumonia (gastric bacterial overgrowth), fractures (reduced Ca absorption), B12 deficiency (reduced absorption), and possibly CKD. Deprescribe: Taper to lowest effective dose or stop if no indication.",
+      "whyWrong": {
+        "B": "PPIs have multiple long-term risks, not benign.",
+        "C": "B12 deficiency is one of many risks.",
+        "D": "Fractures are one of many risks.",
+        "E": "Liver failure is not a major PPI risk."
+      },
+      "clinicalPearl": "Long-term PPI: Increase risk of C. diff, pneumonia, fractures, B12 deficiency. Deprescribe if no clear indication!"
+    },
+    "references": ["Choosing Wisely - PPIs"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_016",
+    "specialty": "geriatrics",
+    "topic": "Transition of Care",
+    "difficulty": "easy",
+    "vignette": "An 80-year-old male is being discharged from the hospital after an admission for heart failure. What is the MOST effective intervention to reduce 30-day readmission?",
+    "options": [
+      { "id": "A", "text": "Detailed discharge summary" },
+      { "id": "B", "text": "Medication reconciliation + Follow-up appointment within 7 days + Patient education" },
+      { "id": "C", "text": "Home health nursing alone" },
+      { "id": "D", "text": "Family meeting" },
+      { "id": "E", "text": "Outpatient echocardiogram" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Transitional care bundle: Medication reconciliation (identify discrepancies) + Early follow-up (within 7 days) + Patient/caregiver education (red flags, medication adherence, daily weights) + Clear discharge instructions. Telehealth follow-up also reduces readmissions.",
+      "whyWrong": {
+        "A": "Discharge summary alone is insufficient.",
+        "C": "Home health alone without medication reconciliation and follow-up is less effective.",
+        "D": "Family meeting is helpful but part of a bundle.",
+        "E": "Echo may be needed but not the most effective readmission reduction."
+      },
+      "clinicalPearl": "Reduce readmissions: Med reconciliation + Early follow-up (<7 days) + Patient education = Transitional care bundle."
+    },
+    "references": ["CMS Hospital Readmissions Reduction Program"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
