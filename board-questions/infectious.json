@@ -512,3 +512,117 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_id_019",
+    "specialty": "infectious",
+    "topic": "Bioterrorism Agents",
+    "difficulty": "hard",
+    "vignette": "Multiple patients present to the ED with flu-like symptoms (fever, cough, myalgia) and widened mediastinum on CXR within 48 hours of a large public event. Gram-positive rods are found in blood cultures. What is the MOST likely agent?",
+    "options": [
+      { "id": "A", "text": "Yersinia pestis" },
+      { "id": "B", "text": "Bacillus anthracis" },
+      { "id": "C", "text": "Francisella tularensis" },
+      { "id": "D", "text": "Variola major" },
+      { "id": "E", "text": "Clostridium botulinum" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Inhalational anthrax: Flu-like illness → Fulminant mediastinitis → Widened mediastinum (hemorrhagic mediastinitis) + Pleural effusions. Gram-positive rods (Bacillus anthracis). Category A bioterrorism agent. Treatment: Ciprofloxacin or Doxycycline + Antitoxin (raxibacumab).",
+      "whyWrong": {
+        "A": "Plague: Pneumonic plague causes hemoptysis, not widened mediastinum. Gram-negative rods.",
+        "C": "Tularemia: Ulceroglandular or pneumonic, not widened mediastinum.",
+        "D": "Smallpox: Rash (centrifugal), not respiratory presentation.",
+        "E": "Botulism: Descending paralysis, no fever, no respiratory symptoms initially."
+      },
+      "clinicalPearl": "Inhalational anthrax: Widened mediastinum + Gram-positive rods. Bioterrorism agent. Ciprofloxacin + Antitoxin."
+    },
+    "references": ["CDC Bioterrorism Agents"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_020",
+    "specialty": "infectious",
+    "topic": "Fungal Infections in ICU",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old ICU patient on broad-spectrum antibiotics for 14 days develops persistent fever despite antibiotics. Blood cultures grow yeast with pseudohyphae. He has a central line. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Fluconazole IV + Remove central line" },
+      { "id": "B", "text": "Caspofungin IV + Remove central line" },
+      { "id": "C", "text": "Amphotericin B alone" },
+      { "id": "D", "text": "Voriconazole IV" },
+      { "id": "E", "text": "Continue antibiotics, no antifungal needed" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Candidemia: Echinocandins (caspofungin, micafungin, anidulafungin) are FIRST-LINE for most candidemia. Remove ALL central lines (source control). Echinocandins cover all Candida species including azole-resistant C. glabrata and C. krusei. Transition to fluconazole after susceptibility confirmed.",
+      "whyWrong": {
+        "A": "Fluconazole is step-down after susceptibility, not empiric first-line in ICU.",
+        "C": "Amphotericin B is reserved for echinocandin-resistant or refractory cases.",
+        "D": "Voriconazole is for Aspergillus, not first-line for candidemia.",
+        "E": "Positive blood cultures require antifungal treatment (high mortality if untreated)."
+      },
+      "clinicalPearl": "Candidemia: Echinocandins + Remove central line. Always check ophthalmologic exam (endophthalmitis) and echo (endocarditis)."
+    },
+    "references": ["IDSA Candidiasis Guidelines 2016"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_021",
+    "specialty": "infectious",
+    "topic": "Antibiotic-Associated Diarrhea",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female develops watery diarrhea 5 days after completing a course of clindamycin for a dental infection. C. diff PCR is positive. She has mild abdominal pain, no fever, WBC 12K, Cr 1.0. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Metronidazole 500mg PO TID x10 days" },
+      { "id": "B", "text": "Vancomycin 125mg PO QID x10 days" },
+      { "id": "C", "text": "Fidaxomicin 200mg PO BID x10 days" },
+      { "id": "D", "text": "Vancomycin 500mg PO QID x14 days" },
+      { "id": "E", "text": "No treatment, self-limited" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Non-severe C. diff (WBC ≤15K, Cr <1.5): Vancomycin 125mg PO QID x10 days OR Fidaxomicin 200mg PO BID x10 days are FIRST-LINE (IDSA 2021). Metronidazole is no longer first-line (lower efficacy). Fidaxomicin is superior for reducing recurrence but more expensive.",
+      "whyWrong": {
+        "A": "Metronidazole is second-line only if vancomycin/fidaxomicin unavailable.",
+        "C": "Fidaxomicin is first-line but vancomycin is equally acceptable for initial non-severe.",
+        "D": "Vancomycin 500mg is for severe/fulminant C. diff.",
+        "E": "C. diff requires treatment (risk of progression and transmission)."
+      },
+      "clinicalPearl": "Non-severe C. diff: Vancomycin 125mg PO QID OR Fidaxomicin. Metronidazole is NO LONGER first-line (IDSA 2021)."
+    },
+    "references": ["IDSA/SHEA C. diff Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_022",
+    "specialty": "infectious",
+    "topic": "Infections in Asplenia",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male with sickle cell disease (functional asplenia) presents with fever, chills, and shock. He is confused and hypotensive. What is the MOST concerning pathogen and empiric treatment?",
+    "options": [
+      { "id": "A", "text": "Neisseria meningitidis - Ceftriaxone + Vancomycin" },
+      { "id": "B", "text": "Streptococcus pneumoniae - Ceftriaxone + Vancomycin" },
+      { "id": "C", "text": "Haemophilus influenzae - Ceftriaxone" },
+      { "id": "D", "text": "Capnocytophaga canimorsus - Ampicillin-sulbactam" },
+      { "id": "E", "text": "Plasmodium falciparum - IV Artesunate" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Overwhelming post-splenectomy infection (OPSI): Encapsulated organisms. S. pneumoniae is #1 (50-70% of cases). Other: H. influenzae type b, N. meningitidis, Capnocytophaga. Empiric treatment: Ceftriaxone + Vancomycin (covers resistant pneumococcus). Mortality 50-70% within 24h.",
+      "whyWrong": {
+        "A": "N. meningitidis is a concern but S. pneumoniae is most common in asplenia.",
+        "C": "H. influenzae is less common than pneumococcus.",
+        "D": "Capnocytophaga is associated with dog bites in asplenia (not classic OPSI).",
+        "E": "Malaria is not the primary concern in asplenic fever/shock."
+      },
+      "clinicalPearl": "Asplenia + Fever + Shock = OPSI (S. pneumoniae #1). Empiric: Ceftriaxone + Vancomycin. Vaccinate: PCV13, PPSV23, Hib, MenACWY, MenB."
+    },
+    "references": ["CDC Asplenia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

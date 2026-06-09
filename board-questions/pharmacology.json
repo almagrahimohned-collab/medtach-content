@@ -568,3 +568,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pharma_021",
+    "specialty": "pharmacology",
+    "topic": "Monoclonal Antibodies",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old female with severe asthma on high-dose ICS/LABA has elevated eosinophils (500 cells/μL) and frequent exacerbations. What biologic therapy targets IL-5?",
+    "options": [
+      { "id": "A", "text": "Omalizumab" },
+      { "id": "B", "text": "Mepolizumab" },
+      { "id": "C", "text": "Dupilumab" },
+      { "id": "D", "text": "Tezepelumab" },
+      { "id": "E", "text": "Benralizumab" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Mepolizumab (and Reslizumab): Anti-IL5 monoclonal antibodies. IL-5 is the major eosinophil growth and survival factor. Indicated for severe eosinophilic asthma (eosinophils ≥150-300). Reduces exacerbations by 50%. Benralizumab targets IL-5 receptor (not the cytokine).",
+      "whyWrong": {
+        "A": "Omalizumab = Anti-IgE (allergic asthma).",
+        "C": "Dupilumab = Anti-IL4/IL13 receptor (Type 2 inflammation, also for atopic dermatitis).",
+        "D": "Tezepelumab = Anti-TSLP (thymic stromal lymphopoietin), broad upstream target.",
+        "E": "Benralizumab = Anti-IL5 receptor (not the cytokine)."
+      },
+      "clinicalPearl": "Severe eosinophilic asthma: Anti-IL5 (mepolizumab/reslizumab) or Anti-IL5R (benralizumab). Check eosinophil count first!"
+    },
+    "references": ["GINA 2024 Guidelines", "MENSA Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_022",
+    "specialty": "pharmacology",
+    "topic": "Drug-Induced Liver Injury",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female develops jaundice, AST 800, ALT 1200, ALP 200, and bilirubin 8.0 two weeks after starting an antibiotic for UTI. She has eosinophilia. Liver biopsy shows eosinophilic infiltrates. What is the MOST likely drug?",
+    "options": [
+      { "id": "A", "text": "Ciprofloxacin" },
+      { "id": "B", "text": "Nitrofurantoin" },
+      { "id": "C", "text": "TMP-SMX" },
+      { "id": "D", "text": "Cephalexin" },
+      { "id": "E", "text": "Fosfomycin" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Nitrofurantoin causes TWO types of hepatotoxicity: 1) Acute (within weeks): Hepatocellular injury + Eosinophilia (hypersensitivity reaction). 2) Chronic (months): Autoimmune-like hepatitis, ANA/SMA positive. Can be severe. Discontinue drug immediately.",
+      "whyWrong": {
+        "A": "Ciprofloxacin rarely causes severe hepatotoxicity.",
+        "C": "TMP-SMX causes cholestatic hepatitis, not typically with eosinophilic infiltrates.",
+        "D": "Cephalexin rarely causes hepatotoxicity.",
+        "E": "Fosfomycin is single-dose and rarely hepatotoxic."
+      },
+      "clinicalPearl": "Nitrofurantoin hepatotoxicity: Acute (eosinophilic) vs Chronic (autoimmune-like). Always ask about UTI treatment history in unexplained hepatitis."
+    },
+    "references": ["Drug-Induced Liver Injury Network"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_023",
+    "specialty": "pharmacology",
+    "topic": "Overdose Management",
+    "difficulty": "hard",
+    "vignette": "A 20-year-old female presents with altered mental status, pinpoint pupils, and respiratory depression (RR 6). She responds to naloxone 2mg IV but becomes somnolent again 30 minutes later. What explains this?",
+    "options": [
+      { "id": "A", "text": "Naloxone resistance" },
+      { "id": "B", "text": "Short half-life of naloxone compared to most opioids" },
+      { "id": "C", "text": "New opioid ingestion after naloxone" },
+      { "id": "D", "text": "Benzodiazepine co-ingestion" },
+      { "id": "E", "text": "Central sleep apnea" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Naloxone half-life (30-90 min) is MUCH shorter than most opioids (morphine 2-4h, methadone 24-36h, buprenorphine 24-42h). Re-narcotization occurs when naloxone wears off before opioid is cleared. Need REPEAT naloxone doses or continuous infusion for long-acting opioids.",
+      "whyWrong": {
+        "A": "Response to naloxone confirms opioid toxicity (not resistance).",
+        "C": "Possible but less likely than pharmacokinetic explanation.",
+        "D": "Naloxone does not reverse benzodiazepines (would need flumazenil).",
+        "E": "Pinpoint pupils + response to naloxone = opioid toxicity, not sleep apnea."
+      },
+      "clinicalPearl": "Naloxone half-life (30-90 min) << Opioid half-life. Re-narcotization = repeat doses or infusion. Observe at least 4-6h after last naloxone."
+    },
+    "references": ["Toxicology: Opioid Overdose Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

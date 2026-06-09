@@ -372,3 +372,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pearls_014",
+    "specialty": "quick_review",
+    "topic": "Medical Education",
+    "difficulty": "easy",
+    "vignette": "A medical student is struggling to retain information from lectures. Research shows which study technique has the STRONGEST evidence for long-term retention?",
+    "options": [
+      { "id": "A", "text": "Re-reading notes multiple times" },
+      { "id": "B", "text": "Active recall (testing yourself) with spaced repetition" },
+      { "id": "C", "text": "Highlighting key points in textbooks" },
+      { "id": "D", "text": "Summarizing lectures in your own words" },
+      { "id": "E", "text": "Group study discussions" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Active recall (retrieval practice) + Spaced repetition = MOST effective evidence-based learning technique. The 'testing effect' shows that testing yourself is superior to re-reading. Spaced repetition (increasing intervals) optimizes memory consolidation.",
+      "whyWrong": {
+        "A": "Re-reading is one of the LEAST effective techniques (fluency illusion).",
+        "C": "Highlighting has minimal benefit (passive activity).",
+        "D": "Summarizing is better than re-reading but inferior to active recall.",
+        "E": "Group study is variable; depends on whether active recall is used."
+      },
+      "clinicalPearl": "Best study technique: Active recall (testing) + Spaced repetition. Re-reading and highlighting are ineffective (give illusion of mastery)."
+    },
+    "references": ["Dunlosky et al. 2013 - Improving Students' Learning"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_015",
+    "specialty": "quick_review",
+    "topic": "Clinical Decision Rules",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male presents with acute cough, fever 38.0°C, HR 90, RR 18. He has no confusion, BUN 15, BP 120/80. CXR shows right lower lobe infiltrate. What is his CURB-65 score and disposition?",
+    "options": [
+      { "id": "A", "text": "CURB-65 = 0, outpatient treatment" },
+      { "id": "B", "text": "CURB-65 = 1 (age 45), outpatient treatment" },
+      { "id": "C", "text": "CURB-65 = 2, admit to ward" },
+      { "id": "D", "text": "CURB-65 = 3, consider ICU" },
+      { "id": "E", "text": "CURB-65 = 4, ICU admission" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "CURB-65: Confusion (no) = 0, Urea >7 (BUN 15 = normal) = 0, RR ≥30 (18) = 0, BP <90/60 (120/80) = 0, Age ≥65 (45) = 0. Total = 0. Outpatient treatment appropriate. CURB-65 0-1 = Outpatient, 2 = Inpatient, ≥3 = ICU.",
+      "whyWrong": {
+        "B": "Age criteria is ≥65, not 45.",
+        "C": "Score is 0, not 2.",
+        "D": "Score is 0, not 3.",
+        "E": "Score is 0, not 4."
+      },
+      "clinicalPearl": "CURB-65: Score 0-1 = Outpatient. Score 2 = Inpatient ward. Score ≥3 = ICU. Use clinical judgment (hypoxia, comorbidities) in addition to score."
+    },
+    "references": ["CURB-65 Score Validation"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_016",
+    "specialty": "quick_review",
+    "topic": "Emergency Response",
+    "difficulty": "hard",
+    "vignette": "You are the first responder to an unresponsive patient. You check for responsiveness, call for help, and check pulse and breathing. No pulse, no breathing. What is the FIRST step in BLS?",
+    "options": [
+      { "id": "A", "text": "Start chest compressions immediately" },
+      { "id": "B", "text": "Give 2 rescue breaths" },
+      { "id": "C", "text": "Retrieve AED/defibrillator" },
+      { "id": "D", "text": "Check for foreign body in airway" },
+      { "id": "E", "text": "Call 911 first, then start compressions" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "BLS 2020: C-A-B (Compressions, Airway, Breathing). Start chest compressions IMMEDIATELY (at least 100-120/min, 2 inches deep). Do NOT delay for rescue breaths or AED. After 30 compressions → open airway → 2 breaths. AED as soon as available.",
+      "whyWrong": {
+        "B": "Compressions come BEFORE breaths (C-A-B sequence since 2010).",
+        "C": "AED is obtained after starting compressions (or by second rescuer).",
+        "D": "Routine foreign body check is not recommended unless suspect aspiration.",
+        "E": "In-hospital: Call code blue while starting compressions. Out-of-hospital: Call 911 first if alone, then start CPR."
+      },
+      "clinicalPearl": "BLS: C-A-B. Compressions first (push hard, push fast, allow full recoil). Minimize interruptions. AED as soon as available."
+    },
+    "references": ["AHA BLS Guidelines 2020"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

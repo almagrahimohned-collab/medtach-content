@@ -398,3 +398,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gene_015",
+    "specialty": "genetics",
+    "topic": "RASopathies",
+    "difficulty": "hard",
+    "vignette": "A 10-year-old boy presents with short stature, webbed neck, pectus excavatum, pulmonic stenosis, and cryptorchidism. He has learning difficulties. What is the gene involved?",
+    "options": [
+      { "id": "A", "text": "FBN1" },
+      { "id": "B", "text": "PTPN11" },
+      { "id": "C", "text": "NF1" },
+      { "id": "D", "text": "ELN" },
+      { "id": "E", "text": "TBX1" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Noonan syndrome: PTPN11 (50%), SOS1, RAF1, KRAS (RAS-MAPK pathway). Features: Short stature, webbed neck, pectus excavatum, pulmonic stenosis (most common CHD), cryptorchidism, bleeding diathesis. Most common RASopathy. AD inheritance.",
+      "whyWrong": {
+        "A": "FBN1 = Marfan syndrome (tall, arachnodactyly, aortic dilation).",
+        "C": "NF1 = Neurofibromatosis type 1 (café-au-lait spots, neurofibromas).",
+        "D": "ELN = Williams syndrome (supravalvular AS, hypercalcemia).",
+        "E": "TBX1 = DiGeorge syndrome (22q11.2 deletion)."
+      },
+      "clinicalPearl": "Noonan syndrome: PTPN11 + Short stature + Pulmonic stenosis + Webbed neck. RASopathy. AD inheritance."
+    },
+    "references": ["Noonan Syndrome: Clinical Features and Genetics"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_016",
+    "specialty": "genetics",
+    "topic": "Genome-Wide Association Studies",
+    "difficulty": "medium",
+    "vignette": "A GWAS identifies a SNP associated with increased risk of Type 2 DM with odds ratio of 1.15 (p < 5×10⁻⁸). What does this mean for an individual patient?",
+    "options": [
+      { "id": "A", "text": "This SNP is diagnostic of Type 2 DM" },
+      { "id": "B", "text": "This SNP has a small effect on disease risk and is NOT clinically useful for individual prediction" },
+      { "id": "C", "text": "This patient will definitely develop diabetes" },
+      { "id": "D", "text": "This SNP replaces the need for glucose testing" },
+      { "id": "E", "text": "This SNP has a large effect and should be used for screening" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "GWAS SNPs typically have very small effect sizes (OR 1.1-1.3). While statistically significant (p < 5×10⁻⁸), they explain a TINY fraction of disease risk. Not clinically useful for individual prediction. Polygenic risk scores (combining hundreds/thousands of SNPs) have more potential but limited clinical utility currently.",
+      "whyWrong": {
+        "A": "OR 1.15 = minimal increased risk, not diagnostic.",
+        "C": "OR 1.15 is far from deterministic.",
+        "D": "SNPs do not replace clinical testing.",
+        "E": "OR 1.15 is too small for clinical screening."
+      },
+      "clinicalPearl": "GWAS: SNPs have small individual effects (OR 1.1-1.3). Not clinically actionable alone. Polygenic risk scores = Future potential."
+    },
+    "references": ["GWAS Interpretation in Clinical Medicine"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gene_017",
+    "specialty": "genetics",
+    "topic": "Epigenetics in Cancer",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with MDS is treated with azacitidine. What is the mechanism of action of this drug?",
+    "options": [
+      { "id": "A", "text": "Tyrosine kinase inhibition" },
+      { "id": "B", "text": "DNA hypomethylating agent (DNMT inhibitor)" },
+      { "id": "C", "text": "Histone deacetylase (HDAC) inhibitor" },
+      { "id": "D", "text": "Proteasome inhibitor" },
+      { "id": "E", "text": "Immunomodulatory agent" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Azacitidine (and Decitabine): DNA methyltransferase (DNMT) inhibitors. Hypomethylating agents that reverse aberrant DNA methylation in MDS/AML. Reactivates silenced tumor suppressor genes. Standard of care for higher-risk MDS.",
+      "whyWrong": {
+        "A": "Tyrosine kinase inhibitors = Imatinib, dasatinib (CML, ALL).",
+        "C": "HDAC inhibitors = Vorinostat, romidepsin (CTCL).",
+        "D": "Proteasome inhibitors = Bortezomib, carfilzomib (multiple myeloma).",
+        "E": "Immunomodulatory = Lenalidomide, pomalidomide (myeloma, MDS with 5q-)."
+      },
+      "clinicalPearl": "Azacitidine/Decitabine: DNMT inhibitors (hypomethylating agents). Reactivate tumor suppressor genes. First-line for higher-risk MDS."
+    },
+    "references": ["Epigenetic Therapy in MDS"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
