@@ -282,3 +282,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_derm_011",
+    "specialty": "dermatology",
+    "topic": "Pemphigus Vulgaris",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old female presents with painful oral ulcers and flaccid blisters on her trunk that rupture easily, leaving erosions. Nikolsky sign is positive. Skin biopsy shows intraepidermal split with acantholysis. Direct immunofluorescence shows IgG and C3 between keratinocytes. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Bullous pemphigoid" },
+      { "id": "B", "text": "Pemphigus vulgaris" },
+      { "id": "C", "text": "Stevens-Johnson syndrome" },
+      { "id": "D", "text": "Linear IgA disease" },
+      { "id": "E", "text": "Erythema multiforme" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Pemphigus vulgaris: Painful oral erosions (often first manifestation) + Flaccid blisters + Nikolsky sign + Intraepidermal split (above basal layer) + IgG/C3 between keratinocytes. Autoantibodies against desmoglein 3 (mucosal) and 1 (skin). Treatment: Steroids + Rituximab (first-line steroid-sparing).",
+      "whyWrong": {
+        "A": "BP: Tense blisters, subepidermal split, IgG at basement membrane.",
+        "C": "SJS: Acute, epidermal detachment, mucosal erosions, drug trigger.",
+        "D": "Linear IgA: IgA (not IgG) deposition along basement membrane.",
+        "E": "EM: Target lesions, minimal mucosal involvement, often HSV-related."
+      },
+      "clinicalPearl": "Pemphigus: Flaccid blisters + Nikolsky + Intraepidermal + IgG between keratinocytes. Rituximab + Steroids first-line."
+    },
+    "references": ["International Pemphigus Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_012",
+    "specialty": "dermatology",
+    "topic": "Cellulitis",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with diabetes presents with erythema, warmth, and swelling of his left leg for 2 days. He has a small ulcer between his toes. He is febrile (38.5°C). What is the BEST empiric antibiotic?",
+    "options": [
+      { "id": "A", "text": "Cephalexin 500mg PO QID" },
+      { "id": "B", "text": "Cefazolin IV or Nafcillin IV" },
+      { "id": "C", "text": "Vancomycin IV" },
+      { "id": "D", "text": "Clindamycin PO" },
+      { "id": "E", "text": "TMP-SMX PO" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Moderate cellulitis (systemic symptoms, diabetes): IV antibiotics. Cefazolin or Nafcillin covers beta-hemolytic Strep and MSSA. If MRSA risk (purulence, prior MRSA, IVDU): Add Vancomycin. Duration: 5-7 days. Mark borders to monitor progression.",
+      "whyWrong": {
+        "A": "Oral antibiotics for mild cellulitis without systemic symptoms.",
+        "C": "Vancomycin only if MRSA suspected (not first-line for routine cellulitis).",
+        "D": "Clindamycin has increasing resistance and C. diff risk.",
+        "E": "TMP-SMX does NOT cover beta-hemolytic Strep (needs combination)."
+      },
+      "clinicalPearl": "Cellulitis: Cefazolin/Nafcillin IV for moderate-severe. Add Vancomycin if MRSA risk. Mark borders to track progression."
+    },
+    "references": ["IDSA Skin and Soft Tissue Infection Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_013",
+    "specialty": "dermatology",
+    "topic": "Dermatophyte Infections",
+    "difficulty": "easy",
+    "vignette": "A 30-year-old male presents with an annular, erythematous, scaly plaque with central clearing on his arm. KOH preparation shows septate hyphae. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Topical hydrocortisone" },
+      { "id": "B", "text": "Topical clotrimazole or terbinafine BID x2-4 weeks" },
+      { "id": "C", "text": "Oral terbinafine for 12 weeks" },
+      { "id": "D", "text": "Topical mupirocin" },
+      { "id": "E", "text": "No treatment, self-limited" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Tinea corporis (ringworm): Localized infection = Topical antifungals (clotrimazole, terbinafine cream) BID x2-4 weeks. Oral antifungals (terbinafine, griseofulvin) for extensive, resistant, or immunocompromised. Avoid topical steroids alone (worsens infection = tinea incognito).",
+      "whyWrong": {
+        "A": "Steroids alone worsen fungal infections (tinea incognito).",
+        "C": "Oral antifungals for extensive or refractory, not localized.",
+        "D": "Mupirocin is antibacterial, not antifungal.",
+        "E": "Tinea requires treatment (does not self-resolve)."
+      },
+      "clinicalPearl": "Tinea corporis: Topical antifungals first-line. Avoid steroid monotherapy (tinea incognito). Oral for extensive/recalcitrant."
+    },
+    "references": ["AAD Superficial Fungal Infection Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

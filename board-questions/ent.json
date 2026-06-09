@@ -170,3 +170,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ent_007",
+    "specialty": "ent",
+    "topic": "Allergic Rhinitis",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old male presents with seasonal sneezing, rhinorrhea, nasal congestion, and itchy eyes every spring. What is the BEST first-line treatment?",
+    "options": [
+      { "id": "A", "text": "First-generation antihistamine (diphenhydramine)" },
+      { "id": "B", "text": "Intranasal corticosteroid (fluticasone) + Second-generation antihistamine (cetirizine)" },
+      { "id": "C", "text": "Oral decongestant (pseudoephedrine) alone" },
+      { "id": "D", "text": "Oral prednisone" },
+      { "id": "E", "text": "Immunotherapy only" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Moderate-severe allergic rhinitis: Intranasal corticosteroids (fluticasone, mometasone) are the MOST effective single therapy. Add second-generation antihistamine (cetirizine, loratadine, fexofenadine) for breakthrough symptoms. Avoid first-generation antihistamines (sedation).",
+      "whyWrong": {
+        "A": "First-generation antihistamines cause sedation and cognitive impairment.",
+        "C": "Decongestants alone are less effective and cause rhinitis medicamentosa if used >3 days.",
+        "D": "Oral steroids for severe refractory cases only (short course).",
+        "E": "Immunotherapy is for severe/recalcitrant after pharmacotherapy fails."
+      },
+      "clinicalPearl": "Allergic rhinitis: Intranasal steroids > Antihistamines. Avoid first-gen antihistamines (sedation). Immunotherapy for refractory."
+    },
+    "references": ["AAAAI Allergic Rhinitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_008",
+    "specialty": "ent",
+    "topic": "Sudden Hearing Loss",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male wakes up with complete hearing loss in his left ear. He has no pain, tinnitus, or vertigo. Tuning fork: Rinne positive bilaterally, Weber localizes to right ear. What is the diagnosis and treatment?",
+    "options": [
+      { "id": "A", "text": "Meniere disease - Low-salt diet and diuretics" },
+      { "id": "B", "text": "Sudden sensorineural hearing loss (SSNHL) - High-dose prednisone" },
+      { "id": "C", "text": "Acoustic neuroma - Surgical resection" },
+      { "id": "D", "text": "Eustachian tube dysfunction - Decongestants" },
+      { "id": "E", "text": "Noise-induced hearing loss - Hearing aids" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SSNHL: Sudden (<72h) sensorineural hearing loss (≥30dB over 3 frequencies). EMERGENCY! High-dose prednisone (60mg/day x7-14 days) within 2 weeks improves recovery. Intratympanic steroids if refractory. MRI to rule out acoustic neuroma (retrocochlear).",
+      "whyWrong": {
+        "A": "Meniere: Episodic vertigo + Hearing loss + Tinnitus (not sudden complete loss).",
+        "C": "Acoustic neuroma: Gradual progressive, not sudden.",
+        "D": "Eustachian tube: Conductive hearing loss (Rinne negative), not sensorineural.",
+        "E": "Noise-induced: Gradual, bilateral, history of noise exposure."
+      },
+      "clinicalPearl": "SSNHL: Sudden sensorineural loss = EMERGENCY! High-dose prednisone within 2 weeks. MRI to rule out acoustic neuroma."
+    },
+    "references": ["AAO-HNS SSNHL Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ent_009",
+    "specialty": "ent",
+    "topic": "Tonsillitis",
+    "difficulty": "easy",
+    "vignette": "A 15-year-old male presents with sore throat, fever 38.5°C, and tender anterior cervical lymphadenopathy. Throat exam shows tonsillar exudates and palatal petechiae. Rapid strep test is positive. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Amoxicillin 500mg BID x10 days" },
+      { "id": "B", "text": "Azithromycin 500mg daily x5 days" },
+      { "id": "C", "text": "Cephalexin 500mg QID x10 days" },
+      { "id": "D", "text": "TMP-SMX DS BID x10 days" },
+      { "id": "E", "text": "Symptomatic treatment only" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Group A Strep pharyngitis: Centor criteria (fever, exudates, lymphadenopathy, no cough) + Positive rapid strep. Amoxicillin or Penicillin V x10 days (first-line). Goal: Prevent rheumatic fever (not for symptom relief). Azithromycin for penicillin-allergic patients.",
+      "whyWrong": {
+        "B": "Macrolides have increasing resistance (use only if penicillin-allergic).",
+        "C": "Cephalosporins are alternative but penicillin is first-line.",
+        "D": "TMP-SMX does NOT cover GAS.",
+        "E": "Positive rapid strep requires antibiotics to prevent rheumatic fever."
+      },
+      "clinicalPearl": "GAS pharyngitis: Penicillin/Amoxicillin x10 days. Prevents rheumatic fever (not just symptom relief)."
+    },
+    "references": ["IDSA GAS Pharyngitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

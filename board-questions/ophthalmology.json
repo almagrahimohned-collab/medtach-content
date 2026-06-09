@@ -170,3 +170,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_ophtho_007",
+    "specialty": "ophthalmology",
+    "topic": "Conjunctivitis",
+    "difficulty": "easy",
+    "vignette": "A 25-year-old daycare worker presents with red, itchy eyes with watery discharge and preauricular lymphadenopathy. She had a recent cold. What is the MOST likely cause?",
+    "options": [
+      { "id": "A", "text": "Bacterial conjunctivitis" },
+      { "id": "B", "text": "Viral conjunctivitis (adenovirus)" },
+      { "id": "C", "text": "Allergic conjunctivitis" },
+      { "id": "D", "text": "Gonococcal conjunctivitis" },
+      { "id": "E", "text": "Chlamydial conjunctivitis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Viral conjunctivitis (adenovirus most common): Watery discharge + Preauricular lymphadenopathy + Highly contagious + Often follows URI. Self-limited (7-14 days). Treatment: Supportive (cold compresses, artificial tears). Strict hand hygiene to prevent spread.",
+      "whyWrong": {
+        "A": "Bacterial: Purulent discharge (thick, yellow-green), no lymphadenopathy.",
+        "C": "Allergic: Itching predominantly, bilateral, seasonal, no lymphadenopathy.",
+        "D": "Gonococcal: Hyperacute, severe purulent discharge, vision-threatening.",
+        "E": "Chlamydial: Chronic follicular conjunctivitis, inclusion bodies."
+      },
+      "clinicalPearl": "Viral conjunctivitis: Watery + Preauricular node + Contagious. Supportive care. Bacterial: Purulent discharge + Antibiotic drops."
+    },
+    "references": ["AAO Conjunctivitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_008",
+    "specialty": "ophthalmology",
+    "topic": "Uveitis",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male with HLA-B27 positive ankylosing spondylitis presents with acute onset red, painful eye, photophobia, and blurred vision. Slit lamp shows cells and flare in the anterior chamber with a hypopyon. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Conjunctivitis" },
+      { "id": "B", "text": "Acute anterior uveitis" },
+      { "id": "C", "text": "Keratitis" },
+      { "id": "D", "text": "Acute angle-closure glaucoma" },
+      { "id": "E", "text": "Scleritis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute anterior uveitis (iritis): Pain + Photophobia + Cells/flare in anterior chamber + Hypopyon in severe cases. Associated with HLA-B27 (AS, reactive arthritis, IBD, psoriatic arthritis). Treatment: Topical steroids + Cycloplegics (cyclopentolate). Refer to ophthalmology.",
+      "whyWrong": {
+        "A": "Conjunctivitis: Discharge, no cells/flare, no hypopyon.",
+        "C": "Keratitis: Corneal infiltrate/ulcer on fluorescein staining.",
+        "D": "AACG: Fixed mid-dilated pupil, corneal edema, elevated IOP.",
+        "E": "Scleritis: Deep, boring pain, bluish scleral hue."
+      },
+      "clinicalPearl": "Anterior uveitis: Pain + Photophobia + Cells/flare. HLA-B27 associated. Topical steroids + Cycloplegics."
+    },
+    "references": ["AAO Uveitis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_ophtho_009",
+    "specialty": "ophthalmology",
+    "topic": "Papilledema",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old obese female presents with headache, transient visual obscurations, and pulsatile tinnitus. Fundoscopy shows bilateral optic disc swelling. MRI is normal. Lumbar puncture opening pressure is 35 cmH2O (normal <25). What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Optic neuritis" },
+      { "id": "B", "text": "Idiopathic intracranial hypertension (pseudotumor cerebri)" },
+      { "id": "C", "text": "Brain tumor" },
+      { "id": "D", "text": "Meningitis" },
+      { "id": "E", "text": "Central retinal vein occlusion" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "IIH (Pseudotumor cerebri): Obese female of childbearing age + Headache + Papilledema + Normal MRI + Elevated opening pressure. Treatment: Weight loss (most important), Acetazolamide (carbonic anhydrase inhibitor). If severe/refractory: Optic nerve sheath fenestration or VP shunt.",
+      "whyWrong": {
+        "A": "Optic neuritis: Unilateral, pain with movement, normal ICP.",
+        "C": "Brain tumor would show on MRI.",
+        "D": "Meningitis would have meningismus, fever, abnormal CSF (WBCs).",
+        "E": "CRVO: Unilateral, retinal hemorrhages, not papilledema."
+      },
+      "clinicalPearl": "IIH: Obese female + Headache + Papilledema + Elevated opening pressure + Normal MRI. Weight loss + Acetazolamide."
+    },
+    "references": ["IIH Diagnostic Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

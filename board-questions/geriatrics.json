@@ -198,3 +198,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_geri_008",
+    "specialty": "geriatrics",
+    "topic": "Pressure Ulcers",
+    "difficulty": "medium",
+    "vignette": "An 85-year-old bedbound nursing home resident develops a non-blanchable erythema over the sacrum. The skin is intact. What stage is this pressure ulcer?",
+    "options": [
+      { "id": "A", "text": "Stage 1" },
+      { "id": "B", "text": "Stage 2" },
+      { "id": "C", "text": "Stage 3" },
+      { "id": "D", "text": "Stage 4" },
+      { "id": "E", "text": "Unstageable" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Stage 1: Non-blanchable erythema of INTACT skin. Prevention is key: Reposition q2h, pressure-reducing mattress, moisture management, nutrition optimization. Stage 2: Partial-thickness (blister or shallow ulcer). Stage 3: Full-thickness (subcut fat visible). Stage 4: Bone/tendon/muscle exposed.",
+      "whyWrong": {
+        "B": "Stage 2 has partial-thickness skin loss (blister, shallow ulcer).",
+        "C": "Stage 3 has full-thickness skin loss with subcutaneous fat visible.",
+        "D": "Stage 4 has exposed bone, tendon, or muscle.",
+        "E": "Unstageable: Eschar or slough obscuring wound depth."
+      },
+      "clinicalPearl": "Pressure ulcer Stage 1: Non-blanchable erythema, intact skin. Reposition q2h prevents progression. Most preventable HAC."
+    },
+    "references": ["NPUAP Pressure Ulcer Staging"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_009",
+    "specialty": "geriatrics",
+    "topic": "Osteoporosis",
+    "difficulty": "medium",
+    "vignette": "An 80-year-old female with history of hip fracture 2 years ago has a DEXA T-score of -3.0 at the femoral neck. She is on no medications. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Calcium + Vitamin D alone" },
+      { "id": "B", "text": "IV zoledronic acid 5mg annually" },
+      { "id": "C", "text": "Teriparatide 20mcg daily" },
+      { "id": "D", "text": "Denosumab 60mg SC every 6 months" },
+      { "id": "E", "text": "Raloxifene 60mg daily" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Osteoporosis with prior fragility fracture = Severe osteoporosis. Bisphosphonates (alendronate, zoledronic acid) are first-line. Zoledronic acid (IV once yearly) improves adherence and reduces hip fracture by 40% (HORIZON trial). Denosumab is second-line (rebound bone loss if stopped).",
+      "whyWrong": {
+        "A": "Calcium/Vitamin D alone is insufficient for severe osteoporosis.",
+        "C": "Teriparatide is anabolic (builds bone), reserved for severe with multiple fractures or failed bisphosphonates.",
+        "D": "Denosumab is second-line (higher cost, rebound fracture risk if delayed/stopped).",
+        "E": "Raloxifene is weaker (reduces vertebral but NOT hip fractures)."
+      },
+      "clinicalPearl": "Severe osteoporosis (prior fracture): Bisphosphonates first-line. Zoledronic acid IV yearly = Best adherence. Denosumab = Second-line."
+    },
+    "references": ["AACE Osteoporosis Guidelines", "HORIZON Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_geri_010",
+    "specialty": "geriatrics",
+    "topic": "Elder Abuse",
+    "difficulty": "medium",
+    "vignette": "An 82-year-old female is brought in by her son with bruises in various stages of healing, poor hygiene, dehydration, and appears fearful. Her son answers all questions for her and refuses to leave the room. What is the MOST appropriate action?",
+    "options": [
+      { "id": "A", "text": "Respect the son's wishes and discharge" },
+      { "id": "B", "text": "Interview the patient alone and contact Adult Protective Services" },
+      { "id": "C", "text": "Confront the son about abuse" },
+      { "id": "D", "text": "Document and schedule follow-up in 2 weeks" },
+      { "id": "E", "text": "Call security to remove the son" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Suspected elder abuse: Interview the patient ALONE (mandatory). Report to Adult Protective Services (mandatory reporters in most states). Document findings objectively (photos of injuries). Do NOT confront suspected abuser (may escalate danger). Ensure patient safety.",
+      "whyWrong": {
+        "A": "Discharging without investigation endangers the patient.",
+        "C": "Confrontation may escalate violence and endanger patient.",
+        "D": "Elder abuse requires immediate action, not delayed follow-up.",
+        "E": "Security may be needed but APS report and interview come first."
+      },
+      "clinicalPearl": "Suspected elder abuse: Interview ALONE + Report to APS (mandatory). Document injuries. Do NOT confront suspected abuser."
+    },
+    "references": ["National Center on Elder Abuse"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

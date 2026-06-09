@@ -282,3 +282,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_rheum_011",
+    "specialty": "rheumatology",
+    "topic": "Behçet Disease",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male from Turkey presents with recurrent painful oral ulcers (>3/year), genital ulcers, and uveitis. He also has papulopustular skin lesions and a positive pathergy test. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Crohn disease" },
+      { "id": "B", "text": "Behçet disease" },
+      { "id": "C", "text": "Reactive arthritis" },
+      { "id": "D", "text": "Pemphigus vulgaris" },
+      { "id": "E", "text": "Erythema multiforme" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Behçet disease: Recurrent oral ulcers + Genital ulcers + Uveitis + Skin lesions + Positive pathergy test. Associated with HLA-B51. Most common along Silk Road (Turkey, Middle East, East Asia). Treatment: Colchicine, steroids, azathioprine, TNF inhibitors for severe.",
+      "whyWrong": {
+        "A": "Crohn: GI symptoms, fistulas, not oral/genital ulcers as primary.",
+        "C": "Reactive arthritis: Urethritis + Conjunctivitis + Arthritis (not ulcers).",
+        "D": "Pemphigus: Flaccid blisters, not aphthous ulcers.",
+        "E": "Erythema multiforme: Target lesions, not recurrent oral/genital ulcers."
+      },
+      "clinicalPearl": "Behçet: Oral + Genital ulcers + Uveitis + Pathergy + HLA-B51. Colchicine first-line for mucocutaneous."
+    },
+    "references": ["EULAR Behçet Disease Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_012",
+    "specialty": "rheumatology",
+    "topic": "Fibromyalgia",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old female presents with chronic widespread pain (>3 months), fatigue, and unrefreshing sleep. She has multiple tender points on exam. All labs (CBC, ESR, CRP, ANA, RF) are normal. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Opioids for pain" },
+      { "id": "B", "text": "Graded exercise + Cognitive behavioral therapy + Low-dose amitriptyline or duloxetine" },
+      { "id": "C", "text": "Prednisone 20mg daily" },
+      { "id": "D", "text": "Methotrexate" },
+      { "id": "E", "text": "Gabapentin alone" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fibromyalgia: Multimodal approach = Exercise (graded aerobic) + CBT + Pharmacotherapy (duloxetine, milnacipran, pregabalin, or low-dose amitriptyline). Opioids should be AVOIDED (no benefit, risk of dependence). Steroids and DMARDs are ineffective (not inflammatory).",
+      "whyWrong": {
+        "A": "Opioids are contraindicated in fibromyalgia (ineffective, risk of hyperalgesia).",
+        "C": "Steroids have no benefit (not inflammatory).",
+        "D": "DMARDs have no role (no synovitis or joint damage).",
+        "E": "Gabapentin/pregabalin are one option but multimodal approach is superior."
+      },
+      "clinicalPearl": "Fibromyalgia: Exercise + CBT + Neuropathic pain medications. Avoid opioids and steroids. Normal labs help differentiate from inflammatory arthritis."
+    },
+    "references": ["ACR Fibromyalgia Criteria 2016"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_013",
+    "specialty": "rheumatology",
+    "topic": "Scleroderma",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old female presents with Raynaud phenomenon, puffy fingers, and positive anti-centromere antibodies. What is the MOST likely subtype and associated complication?",
+    "options": [
+      { "id": "A", "text": "Diffuse scleroderma - Interstitial lung disease" },
+      { "id": "B", "text": "Limited scleroderma (CREST) - Pulmonary arterial hypertension" },
+      { "id": "C", "text": "Diffuse scleroderma - Renal crisis" },
+      { "id": "D", "text": "Limited scleroderma - Esophageal dysmotility" },
+      { "id": "E", "text": "Systemic lupus erythematosus" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Limited scleroderma (CREST): Calcinosis + Raynaud + Esophageal dysmotility + Sclerodactyly + Telangiectasias. Anti-centromere antibody. HIGH RISK for PAH (pulmonary arterial hypertension). Screen with annual PFT + Echo. Diffuse SSc has anti-Scl70 and risk for ILD and renal crisis.",
+      "whyWrong": {
+        "A": "Diffuse SSc has anti-Scl70, risk for ILD, not anti-centromere.",
+        "C": "Renal crisis is more common in diffuse SSc with anti-RNA pol III.",
+        "D": "Esophageal dysmotility occurs in both subtypes.",
+        "E": "SLE has different autoantibodies (anti-dsDNA, anti-Smith)."
+      },
+      "clinicalPearl": "CREST (limited SSc): Anti-centromere + PAH risk. Diffuse SSc: Anti-Scl70 + ILD risk. Screen PAH annually in limited SSc."
+    },
+    "references": ["ACR/EULAR Scleroderma Classification"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

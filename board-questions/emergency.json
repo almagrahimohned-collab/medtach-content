@@ -283,3 +283,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_em_011",
+    "specialty": "emergency",
+    "topic": "Pulmonary Embolism",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female presents with sudden dyspnea, pleuritic chest pain, and hemoptysis 1 week after a long flight. She is tachycardic (HR 120), hypotensive (BP 85/60), and hypoxic (SpO2 85%). Bedside echo shows RV dilation and McConnell sign. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "CT pulmonary angiography" },
+      { "id": "B", "text": "IV unfractionated heparin" },
+      { "id": "C", "text": "Systemic thrombolytics (tPA)" },
+      { "id": "D", "text": "Start apixaban" },
+      { "id": "E", "text": "Surgical embolectomy" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Massive PE (hypotension + RV dysfunction): Systemic thrombolytics (tPA) is FIRST-LINE and life-saving. Do NOT delay for CTPA (bedside echo is sufficient in unstable patient). Contraindications: Recent surgery, hemorrhagic stroke. If contraindicated: Surgical embolectomy or catheter-directed thrombolysis.",
+      "whyWrong": {
+        "A": "CTPA delays life-saving thrombolysis in unstable patient.",
+        "B": "Heparin alone is insufficient for massive PE.",
+        "D": "Oral anticoagulants are for stable PE, not massive.",
+        "E": "Surgical embolectomy if thrombolytics contraindicated or fail."
+      },
+      "clinicalPearl": "Massive PE (hypotension): THROMBOLYTICS immediately! Bedside echo can confirm. Do NOT wait for CTPA."
+    },
+    "references": ["CHEST PE Guidelines", "AHA PE Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_012",
+    "specialty": "emergency",
+    "topic": "Aortic Dissection",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male with hypertension presents with sudden, severe 'tearing' chest pain radiating to his back. BP in right arm is 160/95, left arm is 110/70. CXR shows widened mediastinum. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Start IV esmolol (beta-blocker) to reduce HR and BP" },
+      { "id": "B", "text": "Start nitroprusside to lower BP" },
+      { "id": "C", "text": "Emergency surgery without further imaging" },
+      { "id": "D", "text": "Start heparin" },
+      { "id": "E", "text": "CT angiogram first, then treat" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Stanford Type A aortic dissection (ascending aorta): START IV BETA-BLOCKER FIRST (esmolol or labetalol) to reduce HR to 60 and BP to 100-120 systolic. Reduce shear stress on aortic wall. Then add vasodilator (nicardipine, nitroprusside) if needed. Then CT angiogram for definitive diagnosis. Emergency surgery for Type A.",
+      "whyWrong": {
+        "B": "Vasodilator alone can cause reflex tachycardia and worsen dissection. Beta-blocker first!",
+        "C": "CT angiogram needed for diagnosis and surgical planning before OR.",
+        "D": "Heparin is CONTRAINDICATED (worsens bleeding).",
+        "E": "BP control should start simultaneously while preparing for CT."
+      },
+      "clinicalPearl": "Aortic dissection: Beta-blocker FIRST (HR 60, SBP 100-120) → Then vasodilator → CT angiogram → Surgery for Type A."
+    },
+    "references": ["ACC/AHA Aortic Disease Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_013",
+    "specialty": "emergency",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old male sustains burns to his entire left arm, anterior chest, and anterior left leg. Using the Rule of Nines, what percentage of BSA is burned?",
+    "options": [
+      { "id": "A", "text": "18%" },
+      { "id": "B", "text": "27%" },
+      { "id": "C", "text": "36%" },
+      { "id": "D", "text": "45%" },
+      { "id": "E", "text": "54%" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Rule of Nines: Entire arm = 9%, Anterior chest = 9%, Anterior leg = 9%. Total = 27%. Parkland formula: 4mL × kg × %BSA (give half in first 8h). Referral to burn center if: >10% partial-thickness, face/hands/feet/genitals, inhalation injury, electrical/chemical burns.",
+      "whyWrong": {
+        "A": "18% = Entire arm + Anterior chest only.",
+        "C": "36% = Entire arm + Entire chest.",
+        "D": "45% = Both arms + Anterior trunk.",
+        "E": "54% = Both arms + Entire trunk."
+      },
+      "clinicalPearl": "Rule of Nines: Arm 9%, Leg 18%, Trunk 18% (anterior 9%, posterior 9%), Head 9%. Parkland: 4mL × kg × %BSA."
+    },
+    "references": ["ATLS Burn Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
