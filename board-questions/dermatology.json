@@ -1,0 +1,142 @@
+[
+  {
+    "id": "board_derm_001",
+    "specialty": "dermatology",
+    "topic": "Psoriasis",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old male presents with well-demarcated, erythematous plaques with silvery scales on his elbows, knees, and scalp. He has nail pitting and onycholysis. He also complains of joint pain in his hands. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Atopic dermatitis" },
+      { "id": "B", "text": "Psoriasis vulgaris" },
+      { "id": "C", "text": "Lichen planus" },
+      { "id": "D", "text": "Seborrheic dermatitis" },
+      { "id": "E", "text": "Pityriasis rosea" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Psoriasis vulgaris: Well-demarcated erythematous plaques + Silvery scales + Extensor surfaces (elbows, knees) + Nail changes (pitting, onycholysis) + Psoriatic arthritis (joint pain). Auspitz sign (pinpoint bleeding when scale removed). Treatment: Topical steroids, vitamin D analogs, biologics for moderate-severe.",
+      "whyWrong": {
+        "A": "Atopic dermatitis: Flexural distribution, pruritic, ill-defined, no silvery scales.",
+        "C": "Lichen planus: Purple, polygonal, pruritic papules (6 Ps), Wickham striae.",
+        "D": "Seborrheic dermatitis: Greasy yellow scales on face/scalp, not extensor plaques.",
+        "E": "Pityriasis rosea: Herald patch + Christmas tree distribution, self-limited."
+      },
+      "clinicalPearl": "Psoriasis: Silvery scales + Extensor surfaces + Nail pitting + Arthritis. Auspitz sign. Biologics (anti-IL17, anti-IL23) for moderate-severe."
+    },
+    "references": ["AAD Psoriasis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_002",
+    "specialty": "dermatology",
+    "topic": "Melanoma",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female presents with a changing mole on her back. ABCDE criteria: Asymmetry, irregular Borders, multiple Colors (black, brown, red), Diameter 8mm, and Evolution (changing over 3 months). What is the MOST important prognostic factor?",
+    "options": [
+      { "id": "A", "text": "Diameter of the lesion" },
+      { "id": "B", "text": "Breslow thickness (depth of invasion)" },
+      { "id": "C", "text": "Presence of ulceration" },
+      { "id": "D", "text": "Mitotic rate" },
+      { "id": "E", "text": "Patient age" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Breslow thickness (mm) is the SINGLE most important prognostic factor in melanoma. Measured from granular layer to deepest tumor cell. <0.8mm = Low risk, 1-2mm = Intermediate, >4mm = High risk. Sentinel lymph node biopsy offered if ≥0.8mm or ulceration.",
+      "whyWrong": {
+        "A": "Diameter contributes to T stage but Breslow depth is more prognostic.",
+        "C": "Ulceration is second most important (upstages within T category).",
+        "D": "Mitotic rate is used for thin melanomas but Breslow is primary.",
+        "E": "Age affects prognosis but is not the primary pathologic factor."
+      },
+      "clinicalPearl": "Melanoma prognosis: Breslow thickness #1 + Ulceration #2. SLNB if ≥0.8mm or ulceration. ABCDE for screening."
+    },
+    "references": ["AJCC Melanoma Staging 8th Edition"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_003",
+    "specialty": "dermatology",
+    "topic": "Drug Eruptions",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female develops fever, diffuse erythematous rash, and facial edema 3 weeks after starting lamotrigine. She has mucosal erosions and epidermal detachment of 15% BSA. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Erythema multiforme" },
+      { "id": "B", "text": "Stevens-Johnson syndrome" },
+      { "id": "C", "text": "DRESS syndrome" },
+      { "id": "D", "text": "Acute generalized exanthematous pustulosis (AGEP)" },
+      { "id": "E", "text": "Morbilliform drug eruption" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SJS/TEN spectrum: Fever + Epidermal detachment + Mucosal erosions + Nikolsky sign. SJS: <10% BSA, SJS-TEN overlap: 10-30%, TEN: >30%. Lamotrigine, allopurinol, sulfonamides, NSAIDs are common triggers. STOP offending drug. SCORTEN score for prognosis.",
+      "whyWrong": {
+        "A": "EM: Target lesions, minimal mucosal involvement, <10% detachment, often HSV-related.",
+        "C": "DRESS: Eosinophilia, atypical lymphocytosis, organ involvement (liver, kidney), longer onset (2-8 weeks).",
+        "D": "AGEP: Pustular eruption, fever, acute onset (days), antibiotics.",
+        "E": "Morbilliform: Maculopapular, no mucosal involvement, no detachment, benign."
+      },
+      "clinicalPearl": "SJS/TEN: Epidermal detachment + Mucosal erosions + Nikolsky sign. SCORTEN predicts mortality. STOP drug immediately."
+    },
+    "references": ["SJS/TEN Management Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_004",
+    "specialty": "dermatology",
+    "topic": "Acne Vulgaris",
+    "difficulty": "easy",
+    "vignette": "A 16-year-old male presents with comedonal and inflammatory acne on his face. He has been using benzoyl peroxide OTC without improvement. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Oral isotretinoin" },
+      { "id": "B", "text": "Topical retinoid (tretinoin or adapalene) + Benzoyl peroxide" },
+      { "id": "C", "text": "Oral doxycycline" },
+      { "id": "D", "text": "Topical clindamycin alone" },
+      { "id": "E", "text": "Oral spironolactone" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Mild-moderate acne: Topical retinoid (adapalene/tretinoin) + Benzoyl peroxide (BPO) is first-line. Retinoid normalizes follicular keratinization + BPO is bactericidal against C. acnes. Fixed-dose combination (adapalene-BPO) improves adherence.",
+      "whyWrong": {
+        "A": "Isotretinoin is for severe nodulocystic acne or refractory to other treatments.",
+        "C": "Oral antibiotics for moderate-severe inflammatory acne (not first-line for comedonal).",
+        "D": "Topical antibiotic monotherapy causes resistance. Always combine with BPO.",
+        "E": "Spironolactone is for hormonal acne in females (not first-line for teenage male)."
+      },
+      "clinicalPearl": "Acne treatment ladder: Topical retinoid + BPO → Add topical antibiotic → Oral antibiotic → Isotretinoin. NEVER antibiotic monotherapy."
+    },
+    "references": ["AAD Acne Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_derm_005",
+    "specialty": "dermatology",
+    "topic": "Skin Cancer",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old farmer presents with a pearly, telangiectatic nodule on his nose that bleeds with minor trauma. It has been slowly growing for 2 years. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Squamous cell carcinoma" },
+      { "id": "B", "text": "Basal cell carcinoma" },
+      { "id": "C", "text": "Melanoma" },
+      { "id": "D", "text": "Seborrheic keratosis" },
+      { "id": "E", "text": "Actinic keratosis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Basal cell carcinoma (BCC): Most common skin cancer. Pearly nodule + Telangiectasias + Bleeds with trauma + Slow-growing. Sun-exposed areas (nose, face). Locally invasive but RARELY metastasizes. Treatment: Mohs surgery (face), excision, or topical (superficial).",
+      "whyWrong": {
+        "A": "SCC: Hyperkeratotic, scaly, may ulcerate, sun-exposed, can metastasize (2-5%).",
+        "C": "Melanoma: Asymmetric, irregular borders, multiple colors (ABCDE).",
+        "D": "Seborrheic keratosis: 'Stuck-on' appearance, greasy, hyperpigmented, benign.",
+        "E": "AK: Rough, scaly patch (sandpaper-like), precursor to SCC."
+      },
+      "clinicalPearl": "BCC: Pearly + Telangiectasias + Bleeds + Nose/face. Mohs surgery for high-risk locations. Rarely metastasizes."
+    },
+    "references": ["NCCN BCC Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "board_em_001",
+    "specialty": "emergency",
+    "topic": "Trauma Resuscitation",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old male is brought to the trauma bay after a motorcycle accident. He is confused, hypotensive (BP 80/50), tachycardic (HR 130). FAST scan shows free fluid in the abdomen. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "CT abdomen and pelvis" },
+      { "id": "B", "text": "Emergent exploratory laparotomy" },
+      { "id": "C", "text": "Start norepinephrine and admit to ICU" },
+      { "id": "D", "text": "Diagnostic peritoneal lavage (DPL)" },
+      { "id": "E", "text": "Serial abdominal exams" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Unstable blunt trauma patient + Positive FAST scan = EMERGENT LAPAROTOMY. Do NOT delay for CT scan. This patient has hemorrhagic shock requiring immediate surgical control. ATLS: Unstable + positive FAST = OR.",
+      "whyWrong": {
+        "A": "CT delays definitive management in unstable patient.",
+        "C": "Vasopressors are temporizing only; patient needs surgical hemorrhage control.",
+        "D": "DPL has been replaced by FAST in most centers.",
+        "E": "Serial exams are for STABLE patients, not hypotensive."
+      },
+      "clinicalPearl": "Unstable blunt trauma + Positive FAST = OR immediately. CT is for STABLE patients. ATLS: ABCDE, identify and treat life threats."
+    },
+    "references": ["ATLS 10th Edition"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_002",
+    "specialty": "emergency",
+    "topic": "Cardiac Arrest",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male collapses in the ED waiting room. He is unresponsive, pulseless, and not breathing. AED shows ventricular fibrillation. What is the FIRST step?",
+    "options": [
+      { "id": "A", "text": "Start CPR immediately" },
+      { "id": "B", "text": "Defibrillate immediately" },
+      { "id": "C", "text": "Give epinephrine 1mg IV" },
+      { "id": "D", "text": "Intubate" },
+      { "id": "E", "text": "Check for pulse for 10 seconds" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "VF/pulseless VT: IMMEDIATE DEFIBRILLATION. CPR if defibrillator not immediately available. After shock → 2 min CPR → Rhythm check → Shock if VF/VT → Epinephrine after 2nd shock → Amiodarone after 3rd shock.",
+      "whyWrong": {
+        "A": "CPR if defibrillator not immediately available, but AED is ready (shock first).",
+        "C": "Epinephrine given after 2nd shock, not before defibrillation.",
+        "D": "Airway management is secondary to defibrillation and high-quality CPR.",
+        "E": "Already confirmed pulseless - do not delay defibrillation for pulse check."
+      },
+      "clinicalPearl": "VF/pVT: SHOCK FIRST. High-quality CPR between shocks. Epinephrine after 2nd shock. Amiodarone after 3rd shock."
+    },
+    "references": ["AHA ACLS Guidelines 2020"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_003",
+    "specialty": "emergency",
+    "topic": "Toxicology",
+    "difficulty": "hard",
+    "vignette": "A 20-year-old female presents with altered mental status, hyperthermia (41°C), muscle rigidity, tachycardia, and mydriasis. She was at a music festival. What toxidrome is this?",
+    "options": [
+      { "id": "A", "text": "Serotonin syndrome" },
+      { "id": "B", "text": "Sympathomimetic toxidrome (MDMA/Ecstasy)" },
+      { "id": "C", "text": "Anticholinergic toxidrome" },
+      { "id": "D", "text": "Neuroleptic malignant syndrome" },
+      { "id": "E", "text": "Opioid overdose" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Sympathomimetic toxidrome (MDMA, cocaine, methamphetamine): Hyperthermia + Tachycardia + Mydriasis + Agitation + Diaphoresis. MDMA (Ecstasy/Molly) = Hyponatremia + Serotonin-like effects. Treatment: Cooling, benzodiazepines, IV fluids. Monitor for rhabdomyolysis.",
+      "whyWrong": {
+        "A": "Serotonin syndrome: Clonus, hyperreflexia, usually from SSRIs/MAOIs.",
+        "C": "Anticholinergic: Hot as a hare, dry as a bone (no sweating), absent bowel sounds.",
+        "D": "NMS: Lead-pipe rigidity, bradyreflexia, from antipsychotics.",
+        "E": "Opioid: Pinpoint pupils, respiratory depression, hypothermia."
+      },
+      "clinicalPearl": "MDMA toxidrome: Hyperthermia + Tachycardia + Mydriasis + Festival/rave setting. Cool aggressively. Check Na (hyponatremia risk)."
+    },
+    "references": ["Toxidrome Recognition", "MDMA Toxicity Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_004",
+    "specialty": "emergency",
+    "topic": "Acute Coronary Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male presents with 2 hours of crushing chest pain. ECG shows ST elevation in II, III, aVF. The nearest PCI-capable hospital is 3 hours away. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Transfer for primary PCI" },
+      { "id": "B", "text": "Administer fibrinolytic therapy (tenecteplase)" },
+      { "id": "C", "text": "Start heparin and transfer for PCI tomorrow" },
+      { "id": "D", "text": "Consult cardiology by phone" },
+      { "id": "E", "text": "CT coronary angiography" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Inferior STEMI with PCI not available within 120 minutes: FIBRINOLYTICS (tenecteplase, alteplase, reteplase). Goal: Door-to-needle time <30 minutes. Contraindications: Active bleeding, recent surgery, hemorrhagic stroke history. Transfer after lytics for possible rescue PCI.",
+      "whyWrong": {
+        "A": "Transfer time exceeds 120 min window for primary PCI.",
+        "C": "Anticoagulation alone is insufficient. Need lytics if PCI unavailable.",
+        "D": "Consult does not reperfuse the myocardium.",
+        "E": "CT delays reperfusion and is not indicated for STEMI."
+      },
+      "clinicalPearl": "STEMI: PCI within 120 min → Primary PCI. PCI >120 min away → Fibrinolytics (door-to-needle <30 min) + Transfer."
+    },
+    "references": ["ACC/AHA STEMI Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_em_005",
+    "specialty": "emergency",
+    "topic": "Airway Management",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old male with angioedema presents with stridor, drooling, and respiratory distress. O2 sat is 88% on face mask. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Start IV steroids and antihistamines" },
+      { "id": "B", "text": "Awake fiberoptic intubation" },
+      { "id": "C", "text": "Rapid sequence intubation with succinylcholine" },
+      { "id": "D", "text": "Cricothyrotomy" },
+      { "id": "E", "text": "Nebulized racemic epinephrine and observation" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Impending airway obstruction (stridor, drooling, hypoxia) from angioedema: Secure airway BEFORE it closes completely. Awake fiberoptic intubation by experienced provider (preserves spontaneous breathing). RSI is dangerous (can't ventilate, can't intubate). Have cricothyrotomy tray ready.",
+      "whyWrong": {
+        "A": "Medical therapy is adjunctive but airway takes priority.",
+        "C": "RSI in angioedema risks complete airway loss (distorted anatomy).",
+        "D": "Cricothyrotomy is last resort (failed airway).",
+        "E": "Nebulized epinephrine for croup/post-extubation, not angioedema."
+      },
+      "clinicalPearl": "Angioedema + Stridor + Drooling = Prepare for difficult airway. Awake fiberoptic intubation. Have surgical airway ready."
+    },
+    "references": ["Difficult Airway Society Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "board_rheum_001",
+    "specialty": "rheumatology",
+    "topic": "Rheumatoid Arthritis",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female presents with symmetric polyarthritis of MCP, PIP, and wrists for 3 months. Morning stiffness lasts 2 hours. Labs: RF positive, Anti-CCP positive. X-rays show periarticular osteopenia and erosions. What is the BEST initial DMARD?",
+    "options": [
+      { "id": "A", "text": "Prednisone 10mg daily" },
+      { "id": "B", "text": "Methotrexate 15mg weekly + Folic acid" },
+      { "id": "C", "text": "Hydroxychloroquine" },
+      { "id": "D", "text": "Adalimumab (anti-TNF)" },
+      { "id": "E", "text": "Sulfasalazine" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "RA with erosions = Moderate-severe disease. Methotrexate is FIRST-LINE DMARD (anchor drug). Start 15mg weekly and escalate to 25mg. Always give folic acid to reduce side effects. If inadequate response at 3-6 months → Add biologic (anti-TNF first-line).",
+      "whyWrong": {
+        "A": "Steroids are for short-term symptom control while DMARD takes effect (bridge therapy).",
+        "C": "Hydroxychloroquine is for mild RA or combination therapy, not moderate-severe with erosions.",
+        "D": "Biologics are second-line after MTX failure (treat-to-target).",
+        "E": "Sulfasalazine is alternative for mild RA or combination therapy."
+      },
+      "clinicalPearl": "RA: Methotrexate first-line (anchor drug). Add biologic if inadequate response. Treat-to-target (remission or low disease activity)."
+    },
+    "references": ["ACR RA Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_002",
+    "specialty": "rheumatology",
+    "topic": "Systemic Lupus Erythematosus",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old African American female presents with malar rash, oral ulcers, arthritis, and pleuritic chest pain. Labs: ANA 1:640, Anti-dsDNA positive, C3/C4 low, Proteinuria 1.5g/day. What is the BEST treatment for her nephritis?",
+    "options": [
+      { "id": "A", "text": "Prednisone alone" },
+      { "id": "B", "text": "Mycophenolate mofetil + Prednisone" },
+      { "id": "C", "text": "Cyclophosphamide (NIH regimen)" },
+      { "id": "D", "text": "Rituximab" },
+      { "id": "E", "text": "Belimumab" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Class III/IV lupus nephritis (proteinuria >0.5g/day + active sediment): Induction therapy = Mycophenolate mofetil (MMF) + Prednisone (or Cyclophosphamide + Prednisone). MMF is preferred (ALMS trial) due to better safety profile. Maintenance: MMF or Azathioprine.",
+      "whyWrong": {
+        "A": "Prednisone alone is insufficient for proliferative nephritis.",
+        "C": "Cyclophosphamide is alternative but MMF is preferred first-line.",
+        "D": "Rituximab is for refractory disease (LUNAR trial showed no benefit for induction).",
+        "E": "Belimumab is add-on therapy for active SLE, not first-line for nephritis."
+      },
+      "clinicalPearl": "Lupus nephritis Class III/IV: Mycophenolate mofetil + Prednisone (induction) → MMF or AZA (maintenance)."
+    },
+    "references": ["ACR Lupus Nephritis Guidelines", "ALMS Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_003",
+    "specialty": "rheumatology",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old obese male presents with acute-onset severe pain, erythema, and swelling of the first MTP joint (podagra). He had a similar episode last year. Joint aspiration shows negatively birefringent needle-shaped crystals. What is the BEST treatment for the acute attack?",
+    "options": [
+      { "id": "A", "text": "Allopurinol 300mg daily" },
+      { "id": "B", "text": "NSAIDs + Colchicine + Intra-articular steroids" },
+      { "id": "C", "text": "Start allopurinol immediately" },
+      { "id": "D", "text": "Probenecid" },
+      { "id": "E", "text": "Febuxostat" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute gout attack: Anti-inflammatory therapy first! NSAIDs (naproxen, indomethacin) OR Colchicine (low-dose: 1.2mg then 0.6mg 1h later) OR Steroids (oral or intra-articular). Do NOT start or change urate-lowering therapy (ULT) during acute attack (prolongs flare).",
+      "whyWrong": {
+        "A": "Starting ULT during acute attack worsens and prolongs the flare.",
+        "C": "Never start ULT during acute attack. Treat flare first, then start ULT 2-4 weeks later.",
+        "D": "Probenecid is for chronic management (under-excretors), not acute attacks.",
+        "E": "Febuxostat is ULT (second-line), not for acute attacks."
+      },
+      "clinicalPearl": "Acute gout: Treat inflammation FIRST (NSAIDs/Colchicine/Steroids). Start ULT (allopurinol) 2-4 weeks AFTER flare resolves."
+    },
+    "references": ["ACR Gout Guidelines 2020"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_004",
+    "specialty": "rheumatology",
+    "topic": "Systemic Sclerosis",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old female presents with Raynaud phenomenon, skin thickening on her hands (sclerodactyly), and dysphagia. She has positive Anti-Scl-70 (anti-topoisomerase I) antibodies. What is the MOST concerning complication?",
+    "options": [
+      { "id": "A", "text": "Interstitial lung disease (ILD)" },
+      { "id": "B", "text": "Pulmonary arterial hypertension" },
+      { "id": "C", "text": "Scleroderma renal crisis" },
+      { "id": "D", "text": "Digital ulcers" },
+      { "id": "E", "text": "Esophageal dysmotility" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Scleroderma renal crisis: Sudden onset severe HTN + AKI + Microangiopathic hemolytic anemia (MAHA). Most concerning because it can be RAPIDLY FATAL. Associated with Anti-RNA polymerase III antibody. Treatment: ACE inhibitors (captopril) - LIFE-SAVING. Avoid high-dose steroids (increase risk).",
+      "whyWrong": {
+        "A": "ILD is common and serious but progresses slowly.",
+        "B": "PAH is more common in limited SSc (CREST), not diffuse (anti-Scl70+).",
+        "D": "Digital ulcers are painful but not acutely life-threatening.",
+        "E": "Esophageal dysmotility affects quality of life but not mortality."
+      },
+      "clinicalPearl": "Scleroderma renal crisis: Sudden HTN + AKI + MAHA. Emergency! ACE inhibitors are life-saving. Check anti-RNA pol III antibody."
+    },
+    "references": ["Scleroderma Renal Crisis Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_rheum_005",
+    "specialty": "rheumatology",
+    "topic": "Ankylosing Spondylitis",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old male presents with chronic low back pain for 2 years. Pain is worse in the morning, improves with exercise, and wakes him at night. He has limited spinal mobility. HLA-B27 is positive. Sacroiliac joint X-ray shows erosions and ankylosis. What is the BEST initial biologic?",
+    "options": [
+      { "id": "A", "text": "Adalimumab (anti-TNF)" },
+      { "id": "B", "text": "Secukinumab (anti-IL17)" },
+      { "id": "C", "text": "Tofacitinib (JAK inhibitor)" },
+      { "id": "D", "text": "Abatacept" },
+      { "id": "E", "text": "Rituximab" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Ankylosing spondylitis (axial spondyloarthritis): Anti-TNF (adalimumab, infliximab, etanercept, golimumab, certolizumab) is FIRST-LINE biologic after NSAID failure. Anti-IL17 (secukinumab, ixekizumab) is second-line or alternative. JAK inhibitors are for TNF failure.",
+      "whyWrong": {
+        "B": "Anti-IL17 is second-line (after anti-TNF failure).",
+        "C": "JAK inhibitors for refractory disease (third-line).",
+        "D": "Abatacept is not effective for axial disease (works in peripheral PsA).",
+        "E": "Rituximab has NO role in SpA."
+      },
+      "clinicalPearl": "Axial SpA: NSAIDs first → Anti-TNF (first-line biologic) → Anti-IL17 (second-line) → JAK inhibitor (third-line)."
+    },
+    "references": ["ASAS/EULAR Axial SpA Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
