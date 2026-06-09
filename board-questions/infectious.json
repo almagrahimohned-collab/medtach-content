@@ -83,8 +83,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_id_004",
     "specialty": "infectious",
@@ -281,8 +280,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_id_011",
     "specialty": "infectious",
@@ -367,8 +365,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_id_014",
     "specialty": "infectious",
@@ -425,8 +422,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_id_016",
     "specialty": "infectious",
@@ -511,8 +507,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_id_019",
     "specialty": "infectious",

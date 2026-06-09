@@ -111,8 +111,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_geri_005",
     "specialty": "geriatrics",
@@ -197,8 +196,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_geri_008",
     "specialty": "geriatrics",
@@ -283,8 +281,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_geri_011",
     "specialty": "geriatrics",
@@ -369,8 +366,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_geri_014",
     "specialty": "geriatrics",
@@ -455,8 +451,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_geri_017",
     "specialty": "geriatrics",
@@ -541,8 +536,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_geri_020",
     "specialty": "geriatrics",

@@ -83,8 +83,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pharma_004",
     "specialty": "pharmacology",
@@ -225,8 +224,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pharma_009",
     "specialty": "pharmacology",
@@ -311,8 +309,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pharma_012",
     "specialty": "pharmacology",
@@ -417,7 +414,7 @@
         "A": "Need to know current dose to determine appropriate increase.",
         "B": "May be appropriate but need AUC calculation to determine optimal regimen.",
         "C": "Linezolid is alternative but vancomycin can be optimized first.",
-        "D": "Gentamicin synergy is for enterococcal endocarditis, not MRSA bacteremia monotherapy.",
+        "D": "Gentamicin synergy is for enterococcal endocarditis, not MRSA bacteremia monotherapy."
       },
       "clinicalPearl": "Vancomycin: AUC/MIC 400-600 (not just trough 15-20). AUC-guided dosing is new standard. Calculate AUC using Bayesian software."
     },
@@ -453,8 +450,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pharma_017",
     "specialty": "pharmacology",
@@ -567,8 +563,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pharma_021",
     "specialty": "pharmacology",

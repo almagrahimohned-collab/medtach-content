@@ -223,8 +223,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_neuro_009",
     "specialty": "neurology",
@@ -309,8 +308,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_neuro_012",
     "specialty": "neurology",
@@ -367,8 +365,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_neuro_014",
     "specialty": "neurology",
@@ -453,8 +450,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_neuro_017",
     "specialty": "neurology",

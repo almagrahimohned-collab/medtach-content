@@ -278,8 +278,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pulmo_011",
     "specialty": "pulmonology",
@@ -364,8 +363,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pulmo_014",
     "specialty": "pulmonology",
@@ -422,8 +420,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pulmo_016",
     "specialty": "pulmonology",
@@ -508,8 +505,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pulmo_019",
     "specialty": "pulmonology",
@@ -622,8 +618,7 @@
     "highYield": true,
     "timeAllocated": 72
   }
-]
-[
+,
   {
     "id": "board_pulmo_023",
     "specialty": "pulmonology",
