@@ -1603,5 +1603,285 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b6_001",
+    "specialty": "neurology",
+    "topic": "Autoimmune Encephalitis",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old female presents with acute psychosis, seizures, and orofacial dyskinesias over 2 weeks. CSF shows lymphocytic pleocytosis. MRI shows T2 hyperintensity in medial temporal lobes. What antibody is MOST likely positive?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anti-Hu (ANNA-1)"
+      },
+      {
+        "id": "B",
+        "text": "Anti-NMDA receptor"
+      },
+      {
+        "id": "C",
+        "text": "Anti-Yo (PCA-1)"
+      },
+      {
+        "id": "D",
+        "text": "Anti-GAD65"
+      },
+      {
+        "id": "E",
+        "text": "Anti-MOG"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Anti-NMDA receptor encephalitis: Young female + Acute psychosis + Seizures + Orofacial dyskinesias + Temporal lobe MRI changes. Associated with ovarian teratoma (perform pelvic imaging). Treatment: Tumor removal + Immunotherapy (steroids, IVIG, PLEX, rituximab, cyclophosphamide). Most common autoimmune encephalitis.",
+      "whyWrong": {
+        "A": "Anti-Hu = Paraneoplastic encephalomyelitis (SCLC), older adults, not orofacial dyskinesias.",
+        "C": "Anti-Yo = Paraneoplastic cerebellar degeneration (breast/ovarian), not psychosis.",
+        "D": "Anti-GAD65 = Stiff-person syndrome or limbic encephalitis, less common than NMDAR.",
+        "E": "Anti-MOG = MOG antibody disease (optic neuritis, myelitis, ADEM), not psychosis."
+      },
+      "clinicalPearl": "Anti-NMDAR encephalitis: Young female + Psychosis + Orofacial dyskinesias. Check for ovarian teratoma. Immunotherapy + Tumor removal."
+    },
+    "references": [
+      "Anti-NMDAR Encephalitis Diagnostic Criteria",
+      "Lancet Neurology 2020"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b6_002",
+    "specialty": "neurology",
+    "topic": "Restless Legs Syndrome",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female presents with uncomfortable urge to move her legs at night, relieved by walking. Symptoms disrupt sleep. Ferritin is 25 ng/mL. What is the BEST initial management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pramipexole (dopamine agonist) 0.125mg at bedtime"
+      },
+      {
+        "id": "B",
+        "text": "Iron supplementation (ferrous sulfate 325mg with vitamin C)"
+      },
+      {
+        "id": "C",
+        "text": "Gabapentin enacarbil 600mg at bedtime"
+      },
+      {
+        "id": "D",
+        "text": "Pregabalin 75mg at bedtime"
+      },
+      {
+        "id": "E",
+        "text": "Clonazepam 0.5mg at bedtime"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "RLS with ferritin <75 ng/mL: IRON REPLACEMENT FIRST. Iron deficiency is a major cause of RLS. Ferrous sulfate 325mg with vitamin C (enhances absorption) on empty stomach. Recheck ferritin in 3-6 months (target >75). If ferritin normal or symptoms persist despite iron, alpha-2-delta ligands (gabapentin enacarbil, pregabalin) are preferred over dopamine agonists (risk of augmentation).",
+      "whyWrong": {
+        "A": "Dopamine agonists cause augmentation (symptom worsening); not first-line anymore.",
+        "C": "Gabapentin is preferred if ferritin normal and iron supplementation fails.",
+        "D": "Pregabalin is alternative alpha-2-delta ligand.",
+        "E": "Benzodiazepines not recommended for RLS (risk of dependence, tolerance)."
+      },
+      "clinicalPearl": "RLS: Check ferritin! If <75, iron replacement first. Alpha-2-delta ligands > Dopamine agonists (avoid augmentation)."
+    },
+    "references": [
+      "AAN RLS Guidelines 2023",
+      "IRLSSG Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b6_003",
+    "specialty": "neurology",
+    "topic": "Bell's Palsy vs Stroke",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old diabetic male presents with acute onset right facial weakness involving the forehead, inability to close his right eye, and loss of nasolabial fold. He has no other neurological symptoms. What is the KEY differentiating feature from stroke?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forehead INVOLVEMENT (peripheral pattern)"
+      },
+      {
+        "id": "B",
+        "text": "Forehead SPARING (central pattern)"
+      },
+      {
+        "id": "C",
+        "text": "Presence of arm weakness"
+      },
+      {
+        "id": "D",
+        "text": "Hyperacusis"
+      },
+      {
+        "id": "E",
+        "text": "Loss of taste"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Bell's palsy = PERIPHERAL CN VII lesion = Forehead INVOLVED (bilateral cortical innervation of forehead muscles). UMN stroke = Forehead SPARED (contralateral forehead receives ipsilateral cortical input). Bell's treatment: Prednisone 60mg x7 days within 72h + Valacyclovir (if severe). Protect eye (lubrication, taping at night).",
+      "whyWrong": {
+        "A": "Forehead involvement = LMN/peripheral (Bell's palsy).",
+        "B": "Forehead sparing = UMN/central (stroke).",
+        "C": "Arm weakness suggests stroke but is not the KEY differentiating feature for facial weakness alone.",
+        "D": "Hyperacusis occurs in Bell's due to stapedius muscle paralysis.",
+        "E": "Loss of taste (chorda tympani) occurs in Bell's but not specific."
+      },
+      "clinicalPearl": "Facial weakness: Forehead INVOLVED = Bell's palsy (LMN). Forehead SPARED = Stroke (UMN). Prednisone within 72h for Bell's."
+    },
+    "references": [
+      "AAN Bell's Palsy Guidelines 2023",
+      "AAO-HNS Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b6_004",
+    "specialty": "neurology",
+    "topic": "Vertebrobasilar Insufficiency",
+    "difficulty": "hard",
+    "vignette": "A 65-year-old male presents with recurrent episodes of vertigo, diplopia, dysarthria, and bilateral limb weakness lasting 10-15 minutes. Symptoms resolve completely between episodes. What is the diagnosis and BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TIA - Aspirin 325mg + risk factor control"
+      },
+      {
+        "id": "B",
+        "text": "Vertebrobasilar TIA - DAPT (aspirin + clopidogrel) + statin + Vascular imaging"
+      },
+      {
+        "id": "C",
+        "text": "Meniere disease - Low-salt diet and meclizine"
+      },
+      {
+        "id": "D",
+        "text": "Migraine with aura - Sumatriptan"
+      },
+      {
+        "id": "E",
+        "text": "BPPV - Epley maneuver"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Vertebrobasilar TIA: Multiple posterior circulation symptoms (vertigo, diplopia, dysarthria, bilateral weakness). HIGH RISK for recurrent stroke. DAPT (aspirin + clopidogrel) for 21 days reduces stroke risk (CHANCE and POINT trials). Requires urgent vascular imaging (CTA/MRA) to evaluate for vertebrobasilar stenosis. Statin and risk factor control essential.",
+      "whyWrong": {
+        "A": "Single antiplatelet may be insufficient for high-risk posterior circulation TIA.",
+        "B": "DAPT + Statin + Vascular imaging is standard for high-risk TIA.",
+        "C": "Meniere: Vertigo + Hearing loss + Tinnitus; not diplopia or weakness.",
+        "D": "Migraine: Headache, visual aura; not bilateral weakness.",
+        "E": "BPPV: Brief vertigo with head position; no diplopia or weakness."
+      },
+      "clinicalPearl": "Vertebrobasilar TIA: Multiple posterior circulation symptoms. DAPT x21 days (CHANCE/POINT). Urgent vascular imaging."
+    },
+    "references": [
+      "CHANCE Trial 2013",
+      "POINT Trial 2018",
+      "AHA/ASA TIA Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b6_005",
+    "specialty": "neurology",
+    "topic": "Spinal Cord Infarction",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old male develops acute onset bilateral leg weakness, loss of pain/temperature sensation, with PRESERVED vibration and proprioception 2 hours after aortic aneurysm surgery. What artery is occluded?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anterior spinal artery"
+      },
+      {
+        "id": "B",
+        "text": "Posterior spinal arteries"
+      },
+      {
+        "id": "C",
+        "text": "Artery of Adamkiewicz"
+      },
+      {
+        "id": "D",
+        "text": "Vertebral artery"
+      },
+      {
+        "id": "E",
+        "text": "Basilar artery"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Anterior spinal artery syndrome: Bilateral weakness (corticospinal tract) + Loss of pain/temperature (spinothalamic tract) + PRESERVED vibration/proprioception (dorsal columns supplied by posterior spinal arteries). Most common after aortic surgery (artery of Adamkiewicz originates from aorta). Posterior spinal artery occlusion is rare (loss of proprioception only).",
+      "whyWrong": {
+        "A": "Anterior spinal artery supplies anterior 2/3 of cord = motor + pain/temperature.",
+        "B": "Posterior arteries supply dorsal columns = vibration/proprioception (PRESERVED here).",
+        "C": "Artery of Adamkiewicz is the major segmental feeder to anterior spinal artery (T9-T12).",
+        "D": "Vertebral artery supplies brainstem/cerebellum, not thoracic cord.",
+        "E": "Basilar artery supplies brainstem, not spinal cord."
+      },
+      "clinicalPearl": "Anterior spinal artery syndrome: Motor paralysis + Pain/temperature loss + PRESERVED vibration/proprioception. Classically post-aortic surgery."
+    },
+    "references": [
+      "Spinal Cord Infarction: Clinical Features",
+      "Vascular Anatomy of Spinal Cord"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b6_006",
+    "specialty": "neurology",
+    "topic": "Normal Pressure Hydrocephalus",
+    "difficulty": "medium",
+    "vignette": "A 75-year-old male presents with the classic triad of gait apraxia (magnetic gait), urinary incontinence, and cognitive decline. MRI shows ventriculomegaly out of proportion to sulcal atrophy (DESH pattern). What is the BEST next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start donepezil for dementia"
+      },
+      {
+        "id": "B",
+        "text": "High-volume lumbar puncture (30-50mL) with gait assessment"
+      },
+      {
+        "id": "C",
+        "text": "VP shunt placement immediately"
+      },
+      {
+        "id": "D",
+        "text": "MRI with CSF flow study"
+      },
+      {
+        "id": "E",
+        "text": "Start carbidopa/levodopa"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NPH: Classic triad + DESH pattern on MRI. High-volume LP (tap test) with gait assessment before and after is the best predictor of shunt response. Improvement in gait after LP = likely to benefit from VP shunt. CSF flow study is complementary but tap test is preferred initial test. Donepezil and levodopa are NOT effective for NPH.",
+      "whyWrong": {
+        "A": "Donepezil is for Alzheimer disease, not NPH (different pathophysiology).",
+        "C": "VP shunt without confirmatory testing may subject patient to unnecessary surgery.",
+        "D": "CSF flow study is complementary but tap test is more predictive.",
+        "E": "Levodopa is for Parkinson disease; NPH has different pathophysiology."
+      },
+      "clinicalPearl": "NPH: Wet (incontinence) + Wacky (dementia) + Wobbly (gait). High-volume LP (tap test) predicts shunt response."
+    },
+    "references": [
+      "NPH Guidelines 2022",
+      "DESH Pattern on MRI"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
