@@ -84,3 +84,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pharma_004",
+    "specialty": "pharmacology",
+    "topic": "Anticoagulation",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old female with non-valvular AF (CHA₂DS₂-VASc 5) and CKD stage 4 (eGFR 25) requires long-term anticoagulation. Which of the following is MOST appropriate?",
+    "options": [
+      { "id": "A", "text": "Warfarin (target INR 2-3)" },
+      { "id": "B", "text": "Dabigatran 150mg BID" },
+      { "id": "C", "text": "Rivaroxaban 20mg daily" },
+      { "id": "D", "text": "Apixaban 5mg BID" },
+      { "id": "E", "text": "Enoxaparin 1mg/kg BID" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Apixaban is the preferred DOAC in CKD stage 4 (eGFR 15-29). Dose: 5mg BID (reduce to 2.5mg BID if age ≥80, weight ≤60kg, or Cr ≥1.5). Less renal clearance than other DOACs.",
+      "whyWrong": {
+        "A": "Warfarin is alternative but DOACs are preferred for non-valvular AF.",
+        "B": "Dabigatran is contraindicated if eGFR <30.",
+        "C": "Rivaroxaban is contraindicated if eGFR <30.",
+        "E": "LMWH is not recommended for long-term anticoagulation in AF."
+      },
+      "clinicalPearl": "Apixaban: Only DOAC approved for eGFR 15-29 (CKD stage 4). Dabigatran/Rivaroxaban: Contraindicated if eGFR <30."
+    },
+    "references": ["AHA/ACC AF Guidelines 2023", "DOAC Prescribing in CKD"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_005",
+    "specialty": "pharmacology",
+    "topic": "Toxicology",
+    "difficulty": "hard",
+    "vignette": "A 22-year-old female presents with altered mental status, hyperthermia, tachycardia, diaphoresis, and mydriasis. She is agitated and has hyperactive bowel sounds and clonus. Her friend says she took 'several pills' at a party. What toxidrome is this?",
+    "options": [
+      { "id": "A", "text": "Anticholinergic toxidrome" },
+      { "id": "B", "text": "Serotonin syndrome" },
+      { "id": "C", "text": "Sympathomimetic toxidrome" },
+      { "id": "D", "text": "Opioid toxidrome" },
+      { "id": "E", "text": "Sedative-hypnotic toxidrome" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Serotonin syndrome: Hyperthermia, tachycardia, diaphoresis (wet), mydriasis, hyperactive bowel sounds, CLONUS (hallmark). Anticholinergic: Dry skin, absent bowel sounds, no clonus. Sympathomimetic: Dry, no clonus.",
+      "whyWrong": {
+        "A": "Anticholinergic: Dry skin ('dry as a bone'), no bowel sounds, no clonus.",
+        "C": "Sympathomimetic: Similar but NO clonus, dry skin.",
+        "D": "Opioid: Miosis, respiratory depression, bradycardia.",
+        "E": "Sedative-hypnotic: Respiratory depression, hypothermia, bradycardia."
+      },
+      "clinicalPearl": "Serotonin syndrome CLUES: Clonus, hyperreflexia, tachycardia, diaphoresis. Treatment: Cyproheptadine, benzodiazepines."
+    },
+    "references": ["Toxidrome Recognition", "Serotonin Syndrome Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_006",
+    "specialty": "pharmacology",
+    "topic": "Antimicrobials",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male develops severe C. difficile colitis after a course of clindamycin. He fails oral vancomycin. What is the BEST next treatment option?",
+    "options": [
+      { "id": "A", "text": "Metronidazole IV" },
+      { "id": "B", "text": "Fidaxomicin 200mg BID x10 days" },
+      { "id": "C", "text": "Higher dose vancomycin (500mg QID)" },
+      { "id": "D", "text": "Fecal microbiota transplant (FMT)" },
+      { "id": "E", "text": "Rifaximin 400mg TID" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fidaxomicin is superior to vancomycin for recurrent C. diff and has lower recurrence rates. If vancomycin fails → Fidaxomicin. FMT is reserved for multiple recurrences (≥3 episodes).",
+      "whyWrong": {
+        "A": "Oral vancomycin or fidaxomicin is preferred over metronidazole.",
+        "C": "Increasing vancomycin dose provides no additional benefit.",
+        "D": "FMT is for ≥3 recurrences, not first-line failure.",
+        "E": "Rifaximin is third-line or post-vancomycin 'chaser' therapy."
+      },
+      "clinicalPearl": "C. diff treatment: Vancomycin or Fidaxomicin (first-line). Metronidazole is second-line. FMT for multiple recurrences."
+    },
+    "references": ["IDSA/SHEA C. diff Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_007",
+    "specialty": "pharmacology",
+    "topic": "Cardiovascular Drugs",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with HFrEF (EF 30%) is on lisinopril 20mg, carvedilol 25mg BID, and spironolactone 25mg. He has persistent dyspnea and elevated BNP. HR is 72 in sinus rhythm. What medication should be added NEXT to reduce mortality and hospitalizations?",
+    "options": [
+      { "id": "A", "text": "Digoxin 0.125mg daily" },
+      { "id": "B", "text": "Dapagliflozin 10mg daily" },
+      { "id": "C", "text": "Isosorbide dinitrate + Hydralazine" },
+      { "id": "D", "text": "Amiodarone 200mg daily" },
+      { "id": "E", "text": "Verapamil 120mg daily" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "SGLT2 inhibitors (dapagliflozin, empagliflozin) reduce HF hospitalizations and cardiovascular mortality in HFrEF regardless of diabetes status. Part of GDMT quad therapy: ACEi/ARB/ARNI + Beta-blocker + MRA + SGLT2i.",
+      "whyWrong": {
+        "A": "Digoxin reduces hospitalizations but has NO mortality benefit.",
+        "C": "Hydralazine/ISDN is for patients who cannot tolerate ACEi/ARB (especially African Americans).",
+        "D": "Amiodarone is for rhythm control, not HF mortality.",
+        "E": "Verapamil is CONTRAINDICATED in HFrEF (negative inotrope)."
+      },
+      "clinicalPearl": "HFrEF Quad Therapy: ACEi/ARB/ARNI + BB + MRA + SGLT2i. All 4 reduce mortality!"
+    },
+    "references": ["DAPA-HF Trial", "EMPEROR-Reduced Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pharma_008",
+    "specialty": "pharmacology",
+    "topic": "Pain Management",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male on chronic morphine for cancer pain develops myoclonus, hyperalgesia, and confusion. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Increase morphine dose" },
+      { "id": "B", "text": "Add naloxone" },
+      { "id": "C", "text": "Rotate to a different opioid" },
+      { "id": "D", "text": "Add midazolam for myoclonus" },
+      { "id": "E", "text": "Add gabapentin" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Opioid-induced neurotoxicity (OIN): Myoclonus, hyperalgesia, delirium. Caused by accumulation of morphine metabolite (morphine-3-glucuronide). Management: Rotate to a different opioid (hydromorphone, fentanyl, methadone).",
+      "whyWrong": {
+        "A": "Increasing dose would worsen neurotoxicity.",
+        "B": "Naloxone reverses opioid effect and causes withdrawal + pain crisis.",
+        "D": "Treats symptom but not underlying cause.",
+        "E": "Gabapentin may help neuropathic pain but does not address OIN."
+      },
+      "clinicalPearl": "Opioid neurotoxicity: Rotate to different opioid. Common with morphine (M3G accumulation) in renal impairment."
+    },
+    "references": ["Opioid Rotation Guidelines", "Palliative Care"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

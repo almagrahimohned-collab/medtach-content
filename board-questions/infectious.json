@@ -84,3 +84,201 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_id_004",
+    "specialty": "infectious",
+    "topic": "Endocarditis",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old IV drug user presents with fever, chills, and night sweats for 2 weeks. He has a new holosystolic murmur at the apex, splinter hemorrhages, and Janeway lesions on his palms. Blood cultures grow Staphylococcus aureus. Echo shows 1.5cm vegetation on the mitral valve. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Vancomycin + Gentamicin for 2 weeks" },
+      { "id": "B", "text": "Nafcillin + Gentamicin for 6 weeks" },
+      { "id": "C", "text": "Vancomycin alone for 6 weeks" },
+      { "id": "D", "text": "Ceftriaxone + Gentamicin for 4 weeks" },
+      { "id": "E", "text": "Surgical valve replacement" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Right-sided IE in IVDU: MSSA = Nafcillin/Oxacillin. Add Gentamicin for first 3-5 days for synergy. Duration: 6 weeks. Vancomycin is for MRSA or penicillin-allergic patients.",
+      "whyWrong": {
+        "A": "Vancomycin is for MRSA. Patient has MSSA.",
+        "C": "Vancomycin is inferior to beta-lactams for MSSA.",
+        "D": "Ceftriaxone is for HACEK organisms.",
+        "E": "Surgery indicated if: Heart failure, abscess, emboli, fungal, or >10mm vegetation with emboli."
+      },
+      "clinicalPearl": "MSSA IE: Nafcillin/Oxacillin x6 weeks. MRSA IE: Vancomycin or Daptomycin x6 weeks. Early surgery if complications."
+    },
+    "references": ["AHA/IDSA IE Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_005",
+    "specialty": "infectious",
+    "topic": "Osteomyelitis",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old diabetic male presents with a non-healing ulcer on the plantar surface of his right foot for 4 weeks. He can probe to bone. MRI shows osteomyelitis of the 1st metatarsal. What is the MOST important diagnostic test?",
+    "options": [
+      { "id": "A", "text": "MRI with contrast" },
+      { "id": "B", "text": "Bone biopsy with culture and histopathology" },
+      { "id": "C", "text": "CT scan" },
+      { "id": "D", "text": "Wound swab culture" },
+      { "id": "E", "text": "Blood cultures" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Bone biopsy is the gold standard for diagnosis of osteomyelitis. Provides microbiological diagnosis and antibiotic sensitivities. Probe-to-bone test + MRI strongly suggest osteomyelitis but biopsy confirms and guides therapy.",
+      "whyWrong": {
+        "A": "MRI is excellent for diagnosis but does not provide microbiology.",
+        "C": "CT is less sensitive than MRI for osteomyelitis.",
+        "D": "Wound swabs correlate poorly with bone pathogens.",
+        "E": "Blood cultures are positive in only 25-50% of diabetic foot osteomyelitis."
+      },
+      "clinicalPearl": "Osteomyelitis: Bone biopsy is gold standard. Empiric antibiotics ONLY after biopsy. Treat 4-6 weeks based on culture."
+    },
+    "references": ["IDSA Diabetic Foot Infection Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_006",
+    "specialty": "infectious",
+    "topic": "Antibiotic Resistance",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old male develops a UTI while hospitalized. Urine culture grows E. coli resistant to ceftriaxone, cefepime, and ciprofloxacin but sensitive to meropenem and amikacin. What resistance mechanism is MOST likely present?",
+    "options": [
+      { "id": "A", "text": "Methicillin resistance (mecA gene)" },
+      { "id": "B", "text": "Extended-spectrum beta-lactamase (ESBL)" },
+      { "id": "C", "text": "Carbapenemase (KPC)" },
+      { "id": "D", "text": "Vancomycin resistance (vanA gene)" },
+      { "id": "E", "text": "AmpC beta-lactamase" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ESBL-producing E. coli: Resistant to cephalosporins (ceftriaxone, cefepime) and fluoroquinolones, but sensitive to carbapenems (meropenem). ESBLs hydrolyze cephalosporins but NOT carbapenems.",
+      "whyWrong": {
+        "A": "Methicillin resistance is in Staphylococcus (MRSA), not E. coli.",
+        "C": "KPC-producing organisms are resistant to carbapenems.",
+        "D": "Vancomycin resistance is in Enterococci (VRE).",
+        "E": "AmpC would confer resistance to cephamycins and some cephalosporins."
+      },
+      "clinicalPearl": "ESBL: Resistant to cephalosporins + fluoroquinolones, sensitive to carbapenems. Treatment: Meropenem, Ertapenem."
+    },
+    "references": ["CLSI Antimicrobial Susceptibility Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_007",
+    "specialty": "infectious",
+    "topic": "Fungal Infections",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old HIV patient (CD4 25 cells/μL, not on ART) presents with severe headache, fever, and confusion for 5 days. CSF opening pressure is 35 cmH2O. India ink stain of CSF shows encapsulated yeast. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Amphotericin B + Flucytosine for 2 weeks, then fluconazole" },
+      { "id": "B", "text": "Fluconazole 800mg daily alone" },
+      { "id": "C", "text": "Voriconazole IV" },
+      { "id": "D", "text": "Caspofungin IV" },
+      { "id": "E", "text": "Amphotericin B alone" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Cryptococcal meningitis in HIV (CD4 <100): Induction: Amphotericin B + Flucytosine x2 weeks. Consolidation: Fluconazole 400-800mg x8 weeks. Maintenance: Fluconazole 200mg until CD4 >100 on ART for >3 months.",
+      "whyWrong": {
+        "B": "Fluconazole alone has higher mortality than Amphotericin combination.",
+        "C": "Voriconazole has poor CSF penetration and is not for cryptococcal meningitis.",
+        "D": "Echinocandins (caspofungin) have NO activity against Cryptococcus.",
+        "E": "Amphotericin B monotherapy is inferior to combination with flucytosine."
+      },
+      "clinicalPearl": "Cryptococcal meningitis: Amphotericin B + Flucytosine (induction) → Fluconazole (consolidation/maintenance)."
+    },
+    "references": ["WHO Cryptococcal Guidelines 2022"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_008",
+    "specialty": "infectious",
+    "topic": "Travel Medicine",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old traveler returns from sub-Saharan Africa with fever, chills, and headache for 3 days. He did not take malaria prophylaxis. Blood smear shows ring forms within RBCs. Parasitemia is 8%. What is the BEST treatment?",
+    "options": [
+      { "id": "A", "text": "Chloroquine 600mg PO" },
+      { "id": "B", "text": "IV Artesunate" },
+      { "id": "C", "text": "Atovaquone-Proguanil PO" },
+      { "id": "D", "text": "Quinine + Doxycycline PO" },
+      { "id": "E", "text": "Primaquine PO" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Severe malaria (parasitemia >5%): IV Artesunate is first-line (superior to quinine). If artesunate unavailable: IV Quinidine or Quinine. Oral treatment is for uncomplicated malaria (parasitemia <5%).",
+      "whyWrong": {
+        "A": "Chloroquine resistance is widespread in sub-Saharan Africa.",
+        "C": "Atovaquone-proguanil is for uncomplicated malaria (oral).",
+        "D": "Quinine + Doxycycline is alternative if artesunate unavailable.",
+        "E": "Primaquine is for liver stages (P. vivax/ovale), not acute treatment."
+      },
+      "clinicalPearl": "Severe malaria (>5% parasitemia or organ dysfunction): IV Artesunate. Uncomplicated: Artemether-lumefantrine (Coartem) or Atovaquone-proguanil."
+    },
+    "references": ["CDC Malaria Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_009",
+    "specialty": "infectious",
+    "topic": "Sexually Transmitted Infections",
+    "difficulty": "easy",
+    "vignette": "A 22-year-old female presents with mucopurulent cervical discharge, dysuria, and intermenstrual bleeding. She has had 3 sexual partners in the past year and uses condoms inconsistently. What is the empiric treatment for the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Ceftriaxone 500mg IM + Doxycycline 100mg BID x7 days" },
+      { "id": "B", "text": "Azithromycin 1g PO single dose" },
+      { "id": "C", "text": "Metronidazole 500mg BID x7 days" },
+      { "id": "D", "text": "Ceftriaxone 500mg IM + Azithromycin 1g PO" },
+      { "id": "E", "text": "Penicillin G 2.4 million units IM" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Mucopurulent cervicitis: Empiric treatment for gonorrhea AND chlamydia. Ceftriaxone IM for gonorrhea + Doxycycline x7 days for chlamydia (preferred over azithromycin due to resistance). Always treat both.",
+      "whyWrong": {
+        "B": "Azithromycin alone does not adequately cover gonorrhea.",
+        "C": "Metronidazole is for trichomoniasis or BV.",
+        "D": "Azithromycin for chlamydia is less effective than doxycycline.",
+        "E": "Penicillin is for syphilis, not cervicitis."
+      },
+      "clinicalPearl": "Cervicitis: Treat for GC (Ceftriaxone IM) + Chlamydia (Doxycycline x7d). Doxycycline is preferred over azithromycin for chlamydia."
+    },
+    "references": ["CDC STD Treatment Guidelines 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_id_010",
+    "specialty": "infectious",
+    "topic": "Immunizations",
+    "difficulty": "easy",
+    "vignette": "A 65-year-old male with COPD and diabetes asks about recommended vaccines. He received influenza vaccine last year and Tdap 3 years ago. He has never received pneumococcal vaccine. What is the BEST recommendation?",
+    "options": [
+      { "id": "A", "text": "PPSV23 now, PCV13 in 1 year" },
+      { "id": "B", "text": "PCV13 now, PPSV23 in 1 year" },
+      { "id": "C", "text": "PCV15 or PCV20 now (single dose)" },
+      { "id": "D", "text": "PPSV23 now only" },
+      { "id": "E", "text": "Influenza vaccine only" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "New 2023 ACIP guidelines: Adults ≥65 years or high-risk (COPD, DM) should receive a SINGLE dose of PCV15 or PCV20. No longer need PPSV23 if PCV20 given. This simplifies the previous recommendation.",
+      "whyWrong": {
+        "A": "Outdated recommendation (now replaced by PCV20 alone).",
+        "B": "Outdated sequential recommendation.",
+        "D": "PPSV23 alone is less immunogenic than conjugate vaccines.",
+        "E": "Pneumococcal vaccination is indicated in COPD and DM."
+      },
+      "clinicalPearl": "Adults ≥65 or high-risk: PCV20 (or PCV15) ONCE. No PPSV23 needed if PCV20 given."
+    },
+    "references": ["CDC ACIP Pneumococcal Guidelines 2023"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

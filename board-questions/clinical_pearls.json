@@ -84,3 +84,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pearls_004",
+    "specialty": "quick_review",
+    "topic": "Fluid Management",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with septic shock receives 30mL/kg IV crystalloid. He remains hypotensive (BP 78/45) despite fluids. What is the BEST next step?",
+    "options": [
+      { "id": "A", "text": "Give another 30mL/kg fluid bolus" },
+      { "id": "B", "text": "Start norepinephrine infusion" },
+      { "id": "C", "text": "Start dobutamine infusion" },
+      { "id": "D", "text": "Start hydrocortisone" },
+      { "id": "E", "text": "Transfuse packed RBCs" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Persistent hypotension after initial fluid resuscitation = Start vasopressors. Norepinephrine is FIRST-LINE (alpha + beta agonist). Target MAP ≥65 mmHg.",
+      "whyWrong": {
+        "A": "Additional fluids without vasopressors will not restore perfusion.",
+        "C": "Dobutamine is for cardiogenic shock with low cardiac output.",
+        "D": "Hydrocortisone is for refractory shock (despite vasopressors).",
+        "E": "Transfusion only if Hb <7 and evidence of inadequate oxygen delivery."
+      },
+      "clinicalPearl": "Septic shock: Fluids → Norepinephrine (MAP ≥65) → Vasopressin (2nd line) → Hydrocortisone (refractory)."
+    },
+    "references": ["Surviving Sepsis Campaign 2021"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_005",
+    "specialty": "quick_review",
+    "topic": "ECG Interpretation",
+    "difficulty": "hard",
+    "vignette": "An ECG shows PR interval 220ms, QRS 140ms with a 'slurred upstroke' (delta wave) in lead II. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "First-degree AV block" },
+      { "id": "B", "text": "LBBB" },
+      { "id": "C", "text": "Wolff-Parkinson-White syndrome" },
+      { "id": "D", "text": "Hyperkalemia" },
+      { "id": "E", "text": "Brugada syndrome" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "WPW: Short PR (<120ms), wide QRS (>120ms), delta wave (slurred QRS upstroke). Accessory pathway (Bundle of Kent) bypasses AV node causing pre-excitation.",
+      "whyWrong": {
+        "A": "First-degree AV block has PROLONGED PR (>200ms), not short PR.",
+        "B": "LBBB has wide QRS but no delta wave and normal PR.",
+        "D": "Hyperkalemia causes peaked T waves, loss of P waves.",
+        "E": "Brugada has ST elevation in V1-V3 with RBBB pattern."
+      },
+      "clinicalPearl": "WPW triad: Short PR + Delta wave + Wide QRS. Risk of sudden death if AF develops (rapid conduction via accessory pathway)."
+    },
+    "references": ["ACC/AHA ECG Interpretation"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pearls_006",
+    "specialty": "quick_review",
+    "topic": "Blood Gas Analysis",
+    "difficulty": "hard",
+    "vignette": "A patient with COPD on home O2 presents with ABG: pH 7.28, PaCO2 75, HCO3 34. What is the acid-base disorder?",
+    "options": [
+      { "id": "A", "text": "Acute respiratory acidosis" },
+      { "id": "B", "text": "Chronic respiratory acidosis with acute exacerbation" },
+      { "id": "C", "text": "Metabolic acidosis" },
+      { "id": "D", "text": "Mixed respiratory and metabolic acidosis" },
+      { "id": "E", "text": "Acute respiratory alkalosis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic respiratory acidosis: Expected HCO3 increase = 4 mEq/L per 10mmHg PaCO2 rise. Baseline PaCO2 ~50, HCO3 ~30. Now: PaCO2 75 (acute rise of 25) with HCO3 34 (appropriate chronic compensation + partial acute). pH 7.28 indicates acute-on-chronic.",
+      "whyWrong": {
+        "A": "Acute resp acidosis: pH ↓ 0.08 per 10 PaCO2 rise. HCO3 would be near normal.",
+        "C": "pH is acidotic but PaCO2 is elevated (respiratory, not metabolic).",
+        "D": "HCO3 is appropriately elevated for chronic compensation.",
+        "E": "pH is acidotic, not alkalotic."
+      },
+      "clinicalPearl": "COPD: Chronic CO2 retainer with compensated HCO3. Acute rise in CO2 = acute-on-chronic respiratory acidosis."
+    },
+    "references": ["Acid-Base Physiology", "COPD Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
