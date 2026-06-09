@@ -968,5 +968,473 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_001",
+    "specialty": "nephrology",
+    "topic": "Glomerulonephritis - Complement Inhibitors",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old female with C3 glomerulopathy (C3G, DDD on biopsy, C3 nephritic factor positive) has proteinuria 4g/day and eGFR 40. She is on lisinopril and mycophenolate without response. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone 1mg/kg"
+      },
+      {
+        "id": "B",
+        "text": "Iptacopan (oral Factor B inhibitor) if available or Clinical trial"
+      },
+      {
+        "id": "C",
+        "text": "Cyclophosphamide"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Eculizumab"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "C3G with progressive disease: Complement inhibitors targeting the alternative pathway. Iptacopan (Fabhalta) is oral Factor B inhibitor recently approved for C3G (2024). Danicopan is oral Factor D inhibitor. Eculizumab (anti-C5) has limited efficacy in C3G (terminal pathway blockade does not address upstream C3 deposition). Steroids/MMF are first-line but she failed them.",
+      "whyWrong": {
+        "A": "Already failed MMF; steroids alone insufficient.",
+        "B": "Complement inhibition (Factor B/D) targets the underlying pathophysiology of C3G.",
+        "C": "Cyclophosphamide has limited evidence in C3G.",
+        "D": "Rituximab not effective in C3G (no pathogenic autoantibodies).",
+        "E": "Eculizumab blocks C5 (distal pathway); C3G involves proximal alternative pathway."
+      },
+      "clinicalPearl": "C3G: Complement alternative pathway overactivation. Iptacopan (Factor B inhibitor) - new targeted therapy. Addresses proximal complement dysregulation."
+    },
+    "references": [
+      "KDIGO Glomerular Guidelines 2024",
+      "APPEAR-C3G Trial (Iptacopan) 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_002",
+    "specialty": "nephrology",
+    "topic": "Resistant Hypertension - Renal Denervation",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male with resistant hypertension (BP 155/98 on amlodipine 10mg + lisinopril 40mg + chlorthalidone 25mg + spironolactone 25mg) has confirmed adherence. What is the FDA-approved device-based therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Renal artery stenting"
+      },
+      {
+        "id": "B",
+        "text": "Renal denervation (RDN) - radiofrequency or ultrasound"
+      },
+      {
+        "id": "C",
+        "text": "Carotid baroreceptor stimulation"
+      },
+      {
+        "id": "D",
+        "text": "AV fistula creation"
+      },
+      {
+        "id": "E",
+        "text": "Bariatric surgery"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "FDA-approved renal denervation (RDN) systems (2023): Paradise (ultrasound) and Symplicity Spyral (radiofrequency). RDN reduces both renal afferent and efferent sympathetic activity. SYMPLICITY HTN-3 and SPYRAL HTN-OFF MED trials showed modest but significant BP reduction (4-8 mmHg). Indicated for resistant hypertension on \u22653 medications including diuretic. Not first-line; reserved for truly resistant cases.",
+      "whyWrong": {
+        "A": "Renal artery stenting is for atherosclerotic renal artery stenosis, not resistant HTN.",
+        "B": "Renal denervation: FDA-approved for resistant hypertension (2023).",
+        "C": "Baroreceptor stimulation is investigational/limited availability.",
+        "D": "AV fistula (ROX coupler) is investigational; not FDA-approved.",
+        "E": "Bariatric surgery for obesity-related HTN, not specifically for resistant HTN."
+      },
+      "clinicalPearl": "Resistant HTN after 4+ drugs: Renal denervation (FDA 2023). Paradise (ultrasound) or Symplicity (RF). Modest BP reduction."
+    },
+    "references": [
+      "SPYRAL HTN-OFF MED Trial 2020",
+      "RADIANCE-HTN TRIO Trial 2021",
+      "FDA RDN Approval 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_003",
+    "specialty": "nephrology",
+    "topic": "Dialysis Access - Fistula First",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with CKD stage 4 (eGFR 18, progressing) is not yet on dialysis. He has suitable forearm veins. What is the recommended permanent access per KDOQI 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tunneled central venous catheter (CVC)"
+      },
+      {
+        "id": "B",
+        "text": "Radiocephalic arteriovenous fistula (AVF)"
+      },
+      {
+        "id": "C",
+        "text": "Brachiocephalic AV graft (AVG)"
+      },
+      {
+        "id": "D",
+        "text": "Femoral CVC"
+      },
+      {
+        "id": "E",
+        "text": "Peritoneal dialysis catheter"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "KDOQI 2023: AVF is the preferred access (lowest infection and thrombosis rates). Radiocephalic (wrist) fistula is ideal (preserves proximal veins for future access). Should be placed when eGFR 15-20 or 6 months before anticipated dialysis start. 'Fistula First' initiative. AVG is second choice (higher infection/thrombosis than AVF, less than CVC). CVC is last choice (highest infection/mortality).",
+      "whyWrong": {
+        "A": "CVC is last resort (highest infection rate, mortality 2-3x higher).",
+        "B": "AVF: Gold standard. Radiocephalic preferred. Lowest complications.",
+        "C": "AVG is second choice if AVF not possible (inadequate veins).",
+        "D": "Femoral CVC has highest infection risk.",
+        "E": "PD catheter is for peritoneal dialysis; AVF is for hemodialysis."
+      },
+      "clinicalPearl": "Dialysis access: AVF > AVG > CVC. 'Fistula First.' Place AVF when eGFR 15-20. CVC associated with 2-3x higher mortality."
+    },
+    "references": [
+      "KDOQI Vascular Access Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_004",
+    "specialty": "nephrology",
+    "topic": "Hyperkalemia - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old male with CKD stage 3 and HFrEF needs to continue lisinopril and spironolactone (proven mortality benefit) but has K+ 5.8. What is the BEST potassium-lowering therapy to enable continuation of GDMT?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Discontinue spironolactone"
+      },
+      {
+        "id": "B",
+        "text": "Patiromer (Veltassa) 8.4g daily OR Sodium zirconium cyclosilicate (Lokelma) 10g daily"
+      },
+      {
+        "id": "C",
+        "text": "Kayexalate (sodium polystyrene sulfonate)"
+      },
+      {
+        "id": "D",
+        "text": "Furosemide alone"
+      },
+      {
+        "id": "E",
+        "text": "Low-potassium diet alone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hyperkalemia with essential GDMT (ACEi + MRA for HFrEF): NEW potassium binders (patiromer or SZC) enable continuation of life-saving therapy. Patiromer (Veltassa) and SZC (Lokelma) are FDA-approved for chronic hyperkalemia. Faster onset and better tolerated than Kayexalate. Kayexalate has black box warning for colonic necrosis and is outdated. Discontinuing spironolactone increases mortality.",
+      "whyWrong": {
+        "A": "Discontinuing MRA increases mortality in HFrEF (RALES, EMPHASIS-HF trials).",
+        "B": "Patiromer or SZC: New K+ binders. Enable continuation of RAASi therapy.",
+        "C": "Kayexalate: Outdated, risk of colonic necrosis, less effective.",
+        "D": "Furosemide helps but may not normalize K+ alone.",
+        "E": "Diet alone insufficient for K+ 5.8 on essential medications."
+      },
+      "clinicalPearl": "Hyperkalemia on GDMT: Patiromer or SZC (new K+ binders). Do NOT stop life-saving RAASi therapy. Kayexalate is outdated."
+    },
+    "references": [
+      "OPAL-HK Trial (Patiromer)",
+      "HARMONIZE Trial (SZC)",
+      "AHA/ACC HF Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_005",
+    "specialty": "nephrology",
+    "topic": "Cryoglobulinemic GN",
+    "difficulty": "hard",
+    "vignette": "A 55-year-old male with HCV presents with palpable purpura, peripheral neuropathy, and acute kidney injury (Cr 2.8, hematuria, proteinuria 2g/day). C4 is low, C3 is normal. Cryoglobulins are positive. Kidney biopsy shows membranoproliferative GN with cryoglobulin deposits. What is the BEST treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prednisone alone"
+      },
+      {
+        "id": "B",
+        "text": "Direct-acting antiviral (DAA) therapy for HCV + Rituximab if severe"
+      },
+      {
+        "id": "C",
+        "text": "Plasma exchange alone"
+      },
+      {
+        "id": "D",
+        "text": "Cyclophosphamide + Prednisone"
+      },
+      {
+        "id": "E",
+        "text": "Mycophenolate mofetil"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HCV-associated mixed cryoglobulinemia with renal involvement: Treat the underlying HCV with DAA therapy (cure rates >95%). This eliminates the antigenic stimulus for cryoglobulin production. If severe renal disease (Cr >2, nephritic syndrome, or rapidly progressive): Add Rituximab (depletes B-cells producing cryoglobulins) + Prednisone. Plasma exchange is adjunctive for life-threatening vasculitis.",
+      "whyWrong": {
+        "A": "Prednisone alone does not treat the underlying HCV or eliminate B-cell clones.",
+        "B": "DAA therapy = Curative for HCV. Rituximab added for severe renal involvement.",
+        "C": "Plasma exchange is temporizing; does not treat source (HCV or B-cells).",
+        "D": "Cyclophosphamide reserved for refractory disease (third-line).",
+        "E": "MMF has limited evidence in cryoglobulinemia."
+      },
+      "clinicalPearl": "HCV cryoglobulinemia: DAA therapy (cure HCV) + Rituximab (deplete B-cells) if severe. Plasma exchange for life-threatening disease."
+    },
+    "references": [
+      "KDIGO Glomerular Guidelines 2024",
+      "EASL HCV Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_006",
+    "specialty": "nephrology",
+    "topic": "Peritoneal Dialysis - Peritonitis",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old female on peritoneal dialysis presents with cloudy effluent, abdominal pain, and fever. Effluent WBC is 1500/\u03bcL with 80% neutrophils. What is the BEST empiric antibiotic regimen per ISPD 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV vancomycin + IV ceftazidime"
+      },
+      {
+        "id": "B",
+        "text": "Intraperitoneal vancomycin + Intraperitoneal ceftazidime (or aminoglycoside)"
+      },
+      {
+        "id": "C",
+        "text": "Oral ciprofloxacin alone"
+      },
+      {
+        "id": "D",
+        "text": "IV meropenem alone"
+      },
+      {
+        "id": "E",
+        "text": "Remove PD catheter immediately"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PD peritonitis: Empiric INTRAPERITONEAL antibiotics covering gram-positive (vancomycin or first-gen cephalosporin) AND gram-negative (ceftazidime, cefepime, or aminoglycoside). IP route achieves higher peritoneal concentrations than IV. Oral ciprofloxacin insufficient. Catheter removal for: Fungal peritonitis, refractory peritonitis (5 days), or relapsing peritonitis. Treat for 2-3 weeks.",
+      "whyWrong": {
+        "A": "IV route inferior to IP for PD peritonitis.",
+        "B": "IP vancomycin + IP ceftazidime = Standard empiric regimen. IP route preferred.",
+        "C": "Oral ciprofloxacin inadequate for PD peritonitis.",
+        "D": "IV meropenem may cover both but IP route preferred.",
+        "E": "Catheter removal for refractory, fungal, or relapsing, not initial episode."
+      },
+      "clinicalPearl": "PD peritonitis: Cloudy effluent + WBC >100 + \u226550% PMNs. Empiric IP vancomycin + IP ceftazidime. IP route > IV."
+    },
+    "references": [
+      "ISPD Peritonitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_007",
+    "specialty": "nephrology",
+    "topic": "Pregnancy and CKD",
+    "difficulty": "medium",
+    "vignette": "A 32-year-old female with lupus nephritis in remission (eGFR 55, proteinuria 0.3g/day, on azathioprine and lisinopril) wants to become pregnant. What is the MOST important preconception management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue all current medications"
+      },
+      {
+        "id": "B",
+        "text": "Switch lisinopril to nifedipine or methyldopa; Continue azathioprine; Achieve remission for \u22656 months"
+      },
+      {
+        "id": "C",
+        "text": "Stop all immunosuppression"
+      },
+      {
+        "id": "D",
+        "text": "Switch azathioprine to mycophenolate"
+      },
+      {
+        "id": "E",
+        "text": "Pregnancy is contraindicated with eGFR 55"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CKD in pregnancy: 1. STOP ACEi/ARB BEFORE conception (teratogenic - renal dysplasia, oligohydramnios). Switch to nifedipine, methyldopa, or labetalol. 2. AZATHIOPRINE is SAFE in pregnancy (preferred immunosuppressant). Mycophenolate is TERATOGENIC (must stop \u22656 weeks before). 3. Achieve remission for \u22656 months before conception (reduces flare risk). eGFR >40 generally allows successful pregnancy.",
+      "whyWrong": {
+        "A": "ACEi (lisinopril) is teratogenic and must be stopped.",
+        "B": "Stop ACEi \u2192 Switch to pregnancy-safe antihypertensive. Azathioprine is safe.",
+        "C": "Immunosuppression often needed to maintain remission during pregnancy.",
+        "D": "Mycophenolate is TERATOGENIC; azathioprine is preferred in pregnancy.",
+        "E": "Pregnancy possible with eGFR 55 if in remission and on appropriate medications."
+      },
+      "clinicalPearl": "CKD preconception: STOP ACEi/ARB (teratogenic), STOP MMF (teratogenic). Azathioprine and tacrolimus are safe. Aim for remission \u22656 months."
+    },
+    "references": [
+      "KDIGO Pregnancy and CKD Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_008",
+    "specialty": "nephrology",
+    "topic": "Nephrolithiasis - Prevention",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male with recurrent calcium oxalate stones (3 episodes in 2 years) has 24h urine showing: Calcium 320mg (high), Oxalate 38mg (normal), Citrate 250mg (low), Urine volume 1.2L. What is the BEST prevention strategy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Low-calcium diet"
+      },
+      {
+        "id": "B",
+        "text": "Increased fluid intake (target >2.5L urine) + Potassium citrate + Normal calcium diet"
+      },
+      {
+        "id": "C",
+        "text": "Thiazide diuretic alone"
+      },
+      {
+        "id": "D",
+        "text": "Allopurinol"
+      },
+      {
+        "id": "E",
+        "text": "Calcium supplements"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Calcium oxalate stones with hypercalciuria + hypocitraturia + low urine volume: 1. INCREASE FLUID intake (target urine >2.5L/day, single most important intervention), 2. Potassium citrate (increases urine citrate which chelates calcium and inhibits stone formation), 3. NORMAL calcium diet (NOT low calcium - paradoxically increases oxalate absorption and stone risk). Thiazide added if persistent hypercalciuria.",
+      "whyWrong": {
+        "A": "Low-calcium diet INCREASES oxalate absorption \u2192 INCREASES stone risk.",
+        "B": "Fluids + Potassium citrate + Normal calcium diet = Cornerstone of prevention.",
+        "C": "Thiazide added if hypercalciuria persists after dietary measures.",
+        "D": "Allopurinol is for uric acid stones or hyperuricosuria with calcium stones.",
+        "E": "Calcium supplements may increase stone risk (dietary calcium is protective)."
+      },
+      "clinicalPearl": "Stone prevention: FLUIDS (urine >2.5L) + Potassium citrate (hypocitraturia) + NORMAL calcium diet. Low-calcium diet WORSENS stones!"
+    },
+    "references": [
+      "AUA Nephrolithiasis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_009",
+    "specialty": "nephrology",
+    "topic": "Acute Phosphate Nephropathy",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female develops AKI (Cr 3.0 from 1.0) 48 hours after colonoscopy with bowel preparation using sodium phosphate (NaP). Urinalysis shows no protein or blood. Kidney biopsy shows calcium phosphate deposits in tubules. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contrast-induced nephropathy"
+      },
+      {
+        "id": "B",
+        "text": "Acute phosphate nephropathy"
+      },
+      {
+        "id": "C",
+        "text": "Acute tubular necrosis"
+      },
+      {
+        "id": "D",
+        "text": "Acute interstitial nephritis"
+      },
+      {
+        "id": "E",
+        "text": "Hepatorenal syndrome"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute phosphate nephropathy: Sodium phosphate bowel preparations (NaP) can cause calcium-phosphate crystal deposition in renal tubules \u2192 AKI. Risk factors: CKD, elderly, female, volume depletion, ACEi/ARB, NSAIDs. Kidney biopsy: Calcium phosphate (von Kossa positive) deposits. Prevention: Avoid NaP in at-risk patients (use PEG-based bowel prep). Most patients have incomplete renal recovery.",
+      "whyWrong": {
+        "A": "No contrast exposure.",
+        "B": "Acute phosphate nephropathy: NaP bowel prep \u2192 Tubular calcium phosphate deposits \u2192 AKI.",
+        "C": "ATN: Muddy brown casts, history of hypotension or nephrotoxins.",
+        "D": "AIN: WBC casts, eosinophiluria, drug exposure (antibiotics, NSAIDs).",
+        "E": "HRS: Cirrhosis, ascites, no exposure to bowel prep."
+      },
+      "clinicalPearl": "Acute phosphate nephropathy: Sodium phosphate bowel prep in at-risk patient. Biopsy: Calcium phosphate deposits. Prevention: Use PEG-based bowel prep."
+    },
+    "references": [
+      "Kidney International: Acute Phosphate Nephropathy",
+      "FDA Warning on NaP Bowel Preparations"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "nephro_b2_010",
+    "specialty": "nephrology",
+    "topic": "Diabetic Kidney Disease - GLP-1 RA",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with T2DM and CKD stage 3 (eGFR 42, UACR 350) is on metformin, dapagliflozin, and lisinopril. HbA1c is 8.0% and BMI is 34. Which add-on therapy has SHOWN kidney benefits in FLOW trial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sitagliptin"
+      },
+      {
+        "id": "B",
+        "text": "Semaglutide (Ozempic) 1mg weekly"
+      },
+      {
+        "id": "C",
+        "text": "Glimepiride"
+      },
+      {
+        "id": "D",
+        "text": "Pioglitazone"
+      },
+      {
+        "id": "E",
+        "text": "Insulin glargine"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "FLOW trial (2024): Semaglutide 1mg weekly reduced the primary composite kidney endpoint (eGFR decline >50%, ESKD, kidney death) by 24% in T2DM with CKD. This is the FIRST GLP-1 RA trial specifically designed for kidney outcomes. Previously, GLP-1 RA kidney benefits were secondary outcomes (LEADER, REWIND). ADA 2024 recommends GLP-1 RA for kidney protection in addition to SGLT2i.",
+      "whyWrong": {
+        "A": "DPP4i have neutral kidney effects.",
+        "B": "Semaglutide: FLOW trial (2024) showed kidney protection. First GLP-1 RA kidney outcomes trial.",
+        "C": "Sulfonylureas have no kidney benefit.",
+        "D": "Pioglitazone may reduce proteinuria but no hard kidney outcomes.",
+        "E": "Insulin has no kidney protective effect."
+      },
+      "clinicalPearl": "GLP-1 RA kidney protection: FLOW trial (semaglutide) showed 24% reduction in kidney outcomes. SGLT2i + GLP-1 RA = Dual kidney protection."
+    },
+    "references": [
+      "FLOW Trial 2024",
+      "ADA Diabetes Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
