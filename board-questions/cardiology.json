@@ -1609,5 +1609,238 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b5_001",
+    "specialty": "cardiology",
+    "topic": "TAVI vs SAVR in Low Risk",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old male with severe symptomatic AS (AVA 0.7 cm\u00b2) is at low surgical risk (STS score 1.8%). He has no coronary artery disease. Anatomy is favorable for transfemoral TAVI. What is the BEST management per PARTNER 3 and Evolut Low Risk trials?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SAVR is mandatory in low-risk patients"
+      },
+      {
+        "id": "B",
+        "text": "TAVI is preferred over SAVR in patients >65 years"
+      },
+      {
+        "id": "C",
+        "text": "TAVI or SAVR are both acceptable; shared decision-making based on patient preference and anatomy"
+      },
+      {
+        "id": "D",
+        "text": "Medical management only"
+      },
+      {
+        "id": "E",
+        "text": "Balloon aortic valvuloplasty"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "PARTNER 3 and Evolut Low Risk trials demonstrated TAVI is non-inferior (and in some endpoints superior) to SAVR in low-risk patients. ACC/AHA 2020 guidelines: Both TAVI and SAVR are Class I for symptomatic severe AS. Choice depends on: Age (TAVI preferred >65-80), anatomy (TAVI for transfemoral access), comorbidities, valve durability concerns (SAVR if life expectancy >10-15 years), and patient preference.",
+      "whyWrong": {
+        "A": "TAVI is now approved for ALL risk categories including low risk.",
+        "B": "While TAVI is often preferred >65, shared decision-making is recommended, not automatic TAVI.",
+        "D": "Symptomatic severe AS requires intervention; medical management has 50% 2-year mortality.",
+        "E": "Balloon valvuloplasty is palliative only (restenosis in 6-12 months)."
+      },
+      "clinicalPearl": "Low-risk severe AS: TAVI or SAVR both Class I. TAVI preferred if >65 and transfemoral access. SAVR if life expectancy >15 years."
+    },
+    "references": [
+      "PARTNER 3 Trial 2019",
+      "Evolut Low Risk Trial 2019",
+      "ACC/AHA Valve Guidelines 2020"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b5_002",
+    "specialty": "cardiology",
+    "topic": "Mitral Valve Prolapse",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old tall, thin female with mitral valve prolapse (myxomatous mitral valve, leaflet thickness 5mm) presents with palpitations and atypical chest pain. Holter shows frequent PVCs and 2 episodes of non-sustained VT. Echo shows EF 58%, bileaflet prolapse with moderate MR. What is the MOST important risk factor for sudden cardiac death?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moderate mitral regurgitation"
+      },
+      {
+        "id": "B",
+        "text": "Bileaflet prolapse"
+      },
+      {
+        "id": "C",
+        "text": "Leaflet thickness >5mm + NSVT on Holter"
+      },
+      {
+        "id": "D",
+        "text": "Chest pain"
+      },
+      {
+        "id": "E",
+        "text": "Tall stature"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Arrhythmic MVP: Risk factors for sudden cardiac death = Myxomatous valve with leaflet thickness >5mm + Mitral annular disjunction (MAD) + NSVT on Holter + Female gender + Inferior T-wave inversion. These patients may benefit from ICD even with preserved EF. His combination (leaflet 5mm + NSVT) places him at increased risk.",
+      "whyWrong": {
+        "A": "Moderate MR alone is not a primary SCD risk factor in MVP.",
+        "B": "Bileaflet prolapse is common; not independently predictive of SCD.",
+        "D": "Chest pain is common in MVP but not a SCD risk factor.",
+        "E": "Tall stature is not a SCD risk factor in MVP."
+      },
+      "clinicalPearl": "Arrhythmic MVP: Leaflet thickness >5mm + MAD + NSVT + Inferior TWI = High SCD risk. Consider ICD even with normal EF."
+    },
+    "references": [
+      "JACC MVP and SCD Risk 2022",
+      "ESC Valve Guidelines 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b5_003",
+    "specialty": "cardiology",
+    "topic": "Post-MI Risk Stratification",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male is 48 hours post-anterior STEMI treated with primary PCI and DES to LAD. EF is 35%. He is on DAPT, beta-blocker, lisinopril, and spironolactone. What is the MOST appropriate next step per MADIT-II and SCD-HeFT criteria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No further intervention, EF may recover"
+      },
+      {
+        "id": "B",
+        "text": "ICD implantation after 40 days if EF remains \u226435%"
+      },
+      {
+        "id": "C",
+        "text": "ICD implantation before discharge"
+      },
+      {
+        "id": "D",
+        "text": "CRT-D implantation"
+      },
+      {
+        "id": "E",
+        "text": "EP study for risk stratification"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Post-MI EF \u226435%: ICD is indicated for primary prevention of SCD but ONLY after 40 days post-MI (allows for recovery of stunned myocardium) AND after 90 days of revascularization. If EF remains \u226435% at 40 days despite optimal GDMT, ICD is Class IA. Wearable cardioverter-defibrillator (LifeVest) can bridge high-risk patients during waiting period.",
+      "whyWrong": {
+        "A": "EF 35% post-STEMI warrants ICD evaluation; some recovery occurs but if persistent \u226435% = high SCD risk.",
+        "C": "ICD <40 days post-MI is NOT recommended (DINAMIT and IRIS trials showed no benefit).",
+        "D": "CRT-D indicated if LBBB with QRS \u2265150ms AND EF \u226435%.",
+        "E": "EP study not routinely indicated for primary prevention post-MI."
+      },
+      "clinicalPearl": "Post-MI EF \u226435%: Wait 40 days (or 90 days post-revascularization) before ICD. LifeVest can bridge waiting period."
+    },
+    "references": [
+      "MADIT-II Trial",
+      "SCD-HeFT Trial",
+      "ACC/AHA VT/SCD Guidelines 2017"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b5_004",
+    "specialty": "cardiology",
+    "topic": "Peripartum Cardiomyopathy",
+    "difficulty": "hard",
+    "vignette": "A 32-year-old African American female 1 month postpartum presents with dyspnea, orthopnea, and edema. Echo shows EF 30%, LV dilation. She is breastfeeding. BP 105/70. Which medication is CONTRAINDICATED during breastfeeding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Furosemide"
+      },
+      {
+        "id": "B",
+        "text": "Carvedilol"
+      },
+      {
+        "id": "C",
+        "text": "Sacubitril-valsartan"
+      },
+      {
+        "id": "D",
+        "text": "Spironolactone"
+      },
+      {
+        "id": "E",
+        "text": "Digoxin"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Sacubitril-valsartan (ARNI) is CONTRAINDICATED in breastfeeding (no human data, potential for adverse effects in nursing infant). ACE inhibitors (enalapril, captopril) are compatible with breastfeeding. Beta-blockers, diuretics, digoxin are generally safe during lactation. Hydralazine + nitrates can be used as alternative vasodilator therapy.",
+      "whyWrong": {
+        "A": "Furosemide is compatible with breastfeeding (LactMed: safe).",
+        "B": "Beta-blockers are compatible; metoprolol preferred (lowest milk transfer).",
+        "D": "Spironolactone is compatible (negligible milk transfer).",
+        "E": "Digoxin is compatible with breastfeeding."
+      },
+      "clinicalPearl": "Peripartum cardiomyopathy: Avoid ARNI (sacubitril-valsartan) during breastfeeding. ACEi (enalapril/captopril) are safe. Hydralazine + nitrates alternative."
+    },
+    "references": [
+      "LactMed Database",
+      "ESC Pregnancy and Heart Disease Guidelines 2018"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "cardio_b5_005",
+    "specialty": "cardiology",
+    "topic": "Chest Pain - New ESC Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old male presents with atypical chest pain (sharp, positional, reproducible with palpation). He has no cardiac risk factors except age (male >40). ECG is normal. High-sensitivity troponin I is <1 ng/L (undetectable). What is the BEST management per ESC 2023 guidelines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Admit for observation and serial troponin"
+      },
+      {
+        "id": "B",
+        "text": "Stress testing before discharge"
+      },
+      {
+        "id": "C",
+        "text": "Reassure and discharge - no further cardiac testing"
+      },
+      {
+        "id": "D",
+        "text": "CT coronary angiography"
+      },
+      {
+        "id": "E",
+        "text": "Start aspirin and statin empirically"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "ESC 2023 Chest Pain Guidelines: Very low-risk patient (atypical chest pain + normal ECG + undetectable hs-cTnI < limit of detection). Can be safely discharged without further testing. Risk of 30-day MACE is <0.5%. High-sensitivity troponin below limit of detection rules out MI with >99% NPV. No need for stress test, CCTA, or empiric therapy.",
+      "whyWrong": {
+        "A": "Admission unnecessary for very low-risk patient per ESC 2023.",
+        "B": "Stress testing not indicated in very low-risk patients (high false-positive rate).",
+        "C": "Reassurance and discharge is appropriate per ESC 2023 algorithms.",
+        "D": "CCTA not indicated; too much radiation for very low-risk patient.",
+        "E": "Empiric therapy without diagnosis is inappropriate and potentially harmful."
+      },
+      "clinicalPearl": "ESC 2023: Undetectable hs-cTnI + Normal ECG + Atypical pain = Safe discharge. No stress test, no CCTA. NPV for MI >99%."
+    },
+    "references": [
+      "ESC Chest Pain Guidelines 2023",
+      "High-STEACS Trial"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
