@@ -422,3 +422,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_cardio_016",
+    "specialty": "cardiology",
+    "topic": "Pacemakers",
+    "difficulty": "medium",
+    "vignette": "A 75-year-old male with sick sinus syndrome and a dual-chamber pacemaker presents with palpitations. ECG shows pacing spikes followed by wide QRS complexes at 150 bpm. What is this arrhythmia?",
+    "options": [
+      { "id": "A", "text": "Pacemaker-mediated tachycardia (PMT)" },
+      { "id": "B", "text": "Ventricular tachycardia" },
+      { "id": "C", "text": "Atrial fibrillation with rapid ventricular response" },
+      { "id": "D", "text": "Sinus tachycardia" },
+      { "id": "E", "text": "Atrial flutter" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "PMT: Endless-loop tachycardia caused by retrograde P wave sensed by atrial lead → triggers ventricular pacing → retrograde conduction → cycle repeats. Rate typically at upper tracking limit. Treatment: Magnet over pacemaker (stops tracking, reveals underlying rhythm), reprogram PMT algorithms.",
+      "whyWrong": {
+        "B": "VT would not have pacing spikes before each QRS.",
+        "C": "AF would be irregular, not at fixed rate.",
+        "D": "Sinus tachycardia would not have pacing spikes.",
+        "E": "Atrial flutter would show flutter waves, not pacing spikes."
+      },
+      "clinicalPearl": "PMT: Pacing spikes + wide QRS at upper rate limit. Magnet application = diagnostic and therapeutic. Reprogram to prevent."
+    },
+    "references": ["HRS Pacemaker Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_017",
+    "specialty": "cardiology",
+    "topic": "Pregnancy and Heart Disease",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old pregnant female (32 weeks) presents with progressive dyspnea and orthopnea. She has no prior cardiac history. Echo shows LVEF 25%, global hypokinesis, LV dilation. She is normotensive. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Peripartum cardiomyopathy" },
+      { "id": "B", "text": "Preeclampsia-induced heart failure" },
+      { "id": "C", "text": "Acute myocardial infarction" },
+      { "id": "D", "text": "Amniotic fluid embolism" },
+      { "id": "E", "text": "Pulmonary embolism" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Peripartum cardiomyopathy: New HF with EF <45% in last month of pregnancy to 5 months postpartum. No other cause identified. Risk factors: Age >30, African descent, multiple gestations, preeclampsia. Treatment: Similar to HFrEF but avoid ACEi/ARBs (teratogenic).",
+      "whyWrong": {
+        "B": "Preeclampsia causes diastolic dysfunction, preserved EF, with hypertension.",
+        "C": "MI would have ECG changes, troponin elevation, and regional WMA.",
+        "D": "AFE causes sudden cardiovascular collapse during labor/delivery.",
+        "E": "PE causes RV dilation, not LV dilation with reduced EF."
+      },
+      "clinicalPearl": "Peripartum cardiomyopathy: New HF in last month to 5 months postpartum. Avoid ACEi/ARB in pregnancy. Hydralazine + Nitrates instead."
+    },
+    "references": ["ESC Pregnancy and Heart Disease Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

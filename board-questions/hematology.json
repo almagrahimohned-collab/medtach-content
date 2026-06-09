@@ -254,3 +254,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_hema_010",
+    "specialty": "hematology",
+    "topic": "Multiple Myeloma",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old male presents with back pain, fatigue, and recurrent infections. Labs: Hb 8.5, Cr 2.8, Ca 12.0. SPEP shows IgG kappa M-spike 4.5 g/dL. Bone marrow: 40% plasma cells. FISH: del(17p). What is the BEST initial therapy?",
+    "options": [
+      { "id": "A", "text": "Lenalidomide + Dexamethasone (Rd)" },
+      { "id": "B", "text": "Bortezomib + Lenalidomide + Dexamethasone (VRd)" },
+      { "id": "C", "text": "Melphalan + Prednisone" },
+      { "id": "D", "text": "Daratumumab + VRd" },
+      { "id": "E", "text": "Autologous stem cell transplant" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "High-risk myeloma (del(17p) + renal failure + hypercalcemia): Quadruplet therapy (Daratumumab + VRd) is new standard. D-VRd improves PFS and depth of response vs VRd alone. Induction → Auto SCT (if eligible) → Maintenance.",
+      "whyWrong": {
+        "A": "Doublet (Rd) is for frail/elderly, not fit patients with high-risk disease.",
+        "B": "VRd was previous standard but D-VRd is superior (MAIA, GRIFFIN trials).",
+        "C": "Melphalan-based therapy is outdated for initial treatment.",
+        "E": "Auto SCT after induction therapy, not as initial treatment."
+      },
+      "clinicalPearl": "High-risk myeloma (del(17p), renal failure): Quadruplet (Dara-VRd) → Auto SCT (if eligible) → Maintenance lenalidomide."
+    },
+    "references": ["NCCN Multiple Myeloma Guidelines 2024", "GRIFFIN Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_011",
+    "specialty": "hematology",
+    "topic": "Thrombosis",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female presents with her third unprovoked DVT. She is on warfarin with INR 2.5. Her mother and sister also had DVTs at young ages. What is the MOST likely underlying thrombophilia?",
+    "options": [
+      { "id": "A", "text": "Factor V Leiden mutation" },
+      { "id": "B", "text": "Prothrombin gene mutation" },
+      { "id": "C", "text": "Protein C deficiency" },
+      { "id": "D", "text": "Antiphospholipid syndrome" },
+      { "id": "E", "text": "Protein S deficiency" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Factor V Leiden: Most common inherited thrombophilia (5% Caucasians, 1% African Americans). Autosomal dominant. Causes resistance to activated protein C. Recurrent unprovoked VTE + strong family history = Most likely Factor V Leiden.",
+      "whyWrong": {
+        "B": "Prothrombin mutation is second most common but less prevalent than FVL.",
+        "C": "Protein C deficiency is RARE (<0.5%), though more severe.",
+        "D": "APLS causes arterial AND venous thrombosis, recurrent fetal loss, prolonged PTT.",
+        "E": "Protein S deficiency is also RARE (<0.5%)."
+      },
+      "clinicalPearl": "Most common inherited thrombophilia = Factor V Leiden (5% of Caucasians). Most common acquired thrombophilia = Antiphospholipid syndrome."
+    },
+    "references": ["ASH Thrombophilia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_hema_012",
+    "specialty": "hematology",
+    "topic": "Hemoglobinopathies",
+    "difficulty": "hard",
+    "vignette": "A 25-year-old African American female at 28 weeks gestation presents with severe pain in her back and legs. Labs: Hb 7.5 (baseline 8.5), reticulocytes 8%. Hemoglobin electrophoresis: HbS 85%, HbF 10%, HbA2 5%. What is the BEST treatment for this acute episode?",
+    "options": [
+      { "id": "A", "text": "IV fluids + oxygen + pain control" },
+      { "id": "B", "text": "Exchange transfusion" },
+      { "id": "C", "text": "Simple blood transfusion" },
+      { "id": "D", "text": "Hydroxyurea" },
+      { "id": "E", "text": "Iron supplementation" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Acute vaso-occlusive crisis (VOC) in sickle cell disease (HbSS). First-line: IV fluids (hypotonic), oxygen (if hypoxic), aggressive pain control (opioids often needed). Treat underlying triggers (infection, dehydration).",
+      "whyWrong": {
+        "B": "Exchange transfusion is for severe complications: Stroke, ACS, priapism, multi-organ failure.",
+        "C": "Simple transfusion for Hb <6 or symptomatic anemia, not for uncomplicated VOC.",
+        "D": "Hydroxyurea is for PREVENTION (chronic), not acute crisis management.",
+        "E": "Iron overload is common in SCD (from transfusions). Do NOT give iron unless proven deficiency."
+      },
+      "clinicalPearl": "Sickle cell VOC: Fluids + Oxygen + Pain control. Exchange transfusion for severe complications (stroke, ACS). Hydroxyurea for prevention."
+    },
+    "references": ["NHLBI Sickle Cell Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

@@ -226,3 +226,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_gastro_009",
+    "specialty": "gastroenterology",
+    "topic": "Small Bowel Disease",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female presents with chronic diarrhea, weight loss, and megaloblastic anemia. She has a history of recurrent oral ulcers. Small bowel biopsy shows villous atrophy with increased intraepithelial lymphocytes. Which HLA type is MOST strongly associated?",
+    "options": [
+      { "id": "A", "text": "HLA-B27" },
+      { "id": "B", "text": "HLA-DQ2 and HLA-DQ8" },
+      { "id": "C", "text": "HLA-B51" },
+      { "id": "D", "text": "HLA-DR4" },
+      { "id": "E", "text": "HLA-A3" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Celiac disease: Villous atrophy + intraepithelial lymphocytosis. HLA-DQ2 (90-95%) or HLA-DQ8 (5-10%) is present in >99% of patients. High negative predictive value (if negative, rules out celiac). Associated with dermatitis herpetiformis.",
+      "whyWrong": {
+        "A": "HLA-B27: Ankylosing spondylitis, reactive arthritis, IBD-associated arthritis.",
+        "C": "HLA-B51: Behcet disease (oral/genital ulcers, uveitis).",
+        "D": "HLA-DR4: Rheumatoid arthritis.",
+        "E": "HLA-A3: Hemochromatosis."
+      },
+      "clinicalPearl": "Celiac disease: HLA-DQ2/DQ8. Villous atrophy + IEL. Treatment: Strict gluten-free diet. Check tTG-IgA for screening."
+    },
+    "references": ["ACG Celiac Disease Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_gastro_010",
+    "specialty": "gastroenterology",
+    "topic": "Pancreatic Cancer",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male presents with painless jaundice, weight loss, and a palpable gallbladder (Courvoisier sign). CT shows a 3cm mass in the head of the pancreas with biliary dilation. CA 19-9 is elevated. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Pancreatic pseudocyst" },
+      { "id": "B", "text": "Chronic pancreatitis" },
+      { "id": "C", "text": "Pancreatic adenocarcinoma" },
+      { "id": "D", "text": "Pancreatic neuroendocrine tumor" },
+      { "id": "E", "text": "Autoimmune pancreatitis" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Pancreatic adenocarcinoma: Painless jaundice + Courvoisier sign (palpable, non-tender gallbladder) + Weight loss + Mass in head of pancreas. Most common pancreatic malignancy. CA 19-9 is tumor marker (not diagnostic). Treatment: Whipple procedure if resectable.",
+      "whyWrong": {
+        "A": "Pseudocyst has history of pancreatitis, not painless jaundice.",
+        "B": "Chronic pancreatitis causes pain, calcifications, not mass with obstruction.",
+        "D": "PNETs are less common, often functional (insulin, gastrin), and may not cause jaundice.",
+        "E": "AIP responds to steroids, has IgG4 elevation, and diffuse 'sausage-shaped' pancreas."
+      },
+      "clinicalPearl": "Painless jaundice + Courvoisier sign + Pancreatic head mass = Adenocarcinoma until proven otherwise. Only 15-20% resectable at diagnosis."
+    },
+    "references": ["NCCN Pancreatic Cancer Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

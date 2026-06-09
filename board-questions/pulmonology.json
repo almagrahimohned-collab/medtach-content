@@ -365,3 +365,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pulmo_014",
+    "specialty": "pulmonology",
+    "topic": "Mechanical Ventilation",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male with ARDS is on mechanical ventilation. Settings: Assist-control, TV 400mL (6 mL/kg IBW), PEEP 14, FiO2 0.7. ABG: pH 7.22, PaCO2 65, PaO2 58. Plateau pressure is 32 cmH2O. What is the BEST intervention?",
+    "options": [
+      { "id": "A", "text": "Increase FiO2 to 1.0" },
+      { "id": "B", "text": "Increase PEEP to 18" },
+      { "id": "C", "text": "Start prone positioning" },
+      { "id": "D", "text": "Increase respiratory rate" },
+      { "id": "E", "text": "Start ECMO" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Respiratory acidosis (PaCO2 65, pH 7.22) on lung-protective ventilation: Increase respiratory rate to blow off CO2. Can increase up to 35 breaths/min as tolerated. TV cannot be increased (already at 6 mL/kg, plateau >30).",
+      "whyWrong": {
+        "A": "Increasing FiO2 improves oxygenation (PaO2), not ventilation (PaCO2).",
+        "B": "Increasing PEEP may improve oxygenation but can worsen hypercapnia (overdistension).",
+        "C": "Prone positioning is for PaO2/FiO2 <150 (this patient: 58/0.7 = 83, would qualify), but respiratory acidosis needs rate increase first.",
+        "E": "ECMO is rescue therapy after other interventions fail."
+      },
+      "clinicalPearl": "ARDS with respiratory acidosis: Increase respiratory rate (up to 35). Keep TV at 6 mL/kg. If PaO2/FiO2 <150 → Prone position."
+    },
+    "references": ["ARDSNet Ventilator Protocol"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_015",
+    "specialty": "pulmonology",
+    "topic": "Smoking Cessation",
+    "difficulty": "easy",
+    "vignette": "A 45-year-old male smoker (1 pack/day for 20 years) wants to quit. He tried nicotine gum without success. He has no contraindications. What is the MOST effective pharmacotherapy?",
+    "options": [
+      { "id": "A", "text": "Nicotine patch alone" },
+      { "id": "B", "text": "Bupropion 150mg BID" },
+      { "id": "C", "text": "Varenicline 1mg BID" },
+      { "id": "D", "text": "Nicotine patch + nicotine lozenge" },
+      { "id": "E", "text": "Nortriptyline" }
+    ],
+    "correctOptionId": "C",
+    "explanation": {
+      "whyCorrect": "Varenicline (Chantix) is the MOST effective single pharmacotherapy for smoking cessation (OR 2.88 vs placebo, superior to bupropion and NRT alone). Partial nicotine receptor agonist. Start 1 week before quit date. 12 weeks treatment.",
+      "whyWrong": {
+        "A": "Nicotine patch alone is less effective than varenicline.",
+        "B": "Bupropion is second-line (less effective than varenicline).",
+        "D": "Combination NRT is more effective than single NRT but still less than varenicline.",
+        "E": "Nortriptyline is second-line (off-label, more side effects)."
+      },
+      "clinicalPearl": "Smoking cessation: Varenicline > Combination NRT > Bupropion > Single NRT. Always combine pharmacotherapy with behavioral counseling."
+    },
+    "references": ["USPSTF Smoking Cessation Guidelines 2021", "EAGLES Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

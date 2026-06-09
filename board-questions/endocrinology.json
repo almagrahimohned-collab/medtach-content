@@ -254,3 +254,61 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_endo_010",
+    "specialty": "endocrinology",
+    "topic": "Hypoglycemia",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old female without diabetes presents with episodes of confusion, sweating, and palpitations that resolve with eating. Fasting glucose during an episode is 40 mg/dL, insulin level is 10 μU/mL (inappropriately elevated), C-peptide is elevated. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Insulinoma" },
+      { "id": "B", "text": "Exogenous insulin use" },
+      { "id": "C", "text": "Adrenal insufficiency" },
+      { "id": "D", "text": "Non-islet cell tumor hypoglycemia" },
+      { "id": "E", "text": "Dumping syndrome" }
+    ],
+    "correctOptionId": "A",
+    "explanation": {
+      "whyCorrect": "Insulinoma: Fasting hypoglycemia + Inappropriately elevated insulin + Elevated C-peptide (endogenous insulin). Whipple triad: Symptoms of hypoglycemia + Low glucose + Relief with glucose. Treatment: Surgical resection.",
+      "whyWrong": {
+        "B": "Exogenous insulin: Elevated insulin but LOW C-peptide (exogenous insulin suppresses endogenous production).",
+        "C": "Adrenal insufficiency causes hypoglycemia with LOW insulin (not elevated).",
+        "D": "NICTH: Low glucose + Low insulin + High IGF-2 (from large tumors).",
+        "E": "Dumping syndrome: Postprandial hypoglycemia (reactive), not fasting."
+      },
+      "clinicalPearl": "Insulinoma: Fasting hypoglycemia + High insulin + High C-peptide. Exogenous insulin: High insulin + LOW C-peptide."
+    },
+    "references": ["Endocrine Society Hypoglycemia Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_endo_011",
+    "specialty": "endocrinology",
+    "topic": "Lipid Disorders",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old male has eruptive xanthomas on his back, TG 2500 mg/dL, total cholesterol 400. He has no history of diabetes. What is the MOST serious immediate risk?",
+    "options": [
+      { "id": "A", "text": "Coronary artery disease" },
+      { "id": "B", "text": "Acute pancreatitis" },
+      { "id": "C", "text": "Stroke" },
+      { "id": "D", "text": "Peripheral arterial disease" },
+      { "id": "E", "text": "Aortic stenosis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Severe hypertriglyceridemia (TG >1000, especially >2000): Acute pancreatitis is the most immediate life-threatening risk. TG >2000 increases risk dramatically. Treatment: Fibrates, high-dose omega-3 fatty acids, strict diet, avoid alcohol, control diabetes if present.",
+      "whyWrong": {
+        "A": "CAD is a long-term risk but pancreatitis is the immediate concern.",
+        "C": "Stroke risk is elevated but not as immediately life-threatening as pancreatitis.",
+        "D": "PAD is a chronic complication of atherosclerosis.",
+        "E": "Aortic stenosis is unrelated to hypertriglyceridemia."
+      },
+      "clinicalPearl": "TG >1000 = Pancreatitis risk. TG >2000 = Emergency! Treat with fibrates, omega-3, and strict dietary fat restriction."
+    },
+    "references": ["AHA/ACC Cholesterol Guidelines", "NLA Hypertriglyceridemia"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

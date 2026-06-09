@@ -226,3 +226,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_nephro_009",
+    "specialty": "nephrology",
+    "topic": "Renal Replacement Therapy",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with septic shock and AKI requires RRT. He is on norepinephrine 0.3 mcg/kg/min. BP is 90/55. Which modality of RRT is PREFERRED in hemodynamically unstable patients?",
+    "options": [
+      { "id": "A", "text": "Intermittent hemodialysis (IHD)" },
+      { "id": "B", "text": "Continuous renal replacement therapy (CRRT)" },
+      { "id": "C", "text": "Sustained low-efficiency dialysis (SLED)" },
+      { "id": "D", "text": "Peritoneal dialysis" },
+      { "id": "E", "text": "Plasmapheresis" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CRRT is preferred in hemodynamically unstable patients (on vasopressors) because it provides gradual fluid removal and avoids rapid fluid shifts. IHD can cause hypotension due to rapid ultrafiltration.",
+      "whyWrong": {
+        "A": "IHD causes rapid fluid shifts and hypotension in unstable patients.",
+        "C": "SLED is intermediate between IHD and CRRT, but CRRT is preferred for true instability.",
+        "D": "Peritoneal dialysis is rarely used in ICU (infection risk, less effective).",
+        "E": "Plasmapheresis is for specific diseases (Goodpasture, TTP, myasthenia), not for AKI in sepsis."
+      },
+      "clinicalPearl": "Hemodynamically unstable patient needing RRT = CRRT. Stable patient = IHD. Always consider vasopressor support during RRT."
+    },
+    "references": ["KDIGO AKI Guidelines", "STARRT-AKI Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_010",
+    "specialty": "nephrology",
+    "topic": "Glomerular Disease",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female presents with nephrotic syndrome (proteinuria 6g/day, hypoalbuminemia 2.5, edema). Renal biopsy shows membranous nephropathy. Anti-PLA2R antibody is positive. What is the BEST initial treatment?",
+    "options": [
+      { "id": "A", "text": "Prednisone alone" },
+      { "id": "B", "text": "Cyclophosphamide + Prednisone" },
+      { "id": "C", "text": "Rituximab" },
+      { "id": "D", "text": "ACE inhibitor alone" },
+      { "id": "E", "text": "Mycophenolate mofetil" }
+    ],
+    "correctOptionId": "D",
+    "explanation": {
+      "whyCorrect": "Membranous nephropathy with nephrotic syndrome: Initial management is supportive (ACEi/ARB, statin, diuretics, salt restriction) for 3-6 months. Up to 30% achieve spontaneous remission. Immunosuppression (rituximab, cyclophosphamide) if: Proteinuria >4g persists >6 months, rising Cr, or complications.",
+      "whyWrong": {
+        "A": "Steroids alone are ineffective in membranous nephropathy.",
+        "B": "Ponticelli regimen (steroids + cyclophosphamide) is for high-risk patients after supportive care fails.",
+        "C": "Rituximab is first-line immunosuppression but only after failing supportive care.",
+        "E": "Mycophenolate is second-line (less effective than rituximab or cyclophosphamide)."
+      },
+      "clinicalPearl": "Membranous nephropathy: Supportive care first (ACEi/ARB). If no remission in 6 months → Rituximab or Cyclophosphamide + Steroids."
+    },
+    "references": ["KDIGO Glomerular Disease Guidelines 2021", "MENTOR Trial"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_nephro_011",
+    "specialty": "nephrology",
+    "topic": "Acute Kidney Injury",
+    "difficulty": "hard",
+    "vignette": "A 70-year-old male develops AKI (Cr 3.5, baseline 1.0) after receiving IV contrast for CTA. Urine output is 200mL in 24 hours. Urine sodium is 70, FeNa 3.5%. Urinalysis shows muddy brown casts. What phase of ATN is he MOST likely in?",
+    "options": [
+      { "id": "A", "text": "Initiation phase" },
+      { "id": "B", "text": "Oliguric phase" },
+      { "id": "C", "text": "Diuretic phase" },
+      { "id": "D", "text": "Recovery phase" },
+      { "id": "E", "text": "Prerenal phase" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ATN with oliguria (<400mL/day), FeNa >2%, muddy brown casts = Oliguric phase. This phase lasts 1-3 weeks and requires careful fluid/electrolyte management. Dialysis often needed. Followed by diuretic phase (increasing UO) and recovery phase.",
+      "whyWrong": {
+        "A": "Initiation phase: Hours to days, Cr begins rising, still may respond to fluids.",
+        "C": "Diuretic phase: UO >400mL/day, Cr begins falling.",
+        "D": "Recovery phase: Cr returning to baseline, UO normalizing.",
+        "E": "Prerenal has FeNa <1%, no casts, rapidly reversible with fluids."
+      },
+      "clinicalPearl": "ATN phases: Initiation → Oliguric (1-3wk) → Diuretic → Recovery. Oliguric phase = highest mortality, often needs dialysis."
+    },
+    "references": ["ATN Pathophysiology and Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
