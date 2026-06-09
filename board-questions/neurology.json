@@ -368,3 +368,89 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_neuro_014",
+    "specialty": "neurology",
+    "topic": "Myopathies",
+    "difficulty": "hard",
+    "vignette": "A 50-year-old male presents with progressive proximal muscle weakness (difficulty climbing stairs, combing hair) over 6 months. He also has a violaceous rash on his eyelids (heliotrope) and erythematous papules over his knuckles (Gottron papules). CK is 5000. What is the diagnosis?",
+    "options": [
+      { "id": "A", "text": "Polymyositis" },
+      { "id": "B", "text": "Dermatomyositis" },
+      { "id": "C", "text": "Inclusion body myositis" },
+      { "id": "D", "text": "Limb-girdle muscular dystrophy" },
+      { "id": "E", "text": "Statin-induced myopathy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Dermatomyositis: Proximal weakness + Characteristic rashes (heliotrope = periorbital violaceous, Gottron papules = dorsal MCP/PIP). CK elevated. Associated with malignancy (ovary, lung, GI) in adults. Anti-Jo-1, anti-Mi-2 antibodies. Treatment: Steroids + Immunosuppression.",
+      "whyWrong": {
+        "A": "Polymyositis lacks the characteristic rash.",
+        "C": "IBM: Distal > proximal, forearm flexors and quadriceps, CK normal or mild, onset >50.",
+        "D": "LGMD: Genetic, onset younger, no rash, family history.",
+        "E": "Statin myopathy: No rash, improves with statin discontinuation."
+      },
+      "clinicalPearl": "Dermatomyositis: Proximal weakness + Heliotrope rash + Gottron papules + High CK. Screen for malignancy in adults."
+    },
+    "references": ["ACR/EULAR Myositis Classification Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_015",
+    "specialty": "neurology",
+    "topic": "Autonomic Disorders",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old male with Parkinson disease for 10 years develops severe orthostatic hypotension (BP drops 40mmHg on standing), supine hypertension, and urinary urgency. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Parkinson disease progression" },
+      { "id": "B", "text": "Multiple system atrophy (MSA)" },
+      { "id": "C", "text": "Pure autonomic failure" },
+      { "id": "D", "text": "Autonomic neuropathy from diabetes" },
+      { "id": "E", "text": "Medication side effect from levodopa" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MSA: Parkinsonism + Autonomic failure (orthostatic hypotension, urinary dysfunction) + Cerebellar signs. Poor or waning levodopa response after 10 years suggests atypical parkinsonism (MSA). Supine hypertension + Orthostatic hypotension is classic.",
+      "whyWrong": {
+        "A": "PD can have autonomic symptoms but usually late and less severe.",
+        "C": "PAF has autonomic failure WITHOUT parkinsonism or cerebellar signs.",
+        "D": "Diabetic neuropathy causes distal symmetric neuropathy, not parkinsonism.",
+        "E": "Levodopa causes orthostasis but typically early in treatment, not after 10 years."
+      },
+      "clinicalPearl": "MSA: Parkinsonism + Severe autonomic failure + Cerebellar signs. Orthostatic hypotension + Supine hypertension = Classic. Poor levodopa response."
+    },
+    "references": ["MSA Diagnostic Criteria"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_neuro_016",
+    "specialty": "neurology",
+    "topic": "Sleep Disorders",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old male presents with excessive daytime sleepiness, cataplexy (sudden loss of muscle tone when laughing), and sleep paralysis. Polysomnography shows sleep-onset REM periods. What is the pathophysiology?",
+    "options": [
+      { "id": "A", "text": "Degeneration of dopamine neurons in substantia nigra" },
+      { "id": "B", "text": "Loss of hypocretin (orexin) neurons in the lateral hypothalamus" },
+      { "id": "C", "text": "Acetylcholine receptor antibodies" },
+      { "id": "D", "text": "GABA deficiency in the thalamus" },
+      { "id": "E", "text": "Serotonin excess in the raphe nucleus" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Narcolepsy type 1: Triad = Excessive daytime sleepiness + Cataplexy + Sleep paralysis/hypnagogic hallucinations. Caused by autoimmune destruction of hypocretin (orexin) neurons in lateral hypothalamus. Associated with HLA-DQB1*06:02. Treatment: Modafinil, sodium oxybate for cataplexy.",
+      "whyWrong": {
+        "A": "Dopamine loss = Parkinson disease.",
+        "C": "AChR antibodies = Myasthenia gravis.",
+        "D": "GABA deficiency is not the mechanism of narcolepsy.",
+        "E": "Serotonin dysfunction is implicated in depression, not narcolepsy."
+      },
+      "clinicalPearl": "Narcolepsy type 1: Hypocretin deficiency + HLA-DQB1*06:02. Cataplexy = pathognomonic. Sleep-onset REM on PSG."
+    },
+    "references": ["AASM Narcolepsy Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

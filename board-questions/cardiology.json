@@ -566,3 +566,145 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_cardio_021",
+    "specialty": "cardiology",
+    "topic": "Stress Cardiomyopathy",
+    "difficulty": "hard",
+    "vignette": "A 68-year-old female presents with acute chest pain and dyspnea after hearing news of her husband's death. ECG shows ST elevation in anterior leads. Emergency coronary angiography shows NO obstructive CAD. Left ventriculogram shows apical ballooning with hypercontractile base. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Acute anterior STEMI" },
+      { "id": "B", "text": "Takotsubo cardiomyopathy" },
+      { "id": "C", "text": "Myocarditis" },
+      { "id": "D", "text": "Pericarditis" },
+      { "id": "E", "text": "Coronary artery spasm" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Takotsubo (stress) cardiomyopathy: Emotional trigger, apical ballooning, clean coronaries. Post-menopausal women most affected. Catecholamine surge → myocardial stunning. Usually recovers in weeks. Treatment: Supportive (beta-blockers, ACEi if LV dysfunction).",
+      "whyWrong": {
+        "A": "Clean coronaries rule out STEMI.",
+        "C": "Myocarditis would show diffuse hypokinesis, not apical ballooning.",
+        "D": "Pericarditis has diffuse ST elevation, not anterior only.",
+        "E": "Coronary spasm would show reversible focal WMA, not apical ballooning."
+      },
+      "clinicalPearl": "Takotsubo: Emotional stress + Apical ballooning + Clean coronaries + Post-menopausal female. Treatment: Supportive, usually resolves in weeks."
+    },
+    "references": ["Mayo Clinic Takotsubo Criteria", "InterTAK Registry"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_022",
+    "specialty": "cardiology",
+    "topic": "Cardiac Tumors",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old female presents with dyspnea, positional syncope, and a diastolic 'tumor plop' on auscultation. Echocardiogram shows a large mobile mass in the left atrium attached to the interatrial septum. What is the MOST likely diagnosis?",
+    "options": [
+      { "id": "A", "text": "Left atrial thrombus" },
+      { "id": "B", "text": "Cardiac myxoma" },
+      { "id": "C", "text": "Rhabdomyosarcoma" },
+      { "id": "D", "text": "Papillary fibroelastoma" },
+      { "id": "E", "text": "Metastatic tumor" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cardiac myxoma: Most common primary cardiac tumor. Usually left atrium, attached to fossa ovalis (interatrial septum). Symptoms: Obstruction (syncope, dyspnea), emboli, constitutional (fever, weight loss). Tumor plop = classic auscultatory finding. Treatment: Surgical resection.",
+      "whyWrong": {
+        "A": "Thrombus usually in LA appendage, not attached to septum.",
+        "C": "Rhabdomyosarcoma is malignant, rare, and invasive.",
+        "D": "Papillary fibroelastoma is on valves (not septum), smaller.",
+        "E": "Metastases are more common than primary tumors but usually multiple, not solitary mass."
+      },
+      "clinicalPearl": "Cardiac myxoma: LA mass attached to septum + Tumor plop + Constitutional symptoms. Most common primary cardiac tumor."
+    },
+    "references": ["WHO Cardiac Tumor Classification"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_023",
+    "specialty": "cardiology",
+    "topic": "Pericardial Effusion",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female with breast cancer presents with progressive dyspnea and orthopnea. Exam: Hypotension, JVD, muffled heart sounds, and pulsus paradoxus of 18mmHg. ECG shows electrical alternans. What is the NEXT best step?",
+    "options": [
+      { "id": "A", "text": "IV fluids bolus" },
+      { "id": "B", "text": "Emergency pericardiocentesis" },
+      { "id": "C", "text": "Pericardial window surgery" },
+      { "id": "D", "text": "Start dobutamine" },
+      { "id": "E", "text": "CT chest" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Cardiac tamponade: Beck triad (hypotension, JVD, muffled heart sounds) + Pulsus paradoxus >10mmHg + Electrical alternans. EMERGENCY: Pericardiocentesis (needle drainage). IV fluids are temporizing only while preparing for drainage.",
+      "whyWrong": {
+        "A": "Fluids are temporizing while preparing for pericardiocentesis.",
+        "C": "Pericardial window is for recurrent effusions, not acute tamponade.",
+        "D": "Inotropes do not treat tamponade (obstructive shock).",
+        "E": "CT delays definitive treatment. Diagnosis is clinical + bedside echo."
+      },
+      "clinicalPearl": "Cardiac tamponade: Beck triad + Pulsus paradoxus >10mmHg + Electrical alternans = EMERGENCY pericardiocentesis."
+    },
+    "references": ["ESC Pericardial Diseases Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_024",
+    "specialty": "cardiology",
+    "topic": "Congenital Heart Disease - Adult",
+    "difficulty": "medium",
+    "vignette": "A 30-year-old female with a history of repaired tetralogy of Fallot in childhood presents with palpitations and near-syncope. ECG shows wide QRS tachycardia at 180 bpm. What is she at highest risk for?",
+    "options": [
+      { "id": "A", "text": "Atrial fibrillation" },
+      { "id": "B", "text": "Ventricular tachycardia" },
+      { "id": "C", "text": "Atrial flutter" },
+      { "id": "D", "text": "Sinus tachycardia" },
+      { "id": "E", "text": "AV nodal reentrant tachycardia" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Repaired TOF: Residual pulmonary regurgitation → RV dilation → Scar around ventriculotomy/patches → Reentrant VT. VT is the leading cause of sudden cardiac death in adult TOF patients. Risk factors: QRS >180ms, LV dysfunction, RV scar. ICD may be indicated.",
+      "whyWrong": {
+        "A": "AF is common but less life-threatening than VT in TOF.",
+        "C": "Atrial flutter is common post-atriotomy but wide QRS tachycardia = VT.",
+        "D": "Wide QRS tachycardia at 180 bpm is VT, not sinus.",
+        "E": "AVNRT is typically narrow complex."
+      },
+      "clinicalPearl": "Repaired TOF + Wide QRS tachycardia = VT until proven otherwise. Leading cause of SCD in adult CHD."
+    },
+    "references": ["ACC/AHA ACHD Guidelines 2018"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_cardio_025",
+    "specialty": "cardiology",
+    "topic": "Pregnancy and Cardiac Disease",
+    "difficulty": "hard",
+    "vignette": "A 28-year-old pregnant female (34 weeks) with known mitral stenosis (moderate, valve area 1.3 cm²) presents with acute dyspnea, orthopnea, and hemoptysis. HR 130 (irregularly irregular), BP 100/70. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Emergency mitral valve replacement" },
+      { "id": "B", "text": "Rate control + diuretics + delivery planning" },
+      { "id": "C", "text": "Immediate delivery via C-section" },
+      { "id": "D", "text": "Electrical cardioversion" },
+      { "id": "E", "text": "Percutaneous mitral balloon valvuloplasty" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "MS worsens in pregnancy (increased blood volume + tachycardia shortens diastolic filling time). AF with rapid ventricular response is common trigger for decompensation. Management: Rate control (beta-blockers, digoxin), diuretics for pulmonary edema, and plan delivery. Avoid cardioversion if stable.",
+      "whyWrong": {
+        "A": "Valve surgery during pregnancy has high fetal mortality (20-30%).",
+        "C": "Delivery is premature at 34 weeks without stabilization first.",
+        "D": "Cardioversion if hemodynamically unstable. She is stable (BP 100/70).",
+        "E": "BMV is for severe symptomatic MS (valve area <1.0 cm²) with favorable anatomy."
+      },
+      "clinicalPearl": "MS in pregnancy: Rate control is CRITICAL (prolong diastole). Beta-blockers are safe. Avoid hypovolemia (diuretics carefully)."
+    },
+    "references": ["ESC Pregnancy and Heart Disease Guidelines 2018"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]

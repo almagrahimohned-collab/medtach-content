@@ -509,3 +509,117 @@
     "timeAllocated": 72
   }
 ]
+[
+  {
+    "id": "board_pulmo_019",
+    "specialty": "pulmonology",
+    "topic": "Bronchiectasis",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female presents with chronic productive cough (1 cup of purulent sputum daily), recurrent pneumonias, and hemoptysis. CT chest shows dilated bronchi with thickened walls and 'signet ring' sign. What is the MOST important diagnostic test to determine etiology?",
+    "options": [
+      { "id": "A", "text": "Sweat chloride test" },
+      { "id": "B", "text": "Alpha-1 antitrypsin level" },
+      { "id": "C", "text": "Immunoglobulin levels (IgG, IgA, IgM)" },
+      { "id": "D", "text": "Aspergillus IgE and IgG" },
+      { "id": "E", "text": "All of the above should be checked" }
+    ],
+    "correctOptionId": "E",
+    "explanation": {
+      "whyCorrect": "Bronchiectasis is a final common pathway. Etiology workup includes: CF (sweat chloride), immunodeficiency (Ig levels), AAT deficiency, ABPA (Aspergillus serology), ciliary dysfunction, autoimmune (RA, Sjögren), and NTM infection. Finding the cause changes management.",
+      "whyWrong": {
+        "A": "CF is one cause but not the only one to rule out.",
+        "B": "AAT deficiency causes panacinar emphysema, not primarily bronchiectasis.",
+        "C": "Immunodeficiency is a cause but not the only test needed.",
+        "D": "ABPA is one cause but needs comprehensive workup."
+      },
+      "clinicalPearl": "Bronchiectasis = Comprehensive workup for underlying cause. Finding etiology changes management (e.g., CFTR modulators, Ig replacement, antifungal therapy)."
+    },
+    "references": ["BTS Bronchiectasis Guidelines"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_020",
+    "specialty": "pulmonology",
+    "topic": "Hypersensitivity Pneumonitis",
+    "difficulty": "hard",
+    "vignette": "A 45-year-old bird breeder presents with progressive dyspnea, cough, and weight loss over 3 months. CT shows centrilobular ground-glass nodules, mosaic attenuation, and air trapping. BAL shows lymphocytosis (>50%) with CD8 predominance. What is the MOST important treatment?",
+    "options": [
+      { "id": "A", "text": "Prednisone 0.5mg/kg" },
+      { "id": "B", "text": "Antigen avoidance (remove birds)" },
+      { "id": "C", "text": "Mycophenolate mofetil" },
+      { "id": "D", "text": "Rituximab" },
+      { "id": "E", "text": "Infliximab" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Hypersensitivity pneumonitis (bird fancier's lung): The MOST important intervention is COMPLETE ANTIGEN AVOIDANCE. Steroids may be added for severe or progressive disease but are secondary to avoidance. Without removal, disease progresses to fibrosis.",
+      "whyWrong": {
+        "A": "Steroids are adjunctive, not primary. Must remove antigen first.",
+        "C": "Mycophenolate is second-line for chronic HP with progression despite steroids.",
+        "D": "Rituximab is third-line, limited evidence for refractory HP.",
+        "E": "Anti-TNF has no role in HP."
+      },
+      "clinicalPearl": "Hypersensitivity pneumonitis: ANTIGEN AVOIDANCE is the most critical intervention. Steroids are secondary. BAL: Lymphocytosis >50%, CD8 > CD4."
+    },
+    "references": ["ATS/JRS/ALAT HP Guidelines 2020"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_021",
+    "specialty": "pulmonology",
+    "topic": "Neuromuscular Respiratory Failure",
+    "difficulty": "hard",
+    "vignette": "A 60-year-old male with ALS presents with progressive dyspnea, orthopnea, and morning headaches. ABG: pH 7.32, PaCO2 58, PaO2 72, HCO3 30. FVC is 35% predicted. What is the BEST management?",
+    "options": [
+      { "id": "A", "text": "Supplemental oxygen at 4L/min" },
+      { "id": "B", "text": "Non-invasive positive pressure ventilation (NIPPV)" },
+      { "id": "C", "text": "Intubation and mechanical ventilation" },
+      { "id": "D", "text": "Diaphragm pacing" },
+      { "id": "E", "text": "Tracheostomy" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Neuromuscular respiratory failure (ALS): Chronic hypercapnic respiratory failure + Morning headaches (nocturnal hypoventilation) + FVC <50%. NIPPV (BiPAP) is first-line. Improves survival and quality of life. Start when FVC <50% or PaCO2 >45.",
+      "whyWrong": {
+        "A": "Oxygen alone does NOT address hypoventilation and may suppress respiratory drive.",
+        "C": "Intubation is for acute decompensation or failed NIPPV.",
+        "D": "Diaphragm pacing is experimental, limited benefit in ALS.",
+        "E": "Tracheostomy is last resort (usually by patient choice)."
+      },
+      "clinicalPearl": "ALS respiratory failure: NIPPV (BiPAP) improves survival and QoL. Start when FVC <50% or PaCO2 >45."
+    },
+    "references": ["AAN ALS Practice Parameters", "ALS Respiratory Management"],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "board_pulmo_022",
+    "specialty": "pulmonology",
+    "topic": "Lung Nodule Management",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old never-smoker is found to have an 8mm solid solitary pulmonary nodule in the right lower lobe on CT. No prior imaging available. No lymphadenopathy. What is the appropriate follow-up per Fleischner guidelines?",
+    "options": [
+      { "id": "A", "text": "No follow-up needed" },
+      { "id": "B", "text": "CT chest in 6-12 months, then consider CT at 18-24 months" },
+      { "id": "C", "text": "PET-CT now" },
+      { "id": "D", "text": "Immediate biopsy" },
+      { "id": "E", "text": "Surgical resection" }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Fleischner 2017: Solid nodule 6-8mm in low-risk patient (never-smoker, no family history) = CT surveillance at 6-12 months. If stable, consider CT at 18-24 months. If resolved = stop. If grows = biopsy or PET-CT.",
+      "whyWrong": {
+        "A": "8mm nodule requires follow-up. Only <6mm in low-risk can be no follow-up.",
+        "C": "PET-CT is for nodules >8mm or growing nodules, not initial evaluation of 8mm.",
+        "D": "Biopsy is for growing or suspicious nodules (not initial 8mm in low-risk).",
+        "E": "Surgery is for confirmed malignancy or high suspicion after workup."
+      },
+      "clinicalPearl": "Fleischner Guidelines: Solid nodule 6-8mm (low-risk) = CT at 6-12 months, then 18-24 months. >8mm = PET-CT or biopsy."
+    },
+    "references": ["Fleischner Society Guidelines 2017"],
+    "highYield": true,
+    "timeAllocated": 72
+  }
+]
