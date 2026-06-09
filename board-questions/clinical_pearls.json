@@ -6,15 +6,30 @@
     "difficulty": "easy",
     "vignette": "A 55-year-old male with no significant medical history asks about age-appropriate cancer screenings. He is a never-smoker. Which screening is recommended for him?",
     "options": [
-      { "id": "A", "text": "Low-dose CT chest for lung cancer" },
-      { "id": "B", "text": "Colonoscopy for colorectal cancer" },
-      { "id": "C", "text": "PSA for prostate cancer" },
-      { "id": "D", "text": "Abdominal ultrasound for AAA" },
-      { "id": "E", "text": "No screenings needed until age 60" }
+      {
+        "id": "A",
+        "text": "Low-dose CT chest for lung cancer"
+      },
+      {
+        "id": "B",
+        "text": "Colonoscopy for colorectal cancer"
+      },
+      {
+        "id": "C",
+        "text": "PSA for prostate cancer"
+      },
+      {
+        "id": "D",
+        "text": "Abdominal ultrasound for AAA"
+      },
+      {
+        "id": "E",
+        "text": "No screenings needed until age 60"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "CRC screening starts at 45. Lung cancer screening is for smokers ≥20 pack-years.",
+      "whyCorrect": "CRC screening starts at 45. Lung cancer screening is for smokers \u226520 pack-years.",
       "whyWrong": {
         "A": "Lung cancer screening is only for heavy smokers.",
         "C": "PSA requires shared decision-making.",
@@ -23,7 +38,9 @@
       },
       "clinicalPearl": "Screenings at 50: CRC (colonoscopy), Lung (if smoker), Breast (mammogram if female)."
     },
-    "references": ["USPSTF Screening Guidelines"],
+    "references": [
+      "USPSTF Screening Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -34,11 +51,26 @@
     "difficulty": "medium",
     "vignette": "A 78-year-old male with advanced dementia is admitted with aspiration pneumonia. His daughter (healthcare proxy) requests 'everything possible be done.' The medical team believes this would be futile. What is the BEST approach?",
     "options": [
-      { "id": "A", "text": "Follow the daughter's wishes and intubate if needed" },
-      { "id": "B", "text": "Refuse to intubate as it is medically futile" },
-      { "id": "C", "text": "Consult the ethics committee and arrange a family meeting" },
-      { "id": "D", "text": "Transfer care to another physician" },
-      { "id": "E", "text": "Ask the daughter to prove the patient would want this" }
+      {
+        "id": "A",
+        "text": "Follow the daughter's wishes and intubate if needed"
+      },
+      {
+        "id": "B",
+        "text": "Refuse to intubate as it is medically futile"
+      },
+      {
+        "id": "C",
+        "text": "Consult the ethics committee and arrange a family meeting"
+      },
+      {
+        "id": "D",
+        "text": "Transfer care to another physician"
+      },
+      {
+        "id": "E",
+        "text": "Ask the daughter to prove the patient would want this"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -51,7 +83,9 @@
       },
       "clinicalPearl": "Futility disputes: Ethics consult + Family meeting. Time-limited trials can help."
     },
-    "references": ["AMA Code of Medical Ethics"],
+    "references": [
+      "AMA Code of Medical Ethics"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -62,15 +96,30 @@
     "difficulty": "hard",
     "vignette": "A diagnostic test has sensitivity 95% and specificity 90% for a disease with 2% prevalence. If a patient tests positive, what is the approximate probability they actually have the disease?",
     "options": [
-      { "id": "A", "text": "95%" },
-      { "id": "B", "text": "90%" },
-      { "id": "C", "text": "50%" },
-      { "id": "D", "text": "16%" },
-      { "id": "E", "text": "84%" }
+      {
+        "id": "A",
+        "text": "95%"
+      },
+      {
+        "id": "B",
+        "text": "90%"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "16%"
+      },
+      {
+        "id": "E",
+        "text": "84%"
+      }
     ],
     "correctOptionId": "D",
     "explanation": {
-      "whyCorrect": "PPV = (0.95 × 0.02) / [0.95×0.02 + (0.10)(0.98)] = 0.019/0.117 = 16.2%.",
+      "whyCorrect": "PPV = (0.95 \u00d7 0.02) / [0.95\u00d70.02 + (0.10)(0.98)] = 0.019/0.117 = 16.2%.",
       "whyWrong": {
         "A": "95% is sensitivity, not PPV.",
         "B": "90% is specificity, not PPV.",
@@ -79,11 +128,13 @@
       },
       "clinicalPearl": "PPV depends on PREVALENCE! Even excellent tests have low PPV when disease is rare."
     },
-    "references": ["Biostatistics", "Bayes Theorem"],
+    "references": [
+      "Biostatistics",
+      "Bayes Theorem"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_pearls_004",
     "specialty": "quick_review",
@@ -91,24 +142,41 @@
     "difficulty": "medium",
     "vignette": "A 70-year-old male with septic shock receives 30mL/kg IV crystalloid. He remains hypotensive (BP 78/45) despite fluids. What is the BEST next step?",
     "options": [
-      { "id": "A", "text": "Give another 30mL/kg fluid bolus" },
-      { "id": "B", "text": "Start norepinephrine infusion" },
-      { "id": "C", "text": "Start dobutamine infusion" },
-      { "id": "D", "text": "Start hydrocortisone" },
-      { "id": "E", "text": "Transfuse packed RBCs" }
+      {
+        "id": "A",
+        "text": "Give another 30mL/kg fluid bolus"
+      },
+      {
+        "id": "B",
+        "text": "Start norepinephrine infusion"
+      },
+      {
+        "id": "C",
+        "text": "Start dobutamine infusion"
+      },
+      {
+        "id": "D",
+        "text": "Start hydrocortisone"
+      },
+      {
+        "id": "E",
+        "text": "Transfuse packed RBCs"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
-      "whyCorrect": "Persistent hypotension after initial fluid resuscitation = Start vasopressors. Norepinephrine is FIRST-LINE (alpha + beta agonist). Target MAP ≥65 mmHg.",
+      "whyCorrect": "Persistent hypotension after initial fluid resuscitation = Start vasopressors. Norepinephrine is FIRST-LINE (alpha + beta agonist). Target MAP \u226565 mmHg.",
       "whyWrong": {
         "A": "Additional fluids without vasopressors will not restore perfusion.",
         "C": "Dobutamine is for cardiogenic shock with low cardiac output.",
         "D": "Hydrocortisone is for refractory shock (despite vasopressors).",
         "E": "Transfusion only if Hb <7 and evidence of inadequate oxygen delivery."
       },
-      "clinicalPearl": "Septic shock: Fluids → Norepinephrine (MAP ≥65) → Vasopressin (2nd line) → Hydrocortisone (refractory)."
+      "clinicalPearl": "Septic shock: Fluids \u2192 Norepinephrine (MAP \u226565) \u2192 Vasopressin (2nd line) \u2192 Hydrocortisone (refractory)."
     },
-    "references": ["Surviving Sepsis Campaign 2021"],
+    "references": [
+      "Surviving Sepsis Campaign 2021"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -119,11 +187,26 @@
     "difficulty": "hard",
     "vignette": "An ECG shows PR interval 220ms, QRS 140ms with a 'slurred upstroke' (delta wave) in lead II. What is the diagnosis?",
     "options": [
-      { "id": "A", "text": "First-degree AV block" },
-      { "id": "B", "text": "LBBB" },
-      { "id": "C", "text": "Wolff-Parkinson-White syndrome" },
-      { "id": "D", "text": "Hyperkalemia" },
-      { "id": "E", "text": "Brugada syndrome" }
+      {
+        "id": "A",
+        "text": "First-degree AV block"
+      },
+      {
+        "id": "B",
+        "text": "LBBB"
+      },
+      {
+        "id": "C",
+        "text": "Wolff-Parkinson-White syndrome"
+      },
+      {
+        "id": "D",
+        "text": "Hyperkalemia"
+      },
+      {
+        "id": "E",
+        "text": "Brugada syndrome"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -136,7 +219,9 @@
       },
       "clinicalPearl": "WPW triad: Short PR + Delta wave + Wide QRS. Risk of sudden death if AF develops (rapid conduction via accessory pathway)."
     },
-    "references": ["ACC/AHA ECG Interpretation"],
+    "references": [
+      "ACC/AHA ECG Interpretation"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -147,28 +232,45 @@
     "difficulty": "hard",
     "vignette": "A patient with COPD on home O2 presents with ABG: pH 7.28, PaCO2 75, HCO3 34. What is the acid-base disorder?",
     "options": [
-      { "id": "A", "text": "Acute respiratory acidosis" },
-      { "id": "B", "text": "Chronic respiratory acidosis with acute exacerbation" },
-      { "id": "C", "text": "Metabolic acidosis" },
-      { "id": "D", "text": "Mixed respiratory and metabolic acidosis" },
-      { "id": "E", "text": "Acute respiratory alkalosis" }
+      {
+        "id": "A",
+        "text": "Acute respiratory acidosis"
+      },
+      {
+        "id": "B",
+        "text": "Chronic respiratory acidosis with acute exacerbation"
+      },
+      {
+        "id": "C",
+        "text": "Metabolic acidosis"
+      },
+      {
+        "id": "D",
+        "text": "Mixed respiratory and metabolic acidosis"
+      },
+      {
+        "id": "E",
+        "text": "Acute respiratory alkalosis"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
       "whyCorrect": "Chronic respiratory acidosis: Expected HCO3 increase = 4 mEq/L per 10mmHg PaCO2 rise. Baseline PaCO2 ~50, HCO3 ~30. Now: PaCO2 75 (acute rise of 25) with HCO3 34 (appropriate chronic compensation + partial acute). pH 7.28 indicates acute-on-chronic.",
       "whyWrong": {
-        "A": "Acute resp acidosis: pH ↓ 0.08 per 10 PaCO2 rise. HCO3 would be near normal.",
+        "A": "Acute resp acidosis: pH \u2193 0.08 per 10 PaCO2 rise. HCO3 would be near normal.",
         "C": "pH is acidotic but PaCO2 is elevated (respiratory, not metabolic).",
         "D": "HCO3 is appropriately elevated for chronic compensation.",
         "E": "pH is acidotic, not alkalotic."
       },
       "clinicalPearl": "COPD: Chronic CO2 retainer with compensated HCO3. Acute rise in CO2 = acute-on-chronic respiratory acidosis."
     },
-    "references": ["Acid-Base Physiology", "COPD Management"],
+    "references": [
+      "Acid-Base Physiology",
+      "COPD Management"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_pearls_007",
     "specialty": "quick_review",
@@ -176,11 +278,26 @@
     "difficulty": "medium",
     "vignette": "A 35-year-old male presents with sharp chest pain worse with lying down and improved with leaning forward. He had a cold last week. ECG: Diffuse ST elevation. What is the BEST next step?",
     "options": [
-      { "id": "A", "text": "Emergent cardiac catheterization" },
-      { "id": "B", "text": "Ibuprofen 600mg TID + Colchicine 0.5mg BID" },
-      { "id": "C", "text": "CT chest to rule out PE" },
-      { "id": "D", "text": "Echocardiogram" },
-      { "id": "E", "text": "Omeprazole 40mg daily" }
+      {
+        "id": "A",
+        "text": "Emergent cardiac catheterization"
+      },
+      {
+        "id": "B",
+        "text": "Ibuprofen 600mg TID + Colchicine 0.5mg BID"
+      },
+      {
+        "id": "C",
+        "text": "CT chest to rule out PE"
+      },
+      {
+        "id": "D",
+        "text": "Echocardiogram"
+      },
+      {
+        "id": "E",
+        "text": "Omeprazole 40mg daily"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -193,7 +310,9 @@
       },
       "clinicalPearl": "Pericarditis: Positional CP + Diffuse STE + PR depression. Tx: NSAIDs + Colchicine. NEVER steroids first."
     },
-    "references": ["ESC Pericarditis Guidelines"],
+    "references": [
+      "ESC Pericarditis Guidelines"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -204,11 +323,26 @@
     "difficulty": "easy",
     "vignette": "An 80-year-old male is 2 days post-hip surgery. He is agitated, disoriented, and trying to pull out his IV lines. His son says 'he was fine yesterday.' Symptoms fluctuate throughout the day. What is the BEST diagnosis?",
     "options": [
-      { "id": "A", "text": "Alzheimer dementia" },
-      { "id": "B", "text": "Delirium" },
-      { "id": "C", "text": "Lewy body dementia" },
-      { "id": "D", "text": "Vascular dementia" },
-      { "id": "E", "text": "Frontotemporal dementia" }
+      {
+        "id": "A",
+        "text": "Alzheimer dementia"
+      },
+      {
+        "id": "B",
+        "text": "Delirium"
+      },
+      {
+        "id": "C",
+        "text": "Lewy body dementia"
+      },
+      {
+        "id": "D",
+        "text": "Vascular dementia"
+      },
+      {
+        "id": "E",
+        "text": "Frontotemporal dementia"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -221,11 +355,12 @@
       },
       "clinicalPearl": "Delirium = Acute + Fluctuating + Inattention. Dementia = Chronic + Progressive + Memory. Delirium is a medical emergency."
     },
-    "references": ["DSM-5 Delirium Criteria"],
+    "references": [
+      "DSM-5 Delirium Criteria"
+    ],
     "highYield": true,
     "timeAllocated": 72
-  }
-,
+  },
   {
     "id": "board_pearls_009",
     "specialty": "quick_review",
@@ -233,11 +368,26 @@
     "difficulty": "hard",
     "vignette": "A patient in septic shock remains hypotensive (MAP 58) despite norepinephrine 0.5 mcg/kg/min. What is the BEST second-line vasopressor?",
     "options": [
-      { "id": "A", "text": "Dopamine" },
-      { "id": "B", "text": "Dobutamine" },
-      { "id": "C", "text": "Vasopressin 0.03 units/min" },
-      { "id": "D", "text": "Phenylephrine" },
-      { "id": "E", "text": "Milrinone" }
+      {
+        "id": "A",
+        "text": "Dopamine"
+      },
+      {
+        "id": "B",
+        "text": "Dobutamine"
+      },
+      {
+        "id": "C",
+        "text": "Vasopressin 0.03 units/min"
+      },
+      {
+        "id": "D",
+        "text": "Phenylephrine"
+      },
+      {
+        "id": "E",
+        "text": "Milrinone"
+      }
     ],
     "correctOptionId": "C",
     "explanation": {
@@ -248,9 +398,12 @@
         "D": "Phenylephrine is pure alpha-agonist, less effective than vasopressin in sepsis.",
         "E": "Milrinone is an inodilator (for cardiogenic shock), would worsen hypotension."
       },
-      "clinicalPearl": "Septic shock: Norepinephrine (1st) → Vasopressin (2nd) → Epinephrine (3rd). Hydrocortisone if refractory to vasopressors."
+      "clinicalPearl": "Septic shock: Norepinephrine (1st) \u2192 Vasopressin (2nd) \u2192 Epinephrine (3rd). Hydrocortisone if refractory to vasopressors."
     },
-    "references": ["Surviving Sepsis Campaign 2021", "VASST Trial"],
+    "references": [
+      "Surviving Sepsis Campaign 2021",
+      "VASST Trial"
+    ],
     "highYield": true,
     "timeAllocated": 72
   },
@@ -261,11 +414,26 @@
     "difficulty": "medium",
     "vignette": "A 85-year-old with metastatic pancreatic cancer is in severe pain despite oral morphine. He develops myoclonus and confusion. What is the BEST management?",
     "options": [
-      { "id": "A", "text": "Increase morphine dose" },
-      { "id": "B", "text": "Rotate to hydromorphone" },
-      { "id": "C", "text": "Add naloxone" },
-      { "id": "D", "text": "Add midazolam" },
-      { "id": "E", "text": "Stop all opioids" }
+      {
+        "id": "A",
+        "text": "Increase morphine dose"
+      },
+      {
+        "id": "B",
+        "text": "Rotate to hydromorphone"
+      },
+      {
+        "id": "C",
+        "text": "Add naloxone"
+      },
+      {
+        "id": "D",
+        "text": "Add midazolam"
+      },
+      {
+        "id": "E",
+        "text": "Stop all opioids"
+      }
     ],
     "correctOptionId": "B",
     "explanation": {
@@ -278,7 +446,479 @@
       },
       "clinicalPearl": "Opioid neurotoxicity: Rotate to different opioid. Hydromorphone/fentanyl have less neurotoxic metabolites than morphine."
     },
-    "references": ["NCCN Palliative Care Guidelines"],
+    "references": [
+      "NCCN Palliative Care Guidelines"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_001",
+    "specialty": "quick_review",
+    "topic": "Wells Criteria for PE",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female on OCPs presents with acute pleuritic chest pain and dyspnea. HR 105, no hemoptysis. What is the Wells criteria score and next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wells >6: CTPA directly"
+      },
+      {
+        "id": "B",
+        "text": "Wells 4.5 (moderate): D-dimer \u2192 If positive \u2192 CTPA"
+      },
+      {
+        "id": "C",
+        "text": "Wells <2: PE ruled out, no testing"
+      },
+      {
+        "id": "D",
+        "text": "Start anticoagulation without testing"
+      },
+      {
+        "id": "E",
+        "text": "Ventilation-perfusion scan first"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Modified Wells criteria: Clinical signs/symptoms of DVT (3), PE is #1 diagnosis or equally likely (3), HR >100 (1.5), immobilization/surgery <4 weeks (1.5), previous DVT/PE (1.5), hemoptysis (1), cancer (1). Her score: HR >100 (1.5) + OCPs (not scored but risk factor) + Clinical suspicion moderate. Wells \u22644: D-dimer \u2192 if positive \u2192 CTPA. Wells >4: CTPA directly. PERC rule can be used if Wells <2.",
+      "whyWrong": {
+        "A": "Wells >4 requires CTPA directly; her score is moderate.",
+        "B": "Wells 4.5: D-dimer \u2192 CTPA if positive. Appropriate algorithm.",
+        "C": "Wells is moderate (not <2); requires workup.",
+        "D": "Do not anticoagulate without diagnostic confirmation.",
+        "E": "V/Q scan is alternative if CTPA contraindicated (renal failure, contrast allergy)."
+      },
+      "clinicalPearl": "PE workup: Wells \u22644 \u2192 D-dimer \u2192 CTPA if positive. Wells >4 \u2192 CTPA directly. PERC rule if Wells <2. OCPs increase risk."
+    },
+    "references": [
+      "Modified Wells Criteria",
+      "CHEST PE Guidelines 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_002",
+    "specialty": "quick_review",
+    "topic": "Ranson Criteria for Pancreatitis",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male with gallstone pancreatitis has glucose 250, age 60, WBC 18K, LDH 400, AST 300. What is the Ranson score and prognosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 0: Mild pancreatitis"
+      },
+      {
+        "id": "B",
+        "text": "Score 5: Severe pancreatitis (mortality 40%)"
+      },
+      {
+        "id": "C",
+        "text": "Score 2: Moderate pancreatitis"
+      },
+      {
+        "id": "D",
+        "text": "Score 1: Mild pancreatitis"
+      },
+      {
+        "id": "E",
+        "text": "Ranson criteria not applicable"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Ranson criteria (at admission): Age >55 (1), WBC >16K (1), Glucose >200 (1), LDH >350 (1), AST >250 (1). His score = 5 (all 5 positive). At 48h: Hct drop >10%, BUN increase >5, Ca <8, PaO2 <60, Base deficit >4, Fluid sequestration >6L. Score 0-2: Mild (mortality <1%), 3-4: Moderate (mortality 15-20%), 5-6: Severe (mortality 40%), \u22657: Very severe (mortality >50%). He needs aggressive fluid resuscitation and ICU monitoring.",
+      "whyWrong": {
+        "A": "Score is 5, not 0.",
+        "B": "Score 5 = Severe pancreatitis. 40% mortality. Needs ICU.",
+        "C": "Score is 5, not 2.",
+        "D": "Score is 5, not 1.",
+        "E": "Ranson criteria are specifically for acute pancreatitis prognosis."
+      },
+      "clinicalPearl": "Ranson \u22653 = Severe pancreatitis. His score = 5 (mortality 40%). Aggressive LR fluids. ICU monitoring."
+    },
+    "references": [
+      "Ranson Criteria (1974)",
+      "AGA Pancreatitis Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_003",
+    "specialty": "quick_review",
+    "topic": "HAS-BLED Score",
+    "difficulty": "medium",
+    "vignette": "A 75-year-old female with AF on warfarin has HTN (uncontrolled, SBP 160), abnormal renal function (Cr 2.0), history of GI bleed, labile INRs, and alcohol use >8 drinks/week. What is her HAS-BLED score?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Low risk"
+      },
+      {
+        "id": "B",
+        "text": "Score 5: High risk - Consider DOAC over warfarin, address modifiable risk factors"
+      },
+      {
+        "id": "C",
+        "text": "Score 1: Very low risk"
+      },
+      {
+        "id": "D",
+        "text": "Score 3: Moderate risk"
+      },
+      {
+        "id": "E",
+        "text": "Score 0: No risk"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HAS-BLED: HTN (uncontrolled SBP >160) = 1, Abnormal renal/liver (Cr >2.26 or dialysis) = 1, Stroke history = 0, Bleeding history (GI bleed) = 1, Labile INRs = 1, Elderly (age >65) = 1, Drugs (antiplatelet/NSAIDs) = 0, Alcohol (>8 drinks/week) = 1. Total = 5. HAS-BLED \u22653 = HIGH bleeding risk. NOT a contraindication to anticoagulation; address modifiable risk factors (BP control, alcohol, INR stability). Consider DOAC over warfarin.",
+      "whyWrong": {
+        "A": "Score is 5, not 2.",
+        "B": "HAS-BLED 5 = High risk. Address modifiable factors. DOAC preferred.",
+        "C": "Score is 5, not 1.",
+        "D": "Score is 5, not 3.",
+        "E": "Score is 5, not 0."
+      },
+      "clinicalPearl": "HAS-BLED \u22653 = High bleeding risk. NOT a reason to withhold anticoagulation. Address modifiable factors. DOAC > Warfarin."
+    },
+    "references": [
+      "HAS-BLED Score (2010)",
+      "ESC AF Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_004",
+    "specialty": "quick_review",
+    "topic": "LRINEC Score for Necrotizing Fasciitis",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old diabetic male with leg cellulitis has CRP 200, WBC 18K, Hb 11, Na 130, Cr 2.0, Glucose 300. What is the LRINEC score and interpretation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Low risk, antibiotics alone"
+      },
+      {
+        "id": "B",
+        "text": "Score 9: High risk for necrotizing fasciitis - Surgical exploration warranted"
+      },
+      {
+        "id": "C",
+        "text": "Score 4: Intermediate risk, observe"
+      },
+      {
+        "id": "D",
+        "text": "Score 1: Very low risk"
+      },
+      {
+        "id": "E",
+        "text": "Score 6: Moderate risk, CT first"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis): CRP \u2265150 (4), WBC 15-25 (1), Hb 11-13.5 (1), Na <135 (2), Cr >1.6 (2), Glucose >180 (1). Total = 9 (CRP 4 + WBC 1 + Hb 1 + Na 2 + Cr 2 + Glucose 1 = 11, but max CRP is 4). Score \u22658: Strongly predictive of necrotizing fasciitis (>75% risk). Surgical exploration is warranted. However, LRINEC has limitations (low sensitivity); clinical judgment (pain out of proportion, crepitus) is paramount.",
+      "whyWrong": {
+        "A": "Score \u22658 = High risk, not low.",
+        "B": "LRINEC \u22658 = High risk for NF. Surgical exploration. Clinical correlation essential.",
+        "C": "Score 9 is high risk, not intermediate.",
+        "D": "Score 9 is high risk.",
+        "E": "CT may delay life-saving surgery; clinical diagnosis sufficient."
+      },
+      "clinicalPearl": "LRINEC \u22658 = High risk for necrotizing fasciitis. Clinical diagnosis (pain out of proportion, crepitus) > LRINEC. Do NOT delay surgery."
+    },
+    "references": [
+      "LRINEC Score (2004)",
+      "IDSA Skin Infection Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_005",
+    "specialty": "quick_review",
+    "topic": "PECARN Rule for Pediatric Head Trauma",
+    "difficulty": "medium",
+    "vignette": "A 3-year-old boy fell from playground equipment (height 4 feet). He cried immediately, had no loss of consciousness, no vomiting, and is acting normally. No palpable skull fracture. What does PECARN rule recommend?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CT head immediately"
+      },
+      {
+        "id": "B",
+        "text": "No CT head needed - Observation with return precautions"
+      },
+      {
+        "id": "C",
+        "text": "Skull X-ray first"
+      },
+      {
+        "id": "D",
+        "text": "Admit for 24-hour observation"
+      },
+      {
+        "id": "E",
+        "text": "MRI brain"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "PECARN rule for children <2 years: CT if GCS <15, AMS, or palpable skull fracture. For children \u22652 years: CT if GCS <15, AMS, signs of basilar skull fracture, or vomiting. This child is \u22652 years with none of the high-risk criteria = CT NOT recommended. PECARN is highly sensitive (>99%) for clinically important TBI. Observation with return precautions (worsening symptoms, persistent vomiting) is appropriate. Avoid unnecessary radiation in children.",
+      "whyWrong": {
+        "A": "No PECARN criteria met; CT not indicated.",
+        "B": "No high-risk features. Observation with return precautions. Avoid CT radiation.",
+        "C": "Skull X-ray not recommended for TBI evaluation.",
+        "D": "No criteria for admission.",
+        "E": "MRI not indicated; CT is imaging of choice for acute TBI."
+      },
+      "clinicalPearl": "PECARN: >99% sensitivity for pediatric TBI. Avoid CT if no high-risk criteria. Observation with return precautions."
+    },
+    "references": [
+      "PECARN Rule (2009)",
+      "AAP Head Trauma Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_006",
+    "specialty": "quick_review",
+    "topic": "HEART Score for Chest Pain",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male with HTN and DM presents with chest pain. ECG shows nonspecific T-wave changes. Initial troponin is normal. Pain is suspicious but not typical. He has 2 cardiac risk factors. What is the HEART score and disposition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 2: Discharge"
+      },
+      {
+        "id": "B",
+        "text": "Score 5: Admit for observation and further testing"
+      },
+      {
+        "id": "C",
+        "text": "Score 1: Discharge"
+      },
+      {
+        "id": "D",
+        "text": "Score 3: Discharge with outpatient follow-up"
+      },
+      {
+        "id": "E",
+        "text": "Score 7: Immediate cath lab activation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HEART score: History (suspicious = 1), ECG (nonspecific changes = 1), Age (50 = 1), Risk factors (HTN + DM = 2), Troponin (normal = 0). Total = 5. HEART 4-6: Moderate risk (12-17% MACE at 6 weeks) \u2192 Admit for observation, serial troponins, and stress testing. HEART 0-3: Low risk (<2% MACE) \u2192 Early discharge. HEART 7-10: High risk (>50% MACE) \u2192 Invasive strategy. TIMI and GRACE scores are alternatives.",
+      "whyWrong": {
+        "A": "Score is 5, not 2.",
+        "B": "HEART 5 = Moderate risk. Admit for observation + testing. 12-17% MACE risk.",
+        "C": "Score is 5, not 1.",
+        "D": "Score 3 would be low risk; his score is 5 (moderate).",
+        "E": "Score 7+ would warrant invasive strategy."
+      },
+      "clinicalPearl": "HEART Score: 0-3 = Discharge (1.7% MACE). 4-6 = Admit observation (12-17% MACE). 7-10 = Invasive strategy (>50% MACE)."
+    },
+    "references": [
+      "HEART Score Validation",
+      "ACC/AHA Chest Pain Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_007",
+    "specialty": "quick_review",
+    "topic": "Glasgow-Blatchford Score for UGIB",
+    "difficulty": "medium",
+    "vignette": "A 60-year-old male with melena has BUN 45, Hb 10, SBP 105, HR 105. No liver disease or heart failure. What is the Glasgow-Blatchford score and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 0: Outpatient management"
+      },
+      {
+        "id": "B",
+        "text": "Score 8: High risk - Admit for urgent endoscopy within 24h"
+      },
+      {
+        "id": "C",
+        "text": "Score 2: Discharge with PPI"
+      },
+      {
+        "id": "D",
+        "text": "Score 1: Outpatient endoscopy"
+      },
+      {
+        "id": "E",
+        "text": "Score 5: Observe"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Glasgow-Blatchford Score (GBS): BUN 45 (6), Hb 10 (men 12-13 = 1, but 10 <12 = 3 for men), SBP 100-109 (2), HR \u2265100 (1). Also: Melena (1), Syncope (0), Liver disease (0), Heart failure (0). His score = 6+3+2+1+1 = 13 (high). GBS >1: Needs intervention. GBS >7: High risk, urgent endoscopy. GBS 0: Low risk, outpatient. Pre-endoscopy PPI is NOT recommended per ACG 2024 (no benefit).",
+      "whyWrong": {
+        "A": "GBS 13 is high risk, not low.",
+        "B": "GBS \u22657 = High risk. Admit for urgent EGD. Octreotide if variceal suspected.",
+        "C": "GBS 13 is high risk, not low.",
+        "D": "GBS 13 requires admission and urgent EGD.",
+        "E": "GBS 13 is high risk, not moderate."
+      },
+      "clinicalPearl": "GBS for UGIB: Score 0 = Outpatient. Score \u22651 = Admit. Score \u22657 = Urgent EGD. Pre-endoscopy PPI NOT recommended."
+    },
+    "references": [
+      "Glasgow-Blatchford Score (2000)",
+      "ACG UGIB Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_008",
+    "specialty": "quick_review",
+    "topic": "NEXUS Criteria for C-Spine",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old male in motor vehicle collision is alert, not intoxicated, has no neurologic deficit, no midline cervical tenderness, and no distracting injury. What does NEXUS recommend?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CT cervical spine"
+      },
+      {
+        "id": "B",
+        "text": "C-spine can be cleared clinically without imaging"
+      },
+      {
+        "id": "C",
+        "text": "Cervical spine X-ray"
+      },
+      {
+        "id": "D",
+        "text": "MRI cervical spine"
+      },
+      {
+        "id": "E",
+        "text": "Keep in C-collar until CT done"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "NEXUS criteria: C-spine can be cleared clinically if ALL 5 are met: 1. No midline cervical tenderness, 2. No focal neurologic deficit, 3. Normal level of alertness, 4. No intoxication, 5. No distracting injury. This patient meets ALL criteria = C-spine clinically cleared. No imaging needed. Canadian C-spine rule is alternative (more sensitive). NEXUS sensitivity 99.6% for clinically significant C-spine injury.",
+      "whyWrong": {
+        "A": "No NEXUS criteria met; CT not needed.",
+        "B": "All 5 NEXUS criteria negative = C-spine cleared without imaging.",
+        "C": "X-ray not needed if NEXUS negative.",
+        "D": "MRI not needed if NEXUS negative.",
+        "E": "C-collar can be removed per NEXUS criteria."
+      },
+      "clinicalPearl": "NEXUS: 5 criteria ALL negative = Clear C-spine clinically. No imaging needed. Canadian C-spine rule is alternative."
+    },
+    "references": [
+      "NEXUS Study (2000)",
+      "ACR Appropriateness Criteria 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_009",
+    "specialty": "quick_review",
+    "topic": "Burch-Wartofsky Score",
+    "difficulty": "medium",
+    "vignette": "A 45-year-old female with Graves disease on methimazole presents with temp 39.5\u00b0C, HR 160, confusion, and diarrhea. What is the diagnosis and management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mild hyperthyroidism - Increase methimazole"
+      },
+      {
+        "id": "B",
+        "text": "Thyroid storm (Burch-Wartofsky \u226545) - PTU + Propranolol + Hydrocortisone + Iodine (after PTU) + ICU"
+      },
+      {
+        "id": "C",
+        "text": "Sepsis - Antibiotics"
+      },
+      {
+        "id": "D",
+        "text": "Anxiety - Lorazepam"
+      },
+      {
+        "id": "E",
+        "text": "Radioactive iodine urgently"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Burch-Wartofsky score for thyroid storm: Temp (39.5\u00b0C = 20), CNS (confusion = 20), GI (diarrhea = 10), HR (160 = 25), Heart failure (0), Atrial fib (0), Precipitant (missed meds = 10). Total = 85 (\u226545 = Thyroid storm). Treatment: PTU (blocks synthesis AND T4\u2192T3), Propranolol (blocks adrenergic symptoms), Hydrocortisone (blocks T4\u2192T3, treats adrenal insufficiency), Iodine AFTER PTU (blocks release). ICU admission. Mortality 10-30%.",
+      "whyWrong": {
+        "A": "Score \u226545 = Thyroid storm; not mild hyperthyroidism.",
+        "B": "Thyroid storm: PTU + Propranolol + Steroids + Iodine. ICU. Burch-Wartofsky \u226545.",
+        "C": "Rule out infection but primary is thyroid storm.",
+        "D": "Not anxiety; life-threatening thyroid storm.",
+        "E": "RAI contraindicated in thyroid storm (worsens acutely)."
+      },
+      "clinicalPearl": "Burch-Wartofsky \u226545 = Thyroid storm. PTU + Propranolol + Hydrocortisone + Iodine. ICU. Mortality 10-30%."
+    },
+    "references": [
+      "Burch-Wartofsky Score (1993)",
+      "ATA Hyperthyroidism Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "pearls_b1_010",
+    "specialty": "quick_review",
+    "topic": "CURB-65 vs PSI for Pneumonia",
+    "difficulty": "medium",
+    "vignette": "A 70-year-old female with CAP has confusion, BUN 28, RR 32, BP 85/60, and age 70. What is CURB-65 score and disposition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Score 1: Outpatient"
+      },
+      {
+        "id": "B",
+        "text": "Score 5: ICU admission (meets all 5 criteria)"
+      },
+      {
+        "id": "C",
+        "text": "Score 3: Medical ward"
+      },
+      {
+        "id": "D",
+        "text": "Score 2: Outpatient with oral antibiotics"
+      },
+      {
+        "id": "E",
+        "text": "Score 4: ICU"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "CURB-65: Confusion (1), Urea >7 (BUN 28 \u2192 urea ~10 = 1), RR \u226530 (1), BP <90/60 (1), Age \u226565 (1). Score = 5. CURB-65 0-1: Outpatient. Score 2: Ward admission. Score \u22653: Severe pneumonia, consider ICU. Score 4-5: ICU admission. PSI/PORT score is alternative for prognosis. She needs ICU for vasopressor support (hypotension).",
+      "whyWrong": {
+        "A": "Score is 5, not 1.",
+        "B": "CURB-65 5 = ICU. All 5 criteria met.",
+        "C": "Score \u22653 requires ICU consideration; score 5 definitely ICU.",
+        "D": "Score is 5, not 2.",
+        "E": "Score is 5, not 4."
+      },
+      "clinicalPearl": "CURB-65: 0-1 = Outpatient, 2 = Ward, \u22653 = ICU. Score 4-5: ICU definitely. PSI class IV-V also ICU."
+    },
+    "references": [
+      "CURB-65 Score (2003)",
+      "IDSA/ATS CAP Guidelines 2023"
+    ],
     "highYield": true,
     "timeAllocated": 72
   }
