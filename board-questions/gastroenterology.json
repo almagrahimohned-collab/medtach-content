@@ -916,5 +916,473 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_001",
+    "specialty": "gastroenterology",
+    "topic": "Crohn Disease - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old male with moderate-severe ileocolonic Crohn disease has failed adalimumab (anti-TNF). He has active inflammation on colonoscopy and elevated CRP. What is the BEST next advanced therapy per AGA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Switch to infliximab (another anti-TNF)"
+      },
+      {
+        "id": "B",
+        "text": "Risankizumab (anti-IL23) 600mg IV induction"
+      },
+      {
+        "id": "C",
+        "text": "Vedolizumab (anti-integrin)"
+      },
+      {
+        "id": "D",
+        "text": "Azathioprine monotherapy"
+      },
+      {
+        "id": "E",
+        "text": "Prednisone long-term"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Failed anti-TNF: Switch to different MECHANISM of action. Risankizumab (anti-IL23 p19) is FDA-approved for moderate-severe Crohn disease. ADVANCE and MOTIVATE trials showed superior efficacy over placebo. Ustekinumab (anti-IL12/23) is alternative. Switching within same class (infliximab) may work but different mechanism preferred. Vedolizumab is gut-selective but slower onset.",
+      "whyWrong": {
+        "A": "Switching within anti-TNF class less effective than switching mechanism.",
+        "B": "Anti-IL23 (risankizumab) = Different mechanism, high efficacy, favorable safety.",
+        "C": "Vedolizumab is effective but slower onset; different mechanism is good option.",
+        "D": "Azathioprine monotherapy is inadequate for moderate-severe disease.",
+        "E": "Long-term steroids not acceptable (osteoporosis, infection, metabolic side effects)."
+      },
+      "clinicalPearl": "Crohn after anti-TNF failure: Switch mechanism (anti-IL23 = risankizumab, or anti-IL12/23 = ustekinumab). Avoid long-term steroids."
+    },
+    "references": [
+      "AGA Crohn Guidelines 2024",
+      "ADVANCE/MOTIVATE Trials 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_002",
+    "specialty": "gastroenterology",
+    "topic": "Diverticulitis - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with uncomplicated left-sided diverticulitis (Hinchey Ia, CT-confirmed, no abscess) presents with moderate pain but tolerating oral intake. No immunosuppression. What is the BEST management per AGA 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Admit for IV antibiotics"
+      },
+      {
+        "id": "B",
+        "text": "Outpatient management with oral antibiotics (amoxicillin-clavulanate) OR observation without antibiotics"
+      },
+      {
+        "id": "C",
+        "text": "Emergency colectomy"
+      },
+      {
+        "id": "D",
+        "text": "CT-guided drainage"
+      },
+      {
+        "id": "E",
+        "text": "Colonoscopy now"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AGA 2023: Uncomplicated diverticulitis in immunocompetent patient tolerating oral intake = Outpatient management. Antibiotics may be SELECTIVE (not mandatory) - observation without antibiotics is acceptable for mild cases (AVOD trial). If antibiotics used: Amoxicillin-clavulanate or TMP-SMX + Metronidazole x7-10 days. Colonoscopy in 6-8 weeks to rule out malignancy. Surgery for recurrent or complicated.",
+      "whyWrong": {
+        "A": "IV antibiotics reserved for complicated diverticulitis or inability to tolerate PO.",
+        "B": "Outpatient management \u00b1 selective antibiotics is standard per AGA 2023.",
+        "C": "Surgery for Hinchey III/IV (abscess, perforation) or recurrent episodes.",
+        "D": "Drainage for abscess >3cm (Hinchey Ib/II).",
+        "E": "Colonoscopy after acute episode resolves (6-8 weeks) to rule out malignancy."
+      },
+      "clinicalPearl": "Uncomplicated diverticulitis: Outpatient management. Antibiotics are SELECTIVE (not mandatory). Colonoscopy in 6-8 weeks to rule out malignancy."
+    },
+    "references": [
+      "AGA Diverticulitis Guidelines 2023",
+      "AVOD Trial 2017"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_003",
+    "specialty": "gastroenterology",
+    "topic": "Hepatitis B - New Treatment",
+    "difficulty": "medium",
+    "vignette": "A 40-year-old HBeAg-positive chronic hepatitis B patient has HBV DNA 50,000 IU/mL and ALT 120 U/L. Liver biopsy shows moderate inflammation (Metavir A2F2). What is the BEST first-line treatment per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lamivudine 100mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Tenofovir alafenamide (TAF) 25mg daily OR Entecavir 0.5mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Pegylated interferon alfa x48 weeks"
+      },
+      {
+        "id": "D",
+        "text": "Adefovir 10mg daily"
+      },
+      {
+        "id": "E",
+        "text": "Observation without treatment"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Chronic HBV meeting treatment criteria: HBV DNA >2000 IU/mL + ALT >ULN + Moderate inflammation (A2F2). First-line: Tenofovir alafenamide (TAF) or Entecavir. TAF preferred over TDF (less renal and bone toxicity). Pegylated interferon is alternative for young patients with favorable genotype (HBeAg+, genotype A). Lamivudine and Adefovir are obsolete (high resistance).",
+      "whyWrong": {
+        "A": "Lamivudine has 70% resistance at 5 years (obsolete).",
+        "B": "TAF or Entecavir: High barrier to resistance, excellent efficacy, safe.",
+        "C": "Peg-IFN is alternative but more side effects; TAF/Entecavir preferred.",
+        "D": "Adefovir is obsolete (nephrotoxic, weak potency).",
+        "E": "Meets treatment criteria (DNA >2000 + elevated ALT + inflammation)."
+      },
+      "clinicalPearl": "Chronic HBV treatment: TAF or Entecavir (first-line, high barrier to resistance). TAF > TDF (less bone/renal toxicity). Avoid lamivudine."
+    },
+    "references": [
+      "AASLD Hepatitis B Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_004",
+    "specialty": "gastroenterology",
+    "topic": "Hepatitis C - Simplified Treatment",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old treatment-naive male with HCV genotype 1a, no cirrhosis, and normal renal function is newly diagnosed. What is the recommended treatment per AASLD/IDSA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interferon + Ribavirin x24 weeks"
+      },
+      {
+        "id": "B",
+        "text": "Glecaprevir/Pibrentasvir (Mavyret) x8 weeks OR Sofosbuvir/Velpatasvir (Epclusa) x12 weeks"
+      },
+      {
+        "id": "C",
+        "text": "Sofosbuvir + Ribavirin x12 weeks"
+      },
+      {
+        "id": "D",
+        "text": "Wait for newer therapies"
+      },
+      {
+        "id": "E",
+        "text": "No treatment needed for genotype 1a"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "HCV treatment in 2024: Pan-genotypic DAA regimens. Glecaprevir/Pibrentasvir (Mavyret) x8 weeks or Sofosbuvir/Velpatasvir (Epclusa) x12 weeks. Both have >95% SVR (cure). Simplified algorithm: No genotype or fibrosis testing needed in non-cirrhotic patients. Interferon-based regimens are NO LONGER used. Treatment is curative and prevents progression to cirrhosis and HCC.",
+      "whyWrong": {
+        "A": "Interferon-based regimens are obsolete (low cure rate, severe side effects).",
+        "B": "Pan-genotypic DAA x8-12 weeks = >95% cure. Simplified approach.",
+        "C": "Ribavirin-containing regimens are no longer needed for most patients.",
+        "D": "Curative therapies available now; no need to wait.",
+        "E": "All HCV should be treated to prevent cirrhosis and HCC."
+      },
+      "clinicalPearl": "HCV cure in 2024: Glecaprevir/Pibrentasvir x8 weeks or Sofosbuvir/Velpatasvir x12 weeks. >95% SVR. No interferon. Simplified!"
+    },
+    "references": [
+      "AASLD/IDSA HCV Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_005",
+    "specialty": "gastroenterology",
+    "topic": "Irritable Bowel Syndrome - New Therapies",
+    "difficulty": "medium",
+    "vignette": "A 35-year-old female with IBS-C (constipation-predominant, Rome IV criteria) has failed fiber supplementation, osmotic laxatives, and lubiprostone. What is the BEST next therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase fiber to 30g daily"
+      },
+      {
+        "id": "B",
+        "text": "Tenapanor (Ibsrela) 50mg BID"
+      },
+      {
+        "id": "C",
+        "text": "Loperamide 2mg PRN"
+      },
+      {
+        "id": "D",
+        "text": "Dicyclomine 20mg QID"
+      },
+      {
+        "id": "E",
+        "text": "Rifaximin 550mg TID"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "IBS-C refractory to first-line: Tenapanor (NHE3 inhibitor) is FDA-approved for IBS-C. Reduces sodium absorption \u2192 increases intestinal fluid \u2192 accelerates transit. Also reduces visceral hypersensitivity. Alternative: Tegaserod (5-HT4 agonist, restricted access) or Plecanatide (guanylate cyclase-C agonist). Rifaximin is for IBS-D. Loperamide is for diarrhea (IBS-D).",
+      "whyWrong": {
+        "A": "Fiber may worsen bloating in IBS-C.",
+        "B": "Tenapanor: New mechanism (NHE3 inhibitor), FDA-approved for IBS-C.",
+        "C": "Loperamide is for IBS-D, not IBS-C.",
+        "D": "Antispasmodics help abdominal pain but not constipation.",
+        "E": "Rifaximin is for IBS-D, not IBS-C."
+      },
+      "clinicalPearl": "IBS-C refractory: Tenapanor (NHE3 inhibitor) or Plecanatide (GC-C agonist). IBS-D: Rifaximin or Eluxadoline."
+    },
+    "references": [
+      "AGA IBS Guidelines 2023",
+      "Tenapanor FDA Label"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_006",
+    "specialty": "gastroenterology",
+    "topic": "Esophageal Varices Prophylaxis",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old male with compensated alcoholic cirrhosis (Child-Pugh A) has small esophageal varices on screening EGD. He has never bled. What is the recommended management per AASLD 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Endoscopic variceal ligation (EVL) now"
+      },
+      {
+        "id": "B",
+        "text": "Non-selective beta-blocker (propranolol or carvedilol) for primary prophylaxis"
+      },
+      {
+        "id": "C",
+        "text": "TIPS procedure"
+      },
+      {
+        "id": "D",
+        "text": "Observation without treatment"
+      },
+      {
+        "id": "E",
+        "text": "Sclerotherapy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Small varices with high-risk features (Child-Pugh B/C or red wale signs): Non-selective beta-blocker (NSBB) for primary prophylaxis. Carvedilol 6.25-12.5mg daily is preferred (more effective than propranolol in reducing portal pressure). Small varices without high-risk features: NSBB optional (controversial). Medium/large varices: NSBB or EVL (equal efficacy). EVL is for medium/large varices or NSBB intolerance.",
+      "whyWrong": {
+        "A": "EVL is for medium/large varices or NSBB intolerance/contraindication.",
+        "B": "NSBB (carvedilol preferred) for primary prophylaxis of small varices with high-risk features.",
+        "C": "TIPS is for recurrent bleeding despite EVL + NSBB.",
+        "D": "Small varices with risk factors warrant prophylaxis.",
+        "E": "Sclerotherapy is obsolete (replaced by EVL)."
+      },
+      "clinicalPearl": "Small varices + High risk: NSBB (carvedilol). Medium/large varices: NSBB or EVL. TIPS for refractory bleeding."
+    },
+    "references": [
+      "AASLD Portal Hypertension Guidelines 2024",
+      "Baveno VII Consensus 2022"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_007",
+    "specialty": "gastroenterology",
+    "topic": "Acute Liver Failure",
+    "difficulty": "hard",
+    "vignette": "A 22-year-old female presents with acute liver failure (jaundice, coagulopathy, encephalopathy) 2 days after taking 15g of acetaminophen in a suicide attempt. Acetaminophen level is 50 \u03bcg/mL at 12 hours post-ingestion. What is the BEST management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Activated charcoal"
+      },
+      {
+        "id": "B",
+        "text": "N-acetylcysteine (NAC) IV per protocol + Liver transplant evaluation"
+      },
+      {
+        "id": "C",
+        "text": "Supportive care only"
+      },
+      {
+        "id": "D",
+        "text": "Hemodialysis"
+      },
+      {
+        "id": "E",
+        "text": "Ursodeoxycholic acid"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acetaminophen-induced ALF with detectable level and encephalopathy: NAC IV immediately (most effective if given within 8-10 hours but still beneficial later). King's College Criteria predict prognosis and need for transplant. Charcoal only if within 1-2 hours of ingestion. Already in ALF phase = NAC + Transplant evaluation. NAC reduces mortality even in established ALF.",
+      "whyWrong": {
+        "A": "Charcoal useful only within 1-2 hours of ingestion; already 12 hours.",
+        "B": "NAC is antidote + Transplant evaluation for ALF.",
+        "C": "ALF requires specific treatment (NAC) and transplant consideration.",
+        "D": "Hemodialysis not effective for acetaminophen removal.",
+        "E": "UDCA is for cholestatic liver disease, not ALF."
+      },
+      "clinicalPearl": "Acetaminophen ALF: NAC IV (even late). King's College Criteria predict transplant need. NAC reduces mortality."
+    },
+    "references": [
+      "AASLD Acute Liver Failure Guidelines 2023",
+      "King's College Criteria"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_008",
+    "specialty": "gastroenterology",
+    "topic": "Celiac Disease - New Guidelines",
+    "difficulty": "medium",
+    "vignette": "A 25-year-old female with suspected celiac disease has tTG-IgA >10x ULN and positive endomysial antibodies. What is the recommended approach per ACG 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duodenal biopsy is mandatory for all patients"
+      },
+      {
+        "id": "B",
+        "text": "No-biopsy diagnosis is acceptable in symptomatic adults with tTG-IgA >10x ULN + positive EMA"
+      },
+      {
+        "id": "C",
+        "text": "Start gluten-free diet without testing"
+      },
+      {
+        "id": "D",
+        "text": "HLA-DQ2/DQ8 testing alone is sufficient"
+      },
+      {
+        "id": "E",
+        "text": "Repeat serology in 6 months"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "ACG 2024: No-biopsy diagnosis is acceptable in SYMPTOMATIC adults with tTG-IgA >10x ULN + positive endomysial antibodies (EMA) on a separate blood draw. Sensitivity and specificity approach 100% with this combination. Children can be diagnosed with tTG-IgA >10x ULN alone (ESPGHAN criteria). Biopsy still required if: Asymptomatic, tTG-IgA <10x ULN, negative EMA, or discordant results.",
+      "whyWrong": {
+        "A": "Biopsy no longer mandatory for all; no-biopsy criteria now accepted in adults.",
+        "B": "No-biopsy diagnosis: tTG-IgA >10x ULN + positive EMA = Confirmed celiac disease.",
+        "C": "Gluten-free diet should NOT be started before diagnostic testing (affects results).",
+        "D": "HLA-DQ2/DQ8 has high NPV but low PPV; not diagnostic alone.",
+        "E": "Treat now; repeat serology to monitor response to gluten-free diet."
+      },
+      "clinicalPearl": "Celiac diagnosis 2024: No-biopsy acceptable with tTG-IgA >10x ULN + EMA+. Children: tTG-IgA >10x ULN alone. Still need biopsy for most adults."
+    },
+    "references": [
+      "ACG Celiac Disease Guidelines 2024",
+      "ESPGHAN Celiac Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_009",
+    "specialty": "gastroenterology",
+    "topic": "Pancreatic Cysts Surveillance",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female is found to have a 2.5cm branch-duct IPMN without high-risk features (no mural nodule, no dilated MPD, no jaundice). What is the surveillance per AGA 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediate surgical resection"
+      },
+      {
+        "id": "B",
+        "text": "MRI/MRCP or EUS in 6-12 months, then consider extending interval if stable"
+      },
+      {
+        "id": "C",
+        "text": "CT annually for 5 years"
+      },
+      {
+        "id": "D",
+        "text": "No follow-up needed"
+      },
+      {
+        "id": "E",
+        "text": "ERCP with brushing"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Branch-duct IPMN 2-3cm without worrisome features: Surveillance with MRI/MRCP (preferred) or EUS. Fukuoka guidelines (revised 2023): 2-3cm = Follow in 6-12 months. If stable at 1 year, extend interval to every 2 years. Surgery if: Mural nodule \u22655mm, MPD \u226510mm, jaundice, or rapid growth \u22655mm/2 years. Small IPMN <2cm: Follow in 1-2 years.",
+      "whyWrong": {
+        "A": "Surgery reserved for high-risk features or malignancy concern.",
+        "B": "MRI/MRCP in 6-12 months for 2-3cm IPMN without high-risk features.",
+        "C": "CT has radiation; MRI preferred for surveillance. Annual CT excessive.",
+        "D": "IPMN requires surveillance (malignant potential).",
+        "E": "ERCP with brushing is for high-risk features or suspected malignancy."
+      },
+      "clinicalPearl": "Branch-duct IPMN surveillance: 2-3cm = MRI in 6-12mo. <2cm = MRI in 1-2yr. Surgery if mural nodule \u22655mm, MPD \u226510mm, or growth."
+    },
+    "references": [
+      "Fukuoka Guidelines 2023",
+      "AGA IPMN Guidelines 2024"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "gastro_b2_010",
+    "specialty": "gastroenterology",
+    "topic": "GERD - Refractory Management",
+    "difficulty": "medium",
+    "vignette": "A 50-year-old male with heartburn and regurgitation has failed twice-daily PPI therapy for 8 weeks. EGD is normal. What is the BEST next step per ACG 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase PPI to TID"
+      },
+      {
+        "id": "B",
+        "text": "Ambulatory pH monitoring (Bravo or impedance-pH) off PPI to confirm acid reflux"
+      },
+      {
+        "id": "C",
+        "text": "Nissen fundoplication"
+      },
+      {
+        "id": "D",
+        "text": "Barium swallow"
+      },
+      {
+        "id": "E",
+        "text": "Add H2 blocker at bedtime"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Refractory GERD symptoms despite BID PPI with normal EGD: Objective pH testing (ambulatory reflux monitoring). Bravo capsule (48-96h) or impedance-pH probe. Performed OFF PPI (after 7-day washout) to confirm/exclude pathologic acid reflux. If pH study negative: Consider functional heartburn (treat with neuromodulators). If positive: Consider surgery (fundoplication) or TIF (transoral incisionless fundoplication).",
+      "whyWrong": {
+        "A": "Increasing PPI beyond BID is rarely effective.",
+        "B": "pH monitoring OFF PPI = Gold standard for refractory GERD workup.",
+        "C": "Surgery only after confirmed pathologic reflux on pH testing.",
+        "D": "Barium swallow evaluates anatomy (hernia, stricture) but not reflux.",
+        "E": "H2 blockers provide minimal additional benefit with PPIs."
+      },
+      "clinicalPearl": "Refractory GERD + Normal EGD: pH monitoring OFF PPI (Bravo or impedance-pH). Confirms reflux vs functional heartburn."
+    },
+    "references": [
+      "ACG GERD Guidelines 2024",
+      "Lyon Consensus 2.0 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
