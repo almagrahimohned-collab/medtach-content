@@ -818,5 +818,236 @@
     ],
     "highYield": true,
     "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b2_001",
+    "specialty": "neurology",
+    "topic": "Parkinson Disease - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 62-year-old male with Parkinson disease (diagnosed 8 years ago) has motor fluctuations with 'wearing off' on carbidopa/levodopa 25/100 QID. He has 3 hours of OFF time daily despite optimization. What is the BEST add-on therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase carbidopa/levodopa to 5x daily"
+      },
+      {
+        "id": "B",
+        "text": "Add opicapone (COMT inhibitor) 50mg at bedtime"
+      },
+      {
+        "id": "C",
+        "text": "Add pramipexole (dopamine agonist)"
+      },
+      {
+        "id": "D",
+        "text": "Add istradefylline (adenosine A2A antagonist)"
+      },
+      {
+        "id": "E",
+        "text": "Refer for deep brain stimulation (DBS)"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Motor fluctuations with OFF time: COMT inhibitors (opicapone, entacapone) prolong levodopa effect by blocking peripheral catechol-O-methyltransferase. Opicapone is once-daily (preferred over entacapone which requires each levodopa dose). Reduces OFF time by 60-90 minutes. DBS is for advanced disease with severe fluctuations despite optimal medical therapy.",
+      "whyWrong": {
+        "A": "Increasing levodopa frequency may help but COMT inhibitor is more effective for wearing-off.",
+        "C": "Dopamine agonists cause impulse control disorders and hallucinations in elderly.",
+        "D": "Istradefylline is for mild OFF time reduction (less effective than COMT inhibitors).",
+        "E": "DBS is reserved for severe motor fluctuations despite optimal medical management."
+      },
+      "clinicalPearl": "Parkinson wearing-off: COMT inhibitor (opicapone QHS) prolongs levodopa effect. MAO-B inhibitor (rasagiline) alternative. DBS for refractory."
+    },
+    "references": [
+      "MDS Parkinson Guidelines 2023",
+      "BIPARK-I Trial (Opicapone)"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b2_002",
+    "specialty": "neurology",
+    "topic": "Myasthenia Gravis - New Treatments",
+    "difficulty": "hard",
+    "vignette": "A 40-year-old female with generalized MG (AChR antibody positive, MG-ADL score 9) has persistent symptoms despite pyridostigmine and prednisone 10mg daily. She is steroid-dependent and wants to reduce steroids. What is the BEST add-on therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase prednisone to 40mg daily"
+      },
+      {
+        "id": "B",
+        "text": "Efgartigimod (FcRn inhibitor) 10mg/kg IV weekly x4"
+      },
+      {
+        "id": "C",
+        "text": "Mycophenolate mofetil 1000mg BID"
+      },
+      {
+        "id": "D",
+        "text": "Rituximab"
+      },
+      {
+        "id": "E",
+        "text": "Thymectomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Efgartigimod (Vyvgart) is FDA-approved (2021) for AChR-positive generalized MG. FcRn inhibitor reduces IgG antibodies including pathogenic AChR antibodies. ADAPT trial showed rapid improvement (within 1-2 weeks) and significant MG-ADL reduction. Ideal for patients wanting rapid effect and steroid sparing. Mycophenolate takes 6-12 months for full effect.",
+      "whyWrong": {
+        "A": "Increasing steroids defeats the goal of steroid reduction.",
+        "C": "Mycophenolate is effective but slow onset (6-12 months); good for maintenance but not rapid relief.",
+        "D": "Rituximab is reserved for refractory MG (off-label) or MuSK-positive MG.",
+        "E": "Thymectomy is for thymomatous MG or AChR-positive generalized MG <50 years old; not for rapid symptom control."
+      },
+      "clinicalPearl": "MG rapid steroid-sparing: Efgartigimod (FcRn inhibitor) - rapid onset, steroid-sparing. Rozanolixizumab also approved 2023. MMF for long-term maintenance."
+    },
+    "references": [
+      "ADAPT Trial 2021",
+      "MGFA Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b2_003",
+    "specialty": "neurology",
+    "topic": "Epilepsy - New ASMs",
+    "difficulty": "medium",
+    "vignette": "A 65-year-old female with new-onset focal epilepsy (no aura, impaired awareness seizures) has no comorbidities and is not on any medications. What is the BEST initial anti-seizure medication per AAN 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenytoin"
+      },
+      {
+        "id": "B",
+        "text": "Levetiracetam or Lamotrigine"
+      },
+      {
+        "id": "C",
+        "text": "Phenobarbital"
+      },
+      {
+        "id": "D",
+        "text": "Carbamazepine"
+      },
+      {
+        "id": "E",
+        "text": "Valproic acid"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "AAN 2023: Levetiracetam or Lamotrigine are first-line for new-onset focal epilepsy. Levetiracetam is preferred for rapid titration and no drug-drug interactions. Lamotrigine is preferred for women of childbearing age (safest in pregnancy) and has mood-stabilizing effects. Avoid enzyme-inducing ASMs (phenytoin, carbamazepine, phenobarbital) in elderly due to drug interactions and osteoporosis risk.",
+      "whyWrong": {
+        "A": "Phenytoin has nonlinear kinetics, drug interactions, and chronic toxicity (cerebellar atrophy, neuropathy, osteoporosis).",
+        "C": "Phenobarbital has significant sedation and cognitive effects; reserved for specific situations.",
+        "D": "Carbamazepine is effective but induces CYP450 (drug interactions) and causes hyponatremia (risk in elderly).",
+        "E": "Valproic acid is for generalized epilepsy; teratogenic and causes tremor/thrombocytopenia."
+      },
+      "clinicalPearl": "New focal epilepsy: Levetiracetam or Lamotrigine first-line. Avoid enzyme-inducers in elderly. Lamotrigine safest in pregnancy."
+    },
+    "references": [
+      "AAN Epilepsy Guidelines 2023",
+      "SANAD II Trial 2021"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b2_004",
+    "specialty": "neurology",
+    "topic": "Neuromyelitis Optica - New Therapies",
+    "difficulty": "hard",
+    "vignette": "A 30-year-old female with aquaporin-4 antibody positive NMOSD presents with acute optic neuritis (vision 20/200). She had a similar episode 1 year ago. What is the BEST acute treatment AND long-term prevention?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IV methylprednisolone 1g x5 days; Mycophenolate mofetil"
+      },
+      {
+        "id": "B",
+        "text": "IV methylprednisolone 1g x5 days + Plasma exchange if no improvement; Eculizumab or Inebilizumab"
+      },
+      {
+        "id": "C",
+        "text": "Oral prednisone 60mg daily; Rituximab"
+      },
+      {
+        "id": "D",
+        "text": "Plasma exchange alone; Azathioprine"
+      },
+      {
+        "id": "E",
+        "text": "IVIG; Glatiramer acetate"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Acute NMOSD attack: IV methylprednisolone 1g x3-5 days. If no improvement, urgent PLASMA EXCHANGE (PLEX) every other day x5-7 treatments (higher recovery rate than steroids alone). Long-term prevention: Eculizumab (anti-C5, PREVENT trial), Inebilizumab (anti-CD19, N-MOmentum trial), or Satralizumab (anti-IL6R). Rituximab is off-label alternative. Mycophenolate is second-line.",
+      "whyWrong": {
+        "A": "Mycophenolate is second-line; FDA-approved therapies (eculizumab, inebilizumab) are preferred.",
+        "C": "Oral steroids not sufficient for acute attack; rituximab is off-label.",
+        "D": "PLEX is for acute attacks; azathioprine is third-line for prevention.",
+        "E": "IVIG not first-line for NMOSD; glatiramer is for MS (may worsen NMOSD)."
+      },
+      "clinicalPearl": "NMOSD attack: IV steroids \u2192 PLEX if no improvement. Prevention: Eculizumab, Inebilizumab, Satralizumab (FDA-approved). MS therapies can WORSEN NMOSD."
+    },
+    "references": [
+      "PREVENT Trial (Eculizumab)",
+      "N-MOmentum Trial (Inebilizumab)",
+      "NMOSD Guidelines 2023"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
+  },
+  {
+    "id": "neuro_b2_005",
+    "specialty": "neurology",
+    "topic": "Trigeminal Neuralgia",
+    "difficulty": "medium",
+    "vignette": "A 55-year-old female presents with recurrent, unilateral, electric shock-like facial pain in the V2/V3 distribution lasting seconds, triggered by chewing and touching her face. MRI shows vascular loop compressing the trigeminal nerve. What is the FIRST-LINE treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surgical microvascular decompression"
+      },
+      {
+        "id": "B",
+        "text": "Carbamazepine 200-400mg daily"
+      },
+      {
+        "id": "C",
+        "text": "Gamma knife radiosurgery"
+      },
+      {
+        "id": "D",
+        "text": "Pregabalin 150mg BID"
+      },
+      {
+        "id": "E",
+        "text": "Percutaneous rhizotomy"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": {
+      "whyCorrect": "Classical trigeminal neuralgia: Carbamazepine is FIRST-LINE (NNT 1.7 for pain relief). Start 100-200mg BID and titrate. Oxcarbazepine is alternative with fewer side effects. Surgery (microvascular decompression) is for medically refractory cases or intolerable side effects. Pregabalin/gabapentin are second-line (less effective than carbamazepine).",
+      "whyWrong": {
+        "A": "Surgery reserved for medically refractory TN or intolerable medication side effects.",
+        "C": "Radiosurgery is for patients not candidates for surgery (elderly, comorbidities).",
+        "D": "Pregabalin is second-line (less effective than carbamazepine for TN).",
+        "E": "Percutaneous procedures are for non-surgical candidates with refractory TN."
+      },
+      "clinicalPearl": "Trigeminal neuralgia: Carbamazepine first-line. Oxcarbazepine alternative. Surgery (MVD) if refractory. MRI to rule out MS or tumor."
+    },
+    "references": [
+      "AAN Trigeminal Neuralgia Guidelines 2023",
+      "IHS Classification"
+    ],
+    "highYield": true,
+    "timeAllocated": 72
   }
 ]
