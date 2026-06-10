@@ -1,0 +1,601 @@
+{
+  "id": "cp001",
+  "title": "Acute Chest Pain - Rule Out MI",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "type": "combined",
+  "timeLimit": 8,
+  "readingTime": 1,
+  "doorInstructions": {
+    "setting": "Emergency Department",
+    "scenario": "Mr. Ahmed, 58-year-old smoker, presents with acute central chest pain for 2 hours.",
+    "task": "Take a focused history, perform relevant cardiovascular examination, request appropriate investigations, and provide a differential diagnosis with management plan.",
+    "vitals_given": "HR 98, BP 150/95, RR 20, SpO2 97% on RA, Temp 36.8\u00b0C"
+  },
+  "patient": {
+    "name": "Mr. Ahmed Hassan",
+    "age": 58,
+    "gender": "male",
+    "occupation": "Taxi driver",
+    "appearance": "Diaphoretic, clutching chest, appears anxious"
+  },
+  "history": {
+    "openingStatement": "Doctor, my chest hurts so bad. It started suddenly about 2 hours ago while I was having dinner. I've never felt anything like this before.",
+    "questionMap": {
+      "onset": {
+        "keywords": [
+          "when",
+          "start",
+          "begin",
+          "onset",
+          "happen",
+          "how long"
+        ],
+        "response": "It started about 2 hours ago, suddenly while I was eating dinner. It came out of nowhere."
+      },
+      "character": {
+        "keywords": [
+          "feel",
+          "like",
+          "describe",
+          "pain",
+          "character",
+          "type",
+          "sharp",
+          "dull"
+        ],
+        "response": "It's a heavy, crushing pain, like someone is sitting on my chest. It's not sharp - more like a pressure or squeezing."
+      },
+      "radiation": {
+        "keywords": [
+          "radiate",
+          "spread",
+          "go",
+          "anywhere",
+          "arm",
+          "jaw",
+          "back",
+          "neck",
+          "shoulder"
+        ],
+        "response": "Yes, the pain goes to my left shoulder and down my left arm. My jaw feels a bit tight too."
+      },
+      "severity": {
+        "keywords": [
+          "severity",
+          "scale",
+          "score",
+          "rate",
+          "bad",
+          "1-10",
+          "10",
+          "worse"
+        ],
+        "response": "I'd say it's 8 out of 10. It's the worst pain I've ever had. It's not getting better with rest."
+      },
+      "associated_symptoms": {
+        "keywords": [
+          "associated",
+          "other",
+          "symptom",
+          "nausea",
+          "vomit",
+          "sweat",
+          "shortness of breath",
+          "breath",
+          "dizzy"
+        ],
+        "response": "I feel nauseous and I'm sweating like crazy. I also feel a bit short of breath and lightheaded."
+      },
+      "aggravating_factors": {
+        "keywords": [
+          "worse",
+          "aggravate",
+          "make it worse",
+          "activity",
+          "movement",
+          "deep breath",
+          "position"
+        ],
+        "response": "Nothing makes it better or worse. Moving around doesn't change it. It's constant."
+      },
+      "relieving_factors": {
+        "keywords": [
+          "relieve",
+          "help",
+          "better",
+          "rest",
+          "medicine",
+          "nitro",
+          "position"
+        ],
+        "response": "Resting doesn't help. I haven't taken anything for it yet. I came straight here."
+      },
+      "past_medical": {
+        "keywords": [
+          "past medical",
+          "history",
+          "condition",
+          "disease",
+          "problem",
+          "diabetes",
+          "hypertension",
+          "cholesterol"
+        ],
+        "response": "I have high blood pressure for 10 years and my cholesterol is high. I'm not diabetic as far as I know."
+      },
+      "medications": {
+        "keywords": [
+          "medication",
+          "medicine",
+          "take",
+          "drug",
+          "tablet",
+          "pill",
+          "treatment"
+        ],
+        "response": "I take amlodipine 5mg for my blood pressure, but I forget sometimes. I don't take anything for cholesterol."
+      },
+      "allergies": {
+        "keywords": [
+          "allergy",
+          "allergic",
+          "reaction"
+        ],
+        "response": "No allergies to any medications that I know of."
+      },
+      "family_history": {
+        "keywords": [
+          "family",
+          "parent",
+          "mother",
+          "father",
+          "sibling",
+          "brother",
+          "sister",
+          "heart"
+        ],
+        "response": "My father died of a heart attack when he was 55. My brother had stents placed last year at age 52."
+      },
+      "social_history": {
+        "keywords": [
+          "smoke",
+          "cigarette",
+          "alcohol",
+          "drink",
+          "drug",
+          "job",
+          "work",
+          "social",
+          "lifestyle"
+        ],
+        "response": "I smoke about 20 cigarettes a day for 40 years. I don't drink alcohol. I drive a taxi for work so I sit most of the day."
+      },
+      "review_of_systems": {
+        "keywords": [
+          "review",
+          "system",
+          "else",
+          "anything else",
+          "other problem",
+          "cough",
+          "fever"
+        ],
+        "response": "I've been having some mild chest discomfort with exertion for the past week, but nothing like this. No cough or fever."
+      }
+    }
+  },
+  "examination": {
+    "systems": {
+      "general": {
+        "inspection": "Anxious, diaphoretic, clutching chest, tachypneic at rest",
+        "required": true
+      },
+      "cardiovascular": {
+        "inspection": "No visible scars or deformities",
+        "palpation": "Apex beat in 5th ICS midclavicular line, no thrills, no heaves",
+        "auscultation": "S1 S2 normal, no murmurs, no rubs, S4 gallop present",
+        "special": "JVP not elevated",
+        "required": true
+      },
+      "respiratory": {
+        "inspection": "Respiratory rate 20, equal chest expansion",
+        "palpation": "Normal tactile fremitus",
+        "percussion": "Resonant throughout",
+        "auscultation": "Vesicular breath sounds, no crackles, no wheeze",
+        "required": false
+      },
+      "extremities": {
+        "inspection": "Warm, well-perfused, no edema",
+        "palpation": "All peripheral pulses present and equal",
+        "required": false
+      }
+    },
+    "correctSequenceBonus": [
+      "general",
+      "cardiovascular",
+      "respiratory"
+    ],
+    "handHygieneBonus": true,
+    "introductionBonus": true
+  },
+  "investigations": {
+    "available": {
+      "ecg": {
+        "name": "ECG",
+        "category": "cardiac",
+        "finding": "Sinus tachycardia at 98 bpm, ST-segment elevation in leads II, III, aVF (3mm). Reciprocal ST depression in aVL. Possible inferior STEMI.",
+        "timeToResult": 0
+      },
+      "troponin": {
+        "name": "Troponin I",
+        "category": "cardiac",
+        "finding": "Elevated at 2.4 ng/mL (normal <0.04)",
+        "timeToResult": 30
+      },
+      "chest_xray": {
+        "name": "Chest X-Ray",
+        "category": "imaging",
+        "finding": "Normal cardiac silhouette, clear lung fields, no pneumothorax or pleural effusion",
+        "timeToResult": 15
+      },
+      "cbc": {
+        "name": "Complete Blood Count",
+        "category": "hematology",
+        "finding": "WBC 11,200, Hb 14.5, Platelets 250,000",
+        "timeToResult": 30
+      },
+      "bmp": {
+        "name": "Basic Metabolic Panel",
+        "category": "chemistry",
+        "finding": "Na 138, K 4.2, Cr 1.1, Glucose 145",
+        "timeToResult": 30
+      },
+      "lipid": {
+        "name": "Lipid Profile",
+        "category": "chemistry",
+        "finding": "Total cholesterol 245, LDL 180, HDL 32, TG 210",
+        "timeToResult": 60
+      }
+    },
+    "critical_investigations": [
+      "ecg",
+      "troponin"
+    ],
+    "useful_investigations": [
+      "chest_xray",
+      "cbc",
+      "bmp"
+    ],
+    "unnecessary_investigations": [
+      "lipid"
+    ],
+    "dangerous_investigations": []
+  },
+  "diagnosis": {
+    "primary": "Inferior ST-Elevation Myocardial Infarction (STEMI)",
+    "acceptedAnswers": [
+      "inferior stemi",
+      "inferior myocardial infarction",
+      "acute inferior mi",
+      "stemi",
+      "myocardial infarction"
+    ],
+    "differentials": [
+      {
+        "diagnosis": "Aortic Dissection",
+        "priority": 2,
+        "points": 5
+      },
+      {
+        "diagnosis": "Pulmonary Embolism",
+        "priority": 3,
+        "points": 3
+      },
+      {
+        "diagnosis": "Pericarditis",
+        "priority": 4,
+        "points": 2
+      },
+      {
+        "diagnosis": "Esophageal Spasm",
+        "priority": 5,
+        "points": 1
+      }
+    ]
+  },
+  "management": {
+    "immediate": [
+      "Activate cath lab / cardiology team",
+      "Aspirin 300mg PO (chewed)",
+      "Ticagrelor 180mg PO loading dose",
+      "Morphine 2-4mg IV for pain",
+      "Oxygen if SpO2 <90%",
+      "Nitroglycerin SL if ongoing pain and no hypotension",
+      "Heparin/Enoxaparin per protocol",
+      "Primary PCI within 90 minutes"
+    ],
+    "monitoring": [
+      "Continuous cardiac monitoring",
+      "Serial ECGs",
+      "Repeat troponin at 3-6 hours",
+      "Vital signs every 15 minutes"
+    ],
+    "longTerm": [
+      "Dual antiplatelet therapy (DAPT) for 12 months",
+      "High-intensity statin (Atorvastatin 80mg)",
+      "Beta-blocker (Metoprolol)",
+      "ACE inhibitor (Lisinopril)",
+      "Cardiac rehabilitation referral",
+      "Smoking cessation counseling",
+      "Lifestyle modifications"
+    ]
+  },
+  "checklist": {
+    "history": {
+      "weight": 30,
+      "items": [
+        {
+          "id": "hx_onset",
+          "description": "Asked about onset and duration",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_character",
+          "description": "Asked about character of pain",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_radiation",
+          "description": "Asked about radiation",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_severity",
+          "description": "Asked about severity",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "hx_associated",
+          "description": "Asked about associated symptoms",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_pmh",
+          "description": "Asked about past medical history",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_meds",
+          "description": "Asked about medications",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "hx_allergies",
+          "description": "Asked about allergies",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "hx_family",
+          "description": "Asked about family history",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_social",
+          "description": "Asked about social history (smoking)",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_aggravating",
+          "description": "Asked about aggravating/relieving factors",
+          "points": 3,
+          "required": false
+        }
+      ]
+    },
+    "examination": {
+      "weight": 25,
+      "items": [
+        {
+          "id": "exam_general",
+          "description": "General inspection performed",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_hands",
+          "description": "Examined hands (perfusion)",
+          "points": 1,
+          "required": false
+        },
+        {
+          "id": "exam_cvs_inspection",
+          "description": "CVS inspection",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_cvs_palpation",
+          "description": "CVS palpation (apex, thrills)",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "exam_cvs_auscultation",
+          "description": "CVS auscultation (all 4 areas)",
+          "points": 5,
+          "required": true
+        },
+        {
+          "id": "exam_jvp",
+          "description": "Assessed JVP",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "exam_respiratory",
+          "description": "Brief respiratory exam",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "exam_extremities",
+          "description": "Checked peripheral pulses/edema",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "exam_hand_hygiene",
+          "description": "Performed hand hygiene",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "exam_introduction",
+          "description": "Introduced self and explained exam",
+          "points": 3,
+          "required": true
+        }
+      ]
+    },
+    "investigations": {
+      "weight": 20,
+      "items": [
+        {
+          "id": "inv_ecg",
+          "description": "Ordered ECG",
+          "points": 8,
+          "required": true,
+          "critical": true
+        },
+        {
+          "id": "inv_troponin",
+          "description": "Ordered Troponin",
+          "points": 6,
+          "required": true,
+          "critical": true
+        },
+        {
+          "id": "inv_cxr",
+          "description": "Ordered CXR",
+          "points": 3,
+          "required": false
+        },
+        {
+          "id": "inv_cbc",
+          "description": "Ordered CBC",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "inv_bmp",
+          "description": "Ordered BMP",
+          "points": 1,
+          "required": false
+        }
+      ]
+    },
+    "diagnosis": {
+      "weight": 15,
+      "items": [
+        {
+          "id": "dx_primary",
+          "description": "Correct primary diagnosis (STEMI)",
+          "points": 8,
+          "required": true
+        },
+        {
+          "id": "dx_differential1",
+          "description": "Listed aortic dissection as differential",
+          "points": 3,
+          "required": false
+        },
+        {
+          "id": "dx_differential2",
+          "description": "Listed other relevant differentials",
+          "points": 4,
+          "required": false
+        }
+      ]
+    },
+    "management": {
+      "weight": 10,
+      "items": [
+        {
+          "id": "mgmt_aspirin",
+          "description": "Aspirin 300mg loading dose",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_antiplatelet",
+          "description": "Second antiplatelet (Ticagrelor)",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_pci",
+          "description": "Activate cath lab / Primary PCI",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "mgmt_pain",
+          "description": "Pain management (Morphine/NTG)",
+          "points": 1,
+          "required": false
+        },
+        {
+          "id": "mgmt_monitoring",
+          "description": "Continuous monitoring",
+          "points": 1,
+          "required": false
+        },
+        {
+          "id": "mgmt_longterm",
+          "description": "Long-term management plan",
+          "points": 1,
+          "required": false
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "passThreshold": 60,
+    "goodThreshold": 75,
+    "excellentThreshold": 90,
+    "globalRating": {
+      "fail": "Inadequate - critical items missed",
+      "borderline": "Some critical items missed, needs improvement",
+      "pass": "Adequate - essential items covered",
+      "good": "Good performance, most items addressed",
+      "excellent": "Outstanding, comprehensive assessment"
+    }
+  },
+  "professionalBehaviour": {
+    "bonusItems": [
+      "Introduced self to patient",
+      "Explained what they were going to do",
+      "Used open-ended questions initially",
+      "Showed empathy",
+      "Summarized findings to patient",
+      "Explained next steps clearly"
+    ],
+    "penaltyItems": [
+      "Used excessive jargon without explanation",
+      "Did not respond to patient's anxiety",
+      "Rushed the patient",
+      "Forgot hand hygiene before examination"
+    ]
+  }
+}

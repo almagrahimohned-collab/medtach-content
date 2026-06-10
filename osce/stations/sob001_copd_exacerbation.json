@@ -1,0 +1,553 @@
+{
+  "id": "sob001",
+  "title": "Acute Shortness of Breath - COPD Exacerbation",
+  "specialty": "pulmonology",
+  "difficulty": "intermediate",
+  "type": "combined",
+  "timeLimit": 8,
+  "readingTime": 1,
+  "doorInstructions": {
+    "setting": "Emergency Department",
+    "scenario": "Mr. Mohammed, 72-year-old smoker with known COPD, presents with worsening shortness of breath and increased sputum production for 3 days.",
+    "task": "Take a focused history, perform respiratory examination, request appropriate investigations, and provide a diagnosis with management plan.",
+    "vitals_given": "HR 110, BP 140/85, RR 28, SpO2 88% on RA, Temp 38.1\u00b0C"
+  },
+  "patient": {
+    "name": "Mr. Mohammed Ali",
+    "age": 72,
+    "gender": "male",
+    "occupation": "Retired construction worker",
+    "appearance": "Sitting upright, using accessory muscles, pursed-lip breathing, audible wheeze"
+  },
+  "history": {
+    "openingStatement": "Doctor, I can't breathe... I've been getting worse over the last few days. My inhalers aren't helping like they usually do.",
+    "questionMap": {
+      "onset": {
+        "keywords": [
+          "when",
+          "start",
+          "begin",
+          "onset",
+          "happen",
+          "how long"
+        ],
+        "response": "It started about 3 days ago. I had a cold last week and then my breathing just got worse and worse."
+      },
+      "symptoms": {
+        "keywords": [
+          "symptom",
+          "cough",
+          "sputum",
+          "phlegm",
+          "colour",
+          "fever",
+          "feel",
+          "what else"
+        ],
+        "response": "I'm coughing up a lot of greenish-yellow phlegm, more than usual. I also feel feverish and my chest feels tight."
+      },
+      "breathlessness": {
+        "keywords": [
+          "short of breath",
+          "breathless",
+          "dyspnea",
+          "breathing",
+          "walk",
+          "exercise",
+          "rest"
+        ],
+        "response": "I get breathless even at rest now. I can't walk to the bathroom without gasping. I have to sleep sitting up in my chair."
+      },
+      "inhaler_use": {
+        "keywords": [
+          "inhaler",
+          "puffer",
+          "medication",
+          "ventolin",
+          "spiriva",
+          "how often",
+          "reliever"
+        ],
+        "response": "I've been using my blue inhaler every hour but it's not helping much. I also take Spiriva every morning but I might have missed a few doses."
+      },
+      "past_medical": {
+        "keywords": [
+          "past medical",
+          "history",
+          "condition",
+          "disease",
+          "problem",
+          "copd",
+          "other"
+        ],
+        "response": "I've had COPD for 10 years. I was hospitalized last year for the same thing. I also have high blood pressure."
+      },
+      "medications": {
+        "keywords": [
+          "medication",
+          "medicine",
+          "take",
+          "drug",
+          "tablet",
+          "pill",
+          "treatment",
+          "steroid"
+        ],
+        "response": "I take Spiriva and Symbicort every day, Ventolin as needed, and amlodipine for blood pressure. I finished a course of prednisone last month."
+      },
+      "smoking": {
+        "keywords": [
+          "smoke",
+          "cigarette",
+          "tobacco",
+          "pack",
+          "quit",
+          "smoking"
+        ],
+        "response": "I smoked 2 packs a day for 45 years. I quit 5 years ago when they told me I had COPD, but I still crave them."
+      },
+      "allergies": {
+        "keywords": [
+          "allergy",
+          "allergic",
+          "reaction",
+          "antibiotic"
+        ],
+        "response": "No allergies to medications. I've taken antibiotics before for chest infections."
+      },
+      "home_oxygen": {
+        "keywords": [
+          "oxygen",
+          "o2",
+          "home",
+          "tank"
+        ],
+        "response": "No, I don't use oxygen at home. My doctor mentioned it last time but I didn't want it."
+      },
+      "vaccination": {
+        "keywords": [
+          "vaccine",
+          "flu",
+          "pneumonia",
+          "immunization",
+          "shot"
+        ],
+        "response": "I got the flu vaccine this year but I'm not sure about the pneumonia one."
+      },
+      "review_of_systems": {
+        "keywords": [
+          "review",
+          "system",
+          "else",
+          "anything else",
+          "other problem",
+          "leg",
+          "swelling",
+          "chest pain"
+        ],
+        "response": "No chest pain, but my ankles are a bit swollen. I haven't been eating much because I feel too breathless to chew."
+      }
+    }
+  },
+  "examination": {
+    "systems": {
+      "general": {
+        "inspection": "Alert, sitting upright in tripod position, using accessory muscles (sternocleidomastoid), pursed-lip breathing, audible expiratory wheeze, tachypneic at 28/min",
+        "required": true
+      },
+      "respiratory": {
+        "inspection": "Barrel-shaped chest, increased AP diameter, equal but reduced chest expansion bilaterally, intercostal and supraclavicular retractions",
+        "palpation": "Reduced tactile fremitus bilaterally, trachea midline",
+        "percussion": "Hyperresonant throughout both lung fields",
+        "auscultation": "Diffuse expiratory wheeze bilaterally, prolonged expiratory phase, decreased breath sounds at bases, coarse crackles at right base",
+        "required": true
+      },
+      "cardiovascular": {
+        "inspection": "JVP not elevated at 45 degrees",
+        "palpation": "Apex beat displaced to epigastrium (hyperinflation), no thrills",
+        "auscultation": "Tachycardic at 110, S1 S2 normal but distant (hyperinflation), no murmurs",
+        "required": false
+      },
+      "extremities": {
+        "inspection": "Mild bilateral ankle edema, warm extremities, no clubbing, no cyanosis",
+        "required": false
+      }
+    },
+    "correctSequenceBonus": [
+      "general",
+      "respiratory",
+      "cardiovascular"
+    ],
+    "handHygieneBonus": true,
+    "introductionBonus": true
+  },
+  "investigations": {
+    "available": {
+      "abg": {
+        "name": "Arterial Blood Gas",
+        "category": "chemistry",
+        "finding": "pH 7.31, PaCO2 65, PaO2 55, HCO3 32, SpO2 88% - Acute-on-chronic respiratory acidosis with hypoxemia",
+        "timeToResult": 10
+      },
+      "chest_xray": {
+        "name": "Chest X-Ray",
+        "category": "imaging",
+        "finding": "Hyperinflated lungs, flattened diaphragms, increased retrosternal air space, no pneumothorax, patchy opacity at right lower lobe suggesting consolidation",
+        "timeToResult": 15
+      },
+      "cbc": {
+        "name": "Complete Blood Count",
+        "category": "hematology",
+        "finding": "WBC 15,200 (neutrophils 82%), Hb 15.8, Platelets 280,000 - Leukocytosis with left shift",
+        "timeToResult": 30
+      },
+      "crp": {
+        "name": "C-Reactive Protein",
+        "category": "chemistry",
+        "finding": "Elevated at 98 mg/L (normal <5)",
+        "timeToResult": 30
+      },
+      "sputum_culture": {
+        "name": "Sputum Culture & Sensitivity",
+        "category": "microbiology",
+        "finding": "Pending - results in 48-72 hours. Gram stain shows many neutrophils and gram-negative rods.",
+        "timeToResult": 60
+      },
+      "ecg": {
+        "name": "ECG",
+        "category": "cardiac",
+        "finding": "Sinus tachycardia at 110 bpm, right axis deviation, P pulmonale (right atrial enlargement), no acute ischemic changes",
+        "timeToResult": 0
+      }
+    },
+    "critical_investigations": [
+      "abg",
+      "chest_xray"
+    ],
+    "useful_investigations": [
+      "cbc",
+      "crp",
+      "ecg"
+    ],
+    "unnecessary_investigations": [],
+    "dangerous_investigations": []
+  },
+  "diagnosis": {
+    "primary": "Acute Exacerbation of COPD with Right Lower Lobe Pneumonia",
+    "acceptedAnswers": [
+      "acute exacerbation of copd",
+      "copd exacerbation",
+      "aecopd",
+      "acute copd exacerbation with pneumonia",
+      "copd exacerbation with pneumonia"
+    ],
+    "differentials": [
+      {
+        "diagnosis": "Pulmonary Embolism",
+        "priority": 2,
+        "points": 5
+      },
+      {
+        "diagnosis": "Pneumothorax",
+        "priority": 3,
+        "points": 3
+      },
+      {
+        "diagnosis": "Heart Failure",
+        "priority": 4,
+        "points": 2
+      },
+      {
+        "diagnosis": "Acute Coronary Syndrome",
+        "priority": 5,
+        "points": 1
+      }
+    ]
+  },
+  "management": {
+    "immediate": [
+      "Oxygen therapy to target SpO2 88-92% (controlled O2 to avoid CO2 retention)",
+      "Nebulized bronchodilators (Salbutamol + Ipratropium)",
+      "Systemic corticosteroids (Prednisolone 40mg PO or Hydrocortisone IV)",
+      "Antibiotics (Amoxicillin-Clavulanate or Doxycycline) for community-acquired pneumonia",
+      "Consider non-invasive ventilation (NIV/BiPAP) if no improvement or worsening respiratory acidosis"
+    ],
+    "monitoring": [
+      "Continuous pulse oximetry",
+      "Repeat ABG in 1-2 hours after initiating treatment",
+      "Vital signs every 15-30 minutes",
+      "Monitor for NIV response or need for intubation",
+      "Fluid balance monitoring"
+    ],
+    "longTerm": [
+      "Optimize inhaler therapy (LAMA/LABA/ICS combination)",
+      "Pulmonary rehabilitation referral",
+      "Smoking cessation counseling (prevent relapse)",
+      "Vaccination update (pneumococcal, annual influenza)",
+      "Home oxygen assessment if persistent hypoxemia",
+      "Action plan for future exacerbations",
+      "Regular follow-up with respiratory team"
+    ]
+  },
+  "checklist": {
+    "history": {
+      "weight": 30,
+      "items": [
+        {
+          "id": "hx_onset",
+          "description": "Asked about onset and duration of symptoms",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_symptoms",
+          "description": "Asked about cough, sputum character and color",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_breathlessness",
+          "description": "Assessed severity of breathlessness (at rest vs exertion)",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_inhaler",
+          "description": "Asked about inhaler use and response",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_pmh",
+          "description": "Asked about COPD history and previous exacerbations",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_meds",
+          "description": "Asked about medications and recent steroid use",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_smoking",
+          "description": "Asked about smoking history",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_home_o2",
+          "description": "Asked about home oxygen use",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "hx_vaccination",
+          "description": "Asked about vaccination status",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "hx_allergies",
+          "description": "Asked about allergies",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "hx_review",
+          "description": "Review of systems (chest pain, edema)",
+          "points": 3,
+          "required": false
+        }
+      ]
+    },
+    "examination": {
+      "weight": 25,
+      "items": [
+        {
+          "id": "exam_general",
+          "description": "General inspection (tripod position, accessory muscles)",
+          "points": 4,
+          "required": true
+        },
+        {
+          "id": "exam_resp_inspection",
+          "description": "Respiratory inspection (chest shape, expansion)",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "exam_resp_palpation",
+          "description": "Respiratory palpation (tactile fremitus, trachea)",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_resp_percussion",
+          "description": "Respiratory percussion",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_resp_auscultation",
+          "description": "Respiratory auscultation (wheeze, crackles)",
+          "points": 5,
+          "required": true
+        },
+        {
+          "id": "exam_cvs",
+          "description": "Brief cardiovascular exam",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "exam_extremities",
+          "description": "Check for edema and clubbing",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "exam_hand_hygiene",
+          "description": "Performed hand hygiene",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "exam_introduction",
+          "description": "Introduced self and explained exam",
+          "points": 2,
+          "required": true
+        }
+      ]
+    },
+    "investigations": {
+      "weight": 20,
+      "items": [
+        {
+          "id": "inv_abg",
+          "description": "Ordered ABG",
+          "points": 8,
+          "required": true,
+          "critical": true
+        },
+        {
+          "id": "inv_cxr",
+          "description": "Ordered Chest X-Ray",
+          "points": 5,
+          "required": true
+        },
+        {
+          "id": "inv_cbc",
+          "description": "Ordered CBC",
+          "points": 3,
+          "required": false
+        },
+        {
+          "id": "inv_crp",
+          "description": "Ordered CRP",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "inv_ecg",
+          "description": "Ordered ECG",
+          "points": 2,
+          "required": false
+        }
+      ]
+    },
+    "diagnosis": {
+      "weight": 15,
+      "items": [
+        {
+          "id": "dx_primary",
+          "description": "Correct primary diagnosis (AECOPD + pneumonia)",
+          "points": 8,
+          "required": true
+        },
+        {
+          "id": "dx_differential1",
+          "description": "Listed PE as differential",
+          "points": 3,
+          "required": false
+        },
+        {
+          "id": "dx_differential2",
+          "description": "Listed other relevant differentials",
+          "points": 4,
+          "required": false
+        }
+      ]
+    },
+    "management": {
+      "weight": 10,
+      "items": [
+        {
+          "id": "mgmt_oxygen",
+          "description": "Controlled oxygen therapy (88-92% target)",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_bronchodilators",
+          "description": "Nebulized bronchodilators",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_steroids",
+          "description": "Systemic corticosteroids",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_antibiotics",
+          "description": "Antibiotics for pneumonia",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_niv",
+          "description": "Consider NIV if needed",
+          "points": 1,
+          "required": false
+        },
+        {
+          "id": "mgmt_longterm",
+          "description": "Long-term management plan",
+          "points": 1,
+          "required": false
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "passThreshold": 60,
+    "goodThreshold": 75,
+    "excellentThreshold": 90,
+    "globalRating": {
+      "fail": "Inadequate - critical assessment items missed, potential patient harm",
+      "borderline": "Some critical items missed, needs improvement in respiratory assessment",
+      "pass": "Adequate - essential respiratory assessment completed",
+      "good": "Good performance, systematic approach to respiratory emergency",
+      "excellent": "Outstanding, comprehensive assessment and management of acute respiratory failure"
+    }
+  },
+  "professionalBehaviour": {
+    "bonusItems": [
+      "Introduced self to patient",
+      "Explained examination clearly",
+      "Showed empathy for patient's distress",
+      "Maintained calm demeanor during respiratory distress",
+      "Asked about advance directives or escalation plans",
+      "Explained NIV before initiating"
+    ],
+    "penaltyItems": [
+      "Did not assess severity of respiratory distress promptly",
+      "Failed to recognize need for urgent intervention",
+      "Used excessive jargon without explanation",
+      "Did not position patient optimally for breathing",
+      "Forgot to check oxygen delivery system"
+    ]
+  }
+}

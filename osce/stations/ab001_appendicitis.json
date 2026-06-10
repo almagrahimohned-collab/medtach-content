@@ -1,0 +1,587 @@
+{
+  "id": "ab001",
+  "title": "Acute Right Lower Quadrant Pain - Rule Out Appendicitis",
+  "specialty": "gastroenterology",
+  "difficulty": "beginner",
+  "type": "combined",
+  "timeLimit": 8,
+  "readingTime": 1,
+  "doorInstructions": {
+    "setting": "Emergency Department",
+    "scenario": "Ms. Fatima, 24-year-old female, presents with worsening right lower abdominal pain, nausea, and low-grade fever for 24 hours.",
+    "task": "Take a focused history, perform abdominal examination, request appropriate investigations, and provide a diagnosis with management plan.",
+    "vitals_given": "HR 100, BP 110/70, RR 18, Temp 38.2\u00b0C"
+  },
+  "patient": {
+    "name": "Ms. Fatima Khalid",
+    "age": 24,
+    "gender": "female",
+    "occupation": "Medical student",
+    "appearance": "Lying still on stretcher, knees slightly flexed, appears uncomfortable, flushed"
+  },
+  "history": {
+    "openingStatement": "My stomach hurts so much, doctor. It started yesterday around my belly button and now it's moved to the right side. I feel like I'm going to throw up.",
+    "questionMap": {
+      "onset": {
+        "keywords": [
+          "when",
+          "start",
+          "begin",
+          "onset",
+          "happen",
+          "how long"
+        ],
+        "response": "It started about 24 hours ago. At first it was a vague pain around my belly button, but about 6 hours ago it moved to the right lower side and got much worse."
+      },
+      "character": {
+        "keywords": [
+          "feel",
+          "like",
+          "describe",
+          "pain",
+          "character",
+          "type",
+          "sharp",
+          "dull",
+          "crampy"
+        ],
+        "response": "It's a constant, sharp pain now. Before it was more like a dull ache, but now it's sharp and stabbing with any movement."
+      },
+      "severity": {
+        "keywords": [
+          "severity",
+          "scale",
+          "score",
+          "rate",
+          "bad",
+          "1-10",
+          "pain level"
+        ],
+        "response": "I'd say it's 7 out of 10 now. It gets worse when I move, cough, or when the doctor pressed on my belly earlier."
+      },
+      "migration": {
+        "keywords": [
+          "migrate",
+          "move",
+          "shift",
+          "change location",
+          "started somewhere else",
+          "periumbilical"
+        ],
+        "response": "Yes! It started around my belly button and then moved to the right lower side. That's when it got really bad."
+      },
+      "associated_symptoms": {
+        "keywords": [
+          "associated",
+          "other",
+          "symptom",
+          "nausea",
+          "vomit",
+          "appetite",
+          "fever",
+          "diarrhea"
+        ],
+        "response": "I'm very nauseous and I vomited twice this morning. I have no appetite at all - the thought of food makes me sick. I feel feverish and achy."
+      },
+      "aggravating": {
+        "keywords": [
+          "worse",
+          "aggravate",
+          "make it worse",
+          "movement",
+          "cough",
+          "walk",
+          "bump"
+        ],
+        "response": "Any movement makes it worse - walking, coughing, even bumps in the road on the way here. I prefer to lie very still."
+      },
+      "bowel_history": {
+        "keywords": [
+          "bowel",
+          "stool",
+          "constipation",
+          "diarrhea",
+          "last bowel movement",
+          "bm"
+        ],
+        "response": "My last bowel movement was yesterday morning, it was normal. I haven't had any diarrhea or blood. I'm passing gas normally."
+      },
+      "menstrual_history": {
+        "keywords": [
+          "period",
+          "menstrual",
+          "lmp",
+          "last period",
+          "pregnancy",
+          "gyn",
+          "gynecologic"
+        ],
+        "response": "My last period was 3 weeks ago. They're regular. I'm not pregnant - I have an IUD. No abnormal vaginal bleeding or discharge."
+      },
+      "urinary": {
+        "keywords": [
+          "urinary",
+          "urine",
+          "burning",
+          "frequency",
+          "uti",
+          "peeing"
+        ],
+        "response": "No burning or frequency with urination. My urine looks normal."
+      },
+      "past_medical": {
+        "keywords": [
+          "past medical",
+          "history",
+          "condition",
+          "disease",
+          "problem",
+          "surgery",
+          "previous"
+        ],
+        "response": "I'm generally healthy. No medical conditions. I've never had surgery before."
+      },
+      "medications": {
+        "keywords": [
+          "medication",
+          "medicine",
+          "take",
+          "drug",
+          "tablet",
+          "pill",
+          "treatment"
+        ],
+        "response": "Just ibuprofen I took this morning for the pain, but it didn't help much. And my IUD for birth control."
+      },
+      "allergies": {
+        "keywords": [
+          "allergy",
+          "allergic",
+          "reaction"
+        ],
+        "response": "No allergies to any medications."
+      },
+      "diet": {
+        "keywords": [
+          "eat",
+          "food",
+          "diet",
+          "last meal",
+          "restaurant"
+        ],
+        "response": "I ate dinner at home last night - rice and chicken. Nothing unusual. No one else in my family is sick."
+      },
+      "review_of_systems": {
+        "keywords": [
+          "review",
+          "system",
+          "else",
+          "anything else",
+          "chest",
+          "breathing",
+          "headache"
+        ],
+        "response": "No chest pain or breathing problems. No headache. Just this horrible stomach pain and nausea."
+      }
+    }
+  },
+  "examination": {
+    "systems": {
+      "general": {
+        "inspection": "Alert, lying still with knees flexed, flushed, uncomfortable, reluctant to move",
+        "required": true
+      },
+      "abdominal": {
+        "inspection": "Flat abdomen, no visible distension, no scars, no visible peristalsis",
+        "palpation": "Tenderness and guarding in right lower quadrant at McBurney's point, rebound tenderness positive, Rovsing's sign positive (pain in RLQ when palpating LLQ), no organomegaly",
+        "percussion": "Tympanic throughout, tenderness to percussion in RLQ",
+        "auscultation": "Bowel sounds present but diminished in all quadrants",
+        "special": "Psoas sign positive (pain with right hip extension), Obturator sign negative",
+        "required": true
+      },
+      "cardiovascular": {
+        "inspection": "Mildly tachycardic, well perfused",
+        "auscultation": "Tachycardic at 100 bpm, S1 S2 normal, no murmurs",
+        "required": false
+      },
+      "respiratory": {
+        "auscultation": "Clear breath sounds bilaterally",
+        "required": false
+      }
+    },
+    "correctSequenceBonus": [
+      "general",
+      "abdominal"
+    ],
+    "handHygieneBonus": true,
+    "introductionBonus": true
+  },
+  "investigations": {
+    "available": {
+      "cbc": {
+        "name": "Complete Blood Count",
+        "category": "hematology",
+        "finding": "WBC 15,800 (neutrophils 88%), Hb 12.5, Platelets 310,000 - Leukocytosis with left shift",
+        "timeToResult": 30
+      },
+      "crp": {
+        "name": "C-Reactive Protein",
+        "category": "chemistry",
+        "finding": "Elevated at 85 mg/L (normal <5)",
+        "timeToResult": 30
+      },
+      "urinalysis": {
+        "name": "Urinalysis",
+        "category": "chemistry",
+        "finding": "Clear, no nitrites, no leukocyte esterase, no blood, no protein. Negative for UTI.",
+        "timeToResult": 15
+      },
+      "pregnancy_test": {
+        "name": "Urine Pregnancy Test",
+        "category": "chemistry",
+        "finding": "Negative (beta-hCG negative)",
+        "timeToResult": 10
+      },
+      "ct_abdomen": {
+        "name": "CT Abdomen with IV Contrast",
+        "category": "imaging",
+        "finding": "Dilated appendix measuring 9mm with thickened wall, periappendiceal fat stranding, no perforation, no abscess. Findings consistent with acute appendicitis.",
+        "timeToResult": 45
+      },
+      "ultrasound": {
+        "name": "Abdominal Ultrasound",
+        "category": "imaging",
+        "finding": "Non-compressible tubular structure in RLQ measuring 8mm, aperistaltic, with surrounding free fluid. Sonographic McBurney's sign positive.",
+        "timeToResult": 20
+      }
+    },
+    "critical_investigations": [
+      "cbc",
+      "ct_abdomen"
+    ],
+    "useful_investigations": [
+      "crp",
+      "urinalysis",
+      "pregnancy_test"
+    ],
+    "unnecessary_investigations": [],
+    "dangerous_investigations": []
+  },
+  "diagnosis": {
+    "primary": "Acute Appendicitis",
+    "acceptedAnswers": [
+      "acute appendicitis",
+      "appendicitis",
+      "acute appendicitis without perforation"
+    ],
+    "differentials": [
+      {
+        "diagnosis": "Ovarian Cyst Rupture/Torsion",
+        "priority": 2,
+        "points": 5
+      },
+      {
+        "diagnosis": "Ectopic Pregnancy",
+        "priority": 3,
+        "points": 3
+      },
+      {
+        "diagnosis": "UTI/Pyelonephritis",
+        "priority": 4,
+        "points": 2
+      },
+      {
+        "diagnosis": "Mesenteric Adenitis",
+        "priority": 5,
+        "points": 1
+      }
+    ]
+  },
+  "management": {
+    "immediate": [
+      "NPO (nothing by mouth) - prepare for possible surgery",
+      "IV fluids (normal saline or Ringer's lactate) for hydration",
+      "Analgesia (Morphine 2-4mg IV titrated to effect)",
+      "Antiemetics (Ondansetron 4mg IV) for nausea",
+      "IV antibiotics (Cefoxitin or Cefazolin + Metronidazole) pre-operatively",
+      "Urgent surgical consultation for laparoscopic appendectomy"
+    ],
+    "monitoring": [
+      "Vital signs every 2-4 hours",
+      "Pain reassessment after analgesia",
+      "Monitor for signs of perforation (worsening pain, peritonitis)",
+      "Pre-operative checklist"
+    ],
+    "longTerm": [
+      "Laparoscopic appendectomy within 24 hours",
+      "Post-operative antibiotics if complicated (perforated/gangrenous)",
+      "Early mobilization post-surgery",
+      "Follow-up in surgical clinic in 2 weeks",
+      "Return to normal activities in 1-2 weeks (laparoscopic)"
+    ]
+  },
+  "checklist": {
+    "history": {
+      "weight": 30,
+      "items": [
+        {
+          "id": "hx_onset",
+          "description": "Asked about onset and duration",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_character",
+          "description": "Asked about character and severity of pain",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_migration",
+          "description": "Asked about pain migration (periumbilical to RLQ)",
+          "points": 4,
+          "required": true
+        },
+        {
+          "id": "hx_associated",
+          "description": "Asked about nausea, vomiting, anorexia, fever",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_aggravating",
+          "description": "Asked about aggravating factors (movement)",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "hx_bowel",
+          "description": "Asked about bowel history",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "hx_menstrual",
+          "description": "Asked about menstrual history/LMP",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_urinary",
+          "description": "Asked about urinary symptoms",
+          "points": 2,
+          "required": false
+        },
+        {
+          "id": "hx_pmh",
+          "description": "Asked about past medical and surgical history",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_meds_allergies",
+          "description": "Asked about medications and allergies",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "hx_diet",
+          "description": "Asked about recent food intake",
+          "points": 2,
+          "required": false
+        }
+      ]
+    },
+    "examination": {
+      "weight": 25,
+      "items": [
+        {
+          "id": "exam_general",
+          "description": "General inspection (position, discomfort)",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "exam_abd_inspection",
+          "description": "Abdominal inspection",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_abd_palpation",
+          "description": "Abdominal palpation (tenderness, guarding, rebound, Rovsing's)",
+          "points": 5,
+          "required": true
+        },
+        {
+          "id": "exam_abd_percussion",
+          "description": "Abdominal percussion",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_abd_auscultation",
+          "description": "Abdominal auscultation",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_special_signs",
+          "description": "Checked psoas and obturator signs",
+          "points": 4,
+          "required": true
+        },
+        {
+          "id": "exam_hand_hygiene",
+          "description": "Performed hand hygiene",
+          "points": 3,
+          "required": true
+        },
+        {
+          "id": "exam_introduction",
+          "description": "Introduced self and explained exam",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "exam_exposure",
+          "description": "Adequate exposure (nipples to knees)",
+          "points": 2,
+          "required": true
+        }
+      ]
+    },
+    "investigations": {
+      "weight": 20,
+      "items": [
+        {
+          "id": "inv_cbc",
+          "description": "Ordered CBC",
+          "points": 6,
+          "required": true,
+          "critical": true
+        },
+        {
+          "id": "inv_imaging",
+          "description": "Ordered CT or Ultrasound abdomen",
+          "points": 6,
+          "required": true,
+          "critical": true
+        },
+        {
+          "id": "inv_crp",
+          "description": "Ordered CRP",
+          "points": 3,
+          "required": false
+        },
+        {
+          "id": "inv_urinalysis",
+          "description": "Ordered Urinalysis",
+          "points": 3,
+          "required": false
+        },
+        {
+          "id": "inv_pregnancy",
+          "description": "Ordered Pregnancy Test",
+          "points": 2,
+          "required": true
+        }
+      ]
+    },
+    "diagnosis": {
+      "weight": 15,
+      "items": [
+        {
+          "id": "dx_primary",
+          "description": "Correct primary diagnosis (Acute Appendicitis)",
+          "points": 8,
+          "required": true
+        },
+        {
+          "id": "dx_differential1",
+          "description": "Listed gynecologic differentials (ovarian, ectopic)",
+          "points": 4,
+          "required": true
+        },
+        {
+          "id": "dx_differential2",
+          "description": "Listed other relevant differentials",
+          "points": 3,
+          "required": false
+        }
+      ]
+    },
+    "management": {
+      "weight": 10,
+      "items": [
+        {
+          "id": "mgmt_npo",
+          "description": "Made patient NPO",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_ivf",
+          "description": "IV fluids",
+          "points": 1,
+          "required": true
+        },
+        {
+          "id": "mgmt_analgesia",
+          "description": "Appropriate analgesia",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_antibiotics",
+          "description": "Pre-operative antibiotics",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_surgery",
+          "description": "Urgent surgical consultation for appendectomy",
+          "points": 2,
+          "required": true
+        },
+        {
+          "id": "mgmt_longterm",
+          "description": "Post-operative and follow-up plan",
+          "points": 1,
+          "required": false
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "passThreshold": 60,
+    "goodThreshold": 75,
+    "excellentThreshold": 90,
+    "globalRating": {
+      "fail": "Inadequate - critical items missed, potential for missed surgical emergency",
+      "borderline": "Some critical items missed, needs improvement in abdominal assessment",
+      "pass": "Adequate - essential abdominal assessment completed",
+      "good": "Good performance, systematic approach to acute abdomen",
+      "excellent": "Outstanding, comprehensive surgical assessment with correct management"
+    }
+  },
+  "professionalBehaviour": {
+    "bonusItems": [
+      "Introduced self to patient",
+      "Explained abdominal examination clearly",
+      "Showed empathy and reassured anxious patient",
+      "Maintained patient dignity during examination",
+      "Used gentle palpation technique",
+      "Explained surgical plan in patient-friendly language",
+      "Addressed patient's concerns about surgery"
+    ],
+    "penaltyItems": [
+      "Did not check for peritoneal signs",
+      "Forgot pregnancy test in female of childbearing age",
+      "Failed to recognize surgical emergency",
+      "Rough palpation causing unnecessary pain",
+      "Did not explain findings to patient",
+      "Delayed surgical consultation"
+    ]
+  }
+}

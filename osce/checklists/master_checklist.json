@@ -1,0 +1,193 @@
+{
+  "version": "1.0.0",
+  "description": "Global OSCE marking scheme - applies across all stations",
+  "global_domains": {
+    "history_taking": {
+      "name": "History Taking",
+      "weight": 30,
+      "subdomains": [
+        {
+          "name": "Presenting Complaint",
+          "description": "Onset, duration, character, severity, radiation, timing"
+        },
+        {
+          "name": "Associated Symptoms",
+          "description": "System-specific associated symptoms"
+        },
+        {
+          "name": "Past Medical History",
+          "description": "Chronic conditions, previous episodes, surgeries"
+        },
+        {
+          "name": "Medications & Allergies",
+          "description": "Current medications, allergies, recent changes"
+        },
+        {
+          "name": "Risk Factors",
+          "description": "Smoking, alcohol, occupation, family history"
+        },
+        {
+          "name": "Social History",
+          "description": "Living situation, functional status, support system"
+        },
+        {
+          "name": "Review of Systems",
+          "description": "Brief review for related symptoms"
+        }
+      ]
+    },
+    "physical_examination": {
+      "name": "Physical Examination",
+      "weight": 25,
+      "subdomains": [
+        {
+          "name": "General Inspection",
+          "description": "Appearance, distress, position, vital signs interpretation"
+        },
+        {
+          "name": "System-Specific Exam",
+          "description": "Focused examination of relevant systems"
+        },
+        {
+          "name": "Correct Technique",
+          "description": "Proper sequence, hand hygiene, draping, gentleness"
+        },
+        {
+          "name": "Complete Assessment",
+          "description": "All relevant maneuvers performed, special tests if indicated"
+        }
+      ]
+    },
+    "investigations": {
+      "name": "Investigations",
+      "weight": 20,
+      "subdomains": [
+        {
+          "name": "Appropriate Selection",
+          "description": "Correct tests ordered for clinical scenario"
+        },
+        {
+          "name": "Critical Tests",
+          "description": "Must-order tests for safe management"
+        },
+        {
+          "name": "Cost-Effectiveness",
+          "description": "Avoiding unnecessary or redundant tests"
+        },
+        {
+          "name": "Interpretation",
+          "description": "Correct interpretation of results"
+        }
+      ]
+    },
+    "diagnosis": {
+      "name": "Diagnosis",
+      "weight": 15,
+      "subdomains": [
+        {
+          "name": "Primary Diagnosis",
+          "description": "Correct primary diagnosis"
+        },
+        {
+          "name": "Differential Diagnosis",
+          "description": "Relevant differentials in order of likelihood"
+        },
+        {
+          "name": "Clinical Reasoning",
+          "description": "Logical connection between findings and diagnosis"
+        }
+      ]
+    },
+    "management": {
+      "name": "Management",
+      "weight": 10,
+      "subdomains": [
+        {
+          "name": "Immediate Management",
+          "description": "Emergency interventions if needed"
+        },
+        {
+          "name": "Monitoring Plan",
+          "description": "Appropriate monitoring and follow-up"
+        },
+        {
+          "name": "Long-term Care",
+          "description": "Prevention, rehabilitation, follow-up"
+        },
+        {
+          "name": "Patient Education",
+          "description": "Explaining plan to patient clearly"
+        }
+      ]
+    }
+  },
+  "global_rating_scale": {
+    "fail": {
+      "range": "0-44%",
+      "description": "Significant deficiencies. Critical items missed. Potential patient harm.",
+      "recommendation": "Remedial training required before attempting again"
+    },
+    "borderline": {
+      "range": "45-59%",
+      "description": "Some critical items missed. Inconsistent performance.",
+      "recommendation": "Review missed items and practice targeted skills"
+    },
+    "pass": {
+      "range": "60-74%",
+      "description": "Essential items completed. Safe to practice with supervision.",
+      "recommendation": "Continue practicing to improve speed and completeness"
+    },
+    "good": {
+      "range": "75-89%",
+      "description": "Systematic approach. Most items addressed correctly.",
+      "recommendation": "Refine efficiency and subtle examination findings"
+    },
+    "excellent": {
+      "range": "90-100%",
+      "description": "Outstanding. Comprehensive, professional, patient-centered.",
+      "recommendation": "Maintain skills. Consider teaching/mentoring others"
+    }
+  },
+  "professional_behaviour": {
+    "name": "Professional Behaviour",
+    "weight": "Bonus/Penalty (\u00b15 points)",
+    "bonus_items": [
+      "Introduces self and role clearly",
+      "Explains examination/procedure before performing",
+      "Uses open-ended questions initially",
+      "Shows empathy and addresses patient concerns",
+      "Summarizes findings to patient",
+      "Explains next steps clearly",
+      "Maintains patient dignity and comfort",
+      "Uses appropriate language (avoids jargon)",
+      "Checks patient understanding",
+      "Thanks patient at end of encounter"
+    ],
+    "penalty_items": [
+      "Does not introduce self",
+      "Uses excessive jargon without explanation",
+      "Does not respond to patient's distress/anxiety",
+      "Rushes the patient",
+      "Rough examination technique",
+      "Forgets hand hygiene",
+      "Inadequate exposure or draping",
+      "Does not explain findings or plan",
+      "Poor eye contact or communication",
+      "Unprofessional demeanor"
+    ]
+  },
+  "timing": {
+    "reading_time": "60 seconds (outside station)",
+    "station_time": "5-10 minutes (configurable)",
+    "warning_2min": "\u26a0\ufe0f 2 minutes remaining",
+    "warning_1min": "\u26a0\ufe0f 1 minute remaining",
+    "warning_30sec": "\ud83d\udd34 30 seconds - critical warning",
+    "time_up": "Station ended - auto-submit"
+  },
+  "passing_criteria": {
+    "overall_percentage": "\u226560%",
+    "critical_items": "All critical items must be completed",
+    "professional_behavior": "No major professionalism concerns",
+    "timing": "Station completed within allocated time"
+  }
+}

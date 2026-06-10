@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-11T21:00:00Z",
+  "total_stations": 3,
+  "stations": [
+    {
+      "id": "cp001",
+      "title": "Acute Chest Pain - Rule Out MI",
+      "specialty": "cardiology",
+      "difficulty": "intermediate",
+      "type": "combined",
+      "timeLimit": 8,
+      "filename": "cp001_chest_pain_mi.json"
+    },
+    {
+      "id": "sob001",
+      "title": "Acute Shortness of Breath - COPD Exacerbation",
+      "specialty": "pulmonology",
+      "difficulty": "intermediate",
+      "type": "combined",
+      "timeLimit": 8,
+      "filename": "sob001_copd_exacerbation.json"
+    },
+    {
+      "id": "ab001",
+      "title": "Acute Right Lower Quadrant Pain - Appendicitis",
+      "specialty": "gastroenterology",
+      "difficulty": "beginner",
+      "type": "combined",
+      "timeLimit": 8,
+      "filename": "ab001_appendicitis.json"
+    }
+  ],
+  "circuits": [
+    {
+      "id": "internal_medicine_core",
+      "name": "Internal Medicine Core Cases",
+      "description": "Essential internal medicine OSCE stations covering cardiology, pulmonology, and gastroenterology",
+      "specialty": "internal_medicine",
+      "difficulty": "intermediate",
+      "stations": [
+        "cp001",
+        "sob001",
+        "ab001"
+      ],
+      "restStationEvery": 4,
+      "restStationDuration": 2,
+      "totalTime": 30,
+      "passThreshold": 60
+    },
+    {
+      "id": "cardiology_focused",
+      "name": "Cardiology Focus",
+      "description": "Cardiology-specific OSCE stations",
+      "specialty": "cardiology",
+      "difficulty": "intermediate",
+      "stations": [
+        "cp001"
+      ],
+      "restStationEvery": 4,
+      "restStationDuration": 2,
+      "totalTime": 10,
+      "passThreshold": 60
+    },
+    {
+      "id": "abdominal_pain",
+      "name": "Acute Abdominal Pain",
+      "description": "Gastroenterology and surgical abdomen cases",
+      "specialty": "gastroenterology",
+      "difficulty": "beginner",
+      "stations": [
+        "ab001"
+      ],
+      "restStationEvery": 4,
+      "restStationDuration": 2,
+      "totalTime": 10,
+      "passThreshold": 60
+    }
+  ]
+}
