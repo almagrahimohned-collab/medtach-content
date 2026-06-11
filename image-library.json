@@ -1,0 +1,126 @@
+{
+  "library": {
+    "name": "MedTach Medical Image Library",
+    "base_url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main",
+    "categories": [
+      {
+        "id": "xray_chest_pneumonia",
+        "label": "Pneumonia",
+        "modality": "xray",
+        "region": "chest",
+        "images": [
+          {
+            "id": "pneumonia_01",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_01.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Pulmonary edema", "Atelectasis", "Lung mass"],
+            "correctIndex": 0,
+            "findings": "Right upper lobe consolidation with air bronchograms, silhouetting of the right heart border suggests middle lobe involvement. No pleural effusion seen.",
+            "explanation": "Dense opacification in the right upper lobe with patent bronchi visible as air bronchograms is classic for lobar pneumonia. The silhouette sign helps localize the affected lobe.",
+            "pearl": "Air bronchograms = airways remain patent while surrounding alveoli fill with fluid/pus. This confirms the opacity is parenchymal, not pleural.",
+            "difficulty": "easy"
+          },
+          {
+            "id": "pneumonia_02",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_02.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Tuberculosis", "Pulmonary embolism", "Pleural effusion"],
+            "correctIndex": 0,
+            "findings": "Bilateral patchy infiltrates predominantly in the lower lobes. Left costophrenic angle remains sharp. Cardiac silhouette is normal in size.",
+            "explanation": "Bilateral patchy opacities with a predominantly lower lobe distribution in a febrile patient are most consistent with bronchopneumonia. No signs of heart failure or effusion.",
+            "pearl": "Patchy = bronchopneumonia (bronchial spread). Lobar = lobar pneumonia (alveolar spread). Clinical context (fever, cough, sputum) helps distinguish from edema.",
+            "difficulty": "medium"
+          },
+          {
+            "id": "pneumonia_03",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_03.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Atelectasis", "Lung abscess", "Empyema"],
+            "correctIndex": 0,
+            "findings": "Left lower lobe opacity obscuring the left hemidiaphragm with positive silhouette sign. Air bronchograms noted within the consolidation.",
+            "explanation": "The silhouette sign (loss of the normally sharp diaphragm border) confirms the opacity is in the left lower lobe in contact with the diaphragm. Air bronchograms confirm alveolar filling.",
+            "pearl": "Silhouette sign = loss of a normally seen border when pathology is adjacent to it. Left lower lobe consolidation silhouettes the left hemidiaphragm.",
+            "difficulty": "easy"
+          },
+          {
+            "id": "pneumonia_04",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_04.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Cardiogenic pulmonary edema", "COVID-19 pneumonitis", "Hypersensitivity pneumonitis"],
+            "correctIndex": 0,
+            "findings": "Multifocal bilateral consolidations with peripheral predominance. No pleural effusions. Heart size is normal. No Kerley B lines.",
+            "explanation": "Multifocal peripheral consolidations without cardiomegaly or effusions are typical of a multifocal pneumonia. The absence of heart failure signs helps exclude cardiogenic edema.",
+            "pearl": "Peripheral consolidations without heart failure = think infection. Bilateral peripheral ground-glass with COVID history = consider COVID-19. Always check heart size and effusions to narrow differential.",
+            "difficulty": "hard"
+          },
+          {
+            "id": "pneumonia_05",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_05.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Pulmonary infarction", "Bronchoalveolar carcinoma", "Organizing pneumonia"],
+            "correctIndex": 0,
+            "findings": "Segmental consolidation in the right middle lobe with air bronchograms. Adjacent fissure is not displaced. No lymphadenopathy visible.",
+            "explanation": "Segmental consolidation limited to one lobe with air bronchograms and no mass effect (no fissure displacement) is typical of segmental pneumonia. No features suggest malignancy.",
+            "pearl": "Fissure displacement suggests volume loss (atelectasis) or mass effect (tumor). Non-displaced consolidation = likely pneumonia. Follow-up imaging is key to confirm resolution.",
+            "difficulty": "medium"
+          },
+          {
+            "id": "pneumonia_06",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_06.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Pulmonary contusion", "Aspiration pneumonitis", "Alveolar hemorrhage"],
+            "correctIndex": 0,
+            "findings": "Right lower lobe consolidation with patent bronchi. Blunting of the right costophrenic angle suggests a small parapneumonic effusion. Left lung is clear.",
+            "explanation": "Consolidation with a small ipsilateral effusion is a common finding in pneumonia (parapneumonic effusion). The clear left lung and normal heart help exclude bilateral processes.",
+            "pearl": "Parapneumonic effusion occurs in ~40% of bacterial pneumonias. Most resolve with antibiotics alone. If loculated or purulent = empyema, needs drainage.",
+            "difficulty": "medium"
+          },
+          {
+            "id": "pneumonia_07",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_07.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Tuberculosis", "Fungal infection", "Metastasis"],
+            "correctIndex": 0,
+            "findings": "Cavitary lesion with surrounding consolidation in the left upper lobe. Air-fluid level is noted within the cavity. Surrounding parenchyma shows infiltrates.",
+            "explanation": "A thick-walled cavity with an air-fluid level and surrounding consolidation suggests a cavitary pneumonia, often caused by anaerobes, S. aureus, or Klebsiella. TB typically shows no air-fluid level.",
+            "pearl": "Air-fluid level in a cavity suggests bacterial infection (abscess/necrotizing pneumonia), not TB. TB cavities are usually empty and located in upper lobes.",
+            "difficulty": "hard"
+          },
+          {
+            "id": "pneumonia_08",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_08.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Pulmonary edema", "Bronchiectasis", "Interstitial lung disease"],
+            "correctIndex": 0,
+            "findings": "Diffuse bilateral interstitial and alveolar opacities with a central predominance (bat-wing pattern). Heart size is borderline enlarged. No pleural effusions.",
+            "explanation": "The bat-wing (perihilar) distribution can be seen in atypical pneumonia (PCP, viral) or pulmonary edema. The lack of effusions and only borderline cardiomegaly make pneumonia more likely.",
+            "pearl": "Bat-wing pattern differential: (1) Pulmonary edema - has effusions + cardiomegaly. (2) PCP pneumonia - no effusions, patient immunocompromised. Clinical history is key!",
+            "difficulty": "hard"
+          },
+          {
+            "id": "pneumonia_09",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_09.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Pulmonary alveolar proteinosis", "Lipoid pneumonia", "Mucinous adenocarcinoma"],
+            "correctIndex": 0,
+            "findings": "Bilateral ground-glass opacities with superimposed interlobular septal thickening (crazy-paving pattern). Distribution is geographic with areas of sparing.",
+            "explanation": "The crazy-paving pattern is nonspecific but in an acutely ill febrile patient suggests atypical pneumonia (commonly PCP in immunocompromised, viral, or Mycoplasma). Clinical context differentiates it from chronic causes.",
+            "pearl": "Crazy-paving = ground-glass + septal thickening. DDx: infection (PCP, COVID, viral), alveolar proteinosis, lipoid pneumonia, adenocarcinoma, pulmonary edema, ARDS.",
+            "difficulty": "hard"
+          },
+          {
+            "id": "pneumonia_10",
+            "file": "media/library/xray/chest/pneumonia/pneumonia_10.png",
+            "question": "What is the most likely diagnosis?",
+            "options": ["Pneumonia", "Pulmonary lymphoma", "Sarcoidosis", "Radiation pneumonitis"],
+            "correctIndex": 0,
+            "findings": "Focal rounded opacity in the right mid-lung zone with indistinct margins. No associated lymphadenopathy. Adjacent pleura appears normal.",
+            "explanation": "Round pneumonia is a spherical consolidation most commonly seen in children (S. pneumoniae) but also in adults. It can mimic a mass, but clinical features of infection and rapid resolution on follow-up confirm the diagnosis.",
+            "pearl": "Round pneumonia mimics lung mass! Key differentiators: acute symptoms (fever, cough), young patient, rapid resolution on antibiotics. If smoker + older, rule out malignancy first.",
+            "difficulty": "hard"
+          }
+        ]
+      }
+    ]
+  }
+}

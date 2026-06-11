@@ -1,0 +1,110 @@
+{
+  "module": "resident-life",
+  "category": "imaging",
+  "version": "1.0",
+  "description": "Imaging studies for Resident Life simulator - indications, findings, turnaround times, and resource constraints",
+
+  "imaging": {
+    "xray": [
+      {
+        "id": "cxr",
+        "name": "Chest X-Ray (CXR)",
+        "category": "xray",
+        "indications": ["Chest pain", "Dyspnea", "Fever", "Trauma", "Pre-op"],
+        "turnaroundTime": 15,
+        "radiationDose": "0.1 mSv",
+        "resourceCost": "low",
+        "limitations": "None (always available)",
+        "contraindications": ["Pregnancy (shield abdomen)"]
+      }
+    ],
+
+    "ct": [
+      {
+        "id": "ct_angio_chest",
+        "name": "CT Angiography Chest",
+        "category": "ct",
+        "indications": ["Aortic dissection suspected", "PE protocol", "Trauma pan-scan"],
+        "turnaroundTime": 25,
+        "radiationDose": "10-15 mSv",
+        "resourceCost": "high",
+        "resourceConstraint": "1 CT scanner available. Queue: 0-2 patients ahead (15-30 min wait)",
+        "limitations": "Requires stable patient for transport. IV contrast needed. Check renal function.",
+        "contraindications": [
+          "Cr >1.5 or GFR <30 (contrast nephropathy risk)",
+          "Known contrast allergy (premedicate or avoid)",
+          "Unstable patient (cannot leave ED)"
+        ]
+      },
+      {
+        "id": "ct_head",
+        "name": "CT Head Non-Contrast",
+        "category": "ct",
+        "indications": ["Stroke", "Head trauma", "Altered mental status"],
+        "turnaroundTime": 20,
+        "radiationDose": "2 mSv",
+        "resourceCost": "medium",
+        "resourceConstraint": "Available. No wait if CT scanner free.",
+        "limitations": "Metal artifacts from dental work. Motion artifact if patient moves.",
+        "contraindications": ["None significant for non-contrast study"]
+      }
+    ],
+
+    "ultrasound": [
+      {
+        "id": "echo",
+        "name": "Bedside Echocardiogram",
+        "category": "ultrasound",
+        "indications": ["Chest pain", "Shock", "Heart failure", "Cardiac arrest", "PE suspected"],
+        "turnaroundTime": 5,
+        "radiationDose": "0 mSv",
+        "resourceCost": "low",
+        "limitations": "Operator dependent. Limited by body habitus, chest wall, lung interference.",
+        "contraindications": ["None"],
+        "peFindings": "McConnell's sign (RV free wall akinesis with apical sparing), D-shaped LV, dilated RV, elevated PAP",
+        "tamponadeFindings": "Pericardial effusion >2cm, diastolic RV collapse, IVC plethora",
+        "hfFindings": "Reduced EF, regional wall motion abnormalities, dilated LV, valvular disease"
+      },
+      {
+        "id": "fast",
+        "name": "FAST Exam (Trauma Ultrasound)",
+        "category": "ultrasound",
+        "indications": ["Trauma", "Hypotension", "Abdominal pain"],
+        "turnaroundTime": 5,
+        "radiationDose": "0 mSv",
+        "resourceCost": "low",
+        "limitations": "Cannot exclude retroperitoneal bleeding. Operator dependent.",
+        "contraindications": ["None"]
+      }
+    ]
+  },
+
+  "resourceManagement": {
+    "ctScanner": {
+      "totalAvailable": 1,
+      "averageWaitTime": 15,
+      "priorityProtocol": "Stroke > Trauma > Other",
+      "busyMessage": "CT Scanner occupied. Estimated wait: {minutes} minutes.",
+      "availableMessage": "CT Scanner available now."
+    },
+    "mri": {
+      "totalAvailable": 1,
+      "averageWaitTime": 60,
+      "notes": "MRI not typically used in ED. For stable patients requiring detailed imaging.",
+      "contraindications": ["Pacemaker", "Metal implants", "Unstable patient"]
+    }
+  },
+
+  "timingTiers": {
+    "stat": {"turnaround": "5-15 min", "description": "Emergency study - radiologist reads immediately"},
+    "urgent": {"turnaround": "20-30 min", "description": "ED priority - read within 30 minutes"},
+    "routine": {"turnaround": "45-60 min", "description": "Standard inpatient study"}
+  },
+
+  "costImpact": {
+    "xray": {"xpPenalty": 2},
+    "ct": {"xpPenalty": 10, "unnecessaryCT": {"xpPenalty": -25, "reputationPenalty": -10}},
+    "ultrasound": {"xpPenalty": 3},
+    "mri": {"xpPenalty": 15, "inappropriateMRI": {"xpPenalty": -30, "reputationPenalty": -15}}
+  }
+}

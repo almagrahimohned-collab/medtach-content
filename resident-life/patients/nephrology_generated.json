@@ -1,0 +1,368 @@
+{
+  "module": "resident-life",
+  "category": "nephrology",
+  "version": "1.0",
+  "description": "Clinical cases for nephrology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_nephro_001",
+      "name": "Mariam Al-Rashid",
+      "age": 70,
+      "gender": "male",
+      "complaint": "oliguria and creatinine rise from 1",
+      "triageNote": "Generated case - Acute Kidney Injury",
+      "correctTriage": 3,
+      "correctDiagnosis": "Acute Kidney Injury",
+      "differentialDiagnoses": [
+        "Acute Tubular Necrosis (ATN)",
+        "Acute Interstitial Nephritis",
+        "Post-renal AKI",
+        "Glomerulonephritis"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Acute Tubular Necrosis (ATN), Acute Interstitial Nephritis, Post-renal AKI",
+        "keyTeaching": "Pre-renal: BUN/Cr >20, UNa <20, FENa <1%. ATN: FENa >2%, muddy brown casts. AIN: WBC casts, eosinophiluria.",
+        "guideline": "KDIGO AKI Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_nephro_002",
+      "name": "Fatima Ahmed",
+      "age": 65,
+      "gender": "female",
+      "complaint": "A 65-year-old diabetic woman has eGFR 28 mL/min, urine albumin 450 mg/g",
+      "triageNote": "Generated case - Chronic Kidney Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Chronic Kidney Disease",
+      "differentialDiagnoses": [
+        "Stage 3 CKD - Dietary modification only",
+        "Stage 5 CKD - Start dialysis",
+        "Stage 2 CKD - Monitor annually",
+        "Normal renal function - No intervention"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Stage 3 CKD - Dietary modification only, Stage 5 CKD - Start dialysis, Stage 2 CKD - Monitor annually",
+        "keyTeaching": "CKD Stage 4: eGFR 15-29. ACEi/ARB for proteinuria. AV fistula when eGFR <20. Manage anemia, bone disease, acidosis.",
+        "guideline": "KDIGO CKD Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_nephro_003",
+      "name": "Nour Khan",
+      "age": 51,
+      "gender": "male",
+      "complaint": "muscle weakness",
+      "triageNote": "Generated case - Electrolyte Disorders",
+      "correctTriage": 3,
+      "correctDiagnosis": "Electrolyte Disorders",
+      "differentialDiagnoses": [
+        "IV insulin + D50",
+        "Sodium polystyrene sulfonate (Kayexalate)",
+        "Emergency hemodialysis",
+        "Albuterol nebulization"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: IV insulin + D50, Sodium polystyrene sulfonate (Kayexalate), Emergency hemodialysis",
+        "keyTeaching": "K+ >6.5 + ECG changes: Ca gluconate FIRST → then insulin+D50 → then dialysis. Ca does NOT lower K+, it stabilizes membrane.",
+        "guideline": "AHA Hyperkalemia Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 3,
+    "source": "Generated from questions/nephrology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

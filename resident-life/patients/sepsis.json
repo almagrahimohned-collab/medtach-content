@@ -1,0 +1,435 @@
+{
+  "module": "resident-life",
+  "category": "sepsis",
+  "version": "1.0",
+  "description": "Sepsis and shock cases for Resident Life simulator - Sepsis-3 criteria, fluid resuscitation, vasopressors, source control",
+  "patients": [
+    {
+      "id": "sepsis_001",
+      "name": "Mr. Rashid",
+      "age": 72,
+      "gender": "male",
+      "complaint": "Fever 38.9°C, rigors, confusion for 1 day. Urinary frequency and dysuria for 3 days. Indwelling Foley catheter for 2 weeks post-TURP. Hypotensive: BP 82/48, HR 118, RR 32.",
+      "triageNote": "72M, febrile, confused, hypotensive, catheterized, ?urosepsis, HR 118, BP 82/48, SpO2 94%, RR 32",
+      "correctTriage": 1,
+      "correctDiagnosis": "Septic Shock secondary to Catheter-Associated Urinary Tract Infection (CAUTI)",
+      "differentialDiagnoses": [
+        "Cardiogenic Shock",
+        "Hypovolemic Shock",
+        "Anaphylactic Shock",
+        "Neurogenic Shock"
+      ],
+      "possibleActions": [
+        {
+          "id": "lactate",
+          "name": "Serum Lactate",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Lactate: 5.8 mmol/L",
+            "interpretation": "Markedly elevated (>4.0) = tissue hypoperfusion. Meets Sepsis-3 septic shock criteria: vasopressors needed to maintain MAP ≥65 + lactate >2 after fluids.",
+            "normalRange": "<2.0 mmol/L"
+          }
+        },
+        {
+          "id": "blood_cultures_sepsis",
+          "name": "Blood Cultures x2 + Urine Culture",
+          "category": "lab",
+          "timeCost": 8,
+          "resultTime": 720,
+          "isEssential": true,
+          "result": {
+            "finding": "Cultures drawn. Preliminary: Gram-negative rods in blood and urine at 24h. Final: Escherichia coli, ESBL-negative, sensitive to ceftriaxone.",
+            "interpretation": "E. coli = most common CAUTI organism. Gram-negative bacteremia = endotoxin-mediated shock."
+          }
+        },
+        {
+          "id": "cbc_sepsis",
+          "name": "CBC with Differential",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 19.8, Neutrophils 91%, Bands 15%, Plt 85, Hb 13.5",
+            "interpretation": "Leukocytosis with severe left shift (bands 15%). Thrombocytopenia (Plt 85) suggests early DIC or sepsis-induced bone marrow suppression.",
+            "normalRange": "WBC 4-11, Plt 150-400"
+          }
+        },
+        {
+          "id": "renal_function",
+          "name": "Renal Function (BUN, Creatinine)",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "BUN 45, Creatinine 2.8 (baseline 1.0 two weeks ago). GFR 22 mL/min.",
+            "interpretation": "AKI Stage 3 (Cr 2.8x baseline). Sepsis-associated AKI. BUN:Cr ratio >20:1 suggests pre-renal component from hypotension.",
+            "normalRange": "Cr 0.6-1.2, GFR >90"
+          }
+        },
+        {
+          "id": "coagulation_sepsis",
+          "name": "Coagulation Profile (PT, PTT, INR, Fibrinogen, D-Dimer)",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 30,
+          "isEssential": false,
+          "result": {
+            "finding": "PT 18, PTT 45, INR 1.6, Fibrinogen 180, D-Dimer >20,000",
+            "interpretation": "Coagulopathy: elevated PT/PTT, low fibrinogen, extremely high D-Dimer = DIC (Disseminated Intravascular Coagulation) from sepsis.",
+            "normalRange": "PT 11-13.5, PTT 25-35, INR 0.9-1.1, Fibrinogen 200-400"
+          }
+        },
+        {
+          "id": "procalcitonin",
+          "name": "Procalcitonin",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 30,
+          "isEssential": false,
+          "result": {
+            "finding": "Procalcitonin: 35.2 ng/mL",
+            "interpretation": "PCT >10 = very high probability of severe bacterial sepsis. PCT >2.0 with clinical signs = bacterial infection confirmed.",
+            "normalRange": "<0.05 ng/mL"
+          }
+        },
+        {
+          "id": "abg_sepsis",
+          "name": "Arterial Blood Gas",
+          "category": "lab",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "pH 7.18, pCO2 28, pO2 82, HCO3 10, Lactate 5.8, SaO2 94%",
+            "interpretation": "Severe metabolic acidosis (high anion gap: Na - Cl - HCO3 = 28). Compensatory respiratory alkalosis (pCO2 28 = Winter's formula: expected pCO2 = 1.5(10)+8±2 = 21-25). Lactate 5.8 confirms lactic acidosis from septic shock.",
+            "normalRange": "pH 7.35-7.45, HCO3 22-26"
+          }
+        },
+        {
+          "id": "fluids_30ml_kg",
+          "name": "IV Crystalloid 30mL/kg Bolus (Sepsis Protocol)",
+          "category": "treatment",
+          "timeCost": 20,
+          "resultTime": 60,
+          "isEssential": true,
+          "result": {
+            "finding": "2.5L Lactated Ringer's infused over 60 min. MAP improved from 52 to 58. Still hypotensive (MAP <65). Lactate repeat: 4.2 (decreased from 5.8).",
+            "interpretation": "Partial response to fluids. MAP still <65 = requires vasopressors. Lactate clearance 27% (good response, target >20%). Continue fluids cautiously."
+          }
+        },
+        {
+          "id": "vasopressors",
+          "name": "Norepinephrine IV Infusion (Central Line)",
+          "category": "treatment",
+          "timeCost": 20,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Norepinephrine started at 0.1 mcg/kg/min titrated to MAP ≥65. MAP now 68. Still on moderate dose.",
+            "interpretation": "Norepinephrine = first-line vasopressor for septic shock (Surviving Sepsis Campaign). Target MAP ≥65. If dose >0.3 mcg/kg/min, add vasopressin."
+          }
+        },
+        {
+          "id": "antibiotics_sepsis",
+          "name": "IV Broad-Spectrum Antibiotics (within 1 hour)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 120,
+          "isEssential": true,
+          "result": {
+            "finding": "Piperacillin-Tazobactam 4.5g IV started within 45 minutes of arrival. Covering gram-negative rods (including Pseudomonas) and anaerobes.",
+            "interpretation": "Empiric therapy for urosepsis with AKI: Pip-Tazo covers E. coli, Klebsiella, Proteus, Pseudomonas. Avoid aminoglycosides in renal failure."
+          }
+        },
+        {
+          "id": "source_control",
+          "name": "Source Control: Remove/Replace Foley Catheter",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Foley catheter removed. New catheter placed after urine culture obtained. Source of infection addressed.",
+            "interpretation": "Source control is CRITICAL in sepsis management. Without removing infected catheter, antibiotics alone insufficient."
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["lactate", "blood_cultures_sepsis", "cbc_sepsis", "renal_function", "abg_sepsis", "fluids_30ml_kg", "vasopressors", "antibiotics_sepsis", "source_control"],
+        "acceptable": ["lactate", "blood_cultures_sepsis", "fluids_30ml_kg", "vasopressors", "antibiotics_sepsis", "source_control"],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Delay in any of: antibiotics, fluids, vasopressors, or source control increases mortality significantly",
+        "criticalErrors": [
+          {
+            "action": "delaying_antibiotics",
+            "consequence": "Every hour delay in antibiotics in septic shock increases mortality by 7-8%. SEP-1 requires antibiotics within 1 hour."
+          },
+          {
+            "action": "skipping_source_control",
+            "consequence": "Without removing infected catheter, antibiotics cannot clear infection. Persistent bacteremia = ongoing shock."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 20,
+          "stages": [
+            {"time": 5, "event": "Worsening shock. MAP 45. Lactate 8.2. Anuric."},
+            {"time": 10, "event": "Multi-organ failure: AKI, DIC, ARDS. pH 7.02."},
+            {"time": 15, "event": "Refractory shock despite maximum vasopressors."},
+            {"time": 20, "event": "Cardiac arrest. Death."}
+          ]
+        },
+        "withFluidsOnly": {
+          "timer": 40,
+          "stages": [
+            {"time": 15, "event": "MAP 60 with fluids alone. Still needs vasopressors."},
+            {"time": 25, "event": "Lactate 3.8. Improving but shock not resolved."},
+            {"time": 40, "event": "Without antibiotics and source control, infection progressing."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 180,
+          "stages": [
+            {"time": 30, "event": "MAP 68 on norepinephrine 0.15 mcg/kg/min. Lactate 3.2 (down from 5.8)."},
+            {"time": 60, "event": "Urine output improving. Lactate 2.1. Reducing vasopressor dose."},
+            {"time": 120, "event": "MAP 72 on norepinephrine 0.05. Lactate 1.4. Shock resolving."},
+            {"time": 180, "event": "Off vasopressors. Lactate 1.1. AKI improving. ICU transfer for monitoring."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was cardiogenic shock: Warm extremities + bounding pulses + fever = septic shock, not cardiogenic. Cardiogenic shock has cold clammy extremities + pulmonary edema + JVD.",
+        "keyTeaching": "Sepsis-3 Definition: SOFA score increase ≥2 + infection. Septic shock: Vasopressors to maintain MAP ≥65 + Lactate >2 mmol/L after adequate fluid resuscitation. Surviving Sepsis Hour-1 Bundle: Measure lactate, Blood cultures, Broad-spectrum antibiotics, Crystalloid 30mL/kg, Vasopressors if hypotensive during/after fluids.",
+        "guideline": "Surviving Sepsis Campaign 2021: Hour-1 Bundle (all within 60 minutes): 1) Measure lactate, 2) Blood cultures before antibiotics, 3) Broad-spectrum antibiotics, 4) 30mL/kg crystalloid for hypotension/lactate ≥4, 5) Vasopressors if hypotensive during/after fluid resuscitation."
+      },
+      "difficulty": "advanced",
+      "xpReward": 350,
+      "reputationImpact": {
+        "correctDiagnosis": 40,
+        "correctTreatment": 80,
+        "hour1BundleComplete": 60,
+        "delayedAntibiotics": -60,
+        "missedSourceControl": -50,
+        "missedDiagnosis": -50,
+        "patientDeath": -150
+      }
+    },
+    {
+      "id": "sepsis_002",
+      "name": "Mrs. Huda",
+      "age": 58,
+      "gender": "female",
+      "complaint": "Fever 38.5°C, chills, right upper quadrant pain for 2 days. Jaundiced. Confused today. BP 88/52, HR 122, RR 28. Diabetes, previous cholelithiasis.",
+      "triageNote": "58F, febrile, jaundiced, RUQ pain, confused, hypotensive, ?cholangitis, HR 122, BP 88/52",
+      "correctTriage": 1,
+      "correctDiagnosis": "Septic Shock secondary to Acute Cholangitis (Charcot's Triad + Reynolds' Pentad)",
+      "differentialDiagnoses": [
+        "Acute Cholecystitis",
+        "Liver Abscess",
+        "Acute Pancreatitis",
+        "Right-Sided Pyelonephritis"
+      ],
+      "possibleActions": [
+        {
+          "id": "lactate_cholangitis",
+          "name": "Serum Lactate",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Lactate: 6.2 mmol/L",
+            "interpretation": "Severe hyperlactatemia = tissue hypoperfusion. Septic shock criteria met.",
+            "normalRange": "<2.0 mmol/L"
+          }
+        },
+        {
+          "id": "lft",
+          "name": "Liver Function Tests + Bilirubin",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "Total Bilirubin 8.5, Direct 6.2, ALP 420, GGT 580, ALT 180, AST 150, Albumin 2.8",
+            "interpretation": "Cholestatic pattern (ALP/GGT >> ALT/AST). Direct hyperbilirubinemia = biliary obstruction. Cholangitis pattern.",
+            "normalRange": "TBil <1.2, ALP 44-147, ALT 7-56"
+          }
+        },
+        {
+          "id": "cbc_cholangitis",
+          "name": "CBC with Differential",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 24.5, Neutrophils 94%, Bands 18%, Plt 65, Hb 13.1",
+            "interpretation": "Severe leukocytosis with left shift (bands 18%). Thrombocytopenia (Plt 65) suggests sepsis-induced or early DIC.",
+            "normalRange": "WBC 4-11, Plt 150-400"
+          }
+        },
+        {
+          "id": "blood_cultures_cholangitis",
+          "name": "Blood Cultures x2 (Before Antibiotics)",
+          "category": "lab",
+          "timeCost": 8,
+          "resultTime": 720,
+          "isEssential": true,
+          "result": {
+            "finding": "Preliminary at 24h: Gram-negative rods. Final: Escherichia coli + Klebsiella pneumoniae (ESBL-negative).",
+            "interpretation": "Polymicrobial gram-negative bacteremia from biliary source"
+          }
+        },
+        {
+          "id": "ultrasound_ruq",
+          "name": "Right Upper Quadrant Ultrasound",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "Gallstones in gallbladder. Dilated common bile duct 12mm (normal <6mm). CBD stone visualized in distal duct. Gallbladder wall thickened 6mm. No pericholecystic fluid.",
+            "interpretation": "Choledocholithiasis with biliary obstruction causing cholangitis. CBD dilation + stone + clinical Charcot's triad = acute cholangitis.",
+            "imageRef": "us_choledocholithiasis"
+          }
+        },
+        {
+          "id": "ct_abdomen",
+          "name": "CT Abdomen with IV Contrast",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "Dilated CBD 12mm with obstructing stone. Pneumobilia. Gallbladder distended. No abscess. No pancreatitis.",
+            "interpretation": "Confirms choledocholithiasis with cholangitis. Pneumobilia suggests gas-forming organism or previous instrumentation.",
+            "imageRef": "ct_cholangitis"
+          }
+        },
+        {
+          "id": "fluids_cholangitis",
+          "name": "IV Crystalloid 30mL/kg Bolus",
+          "category": "treatment",
+          "timeCost": 20,
+          "resultTime": 60,
+          "isEssential": true,
+          "result": {
+            "finding": "2L LR infused. MAP improved from 50 to 56. Still hypotensive (MAP <65). Lactate repeat: 4.8 (improved from 6.2).",
+            "interpretation": "Partial response. Vasopressors needed."
+          }
+        },
+        {
+          "id": "vasopressors_cholangitis",
+          "name": "Norepinephrine IV Infusion",
+          "category": "treatment",
+          "timeCost": 20,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Norepinephrine 0.2 mcg/kg/min. MAP 67. Target MAP ≥65 achieved.",
+            "interpretation": "Vasopressor support required = septic shock (Sepsis-3)."
+          }
+        },
+        {
+          "id": "antibiotics_cholangitis",
+          "name": "IV Broad-Spectrum Antibiotics (within 1 hour)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 120,
+          "isEssential": true,
+          "result": {
+            "finding": "Piperacillin-Tazobactam 4.5g IV started within 40 min. Covering gram-negative rods + anaerobes.",
+            "interpretation": "Cholangitis empiric therapy: Must cover Enterobacteriaceae (E. coli, Klebsiella) + anaerobes. Pip-Tazo or Ceftriaxone + Metronidazole."
+          }
+        },
+        {
+          "id": "ercp",
+          "name": "Emergency ERCP with Stone Extraction + Biliary Drainage",
+          "category": "treatment",
+          "timeCost": 30,
+          "resultTime": 60,
+          "isEssential": true,
+          "result": {
+            "finding": "ERCP performed. CBD stone extracted. Bile drained (purulent). CBD stent placed. Patient improved dramatically within hours.",
+            "interpretation": "ERCP = definitive source control for cholangitis. Mortality without biliary drainage: 50-100%. With ERCP: <10%."
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["lactate_cholangitis", "lft", "cbc_cholangitis", "blood_cultures_cholangitis", "ultrasound_ruq", "fluids_cholangitis", "vasopressors_cholangitis", "antibiotics_cholangitis", "ercp"],
+        "acceptable": ["lactate_cholangitis", "lft", "blood_cultures_cholangitis", "ultrasound_ruq", "fluids_cholangitis", "vasopressors_cholangitis", "antibiotics_cholangitis", "ercp"],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Without ERCP/biliary drainage, antibiotics alone cannot resolve cholangitis. Mortality approaches 100% without source control.",
+        "criticalErrors": [
+          {
+            "action": "delaying_ercp",
+            "consequence": "ERCP is URGENT (within 24h for severe cholangitis, within 6-12h for septic shock). Mortality increases with delay. Antibiotics alone insufficient - source control required."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 15,
+          "stages": [
+            {"time": 5, "event": "Worsening shock. MAP 42. Anuric."},
+            {"time": 10, "event": "Multi-organ failure. pH 7.05. Lactate 12."},
+            {"time": 15, "event": "Death from septic shock."}
+          ]
+        },
+        "withAntibioticsOnly": {
+          "timer": 60,
+          "stages": [
+            {"time": 20, "event": "Antibiotics helping but obstruction not relieved. Ongoing bacteremia."},
+            {"time": 40, "event": "Liver abscess forming. Shock worsening."},
+            {"time": 60, "event": "Death without biliary drainage."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 180,
+          "stages": [
+            {"time": 45, "event": "Post-ERCP. Bile draining. Shock improving."},
+            {"time": 90, "event": "MAP 75 off vasopressors. Lactate 1.8. Fever resolving."},
+            {"time": 180, "event": "Stable. Transfer to ward. Plan for elective cholecystectomy in 6 weeks."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was cholecystitis without cholangitis: Charcot's triad (fever + RUQ pain + jaundice) = cholangitis. Reynolds' pentad (Charcot's + hypotension + confusion) = severe cholangitis with septic shock. This is a GI emergency requiring urgent biliary drainage.",
+        "keyTeaching": "Cholangitis severity: Grade I (mild) = supportive care + antibiotics. Grade II (moderate) = early biliary drainage (within 24h). Grade III (severe) = urgent biliary drainage (within 6-12h) + organ support. ERCP is gold standard. PTBD if ERCP fails.",
+        "guideline": "Tokyo Guidelines 2018: Definitive diagnosis of cholangitis = Charcot's triad + lab evidence of inflammation + biliary obstruction on imaging. Severe cholangitis (Grade III) = organ dysfunction (hypotension, altered mental status, PaO2/FiO2 <300, AKI, liver dysfunction, thrombocytopenia)."
+      },
+      "difficulty": "advanced",
+      "xpReward": 350,
+      "reputationImpact": {
+        "correctDiagnosis": 40,
+        "correctTreatment": 80,
+        "urgentERCP": 70,
+        "delayedERCP": -70,
+        "missedDiagnosis": -60,
+        "patientDeath": -150
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 2,
+    "difficultyRange": "advanced",
+    "systems": ["Infectious Disease", "Hepatobiliary"],
+    "conceptsTested": [
+      "Sepsis-3 criteria and septic shock recognition",
+      "Surviving Sepsis Hour-1 Bundle",
+      "Lactate clearance as resuscitation target",
+      "Vasopressor selection and titration",
+      "Source control principles",
+      "Cholangitis: Charcot's triad, Reynolds' pentad, Tokyo Guidelines",
+      "ERCP for biliary emergencies"
+    ],
+    "lastUpdated": "2026-06-11"
+  }
+}

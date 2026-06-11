@@ -1,0 +1,222 @@
+{
+  "module": "resident-life",
+  "category": "rheumatology",
+  "version": "1.0",
+  "description": "Clinical cases for rheumatology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_rheum_001",
+      "name": "Fatima Al-Hashimi",
+      "age": 45,
+      "gender": "female",
+      "complaint": "2 months of bilateral hand and wrist pain with morning stiffness lasting >1 hour",
+      "triageNote": "Generated case - Rheumatoid Arthritis",
+      "correctTriage": 3,
+      "correctDiagnosis": "Rheumatoid Arthritis",
+      "differentialDiagnoses": [
+        "Prednisone 40mg daily alone",
+        "Hydroxychloroquine alone",
+        "Infliximab (anti-TNF) first-line",
+        "NSAIDs only"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Prednisone 40mg daily alone, Hydroxychloroquine alone, Infliximab (anti-TNF) first-line",
+        "keyTeaching": "RA: MTX first-line + folic acid. Monitor CBC/LFTs. Anti-CCP + RF = poor prognosis. Biologics if MTX fails. Target: remission.",
+        "guideline": "ACR RA Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_rheum_002",
+      "name": "Amal Khan",
+      "age": 50,
+      "gender": "male",
+      "complaint": "sudden onset severe pain, redness, and swelling in his right great toe",
+      "triageNote": "Generated case - Crystal Arthropathies",
+      "correctTriage": 3,
+      "correctDiagnosis": "Crystal Arthropathies",
+      "differentialDiagnoses": [
+        "Allopurinol 300mg daily",
+        "Aspirin 650mg",
+        "Joint replacement surgery",
+        "Probenecid"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Allopurinol 300mg daily, Aspirin 650mg, Joint replacement surgery",
+        "keyTeaching": "Acute gout: NSAIDs or colchicine. Start within 24h. Allopurinol started LATER (2-4 weeks after attack resolves) with colchicine prophylaxis.",
+        "guideline": "ACR Gout Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 2,
+    "source": "Generated from questions/rheumatology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

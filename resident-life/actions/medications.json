@@ -1,0 +1,200 @@
+{
+  "module": "resident-life",
+  "category": "medications",
+  "version": "1.0",
+  "description": "Medication formulary for Resident Life simulator - emergency medications with dosages, indications, and precautions",
+
+  "medications": {
+    "cardiac": [
+      {
+        "id": "aspirin",
+        "name": "Aspirin (ASA)",
+        "class": "Antiplatelet",
+        "dose": "162-325mg PO (chewable)",
+        "route": "PO",
+        "onset": "15-30 min",
+        "indications": ["ACS/STEMI/NSTEMI", "Acute ischemic stroke (after 24h if tPA given)", "Stable angina"],
+        "contraindications": ["Active bleeding", "Aspirin allergy", "Aortic dissection", "Peptic ulcer disease (relative)"],
+        "pearls": "Chewable preferred for rapid absorption. Reduces mortality by 23% in STEMI (ISIS-2).",
+        "cost": "low"
+      },
+      {
+        "id": "nitroglycerin",
+        "name": "Nitroglycerin",
+        "class": "Nitrate/Vasodilator",
+        "dose": "0.4mg SL Q5min ×3, or IV 10-200 mcg/min",
+        "route": "SL or IV",
+        "onset": "1-3 min SL, immediate IV",
+        "indications": ["Chest pain/angina", "Acute pulmonary edema", "Hypertensive emergency"],
+        "contraindications": ["SBP <90", "Right ventricular MI", "Severe aortic stenosis", "Recent sildenafil/tadalafil use (24-48h)"],
+        "pearls": "Must wait 24h after sildenafil, 48h after tadalafil (profound hypotension risk).",
+        "cost": "low"
+      },
+      {
+        "id": "heparin_unfractionated",
+        "name": "Unfractionated Heparin",
+        "class": "Anticoagulant",
+        "dose": "60 units/kg bolus (max 4000), then 12 units/kg/hr infusion",
+        "route": "IV",
+        "onset": "Immediate",
+        "indications": ["STEMI (with PCI)", "NSTEMI", "PE with shock (alternative to tPA)", "Acute limb ischemia"],
+        "contraindications": ["Active bleeding", "HIT (heparin-induced thrombocytopenia)", "Recent intracranial hemorrhage", "Aortic dissection"],
+        "pearls": "Monitor PTT Q6h. Target 1.5-2.5× normal (60-90 sec). Risk of HIT: 1-3%.",
+        "cost": "medium"
+      }
+    ],
+
+    "antibiotics": [
+      {
+        "id": "ceftriaxone",
+        "name": "Ceftriaxone",
+        "class": "3rd Gen Cephalosporin",
+        "dose": "1-2g IV Q24h (2g for severe infections/meningitis)",
+        "route": "IV/IM",
+        "onset": "30-60 min",
+        "indications": ["Community-acquired pneumonia", "Meningitis", "Pyelonephritis", "Cholangitis", "Sepsis (with additional coverage)"],
+        "contraindications": ["Anaphylaxis to cephalosporins", "Cross-reactivity with penicillin anaphylaxis (2-5% risk)"],
+        "pearls": "Excellent CNS penetration (use 2g dose for meningitis). Covers S. pneumo, H. flu, E. coli, Klebsiella. Does NOT cover Pseudomonas, Enterococcus, anaerobes.",
+        "cost": "low"
+      },
+      {
+        "id": "piptazo",
+        "name": "Piperacillin-Tazobactam",
+        "class": "Extended-Spectrum Penicillin + Beta-Lactamase Inhibitor",
+        "dose": "3.375g or 4.5g IV Q6h",
+        "route": "IV",
+        "onset": "30-60 min",
+        "indications": ["Sepsis (broad-spectrum)", "Cholangitis", "Hospital-acquired pneumonia", "Intra-abdominal infection", "Neutropenic fever"],
+        "contraindications": ["Penicillin anaphylaxis", "Severe renal impairment (dose adjust)"],
+        "pearls": "Covers Pseudomonas, anaerobes, Enterococcus (pip) + ESBL gram-negatives (tazo). Workhorse for sepsis. Does NOT cover MRSA or VRE.",
+        "cost": "medium"
+      },
+      {
+        "id": "vancomycin",
+        "name": "Vancomycin",
+        "class": "Glycopeptide",
+        "dose": "15-20mg/kg IV Q8-12h (based on renal function)",
+        "route": "IV",
+        "onset": "60 min (infuse over 60-90 min to avoid Red Man Syndrome)",
+        "indications": ["MRSA coverage", "Severe C. difficile (PO vancomycin)", "Gram-positive coverage in severe sepsis", "Meningitis (add to ceftriaxone)"],
+        "contraindications": ["Vancomycin allergy", "Renal failure (dose adjust, monitor trough)"],
+        "pearls": "Target trough 15-20 for severe infections. Red Man Syndrome from rapid infusion (histamine release). NOT absorbed PO (use PO only for C. diff).",
+        "cost": "medium"
+      },
+      {
+        "id": "azithromycin",
+        "name": "Azithromycin",
+        "class": "Macrolide",
+        "dose": "500mg IV/PO Q24h",
+        "route": "IV/PO",
+        "onset": "1-2 hours",
+        "indications": ["CAP (atypical coverage: Mycoplasma, Chlamydia, Legionella)", "COPD exacerbation", "Pertussis"],
+        "contraindications": ["Prolonged QTc", "Severe hepatic impairment", "Myasthenia gravis"],
+        "pearls": "Added to beta-lactam for severe CAP. Also anti-inflammatory properties (reduced COPD exacerbations).",
+        "cost": "low"
+      }
+    ],
+
+    "neuro": [
+      {
+        "id": "tpa_alteplase",
+        "name": "Alteplase (tPA)",
+        "class": "Fibrinolytic",
+        "dose": "0.9mg/kg (max 90mg), 10% bolus, 90% infusion over 60 min",
+        "route": "IV",
+        "onset": "30-60 min for recanalization",
+        "indications": ["Acute ischemic stroke (<4.5h from LKW)", "Massive PE with shock", "STEMI if PCI unavailable within 120 min"],
+        "contraindications": [
+          "Time >4.5h",
+          "Intracranial hemorrhage on CT",
+          "Recent intracranial/spinal surgery (<3 months)",
+          "Active internal bleeding",
+          "SBP >185 or DBP >110 despite treatment",
+          "INR >1.7, Plt <100,000",
+          "Use of DOAC within 48h"
+        ],
+        "pearls": "sICH risk: 6.4% (NINDS). 30% more likely to have minimal/no disability at 3 months. Strict BP control <180/105 for 24h post-tPA.",
+        "cost": "very_high"
+      },
+      {
+        "id": "lorazepam",
+        "name": "Lorazepam (Ativan)",
+        "class": "Benzodiazepine",
+        "dose": "0.1mg/kg IV (max 4mg/dose), repeat ×1 if ongoing at 5 min",
+        "route": "IV/IM",
+        "onset": "1-2 min IV",
+        "indications": ["Status epilepticus (first-line)", "Alcohol withdrawal seizures", "Severe anxiety/agitation"],
+        "contraindications": ["Respiratory depression", "Hypotension", "Myasthenia gravis"],
+        "pearls": "Preferred benzo for status epilepticus. Longer duration than midazolam (6-8h vs 1-2h). Less respiratory depression than diazepam.",
+        "cost": "low"
+      },
+      {
+        "id": "nimodipine",
+        "name": "Nimodipine",
+        "class": "Calcium Channel Blocker (DHP)",
+        "dose": "60mg PO/NG Q4h ×21 days",
+        "route": "PO/NG",
+        "onset": "30-60 min",
+        "indications": ["Subarachnoid hemorrhage (vasospasm prevention)"],
+        "contraindications": ["Hypotension (SBP <100, dose reduce or hold)", "Liver failure", "Concurrent strong CYP3A4 inhibitors"],
+        "pearls": "ONLY intervention proven to improve outcomes in SAH (Class IA evidence). Not for hypertension. Mechanism: neuroprotection via vasodilation of cerebral vessels.",
+        "cost": "medium"
+      }
+    ],
+
+    "vasopressors": [
+      {
+        "id": "norepinephrine",
+        "name": "Norepinephrine (Levophed)",
+        "class": "Vasopressor (Alpha-1 > Beta-1)",
+        "dose": "0.05-0.5 mcg/kg/min IV (start 0.05, titrate Q5min)",
+        "route": "IV (central line preferred)",
+        "onset": "1-2 min",
+        "indications": ["Septic shock (first-line)", "Cardiogenic shock", "Post-cardiac arrest hypotension", "Neurogenic shock"],
+        "contraindications": ["Uncorrected hypovolemia", "Peripheral administration (can cause tissue necrosis if extravasation)"],
+        "pearls": "First-line vasopressor for septic shock (Surviving Sepsis Campaign). Target MAP ≥65. Add vasopressin if dose >0.3 mcg/kg/min.",
+        "cost": "medium"
+      },
+      {
+        "id": "epinephrine",
+        "name": "Epinephrine (Adrenaline)",
+        "class": "Catecholamine (Alpha-1, Beta-1, Beta-2)",
+        "dose": "Push: 1mg IV Q3-5min (cardiac arrest). Infusion: 2-10 mcg/min",
+        "route": "IV/IM",
+        "onset": "Immediate",
+        "indications": ["Cardiac arrest (VF/VT/asystole/PEA)", "Anaphylaxis (IM 0.3mg 1:1000)", "Septic shock (second-line)"],
+        "contraindications": ["None in cardiac arrest", "Caution in coronary artery disease (tachycardia, myocardial O2 demand)"],
+        "pearls": "In cardiac arrest: 1mg IV Q3-5min. In anaphylaxis: 0.3-0.5mg IM (anterolateral thigh), repeat Q5-15min. In shock: increases lactate (beta-2 stimulation of glycolysis).",
+        "cost": "low"
+      }
+    ],
+
+    "resuscitation": [
+      {
+        "id": "crystalloid",
+        "name": "Crystalloid (Lactated Ringer's / Normal Saline)",
+        "class": "IV Fluid",
+        "dose": "30mL/kg bolus for sepsis, 250-500mL boluses for hypovolemia",
+        "route": "IV",
+        "onset": "Immediate",
+        "indications": ["Sepsis/septic shock (30mL/kg)", "Hypovolemia/dehydration", "Hemorrhagic shock (with blood products)", "DKA"],
+        "contraindications": ["Acute pulmonary edema", "Anuric renal failure with fluid overload", "Cerebral edema (use hypertonic saline)"],
+        "pearls": "LR preferred over NS in large volumes (avoid hyperchloremic metabolic acidosis). 2L LR = same cost as 2L NS.",
+        "cost": "very_low"
+      }
+    ]
+  },
+
+  "medicationErrors": {
+    "wrongDose": {"xpPenalty": -20, "reputationPenalty": -15, "patientSafetyReport": true},
+    "wrongRoute": {"xpPenalty": -30, "reputationPenalty": -25, "patientSafetyReport": true},
+    "contraindicationGiven": {"xpPenalty": -50, "reputationPenalty": -40, "patientSafetyReport": true, "legalRisk": true},
+    "unnecessaryMedication": {"xpPenalty": -15, "reputationPenalty": -10}
+  },
+
+  "timingPenalties": {
+    "tpaDelayed": "Every 15 min delay = -5 reputation (time is brain)",
+    "antibioticsDelayed": "Every hour delay in sepsis = -10 reputation + mortality increase 7%",
+    "nimodipineDelayed": "Delayed >6h in SAH = -30 reputation (preventable vasospasm)"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "module": "resident-life",
+  "category": "hematology",
+  "version": "1.0",
+  "description": "Clinical cases for hematology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_hema_001",
+      "name": "Amal Al-Qassim",
+      "age": 35,
+      "gender": "female",
+      "complaint": "fatigue and pallor",
+      "triageNote": "Generated case - Anemia",
+      "correctTriage": 3,
+      "correctDiagnosis": "Anemia",
+      "differentialDiagnoses": [
+        "Thalassemia trait - No treatment needed",
+        "Anemia of chronic disease - Treat underlying cause",
+        "Vitamin B12 deficiency - IM cyanocobalamin",
+        "Folate deficiency - Oral folic acid"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Thalassemia trait - No treatment needed, Anemia of chronic disease - Treat underlying cause, Vitamin B12 deficiency - IM cyanocobalamin",
+        "keyTeaching": "Iron deficiency = microcytic + high RDW + low ferritin. Treat with oral iron. Check response in 2-4 weeks.",
+        "guideline": "ASH Anemia Guidelines"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_hema_002",
+      "name": "Layla Al-Qassim",
+      "age": 25,
+      "gender": "male",
+      "complaint": "severe bone pain in his back and chest",
+      "triageNote": "Generated case - Hemoglobinopathies",
+      "correctTriage": 3,
+      "correctDiagnosis": "Hemoglobinopathies",
+      "differentialDiagnoses": [
+        "Emergency exchange transfusion",
+        "Start hydroxyurea immediately",
+        "Broad-spectrum antibiotics only",
+        "Corticosteroids IV"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Emergency exchange transfusion, Start hydroxyurea immediately, Broad-spectrum antibiotics only",
+        "keyTeaching": "Sickle cell VOC: IV fluids + oxygen + IV opioids. Incentive spirometry. Hydroxyurea for long-term prevention. Vaccinate due to functional asplenia.",
+        "guideline": "ASH Sickle Cell Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_hema_003",
+      "name": "Layla Al-Hashimi",
+      "age": 60,
+      "gender": "female",
+      "complaint": "A 60-year-old woman 3 days post-hip replacement develops unilateral leg swelling and pain",
+      "triageNote": "Generated case - Thromboembolic Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Thromboembolic Disease",
+      "differentialDiagnoses": [
+        "Wait for Doppler ultrasound before treatment",
+        "Check D-dimer first",
+        "Aspirin 325mg",
+        "Compression stockings only"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Wait for Doppler ultrasound before treatment, Check D-dimer first, Aspirin 325mg",
+        "keyTeaching": "DVT: Wells ≥2 = start anticoagulation NOW + order Doppler. DOAC first-line. LMWH/warfarin if DOAC contraindicated. Treat 3-6 months.",
+        "guideline": "ACCP VTE Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 3,
+    "source": "Generated from questions/hematology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

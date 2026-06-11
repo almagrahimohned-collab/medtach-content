@@ -1,0 +1,368 @@
+{
+  "module": "resident-life",
+  "category": "endocrinology",
+  "version": "1.0",
+  "description": "Clinical cases for endocrinology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_endo_001",
+      "name": "Nour Omar",
+      "age": 45,
+      "gender": "male",
+      "complaint": "polyuria, polydipsia, and 8 kg weight loss over 3 months",
+      "triageNote": "Generated case - Diabetes Mellitus",
+      "correctTriage": 3,
+      "correctDiagnosis": "Diabetes",
+      "differentialDiagnoses": [
+        "Insulin glargine 10 units at bedtime",
+        "Glipizide 5mg daily",
+        "Empagliflozin 10mg daily",
+        "No medication, lifestyle only"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Insulin glargine 10 units at bedtime, Glipizide 5mg daily, Empagliflozin 10mg daily",
+        "keyTeaching": "Metformin first-line for T2DM. HbA1c target <7%. Add SGLT2i/GLP-1 RA for CVD/CKD. Insulin if HbA1c >10% or catabolic symptoms.",
+        "guideline": "ADA Diabetes Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_endo_002",
+      "name": "Zainab Al-Farsi",
+      "age": 40,
+      "gender": "female",
+      "complaint": "fatigue, weight gain, cold intolerance, and constipation for 6 months",
+      "triageNote": "Generated case - Thyroid Disorders",
+      "correctTriage": 3,
+      "correctDiagnosis": "Thyroid Disorders",
+      "differentialDiagnoses": [
+        "Liothyronine (T3) 25mcg daily",
+        "Methimazole 10mg daily",
+        "Radioactive iodine ablation",
+        "Prednisone 40mg daily"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Liothyronine (T3) 25mcg daily, Methimazole 10mg daily, Radioactive iodine ablation",
+        "keyTeaching": "Hypothyroidism: Levothyroxine 1.6 mcg/kg/day on empty stomach. Goal TSH 0.5-2.5. Recheck q6-8 weeks.",
+        "guideline": "ATA Hypothyroidism Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_endo_003",
+      "name": "Aisha Malik",
+      "age": 20,
+      "gender": "male",
+      "complaint": "abdominal pain, vomiting, and confusion",
+      "triageNote": "Generated case - Diabetic Ketoacidosis",
+      "correctTriage": 3,
+      "correctDiagnosis": "Diabetic Ketoacidosis",
+      "differentialDiagnoses": [
+        "IV insulin bolus then infusion",
+        "IV sodium bicarbonate",
+        "IV potassium 40 mEq",
+        "Subcutaneous insulin lispro"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: IV insulin bolus then infusion, IV sodium bicarbonate, IV potassium 40 mEq",
+        "keyTeaching": "DKA: FLUIDS FIRST (NS 1-2L), then insulin. K+ if <5.2. Bicarb only if pH <6.9. Monitor glucose q1h.",
+        "guideline": "ADA DKA Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 3,
+    "source": "Generated from questions/endocrinology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

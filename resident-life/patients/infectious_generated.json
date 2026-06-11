@@ -1,0 +1,446 @@
+{
+  "module": "resident-life",
+  "category": "infectious",
+  "version": "1.0",
+  "description": "Clinical cases for infectious - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_id_001",
+      "name": "Huda Malik",
+      "age": 70,
+      "gender": "male",
+      "complaint": "fever 39°C, HR 115, RR 28, BP 85/50, lactate 4",
+      "triageNote": "Generated case - Sepsis",
+      "correctTriage": 2,
+      "correctDiagnosis": "Sepsis",
+      "differentialDiagnoses": [
+        "Obtain CT scan to find source",
+        "Start vasopressors immediately",
+        "Wait for culture results before antibiotics",
+        "Transfer to ICU after stabilization on floor"
+      ],
+      "possibleActions": [
+        {
+          "id": "cbc",
+          "name": "CBC",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 15.2, Hb 13.5, Plt 220",
+            "interpretation": "Leukocytosis suggests infection"
+          }
+        },
+        {
+          "id": "crp",
+          "name": "CRP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CRP: 85 mg/L",
+            "interpretation": "Elevated - suggests bacterial infection"
+          }
+        },
+        {
+          "id": "ct_scan",
+          "name": "CT Scan",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CT findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "cbc",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "cbc",
+          "crp",
+          "ct_scan",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Obtain CT scan to find source, Start vasopressors immediately, Wait for culture results before antibiotics",
+        "keyTeaching": "Sepsis: Antibiotics within 1 hour (do NOT delay). Fluids 30mL/kg. Cultures first. Lactate q2-4h to monitor clearance. Norepinephrine if refractory hypotension.",
+        "guideline": "Surviving Sepsis Campaign Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_id_002",
+      "name": "Fatima Khan",
+      "age": 20,
+      "gender": "male",
+      "complaint": "fever, severe headache, neck stiffness, and photophobia",
+      "triageNote": "Generated case - Meningitis",
+      "correctTriage": 3,
+      "correctDiagnosis": "Meningitis",
+      "differentialDiagnoses": [
+        "CT head first in all patients",
+        "Wait for LP results before antibiotics",
+        "Dexamethasone after LP results",
+        "Ceftriaxone alone"
+      ],
+      "possibleActions": [
+        {
+          "id": "cbc",
+          "name": "CBC",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 15.2, Hb 13.5, Plt 220",
+            "interpretation": "Leukocytosis suggests infection"
+          }
+        },
+        {
+          "id": "crp",
+          "name": "CRP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CRP: 85 mg/L",
+            "interpretation": "Elevated - suggests bacterial infection"
+          }
+        },
+        {
+          "id": "ct_scan",
+          "name": "CT Scan",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CT findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "cbc",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "cbc",
+          "crp",
+          "ct_scan",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: CT head first in all patients, Wait for LP results before antibiotics, Dexamethasone after LP results",
+        "keyTeaching": "Meningitis: Blood cultures → Antibiotics + Dexamethasone → LP (if no contraindications). Ceftriaxone + Vancomycin + Dexamethasone.",
+        "guideline": "IDSA Meningitis Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_id_003",
+      "name": "Sara Ahmed",
+      "age": 35,
+      "gender": "male",
+      "complaint": "2 months of productive cough, night sweats, weight loss, and hemoptysis",
+      "triageNote": "Generated case - Tuberculosis",
+      "correctTriage": 3,
+      "correctDiagnosis": "Tuberculosis",
+      "differentialDiagnoses": [
+        "Rifampin + Isoniazid for 9 months",
+        "Ciprofloxacin + Amoxicillin for 2 weeks",
+        "Isoniazid alone for 6 months",
+        "Streptomycin + Isoniazid for 12 months"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "CXR findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "ct_scan",
+          "name": "CT Scan",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CT findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "cxr",
+          "ct_scan",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Rifampin + Isoniazid for 9 months, Ciprofloxacin + Amoxicillin for 2 weeks, Isoniazid alone for 6 months",
+        "keyTeaching": "Active TB: RIPE x 2mo → RI x 4mo. Pyridoxine with INH. Check LFTs. DOT recommended. Latent TB: Rifampin x 4mo or INH x 9mo.",
+        "guideline": "CDC TB Treatment Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 3,
+    "source": "Generated from questions/infectious",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

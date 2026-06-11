@@ -1,0 +1,87 @@
+{
+  "module": "resident-life",
+  "version": "2.0",
+  "description": "Resident Life - Emergency Department Simulator for MedTach",
+  "lastUpdated": "2026-06-11",
+
+  "caseFiles": {
+    "cardiac": {
+      "file": "patients/cardiac.json",
+      "cases": 5,
+      "difficulty": "beginner-intermediate",
+      "description": "Cardiac emergencies: STEMI, Aortic Dissection, Pericarditis, PE, Heart Failure"
+    },
+    "respiratory": {
+      "file": "patients/respiratory.json",
+      "cases": 3,
+      "difficulty": "beginner-intermediate",
+      "description": "Respiratory emergencies: COPD, Pneumothorax, Pneumonia"
+    },
+    "sepsis": {
+      "file": "patients/sepsis.json",
+      "cases": 2,
+      "difficulty": "advanced",
+      "description": "Sepsis and shock: CAUTI, Cholangitis"
+    },
+    "neurology": {
+      "file": "patients/neuro.json",
+      "cases": 3,
+      "difficulty": "beginner-advanced",
+      "description": "Neurological emergencies: Stroke, Febrile Seizure, SAH"
+    }
+  },
+
+  "actionFiles": {
+    "labs": "actions/labs.json",
+    "imaging": "actions/imaging.json",
+    "procedures": "actions/procedures.json",
+    "medications": "actions/medications.json"
+  },
+
+  "totalCases": 13,
+  "specialties": ["Cardiology", "Respiratory", "Infectious Disease", "Neurology"],
+  "difficultyRange": "beginner to advanced",
+
+  "gameSettings": {
+    "defaultShiftLength": 720,
+    "timePerMinute": 1,
+    "defaultLevel": "junior",
+    "patientArrivalInterval": {
+      "intern": {"min": 7, "max": 12},
+      "junior": {"min": 5, "max": 10},
+      "senior": {"min": 3, "max": 7},
+      "chief": {"min": 2, "max": 5}
+    }
+  },
+
+  "progression": {
+    "intern": {
+      "requiredXP": 0,
+      "patientLimit": 6,
+      "availableConsults": 1,
+      "supervisionRequired": true,
+      "description": "PGY-1: Basic cases with attending backup"
+    },
+    "junior": {
+      "requiredXP": 500,
+      "patientLimit": 10,
+      "availableConsults": 2,
+      "supervisionRequired": false,
+      "description": "PGY-2: Independent management, consults, procedures"
+    },
+    "senior": {
+      "requiredXP": 1500,
+      "patientLimit": 15,
+      "availableConsults": 3,
+      "supervisionRequired": false,
+      "description": "PGY-3: Trauma, codes, supervision of juniors"
+    },
+    "chief": {
+      "requiredXP": 3500,
+      "patientLimit": 20,
+      "availableConsults": 5,
+      "supervisionRequired": false,
+      "description": "PGY-4: Department management, teaching, all cases"
+    }
+  }
+}

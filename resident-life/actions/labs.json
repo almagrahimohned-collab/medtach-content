@@ -1,0 +1,296 @@
+{
+  "module": "resident-life",
+  "category": "laboratory",
+  "version": "1.0",
+  "description": "Laboratory tests for Resident Life simulator - values, normal ranges, turnaround times, and costs",
+
+  "labs": {
+    "cardiac": [
+      {
+        "id": "troponin",
+        "name": "High-Sensitivity Troponin I (hs-cTnI)",
+        "category": "cardiac",
+        "normalRange": "<0.04 ng/mL",
+        "unit": "ng/mL",
+        "turnaroundTime": 25,
+        "cost": "medium",
+        "criticalValue": ">1.0 ng/mL",
+        "interpretation": {
+          "<0.04": "Normal - excludes MI if measured >3 hours after symptom onset",
+          "0.04-1.0": "Indeterminate - repeat in 1-3 hours. 0-hour/1-hour algorithm needed",
+          "1.0-10.0": "Elevated - consistent with myocardial injury. Consider NSTEMI",
+          ">10.0": "Markedly elevated - large myocardial infarction likely",
+          "massive_pe": "1.0-5.0 - RV strain causing myocardial injury, not primary MI",
+          "pericarditis": "0.5-2.0 - Myopericarditis component"
+        }
+      },
+      {
+        "id": "ck_mb",
+        "name": "Creatine Kinase-MB (CK-MB)",
+        "category": "cardiac",
+        "normalRange": "<5 ng/mL",
+        "unit": "ng/mL",
+        "turnaroundTime": 30,
+        "cost": "low",
+        "criticalValue": ">25 ng/mL",
+        "interpretation": {
+          "<5": "Normal",
+          "5-25": "Borderline elevation - may be skeletal muscle source",
+          "25-100": "Elevated - consistent with MI. Check CK-MB index (CK-MB/CK >2.5%)",
+          ">100": "Markedly elevated - large MI or reperfusion"
+        }
+      },
+      {
+        "id": "bnp",
+        "name": "BNP / NT-proBNP",
+        "category": "cardiac",
+        "normalRange": "<100 pg/mL (BNP) / <300 pg/mL (NT-proBNP)",
+        "unit": "pg/mL",
+        "turnaroundTime": 20,
+        "cost": "medium",
+        "criticalValue": ">5000 pg/mL",
+        "interpretation": {
+          "<100": "Normal - heart failure unlikely",
+          "100-500": "Gray zone - possible HF if clinical suspicion high",
+          "500-5000": "Elevated - consistent with heart failure",
+          ">5000": "Severely elevated - acute decompensated heart failure likely",
+          "copd": "100-400 - COPD alone rarely elevates BNP significantly",
+          "renal": "BNP can be elevated in renal failure even without HF"
+        }
+      }
+    ],
+
+    "hematology": [
+      {
+        "id": "cbc",
+        "name": "Complete Blood Count (CBC)",
+        "category": "hematology",
+        "normalRange": {
+          "wbc": "4.0-11.0 x10^9/L",
+          "hb": "13.0-17.0 g/dL (M), 12.0-15.0 g/dL (F)",
+          "plt": "150-400 x10^9/L"
+        },
+        "unit": "various",
+        "turnaroundTime": 20,
+        "cost": "low",
+        "interpretation": {
+          "wbc_high": "Leukocytosis - infection, inflammation, stress, steroids, leukemia",
+          "wbc_low": "Leukopenia - viral infection, sepsis, bone marrow suppression, autoimmune",
+          "hb_low": "Anemia - acute blood loss, chronic disease, iron deficiency, hemolysis",
+          "hb_high": "Polycythemia - COPD, high altitude, polycythemia vera, dehydration",
+          "plt_low": "Thrombocytopenia - ITP, DIC, HIT, bone marrow failure, drugs, sepsis",
+          "plt_high": "Thrombocytosis - reactive (infection, inflammation, iron deficiency), myeloproliferative",
+          "sepsis_typical": "WBC 15-25 or <4, Hb normal or low if chronic, Plt 100-150 (early) or <50 (DIC)",
+          "mi_typical": "WBC 10-15 (stress response), Hb normal, Plt normal"
+        }
+      },
+      {
+        "id": "coagulation",
+        "name": "Coagulation Profile (PT, PTT, INR)",
+        "category": "hematology",
+        "normalRange": {
+          "pt": "11-13.5 seconds",
+          "ptt": "25-35 seconds",
+          "inr": "0.9-1.1"
+        },
+        "unit": "various",
+        "turnaroundTime": 30,
+        "cost": "low",
+        "interpretation": {
+          "inr_high": "Prolonged PT/INR - warfarin effect, liver disease, vitamin K deficiency, DIC",
+          "ptt_high": "Prolonged PTT - heparin effect, lupus anticoagulant, factor deficiency",
+          "both_high": "Prolonged PT and PTT - DIC, severe liver disease, massive transfusion",
+          "dic": "PT>15, PTT>45, INR>1.5, Plt<100, D-dimer elevated, Fibrinogen low",
+          "on_heparin": "PTT 60-90 (therapeutic), >100 (supratherapeutic)"
+        }
+      }
+    ],
+
+    "chemistry": [
+      {
+        "id": "electrolytes",
+        "name": "Electrolytes (Na, K, Cl, HCO3)",
+        "category": "chemistry",
+        "normalRange": {
+          "na": "135-145 mmol/L",
+          "k": "3.5-5.0 mmol/L",
+          "cl": "98-106 mmol/L",
+          "hco3": "22-28 mmol/L"
+        },
+        "unit": "mmol/L",
+        "turnaroundTime": 20,
+        "cost": "low",
+        "interpretation": {
+          "k_high": ">5.0 Hyperkalemia - renal failure, medications (ACEi/ARB/spironolactone), tissue breakdown, acidosis, pseudohyperkalemia",
+          "k_low": "<3.5 Hypokalemia - diuretics, vomiting/diarrhea, insulin, alkalosis, Cushing's",
+          "k_critical_high": ">6.5 - CARDIAC ARREST RISK - immediate ECG and treatment (calcium gluconate, insulin+glucose, bicarb, dialysis)",
+          "k_critical_low": "<2.5 - Arrhythmia risk - urgent replacement",
+          "na_high": ">145 Hypernatremia - dehydration, diabetes insipidus, hypertonic fluids",
+          "na_low": "<135 Hyponatremia - SIADH, diuretics, heart failure, cirrhosis, polydipsia",
+          "na_critical": "<120 - Seizure risk - slow correction needed (max 8-10 mmol/day)"
+        }
+      },
+      {
+        "id": "renal",
+        "name": "Renal Function (BUN, Creatinine)",
+        "category": "chemistry",
+        "normalRange": {
+          "bun": "7-20 mg/dL",
+          "cr": "0.6-1.2 mg/dL (M), 0.5-1.1 mg/dL (F)",
+          "gfr": ">90 mL/min"
+        },
+        "unit": "various",
+        "turnaroundTime": 20,
+        "cost": "low",
+        "interpretation": {
+          "aki_stage1": "Cr increase 1.5-1.9x baseline OR >0.3 mg/dL increase",
+          "aki_stage2": "Cr increase 2.0-2.9x baseline",
+          "aki_stage3": "Cr increase 3.0x baseline OR Cr >4.0 OR on RRT",
+          "bun_cr_ratio": ">20:1 suggests pre-renal AKI (dehydration, HF). <10:1 suggests intrinsic renal disease.",
+          "normal_gfr": ">90 - Normal kidney function",
+          "ckd_stage3": "GFR 30-59 - Moderate CKD",
+          "ckd_stage4": "GFR 15-29 - Severe CKD",
+          "ckd_stage5": "GFR <15 - Kidney failure"
+        }
+      },
+      {
+        "id": "liver",
+        "name": "Liver Function Tests (ALT, AST, ALP, Bilirubin, Albumin)",
+        "category": "chemistry",
+        "normalRange": {
+          "alt": "7-56 U/L",
+          "ast": "10-40 U/L",
+          "alp": "44-147 U/L",
+          "tbil": "0.1-1.2 mg/dL",
+          "alb": "3.5-5.0 g/dL"
+        },
+        "unit": "various",
+        "turnaroundTime": 25,
+        "cost": "low",
+        "interpretation": {
+          "hepatocellular": "ALT/AST >1000 - viral hepatitis, acetaminophen toxicity, ischemic hepatitis",
+          "cholestatic": "ALP >300, GGT elevated - biliary obstruction, cholangitis",
+          "cirrhosis": "Low albumin, prolonged PT, normal/mild ALT/AST elevation, low platelets",
+          "alt_ast_ratio": "AST:ALT >2:1 suggests alcoholic liver disease",
+          "bilirubin_high": ">2.0 Jaundice - pre-hepatic (hemolysis), hepatic (liver disease), post-hepatic (obstruction)"
+        }
+      },
+      {
+        "id": "glucose",
+        "name": "Blood Glucose",
+        "category": "chemistry",
+        "normalRange": "70-100 mg/dL (fasting), <140 mg/dL (random)",
+        "unit": "mg/dL",
+        "turnaroundTime": 5,
+        "cost": "very_low",
+        "criticalValue": "<50 mg/dL or >400 mg/dL",
+        "interpretation": {
+          "hypoglycemia": "<70 mg/dL - give glucose immediately",
+          "severe_hypoglycemia": "<50 mg/dL - neuroglycopenic symptoms, D50 or glucagon",
+          "hyperglycemia": ">200 mg/dL random - diabetes, stress, steroids",
+          "dka": "250-800 mg/dL - associated with anion gap acidosis, ketones positive",
+          "hss": ">600 mg/dL - hyperosmolar state, severe dehydration, no ketones"
+        }
+      },
+      {
+        "id": "crp",
+        "name": "C-Reactive Protein (CRP)",
+        "category": "chemistry",
+        "normalRange": "<5 mg/L",
+        "unit": "mg/L",
+        "turnaroundTime": 25,
+        "cost": "low",
+        "interpretation": {
+          "<5": "Normal - acute inflammation unlikely",
+          "5-40": "Mildly elevated - viral infection, mild inflammation",
+          "40-200": "Moderately elevated - bacterial infection, active inflammation, pericarditis",
+          ">200": "Severely elevated - severe bacterial infection, sepsis, active autoimmune disease"
+        }
+      },
+      {
+        "id": "procalcitonin",
+        "name": "Procalcitonin (PCT)",
+        "category": "chemistry",
+        "normalRange": "<0.05 ng/mL",
+        "unit": "ng/mL",
+        "turnaroundTime": 30,
+        "cost": "medium",
+        "interpretation": {
+          "<0.05": "Normal - bacterial infection unlikely",
+          "0.05-0.5": "Mild elevation - possible localized infection, viral with bacterial superinfection",
+          "0.5-2.0": "Moderate elevation - bacterial infection likely, start antibiotics",
+          ">2.0": "High - severe bacterial sepsis, continue antibiotics",
+          ">10.0": "Very high - severe septic shock, high mortality risk"
+        }
+      },
+      {
+        "id": "lactate",
+        "name": "Serum Lactate",
+        "category": "chemistry",
+        "normalRange": "<2.0 mmol/L",
+        "unit": "mmol/L",
+        "turnaroundTime": 15,
+        "cost": "low",
+        "criticalValue": ">4.0 mmol/L",
+        "interpretation": {
+          "<2.0": "Normal tissue perfusion",
+          "2.0-4.0": "Mildly elevated - monitor, may indicate early hypoperfusion",
+          ">4.0": "Significantly elevated - tissue hypoperfusion, sepsis, shock. MORTALITY RISK",
+          "sepsis": "Lactate >2.0 with infection = Sepsis (Sepsis-3). Lactate >4.0 = septic shock if hypotensive.",
+          "metformin": "Lactate >5.0 in patient on metformin - consider metformin-associated lactic acidosis (MALA)",
+          "ischemic_bowel": "Lactate >4.0 + abdominal pain + acidosis = mesenteric ischemia until proven otherwise"
+        }
+      }
+    ],
+
+    "abg": [
+      {
+        "id": "abg",
+        "name": "Arterial Blood Gas (ABG)",
+        "category": "abg",
+        "normalRange": {
+          "ph": "7.35-7.45",
+          "pco2": "35-45 mmHg",
+          "po2": "80-100 mmHg",
+          "hco3": "22-26 mmol/L",
+          "base_excess": "-2 to +2",
+          "lactate": "<2.0 mmol/L",
+          "sao2": "95-100%"
+        },
+        "unit": "various",
+        "turnaroundTime": 10,
+        "cost": "low",
+        "interpretation": {
+          "respiratory_acidosis": "pH <7.35, pCO2 >45 - COPD, respiratory depression, neuromuscular weakness",
+          "respiratory_alkalosis": "pH >7.45, pCO2 <35 - hyperventilation, anxiety, pain, early sepsis",
+          "metabolic_acidosis": "pH <7.35, HCO3 <22 - check anion gap (Na - Cl - HCO3)",
+          "high_anion_gap": ">12 - MUDPILES: Methanol, Uremia, DKA, Paraldehyde, Iron/INH, Lactic acidosis, Ethylene glycol, Salicylates",
+          "normal_anion_gap": "<12 - HARDUPS: Hyperalimentation, Acetazolamide, RTA, Diarrhea, Ureteral diversion, Pancreatic fistula, Saline",
+          "metabolic_alkalosis": "pH >7.45, HCO3 >26 - vomiting, diuretics, volume contraction, hypokalemia",
+          "compensation_winters": "Expected pCO2 = 1.5(HCO3) + 8 ± 2 in metabolic acidosis",
+          "pe_massive": "pH 7.30-7.35, pCO2 30-35 (tachypnea), pO2 50-60, HCO3 16-18, Lactate 3-5",
+          "hf_severe": "pH 7.30-7.35, pCO2 48-55, pO2 55-65, HCO3 24-26",
+          "copd_acute": "pH 7.28-7.32, pCO2 65-80, pO2 50-60, HCO3 30-35 (compensated chronically)"
+        }
+      }
+    ],
+
+    "cardiac_enzymes_trend": {
+      "description": "Expected troponin trends for different conditions",
+      "normal": "T0: <0.04, T1h: <0.04, T3h: <0.04",
+      "stemi": "T0: 0.1-0.5, T1h: 5-15, T3h: 20-50+ (rapid rise and peak)",
+      "nstemi": "T0: 0.08-0.5, T1h: 0.5-5, T3h: 2-15 (gradual rise)",
+      "pe_with_strain": "T0: 0.2-2.0, T1h: 0.5-3.0, T3h: 1.0-5.0 (mild-moderate, plateau)",
+      "hf_chronic": "T0: 0.05-0.3, T1h: 0.05-0.35, T3h: 0.05-0.3 (stable low-level)",
+      "pericarditis": "T0: 0.5-2.0, T1h: 0.8-3.0, T3h: 1.0-5.0 (moderate, myopericardial)"
+    },
+
+    "cost_tiers": {
+      "very_low": {"xpPenalty": 0, "description": "Basic test, no penalty"},
+      "low": {"xpPenalty": 2, "description": "Routine test"},
+      "medium": {"xpPenalty": 5, "description": "Specialized test"},
+      "high": {"xpPenalty": 10, "description": "Expensive test, use judiciously"},
+      "very_high": {"xpPenalty": 20, "description": "Very expensive, requires justification"}
+    }
+  }
+}

@@ -1,0 +1,595 @@
+{
+  "module": "resident-life",
+  "category": "respiratory",
+  "version": "1.0",
+  "description": "Respiratory emergency cases for Resident Life simulator - real clinical scenarios with real lab/imaging results",
+  "patients": [
+    {
+      "id": "resp_001",
+      "name": "Mr. Youssef",
+      "age": 68,
+      "gender": "male",
+      "complaint": "Severe dyspnea for 2 hours, unable to speak in full sentences. Known COPD, on home O2 2L. Productive cough with green sputum for 3 days.",
+      "triageNote": "68M, severe respiratory distress, speaking 2-3 words, accessory muscle use, SpO2 82% on home O2, febrile 38.8°C",
+      "correctTriage": 1,
+      "correctDiagnosis": "Acute COPD Exacerbation with Acute-on-Chronic Hypercapnic Respiratory Failure",
+      "differentialDiagnoses": [
+        "Pneumonia",
+        "Acute Pulmonary Edema (Heart Failure)",
+        "Massive Pulmonary Embolism",
+        "Pneumothorax"
+      ],
+      "possibleActions": [
+        {
+          "id": "abg",
+          "name": "Arterial Blood Gas",
+          "category": "lab",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "pH 7.22, pCO2 82, pO2 48, HCO3 35, Lactate 2.8, SaO2 80%",
+            "interpretation": "Severe acute-on-chronic respiratory acidosis (pH <7.25 = NIV indicated). Chronic compensation (HCO3 35) suggests chronic CO2 retention. Severe hypoxemia.",
+            "normalRange": "pH 7.35-7.45, pCO2 35-45, pO2 80-100"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Hyperinflated lungs with flattened diaphragms. Increased AP diameter. No focal consolidation. No pneumothorax. No pulmonary edema. Cardiomegaly absent.",
+            "interpretation": "COPD changes without pneumonia, heart failure, or pneumothorax",
+            "imageRef": "cxr_copd_hyperinflation"
+          }
+        },
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "Sinus tachycardia 118. Right axis deviation. P-pulmonale (peaked P in II >2.5mm). Right ventricular hypertrophy. No acute ST changes.",
+            "interpretation": "Right heart strain from chronic pulmonary hypertension (cor pulmonale). No acute MI.",
+            "imageRef": "ecg_cor_pulmonale"
+          }
+        },
+        {
+          "id": "cbc",
+          "name": "CBC with Differential",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": false,
+          "result": {
+            "finding": "WBC 18.2, Neutrophils 88%, Hb 16.8, Hct 52%, Plt 320",
+            "interpretation": "Leukocytosis with neutrophil predominance suggests bacterial infection. Polycythemia from chronic hypoxemia (Hb 16.8, Hct 52%).",
+            "normalRange": "WBC 4-11, Hb 13-17, Hct 40-50%"
+          }
+        },
+        {
+          "id": "crp",
+          "name": "CRP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CRP: 145 mg/L",
+            "interpretation": "Markedly elevated - supports bacterial infection triggering exacerbation",
+            "normalRange": "<5 mg/L"
+          }
+        },
+        {
+          "id": "sputum_culture",
+          "name": "Sputum Culture & Gram Stain",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 60,
+          "isEssential": false,
+          "result": {
+            "finding": "Gram stain: Many WBCs, Gram-negative rods. Culture pending 48-72h.",
+            "interpretation": "Likely Haemophilus influenzae or Moraxella catarrhalis - common COPD pathogens"
+          }
+        },
+        {
+          "id": "niv",
+          "name": "Non-Invasive Ventilation (BiPAP)",
+          "category": "treatment",
+          "timeCost": 15,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "BiPAP initiated: IPAP 16/EPAP 6, FiO2 0.5. After 30 min: pH 7.31, pCO2 68, SpO2 93%. Work of breathing significantly decreased.",
+            "interpretation": "Good response to NIV. pH improving. CO2 clearing. Avoids intubation."
+          }
+        },
+        {
+          "id": "bronchodilators",
+          "name": "Nebulized Bronchodilators (Salbutamol + Ipratropium)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Wheezing decreased. Peak flow improved from 80 to 140 L/min.",
+            "interpretation": "Bronchodilator responsive component to exacerbation"
+          }
+        },
+        {
+          "id": "steroids",
+          "name": "IV Methylprednisolone 125mg",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 60,
+          "isEssential": true,
+          "result": {
+            "finding": "Systemic corticosteroid administered. Peak effect 4-6 hours. Reduces inflammation and speeds recovery.",
+            "interpretation": "Steroids reduce treatment failure by 50% in COPD exacerbation (REDUCE trial)"
+          }
+        },
+        {
+          "id": "antibiotics",
+          "name": "IV Antibiotics (Ceftriaxone + Azithromycin)",
+          "category": "treatment",
+          "timeCost": 8,
+          "resultTime": 120,
+          "isEssential": true,
+          "result": {
+            "finding": "Antibiotics initiated for purulent sputum + increased dyspnea + increased sputum volume (Anthonisen criteria: 3/3 = antibiotics indicated)",
+            "interpretation": "Targets common COPD pathogens: H. influenzae, M. catarrhalis, S. pneumoniae"
+          }
+        },
+        {
+          "id": "intubation",
+          "name": "Endotracheal Intubation",
+          "category": "treatment",
+          "timeCost": 20,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: Intubation reserved for NIV failure. Mortality 30-50% in intubated COPD patients.",
+            "interpretation": "Only intubate if: pH <7.25 despite NIV, GCS <8, respiratory arrest, or inability to tolerate NIV"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["abg", "cxr", "niv", "bronchodilators", "steroids", "antibiotics"],
+        "acceptable": ["abg", "cxr", "niv", "bronchodilators", "steroids"],
+        "wrongActions": ["intubation"],
+        "wrongActionsConsequence": "Early intubation in COPD carries high mortality. NIV is first-line for pH >7.25.",
+        "criticalErrors": [
+          {
+            "action": "intubation",
+            "beforeActions": ["niv"],
+            "consequence": "Intubating without NIV trial in COPD with pH >7.25 is inappropriate. NIV success rate 80-85%. Intubation mortality 30-50%."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 15,
+          "stages": [
+            {"time": 5, "event": "pH dropping below 7.20. Severe hypercapnia. GCS declining."},
+            {"time": 10, "event": "CO2 narcosis. Patient obtunded. Impending respiratory arrest."},
+            {"time": 15, "event": "Respiratory arrest. Cardiac arrest if not intubated immediately."}
+          ]
+        },
+        "withNIVonly": {
+          "timer": 45,
+          "stages": [
+            {"time": 15, "event": "NIV working partially. pH 7.28. Still tachypneic."},
+            {"time": 30, "event": "Gradual improvement. Needs bronchodilators and steroids."},
+            {"time": 45, "event": "Slow recovery. Antibiotics indicated for purulent sputum."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "Good response. pH 7.31. SpO2 93% on BiPAP."},
+            {"time": 60, "event": "Improving. Considering transition to nasal cannula."},
+            {"time": 120, "event": "Stable on 2L NC. pH 7.36. Admission to respiratory ward."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was heart failure: Hyperinflated lungs + no crackles + no cardiomegaly = COPD, not HF. BNP may be mildly elevated in cor pulmonale.",
+        "keyTeaching": "NIV reduces intubation by 50% and mortality by 40% in COPD exacerbation. Indications: pH <7.35, pCO2 >45. Contraindications: GCS <8, respiratory arrest, unable to protect airway.",
+        "guideline": "GOLD Guidelines 2023: Bronchodilators + systemic corticosteroids + antibiotics (if 3 Anthonisen criteria met) + NIV for acute hypercapnic respiratory failure."
+      },
+      "difficulty": "intermediate",
+      "xpReward": 250,
+      "reputationImpact": {
+        "correctDiagnosis": 30,
+        "correctTreatment": 50,
+        "usedNIV": 40,
+        "unnecessaryIntubation": -60,
+        "missedDiagnosis": -40,
+        "patientDeath": -100
+      }
+    },
+    {
+      "id": "resp_002",
+      "name": "Mrs. Amal",
+      "age": 34,
+      "gender": "female",
+      "complaint": "Sudden onset severe left-sided pleuritic chest pain and acute dyspnea while running. Tall, thin build. No prior medical history. Non-smoker.",
+      "triageNote": "34F, acute pleuritic pain + dyspnea, tall thin female, SpO2 91% on RA, HR 118, RR 28",
+      "correctTriage": 1,
+      "correctDiagnosis": "Primary Spontaneous Pneumothorax (Left-Sided)",
+      "differentialDiagnoses": [
+        "Pulmonary Embolism",
+        "Acute Asthma Exacerbation",
+        "Musculoskeletal Chest Pain",
+        "Acute Pericarditis"
+      ],
+      "possibleActions": [
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray (Inspiratory)",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Large left-sided pneumothorax (approximately 60%). Visible pleural line. No mediastinal shift. Lung markings absent in left hemithorax. Right lung normal.",
+            "interpretation": "Large primary spontaneous pneumothorax without tension physiology. No mediastinal shift = no tension pneumothorax.",
+            "imageRef": "cxr_left_pneumothorax"
+          }
+        },
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "Sinus tachycardia 118. Normal axis. No ST changes. No S1Q3T3 pattern. No right heart strain.",
+            "interpretation": "No evidence of PE or cardiac ischemia",
+            "imageRef": "ecg_normal_sinus_tachycardia"
+          }
+        },
+        {
+          "id": "abg",
+          "name": "Arterial Blood Gas",
+          "category": "lab",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": false,
+          "result": {
+            "finding": "pH 7.42, pCO2 34, pO2 68, HCO3 23, SaO2 91%",
+            "interpretation": "Mild hypoxemia. No hypercapnia. Normal acid-base.",
+            "normalRange": "pH 7.35-7.45, pO2 80-100"
+          }
+        },
+        {
+          "id": "ultrasound_lung",
+          "name": "Lung Ultrasound (Bedside)",
+          "category": "imaging",
+          "timeCost": 8,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "Absent lung sliding on left anterior chest. Barcode/stratosphere sign on M-mode. Lung point identified laterally. Right lung normal sliding.",
+            "interpretation": "Ultrasound confirms pneumothorax with high sensitivity (95%). Lung point sign = 100% specific.",
+            "imageRef": "us_pneumothorax"
+          }
+        },
+        {
+          "id": "needle_decompression",
+          "name": "Needle Decompression (14G, 2nd ICS, Midclavicular Line)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: Needle decompression indicated ONLY for tension pneumothorax. This patient has NO tension (no mediastinal shift, no hypotension, no tracheal deviation).",
+            "interpretation": "Unnecessary needle decompression causes iatrogenic injury and converts simple pneumothorax to open pneumothorax"
+          }
+        },
+        {
+          "id": "chest_tube",
+          "name": "Chest Tube Insertion (Large-Bore, 5th ICS, Anterior Axillary Line)",
+          "category": "treatment",
+          "timeCost": 25,
+          "resultTime": 30,
+          "isEssential": false,
+          "result": {
+            "finding": "Large-bore chest tube placed. Lung re-expanded. Air leak present. Underwater seal drainage functioning.",
+            "interpretation": "Large-bore chest tube is definitive treatment for large pneumothorax. However, for primary spontaneous pneumothorax, small-bore catheter or pigtail may suffice."
+          }
+        },
+        {
+          "id": "pigtail_catheter",
+          "name": "Small-Bore Pigtail Catheter (10-14Fr) + Heimlich Valve",
+          "category": "treatment",
+          "timeCost": 15,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Pigtail catheter placed under local anesthesia. Lung fully re-expanded within 30 minutes. Minimal discomfort. Heimlich valve allows ambulation.",
+            "interpretation": "Small-bore catheter is first-line for primary spontaneous pneumothorax. Less painful, equally effective. Allows outpatient management."
+          }
+        },
+        {
+          "id": "observation",
+          "name": "Observation with High-Flow O2",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 240,
+          "isEssential": false,
+          "result": {
+            "finding": "High-flow O2 15L via non-rebreather. Nitrogen washout accelerates pleural air absorption (rate: 1.25% lung volume per day on O2 vs 0.25% on room air).",
+            "interpretation": "Observation acceptable ONLY for small pneumothorax (<2cm or <15% lung volume) in stable patient"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["cxr", "pigtail_catheter"],
+        "acceptable": ["cxr", "ultrasound_lung", "pigtail_catheter"],
+        "alternativeForSmallPTX": ["cxr", "observation"],
+        "wrongActions": ["needle_decompression"],
+        "wrongActionsConsequence": "Needle decompression in non-tension pneumothorax causes unnecessary harm",
+        "criticalErrors": [
+          {
+            "action": "needle_decompression",
+            "consequence": "Needle decompression is ONLY for tension pneumothorax (hypotension + tracheal deviation + absent breath sounds). This patient has NO tension signs. Iatrogenic open pneumothorax created."
+          },
+          {
+            "action": "observation",
+            "whenSizeIsLarge": "Observation for large pneumothorax (>2cm) delays definitive treatment. Patient remains symptomatic and at risk for tension."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 60,
+          "stages": [
+            {"time": 15, "event": "Increasing dyspnea. SpO2 dropping to 88%."},
+            {"time": 30, "event": "Pneumothorax enlarging. Beginning mediastinal shift."},
+            {"time": 45, "event": "Developing tension pneumothorax: hypotension, tracheal deviation, distended neck veins."},
+            {"time": 60, "event": "Cardiac arrest from obstructive shock."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 15, "event": "Pigtail catheter placed. Lung re-expanding. Pain resolving."},
+            {"time": 30, "event": "CXR confirms full lung expansion. SpO2 98% on RA."},
+            {"time": 120, "event": "Stable. Can be discharged with Heimlich valve and follow-up in 2-3 days."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was PE: Acute onset pleuritic pain in young thin tall male/female = pneumothorax until proven otherwise. CXR is diagnostic. Lung ultrasound has 95% sensitivity.",
+        "keyTeaching": "Primary spontaneous pneumothorax: Tall thin young patients, no underlying lung disease. Treatment: Small pneumothorax (<2cm) = observation + O2. Large (>2cm) or symptomatic = small-bore catheter/pigtail + Heimlich valve. Large-bore chest tube only if pigtail fails.",
+        "guideline": "BTS Pleural Disease Guideline: Small-bore catheters are first-line for primary spontaneous pneumothorax. Needle aspiration equally effective. Large-bore chest tubes reserved for secondary pneumothorax or trauma."
+      },
+      "difficulty": "beginner",
+      "xpReward": 150,
+      "reputationImpact": {
+        "correctDiagnosis": 25,
+        "correctTreatment": 35,
+        "unnecessaryNeedleDecompression": -50,
+        "missedDiagnosis": -30,
+        "patientDeath": -90
+      }
+    },
+    {
+      "id": "resp_003",
+      "name": "Mr. Tariq",
+      "age": 52,
+      "gender": "male",
+      "complaint": "Fever 39.5°C, productive cough with rusty-colored sputum, right-sided pleuritic chest pain, and rigors for 2 days. Previously healthy. Smoker 20 pack-years.",
+      "triageNote": "52M, febrile 39.5°C, HR 112, BP 100/65, RR 30, SpO2 89% on RA, crackles right lower zone",
+      "correctTriage": 2,
+      "correctDiagnosis": "Severe Community-Acquired Pneumonia (Right Lower Lobe), CURB-65 = 2 (Confusion: 0, Urea: pending, RR ≥30: 1, BP <90/60: 0, Age ≥65: 0) = Consider admission",
+      "differentialDiagnoses": [
+        "Acute Bronchitis",
+        "Pulmonary Embolism with Infarction",
+        "Tuberculosis",
+        "Lung Abscess"
+      ],
+      "possibleActions": [
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Right lower lobe dense consolidation with air bronchograms. No pleural effusion. No cavitation. Left lung clear. Cardiac size normal.",
+            "interpretation": "Classic lobar pneumonia - right lower lobe consolidation. Air bronchograms confirm alveolar filling.",
+            "imageRef": "cxr_rll_pneumonia"
+          }
+        },
+        {
+          "id": "abg",
+          "name": "Arterial Blood Gas",
+          "category": "lab",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "pH 7.44, pCO2 32, pO2 58, HCO3 22, Lactate 3.2, SaO2 89%",
+            "interpretation": "Type 1 respiratory failure (hypoxemic). Respiratory alkalosis from tachypnea (pCO2 32). Elevated lactate suggests early sepsis.",
+            "normalRange": "pH 7.35-7.45, pO2 80-100, Lactate <2.0"
+          }
+        },
+        {
+          "id": "cbc",
+          "name": "CBC with Differential",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 22.4, Neutrophils 92% with left shift and toxic granulation, Bands 12%, Hb 14.2, Plt 180",
+            "interpretation": "Marked leukocytosis with severe left shift (bands 12%) and toxic granulation = severe bacterial infection. Sepsis physiology.",
+            "normalRange": "WBC 4-11, Bands <5%"
+          }
+        },
+        {
+          "id": "crp_pct",
+          "name": "CRP + Procalcitonin",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CRP: 285 mg/L, Procalcitonin: 12.5 ng/mL",
+            "interpretation": "CRP >200 = severe inflammation. PCT >2.0 = bacterial infection confirmed. PCT >10 = high risk of severe sepsis/septic shock.",
+            "normalRange": "CRP <5 mg/L, PCT <0.05 ng/mL"
+          }
+        },
+        {
+          "id": "blood_cultures",
+          "name": "Blood Cultures x2 (Before Antibiotics)",
+          "category": "lab",
+          "timeCost": 8,
+          "resultTime": 720,
+          "isEssential": true,
+          "result": {
+            "finding": "Cultures drawn pre-antibiotics. Preliminary report in 24h: Gram-positive cocci in pairs. Final: Streptococcus pneumoniae, penicillin-sensitive.",
+            "interpretation": "Streptococcus pneumoniae = most common cause of community-acquired pneumonia"
+          }
+        },
+        {
+          "id": "sputum_gram",
+          "name": "Sputum Gram Stain & Culture",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 60,
+          "isEssential": false,
+          "result": {
+            "finding": "Good quality specimen (>25 WBC, <10 epithelial cells/LPF). Gram-positive diplococci. Culture pending.",
+            "interpretation": "Good sputum quality. Gram-positive diplococci = likely Streptococcus pneumoniae"
+          }
+        },
+        {
+          "id": "legionella_urine",
+          "name": "Urinary Antigen: Legionella + Pneumococcal",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 45,
+          "isEssential": false,
+          "result": {
+            "finding": "Pneumococcal urinary antigen: POSITIVE. Legionella: Negative.",
+            "interpretation": "Confirms Streptococcus pneumoniae as pathogen"
+          }
+        },
+        {
+          "id": "o2_therapy",
+          "name": "Supplemental Oxygen (Target SpO2 94-98%)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 5,
+          "isEssential": true,
+          "result": {
+            "finding": "O2 4L via nasal cannula. SpO2 improved to 95%.",
+            "interpretation": "Hypoxemia corrected. Target SpO2 94-98% for non-COPD patients."
+          }
+        },
+        {
+          "id": "antibiotics_cap",
+          "name": "IV Antibiotics (Ceftriaxone 2g + Azithromycin 500mg)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 120,
+          "isEssential": true,
+          "result": {
+            "finding": "Antibiotics started within 2 hours of arrival (meets SEP-1 measure). Covering typical CAP pathogens (S. pneumo, atypicals, H. influenzae).",
+            "interpretation": "Ceftriaxone + Azithromycin = standard empiric therapy for severe CAP. Time to antibiotics <4 hours reduces mortality."
+          }
+        },
+        {
+          "id": "fluids_sepsis",
+          "name": "IV Crystalloid 30mL/kg (Sepsis Protocol)",
+          "category": "treatment",
+          "timeCost": 15,
+          "resultTime": 60,
+          "isEssential": true,
+          "result": {
+            "finding": "2L Lactated Ringer's bolus initiated. BP improved to 118/72. Lactate clearance pending in 2 hours.",
+            "interpretation": "Fluid resuscitation for severe sepsis. 30mL/kg crystalloid is standard initial bolus. Reassess after."
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["cxr", "abg", "cbc", "blood_cultures", "o2_therapy", "antibiotics_cap", "fluids_sepsis"],
+        "acceptable": ["cxr", "abg", "cbc", "blood_cultures", "o2_therapy", "antibiotics_cap"],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Delay in antibiotics increases mortality by 8% per hour in septic shock",
+        "criticalErrors": [
+          {
+            "action": "delaying_antibiotics",
+            "consequence": "Every hour delay in antibiotics in severe sepsis increases mortality by 7-8%. SEP-1 measure requires antibiotics within 3 hours."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {"time": 10, "event": "Worsening hypoxemia. SpO2 84%. Increasing work of breathing."},
+            {"time": 20, "event": "Developing septic shock: BP 78/45, Lactate 5.8, altered mental status."},
+            {"time": 30, "event": "ARDS developing. Bilateral infiltrates. Refractory hypoxemia."}
+          ]
+        },
+        "withAntibioticsOnly": {
+          "timer": 90,
+          "stages": [
+            {"time": 30, "event": "Antibiotics working but still hypotensive. Needs fluids."},
+            {"time": 60, "event": "Lactate 3.8. BP 95/60. Partial response."},
+            {"time": 90, "event": "Slow improvement. ICU admission for monitoring."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "O2 saturation 95%. BP 115/70. Responding to fluids + antibiotics."},
+            {"time": 60, "event": "Fever down to 38.0°C. Clinical improvement."},
+            {"time": 120, "event": "Stable. Admission to medical ward. Continue IV antibiotics."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was bronchitis: Bronchitis has normal CXR. This CXR shows dense consolidation = pneumonia. Fever 39.5°C + rigors + rusty sputum = classic pneumococcal pneumonia.",
+        "keyTeaching": "CURB-65 score: Confusion (0), Urea >7 (1 if elevated), RR ≥30 (1), BP <90/60 (0), Age ≥65 (0) = Score 2. Score 2 = consider hospital admission. Severe CAP criteria: 1 major (septic shock, need for mechanical ventilation) OR 3 minor (RR ≥30, PaO2/FiO2 <250, multilobar infiltrates, confusion, BUN >20, WBC <4, Plt <100, hypothermia <36°C).",
+        "guideline": "IDSA/ATS CAP Guidelines: Empiric therapy for severe CAP = beta-lactam (ceftriaxone) + macrolide (azithromycin) OR beta-lactam + respiratory fluoroquinolone. Add vancomycin if MRSA risk. Blood cultures BEFORE antibiotics."
+      },
+      "difficulty": "intermediate",
+      "xpReward": 200,
+      "reputationImpact": {
+        "correctDiagnosis": 25,
+        "correctTreatment": 40,
+        "antibioticsBefore3hours": 35,
+        "delayedAntibiotics": -45,
+        "missedDiagnosis": -35,
+        "patientDeath": -90
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 3,
+    "difficultyRange": "beginner to intermediate",
+    "systems": ["Respiratory"],
+    "conceptsTested": [
+      "ABG interpretation (respiratory acidosis vs alkalosis)",
+      "Chest X-Ray interpretation (pneumothorax, consolidation, hyperinflation)",
+      "NIV indications and management",
+      "Pneumothorax diagnosis and management",
+      "Community-acquired pneumonia severity assessment",
+      "Sepsis recognition and management",
+      "Antibiotic timing and selection"
+    ],
+    "lastUpdated": "2026-06-11"
+  }
+}

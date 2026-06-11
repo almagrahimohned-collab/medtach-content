@@ -1,0 +1,553 @@
+{
+  "module": "resident-life",
+  "category": "neurology",
+  "version": "1.0",
+  "description": "Neurological emergencies for Resident Life simulator - stroke, seizures, hemorrhage, spinal cord compression",
+  "patients": [
+    {
+      "id": "neuro_001",
+      "name": "Mr. Mahmoud",
+      "age": 67,
+      "gender": "male",
+      "complaint": "Sudden onset right-sided weakness and inability to speak for 45 minutes. Wife witnessed at 08:15 while eating breakfast. Right face drooping, right arm and leg paralyzed. Global aphasia. BP 185/100, HR 88 irregular. Known atrial fibrillation, not on anticoagulation.",
+      "triageNote": "67M, acute right hemiplegia + aphasia, onset 45 min ago, known AFib not anticoagulated, BP 185/100, NIHSS ~18",
+      "correctTriage": 1,
+      "correctDiagnosis": "Acute Ischemic Stroke - Left MCA Territory (Likely Cardioembolic from Atrial Fibrillation)",
+      "differentialDiagnoses": [
+        "Hemorrhagic Stroke (Intracerebral Hemorrhage)",
+        "Hypoglycemia (Stroke Mimic)",
+        "Complex Migraine",
+        "Post-ictal Todd's Paralysis"
+      ],
+      "possibleActions": [
+        {
+          "id": "glucose_check",
+          "name": "Fingerstick Blood Glucose",
+          "category": "lab",
+          "timeCost": 2,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Blood glucose: 132 mg/dL",
+            "interpretation": "Normal - hypoglycemia excluded as stroke mimic. Hyperglycemia >180 would be poor prognostic factor.",
+            "normalRange": "70-140 mg/dL random"
+          }
+        },
+        {
+          "id": "ct_head_noncontrast",
+          "name": "CT Head Non-Contrast (STAT)",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "No acute hemorrhage. No mass effect. Hyperdense left MCA sign (dot sign) in Sylvian fissure. Loss of gray-white differentiation in left insular cortex. ASPECTS score: 8/10 (early ischemic changes in lentiform nucleus and insula).",
+            "interpretation": "Acute left MCA ischemic stroke. ASPECTS >7 = favorable for thrombolysis. Hyperdense MCA sign = thrombus in M1 segment. No hemorrhage = tPA candidate.",
+            "imageRef": "ct_head_hyperdense_mca"
+          }
+        },
+        {
+          "id": "ct_angio_head_neck",
+          "name": "CT Angiography Head & Neck",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 20,
+          "isEssential": false,
+          "result": {
+            "finding": "Left M1 segment occlusion (proximal MCA). Good collateral circulation via leptomeningeal vessels. Right ICA and MCA patent. No carotid stenosis. No aortic arch disease.",
+            "interpretation": "Large vessel occlusion (LVO) confirmed. Proximal M1 occlusion. Good collaterals = favorable for mechanical thrombectomy. tPA alone may not be sufficient for LVO.",
+            "imageRef": "cta_left_mca_occlusion"
+          }
+        },
+        {
+          "id": "ct_perfusion",
+          "name": "CT Perfusion (if available)",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "Core infarct: 15mL. Penumbra (tissue at risk): 85mL. Mismatch ratio: 6.7:1. Mismatch volume: 70mL.",
+            "interpretation": "Large penumbra with small core = ideal for mechanical thrombectomy up to 24 hours (DAWN/DEFUSE-3 criteria). Patient within 4.5h window for tPA."
+          }
+        },
+        {
+          "id": "ecg_stroke",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Atrial fibrillation with rapid ventricular response 88-110. No ST changes. No LVH. Old non-specific T wave changes.",
+            "interpretation": "AFib confirmed = likely cardioembolic source. No concurrent MI.",
+            "imageRef": "ecg_atrial_fibrillation"
+          }
+        },
+        {
+          "id": "cbc_inr_ptt",
+          "name": "CBC, INR, PTT",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 8.2, Hb 14.5, Plt 245, INR 1.1, PTT 32",
+            "interpretation": "Normal labs. No coagulopathy. Platelets adequate = tPA safe to administer.",
+            "normalRange": "INR <1.7, Plt >100,000 for tPA"
+          }
+        },
+        {
+          "id": "tpa",
+          "name": "IV Alteplase (tPA) 0.9mg/kg",
+          "category": "treatment",
+          "timeCost": 15,
+          "resultTime": 60,
+          "isEssential": true,
+          "result": {
+            "finding": "tPA bolus (10%) + infusion (90%) started at 09:05. Door-to-needle time: 50 minutes (target <60 min). Total dose: 67.5mg (patient weight 75kg). BP controlled to 175/95 with labetalol before tPA.",
+            "interpretation": "tPA within 4.5 hours of symptom onset (onset 08:15, tPA 09:05 = 50 min). NINDS trial: 30% more likely to have minimal/no disability at 3 months. sICH risk: 6.4%.",
+            "imageRef": null
+          }
+        },
+        {
+          "id": "thrombectomy",
+          "name": "Mechanical Thrombectomy (Neuro-IR)",
+          "category": "treatment",
+          "timeCost": 30,
+          "resultTime": 90,
+          "isEssential": true,
+          "result": {
+            "finding": "Thrombectomy performed via right femoral access. Left M1 thrombus retrieved with stent retriever (TICI 3 reperfusion). Onset-to-reperfusion: 180 minutes. Post-procedure: NIHSS improved from 18 to 6.",
+            "interpretation": "Combined tPA + thrombectomy = best outcome for LVO. TICI 3 = complete reperfusion. DAWN trial: Thrombectomy up to 24h in selected patients.",
+            "imageRef": "angio_mca_recanalization"
+          }
+        },
+        {
+          "id": "bp_management_stroke",
+          "name": "Blood Pressure Management (Permissive Hypertension)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Pre-tPA: BP lowered to 175/95 with IV labetalol 10mg. Post-tPA: BP maintained <180/105 for 24 hours. Permissive hypertension allowed (up to 220/120 if no tPA).",
+            "interpretation": "Aggressive BP lowering in acute stroke reduces cerebral perfusion. Pre-tPA target <185/110. Post-tPA target <180/105. Without tPA: only treat if >220/120."
+          }
+        },
+        {
+          "id": "anticoagulation_stroke",
+          "name": "Start Anticoagulation (Timing Post-tPA)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: Anticoagulation contraindicated within 24 hours of tPA administration. Delay DOAC/warfarin for 24h and until repeat CT confirms no hemorrhage.",
+            "interpretation": "Starting anticoagulation immediately after tPA increases hemorrhagic transformation risk. Wait 24h + repeat CT."
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["glucose_check", "ct_head_noncontrast", "ecg_stroke", "cbc_inr_ptt", "bp_management_stroke", "tpa", "thrombectomy"],
+        "acceptable": ["glucose_check", "ct_head_noncontrast", "ecg_stroke", "cbc_inr_ptt", "bp_management_stroke", "tpa"],
+        "postTpaDoNotGive": ["anticoagulation_stroke"],
+        "wrongActions": ["anticoagulation_stroke"],
+        "wrongActionsConsequence": "Anticoagulation within 24h of tPA = high risk of symptomatic intracranial hemorrhage",
+        "criticalErrors": [
+          {
+            "action": "anticoagulation_stroke",
+            "within24hoursOfTPA": "Absolute contraindication. Wait 24 hours + repeat CT negative for hemorrhage. Then start DOAC (apixaban 5mg BID) for AFib stroke prevention."
+          },
+          {
+            "action": "aggressive_bp_lowering",
+            "consequence": "Rapid BP drop >15% in first 24h worsens penumbra perfusion and increases infarct size. Maintain BP 140-180 systolic."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 15, "event": "NIHSS worsening. Right side completely plegic. GCS dropping."},
+            {"time": 45, "event": "Malignant MCA infarction. Midline shift developing."},
+            {"time": 90, "event": "Cerebral herniation. Coma. Unequal pupils."},
+            {"time": 120, "event": "Brain death from herniation."}
+          ]
+        },
+        "withTpaOnly": {
+          "timer": 180,
+          "stages": [
+            {"time": 30, "event": "tPA working. NIHSS improving 18 → 12."},
+            {"time": 60, "event": "Partial recanalization. But LVO may not fully open with tPA alone (only 30% recanalization rate for proximal MCA)."},
+            {"time": 120, "event": "Residual deficit. NIHSS 8. Moderate disability likely."}
+          ]
+        },
+        "withTpaAndThrombectomy": {
+          "timer": 180,
+          "stages": [
+            {"time": 45, "event": "Post-thrombectomy. TICI 3 flow. NIHSS 18 → 6."},
+            {"time": 90, "event": "NIHSS 4. Moving right side. Starting to speak."},
+            {"time": 180, "event": "NIHSS 2. Minimal deficit. Transfer to stroke unit. Excellent prognosis."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was hemorrhagic stroke: CT head non-contrast is mandatory and diagnostic. Hyperdense MCA sign = thrombus, not hemorrhage. Hemorrhage appears bright white on CT immediately.",
+        "keyTeaching": "Door-to-needle time <60 min, door-to-puncture <90 min. tPA window: 4.5h from last known well. Thrombectomy window: 24h in selected patients (DAWN/DEFUSE-3 criteria). For AFib patients, check CHA2DS2-VASc score for long-term anticoagulation.",
+        "guideline": "AHA/ASA Acute Stroke Guidelines: Non-contrast CT head STAT. If no hemorrhage and within 4.5h → tPA (0.9mg/kg, max 90mg). If LVO (ICA, M1, basilar) → mechanical thrombectomy. Permissive hypertension unless >220/120 or >185/110 if tPA candidate. No anticoagulation/antiplatelet for 24h post-tPA."
+      },
+      "difficulty": "intermediate",
+      "xpReward": 300,
+      "reputationImpact": {
+        "correctDiagnosis": 50,
+        "correctTreatment": 80,
+        "doorToNeedleUnder60": 60,
+        "combinedTpaThrombectomy": 70,
+        "gaveAnticoagulationEarly": -80,
+        "delayedTreatment": -60,
+        "missedDiagnosis": -50,
+        "patientDeath": -150
+      }
+    },
+    {
+      "id": "neuro_002",
+      "name": "Child Ali",
+      "age": 7,
+      "gender": "male",
+      "complaint": "Active seizure for 8 minutes. Generalized tonic-clonic movements. Eyes rolled back. Foaming at mouth. Post-ictal confusion expected. First seizure. Mother reports fever 38.9°C for 2 days with runny nose.",
+      "triageNote": "7M, active seizure ×8min, febrile 38.9°C, ?febrile seizure vs status epilepticus, HR 140, SpO2 96% on facemask O2",
+      "correctTriage": 1,
+      "correctDiagnosis": "Status Epilepticus (Complex Febrile Seizure >5 minutes)",
+      "differentialDiagnoses": [
+        "Meningitis/Encephalitis",
+        "Intracranial Mass/Lesion",
+        "Electrolyte Abnormality (Hyponatremia, Hypocalcemia)",
+        "Toxin/Ingestion"
+      ],
+      "possibleActions": [
+        {
+          "id": "glucose_check_peds",
+          "name": "Fingerstick Blood Glucose",
+          "category": "lab",
+          "timeCost": 2,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Blood glucose: 118 mg/dL",
+            "interpretation": "Normal for age. Hypoglycemia excluded as seizure cause.",
+            "normalRange": "70-140 mg/dL"
+          }
+        },
+        {
+          "id": "benzodiazepine",
+          "name": "IV Lorazepam 0.1mg/kg (or Rectal Diazepam)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 3,
+          "isEssential": true,
+          "result": {
+            "finding": "Lorazepam 1mg IV given (weight 22kg). Seizure stopped within 90 seconds. Patient now post-ictal, arousable but confused.",
+            "interpretation": "Benzodiazepine = first-line for status epilepticus. Lorazepam preferred (longer duration, less respiratory depression). If no IV, use rectal diazepam 0.5mg/kg or buccal midazolam 0.3mg/kg."
+          }
+        },
+        {
+          "id": "second_line_aed",
+          "name": "Second-Line Agent (Levetiracetam/Fosphenytoin)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: Levetiracetam 40mg/kg IV indicated only if seizure persists >5 min after first benzo dose. This patient responded to benzo alone. Observe.",
+            "interpretation": "Status epilepticus protocol: Step 1: Benzo ×1, repeat ×1 if ongoing at 5 min. Step 2: Levetiracetam 40mg/kg or Fosphenytoin 20mg/kg PE. Step 3: Anesthetic (propofol/midazolam) for refractory."
+          }
+        },
+        {
+          "id": "ct_head_peds",
+          "name": "CT Head Non-Contrast",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 20,
+          "isEssential": false,
+          "result": {
+            "finding": "Normal brain parenchyma. No mass, hemorrhage, or midline shift. No signs of increased ICP.",
+            "interpretation": "CT normal - reassuring. However, MRI is preferred in children to avoid radiation. Consider MRI if atypical features.",
+            "imageRef": "ct_head_normal_pediatric"
+          }
+        },
+        {
+          "id": "cbc_crp_peds",
+          "name": "CBC + CRP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 14.2, Neutrophils 72%, Hb 12.5, Plt 280, CRP 48 mg/L",
+            "interpretation": "Mild leukocytosis and elevated CRP - consistent with viral URI. CRP <80 argues against serious bacterial infection.",
+            "normalRange": "WBC 5-15 (age-dependent), CRP <5"
+          }
+        },
+        {
+          "id": "electrolytes_peds",
+          "name": "Electrolytes (Na, K, Ca, Mg)",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "Na 138, K 4.0, Ca 9.8, Mg 2.0",
+            "interpretation": "All normal. Electrolyte abnormality excluded.",
+            "normalRange": "Na 135-145, Ca 8.5-10.5"
+          }
+        },
+        {
+          "id": "lumbar_puncture",
+          "name": "Lumbar Puncture (CSF Analysis)",
+          "category": "procedure",
+          "timeCost": 25,
+          "resultTime": 60,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: LP indicated only if suspicion for meningitis (neck stiffness, photophobia, Kernig/Brudzinski signs, petechiae, altered consciousness not returning to baseline). This child has typical febrile seizure with rapid return to baseline.",
+            "interpretation": "Simple febrile seizure in child 6mo-5yr with fever, no CNS signs: LP not routinely indicated. Complex febrile seizure (focal, prolonged >15min, multiple in 24h): consider LP if <12 months or concerning exam."
+          }
+        },
+        {
+          "id": "antipyretics",
+          "name": "Acetaminophen 15mg/kg PO/PR",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Acetaminophen 330mg given. Temperature decreased to 38.0°C. Child comfortable.",
+            "interpretation": "Treating fever reduces discomfort but does NOT prevent febrile seizures (they occur with rapid temperature rise, not absolute height)."
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["glucose_check_peds", "benzodiazepine", "cbc_crp_peds", "antipyretics"],
+        "acceptable": ["glucose_check_peds", "benzodiazepine", "cbc_crp_peds", "electrolytes_peds", "antipyretics"],
+        "wrongActions": ["lumbar_puncture", "second_line_aed"],
+        "wrongActionsConsequence": "Unnecessary LP is invasive and traumatic for child with typical febrile seizure. Second-line AED unnecessary if seizure stopped with benzo.",
+        "criticalErrors": [
+          {
+            "action": "lumbar_puncture",
+            "whenNotIndicated": "LP not indicated for simple febrile seizure in neurologically normal child >12 months with rapid return to baseline. Risks: post-dural headache, infection, spinal hematoma."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {"time": 10, "event": "Seizure continuing >15 minutes = established status epilepticus."},
+            {"time": 20, "event": "Hypoxia developing. SpO2 88%. Risk of neuronal injury."},
+            {"time": 30, "event": "Prolonged seizure >30 min = risk of permanent brain damage."}
+          ]
+        },
+        "withBenzodiazepine": {
+          "timer": 120,
+          "stages": [
+            {"time": 10, "event": "Seizure stopped. Post-ictal state. Child sleepy but arousable."},
+            {"time": 30, "event": "Returning to baseline. Recognizing mother."},
+            {"time": 120, "event": "Back to normal. Discharge with fever management education. Reassure parents: febrile seizures don't cause brain damage. Risk of epilepsy: 1-2%."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was meningitis: No neck stiffness, no photophobia, no petechiae, rapid return to baseline = typical febrile seizure. Meningitis presents with persistent altered mental status + meningismus.",
+        "keyTeaching": "Simple febrile seizure: Generalized, <15 min, once per 24h, in child 6mo-5yr with fever, normal neuro exam post-ictal. Treatment: abort seizure if >5min (benzo), evaluate fever source. Reassure parents: benign, no long-term consequences, 30% recurrence risk. Antipyretics don't prevent seizures.",
+        "guideline": "AAP Febrile Seizure Guideline: LP indicated if <12 months, meningeal signs, or not returned to baseline. EEG/MRI not routinely indicated. No prophylactic AEDs needed. Parental education is key."
+      },
+      "difficulty": "beginner",
+      "xpReward": 150,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 35,
+        "rapidSeizureControl": 30,
+        "unnecessaryLP": -35,
+        "missedDiagnosis": -40,
+        "patientDeath": -100
+      }
+    },
+    {
+      "id": "neuro_003",
+      "name": "Mr. Samir",
+      "age": 55,
+      "gender": "male",
+      "complaint": "Sudden severe headache 'like being hit with a baseball bat' (thunderclap headache). Worst headache of his life. Vomited twice. Neck stiffness. Photophobia. GCS 14 (confused). BP 195/110. No trauma history.",
+      "triageNote": "55M, thunderclap headache, vomiting, neck stiffness, photophobia, confused, BP 195/110, ?subarachnoid hemorrhage",
+      "correctTriage": 1,
+      "correctDiagnosis": "Aneurysmal Subarachnoid Hemorrhage (SAH), Hunt-Hess Grade 2",
+      "differentialDiagnoses": [
+        "Meningitis",
+        "Cervical Artery Dissection",
+        "Reversible Cerebral Vasoconstriction Syndrome (RCVS)",
+        "Sentinel Headache (Warning Leak)"
+      ],
+      "possibleActions": [
+        {
+          "id": "ct_head_noncontrast_sah",
+          "name": "CT Head Non-Contrast (STAT)",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Diffuse subarachnoid hemorrhage in basal cisterns, Sylvian fissures bilaterally, and interhemispheric fissure. Intraventricular extension in 3rd and 4th ventricles. Early hydrocephalus. Fisher Grade 4. No intraparenchymal hematoma.",
+            "interpretation": "Diffuse SAH = likely posterior circulation aneurysm (basilar tip, PICA). Hydrocephalus = poor prognostic sign. Fisher 4 = high vasospasm risk.",
+            "imageRef": "ct_head_sah_diffuse"
+          }
+        },
+        {
+          "id": "ct_angio_sah",
+          "name": "CT Angiography Head",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "5mm saccular aneurysm at anterior communicating artery (ACoA) with small bleb. No other aneurysms. Moderate vasospasm in bilateral ACAs.",
+            "interpretation": "ACoA aneurysm = most common site (40%). Bleb = likely rupture point. Early vasospasm present (onset day 3-14, peak day 7-10).",
+            "imageRef": "cta_acoa_aneurysm"
+          }
+        },
+        {
+          "id": "lumbar_puncture_sah",
+          "name": "Lumbar Puncture (if CT Negative)",
+          "category": "procedure",
+          "timeCost": 25,
+          "resultTime": 60,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: CT is positive for SAH. LP unnecessary and potentially dangerous (increased ICP from hydrocephalus). LP only needed if CT negative but high clinical suspicion (sensitivity of CT decreases after 6h, 98% at 12h → 93% at 24h → 50% at 1 week).",
+            "interpretation": "Do NOT perform LP with SAH on CT. Risk of herniation. LP reserved for CT-negative suspected SAH (looking for xanthochromia)."
+          }
+        },
+        {
+          "id": "nimodipine",
+          "name": "Nimodipine 60mg PO/NG Q4H",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 120,
+          "isEssential": true,
+          "result": {
+            "finding": "Nimodipine started within 1 hour of diagnosis. Reduces vasospasm-related morbidity by 40%. Number needed to treat: 8 to prevent one poor outcome.",
+            "interpretation": "Only intervention proven to improve outcomes in SAH. Must be given for 21 days. Mechanism: neuroprotection, not vasodilation per se."
+          }
+        },
+        {
+          "id": "bp_control_sah",
+          "name": "Blood Pressure Control (Nimodipine + Nicardipine)",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "BP reduced to 140/85 with IV nicardipine infusion. Systolic maintained 120-140 (avoid hypotension to prevent cerebral ischemia). Pain controlled with morphine 2mg IV.",
+            "interpretation": "Pre-aneurysm securing: Target SBP <160 (AHA) or <140 (ESO). After securing: allow higher pressures to maintain CPP. Avoid hypotension = risk of DCI (delayed cerebral ischemia)."
+          }
+        },
+        {
+          "id": "neurosurgery_consult",
+          "name": "Emergency Neurosurgery Consult",
+          "category": "consult",
+          "timeCost": 10,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Neurosurgery activated. Plan: External ventricular drain (EVD) for hydrocephalus + Coiling vs Clipping within 24h. Coiling preferred for ACoA aneurysm (better outcomes vs clipping per ISAT trial).",
+            "interpretation": "EVD needed for hydrocephalus. Aneurysm should be secured within 24h to prevent rebleeding (rebleed risk: 4% day 1, 1.5%/day for 2 weeks, 50% at 6 months untreated)."
+          }
+        },
+        {
+          "id": "antifibrinolytics",
+          "name": "Tranexamic Acid (Antifibrinolytic)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: Tranexamic acid reduces rebleeding but increases DCI and does NOT improve overall outcomes. Not routinely recommended. Short course (<72h) if delay to aneurysm securing >24h.",
+            "interpretation": "Controversial. Not standard of care in most centers. Focus on early aneurysm securing instead."
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["ct_head_noncontrast_sah", "ct_angio_sah", "nimodipine", "bp_control_sah", "neurosurgery_consult"],
+        "acceptable": ["ct_head_noncontrast_sah", "ct_angio_sah", "nimodipine", "bp_control_sah", "neurosurgery_consult"],
+        "wrongActions": ["lumbar_puncture_sah"],
+        "wrongActionsConsequence": "LP with known SAH and hydrocephalus risks cerebral herniation",
+        "criticalErrors": [
+          {
+            "action": "lumbar_puncture_sah",
+            "whenSAHonCT": "Absolute contraindication. Risk of herniation from CSF pressure gradient. LP only for CT-negative suspected SAH."
+          },
+          {
+            "action": "delaying_nimodipine",
+            "consequence": "Nimodipine is the ONLY proven neuroprotective agent. Must start immediately and continue for 21 days."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {"time": 10, "event": "Rebleeding! Aneurysm re-ruptured. GCS dropping to 6."},
+            {"time": 20, "event": "Massive intraventricular hemorrhage. Acute hydrocephalus."},
+            {"time": 30, "event": "Brainstem herniation. Death."}
+          ]
+        },
+        "withPartialTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "Nimodipine + BP control started. Awaiting aneurysm securing."},
+            {"time": 60, "event": "Vasospasm developing. TCD velocities rising. Risk of DCI."},
+            {"time": 120, "event": "Aneurysm not yet secured. Risk of rebleeding: 4% today, 15% by day 14."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 240,
+          "stages": [
+            {"time": 60, "event": "EVD placed. ICP controlled. Nimodipine + BP control ongoing."},
+            {"time": 120, "event": "Coiling successful. Aneurysm secured. DSA confirms complete occlusion."},
+            {"time": 240, "event": "ICU monitoring for vasospasm day 3-14. TCD daily. Triple-H therapy if DCI develops. Nimodipine ×21 days."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you sent home as migraine: Thunderclap headache = SAH until proven otherwise. Sentinel headache (warning leak) occurs in 10-43% of SAH patients 2-8 weeks before major rupture. Always CT + LP if CT negative.",
+        "keyTeaching": "SAH diagnosis: Non-contrast CT head (98% sensitive in first 12h). If CT negative → LP for xanthochromia (12h to 2 weeks). Management: Nimodipine ×21 days (only proven therapy), BP control (SBP <160), early aneurysm securing (<24-48h), EVD for hydrocephalus, TCD monitoring for vasospasm. Complications: Rebleeding (4% day 1), Vasospasm/DCI (peak day 7-10, 30% risk), Hydrocephalus, Seizures, Hyponatremia (SIADH/CSW).",
+        "guideline": "AHA/ASA SAH Guidelines: Emergent CT non-contrast. If SAH confirmed → CTA/DSA to identify aneurysm. Nimodipine ×21 days (Class I). Early aneurysm treatment (<24h) via coiling (preferred for most) or clipping. EVD for acute hydrocephalus. TCD for vasospasm monitoring."
+      },
+      "difficulty": "advanced",
+      "xpReward": 400,
+      "reputationImpact": {
+        "correctDiagnosis": 60,
+        "correctTreatment": 100,
+        "earlyNimodipine": 50,
+        "performedLPWithSAH": -80,
+        "missedDiagnosis": -70,
+        "patientDeath": -200
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 3,
+    "difficultyRange": "beginner to advanced",
+    "systems": ["Neurology"],
+    "conceptsTested": [
+      "Acute ischemic stroke: tPA and thrombectomy criteria",
+      "LVO recognition and management",
+      "Febrile seizure evaluation and management",
+      "Subarachnoid hemorrhage: diagnosis and emergency management",
+      "Nimodipine in SAH",
+      "Cerebral vasospasm and DCI",
+      "Door-to-needle and door-to-puncture time targets"
+    ],
+    "lastUpdated": "2026-06-11"
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "module": "resident-life",
+  "category": "gastroenterology",
+  "version": "1.0",
+  "description": "Clinical cases for gastroenterology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_gastro_001",
+      "name": "Aisha Hassan",
+      "age": 55,
+      "gender": "male",
+      "complaint": "ascites, spider angiomata, and gynecomastia",
+      "triageNote": "Generated case - Liver Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Liver Disease",
+      "differentialDiagnoses": [
+        "Hepatocellular Carcinoma",
+        "Hepatorenal Syndrome",
+        "Esophageal Varices",
+        "Hepatic Encephalopathy"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Hepatocellular Carcinoma, Hepatorenal Syndrome, Esophageal Varices",
+        "keyTeaching": "Cirrhosis + ascites → R/O SBP via paracentesis. PMN >250 = SBP. Treat with 3rd gen cephalosporin. Albumin prevents HRS.",
+        "guideline": "AASLD Cirrhosis Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_gastro_002",
+      "name": "Mustafa Omar",
+      "age": 45,
+      "gender": "female",
+      "complaint": "severe epigastric pain radiating to back, nausea, and vomiting after eating fatty meal",
+      "triageNote": "Generated case - Pancreatic Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Pancreatic Disease",
+      "differentialDiagnoses": [
+        "Emergency ERCP with sphincterotomy",
+        "IV antibiotics (imipenem)",
+        "Immediate cholecystectomy",
+        "Octreotide infusion"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Emergency ERCP with sphincterotomy, IV antibiotics (imipenem), Immediate cholecystectomy",
+        "keyTeaching": "Pancreatitis: Fluids, NPO, pain control. Lipase >3x normal = diagnostic. Ranson/Glasgow criteria for severity.",
+        "guideline": "AGA Acute Pancreatitis Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_gastro_003",
+      "name": "Omar Al-Qassim",
+      "age": 50,
+      "gender": "male",
+      "complaint": "epigastric burning pain relieved by food",
+      "triageNote": "Generated case - Peptic Ulcer Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Peptic Ulcer Disease",
+      "differentialDiagnoses": [
+        "Start sucralfate only",
+        "Upper endoscopy urgently",
+        "Continue ibuprofen, add misoprostol",
+        "Surgical consultation"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Start sucralfate only, Upper endoscopy urgently, Continue ibuprofen, add misoprostol",
+        "keyTeaching": "NSAID ulcer: STOP NSAID → PPI → Test H. pylori → Treat if positive with triple therapy (PPI + 2 antibiotics).",
+        "guideline": "ACG PUD Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_gastro_004",
+      "name": "Layla Al-Sayed",
+      "age": 65,
+      "gender": "male",
+      "complaint": "hematemesis and melena",
+      "triageNote": "Generated case - GI Bleeding",
+      "correctTriage": 2,
+      "correctDiagnosis": "GI Bleeding",
+      "differentialDiagnoses": [
+        "Emergency upper endoscopy immediately",
+        "Start octreotide infusion",
+        "Insert nasogastric tube for lavage",
+        "Immediate surgical consultation"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Emergency upper endoscopy immediately, Start octreotide infusion, Insert nasogastric tube for lavage",
+        "keyTeaching": "UGIB: 2 large-bore IVs → fluids → transfuse if needed → IV PPI → endoscopy within 24h. Glasgow-Blatchford score for risk stratification.",
+        "guideline": "ACG UGIB Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 4,
+    "source": "Generated from questions/gastroenterology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

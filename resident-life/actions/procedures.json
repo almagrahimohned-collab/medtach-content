@@ -1,0 +1,198 @@
+{
+  "module": "resident-life",
+  "category": "procedures",
+  "version": "1.0",
+  "description": "Medical procedures for Resident Life simulator - time costs, requirements, complications, and resource constraints",
+
+  "procedures": {
+    "airway": [
+      {
+        "id": "intubation",
+        "name": "Endotracheal Intubation",
+        "category": "airway",
+        "indications": ["Respiratory failure", "Cardiac arrest", "GCS <8", "Airway protection", "Severe shock"],
+        "contraindications": ["Awake patient (without RSI)", "C-spine injury (use video laryngoscopy)", "Difficult airway predicted"],
+        "timeCost": 20,
+        "staffRequired": ["Physician", "Respiratory Therapist", "Nurse"],
+        "resourceCost": "high",
+        "complications": {
+          "common": ["Dental trauma (1-2%)", "Sore throat (20-40%)", "Lip/tongue laceration (5%)"],
+          "serious": ["Esophageal intubation (2-5% with direct laryngoscopy)", "Aspiration (2-4%)", "Hypoxia during attempt (20%)", "Hypotension post-induction (25%)"],
+          "catastrophic": ["Cannot intubate/cannot ventilate (0.01%)", "Cardiac arrest (0.1%)", "Anoxic brain injury from prolonged attempt"]
+        },
+        "successRate": {
+          "experienced": 99,
+          "resident": 85,
+          "difficultAirway": 50
+        },
+        "equipment": ["Laryngoscope", "ET tube (7.5-8.0 adult)", "Suction", "BVM", "CO2 detector", "RSI medications"]
+      },
+      {
+        "id": "niv_setup",
+        "name": "Non-Invasive Ventilation (BiPAP/CPAP)",
+        "category": "airway",
+        "indications": ["COPD exacerbation with pH <7.35", "Cardiogenic pulmonary edema", "Immunocompromised with respiratory failure"],
+        "contraindications": ["GCS <8", "Respiratory arrest", "Facial trauma", "Recent upper GI surgery", "Copious secretions"],
+        "timeCost": 15,
+        "staffRequired": ["Respiratory Therapist", "Nurse"],
+        "resourceCost": "medium",
+        "complications": {
+          "common": ["Mask discomfort (30%)", "Dry mouth (25%)", "Claustrophobia (10%)"],
+          "serious": ["Aspiration (5%)", "Facial pressure ulcers (2% with prolonged use)"],
+          "catastrophic": ["Pneumothorax (rare, <0.5%)"]
+        },
+        "successRate": {
+          "copd": 85,
+          "cardiogenicEdema": 80,
+          "ardsMild": 60
+        }
+      }
+    ],
+
+    "vascular": [
+      {
+        "id": "central_line",
+        "name": "Central Venous Catheter (IJ/Subclavian/Femoral)",
+        "category": "vascular",
+        "indications": ["Vasopressor administration", "CVP monitoring", "Poor peripheral access", "Volume resuscitation", "Parenteral nutrition"],
+        "contraindications": ["Overlying infection", "Thrombosis at site", "Coagulopathy (relative)", "Uncooperative patient"],
+        "timeCost": 30,
+        "staffRequired": ["Physician", "Nurse"],
+        "resourceCost": "high",
+        "complications": {
+          "common": ["Bleeding/hematoma (3-5%)", "Arrhythmia from guidewire (25%, usually self-limited)"],
+          "serious": ["Arterial puncture (3-9% IJ, 1-5% SC)", "Pneumothorax (1-3% SC, <0.5% IJ)", "Catheter-related infection (3-5 per 1000 catheter-days)"],
+          "catastrophic": ["Tension pneumothorax (0.5%)", "Air embolism (<0.5%)", "Cardiac perforation/tamponade (0.1%)"]
+        },
+        "successRate": {
+          "ultrasoundGuided": 98,
+          "landmark": 88
+        },
+        "equipment": ["Ultrasound machine", "Central line kit", "Sterile gown/gloves/drape", "Chlorhexidine", "Lidocaine 1%"]
+      },
+      {
+        "id": "arterial_line",
+        "name": "Arterial Line (Radial/Femoral)",
+        "category": "vascular",
+        "indications": ["Continuous BP monitoring", "Frequent ABG sampling", "Vasopressor titration"],
+        "contraindications": ["Infection at site", "Peripheral vascular disease", "Negative Allen test (radial)", "Coagulopathy (relative)"],
+        "timeCost": 20,
+        "staffRequired": ["Physician", "Nurse"],
+        "resourceCost": "medium",
+        "complications": {
+          "common": ["Hematoma (5-10%)", "Transient occlusion (10-25%)"],
+          "serious": ["Permanent occlusion (1-2%)", "Pseudoaneurysm (0.5%)", "Infection (1-2%)"],
+          "catastrophic": ["Digital ischemia requiring amputation (<0.1%)", "Compartment syndrome (<0.1%)"]
+        },
+        "successRate": {
+          "ultrasoundGuided": 95,
+          "palpation": 75
+        }
+      }
+    ],
+
+    "pleural": [
+      {
+        "id": "chest_tube",
+        "name": "Chest Tube (Tube Thoracostomy)",
+        "category": "pleural",
+        "indications": ["Pneumothorax (large/symptomatic)", "Hemothorax", "Empyema", "Malignant pleural effusion"],
+        "contraindications": ["Lung adherent to chest wall", "Coagulopathy (correct if possible)", "Pulmonary bleb (relative)"],
+        "timeCost": 25,
+        "staffRequired": ["Physician", "Nurse"],
+        "resourceCost": "medium",
+        "complications": {
+          "common": ["Pain (significant)", "Subcutaneous emphysema (5-10%)"],
+          "serious": ["Tube malposition (5-10%)", "Infection/empyema (2-3%)", "Persistent air leak >5 days (5%)"],
+          "catastrophic": ["Lung laceration (<1%)", "Diaphragm/spleen/liver injury (<1%)", "Cardiac injury (<0.1%)", "Hemothorax from intercostal artery injury (<1%)"]
+        },
+        "successRate": {
+          "experienced": 95,
+          "resident": 80
+        }
+      },
+      {
+        "id": "needle_decompression",
+        "name": "Needle Decompression (Tension Pneumothorax)",
+        "category": "pleural",
+        "indications": ["TENSION PNEUMOTHORAX ONLY: Hypotension + tracheal deviation + absent breath sounds + distended neck veins"],
+        "contraindications": ["Non-tension pneumothorax (will create open pneumothorax)", "Bleeding diathesis (relative, life-saving procedure)"],
+        "timeCost": 5,
+        "staffRequired": ["Physician"],
+        "resourceCost": "low",
+        "complications": {
+          "common": ["Pain at site"],
+          "serious": ["Iatrogenic open pneumothorax (if no tension)", "Lung laceration", "Bleeding from intercostal vessels", "Failure to decompress (catheter too short in obese patients: 50% failure rate with 5cm catheter)"],
+          "catastrophic": ["Cardiac injury if placed too medially"]
+        },
+        "successRate": {
+          "correctlyIndicated": 90,
+          "obesePatient": 50
+        },
+        "note": "CRITICAL: Only for TENSION pneumothorax. Non-tension = pigtail catheter or chest tube instead."
+      }
+    ],
+
+    "lumbar": [
+      {
+        "id": "lumbar_puncture",
+        "name": "Lumbar Puncture",
+        "category": "neurological",
+        "indications": ["Suspected meningitis/encephalitis", "Subarachnoid hemorrhage (CT negative)", "Idiopathic intracranial hypertension", "Multiple sclerosis evaluation"],
+        "contraindications": ["Known intracranial mass with mass effect", "Spinal cord compression", "Coagulopathy", "Infection at puncture site", "Hydrocephalus with mass effect"],
+        "timeCost": 25,
+        "staffRequired": ["Physician", "Nurse"],
+        "resourceCost": "low",
+        "complications": {
+          "common": ["Post-dural puncture headache (10-30%, worse in young thin females)", "Back pain (25%)"],
+          "serious": ["Spinal hematoma (<0.1%)", "Infection (meningitis) (<0.1%)", "Epidermoid tumor (rare, from skin plug)"],
+          "catastrophic": ["Brainstem herniation if increased ICP with mass effect", "Spinal cord injury (very rare)"]
+        },
+        "successRate": {
+          "experienced": 90,
+          "resident": 70,
+          "obese": 50
+        },
+        "csfResults": {
+          "normal": "WBC <5, Protein 15-45, Glucose 50-80, Opening pressure 6-25 cmH2O",
+          "bacterialMeningitis": "WBC >1000 (PMN), Protein >200, Glucose <40, Opening pressure >30, Gram stain +",
+          "viralMeningitis": "WBC 10-500 (lymph), Protein 50-100, Glucose normal, Opening pressure normal/mildly elevated",
+          "sah": "RBCs non-clearing tube 1→4, Xanthochromia (after 6-12h), Opening pressure elevated"
+        }
+      }
+    ]
+  },
+
+  "resourceConstraints": {
+    "ventilator": {
+      "totalAvailable": 4,
+      "occupiedMessage": "All ventilators in use. Cannot intubate unless another patient extubated.",
+      "icu": "Requires ICU bed with ventilator capacity"
+    },
+    "ultrasoundMachine": {
+      "totalAvailable": 2,
+      "notes": "1 in ED, 1 shared with ICU. May need to wait 5-10 min if in use."
+    }
+  },
+
+  "costImpact": {
+    "airway": {"xpPenalty": 15},
+    "vascular": {"xpPenalty": 12},
+    "pleural": {"xpPenalty": 12},
+    "neurological": {"xpPenalty": 10},
+    "unnecessaryProcedure": {"xpPenalty": -40, "reputationPenalty": -25, "message": "Unnecessary procedure detected. Medical board review possible."}
+  },
+
+  "staffAvailability": {
+    "dayShift": {
+      "respiratoryTherapist": 2,
+      "nurses": 4,
+      "availableProcedures": "All procedures immediately available"
+    },
+    "nightShift": {
+      "respiratoryTherapist": 1,
+      "nurses": 2,
+      "availableProcedures": "Delays possible for non-urgent procedures. Stat procedures prioritized."
+    }
+  }
+}

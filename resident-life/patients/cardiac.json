@@ -1,0 +1,883 @@
+{
+  "module": "resident-life",
+  "category": "cardiac",
+  "version": "1.0",
+  "description": "Cardiac emergency cases for Resident Life simulator - real clinical scenarios with real lab/imaging results",
+  "patients": [
+    {
+      "id": "cardiac_001",
+      "name": "Mr. Hassan",
+      "age": 62,
+      "gender": "male",
+      "complaint": "Crushing chest pain radiating to left arm for 3 hours. Diaphoretic, anxious.",
+      "triageNote": "62M, chest pain, diaphoretic, HR 105, BP 155/95, SpO2 94%",
+      "correctTriage": 1,
+      "correctDiagnosis": "Anteroseptal ST-Elevation Myocardial Infarction (STEMI)",
+      "differentialDiagnoses": [
+        "Unstable Angina",
+        "Aortic Dissection",
+        "Acute Pericarditis",
+        "Massive Pulmonary Embolism"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "ST elevation 4mm in leads V1-V4 with reciprocal ST depression in II, III, aVF. Hyperacute T waves in V2-V4.",
+            "interpretation": "Anteroseptal STEMI - likely proximal LAD occlusion",
+            "imageRef": "ecg_stemi_anterior"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: 12.8 ng/mL (normal <0.04 ng/mL)",
+            "interpretation": "Markedly elevated - confirms myocardial necrosis",
+            "normalRange": "<0.04 ng/mL"
+          }
+        },
+        {
+          "id": "ck_mb",
+          "name": "CK-MB",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 30,
+          "isEssential": false,
+          "result": {
+            "finding": "CK-MB: 85 ng/mL (normal <5 ng/mL)",
+            "interpretation": "Elevated - consistent with MI",
+            "normalRange": "<5 ng/mL"
+          }
+        },
+        {
+          "id": "cbc",
+          "name": "CBC",
+          "category": "lab",
+          "timeCost": 3,
+          "resultTime": 20,
+          "isEssential": false,
+          "result": {
+            "finding": "WBC 12.5, Hb 14.2, Plt 245",
+            "interpretation": "Mild leukocytosis - stress response",
+            "normalRange": "WBC 4-11, Hb 13-17, Plt 150-400"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "Normal cardiac silhouette. No pulmonary edema, no pleural effusion. Mediastinum normal width.",
+            "interpretation": "No signs of heart failure or aortic dissection",
+            "imageRef": "cxr_normal_cardiac"
+          }
+        },
+        {
+          "id": "echo",
+          "name": "Bedside Echocardiogram",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "Anterior wall hypokinesis. LVEF estimated 40%. No pericardial effusion. No aortic root dilation.",
+            "interpretation": "Regional wall motion abnormality consistent with LAD territory ischemia",
+            "imageRef": "echo_anterior_hypokinesis"
+          }
+        },
+        {
+          "id": "aspirin",
+          "name": "Aspirin 300mg PO",
+          "category": "treatment",
+          "timeCost": 3,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Antiplatelet therapy initiated",
+            "interpretation": "Essential first step in STEMI management"
+          }
+        },
+        {
+          "id": "heparin",
+          "name": "Unfractionated Heparin IV",
+          "category": "treatment",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Anticoagulation initiated - 60 units/kg bolus, 12 units/kg/hr infusion",
+            "interpretation": "Standard STEMI anticoagulation"
+          }
+        },
+        {
+          "id": "nitroglycerin",
+          "name": "Sublingual Nitroglycerin",
+          "category": "treatment",
+          "timeCost": 3,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "Chest pain decreased from 8/10 to 4/10. BP 140/85",
+            "interpretation": "Symptomatic relief achieved"
+          }
+        },
+        {
+          "id": "cath_lab",
+          "name": "Activate Cath Lab for Primary PCI",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Door-to-balloon time: 52 minutes. Successful DES placement in proximal LAD. TIMI 3 flow restored.",
+            "interpretation": "Reperfusion successful - patient stabilized"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["ecg", "aspirin", "heparin", "cath_lab"],
+        "acceptable": ["ecg", "troponin", "aspirin", "heparin", "cath_lab"],
+        "wrongActions": ["cxr", "echo", "ck_mb", "cbc"],
+        "wrongActionsConsequence": "Delay in reperfusion - each minute of delay increases mortality by 1%",
+        "criticalErrors": [
+          {
+            "action": "cxr",
+            "beforeActions": ["ecg", "aspirin"],
+            "consequence": "Performing CXR before ECG and aspirin delays critical STEMI care by 12+ minutes"
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 25,
+          "stages": [
+            {"time": 10, "event": "Chest pain intensifying. ST elevation increasing."},
+            {"time": 20, "event": "Developing VT/VF. Patient crashing!"},
+            {"time": 25, "event": "Cardiac arrest. Death."}
+          ]
+        },
+        "withPartialTreatment": {
+          "timer": 50,
+          "stages": [
+            {"time": 15, "event": "Pain partially relieved but ST elevation persists."},
+            {"time": 30, "event": "Developing heart failure signs. Needs PCI urgently."},
+            {"time": 50, "event": "Cardiogenic shock. Death if no PCI."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "Pain improving post-PCI. ST elevation resolving."},
+            {"time": 60, "event": "Patient stable. Transfer to CCU."},
+            {"time": 120, "event": "Stable. No further deterioration."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If patient deteriorates: Consider missed aortic dissection (tearing pain, BP differential, widened mediastinum on CXR)",
+        "keyTeaching": "Door-to-balloon time should be <90 minutes. Every 30-minute delay increases 1-year mortality by 7.5%.",
+        "guideline": "AHA/ACC STEMI Guidelines: Immediate ECG within 10 minutes of arrival. If STEMI confirmed, activate cath lab immediately."
+      },
+      "difficulty": "beginner",
+      "xpReward": 150,
+      "reputationImpact": {
+        "correctDiagnosis": 25,
+        "correctTreatment": 50,
+        "fastTreatment": 30,
+        "missedDiagnosis": -40,
+        "wrongTreatment": -30,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "cardiac_002",
+      "name": "Mrs. Layla",
+      "age": 58,
+      "gender": "female",
+      "complaint": "Sudden severe tearing pain between shoulder blades radiating to back. BP 210/110 right arm, 165/95 left arm.",
+      "triageNote": "58F, severe interscapular pain, BP differential, HR 98, looks very unwell",
+      "correctTriage": 1,
+      "correctDiagnosis": "Acute Type A Aortic Dissection",
+      "differentialDiagnoses": [
+        "STEMI",
+        "Massive Pulmonary Embolism",
+        "Acute Pericarditis",
+        "Esophageal Rupture"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Sinus tachycardia. LVH with strain pattern. No ST elevation. No ischemic changes.",
+            "interpretation": "No evidence of acute MI. LVH consistent with chronic hypertension.",
+            "imageRef": "ecg_lvh_strain"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Widened mediastinum (>8cm). Loss of aortic knob contour. Tracheal deviation to right. Left pleural effusion.",
+            "interpretation": "Classic findings of aortic dissection/rupture",
+            "imageRef": "cxr_widened_mediastinum"
+          }
+        },
+        {
+          "id": "ct_angio",
+          "name": "CT Angiography Chest/Abdomen",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "Type A aortic dissection extending from aortic root to iliac bifurcation. Intimal flap visible. Pericardial effusion present (1.5cm). Left hemothorax.",
+            "interpretation": "Extensive Type A dissection with tamponade physiology - SURGICAL EMERGENCY",
+            "imageRef": "ct_dissection_type_a"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "hs-cTnI: 0.8 ng/mL (mildly elevated)",
+            "interpretation": "Mild elevation - may be due to coronary ostia involvement or demand ischemia",
+            "normalRange": "<0.04 ng/mL"
+          }
+        },
+        {
+          "id": "echo",
+          "name": "Bedside Echocardiogram",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "Pericardial effusion 1.5cm with diastolic RV collapse. Aortic root dilation 5.2cm. Intimal flap in ascending aorta. Moderate AR.",
+            "interpretation": "Cardiac tamponade physiology from Type A dissection",
+            "imageRef": "echo_tamponade_dissection"
+          }
+        },
+        {
+          "id": "bp_control",
+          "name": "IV Beta-Blocker + Vasodilator",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "Esmolol IV then nicardipine drip. BP now 120/75 bilateral. HR 65. Pain decreased.",
+            "interpretation": "Blood pressure controlled - reduces shear stress on aortic wall"
+          }
+        },
+        {
+          "id": "surgery_consult",
+          "name": "Emergency CT Surgery Consult",
+          "category": "consult",
+          "timeCost": 8,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Cardiothoracic surgeon activated. OR prepared. Patient transferred to OR within 35 minutes.",
+            "interpretation": "Type A dissection requires emergency surgery - mortality 1-2% per hour without surgery"
+          }
+        },
+        {
+          "id": "aspirin",
+          "name": "Aspirin 300mg PO",
+          "category": "treatment",
+          "timeCost": 3,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "WARNING: Aspirin may worsen bleeding in aortic dissection",
+            "interpretation": "DO NOT give antiplatelets if dissection suspected - increases surgical bleeding risk"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["ecg", "cxr", "bp_control", "ct_angio", "surgery_consult"],
+        "acceptable": ["ecg", "cxr", "bp_control", "echo", "surgery_consult"],
+        "wrongActions": ["aspirin", "heparin"],
+        "wrongActionsConsequence": "Antiplatelet/anticoagulation in aortic dissection can be catastrophic",
+        "criticalErrors": [
+          {
+            "action": "aspirin",
+            "consequence": "Antiplatelet therapy in aortic dissection increases intraoperative bleeding and mortality"
+          },
+          {
+            "action": "cath_lab",
+            "consequence": "Taking dissection patient to cath lab instead of CT surgery delays definitive treatment. Mortality increases 1-2% per hour."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 20,
+          "stages": [
+            {"time": 5, "event": "Pain worsening. BP dropping. Developing shock."},
+            {"time": 10, "event": "Cardiac tamponade. PEA arrest."},
+            {"time": 20, "event": "Death from aortic rupture."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "BP controlled. Pain improving. OR ready."},
+            {"time": 60, "event": "In surgery. Repair underway."},
+            {"time": 120, "event": "Surgery successful. Patient stable in ICU."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was STEMI: Check BP in both arms! Pulse deficit or BP differential >20mmHg suggests dissection. CXR shows widened mediastinum.",
+        "keyTeaching": "Type A aortic dissection mortality: 1-2% per hour without surgery. Always check bilateral BP in chest pain patients.",
+        "guideline": "ESC Aortic Guidelines: Immediate blood pressure control (target SBP 100-120), then urgent CT angiography. Type A = emergency surgery."
+      },
+      "difficulty": "intermediate",
+      "xpReward": 250,
+      "reputationImpact": {
+        "correctDiagnosis": 40,
+        "correctTreatment": 60,
+        "fastDiagnosis": 35,
+        "gaveAspirin": -50,
+        "missedDiagnosis": -60,
+        "patientDeath": -100
+      }
+    },
+    {
+      "id": "cardiac_003",
+      "name": "Mr. Omar",
+      "age": 45,
+      "gender": "male",
+      "complaint": "Sharp chest pain, worse with deep breathing and lying flat. Better when sitting forward. Fever for 3 days.",
+      "triageNote": "45M, pleuritic chest pain, positional, febrile 38.5°C, HR 105",
+      "correctTriage": 2,
+      "correctDiagnosis": "Acute Pericarditis",
+      "differentialDiagnoses": [
+        "STEMI",
+        "Pulmonary Embolism",
+        "Pleuritis",
+        "Costochondritis"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Diffuse ST elevation (concave upward) in leads I, II, III, aVL, aVF, V2-V6. PR depression in II, aVF, V4-V6. No reciprocal ST depression.",
+            "interpretation": "Classic Stage I pericarditis. Diffuse ST elevation without reciprocal changes distinguishes from STEMI.",
+            "imageRef": "ecg_pericarditis"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "hs-cTnI: 1.2 ng/mL (mildly elevated)",
+            "interpretation": "Myopericarditis can cause mild troponin elevation",
+            "normalRange": "<0.04 ng/mL"
+          }
+        },
+        {
+          "id": "crp",
+          "name": "CRP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CRP: 185 mg/L (markedly elevated)",
+            "interpretation": "Significant inflammation consistent with pericarditis",
+            "normalRange": "<5 mg/L"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "Normal cardiac silhouette. No pulmonary infiltrates. No pleural effusion. Mediastinum normal.",
+            "interpretation": "No alternative diagnosis identified",
+            "imageRef": "cxr_normal"
+          }
+        },
+        {
+          "id": "echo",
+          "name": "Bedside Echocardiogram",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "Normal LV function. Small pericardial effusion (0.3cm) without tamponade. No wall motion abnormalities.",
+            "interpretation": "Pericardial effusion supports pericarditis diagnosis",
+            "imageRef": "echo_small_effusion"
+          }
+        },
+        {
+          "id": "nsaids",
+          "name": "NSAIDs (Ibuprofen 600mg TID)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Pain significantly improved within 1 hour. Patient comfortable sitting upright.",
+            "interpretation": "Response to NSAIDs is characteristic of pericarditis"
+          }
+        },
+        {
+          "id": "colchicine",
+          "name": "Colchicine 0.5mg BID",
+          "category": "treatment",
+          "timeCost": 3,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Added to NSAIDs for recurrence prevention",
+            "interpretation": "Colchicine reduces recurrence rate by 50% (CORI trial)"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["ecg", "nsaids", "colchicine"],
+        "acceptable": ["ecg", "troponin", "nsaids", "colchicine"],
+        "wrongActions": ["aspirin", "heparin", "cath_lab"],
+        "wrongActionsConsequence": "Unnecessary STEMI protocol activation causes patient anxiety and resource waste"
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 60,
+          "stages": [
+            {"time": 30, "event": "Pain persists. Pericardial effusion increasing."},
+            {"time": 60, "event": "Developing tamponade physiology."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "Pain resolved. Patient comfortable."},
+            {"time": 120, "event": "Stable for discharge on NSAIDs + colchicine."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If treated as STEMI: Diffuse ST elevation without reciprocal changes is pericarditis, not STEMI. Cath lab activation unnecessary.",
+        "keyTeaching": "Pericarditis ECG: Diffuse concave ST elevation + PR depression. STEMI: Localized convex ST elevation + reciprocal changes.",
+        "guideline": "ESC Pericarditis Guidelines: First-line = NSAIDs + colchicine for 3 months. Steroids only if refractory."
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 15,
+        "correctTreatment": 25,
+        "unnecessaryCathLab": -30,
+        "patientDeath": -50
+      }
+    },
+    {
+      "id": "cardiac_004",
+      "name": "Mrs. Samira",
+      "age": 72,
+      "gender": "female",
+      "complaint": "Sudden onset severe dyspnea, pleuritic chest pain, near-syncope. Recent hip surgery 10 days ago.",
+      "triageNote": "72F, acute dyspnea, pleuritic pain, HR 125, BP 88/55, SpO2 85% on RA, recent surgery",
+      "correctTriage": 1,
+      "correctDiagnosis": "Massive Pulmonary Embolism with Obstructive Shock",
+      "differentialDiagnoses": [
+        "STEMI",
+        "Aortic Dissection",
+        "Tension Pneumothorax",
+        "Cardiac Tamponade"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Sinus tachycardia. S1Q3T3 pattern (deep S in I, Q wave and inverted T in III). Right axis deviation. Incomplete RBBB. T wave inversion V1-V4.",
+            "interpretation": "Classic right heart strain pattern of massive PE",
+            "imageRef": "ecg_pe_s1q3t3"
+          }
+        },
+        {
+          "id": "abg",
+          "name": "Arterial Blood Gas",
+          "category": "lab",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "pH 7.32, pCO2 32, pO2 52, HCO3 18, Lactate 4.8, SaO2 84%",
+            "interpretation": "Type 1 respiratory failure with metabolic acidosis (lactic). Severe hypoxemia.",
+            "normalRange": "pH 7.35-7.45, pCO2 35-45, pO2 80-100"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "hs-cTnI: 2.4 ng/mL",
+            "interpretation": "RV strain causing myocardial injury",
+            "normalRange": "<0.04 ng/mL"
+          }
+        },
+        {
+          "id": "d_dimer",
+          "name": "D-Dimer",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 30,
+          "isEssential": false,
+          "result": {
+            "finding": "D-Dimer: >10,000 ng/mL (massively elevated)",
+            "interpretation": "Extremely high - but NOT needed in high pre-test probability with shock",
+            "normalRange": "<500 ng/mL"
+          }
+        },
+        {
+          "id": "ct_pa",
+          "name": "CT Pulmonary Angiography",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 20,
+          "isEssential": false,
+          "result": {
+            "finding": "Large bilateral central pulmonary emboli. Saddle embolus at bifurcation. RV:LV ratio 1.4. Interventricular septal bowing.",
+            "interpretation": "Massive PE with right heart strain - HIGH RISK",
+            "imageRef": "ctpa_massive_pe"
+          }
+        },
+        {
+          "id": "echo_bedside",
+          "name": "Bedside Echocardiogram",
+          "category": "imaging",
+          "timeCost": 10,
+          "resultTime": 5,
+          "isEssential": true,
+          "result": {
+            "finding": "Severely dilated RV. McConnell's sign (apical sparing). D-shaped LV in systole. PAP estimated 60mmHg. No pericardial effusion.",
+            "interpretation": "Acute right heart strain consistent with massive PE",
+            "imageRef": "echo_rv_strain"
+          }
+        },
+        {
+          "id": "thrombolysis",
+          "name": "Systemic Thrombolysis (Alteplase)",
+          "category": "treatment",
+          "timeCost": 15,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "tPA administered. BP improved to 110/70. SpO2 92%. HR 100. Hemodynamics stabilizing.",
+            "interpretation": "Thrombolysis indicated in massive PE with shock. Clinical improvement noted."
+          }
+        },
+        {
+          "id": "heparin",
+          "name": "Unfractionated Heparin IV",
+          "category": "treatment",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": false,
+          "result": {
+            "finding": "Anticoagulation initiated after thrombolysis",
+            "interpretation": "Heparin continued after tPA to prevent re-thrombosis"
+          }
+        },
+        {
+          "id": "fluids_cautious",
+          "name": "IV Fluids (Cautious)",
+          "category": "treatment",
+          "timeCost": 5,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "500mL crystalloid given slowly. BP transiently improved but careful monitoring needed.",
+            "interpretation": "Fluids can worsen RV failure in massive PE - use cautiously"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["ecg", "abg", "echo_bedside", "thrombolysis", "heparin"],
+        "acceptable": ["ecg", "abg", "ct_pa", "thrombolysis", "heparin"],
+        "wrongActions": ["cxr", "cbc", "d_dimer"],
+        "wrongActionsConsequence": "Delay in thrombolysis in massive PE with shock increases mortality significantly",
+        "criticalErrors": [
+          {
+            "action": "d_dimer",
+            "consequence": "D-dimer testing in high-risk patients with shock delays life-saving treatment. Proceed directly to imaging or bedside echo."
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 15,
+          "stages": [
+            {"time": 5, "event": "Worsening shock. BP 70/40. Severe hypoxemia."},
+            {"time": 10, "event": "PEA cardiac arrest."},
+            {"time": 15, "event": "Death from obstructive shock."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "tPA working. BP improving. Oxygenation better."},
+            {"time": 60, "event": "Stabilizing. Transfer to ICU."},
+            {"time": 120, "event": "Hemodynamically stable. Plan for anticoagulation."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If missed: PE is the great masquerader. Always ask about risk factors (recent surgery, immobility, cancer, OCP). Bedside echo showing RV strain = treat as PE until proven otherwise.",
+        "keyTeaching": "Massive PE = PE with sustained hypotension (SBP <90 for >15 min) or requiring inotropes. Thrombolysis is first-line, NOT just anticoagulation.",
+        "guideline": "ESC PE Guidelines: High-risk PE (shock/hypotension) → immediate thrombolysis unless contraindicated. Do NOT delay for CT if bedside echo available."
+      },
+      "difficulty": "intermediate",
+      "xpReward": 300,
+      "reputationImpact": {
+        "correctDiagnosis": 50,
+        "correctTreatment": 75,
+        "fastThrombolysis": 40,
+        "delayedTreatment": -50,
+        "missedDiagnosis": -70,
+        "patientDeath": -120
+      }
+    },
+    {
+      "id": "cardiac_005",
+      "name": "Mr. Ibrahim",
+      "age": 68,
+      "gender": "male",
+      "complaint": "Progressive dyspnea over 3 days, orthopnea, PND, bilateral leg swelling. History of CAD, previous MI, diabetes.",
+      "triageNote": "68M, respiratory distress, orthopnea, bilateral edema, HR 115, BP 145/90, SpO2 88% on RA, crackles bilaterally",
+      "correctTriage": 2,
+      "correctDiagnosis": "Acute Decompensated Heart Failure with Reduced Ejection Fraction (ADHFrEF)",
+      "differentialDiagnoses": [
+        "COPD Exacerbation",
+        "Pneumonia",
+        "Massive Pulmonary Embolism",
+        "Renal Failure with Fluid Overload"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Sinus tachycardia. Old anteroseptal Q waves. LVH. No acute ST changes.",
+            "interpretation": "No acute ischemia. Evidence of prior MI and LVH consistent with chronic HF.",
+            "imageRef": "ecg_old_mi_lvh"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": true,
+          "result": {
+            "finding": "Cardiomegaly. Bilateral interstitial and alveolar opacities. Kerley B lines. Small bilateral pleural effusions. Cephalization of pulmonary vessels.",
+            "interpretation": "Classic pulmonary edema from congestive heart failure",
+            "imageRef": "cxr_pulmonary_edema"
+          }
+        },
+        {
+          "id": "abg",
+          "name": "Arterial Blood Gas",
+          "category": "lab",
+          "timeCost": 10,
+          "resultTime": 10,
+          "isEssential": true,
+          "result": {
+            "finding": "pH 7.34, pCO2 48, pO2 58, HCO3 26, Lactate 2.1, SaO2 87%",
+            "interpretation": "Type 2 respiratory failure (hypercapnic) with mild metabolic acidosis. Hypoxemia from pulmonary edema.",
+            "normalRange": "pH 7.35-7.45, pCO2 35-45"
+          }
+        },
+        {
+          "id": "bnp",
+          "name": "BNP/NT-proBNP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": false,
+          "result": {
+            "finding": "NT-proBNP: 8,500 pg/mL (markedly elevated)",
+            "interpretation": "Very high BNP confirms heart failure as cause of dyspnea",
+            "normalRange": "<300 pg/mL"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "hs-cTnI: 0.15 ng/mL (mildly elevated, stable)",
+            "interpretation": "Chronic mild elevation from demand ischemia in HF. No acute MI pattern.",
+            "normalRange": "<0.04 ng/mL"
+          }
+        },
+        {
+          "id": "echo",
+          "name": "Bedside Echocardiogram",
+          "category": "imaging",
+          "timeCost": 15,
+          "resultTime": 5,
+          "isEssential": false,
+          "result": {
+            "finding": "LVEF 25%. Severe global hypokinesis. Dilated LV. Moderate MR. No pericardial effusion. IVC dilated >2.1cm with <50% collapse.",
+            "interpretation": "Severe systolic dysfunction. IVC findings indicate significantly elevated CVP.",
+            "imageRef": "echo_severe_lv_dysfunction"
+          }
+        },
+        {
+          "id": "lasix",
+          "name": "IV Furosemide 40-80mg",
+          "category": "treatment",
+          "timeCost": 8,
+          "resultTime": 30,
+          "isEssential": true,
+          "result": {
+            "finding": "Urine output 1.2L in 2 hours. Respiratory status improving. Crackles decreasing. SpO2 93% on 2L O2.",
+            "interpretation": "Good diuretic response. Pulmonary edema resolving."
+          }
+        },
+        {
+          "id": "nitroglycerin",
+          "name": "IV Nitroglycerin Infusion",
+          "category": "treatment",
+          "timeCost": 10,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "BP reduced to 130/80. Preload and afterload reduction achieved. Dyspnea improved.",
+            "interpretation": "Vasodilator therapy effective in acute pulmonary edema"
+          }
+        },
+        {
+          "id": "niv",
+          "name": "Non-Invasive Ventilation (BiPAP)",
+          "category": "treatment",
+          "timeCost": 12,
+          "resultTime": 10,
+          "isEssential": false,
+          "result": {
+            "finding": "BiPAP IPAP 14/EPAP 6, FiO2 0.6. SpO2 improved to 96%. Work of breathing decreased. pCO2 improving.",
+            "interpretation": "NIV effective for acute cardiogenic pulmonary edema with hypercapnia"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": ["ecg", "cxr", "abg", "lasix", "nitroglycerin"],
+        "acceptable": ["ecg", "cxr", "abg", "lasix", "niv"],
+        "wrongActions": ["iv_fluids_bolus", "aspirin"],
+        "wrongActionsConsequence": "IV fluid bolus in pulmonary edema will worsen respiratory failure",
+        "criticalErrors": [
+          {
+            "action": "iv_fluids_bolus",
+            "consequence": "Fluid bolus in acute pulmonary edema can precipitate intubation and ICU admission"
+          }
+        ]
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 25,
+          "stages": [
+            {"time": 10, "event": "Increasing respiratory distress. SpO2 dropping below 85%."},
+            {"time": 20, "event": "Severe hypercapnia. Altered mental status. Impending respiratory arrest."},
+            {"time": 25, "event": "Respiratory arrest requiring intubation."}
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {"time": 30, "event": "Good diuresis. Breathing improved. SpO2 94%."},
+            {"time": 60, "event": "Crackles resolving. Patient comfortable on 2L NC."},
+            {"time": 120, "event": "Stable for admission to cardiology ward."}
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "If you thought it was COPD: Bilateral crackles + orthopnea + leg edema = heart failure. CXR with pulmonary edema confirms. COPD doesn't cause crackles.",
+        "keyTeaching": "Acute cardiogenic pulmonary edema treatment: Lasix + Nitrates + NIV if hypercapnic. DO NOT give IV fluids. Check ejection fraction to guide long-term therapy.",
+        "guideline": "ESC Heart Failure Guidelines: IV loop diuretics are first-line for acute pulmonary edema. Add vasodilators if hypertensive. NIV reduces intubation rate by 50%."
+      },
+      "difficulty": "beginner",
+      "xpReward": 150,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 35,
+        "gaveIVFluids": -40,
+        "missedDiagnosis": -30,
+        "patientDeath": -70
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 5,
+    "difficultyRange": "beginner to intermediate",
+    "systems": ["Cardiovascular"],
+    "conceptsTested": [
+      "ECG interpretation (STEMI vs Pericarditis vs PE vs Normal)",
+      "Chest X-Ray interpretation (Pulmonary edema, Widened mediastinum, Normal)",
+      "Triage decision-making",
+      "Treatment prioritization",
+      "Diagnostic reasoning",
+      "Recognition of time-critical emergencies"
+    ],
+    "lastUpdated": "2026-06-11"
+  }
+}

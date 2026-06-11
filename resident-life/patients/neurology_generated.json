@@ -1,0 +1,276 @@
+{
+  "module": "resident-life",
+  "category": "neurology",
+  "version": "1.0",
+  "description": "Clinical cases for neurology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_neuro_001",
+      "name": "Khalid Khan",
+      "age": 28,
+      "gender": "female",
+      "complaint": "unilateral throbbing headache associated with nausea, vomiting, and photophobia",
+      "triageNote": "Generated case - Headache Disorders",
+      "correctTriage": 3,
+      "correctDiagnosis": "Headache Disorders",
+      "differentialDiagnoses": [
+        "Propranolol 80mg daily for prevention",
+        "Ibuprofen 400mg PO",
+        "CT head without contrast",
+        "Oxygen 100% via non-rebreather mask"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "ct_scan",
+          "name": "CT Scan",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CT findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "ct_scan",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Propranolol 80mg daily for prevention, Ibuprofen 400mg PO, CT head without contrast",
+        "keyTeaching": "Triptans are first-line acute treatment for moderate-severe migraine. Take early in attack. Prophylaxis (beta-blockers, topiramate, CGRP antagonists) if >4 attacks/month.",
+        "guideline": "AAN Migraine Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_neuro_002",
+      "name": "Aisha Malik",
+      "age": 65,
+      "gender": "male",
+      "complaint": "sudden onset right-sided weakness and difficulty speaking for 90 minutes",
+      "triageNote": "Generated case - Cerebrovascular Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Cerebrovascular Disease",
+      "differentialDiagnoses": [
+        "Start aspirin 325mg immediately",
+        "Lower blood pressure aggressively",
+        "Start heparin infusion",
+        "Obtain MRI before treatment"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "ct_scan",
+          "name": "CT Scan",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CT findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "ct_scan",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Start aspirin 325mg immediately, Lower blood pressure aggressively, Start heparin infusion",
+        "keyTeaching": "IV tPA within 4.5 hours of ischemic stroke onset improves outcomes. Do not delay for MRI. Do not give aspirin within 24h of tPA. Control BP before tPA if >185/110.",
+        "guideline": "AHA/ASA Acute Stroke Guidelines 2023"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 2,
+    "source": "Generated from questions/neurology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

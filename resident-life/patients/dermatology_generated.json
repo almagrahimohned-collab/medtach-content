@@ -1,0 +1,236 @@
+{
+  "module": "resident-life",
+  "category": "dermatology",
+  "version": "1.0",
+  "description": "Clinical cases for dermatology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_derm_001",
+      "name": "Ibrahim Al-Sayed",
+      "age": 30,
+      "gender": "male",
+      "complaint": "well-demarcated erythematous plaques with silvery scales on his elbows, knees, and scalp",
+      "triageNote": "Generated case - Papulosquamous Disorders",
+      "correctTriage": 1,
+      "correctDiagnosis": "Papulosquamous Disorders",
+      "differentialDiagnoses": [
+        "Topical corticosteroids only",
+        "Ketoconazole cream",
+        "Acyclovir",
+        "No treatment, self-limited"
+      ],
+      "possibleActions": [
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Topical corticosteroids only, Ketoconazole cream, Acyclovir",
+        "keyTeaching": "Psoriasis + arthritis = systemic therapy (MTX first-line). Nail pitting common. Anti-IL17 (secukinumab) highly effective for both skin and joints.",
+        "guideline": "AAD/NPF Psoriasis Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_derm_002",
+      "name": "Sara Al-Hashimi",
+      "age": 50,
+      "gender": "male",
+      "complaint": "a red, warm, swollen, tender area on his right lower leg with poorly demarcated borders",
+      "triageNote": "Generated case - Skin Infections",
+      "correctTriage": 3,
+      "correctDiagnosis": "Skin Infections",
+      "differentialDiagnoses": [
+        "Erysipelas - Penicillin VK",
+        "Deep vein thrombosis - Anticoagulation",
+        "Contact dermatitis - Topical steroids",
+        "Necrotizing fasciitis - Emergency surgery"
+      ],
+      "possibleActions": [
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Erysipelas - Penicillin VK, Deep vein thrombosis - Anticoagulation, Contact dermatitis - Topical steroids",
+        "keyTeaching": "Cellulitis: poorly demarcated, warm, tender, erythematous. Treat with anti-strep/staph antibiotics. Mark borders to monitor progression.",
+        "guideline": "IDSA Skin Infection Guidelines 2024"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 2,
+    "source": "Generated from questions/dermatology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}

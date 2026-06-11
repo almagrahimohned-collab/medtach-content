@@ -1,0 +1,685 @@
+{
+  "module": "resident-life",
+  "category": "cardiology",
+  "version": "1.0",
+  "description": "Clinical cases for cardiology - generated from medtach-content questions",
+  "patients": [
+    {
+      "id": "gen_q_cardio_001",
+      "name": "Zainab Al-Sayed",
+      "age": 60,
+      "gender": "male",
+      "complaint": "crushing substernal chest pain radiating to the left arm for 2 hours",
+      "triageNote": "Generated case - Acute Coronary Syndrome",
+      "correctTriage": 2,
+      "correctDiagnosis": "Acute Coronary Syndrome",
+      "differentialDiagnoses": [
+        "Unstable Angina",
+        "Aortic Dissection",
+        "Acute Pericarditis",
+        "Massive Pulmonary Embolism"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "ECG findings (see description)",
+            "interpretation": "Interpret based on clinical context"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "ecg",
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "ecg",
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Unstable Angina, Aortic Dissection, Acute Pericarditis",
+        "keyTeaching": "Door-to-balloon time should be less than 90 minutes for optimal outcomes in STEMI. If PCI unavailable within 120 minutes, administer thrombolytics.",
+        "guideline": "AHA/ACC STEMI Guidelines 2023"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_cardio_002",
+      "name": "Ahmed Al-Hashimi",
+      "age": 45,
+      "gender": "female",
+      "complaint": "palpitations and irregular heartbeat for 3 days",
+      "triageNote": "Generated case - Arrhythmias",
+      "correctTriage": 3,
+      "correctDiagnosis": "Arrhythmias",
+      "differentialDiagnoses": [
+        "Immediate electrical cardioversion",
+        "Start amiodarone for rhythm control",
+        "Start warfarin immediately",
+        "Refer for catheter ablation"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "ECG findings (see description)",
+            "interpretation": "Interpret based on clinical context"
+          }
+        },
+        {
+          "id": "troponin",
+          "name": "High-Sensitivity Troponin I",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": true,
+          "result": {
+            "finding": "hs-cTnI: pending",
+            "interpretation": "Check serial troponins"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "ecg",
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "ecg",
+          "troponin",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Immediate electrical cardioversion, Start amiodarone for rhythm control, Start warfarin immediately",
+        "keyTeaching": "In stable AF with RVR: rate control first (beta-blocker or CCB). Anticoagulate based on CHA₂DS₂-VASc score. Cardioversion only if unstable.",
+        "guideline": "AHA/ACC/HRS AF Guidelines 2023"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_cardio_003",
+      "name": "Mariam Al-Rashid",
+      "age": 72,
+      "gender": "male",
+      "complaint": "progressive dyspnea on exertion, orthopnea requiring 3 pillows, and bilateral leg edema",
+      "triageNote": "Generated case - Heart Failure",
+      "correctTriage": 2,
+      "correctDiagnosis": "Heart Failure",
+      "differentialDiagnoses": [
+        "Start metoprolol + digoxin",
+        "Emergency coronary angiography",
+        "IV fluids 1L bolus",
+        "Verapamil for rate control"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "ECG findings (see description)",
+            "interpretation": "Interpret based on clinical context"
+          }
+        },
+        {
+          "id": "cxr",
+          "name": "Chest X-Ray",
+          "category": "imaging",
+          "timeCost": 12,
+          "resultTime": 15,
+          "isEssential": false,
+          "result": {
+            "finding": "CXR findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "ecg",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "ecg",
+          "cxr",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Start metoprolol + digoxin, Emergency coronary angiography, IV fluids 1L bolus",
+        "keyTeaching": "In acute HF: diurese first → add ACEi/ARB → add beta-blockers when stable. Never give IV fluids or verapamil in HFrEF.",
+        "guideline": "AHA/ACC HF Guidelines 2022"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_cardio_004",
+      "name": "Mustafa Al-Sayed",
+      "age": 55,
+      "gender": "male",
+      "complaint": "A 55-year-old African American man is diagnosed with stage 1 hypertension (BP 145/92 on 3 readings)",
+      "triageNote": "Generated case - Hypertension",
+      "correctTriage": 3,
+      "correctDiagnosis": "Hypertension",
+      "differentialDiagnoses": [
+        "Lisinopril (ACE inhibitor)",
+        "Atenolol (Beta-blocker)",
+        "Losartan (ARB)",
+        "Hydralazine"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "ECG findings (see description)",
+            "interpretation": "Interpret based on clinical context"
+          }
+        },
+        {
+          "id": "ct_scan",
+          "name": "CT Scan",
+          "category": "imaging",
+          "timeCost": 20,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CT findings pending",
+            "interpretation": "Awaiting radiology read"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "ecg",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "ecg",
+          "ct_scan",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Lisinopril (ACE inhibitor), Atenolol (Beta-blocker), Losartan (ARB)",
+        "keyTeaching": "In African Americans with HTN: CCB or thiazide first-line. ACEi/ARB less effective as monotherapy. Add ACEi/ARB if proteinuric CKD.",
+        "guideline": "ACC/AHA HTN Guidelines 2017"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    },
+    {
+      "id": "gen_q_cardio_005",
+      "name": "Ali Al-Rashid",
+      "age": 30,
+      "gender": "male",
+      "complaint": "fever 39",
+      "triageNote": "Generated case - Valvular Disease",
+      "correctTriage": 3,
+      "correctDiagnosis": "Valvular Disease",
+      "differentialDiagnoses": [
+        "Rheumatic Heart Disease",
+        "Acute Pericarditis",
+        "Septic Shock without endocarditis",
+        "Dilated Cardiomyopathy"
+      ],
+      "possibleActions": [
+        {
+          "id": "ecg",
+          "name": "12-Lead ECG",
+          "category": "investigation",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "ECG findings (see description)",
+            "interpretation": "Interpret based on clinical context"
+          }
+        },
+        {
+          "id": "cbc",
+          "name": "CBC",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 20,
+          "isEssential": true,
+          "result": {
+            "finding": "WBC 15.2, Hb 13.5, Plt 220",
+            "interpretation": "Leukocytosis suggests infection"
+          }
+        },
+        {
+          "id": "crp",
+          "name": "CRP",
+          "category": "lab",
+          "timeCost": 5,
+          "resultTime": 25,
+          "isEssential": false,
+          "result": {
+            "finding": "CRP: 85 mg/L",
+            "interpretation": "Elevated - suggests bacterial infection"
+          }
+        },
+        {
+          "id": "history",
+          "name": "Detailed History",
+          "category": "clinical",
+          "timeCost": 8,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "History obtained",
+            "interpretation": "Key clinical information gathered"
+          }
+        },
+        {
+          "id": "exam",
+          "name": "Physical Examination",
+          "category": "clinical",
+          "timeCost": 5,
+          "resultTime": 0,
+          "isEssential": true,
+          "result": {
+            "finding": "Examination completed",
+            "interpretation": "Physical findings documented"
+          }
+        }
+      ],
+      "treatmentPathway": {
+        "correct": [
+          "ecg",
+          "cbc",
+          "history",
+          "exam"
+        ],
+        "acceptable": [
+          "ecg",
+          "cbc",
+          "crp",
+          "history",
+          "exam"
+        ],
+        "wrongActions": [],
+        "wrongActionsConsequence": "Inappropriate management may lead to clinical deterioration",
+        "criticalErrors": []
+      },
+      "deteriorationPattern": {
+        "withoutTreatment": {
+          "timer": 30,
+          "stages": [
+            {
+              "time": 10,
+              "event": "Clinical deterioration beginning"
+            },
+            {
+              "time": 20,
+              "event": "Critical condition developing"
+            },
+            {
+              "time": 30,
+              "event": "Life-threatening if no intervention"
+            }
+          ]
+        },
+        "withCorrectTreatment": {
+          "timer": 120,
+          "stages": [
+            {
+              "time": 30,
+              "event": "Clinical improvement noted"
+            },
+            {
+              "time": 60,
+              "event": "Patient stabilizing"
+            },
+            {
+              "time": 120,
+              "event": "Patient stable, plan for disposition"
+            }
+          ]
+        }
+      },
+      "learningPoints": {
+        "missedDiagnosis": "Consider differential diagnoses: Rheumatic Heart Disease, Acute Pericarditis, Septic Shock without endocarditis",
+        "keyTeaching": "IVDU + fever + new murmur + S. aureus = Infective endocarditis. Treat with prolonged IV antibiotics (4-6 weeks). Echo diagnostic.",
+        "guideline": "AHA Infective Endocarditis Guidelines 2023"
+      },
+      "difficulty": "beginner",
+      "xpReward": 100,
+      "reputationImpact": {
+        "correctDiagnosis": 20,
+        "correctTreatment": 30,
+        "missedDiagnosis": -40,
+        "patientDeath": -80
+      }
+    }
+  ],
+  "metadata": {
+    "totalCases": 5,
+    "source": "Generated from questions/cardiology",
+    "generatedBy": "generate_cases.py",
+    "difficultyRange": "beginner to beginner"
+  }
+}
