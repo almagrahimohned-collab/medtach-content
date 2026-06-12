@@ -1,0 +1,18 @@
+{
+  "id": "ped_gen_001",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Fever and Rash - Kawasaki Disease",
+  "department": "Pediatric Ward",
+  "patient": { "age": 3, "gender": "male", "name": "Child Youssef (3 years)", "persona": "irritable, high fever" },
+  "chief_complaint": "Fever >39°C for 6 days unresponsive to antibiotics, bilateral conjunctivitis, strawberry tongue, rash on trunk, swollen hands and feet, and cervical lymphadenopathy.",
+  "vitals": { "bp": "95/60 mmHg", "hr": 140, "rr": 28, "spo2": "98%", "temp": "39.5°C" },
+  "physical_exam": { "eyes": "Bilateral non-exudative conjunctivitis", "mouth": "Strawberry tongue, cracked red lips, pharyngeal erythema", "skin": "Polymorphous rash on trunk, erythema and edema of hands and feet", "lymph": "Unilateral cervical lymphadenopathy 2cm" },
+  "hidden_data": { "cbc": "WBC: 18,000, Hb: 10.5, PLT: 550,000 (thrombocytosis)", "esr": "ESR: 85 mm/hr", "crp": "CRP: 120 mg/L", "echo": "Mild coronary artery dilation (LAD 2.8mm, Z-score +2.5)" },
+  "media": {},
+  "correct_diagnosis": "Kawasaki Disease (Complete, with Coronary Artery Dilation)",
+  "differential_diagnoses": ["Scarlet Fever", "Stevens-Johnson Syndrome", "Measles", "Juvenile Idiopathic Arthritis"],
+  "key_learning_points": ["Fever >5 days + 4 of 5 criteria", "IVIG within 10 days prevents coronary aneurysms", "High-dose aspirin during acute phase", "Echo at diagnosis, 2 weeks, and 6-8 weeks"],
+  "patient_responses": { "fever": "The fever won't go down with Tylenol or antibiotics", "rash": "The rash started on day 3", "eyes": "His eyes are red but no discharge" },
+  "hints": { "criteria": "Count the diagnostic criteria", "treatment": "IVIG 2g/kg + high-dose aspirin" },
+  "feedback": { "correct_message": "Excellent! Kawasaki disease diagnosed correctly.", "incorrect_message": "This is Kawasaki disease. The prolonged fever + 4 criteria + thrombocytosis confirm it.", "test_evaluation": { "echo": { "necessity": "essential", "comment": "Shows coronary artery dilation." }, "esr": { "necessity": "essential", "comment": "Markedly elevated." }, "cbc": { "necessity": "essential", "comment": "Thrombocytosis classic." } }, "attending_note": "Kawasaki: IVIG 2g/kg over 12h + high-dose aspirin (80-100mg/kg/day) until afebrile, then low-dose. Echo now, at 2 weeks, and 6-8 weeks. Treat within 10 days to prevent coronary aneurysms. Well done catching this early." }
+}

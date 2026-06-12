@@ -1,0 +1,18 @@
+{
+  "id": "surg_gen_005",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Groin Bulge - Inguinal Hernia",
+  "department": "Surgery Clinic",
+  "patient": { "age": 55, "gender": "male", "name": "Mr. Sami Zaid", "persona": "concerned about lump" },
+  "chief_complaint": "Right groin bulge for 3 months, increases with coughing and standing, reduces when lying down. Occasional discomfort. No pain currently.",
+  "vitals": { "bp": "135/85 mmHg", "hr": 78, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "groin": "Reducible bulge in right inguinal region, impulse on cough, no tenderness, transillumination negative" },
+  "hidden_data": { "us_groin": "Right direct inguinal hernia with bowel content, reducible" },
+  "media": {},
+  "correct_diagnosis": "Right Direct Inguinal Hernia (Reducible)",
+  "differential_diagnoses": ["Indirect Inguinal Hernia", "Femoral Hernia", "Hydrocele", "Lymphadenopathy"],
+  "key_learning_points": ["Direct = through Hesselbach triangle (medial to epigastric vessels)", "Indirect = through deep inguinal ring (lateral)", "Elective mesh repair for symptomatic", "Watchful waiting for asymptomatic elderly"],
+  "patient_responses": { "lump": "It comes out when I cough or stand for long", "pain": "Just mild discomfort", "reduction": "It goes back when I lie down" },
+  "hints": { "exam": "Cough impulse and reducibility", "diagnosis": "Ultrasound confirms type" },
+  "feedback": { "correct_message": "Correct! Direct inguinal hernia - well diagnosed.", "incorrect_message": "This is a direct inguinal hernia. The cough impulse + reducibility confirm it.", "test_evaluation": { "us_groin": { "necessity": "essential", "comment": "Confirms hernia type." } }, "attending_note": "Direct inguinal hernia: Elective Lichtenstein tension-free mesh repair. Open or laparoscopic approach. Most patients go home same day. Avoid heavy lifting for 4-6 weeks post-op." }
+}

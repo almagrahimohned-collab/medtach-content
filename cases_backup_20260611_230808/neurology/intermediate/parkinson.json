@@ -1,0 +1,18 @@
+{
+  "id": "neuro_intermediate_006",
+  "specialty": "neurology", "difficulty": "intermediate",
+  "title": "Tremor and Bradykinesia - Parkinson Disease",
+  "department": "Neurology Clinic",
+  "patient": { "age": 65, "gender": "male", "name": "Mr. Jamil Abbas", "persona": "tremulous, slow movements" },
+  "chief_complaint": "Progressive right hand tremor at rest for 1 year, now involving right leg. Movements have become slow, and handwriting has become small. Wife notes he blinks less and has a masked face.",
+  "vitals": { "bp": "130/80 mmHg", "hr": 72, "rr": 16, "spo2": "99%", "temp": "36.6°C" },
+  "physical_exam": { "neuro": "Resting pill-rolling tremor right hand, bradykinesia, cogwheel rigidity right arm, shuffling gait, decreased arm swing, masked facies, micrographia" },
+  "hidden_data": { "mri_brain": "Normal, no basal ganglia lesions", "datscan": "Reduced dopamine transporter uptake in bilateral putamina, right > left" },
+  "media": {},
+  "correct_diagnosis": "Idiopathic Parkinson Disease (Stage 2 Hoehn & Yahr)",
+  "differential_diagnoses": ["Essential Tremor", "Drug-Induced Parkinsonism", "Multiple System Atrophy", "Progressive Supranuclear Palsy"],
+  "key_learning_points": ["TRAP: Tremor, Rigidity, Akinesia, Postural instability", "Asymmetric onset = typical PD", "Levodopa/Carbidopa first-line", "DaTscan for diagnostic uncertainty"],
+  "patient_responses": { "tremor": "It's worse when I'm resting, gets better when I move", "walking": "I feel stiff and my steps are smaller", "handwriting": "My writing has gotten tiny, I can't control it" },
+  "hints": { "symptoms": "Remember TRAP mnemonic", "diagnosis": "Clinical diagnosis, DaTscan if uncertain" },
+  "feedback": { "correct_message": "Excellent! Parkinson disease with classic asymmetric features.", "incorrect_message": "This is Parkinson disease. The resting tremor + bradykinesia + rigidity are classic.", "test_evaluation": { "datscan": { "necessity": "optional", "comment": "Confirms but clinical diagnosis is sufficient." }, "mri_brain": { "necessity": "optional", "comment": "Rules out structural lesions." } }, "attending_note": "PD management: Carbidopa/Levodopa 25/100 TID starting dose. Titrate slowly. Physical therapy for gait and balance. Monitor for motor fluctuations and dyskinesias. Non-motor symptoms: depression, constipation, REM sleep disorder." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cardio_beginner_004",
+  "specialty": "cardiology", "difficulty": "beginner",
+  "title": "Sharp Chest Pain - Acute Pericarditis",
+  "department": "Emergency Department",
+  "patient": { "age": 30, "gender": "male", "name": "Mr. Karim Ali", "persona": "anxious, in pain" },
+  "chief_complaint": "Sharp chest pain for 2 days, worse when lying down and with deep breathing, relieved by sitting forward",
+  "vitals": { "bp": "130/80 mmHg", "hr": 100, "rr": 22, "spo2": "97%", "temp": "38.1°C" },
+  "physical_exam": { "general": "Sitting forward on bed", "heart": "Pericardial friction rub heard at left sternal border", "chest": "Clear breath sounds" },
+  "hidden_data": { "ecg": "Diffuse ST elevation in multiple leads with PR depression in II", "troponin": "Troponin I: 0.5 ng/mL (mildly elevated)", "cxr": "Normal heart size, clear lungs", "crp": "CRP: 85 mg/L (elevated)", "echo": "Small pericardial effusion, no tamponade" },
+  "media": {},
+  "correct_diagnosis": "Acute Pericarditis",
+  "differential_diagnoses": ["STEMI", "Myocarditis", "Pleuritic Chest Pain", "Costochondritis"],
+  "key_learning_points": ["Diffuse ST elevation ≠ STEMI", "PR depression is characteristic", "Treat with NSAIDs + Colchicine", "Avoid steroids in first episode"],
+  "patient_responses": { "pain_onset": "Started 2 days ago after a flu-like illness", "pain_character": "Sharp, stabbing pain, worse when I lie flat", "relieving_factor": "It feels better when I sit up and lean forward" },
+  "hints": { "ecg_hint": "Look at ALL leads - is the ST elevation localized or diffuse?", "exam_hint": "Listen carefully at the left sternal border" },
+  "feedback": { "correct_message": "Excellent! You correctly identified pericarditis. The diffuse ST elevation and PR depression are classic.", "incorrect_message": "This is acute pericarditis, not what you diagnosed. Key features: diffuse ST elevation (not localized like STEMI), PR depression, positional pain.", "test_evaluation": { "ecg": { "necessity": "essential", "comment": "Essential for diagnosis. Shows diffuse ST elevation." }, "troponin": { "necessity": "essential", "comment": "Important to check for myocardial involvement." }, "cxr": { "necessity": "optional", "comment": "Reasonable to rule out other causes." }, "echo": { "necessity": "essential", "comment": "Important to assess for pericardial effusion." } }, "attending_note": "Good case, Doctor. Remember: NSAIDs + Colchicine for 3 months is first-line. Avoid steroids in initial episodes as they increase recurrence risk." }
+}

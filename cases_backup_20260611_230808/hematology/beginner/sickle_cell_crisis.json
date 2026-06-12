@@ -1,0 +1,85 @@
+{
+  "id": "hema_beginner_sickle_cell",
+  "specialty": "hematology",
+  "difficulty": "beginner",
+  "title": "Sickle Cell Vaso-occlusive Crisis",
+  "department": "Hematology",
+  "patient": {
+    "age": 24,
+    "gender": "female",
+    "name": "Keisha Williams",
+    "persona": "college student with sickle cell disease (HbSS), experiencing severe pain crisis"
+  },
+  "chief_complaint": "My back and legs are killing me! This is the worst pain I've ever had. It started yesterday and it's just getting worse. My pain medications at home aren't touching it.",
+  "vitals": {
+    "BP": "130/82",
+    "HR": "108",
+    "RR": "22",
+    "SpO2": "94%",
+    "Temp": "37.6°C"
+  },
+  "physical_exam": {
+    "General": "Young woman in severe pain, crying, unable to find comfortable position",
+    "Cardiac": "Tachycardia, regular, flow murmur (anemia), no rubs or gallops",
+    "Lungs": "Clear bilaterally",
+    "Abdomen": "Mild diffuse tenderness, no guarding, no rebound, no hepatosplenomegaly",
+    "Extremities": "Warm, no swelling, no erythema. Diffuse tenderness over long bones and back. No joint effusions.",
+    "Neurologic": "Alert, oriented, no focal deficits",
+    "Skin": "No rash, no leg ulcers, scleral icterus present"
+  },
+  "hidden_data": {
+    "cbc": "WBC 14,500 (stress leukocytosis), Hb 6.8 (baseline 8.0), Hct 21%, MCV 88, Platelets 320,000, Sickle cells on peripheral smear",
+    "reticulocyte": "Reticulocyte count 8% (elevated - appropriate bone marrow response to hemolysis)",
+    "cmp": "Sodium 140, Potassium 4.2, BUN 14, Creatinine 0.8, Total Bilirubin 4.5, Direct Bilirubin 0.6, LDH 580 (elevated - hemolysis), AST 45, ALT 30",
+    "cxr": "Clear lungs, no infiltrates, no cardiomegaly",
+    "ecg": "Sinus tachycardia, no ST changes, no evidence of pulmonary hypertension",
+    "urinalysis": "Specific gravity 1.030 (concentrated from dehydration), no blood, no protein, no infection"
+  },
+  "media": {},
+  "correct_diagnosis": "Sickle Cell Vaso-occlusive Crisis (Pain Crisis) with Acute Hemolytic Anemia",
+  "differential_diagnoses": [
+    "Acute Chest Syndrome",
+    "Splenic Sequestration Crisis",
+    "Aplastic Crisis (Parvovirus B19)",
+    "Osteomyelitis",
+    "Acute Gout",
+    "Pulmonary Embolism"
+  ],
+  "key_learning_points": [
+    "Vaso-occlusive crisis (VOC) = most common sickle cell complication. Caused by sickled RBCs obstructing microvasculature → tissue ischemia → severe pain",
+    "Triggers: Dehydration, infection, stress, cold exposure, hypoxia, acidosis, pregnancy, altitude",
+    "Pain is typically severe and requires opioid analgesia. Common sites: Back, long bones, chest, abdomen, joints",
+    "Laboratory findings: Drop in Hb from baseline (hemolysis), elevated reticulocyte count (compensatory), elevated LDH and indirect bilirubin",
+    "Management: Aggressive IV fluids (hypotonic), opioid analgesia (PCA or scheduled), incentive spirometry to prevent acute chest syndrome, oxygen if hypoxic"
+  ],
+  "patient_responses": {
+    "pain": "It's deep in my bones - my lower back, hips, and thighs. It's a 9 out of 10. It feels like someone is crushing my bones from the inside. Nothing makes it better.",
+    "onset": "I was studying for finals, didn't drink enough water, was stressed and cold in the library. It started as a dull ache yesterday morning and by evening I couldn't walk.",
+    "past": "I have 4-5 crises like this a year. Usually I can manage at home with oral opioids and fluids. This is different - it's much worse. I've been hospitalized twice before for pain crises.",
+    "medications": "Hydroxyurea 1500mg daily. Folic acid 5mg daily. Percocet 10/325 at home PRN (took 4 yesterday - no relief). Penicillin VK 250mg BID for prophylaxis.",
+    "baseline_hb": "My normal hemoglobin is about 8.0-8.5 g/dL."
+  },
+  "hints": {
+    "history": "Severe bone pain in sickle cell patient. Ask about triggers (dehydration, infection, stress), previous transfusions, baseline Hb, and hydroxyurea adherence.",
+    "examination": "Look for signs of complications: Acute chest syndrome (tachypnea, crackles, hypoxia), splenic sequestration (splenomegaly, hypotension), stroke (focal neuro), priapism.",
+    "labs": "CBC with reticulocyte count (Hb drop from baseline, elevated retics). CMP (hemolysis markers). Type and screen if transfusion needed.",
+    "imaging": "CXR to rule out acute chest syndrome. No routine imaging for pain crisis. CT/MRI if suspecting osteomyelitis or avascular necrosis."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly diagnosed a vaso-occlusive crisis based on the typical bone pain, trigger (dehydration, stress), drop in Hb from baseline (6.8 vs 8.0), and elevated LDH/bilirubin indicating hemolysis. Aggressive IV hydration, opioid analgesia, incentive spirometry, and oxygen for hypoxia are the cornerstones of management.",
+    "partially_correct_message": "Good recognition of sickle cell pain! However, the low Hb (6.8) with elevated reticulocytes and LDH indicates this is a vaso-occlusive crisis with acute hemolysis, not acute chest syndrome (no respiratory symptoms, clear CXR). VOC management focuses on aggressive pain control, IV fluids, and preventing complications.",
+    "incorrect_message": "This is classic vaso-occlusive crisis: severe bone pain in known HbSS patient with triggering factors (dehydration, stress). The labs show hemolysis (Hb drop, elevated LDH, indirect hyperbilirubinemia). Treatment is NOT just 'give more pain meds and send home' - this patient needs IV hydration, aggressive pain management, and monitoring for complications like acute chest syndrome.",
+    "clinical_pearls": [
+      "Incentive spirometry (10 breaths q2h while awake) reduces risk of acute chest syndrome by preventing atelectasis and rib infarction",
+      "IV fluids should be hypotonic (D5½NS or D5¼NS) at 1-1.5× maintenance to avoid pulmonary edema while correcting dehydration",
+      "Fever >38.5°C in sickle cell patient = infection until proven otherwise. Functional asplenia increases risk of encapsulated organisms"
+    ],
+    "test_evaluation": {
+      "cbc": {"necessity": "essential", "comment": "Hb 6.8 (drop from 8.0) with elevated reticulocytes confirms hemolysis. WBC 14.5K typical for VOC"},
+      "cmp": {"necessity": "essential", "comment": "LDH 580, Total Bilirubin 4.5 with Direct 0.6 = hemolysis (indirect hyperbilirubinemia). Normal Cr = no renal involvement"},
+      "cxr": {"necessity": "essential", "comment": "Clear CXR rules out acute chest syndrome. Must repeat if respiratory symptoms develop"}
+    },
+    "missing_tests": ["Blood cultures if T >38.5°C. Parvovirus B19 if reticulocytopenia (aplastic crisis). Type and screen if Hb <6 or symptomatic anemia"],
+    "attending_note": "Doctor, admit for VOC management. IV D5½NS at 125-150mL/hr (1-1.5× maintenance). Morphine PCA or Dilaudid 1-2mg IV q2-4h PRN. Incentive spirometry q2h while awake. Folic acid 5mg daily continue. Oxygen if SpO2 <92%. Monitor for acute chest syndrome (q4h vitals, daily CXR if any respiratory symptoms). Pain should improve in 3-5 days. If Hb drops below 6 or symptoms of anemia (dyspnea, tachycardia): Consider simple transfusion (not exchange). Discharge when pain controlled on oral opioids."
+  }
+}

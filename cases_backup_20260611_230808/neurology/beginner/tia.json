@@ -1,0 +1,89 @@
+{
+  "id": "neuro_beginner_tia",
+  "specialty": "neurology",
+  "difficulty": "beginner",
+  "title": "Transient Ischemic Attack",
+  "department": "Neurology",
+  "patient": {
+    "age": 68,
+    "gender": "male",
+    "name": "Frank Williams",
+    "persona": "retired teacher, hypertensive smoker, anxious about stroke"
+  },
+  "chief_complaint": "This morning I couldn't move my right arm and my speech was slurred. My wife said the right side of my face was drooping. It only lasted about 15 minutes and then I was completely back to normal. My wife made me come to the ER even though I feel fine now.",
+  "vitals": {
+    "BP": "168/92",
+    "HR": "78",
+    "RR": "16",
+    "SpO2": "97%",
+    "Temp": "36.8°C"
+  },
+  "physical_exam": {
+    "General": "Well-appearing male, no distress, conversational",
+    "Neurologic": "Full neurologic exam completely NORMAL. Cranial nerves intact. Motor 5/5 throughout. Sensation intact. Coordination normal. Gait normal. Speech fluent, no aphasia or dysarthria. NIHSS = 0.",
+    "Cardiac": "Regular rate and rhythm, no carotid bruits, no murmurs",
+    "Carotid": "No bruits auscultated",
+    "Extremities": "Pulses 2+ bilaterally, no edema"
+  },
+  "hidden_data": {
+    "ct_head": "CT Head non-contrast: No acute hemorrhage. No acute infarction. Mild chronic small vessel ischemic changes in periventricular white matter. No mass effect.",
+    "cta_head_neck": "CTA Head and Neck: 70% stenosis of right internal carotid artery at bifurcation (NASCET criteria). No intracranial large vessel occlusion. Left carotid: 30% stenosis.",
+    "ecg": "Sinus rhythm 78 bpm. No atrial fibrillation. No ST-T changes. No LVH.",
+    "echo": "TTE: Normal LV size and function. EF 60%. No thrombus. No valvular disease. Left atrial size normal.",
+    "telemetry": "24-hour telemetry: No paroxysmal atrial fibrillation detected.",
+    "cbc": "WBC 8,200, Hb 14.5, Platelets 245,000",
+    "cmp": "Glucose 130, Creatinine 1.0, normal electrolytes",
+    "lipid": "LDL 175, HDL 35, Triglycerides 200, Total Cholesterol 240",
+    "hba1c": "HbA1c 6.0% (pre-diabetes)",
+    "coagulation": "PT/PTT normal, INR 1.0",
+    "carotid_duplex": "Right internal carotid artery: 70-79% stenosis. Peak systolic velocity 280 cm/s. Left: 30% stenosis."
+  },
+  "media": {},
+  "correct_diagnosis": "Transient Ischemic Attack (TIA) - Right Carotid Territory, secondary to High-Grade Right Internal Carotid Artery Stenosis",
+  "differential_diagnoses": [
+    "Ischemic Stroke (resolved deficits make this TIA)",
+    "Complex Migraine with Aura",
+    "Focal Seizure with Todd Paralysis",
+    "Hypoglycemia",
+    "Conversion Disorder",
+    "Amyloid Spell (Cerebral Amyloid Angiopathy)"
+  ],
+  "key_learning_points": [
+    "TIA = transient episode of neurologic dysfunction caused by focal brain ischemia WITHOUT acute infarction on imaging. Symptoms typically last <1 hour (usually <15 minutes)",
+    "ABCD² score predicts early stroke risk after TIA: Age ≥60 (1), BP ≥140/90 (1), Clinical: unilateral weakness (2) or speech impairment (1), Duration ≥60 min (2) or 10-59 min (1), Diabetes (1)",
+    "High-risk TIA (ABCD² ≥4 or high-risk mechanism like carotid stenosis): Urgent evaluation within 24h. Dual antiplatelet therapy (Aspirin + Clopidogrel) ×21 days reduces stroke risk by 31% (CHANCE/POINT trials)",
+    "Carotid stenosis ≥70% in symptomatic patient = indication for carotid endarterectomy (CEA) within 2 weeks. NNT = 6 to prevent 1 stroke at 2 years",
+    "TIA is a medical emergency - 10% risk of stroke within 90 days, half occur within first 48 hours"
+  ],
+  "patient_responses": {
+    "episode": "I was eating breakfast and suddenly I couldn't hold my fork. My arm felt heavy and useless. When I tried to tell my wife, the words came out garbled. She said my face looked funny. By the time we got to the car, I was back to normal. Maybe 15 minutes total.",
+    "risk_factors": "I've had high blood pressure for 20 years. I take medications but I'm not great about taking them every day. I've smoked a pack a day for 40 years. My father died of a stroke at 72.",
+    "previous": "I had a similar episode about a week ago - my right hand felt clumsy for 5 minutes while I was gardening. I thought I just pinched a nerve. Didn't think anything of it.",
+    "medications": "Lisinopril 20mg (when I remember), Hydrochlorothiazide 25mg. That's it."
+  },
+  "hints": {
+    "history": "Rapid onset focal neurologic deficit that completely resolved = TIA. Ask about timing (ABCD² score), previous episodes, risk factors (HTN, DM, smoking, AFib, carotid disease).",
+    "examination": "Thorough neurologic exam including NIHSS (should be 0 in TIA after resolution). Check for carotid bruits, cardiac arrhythmia, and peripheral vascular disease.",
+    "labs": "CT Head to rule out hemorrhage (some TIAs actually have small infarcts on DWI MRI). CTA or carotid duplex for carotid stenosis. Echo and telemetry to rule out cardioembolic source. Lipid panel, HbA1c.",
+    "imaging": "MRI brain with DWI is most sensitive (30-50% of TIAs have small infarcts). CTA head/neck evaluates for carotid stenosis and intracranial atherosclerosis."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly diagnosed a TIA (ABCD² score 5: high risk) and identified the culprit - 70% right carotid stenosis on CTA. The normal CT, resolved symptoms, and carotid disease confirm the mechanism. This requires urgent CEA, DAPT, and aggressive risk factor modification to prevent a devastating stroke.",
+    "partially_correct_message": "Good job recognizing a TIA! However, the 70% carotid stenosis on CTA is the likely etiology and requires urgent surgical intervention (CEA within 2 weeks), not just medical management. This is symptomatic high-grade stenosis - the stroke risk is 15-20% in the next 90 days without revascularization.",
+    "incorrect_message": "This is a TIA from symptomatic high-grade carotid stenosis (70% right ICA). The ABCD² score is 5 (high risk). This requires EMERGENT workup (done here) and URGENT intervention: Dual antiplatelet therapy (Aspirin + Clopidogrel) for 21 days, high-intensity statin, aggressive BP control, and carotid endarterectomy within 2 weeks. Without treatment, risk of stroke is 15-20% in 90 days.",
+    "clinical_pearls": [
+      "DAPT (Aspirin + Clopidogrel) for minor stroke/TIA reduces recurrent stroke by 31% in first 90 days - but only for the first 21 days (beyond that, bleeding risk outweighs benefit)",
+      "Carotid endarterectomy is most effective when performed within 2 weeks of the sentinel TIA/stroke. Benefit declines rapidly after 2 weeks",
+      "ABCD² score ≥4 = high-risk TIA. These patients should be admitted for expedited workup and treatment, not discharged from the ED"
+    ],
+    "test_evaluation": {
+      "ct_head": {"necessity": "essential", "comment": "Rules out hemorrhage and large established infarct. Negative CT confirms TIA diagnosis"},
+      "cta_head_neck": {"necessity": "essential", "comment": "70% right ICA stenosis identifies the likely stroke mechanism. Guides urgent CEA referral"},
+      "ecg": {"necessity": "essential", "comment": "Sinus rhythm. No AFib on initial workup. Telemetry for 24h to detect paroxysmal AFib"},
+      "echo": {"necessity": "essential", "comment": "Normal EF, no thrombus, no PFO. Cardioembolic source excluded"},
+      "lipid": {"necessity": "essential", "comment": "LDL 175 requires aggressive statin therapy (Atorvastatin 80mg) regardless of baseline"}
+    },
+    "missing_tests": ["MRI Brain with DWI - 30-50% of TIAs have small infarcts on DWI. Positive DWI changes diagnosis to ischemic stroke and influences management"],
+    "attending_note": "Doctor, this high-risk TIA (ABCD² 5) requires admission. Start DAPT: Aspirin 325mg load + Clopidogrel 600mg load, then Aspirin 81mg + Clopidogrel 75mg daily ×21 days, then Aspirin alone. Atorvastatin 80mg daily. Lisinopril 20mg daily (strict BP <130/80). Urgent vascular surgery referral for carotid endarterectomy within 2 weeks. Smoking cessation counseling. Monitor for recurrent symptoms - if any, call 911 immediately (don't wait to see if it resolves)."
+  }
+}

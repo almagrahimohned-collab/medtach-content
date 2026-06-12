@@ -1,0 +1,27 @@
+{
+  "id": "neuro_intermediate_001",
+  "specialty": "neurology",
+  "difficulty": "intermediate",
+  "title": "Sudden Weakness - Acute Ischemic Stroke",
+  "department": "Emergency Department",
+  "patient": { "age": 65, "gender": "male", "name": "Mr. Omar", "persona": "confused, aphasic" },
+  "chief_complaint": "Sudden right-sided weakness and difficulty speaking for 2 hours",
+  "vitals": { "bp": "185/105 mmHg", "hr": 110, "rr": 18, "spo2": "96%", "temp": "36.8°C" },
+  "physical_exam": { "neuro": "Right hemiparesis 3/5, expressive aphasia, right facial droop, NIHSS: 12" },
+  "hidden_data": {
+    "ct_head": "No acute hemorrhage, hyperdense left MCA sign",
+    "ct_angiogram": "Occlusion of left MCA M1 segment",
+    "cbc": "Hb: 14.1, WBC: 9.5, Platelets: 220",
+    "glucose": "Glucose: 130 mg/dL"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute Ischemic Stroke - Left MCA Territory",
+  "differential_diagnoses": ["Hemorrhagic Stroke", "Todd's Paralysis", "Hypoglycemia"],
+  "key_learning_points": ["Time is brain - 1.9 million neurons lost per minute", "tPA window is 4.5 hours", "Check glucose first (stroke mimic)"],
+  "patient_responses": {
+    "symptoms_start": "His wife says he was fine at breakfast, then suddenly couldn't move his right arm",
+    "past_history": "He has high blood pressure and diabetes, not on blood thinners",
+    "medications": "He takes metformin and lisinopril"
+  },
+  "hints": { "imaging": "CT first to rule out hemorrhage", "tpa_window": "Check last known well time" }
+}

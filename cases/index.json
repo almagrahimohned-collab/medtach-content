@@ -1,0 +1,644 @@
+{
+  "version": "3.0",
+  "lastUpdated": "2026-06-12T17:36:20+02:00",
+  "specialties": {
+    "cardiology": {
+      "advanced": [
+        {"id": "aortic_dissection", "title": "Stanford Type A Aortic Dissection", "specialty": "cardiology", "difficulty": "advanced", "file": "cardiology/advanced/aortic_dissection.json"}
+,
+        {"id": "cardiac_tamponade", "title": "Cardiac Tamponade", "specialty": "cardiology", "difficulty": "advanced", "file": "cardiology/advanced/cardiac_tamponade.json"}
+,
+        {"id": "cardiogenic_shock", "title": "Cardiogenic Shock post-STEMI", "specialty": "cardiology", "difficulty": "advanced", "file": "cardiology/advanced/cardiogenic_shock.json"}
+,
+        {"id": "constrictive_pericarditis", "title": "Constrictive Pericarditis", "specialty": "cardiology", "difficulty": "advanced", "file": "cardiology/advanced/constrictive_pericarditis.json"}
+,
+        {"id": "heart_failure", "title": "Progressive Dyspnea - Acute Decompensated Heart Failure", "specialty": "cardiology", "difficulty": "advanced", "file": "cardiology/advanced/heart_failure.json"}
+,
+        {"id": "infective_endocarditis", "title": "Fever and New Murmur - Infective Endocarditis", "specialty": "cardiology", "difficulty": "advanced", "file": "cardiology/advanced/infective_endocarditis.json"}
+
+      ],
+      "beginner": [
+        {"id": "dilated_cardiomyopathy", "title": "Dilated Cardiomyopathy", "specialty": "cardiology", "difficulty": "beginner", "file": "cardiology/beginner/dilated_cardiomyopathy.json"}
+,
+        {"id": "hypertension_management", "title": "Essential Hypertension", "specialty": "cardiology", "difficulty": "beginner", "file": "cardiology/beginner/hypertension_management.json"}
+,
+        {"id": "pericarditis", "title": "Sharp Chest Pain - Acute Pericarditis", "specialty": "cardiology", "difficulty": "beginner", "file": "cardiology/beginner/pericarditis.json"}
+,
+        {"id": "stable_angina", "title": "Stable Angina", "specialty": "cardiology", "difficulty": "beginner", "file": "cardiology/beginner/stable_angina.json"}
+,
+        {"id": "stemi_anteroseptal", "title": "Acute Chest Pain - Anteroseptal STEMI", "specialty": "cardiology", "difficulty": "beginner", "file": "cardiology/beginner/stemi_anteroseptal.json"}
+
+      ],
+      "intermediate": [
+        {"id": "aortic_stenosis", "title": "Syncope on Exertion - Aortic Stenosis", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/aortic_stenosis.json"}
+,
+        {"id": "atrial_fibrillation", "title": "Palpitations and Dizziness - Atrial Fibrillation", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/atrial_fibrillation.json"}
+,
+        {"id": "brugada_syndrome", "title": "Brugada Syndrome", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/brugada_syndrome.json"}
+,
+        {"id": "hypertensive_emergency", "title": "Severe Hypertension - Hypertensive Emergency", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/hypertensive_emergency.json"}
+,
+        {"id": "long_qt", "title": "Long QT Syndrome Type 2", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/long_qt.json"}
+,
+        {"id": "myocarditis", "title": "Acute Myocarditis", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/myocarditis.json"}
+,
+        {"id": "unstable_angina", "title": "Unstable Angina", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/unstable_angina.json"}
+,
+        {"id": "wpw_syndrome", "title": "Wolff-Parkinson-White Syndrome", "specialty": "cardiology", "difficulty": "intermediate", "file": "cardiology/intermediate/wpw_syndrome.json"}
+
+      ]
+    },
+    "dermatology": {
+      "advanced": [
+        {"id": "pemphigus_vulgaris", "title": "Pemphigus Vulgaris", "specialty": "dermatology", "difficulty": "advanced", "file": "dermatology/advanced/pemphigus_vulgaris.json"}
+
+      ],
+      "beginner": [
+        {"id": "cellulitis", "title": "Lower Extremity Cellulitis", "specialty": "dermatology", "difficulty": "beginner", "file": "dermatology/beginner/cellulitis.json"}
+,
+        {"id": "eczema", "title": "Itchy Rash - Atopic Dermatitis", "specialty": "dermatology", "difficulty": "beginner", "file": "dermatology/beginner/eczema.json"}
+
+      ]
+    },
+    "endocrinology": {
+      "advanced": [
+        {"id": "addison", "title": "Hypotension and Hyperpigmentation - Addison Disease", "specialty": "endocrinology", "difficulty": "advanced", "file": "endocrinology/advanced/addison.json"}
+,
+        {"id": "pheochromocytoma", "title": "Pheochromocytoma", "specialty": "endocrinology", "difficulty": "advanced", "file": "endocrinology/advanced/pheochromocytoma.json"}
+,
+        {"id": "primary_hyperparathyroidism", "title": "Primary Hyperparathyroidism", "specialty": "endocrinology", "difficulty": "advanced", "file": "endocrinology/advanced/primary_hyperparathyroidism.json"}
+
+      ],
+      "beginner": [
+        {"id": "diabetes", "title": "Weight Loss and Thirst - Type 2 Diabetes", "specialty": "endocrinology", "difficulty": "beginner", "file": "endocrinology/beginner/diabetes.json"}
+,
+        {"id": "dka", "title": "Diabetic Ketoacidosis", "specialty": "endocrinology", "difficulty": "beginner", "file": "endocrinology/beginner/dka.json"}
+,
+        {"id": "hypoglycemia", "title": "Insulin-Induced Hypoglycemia", "specialty": "endocrinology", "difficulty": "beginner", "file": "endocrinology/beginner/hypoglycemia.json"}
+,
+        {"id": "hypothyroidism", "title": "Fatigue and Weight Gain - Hypothyroidism", "specialty": "endocrinology", "difficulty": "beginner", "file": "endocrinology/beginner/hypothyroidism.json"}
+,
+        {"id": "osteoporosis", "title": "Postmenopausal Osteoporosis", "specialty": "endocrinology", "difficulty": "beginner", "file": "endocrinology/beginner/osteoporosis.json"}
+
+      ],
+      "intermediate": [
+        {"id": "acromegaly", "title": "Acromegaly", "specialty": "endocrinology", "difficulty": "intermediate", "file": "endocrinology/intermediate/acromegaly.json"}
+,
+        {"id": "cushing_syndrome", "title": "Cushing Syndrome", "specialty": "endocrinology", "difficulty": "intermediate", "file": "endocrinology/intermediate/cushing_syndrome.json"}
+,
+        {"id": "diabetes_insipidus", "title": "Central Diabetes Insipidus", "specialty": "endocrinology", "difficulty": "intermediate", "file": "endocrinology/intermediate/diabetes_insipidus.json"}
+,
+        {"id": "hyperthyroidism", "title": "Palpitations and Weight Loss - Graves Disease", "specialty": "endocrinology", "difficulty": "intermediate", "file": "endocrinology/intermediate/hyperthyroidism.json"}
+
+      ]
+    },
+    "gastroenterology": {
+      "advanced": [
+        {"id": "cirrhosis", "title": "Abdominal Distension - Decompensated Cirrhosis", "specialty": "gastroenterology", "difficulty": "advanced", "file": "gastroenterology/advanced/cirrhosis.json"}
+,
+        {"id": "primary_biliary_cholangitis", "title": "Primary Biliary Cholangitis", "specialty": "gastroenterology", "difficulty": "advanced", "file": "gastroenterology/advanced/primary_biliary_cholangitis.json"}
+
+      ],
+      "beginner": [
+        {"id": "appendicitis", "title": "RLQ Pain - Acute Appendicitis", "specialty": "gastroenterology", "difficulty": "beginner", "file": "gastroenterology/beginner/appendicitis.json"}
+,
+        {"id": "celiac", "title": "Celiac Disease", "specialty": "gastroenterology", "difficulty": "beginner", "file": "gastroenterology/beginner/celiac.json"}
+,
+        {"id": "cholecystitis", "title": "Acute Cholecystitis", "specialty": "gastroenterology", "difficulty": "beginner", "file": "gastroenterology/beginner/cholecystitis.json"}
+,
+        {"id": "diverticulitis", "title": "Acute Diverticulitis", "specialty": "gastroenterology", "difficulty": "beginner", "file": "gastroenterology/beginner/diverticulitis.json"}
+,
+        {"id": "gastritis", "title": "Epigastric Burning - Gastritis", "specialty": "gastroenterology", "difficulty": "beginner", "file": "gastroenterology/beginner/gastritis.json"}
+,
+        {"id": "peptic_ulcer", "title": "Peptic Ulcer Disease", "specialty": "gastroenterology", "difficulty": "beginner", "file": "gastroenterology/beginner/peptic_ulcer.json"}
+
+      ],
+      "intermediate": [
+        {"id": "cdiff_colitis", "title": "Clostridioides difficile Colitis", "specialty": "gastroenterology", "difficulty": "intermediate", "file": "gastroenterology/intermediate/cdiff_colitis.json"}
+,
+        {"id": "crohns_disease", "title": "Crohn's Disease", "specialty": "gastroenterology", "difficulty": "intermediate", "file": "gastroenterology/intermediate/crohns_disease.json"}
+,
+        {"id": "pancreatitis", "title": "Severe Epigastric Pain - Acute Pancreatitis", "specialty": "gastroenterology", "difficulty": "intermediate", "file": "gastroenterology/intermediate/pancreatitis.json"}
+,
+        {"id": "ugib", "title": "Hematemesis - Upper GI Bleed", "specialty": "gastroenterology", "difficulty": "intermediate", "file": "gastroenterology/intermediate/ugib.json"}
+,
+        {"id": "ulcerative_colitis", "title": "Ulcerative Colitis", "specialty": "gastroenterology", "difficulty": "intermediate", "file": "gastroenterology/intermediate/ulcerative_colitis.json"}
+
+      ]
+    },
+    "gynecology": {
+      "general": [
+        {"id": "endometrial_hyperplasia", "title": "Endometrial Hyperplasia with Atypia", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/endometrial_hyperplasia.json"}
+,
+        {"id": "endometriosis", "title": "Severe Endometriosis", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/endometriosis.json"}
+,
+        {"id": "menorrhagia", "title": "Heavy Menstrual Bleeding - Menorrhagia", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/menorrhagia.json"}
+,
+        {"id": "ovarian_cyst", "title": "Acute Pelvic Pain - Ruptured Ovarian Cyst", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/ovarian_cyst.json"}
+,
+        {"id": "ovarian_torsion", "title": "Ovarian Torsion", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/ovarian_torsion.json"}
+,
+        {"id": "pid", "title": "Pelvic Pain and Fever - PID", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/pid.json"}
+,
+        {"id": "pid_tubo_ovarian_abscess", "title": "PID with Tubo-Ovarian Abscess", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/pid_tubo_ovarian_abscess.json"}
+,
+        {"id": "ruptured_ectopic", "title": "Ruptured Ectopic Pregnancy", "specialty": "gynecology", "difficulty": "general", "file": "gynecology/general/ruptured_ectopic.json"}
+
+      ],
+      "mfm": [
+        {"id": "fetal_growth_restriction", "title": "Fetal Growth Restriction", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/fetal_growth_restriction.json"}
+,
+        {"id": "gestational_diabetes", "title": "Gestational Diabetes - Poorly Controlled", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/gestational_diabetes.json"}
+,
+        {"id": "iugr", "title": "Small for Dates - Intrauterine Growth Restriction", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/iugr.json"}
+,
+        {"id": "preterm_labor", "title": "Preterm Labor", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/preterm_labor.json"}
+,
+        {"id": "rh_alloimmunization", "title": "Rh Alloimmunization", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/rh_alloimmunization.json"}
+,
+        {"id": "rh_incompatibility", "title": "Rh-Negative Mother - Rh Isoimmunization Prevention", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/rh_incompatibility.json"}
+,
+        {"id": "twin_twin_transfusion", "title": "Twin-Twin Transfusion Syndrome", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/twin_twin_transfusion.json"}
+,
+        {"id": "twins", "title": "Twin Pregnancy - Dichorionic Diamniotic Twins", "specialty": "gynecology", "difficulty": "mfm", "file": "gynecology/mfm/twins.json"}
+
+      ],
+      "obstetrics": [
+        {"id": "amniotic_fluid_embolism", "title": "Amniotic Fluid Embolism", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/amniotic_fluid_embolism.json"}
+,
+        {"id": "ectopic", "title": "Abdominal Pain in Early Pregnancy - Ectopic Pregnancy", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/ectopic.json"}
+,
+        {"id": "gestational_diabetes_mellitus", "title": "Elevated Glucose in Pregnancy - Gestational Diabetes", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/gestational_diabetes_mellitus.json"}
+,
+        {"id": "hellp_syndrome", "title": "HELLP Syndrome", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/hellp_syndrome.json"}
+,
+        {"id": "normal_labor", "title": "Term Pregnancy in Labor - Normal Vaginal Delivery", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/normal_labor.json"}
+,
+        {"id": "placenta_previa", "title": "Painless Vaginal Bleeding - Placenta Previa", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/placenta_previa.json"}
+,
+        {"id": "placental_abruption", "title": "Placental Abruption", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/placental_abruption.json"}
+,
+        {"id": "postpartum_hemorrhage", "title": "Heavy Bleeding After Delivery - Postpartum Hemorrhage", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/postpartum_hemorrhage.json"}
+,
+        {"id": "pph_atony", "title": "Postpartum Hemorrhage - Uterine Atony", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/pph_atony.json"}
+,
+        {"id": "preeclampsia", "title": "Hypertension and Headache - Preeclampsia with Severe Features", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/preeclampsia.json"}
+,
+        {"id": "preterm_premature_rupture_membranes", "title": "Preterm Premature Rupture of Membranes", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/preterm_premature_rupture_membranes.json"}
+,
+        {"id": "shoulder_dystocia", "title": "Shoulder Dystocia", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/shoulder_dystocia.json"}
+,
+        {"id": "uterine_inversion", "title": "Acute Uterine Inversion", "specialty": "gynecology", "difficulty": "obstetrics", "file": "gynecology/obstetrics/uterine_inversion.json"}
+
+      ],
+      "oncology": [
+        {"id": "cervical_cancer", "title": "Advanced Cervical Cancer", "specialty": "gynecology", "difficulty": "oncology", "file": "gynecology/oncology/cervical_cancer.json"}
+,
+        {"id": "ovarian_cancer", "title": "Advanced Ovarian Cancer", "specialty": "gynecology", "difficulty": "oncology", "file": "gynecology/oncology/ovarian_cancer.json"}
+
+      ],
+      "reproductive": [
+        {"id": "hyperprolactinemia", "title": "Galactorrhea and Amenorrhea - Prolactinoma", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/hyperprolactinemia.json"}
+,
+        {"id": "infertility", "title": "Inability to Conceive - Unexplained Infertility", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/infertility.json"}
+,
+        {"id": "menopause", "title": "Hot Flashes and Mood Changes - Menopause", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/menopause.json"}
+,
+        {"id": "ovarian_hyperstimulation_syndrome", "title": "Severe Ovarian Hyperstimulation Syndrome", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/ovarian_hyperstimulation_syndrome.json"}
+,
+        {"id": "pcos", "title": "Polycystic Ovary Syndrome", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/pcos.json"}
+,
+        {"id": "premature_ovarian_failure", "title": "Primary Ovarian Insufficiency", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/premature_ovarian_failure.json"}
+,
+        {"id": "recurrent_pregnancy_loss", "title": "Three Miscarriages - Recurrent Pregnancy Loss", "specialty": "gynecology", "difficulty": "reproductive", "file": "gynecology/reproductive/recurrent_pregnancy_loss.json"}
+
+      ],
+      "urogynecology": [
+        {"id": "obstetric_fistula", "title": "Obstetric Fistula", "specialty": "gynecology", "difficulty": "urogynecology", "file": "gynecology/urogynecology/obstetric_fistula.json"}
+,
+        {"id": "overactive_bladder", "title": "Urgency and Frequency - Overactive Bladder", "specialty": "gynecology", "difficulty": "urogynecology", "file": "gynecology/urogynecology/overactive_bladder.json"}
+,
+        {"id": "pelvic_organ_prolapse", "title": "Pelvic Organ Prolapse", "specialty": "gynecology", "difficulty": "urogynecology", "file": "gynecology/urogynecology/pelvic_organ_prolapse.json"}
+,
+        {"id": "prolapse", "title": "Bulging Sensation - Pelvic Organ Prolapse", "specialty": "gynecology", "difficulty": "urogynecology", "file": "gynecology/urogynecology/prolapse.json"}
+,
+        {"id": "stress_incontinence", "title": "Urine Leakage with Coughing - Stress Urinary Incontinence", "specialty": "gynecology", "difficulty": "urogynecology", "file": "gynecology/urogynecology/stress_incontinence.json"}
+
+      ]
+    },
+    "hematology": {
+      "advanced": [
+        {"id": "hemophilia_a", "title": "Hemophilia A", "specialty": "hematology", "difficulty": "advanced", "file": "hematology/advanced/hemophilia_a.json"}
+,
+        {"id": "multiple_myeloma", "title": "Multiple Myeloma", "specialty": "hematology", "difficulty": "advanced", "file": "hematology/advanced/multiple_myeloma.json"}
+
+      ],
+      "beginner": [
+        {"id": "anemia_iron_deficiency", "title": "Fatigue and Pallor - Iron Deficiency Anemia", "specialty": "hematology", "difficulty": "beginner", "file": "hematology/beginner/anemia_iron_deficiency.json"}
+,
+        {"id": "sickle_cell_crisis", "title": "Sickle Cell Vaso-occlusive Crisis", "specialty": "hematology", "difficulty": "beginner", "file": "hematology/beginner/sickle_cell_crisis.json"}
+
+      ],
+      "intermediate": [
+        {"id": "acute_myeloid_leukemia", "title": "Acute Myeloid Leukemia", "specialty": "hematology", "difficulty": "intermediate", "file": "hematology/intermediate/acute_myeloid_leukemia.json"}
+,
+        {"id": "deep_vein_thrombosis", "title": "Leg Swelling - Deep Vein Thrombosis", "specialty": "hematology", "difficulty": "intermediate", "file": "hematology/intermediate/deep_vein_thrombosis.json"}
+,
+        {"id": "immune_thrombocytopenia", "title": "Immune Thrombocytopenic Purpura", "specialty": "hematology", "difficulty": "intermediate", "file": "hematology/intermediate/immune_thrombocytopenia.json"}
+
+      ]
+    },
+    "infectious": {
+      "advanced": [
+        {"id": "*", "title": "*", "specialty": "infectious", "difficulty": "advanced", "file": "infectious/advanced/*.json"}
+
+      ],
+      "beginner": [
+        {"id": "malaria", "title": "Fever After Travel - Malaria", "specialty": "infectious", "difficulty": "beginner", "file": "infectious/beginner/malaria.json"}
+,
+        {"id": "meningitis_bacterial", "title": "Acute Bacterial Meningitis", "specialty": "infectious", "difficulty": "beginner", "file": "infectious/beginner/meningitis_bacterial.json"}
+,
+        {"id": "sepsis", "title": "Sepsis from Community-Acquired Pneumonia", "specialty": "infectious", "difficulty": "beginner", "file": "infectious/beginner/sepsis.json"}
+
+      ],
+      "intermediate": [
+        {"id": "endocarditis_id", "title": "Infective Endocarditis (IVDU)", "specialty": "infectious", "difficulty": "intermediate", "file": "infectious/intermediate/endocarditis_id.json"}
+,
+        {"id": "hiv", "title": "Weight Loss and Oral Thrush - HIV/AIDS", "specialty": "infectious", "difficulty": "intermediate", "file": "infectious/intermediate/hiv.json"}
+,
+        {"id": "neurocysticercosis", "title": "Neurocysticercosis", "specialty": "infectious", "difficulty": "intermediate", "file": "infectious/intermediate/neurocysticercosis.json"}
+,
+        {"id": "tuberculosis", "title": "Pulmonary Tuberculosis", "specialty": "infectious", "difficulty": "intermediate", "file": "infectious/intermediate/tuberculosis.json"}
+
+      ]
+    },
+    "nephrology": {
+      "advanced": [
+        {"id": "hepatorenal_syndrome", "title": "Hepatorenal Syndrome", "specialty": "nephrology", "difficulty": "advanced", "file": "nephrology/advanced/hepatorenal_syndrome.json"}
+
+      ],
+      "beginner": [
+        {"id": "acute_kidney_injury", "title": "Oliguria - Acute Kidney Injury", "specialty": "nephrology", "difficulty": "beginner", "file": "nephrology/beginner/acute_kidney_injury.json"}
+,
+        {"id": "chronic_kidney_disease", "title": "Chronic Kidney Disease Stage 4", "specialty": "nephrology", "difficulty": "beginner", "file": "nephrology/beginner/chronic_kidney_disease.json"}
+,
+        {"id": "hyponatremia", "title": "SIADH - Hyponatremia", "specialty": "nephrology", "difficulty": "beginner", "file": "nephrology/beginner/hyponatremia.json"}
+
+      ],
+      "intermediate": [
+        {"id": "glomerulonephritis", "title": "Post-Streptococcal Glomerulonephritis", "specialty": "nephrology", "difficulty": "intermediate", "file": "nephrology/intermediate/glomerulonephritis.json"}
+,
+        {"id": "nephrotic", "title": "Edema and Proteinuria - Nephrotic Syndrome", "specialty": "nephrology", "difficulty": "intermediate", "file": "nephrology/intermediate/nephrotic.json"}
+,
+        {"id": "polycystic_kidney_disease", "title": "Polycystic Kidney Disease", "specialty": "nephrology", "difficulty": "intermediate", "file": "nephrology/intermediate/polycystic_kidney_disease.json"}
+,
+        {"id": "renal_artery_stenosis", "title": "Renal Artery Stenosis", "specialty": "nephrology", "difficulty": "intermediate", "file": "nephrology/intermediate/renal_artery_stenosis.json"}
+
+      ]
+    },
+    "neurology": {
+      "advanced": [
+        {"id": "amyotrophic_lateral_sclerosis", "title": "Amyotrophic Lateral Sclerosis", "specialty": "neurology", "difficulty": "advanced", "file": "neurology/advanced/amyotrophic_lateral_sclerosis.json"}
+,
+        {"id": "guillain_barre", "title": "Ascending Weakness - Guillain-Barré Syndrome", "specialty": "neurology", "difficulty": "advanced", "file": "neurology/advanced/guillain_barre.json"}
+,
+        {"id": "huntington", "title": "Huntington's Disease", "specialty": "neurology", "difficulty": "advanced", "file": "neurology/advanced/huntington.json"}
+,
+        {"id": "multiple_sclerosis", "title": "Optic Neuritis - Multiple Sclerosis", "specialty": "neurology", "difficulty": "advanced", "file": "neurology/advanced/multiple_sclerosis.json"}
+,
+        {"id": "nph", "title": "Normal Pressure Hydrocephalus", "specialty": "neurology", "difficulty": "advanced", "file": "neurology/advanced/nph.json"}
+
+      ],
+      "beginner": [
+        {"id": "bells_palsy", "title": "Facial Droop - Bell's Palsy", "specialty": "neurology", "difficulty": "beginner", "file": "neurology/beginner/bells_palsy.json"}
+,
+        {"id": "essential_tremor", "title": "Essential Tremor", "specialty": "neurology", "difficulty": "beginner", "file": "neurology/beginner/essential_tremor.json"}
+,
+        {"id": "migraine", "title": "Severe Headache - Migraine with Aura", "specialty": "neurology", "difficulty": "beginner", "file": "neurology/beginner/migraine.json"}
+,
+        {"id": "transient_ischemic_attack", "title": "Transient Ischemic Attack", "specialty": "neurology", "difficulty": "beginner", "file": "neurology/beginner/transient_ischemic_attack.json"}
+,
+        {"id": "trigeminal_neuralgia", "title": "Trigeminal Neuralgia", "specialty": "neurology", "difficulty": "beginner", "file": "neurology/beginner/trigeminal_neuralgia.json"}
+
+      ],
+      "intermediate": [
+        {"id": "myasthenia_gravis", "title": "Fatigable Weakness - Myasthenia Gravis", "specialty": "neurology", "difficulty": "intermediate", "file": "neurology/intermediate/myasthenia_gravis.json"}
+,
+        {"id": "myasthenic_crisis", "title": "Myasthenic Crisis", "specialty": "neurology", "difficulty": "intermediate", "file": "neurology/intermediate/myasthenic_crisis.json"}
+,
+        {"id": "parkinson", "title": "Tremor and Bradykinesia - Parkinson Disease", "specialty": "neurology", "difficulty": "intermediate", "file": "neurology/intermediate/parkinson.json"}
+,
+        {"id": "status_epilepticus", "title": "Status Epilepticus", "specialty": "neurology", "difficulty": "intermediate", "file": "neurology/intermediate/status_epilepticus.json"}
+,
+        {"id": "stroke", "title": "Sudden Weakness - Acute Ischemic Stroke", "specialty": "neurology", "difficulty": "intermediate", "file": "neurology/intermediate/stroke.json"}
+
+      ]
+    },
+    "pediatrics": {
+      "cardiology": [
+        {"id": "coarctation_aorta", "title": "Coarctation of the Aorta", "specialty": "pediatrics", "difficulty": "cardiology", "file": "pediatrics/cardiology/coarctation_aorta.json"}
+,
+        {"id": "pda", "title": "Continuous Murmur - Patent Ductus Arteriosus", "specialty": "pediatrics", "difficulty": "cardiology", "file": "pediatrics/cardiology/pda.json"}
+,
+        {"id": "svt_infant", "title": "Supraventricular Tachycardia in Infant", "specialty": "pediatrics", "difficulty": "cardiology", "file": "pediatrics/cardiology/svt_infant.json"}
+,
+        {"id": "tetralogy_of_fallot_spell", "title": "Tetralogy of Fallot - Hypercyanotic Spell", "specialty": "pediatrics", "difficulty": "cardiology", "file": "pediatrics/cardiology/tetralogy_of_fallot_spell.json"}
+,
+        {"id": "tof", "title": "Cyanotic Spells - Tetralogy of Fallot", "specialty": "pediatrics", "difficulty": "cardiology", "file": "pediatrics/cardiology/tof.json"}
+,
+        {"id": "vsd", "title": "Heart Murmur in Infant - Ventricular Septal Defect", "specialty": "pediatrics", "difficulty": "cardiology", "file": "pediatrics/cardiology/vsd.json"}
+
+      ],
+      "endocrinology": [
+        {"id": "congenital_adrenal_hyperplasia", "title": "Congenital Adrenal Hyperplasia", "specialty": "pediatrics", "difficulty": "endocrinology", "file": "pediatrics/endocrinology/congenital_adrenal_hyperplasia.json"}
+,
+        {"id": "type1_diabetes_dka_pediatric", "title": "Type 1 Diabetes with DKA in Child", "specialty": "pediatrics", "difficulty": "endocrinology", "file": "pediatrics/endocrinology/type1_diabetes_dka_pediatric.json"}
+
+      ],
+      "gastroenterology": [
+        {"id": "celiac", "title": "Chronic Diarrhea and Poor Growth - Celiac Disease", "specialty": "pediatrics", "difficulty": "gastroenterology", "file": "pediatrics/gastroenterology/celiac.json"}
+,
+        {"id": "chronic_constipation", "title": "Functional Constipation", "specialty": "pediatrics", "difficulty": "gastroenterology", "file": "pediatrics/gastroenterology/chronic_constipation.json"}
+,
+        {"id": "hirschsprung", "title": "Hirschsprung Disease", "specialty": "pediatrics", "difficulty": "gastroenterology", "file": "pediatrics/gastroenterology/hirschsprung.json"}
+,
+        {"id": "intussusception", "title": "Currant Jelly Stools - Intussusception", "specialty": "pediatrics", "difficulty": "gastroenterology", "file": "pediatrics/gastroenterology/intussusception.json"}
+,
+        {"id": "pyloric_stenosis", "title": "Projectile Vomiting - Hypertrophic Pyloric Stenosis", "specialty": "pediatrics", "difficulty": "gastroenterology", "file": "pediatrics/gastroenterology/pyloric_stenosis.json"}
+
+      ],
+      "general": [
+        {"id": "constipation", "title": "Abdominal Pain - Functional Constipation", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/constipation.json"}
+,
+        {"id": "croup", "title": "Barking Cough - Croup (Laryngotracheobronchitis)", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/croup.json"}
+,
+        {"id": "febrile_seizure", "title": "Seizure with Fever - Febrile Seizure", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/febrile_seizure.json"}
+,
+        {"id": "hsp", "title": "Henoch-Schönlein Purpura", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/hsp.json"}
+,
+        {"id": "kawasaki", "title": "Fever and Rash - Kawasaki Disease", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/kawasaki.json"}
+,
+        {"id": "kawasaki_refractory", "title": "Refractory Kawasaki Disease", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/kawasaki_refractory.json"}
+,
+        {"id": "uti_child", "title": "Fever Without Source - Pediatric UTI", "specialty": "pediatrics", "difficulty": "general", "file": "pediatrics/general/uti_child.json"}
+
+      ],
+      "hematology": [
+        {"id": "all", "title": "Acute Lymphoblastic Leukemia", "specialty": "pediatrics", "difficulty": "hematology", "file": "pediatrics/hematology/all.json"}
+,
+        {"id": "scd_acute_chest", "title": "Sickle Cell Disease - Acute Chest Syndrome", "specialty": "pediatrics", "difficulty": "hematology", "file": "pediatrics/hematology/scd_acute_chest.json"}
+
+      ],
+      "infectious": [
+        {"id": "acute_osteomyelitis", "title": "Acute Hematogenous Osteomyelitis", "specialty": "pediatrics", "difficulty": "infectious", "file": "pediatrics/infectious/acute_osteomyelitis.json"}
+,
+        {"id": "congenital_cmv", "title": "Congenital CMV Infection", "specialty": "pediatrics", "difficulty": "infectious", "file": "pediatrics/infectious/congenital_cmv.json"}
+,
+        {"id": "hfmd", "title": "Vesicles on Hands and Mouth - HFMD", "specialty": "pediatrics", "difficulty": "infectious", "file": "pediatrics/infectious/hfmd.json"}
+,
+        {"id": "measles", "title": "Fever and Rash - Measles (Rubeola)", "specialty": "pediatrics", "difficulty": "infectious", "file": "pediatrics/infectious/measles.json"}
+,
+        {"id": "pertussis", "title": "Paroxysmal Cough - Pertussis (Whooping Cough)", "specialty": "pediatrics", "difficulty": "infectious", "file": "pediatrics/infectious/pertussis.json"}
+
+      ],
+      "neonatology": [
+        {"id": "congenital_diaphragmatic_hernia", "title": "Congenital Diaphragmatic Hernia", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/congenital_diaphragmatic_hernia.json"}
+,
+        {"id": "hypoglycemia", "title": "Jittery Newborn - Neonatal Hypoglycemia", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/hypoglycemia.json"}
+,
+        {"id": "jaundice", "title": "Yellow Skin in Newborn - Neonatal Jaundice", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/jaundice.json"}
+,
+        {"id": "nec", "title": "Necrotizing Enterocolitis", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/nec.json"}
+,
+        {"id": "neonatal_abstinence", "title": "Neonatal Abstinence Syndrome", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/neonatal_abstinence.json"}
+,
+        {"id": "neonatal_seizure", "title": "Neonatal Seizures from HIE", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/neonatal_seizure.json"}
+,
+        {"id": "rds", "title": "Respiratory Distress in Preterm - RDS", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/rds.json"}
+,
+        {"id": "sepsis", "title": "Lethargy and Hypothermia - Neonatal Sepsis", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/sepsis.json"}
+,
+        {"id": "ttn", "title": "Tachypnea After C-Section - TTN", "specialty": "pediatrics", "difficulty": "neonatology", "file": "pediatrics/neonatology/ttn.json"}
+
+      ],
+      "neurology": [
+        {"id": "absence", "title": "Staring Spells - Childhood Absence Epilepsy", "specialty": "pediatrics", "difficulty": "neurology", "file": "pediatrics/neurology/absence.json"}
+,
+        {"id": "adhd", "title": "Hyperactivity and Inattention - ADHD", "specialty": "pediatrics", "difficulty": "neurology", "file": "pediatrics/neurology/adhd.json"}
+,
+        {"id": "cerebral_palsy", "title": "Delayed Milestones - Cerebral Palsy", "specialty": "pediatrics", "difficulty": "neurology", "file": "pediatrics/neurology/cerebral_palsy.json"}
+,
+        {"id": "duchenne_muscular_dystrophy", "title": "Duchenne Muscular Dystrophy", "specialty": "pediatrics", "difficulty": "neurology", "file": "pediatrics/neurology/duchenne_muscular_dystrophy.json"}
+,
+        {"id": "infantile_spasms", "title": "Infantile Spasms (West Syndrome)", "specialty": "pediatrics", "difficulty": "neurology", "file": "pediatrics/neurology/infantile_spasms.json"}
+,
+        {"id": "rett_syndrome", "title": "Rett Syndrome", "specialty": "pediatrics", "difficulty": "neurology", "file": "pediatrics/neurology/rett_syndrome.json"}
+
+      ],
+      "respiratory": [
+        {"id": "bronchopulmonary_dysplasia", "title": "Bronchopulmonary Dysplasia", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/bronchopulmonary_dysplasia.json"}
+,
+        {"id": "croup_severe", "title": "Severe Croup (Laryngotracheobronchitis)", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/croup_severe.json"}
+,
+        {"id": "cystic_fibrosis", "title": "Recurrent Pneumonia and Poor Growth - Cystic Fibrosis", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/cystic_fibrosis.json"}
+,
+        {"id": "cystic_fibrosis_diagnosis", "title": "Cystic Fibrosis - New Diagnosis", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/cystic_fibrosis_diagnosis.json"}
+,
+        {"id": "epiglottitis", "title": "Drooling and Stridor - Epiglottitis", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/epiglottitis.json"}
+,
+        {"id": "foreign_body", "title": "Sudden Choking - Foreign Body Aspiration", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/foreign_body.json"}
+,
+        {"id": "status_asthmaticus", "title": "Status Asthmaticus", "specialty": "pediatrics", "difficulty": "respiratory", "file": "pediatrics/respiratory/status_asthmaticus.json"}
+
+      ]
+    },
+    "psychiatry": {
+      "beginner": [
+        {"id": "serotonin_syndrome", "title": "Serotonin Syndrome", "specialty": "psychiatry", "difficulty": "beginner", "file": "psychiatry/beginner/serotonin_syndrome.json"}
+
+      ],
+      "intermediate": [
+        {"id": "nms", "title": "Neuroleptic Malignant Syndrome", "specialty": "psychiatry", "difficulty": "intermediate", "file": "psychiatry/intermediate/nms.json"}
+
+      ]
+    },
+    "pulmonology": {
+      "advanced": [
+        {"id": "ards", "title": "Refractory Hypoxemia - ARDS", "specialty": "pulmonology", "difficulty": "advanced", "file": "pulmonology/advanced/ards.json"}
+,
+        {"id": "ards_sepsis", "title": "ARDS from Sepsis", "specialty": "pulmonology", "difficulty": "advanced", "file": "pulmonology/advanced/ards_sepsis.json"}
+,
+        {"id": "mesothelioma", "title": "Malignant Pleural Mesothelioma", "specialty": "pulmonology", "difficulty": "advanced", "file": "pulmonology/advanced/mesothelioma.json"}
+,
+        {"id": "pap", "title": "Pulmonary Alveolar Proteinosis", "specialty": "pulmonology", "difficulty": "advanced", "file": "pulmonology/advanced/pap.json"}
+,
+        {"id": "pulmonary_hypertension", "title": "Pulmonary Arterial Hypertension", "specialty": "pulmonology", "difficulty": "advanced", "file": "pulmonology/advanced/pulmonary_hypertension.json"}
+
+      ],
+      "beginner": [
+        {"id": "copd_exacerbation", "title": "COPD Exacerbation", "specialty": "pulmonology", "difficulty": "beginner", "file": "pulmonology/beginner/copd_exacerbation.json"}
+,
+        {"id": "pleural_effusion", "title": "Dyspnea and Dullness - Pleural Effusion", "specialty": "pulmonology", "difficulty": "beginner", "file": "pulmonology/beginner/pleural_effusion.json"}
+,
+        {"id": "pneumonia", "title": "Productive Cough and Fever - Pneumonia", "specialty": "pulmonology", "difficulty": "beginner", "file": "pulmonology/beginner/pneumonia.json"}
+,
+        {"id": "spontaneous_pneumothorax", "title": "Spontaneous Pneumothorax", "specialty": "pulmonology", "difficulty": "beginner", "file": "pulmonology/beginner/spontaneous_pneumothorax.json"}
+
+      ],
+      "intermediate": [
+        {"id": "abpa", "title": "Allergic Bronchopulmonary Aspergillosis", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/abpa.json"}
+,
+        {"id": "asthma", "title": "Wheezing and Chest Tightness - Moderate Persistent Asthma", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/asthma.json"}
+,
+        {"id": "bronchiectasis", "title": "Bronchiectasis", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/bronchiectasis.json"}
+,
+        {"id": "ild", "title": "Interstitial Lung Disease", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/ild.json"}
+,
+        {"id": "pneumothorax", "title": "Sudden Chest Pain - Spontaneous Pneumothorax", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/pneumothorax.json"}
+,
+        {"id": "pulmonary_embolism", "title": "Sudden Dyspnea - Pulmonary Embolism", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/pulmonary_embolism.json"}
+,
+        {"id": "sarcoidosis", "title": "Pulmonary Sarcoidosis", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/sarcoidosis.json"}
+,
+        {"id": "sleep_apnea", "title": "Obstructive Sleep Apnea", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/sleep_apnea.json"}
+,
+        {"id": "tb_reactivation", "title": "Chronic Cough and Hemoptysis - Tuberculosis", "specialty": "pulmonology", "difficulty": "intermediate", "file": "pulmonology/intermediate/tb_reactivation.json"}
+
+      ]
+    },
+    "rheumatology": {
+      "advanced": [
+        {"id": "giant_cell_arteritis", "title": "Giant Cell Arteritis", "specialty": "rheumatology", "difficulty": "advanced", "file": "rheumatology/advanced/giant_cell_arteritis.json"}
+,
+        {"id": "granulomatosis_polyangiitis", "title": "Granulomatosis with Polyangiitis", "specialty": "rheumatology", "difficulty": "advanced", "file": "rheumatology/advanced/granulomatosis_polyangiitis.json"}
+
+      ],
+      "beginner": [
+        {"id": "osteoarthritis", "title": "Osteoarthritis", "specialty": "rheumatology", "difficulty": "beginner", "file": "rheumatology/beginner/osteoarthritis.json"}
+,
+        {"id": "ra", "title": "Bilateral Joint Pain - Rheumatoid Arthritis", "specialty": "rheumatology", "difficulty": "beginner", "file": "rheumatology/beginner/ra.json"}
+
+      ],
+      "intermediate": [
+        {"id": "fibromyalgia", "title": "Fibromyalgia", "specialty": "rheumatology", "difficulty": "intermediate", "file": "rheumatology/intermediate/fibromyalgia.json"}
+,
+        {"id": "gout", "title": "Acute Gouty Arthritis", "specialty": "rheumatology", "difficulty": "intermediate", "file": "rheumatology/intermediate/gout.json"}
+
+      ]
+    },
+    "surgery": {
+      "cardiothoracic": [
+        {"id": "cabg", "title": "Multivessel CAD - Coronary Artery Bypass Grafting", "specialty": "surgery", "difficulty": "cardiothoracic", "file": "surgery/cardiothoracic/cabg.json"}
+,
+        {"id": "cardiac_tamponade_trauma", "title": "Cardiac Tamponade - Penetrating Trauma", "specialty": "surgery", "difficulty": "cardiothoracic", "file": "surgery/cardiothoracic/cardiac_tamponade_trauma.json"}
+,
+        {"id": "flail_chest", "title": "Flail Chest with Pulmonary Contusion", "specialty": "surgery", "difficulty": "cardiothoracic", "file": "surgery/cardiothoracic/flail_chest.json"}
+,
+        {"id": "lung_cancer", "title": "Lung Mass - Lobectomy for NSCLC", "specialty": "surgery", "difficulty": "cardiothoracic", "file": "surgery/cardiothoracic/lung_cancer.json"}
+,
+        {"id": "pneumothorax", "title": "Sudden Dyspnea - Tension Pneumothorax", "specialty": "surgery", "difficulty": "cardiothoracic", "file": "surgery/cardiothoracic/pneumothorax.json"}
+,
+        {"id": "tension_pneumothorax_trauma", "title": "Tension Pneumothorax - Trauma", "specialty": "surgery", "difficulty": "cardiothoracic", "file": "surgery/cardiothoracic/tension_pneumothorax_trauma.json"}
+
+      ],
+      "ent": [
+        {"id": "acute_epiglottitis", "title": "Acute Epiglottitis", "specialty": "surgery", "difficulty": "ent", "file": "surgery/ent/acute_epiglottitis.json"}
+,
+        {"id": "peritonsillar_abscess", "title": "Peritonsillar Abscess", "specialty": "surgery", "difficulty": "ent", "file": "surgery/ent/peritonsillar_abscess.json"}
+,
+        {"id": "thyroid_nodule", "title": "Thyroid Nodule - Total Thyroidectomy", "specialty": "surgery", "difficulty": "ent", "file": "surgery/ent/thyroid_nodule.json"}
+,
+        {"id": "tonsillitis", "title": "Recurrent Sore Throat - Chronic Tonsillitis", "specialty": "surgery", "difficulty": "ent", "file": "surgery/ent/tonsillitis.json"}
+,
+        {"id": "tracheostomy_emergency", "title": "Tracheostomy Tube Obstruction", "specialty": "surgery", "difficulty": "ent", "file": "surgery/ent/tracheostomy_emergency.json"}
+
+      ],
+      "general": [
+        {"id": "abscess", "title": "Painful Swelling - Subcutaneous Abscess", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/abscess.json"}
+,
+        {"id": "acute_appendicitis", "title": "Acute Appendicitis with Perforation", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/acute_appendicitis.json"}
+,
+        {"id": "appendicitis", "title": "RLQ Pain - Acute Appendicitis", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/appendicitis.json"}
+,
+        {"id": "cholecystitis", "title": "RUQ Pain After Meals - Acute Cholecystitis", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/cholecystitis.json"}
+,
+        {"id": "fournier_gangrene", "title": "Fournier Gangrene", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/fournier_gangrene.json"}
+,
+        {"id": "hernia", "title": "Groin Bulge - Inguinal Hernia", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/hernia.json"}
+,
+        {"id": "intestinal_obstruction", "title": "Small Bowel Obstruction from Adhesions", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/intestinal_obstruction.json"}
+,
+        {"id": "perforated_diverticulitis", "title": "Perforated Sigmoid Diverticulitis", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/perforated_diverticulitis.json"}
+,
+        {"id": "perforated_ulcer", "title": "Acute Abdomen - Perforated Peptic Ulcer", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/perforated_ulcer.json"}
+,
+        {"id": "sbo", "title": "Abdominal Distension - Small Bowel Obstruction", "specialty": "surgery", "difficulty": "general", "file": "surgery/general/sbo.json"}
+
+      ],
+      "neurosurgery": [
+        {"id": "epidural_hematoma", "title": "Epidural Hematoma", "specialty": "surgery", "difficulty": "neurosurgery", "file": "surgery/neurosurgery/epidural_hematoma.json"}
+,
+        {"id": "spinal_cord_injury", "title": "Acute Spinal Cord Injury", "specialty": "surgery", "difficulty": "neurosurgery", "file": "surgery/neurosurgery/spinal_cord_injury.json"}
+,
+        {"id": "subdural_hematoma", "title": "Confusion After Fall - Chronic Subdural Hematoma", "specialty": "surgery", "difficulty": "neurosurgery", "file": "surgery/neurosurgery/subdural_hematoma.json"}
+,
+        {"id": "traumatic_brain_injury", "title": "Severe Traumatic Brain Injury", "specialty": "surgery", "difficulty": "neurosurgery", "file": "surgery/neurosurgery/traumatic_brain_injury.json"}
+
+      ],
+      "orthopedics": [
+        {"id": "acl_tear", "title": "Knee Injury in Athlete - ACL Tear", "specialty": "surgery", "difficulty": "orthopedics", "file": "surgery/orthopedics/acl_tear.json"}
+,
+        {"id": "cauda_equina", "title": "Cauda Equina Syndrome", "specialty": "surgery", "difficulty": "orthopedics", "file": "surgery/orthopedics/cauda_equina.json"}
+,
+        {"id": "colles_fracture", "title": "FOOSH Injury - Colles Fracture", "specialty": "surgery", "difficulty": "orthopedics", "file": "surgery/orthopedics/colles_fracture.json"}
+,
+        {"id": "compartment_syndrome", "title": "Acute Compartment Syndrome", "specialty": "surgery", "difficulty": "orthopedics", "file": "surgery/orthopedics/compartment_syndrome.json"}
+,
+        {"id": "hip_fracture", "title": "Hip Pain After Fall - Femoral Neck Fracture", "specialty": "surgery", "difficulty": "orthopedics", "file": "surgery/orthopedics/hip_fracture.json"}
+,
+        {"id": "open_fracture", "title": "Open Tibial Fracture - Gustilo IIIB", "specialty": "surgery", "difficulty": "orthopedics", "file": "surgery/orthopedics/open_fracture.json"}
+
+      ],
+      "pediatric": [
+        {"id": "inguinal_hernia_incarcerated", "title": "Incarcerated Inguinal Hernia in Infant", "specialty": "surgery", "difficulty": "pediatric", "file": "surgery/pediatric/inguinal_hernia_incarcerated.json"}
+,
+        {"id": "malrotation_volvulus", "title": "Malrotation with Midgut Volvulus", "specialty": "surgery", "difficulty": "pediatric", "file": "surgery/pediatric/malrotation_volvulus.json"}
+,
+        {"id": "pyloric_stenosis", "title": "Infantile Hypertrophic Pyloric Stenosis", "specialty": "surgery", "difficulty": "pediatric", "file": "surgery/pediatric/pyloric_stenosis.json"}
+
+      ],
+      "plastic": [
+        {"id": "burns", "title": "Burn Injury - Partial Thickness Burns", "specialty": "surgery", "difficulty": "plastic", "file": "surgery/plastic/burns.json"}
+,
+        {"id": "facial_laceration", "title": "Complex Facial Laceration", "specialty": "surgery", "difficulty": "plastic", "file": "surgery/plastic/facial_laceration.json"}
+,
+        {"id": "major_burns", "title": "Major Burns - Fluid Resuscitation", "specialty": "surgery", "difficulty": "plastic", "file": "surgery/plastic/major_burns.json"}
+,
+        {"id": "skin_graft", "title": "Non-Healing Wound - Skin Graft", "specialty": "surgery", "difficulty": "plastic", "file": "surgery/plastic/skin_graft.json"}
+
+      ],
+      "urology": [
+        {"id": "bph", "title": "Urinary Retention - Benign Prostatic Hyperplasia", "specialty": "surgery", "difficulty": "urology", "file": "surgery/urology/bph.json"}
+,
+        {"id": "obstructive_uropathy", "title": "Obstructive Uropathy from BPH", "specialty": "surgery", "difficulty": "urology", "file": "surgery/urology/obstructive_uropathy.json"}
+,
+        {"id": "renal_stone", "title": "Flank Pain - Ureteral Stone", "specialty": "surgery", "difficulty": "urology", "file": "surgery/urology/renal_stone.json"}
+,
+        {"id": "testicular_torsion", "title": "Testicular Torsion", "specialty": "surgery", "difficulty": "urology", "file": "surgery/urology/testicular_torsion.json"}
+
+      ],
+      "vascular": [
+        {"id": "aaa", "title": "Pulsatile Abdominal Mass - Abdominal Aortic Aneurysm", "specialty": "surgery", "difficulty": "vascular", "file": "surgery/vascular/aaa.json"}
+,
+        {"id": "acute_limb_ischemia", "title": "Acute Limb Ischemia", "specialty": "surgery", "difficulty": "vascular", "file": "surgery/vascular/acute_limb_ischemia.json"}
+,
+        {"id": "dvt", "title": "Leg Swelling After Surgery - DVT", "specialty": "surgery", "difficulty": "vascular", "file": "surgery/vascular/dvt.json"}
+,
+        {"id": "pad", "title": "Leg Pain When Walking - Peripheral Arterial Disease", "specialty": "surgery", "difficulty": "vascular", "file": "surgery/vascular/pad.json"}
+,
+        {"id": "ruptured_aaa", "title": "Ruptured Abdominal Aortic Aneurysm", "specialty": "surgery", "difficulty": "vascular", "file": "surgery/vascular/ruptured_aaa.json"}
+
+      ]
+    }
+  }
+}

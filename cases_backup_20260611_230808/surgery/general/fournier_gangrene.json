@@ -1,0 +1,39 @@
+{
+  "id": "surg_general_fournier",
+  "specialty": "surgery",
+  "difficulty": "general",
+  "title": "Fournier Gangrene",
+  "patient": {
+    "age": 55,
+    "gender": "male",
+    "name": "Robert Taylor"
+  },
+  "chief_complaint": "Severe pain in my scrotum and perineum for 2 days. It's swollen, red, and turning dark. I have diabetes and I feel terrible - fever, chills, and I can barely stand.",
+  "vitals": {
+    "BP": "80/45",
+    "HR": "130",
+    "RR": "30",
+    "SpO2": "90%",
+    "Temp": "39.5\u00b0C"
+  },
+  "physical_exam": {
+    "Genitalia": "Scrotum: Swollen, erythematous, tense, with areas of duskiness and necrosis. Crepitus present (subcutaneous gas). Pain out of proportion to exam findings. Foul-smelling discharge.",
+    "Perineum": "Erythema extending to perianal area and lower abdomen. Crepitus extending to inguinal ligaments.",
+    "Labs": "WBC 24,000, Lactate 7.5, Cr 3.2, Hb 8.5, Platelets 80,000 (DIC developing). CT: Extensive gas in scrotum, perineum, and abdominal wall. No intra-abdominal source."
+  },
+  "correct_diagnosis": "Fournier Gangrene (Necrotizing Fasciitis of Perineum/Scrotum) with Septic Shock",
+  "key_learning_points": [
+    "Fournier gangrene = necrotizing fasciitis of perineum and genitalia. Polymicrobial (Gram-positives, Gram-negatives, anaerobes). Risk factors: DM (most common), alcoholism, immunosuppression, recent perineal surgery/trauma",
+    "Clinical: Severe pain out of proportion, swelling, erythema \u2192 duskiness/necrosis, crepitus (pathognomonic - gas in tissues), foul discharge, systemic toxicity. Rapid progression over hours",
+    "Diagnosis: CLINICAL (do NOT delay surgery for imaging). CT if diagnosis uncertain: Shows gas in soft tissues, fluid collections, fascial thickening. LRINEC score \u22656 suggests necrotizing fasciitis",
+    "Treatment: EMERGENCY SURGICAL DEBRIDEMENT (within hours - delay increases mortality). Aggressive debridement of all necrotic tissue until healthy bleeding tissue encountered. May require multiple returns to OR (q24-48h). Suprapubic catheter (urinary diversion). Colostomy if perianal involvement",
+    "Antibiotics: Vancomycin + Piperacillin-Tazobactam OR Meropenem (broad-spectrum including anaerobes). Add Clindamycin for antitoxin effect (inhibits protein synthesis). IVIG may be beneficial (neutralizes toxins). ICU admission. Mortality 15-40%"
+  ],
+  "hidden_data": {
+    "cbc": "WBC: 12,500 /\u00b5L | RBC: 4.5 M/\u00b5L | Hb: 13.8 g/dL | Hct: 41% | MCV: 88 fL | Platelets: 250,000 /\u00b5L",
+    "cmp": "Na: 140 mmol/L | K: 4.0 mmol/L | Cl: 103 mmol/L | HCO3: 24 mmol/L | BUN: 15 mg/dL | Cr: 1.0 mg/dL | Glucose: 100 mg/dL | Ca: 9.5 mg/dL | Alb: 4.2 g/dL | AST: 28 U/L | ALT: 32 U/L | ALP: 75 U/L | T.Bil: 0.7 mg/dL",
+    "ct_abdomen": "Extensive gas in scrotum, perineum, and abdominal wall",
+    "crp": "CRP: 250 mg/L (severely elevated)",
+    "lactate": "Lactate: 6.5 mmol/L"
+  }
+}

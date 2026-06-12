@@ -1,0 +1,18 @@
+{
+  "id": "pulmo_advanced_006",
+  "specialty": "pulmonology", "difficulty": "advanced",
+  "title": "Refractory Hypoxemia - ARDS",
+  "department": "ICU",
+  "patient": { "age": 45, "gender": "male", "name": "Mr. Tariq Jawad", "persona": "intubated, sedated" },
+  "chief_complaint": "45-year-old admitted for severe pneumonia, now intubated with worsening oxygenation despite increasing FiO2 and PEEP.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 115, "rr": 28, "spo2": "85%", "temp": "38.5°C" },
+  "physical_exam": { "chest": "Bilateral diffuse crackles", "ventilator": "FiO2 80%, PEEP 14, TV 350mL, plateau pressure 32" },
+  "hidden_data": { "abg": "pH: 7.28, PaO2: 52, PaCO2: 55, HCO3: 18, P/F ratio: 65", "cxr": "Bilateral diffuse infiltrates (white out)", "echo": "Normal LV function, no cardiogenic edema" },
+  "media": {},
+  "correct_diagnosis": "Severe ARDS (Berlin Criteria) - PaO2/FiO2 <100",
+  "differential_diagnoses": ["Cardiogenic Pulmonary Edema", "Diffuse Alveolar Hemorrhage", "Acute Interstitial Pneumonia", "Transfusion-Related Lung Injury"],
+  "key_learning_points": ["Berlin criteria: acute onset, bilateral infiltrates, non-cardiogenic, P/F ratio", "Low tidal volume ventilation (6mL/kg IBW)", "Prone positioning for severe ARDS", "Conservative fluid strategy"],
+  "patient_responses": { "ventilator": "Patient is sedated and paralyzed", "oxygenation": "Worsening despite lung protective strategy" },
+  "hints": { "criteria": "Calculate P/F ratio", "management": "Low tidal volume + prone positioning" },
+  "feedback": { "correct_message": "Excellent! Severe ARDS with P/F ratio <100.", "incorrect_message": "This is severe ARDS. The P/F ratio of 65 confirms it.", "test_evaluation": { "abg": { "necessity": "essential", "comment": "P/F ratio diagnostic." }, "echo": { "necessity": "essential", "comment": "Rules out cardiogenic cause." }, "cxr": { "necessity": "essential", "comment": "Bilateral infiltrates." } }, "attending_note": "Severe ARDS: Low tidal volume (6mL/kg), plateau pressure <30, prone positioning for >16h/day, conservative fluids, consider neuromuscular blockade. P/F ratio <100 = severe per Berlin criteria." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_cardio_003",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Continuous Murmur - Patent Ductus Arteriosus",
+  "department": "NICU",
+  "patient": { "age": 0, "gender": "female", "name": "Baby Reem (28 weeks)", "persona": "preterm, on CPAP" },
+  "chief_complaint": "Extremely preterm female (28 weeks, 1000g) with continuous machinery murmur at left infraclavicular area, bounding pulses, and wide pulse pressure (BP 60/30).",
+  "vitals": { "bp": "60/30 mmHg", "hr": 160, "rr": 45, "spo2": "94%", "temp": "36.5°C" },
+  "physical_exam": { "heart": "Continuous machinery murmur at left infraclavicular area, bounding pulses, hyperdynamic precordium", "general": "Preterm, on CPAP 6cmH2O, FiO2 30%" },
+  "hidden_data": { "echo": "Large PDA 3mm with continuous left-to-right shunt, LA:Ao ratio 1.8, dilated left atrium and left ventricle" },
+  "media": {},
+  "correct_diagnosis": "Hemodynamically Significant Patent Ductus Arteriosus",
+  "differential_diagnoses": ["VSD", "AV Malformation", "Aortopulmonary Window", "Coronary Artery Fistula"],
+  "key_learning_points": ["Continuous machinery murmur = PDA", "Bounding pulses + wide pulse pressure", "Ibuprofen or indomethacin for closure", "Surgical ligation if medical therapy fails", "Common in preterm infants"],
+  "patient_responses": { "pregnancy": "Born at 28 weeks, 1000g, required surfactant", "ventilation": "On CPAP, FiO2 30%", "feeding": "On TPN, not yet feeding" },
+  "hints": { "exam": "Continuous murmur + bounding pulses", "echo": "Echo confirms PDA" },
+  "feedback": { "correct_message": "Well diagnosed! Hemodynamically significant PDA in preterm.", "incorrect_message": "This is a PDA. The continuous murmur + echo confirm it.", "test_evaluation": { "echo": { "necessity": "essential", "comment": "Confirms PDA size and shunt." } }, "attending_note": "PDA management: Ibuprofen (10-5-5mg/kg) or indomethacin course. Fluid restriction. If medical therapy fails or contraindicated, surgical ligation. Most PDAs in preterm close spontaneously or with medical therapy." }
+}

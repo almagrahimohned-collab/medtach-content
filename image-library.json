@@ -1,127 +1,13 @@
 {
-  "library": {
-    "name": "MedTach Medical Image Library",
-    "version": "1.0.0",
-    "base_url": "https://raw.githubusercontent.com/almagrahimohned-collab/medtach-content/main",
-    "categories": [
-      {
-        "id": "xray_chest_normal",
-        "label": "Normal Chest X-Ray",
-        "modality": "xray",
-        "region": "chest",
-        "images": [
-          {
-            "id": "xr_chest_normal_01",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_01.JPEG",
-            "description": "Chest X-Ray: Well-centered erect PA view",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Pneumonia", "Pleural effusion", "Cardiomegaly"],
-            "correctIndex": 0,
-            "explanation": "This is a technically adequate erect PA chest radiograph. The medial ends of the clavicles are equidistant from the spinous process, confirming proper positioning. Normal cardiomediastinal contour, clear lungs and pleural cavities, and normal osseous structures indicate a normal study.",
-            "pearl": "A technically good CXR requires: (1) symmetry (clavicles equidistant from spine), (2) adequate inspiration (6-7 anterior ribs visible), (3) no rotation. Always assess image quality before interpreting.",
-            "difficulty": "easy"
-          },
-          {
-            "id": "xr_chest_normal_02",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_02.JPEG",
-            "description": "Chest X-Ray: Clear lung fields",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Atelectasis", "Pulmonary edema", "Tuberculosis"],
-            "correctIndex": 0,
-            "explanation": "This radiograph shows no consolidation, collapse, pneumothorax, or pleural effusion. The mediastinal contour and pulmonary vasculature are normal. These findings are consistent with a normal chest X-ray.",
-            "pearl": "Systematic approach to CXR: ABCDE - Airway, Breathing (lungs), Circulation (heart/vessels), Disability (bones), Everything else (soft tissues, tubes). Following this ensures no finding is missed.",
-            "difficulty": "easy"
-          },
-          {
-            "id": "xr_chest_normal_03",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_03.JPEG",
-            "description": "Chest X-Ray: Blunted costophrenic recesses",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal variant", "Pleural effusion", "Pneumothorax", "Pulmonary fibrosis"],
-            "correctIndex": 0,
-            "explanation": "The blunting of the costophrenic recesses in this case is caused by normal diaphragmatic slips attaching to the lower ribs, not pleural fluid. The lungs and pleural spaces are otherwise clear. This is a normal anatomical variant.",
-            "pearl": "Not all blunted costophrenic angles mean effusion! Normal diaphragmatic slips, old pleural scarring, or poor inspiration can mimic effusion. Look for meniscus sign and layering on lateral decubitus to confirm true effusion.",
-            "difficulty": "medium"
-          },
-          {
-            "id": "xr_chest_normal_04",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_04.JPEG",
-            "description": "Chest X-Ray: Supine AP view",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Mediastinal widening", "Cardiomegaly", "Pneumothorax"],
-            "correctIndex": 0,
-            "explanation": "This supine AP projection shows clear lungs and pleural spaces. The heart and mediastinal contours appear larger than on PA view, which is normal for supine technique due to magnification and reduced inspiratory effort. No pneumothorax, fracture, or soft tissue abnormality.",
-            "pearl": "AP supine films magnify the cardiac silhouette by ~15-20%. Never diagnose cardiomegaly on an AP/supine film alone. Always check technique before interpreting heart size.",
-            "difficulty": "medium"
-          },
-          {
-            "id": "xr_chest_normal_05",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_05.JPEG",
-            "description": "Chest X-Ray: Normal findings",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Chronic bronchitis", "Interstitial lung disease", "Lung mass"],
-            "correctIndex": 0,
-            "explanation": "The radiograph demonstrates no consolidation, collapse, pneumothorax, or effusion. The mediastinal contour and pulmonary vasculature are within normal limits. This is a normal study.",
-            "pearl": "Normal pulmonary vasculature = vessels taper gradually from hilum to periphery, with equal caliber in upper and lower zones in erect position. Loss of this gradient suggests pulmonary venous hypertension (heart failure).",
-            "difficulty": "easy"
-          },
-          {
-            "id": "xr_chest_normal_06",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_06.JPEG",
-            "description": "Chest X-Ray: Supine projection",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Pneumomediastinum", "Rib fracture", "Pneumothorax"],
-            "correctIndex": 0,
-            "explanation": "The lungs and pleural spaces are clear without pneumothorax. Heart size and mediastinal contours appear normal for a supine projection. No fractures or soft tissue abnormalities. Normal study.",
-            "pearl": "In supine CXR, a pneumothorax collects anteriorly and may appear as a 'deep sulcus sign' (abnormally deep costophrenic angle) rather than the classic pleural line. Always check the deep sulcus in supine films.",
-            "difficulty": "easy"
-          },
-          {
-            "id": "xr_chest_normal_07",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_07.JPEG",
-            "description": "Chest X-Ray: External artifact over lower zones",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal with artifact", "Bilateral infiltrates", "Pulmonary nodules", "Pleural plaques"],
-            "correctIndex": 0,
-            "explanation": "The cardiomediastinal silhouette is normal. There is no focal opacity, pleural fluid, or pneumothorax. The opacities over both lower zones are external artifacts (clothing, leads, or hair), not pulmonary pathology. No acute osseous abnormality.",
-            "pearl": "Artifacts can mimic pathology! External artifacts (clothing, hair braids, ECG leads, jewelry) appear denser than lung tissue and often extend beyond the lung fields. Always trace the 'opacity' beyond the lung margin to confirm artifact.",
-            "difficulty": "hard"
-          },
-          {
-            "id": "xr_chest_normal_08",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_08.JPEG",
-            "description": "Chest X-Ray: Normal study",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "COPD", "Pulmonary edema", "Atelectasis"],
-            "correctIndex": 0,
-            "explanation": "The cardiac and mediastinal contours are within normal limits. Lung volumes are normal. No focal opacity, pleural fluid, or pneumothorax. No acute osseous or soft tissue abnormality.",
-            "pearl": "Lung volumes are assessed by counting anterior ribs visible above the diaphragm. Normal = 5-7 anterior ribs in mid-clavicular line. Less than 5 = low volumes (poor inspiration, restrictive disease). More than 7 = hyperinflation (COPD).",
-            "difficulty": "easy"
-          },
-          {
-            "id": "xr_chest_normal_09",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_09.JPEG",
-            "description": "Chest X-Ray: Clear lungs",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Sarcoidosis", "Lymphangitic carcinomatosis", "Pneumoconiosis"],
-            "correctIndex": 0,
-            "explanation": "The lungs are clear without infiltrates or masses. The cardiopericardial silhouette and mediastinal contours are normal. The osseous structures are normal. This is a normal chest radiograph.",
-            "pearl": "A common pitfall: normal pulmonary vessels seen end-on can mimic small nodules. Vessels taper, nodules do not. Trace tubular structures to distinguish vessels from true pathology.",
-            "difficulty": "easy"
-          },
-          {
-            "id": "xr_chest_normal_10",
-            "file": "media/library/xray/chest/normal/xr_chest_normal_10.JPEG",
-            "description": "Chest X-Ray: Normal cardiomediastinal contour",
-            "question": "What is the most likely diagnosis?",
-            "options": ["Normal chest X-ray", "Pulmonary embolism", "Tuberculosis", "Bronchiectasis"],
-            "correctIndex": 0,
-            "explanation": "No consolidation or collapse is present. No effusion or pneumothorax is identified. The cardiomediastinal contour and pulmonary vasculature are normal. These findings confirm a normal chest X-ray.",
-            "pearl": "A normal CXR does NOT exclude significant pathology! Pulmonary embolism, small pneumothorax, early pneumonia, and interstitial lung disease may all have normal initial CXRs. Treat the patient, not the radiograph.",
-            "difficulty": "medium"
-          }
-        ]
-      }
-    ]
-  }
+  "version": "1.0",
+  "lastUpdated": "$(date -Iseconds)",
+  "categories": {
+    "xray": { "label": "X-Ray", "icon": "x-ray" },
+    "ct": { "label": "CT Scan", "icon": "ct-scan" },
+    "mri": { "label": "MRI", "icon": "mri" },
+    "ecg": { "label": "ECG", "icon": "ecg" },
+    "ultrasound": { "label": "Ultrasound", "icon": "ultrasound" },
+    "clinical": { "label": "Clinical Photo", "icon": "camera" }
+  },
+  "images": []
 }

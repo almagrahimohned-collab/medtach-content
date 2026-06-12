@@ -1,0 +1,18 @@
+{
+  "id": "surg_ortho_002",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Knee Injury in Athlete - ACL Tear",
+  "department": "Orthopedic Clinic",
+  "patient": { "age": 22, "gender": "male", "name": "Mr. Karim Nasser", "persona": "athlete, knee gave way" },
+  "chief_complaint": "22-year-old football player twisted his right knee during match. Heard a 'pop', immediate swelling within 2 hours, and knee gave way. Now feels unstable.",
+  "vitals": { "bp": "120/75 mmHg", "hr": 72, "rr": 16, "spo2": "100%", "temp": "36.7°C" },
+  "physical_exam": { "knee": "Large effusion (hemarthrosis), positive Lachman test, positive anterior drawer, positive pivot shift, tenderness over lateral joint line" },
+  "hidden_data": { "mri_knee": "Complete tear of ACL, bone contusions lateral femoral condyle and lateral tibial plateau, lateral meniscus tear" },
+  "media": {},
+  "correct_diagnosis": "Complete ACL Tear with Associated Lateral Meniscus Tear",
+  "differential_diagnoses": ["PCL Tear", "MCL Tear", "Patellar Dislocation", "Tibial Plateau Fracture"],
+  "key_learning_points": ["Pop + immediate swelling = ACL tear until proven", "Lachman test = most sensitive", "MRI confirms and evaluates associated injuries", "ACL reconstruction for young active patients", "Pre-habilitation before surgery improves outcomes"],
+  "patient_responses": { "mechanism": "I planted my foot and twisted to change direction", "pop": "I heard a loud pop and felt my knee shift", "swelling": "It swelled up within an hour" },
+  "hints": { "exam": "Lachman test is most sensitive", "imaging": "MRI is diagnostic" },
+  "feedback": { "correct_message": "Well diagnosed! ACL tear with classic mechanism and Lachman.", "incorrect_message": "This is an ACL tear. The pop + hemarthrosis + positive Lachman are classic.", "test_evaluation": { "mri_knee": { "necessity": "essential", "comment": "Confirms ACL tear and associated injuries." } }, "attending_note": "ACL tear: Pre-hab with PT for ROM and quad strengthening. ACL reconstruction with hamstring or patellar tendon autograft. Return to sport 9-12 months post-op. Concurrent meniscus repair if indicated." }
+}

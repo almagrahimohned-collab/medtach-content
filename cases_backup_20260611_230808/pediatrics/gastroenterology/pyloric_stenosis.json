@@ -1,0 +1,18 @@
+{
+  "id": "ped_gastro_001",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Projectile Vomiting - Hypertrophic Pyloric Stenosis",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 0, "gender": "male", "name": "Baby Khalid (4 weeks)", "persona": "hungry, projectile vomiting" },
+  "chief_complaint": "4-week-old firstborn male with progressive non-bilious projectile vomiting after every feed for 5 days. Hungry after vomiting. Weight loss of 200g. No diarrhea.",
+  "vitals": { "bp": "70/40 mmHg", "hr": 155, "rr": 38, "spo2": "98%", "temp": "36.6°C" },
+  "physical_exam": { "abdomen": "Visible gastric peristalsis from left to right, palpable olive-shaped mass in right upper quadrant, no distension", "general": "Mildly dehydrated, hungry" },
+  "hidden_data": { "cmp": "Na: 130, K: 3.0, Cl: 86, HCO3: 32 (hypochloremic, hypokalemic metabolic alkalosis)", "us_abd": "Hypertrophied pylorus, muscle thickness 4.5mm, length 18mm, no passage of gastric contents" },
+  "media": {},
+  "correct_diagnosis": "Hypertrophic Pyloric Stenosis",
+  "differential_diagnoses": ["Gastroesophageal Reflux", "Pylorospasm", "Duodenal Atresia", "Adrenal Insufficiency"],
+  "key_learning_points": ["Non-bilious projectile vomiting in firstborn male at 3-6 weeks", "Olive mass + visible peristalsis", "Hypochloremic, hypokalemic metabolic alkalosis", "Ultrasound diagnostic", "Pyloromyotomy curative"],
+  "patient_responses": { "vomiting": "It shoots across the room after every feed", "hunger": "He wants to feed again right after vomiting", "stools": "Decreased number of wet diapers", "family": "My husband had this as a baby too" },
+  "hints": { "electrolytes": "Check for metabolic alkalosis", "imaging": "Ultrasound is diagnostic" },
+  "feedback": { "correct_message": "Excellent! Classic pyloric stenosis presentation.", "incorrect_message": "This is pyloric stenosis. The projectile vomiting + olive mass + ultrasound confirm it.", "test_evaluation": { "cmp": { "necessity": "essential", "comment": "Classic metabolic alkalosis." }, "us_abd": { "necessity": "essential", "comment": "Diagnostic." } }, "attending_note": "Pyloric stenosis: Correct fluid and electrolyte abnormalities FIRST (NS + KCl), then pyloromyotomy. Do NOT operate until Cl >100 and HCO3 <30. Excellent prognosis after surgery. More common in firstborn males." }
+}

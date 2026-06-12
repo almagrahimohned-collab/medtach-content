@@ -1,0 +1,87 @@
+{
+  "id": "pulmo_intermediate_ild",
+  "specialty": "pulmonology",
+  "difficulty": "intermediate",
+  "title": "Interstitial Lung Disease",
+  "department": "Pulmonology",
+  "patient": {
+    "age": 62,
+    "gender": "female",
+    "name": "Susan Park",
+    "persona": "former teacher, never smoker, worried about progressive breathlessness"
+  },
+  "chief_complaint": "I get out of breath just walking to the bathroom now. I've had a dry cough for 6 months. My fingers feel different too.",
+  "vitals": {
+    "BP": "132/82",
+    "HR": "88",
+    "RR": "22",
+    "SpO2": "91%",
+    "Temp": "36.5°C"
+  },
+  "physical_exam": {
+    "General": "Tachypneic at rest, clubbing of fingers and toes",
+    "Lungs": "Fine end-inspiratory crackles (Velcro rales) at both bases, no wheezing",
+    "Cardiac": "Regular, loud P2 component of S2, no murmurs",
+    "Extremities": "Digital clubbing, no cyanosis, no edema",
+    "Skin": "No rashes, no Raynaud phenomenon"
+  },
+  "hidden_data": {
+    "abg_rest": "pH 7.44, PaCO2 35, PaO2 72, SaO2 91%",
+    "abg_exercise": "pH 7.42, PaCO2 34, PaO2 55, SaO2 84% (significant desaturation with 6-minute walk)",
+    "pft": "FVC 58% predicted, FEV1 62% predicted, FEV1/FVC 0.88 (restrictive pattern), TLC 55%, DLCO 40% predicted",
+    "cxr": "Bilateral reticular opacities, predominantly in lower lobes. Reduced lung volumes. No pleural effusion.",
+    "hrct": "Peripheral, subpleural honeycombing with traction bronchiectasis, predominantly basilar. Ground-glass opacities in upper lobes. Pattern consistent with UIP (Usual Interstitial Pneumonia).",
+    "cbc": "WBC 8,200, Hb 13.5, Platelets 240,000",
+    "cmp": "Normal",
+    "autoimmune": "ANA negative, RF negative, anti-CCP negative. Scl-70 and Jo-1 antibodies negative."
+  },
+  "media": {},
+  "correct_diagnosis": "Idiopathic Pulmonary Fibrosis (IPF) - Usual Interstitial Pneumonia (UIP) Pattern",
+  "differential_diagnoses": [
+    "Nonspecific Interstitial Pneumonia (NSIP)",
+    "Hypersensitivity Pneumonitis",
+    "Connective Tissue Disease-associated ILD",
+    "Asbestosis",
+    "Sarcoidosis",
+    "Drug-induced ILD"
+  ],
+  "key_learning_points": [
+    "IPF = progressive fibrotic lung disease of unknown cause, UIP pattern on HRCT, age >50, poor prognosis",
+    "Classic triad: Progressive dyspnea + dry cough + inspiratory crackles (Velcro rales) + clubbing",
+    "PFTs show restrictive pattern: decreased FVC, normal or increased FEV1/FVC ratio, decreased DLCO",
+    "HRCT is diagnostic gold standard: Honeycombing + traction bronchiectasis in peripheral, basilar distribution",
+    "Antifibrotic therapy (Pirfenidone, Nintedanib) slows disease progression. Median survival 3-5 years without transplant."
+  ],
+  "patient_responses": {
+    "onset": "It started about a year ago. I noticed I couldn't keep up with my grandkids. Now I can't walk across the room without stopping.",
+    "cough": "Dry, hacking cough. Nothing comes up. It's worse when I try to take a deep breath. I've had it for months.",
+    "risk_factors": "I never smoked. I was a teacher. No exposure to chemicals or birds. No family history of lung disease.",
+    "medications": "Just vitamins. No prescription medications. I tried cough syrup but it didn't help.",
+    "other_symptoms": "I've lost about 15 pounds without trying. I'm always tired. My joints ache sometimes."
+  },
+  "hints": {
+    "history": "Progressive dyspnea over months to years. Dry cough. Ask about occupational exposures, medications, connective tissue disease symptoms.",
+    "examination": "Velcro rales (fine inspiratory crackles) are characteristic. Clubbing suggests chronic hypoxia. Look for signs of connective tissue disease.",
+    "labs": "PFTs with DLCO - restrictive pattern with reduced diffusion capacity is hallmark. 6-minute walk test for desaturation. Autoimmune panel to rule out CTD-ILD.",
+    "imaging": "HRCT is diagnostic - UIP pattern (honeycombing, traction bronchiectasis, peripheral/basilar predominance) = IPF without biopsy."
+  },
+  "feedback": {
+    "correct_message": "Excellent diagnosis! You correctly identified IPF from the progressive dyspnea, Velcro rales, clubbing, restrictive PFTs, and classic UIP pattern on HRCT. Antifibrotic therapy and transplant evaluation are the next steps.",
+    "partially_correct_message": "Good thinking! This is ILD with UIP pattern, not NSIP or other variants. The HRCT shows classic honeycombing and traction bronchiectasis in a peripheral/basilar distribution, which is diagnostic for IPF.",
+    "incorrect_message": "The clinical picture (progressive dyspnea, clubbing, Velcro rales, restrictive PFTs) with HRCT showing peripheral honeycombing is classic for IPF/UIP. IPF is a specific diagnosis requiring antifibrotic therapy, not just 'pulmonary fibrosis'. Refer to pulmonology and transplant center.",
+    "clinical_pearls": [
+      "Velcro rales (fine end-inspiratory crackles) are heard in >90% of IPF patients",
+      "DLCO is often disproportionately reduced compared to FVC in IPF",
+      "Antifibrotic therapy slows FVC decline by 50% but does not reverse fibrosis"
+    ],
+    "test_evaluation": {
+      "pft": {"necessity": "essential", "comment": "Restrictive pattern with reduced DLCO confirms physiological severity and tracks progression"},
+      "hrct": {"necessity": "essential", "comment": "UIP pattern on HRCT is diagnostic for IPF without surgical lung biopsy per 2018 ATS/ERS guidelines"},
+      "abg_exercise": {"necessity": "essential", "comment": "Exercise desaturation indicates severity and need for supplemental oxygen"},
+      "autoimmune": {"necessity": "essential", "comment": "Must rule out CTD-ILD which has different treatment (immunosuppression)"},
+      "cxr": {"necessity": "optional", "comment": "Shows reticular opacities but HRCT is needed for definitive diagnosis"}
+    },
+    "missing_tests": ["6-minute walk test - Objective measure of functional impairment and oxygen needs"],
+    "attending_note": "Doctor, this is classic IPF. Start supplemental oxygen for SpO2 <88% at rest or with exertion. Begin Nintedanib 150mg BID or Pirfenidone. Vaccinate (influenza, pneumococcal, COVID-19). Refer for pulmonary rehabilitation and lung transplant evaluation (age <70, no major comorbidities). Discuss prognosis honestly but compassionately. Median survival 3-5 years."
+  }
+}

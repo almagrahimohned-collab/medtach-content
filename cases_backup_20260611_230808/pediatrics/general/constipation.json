@@ -1,0 +1,18 @@
+{
+  "id": "ped_gen_005",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Abdominal Pain - Functional Constipation",
+  "department": "Pediatric Clinic",
+  "patient": { "age": 5, "gender": "male", "name": "Child Omar (5 years)", "persona": "abdominal pain, straining" },
+  "chief_complaint": "5-year-old with abdominal pain and straining with bowel movements for 2 months. Bowel movements every 4-5 days, large caliber, painful. Occasional soiling of underwear.",
+  "vitals": { "bp": "95/60 mmHg", "hr": 90, "rr": 20, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Soft, palpable stool in left lower quadrant, no tenderness, no masses", "rectal": "Normal tone, hard stool in rectal vault, no fissures" },
+  "hidden_data": { "cbc": "Normal", "tsh": "Normal", "celiac": "Negative", "abdominal_xray": "Significant fecal loading throughout colon without obstruction" },
+  "media": {},
+  "correct_diagnosis": "Functional Constipation with Fecal Incontinence (Encopresis)",
+  "differential_diagnoses": ["Hirschsprung Disease", "Hypothyroidism", "Celiac Disease", "Spinal Cord Abnormality"],
+  "key_learning_points": ["Rome IV criteria for functional constipation", "Disimpaction first, then maintenance", "PEG 3350 first-line", "Behavioral modification: toilet sitting after meals", "Reassure parents - common and treatable"],
+  "patient_responses": { "bowel": "He goes once a week, and it's huge and painful", "soiling": "He sometimes leaks stool in his underwear", "diet": "He doesn't eat many fruits or vegetables" },
+  "hints": { "history": "Incomplete evacuation + retentive posturing", "treatment": "Disimpaction then maintenance therapy" },
+  "feedback": { "correct_message": "Well diagnosed! Functional constipation with encopresis.", "incorrect_message": "This is functional constipation. The history + normal exam + fecal loading confirm it.", "test_evaluation": { "abdominal_xray": { "necessity": "optional", "comment": "Shows fecal loading - not always needed." } }, "attending_note": "Functional constipation: Disimpact with PEG 3350 1-1.5g/kg/day for 3-6 days. Maintenance: PEG 0.4-0.8g/kg/day for at least 2 months. Behavioral: toilet sitting 5-10 min after meals. Increase fiber and fluids. Follow up regularly." }
+}

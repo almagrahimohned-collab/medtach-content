@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_mfm_001",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Small for Dates - Intrauterine Growth Restriction",
+  "department": "Maternal-Fetal Medicine",
+  "patient": { "age": 30, "gender": "female", "name": "Mrs. Huda (32 weeks)", "persona": "worried, baby small" },
+  "chief_complaint": "30-year-old G1P0 at 32 weeks with fundal height measuring 28cm (lagging 4 weeks). Ultrasound shows EFW <10th percentile with elevated umbilical artery Doppler PI.",
+  "vitals": { "bp": "130/85 mmHg", "hr": 82, "rr": 16, "spo2": "98%", "temp": "36.7°C" },
+  "physical_exam": { "fundus": "Fundal height 28cm at 32 weeks" },
+  "hidden_data": { "us_growth": "EFW 1,450g (<5th percentile), HC/AC ratio elevated (asymmetric IUGR)", "doppler": "Umbilical artery PI >95th percentile, MCA normal, ductus venosus normal", "afi": "AFI: 6 (oligohydramnios)", "nst": "Reactive, no decelerations" },
+  "media": {},
+  "correct_diagnosis": "Intrauterine Growth Restriction (Asymmetric, Placental Insufficiency)",
+  "differential_diagnoses": ["Constitutionally Small Fetus", "Oligohydramnios", "Placental Abruption", "Fetal Anomaly"],
+  "key_learning_points": ["EFW <10th percentile + abnormal Dopplers = IUGR", "Umbilical artery Doppler: absent/reversed end-diastolic flow = severe", "Serial monitoring: NST + AFI + Dopplers q1-2 weeks", "Betamethasone if <34 weeks", "Delivery: 37 weeks for stage I, 34 weeks for stage II, 32 weeks for stage III"],
+  "patient_responses": { "movement": "Baby moving, but less than before", "medical": "No hypertension or diabetes" },
+  "hints": { "doppler": "Umbilical artery Doppler is key", "monitoring": "Serial growth + Dopplers" },
+  "feedback": { "correct_message": "Well diagnosed! IUGR from placental insufficiency.", "incorrect_message": "This is IUGR. The EFW <10th + abnormal Dopplers confirm it.", "test_evaluation": { "us_growth": { "necessity": "essential", "comment": "Shows growth restriction." }, "doppler": { "necessity": "essential", "comment": "Assesses placental function." } }, "attending_note": "IUGR: Betamethasone, serial monitoring (NST + AFI + Dopplers q1-2 weeks). Deliver at 37 weeks if stage I. If absent/reversed EDF, admit and deliver by 34 weeks. Continuous fetal monitoring in labor." }
+}

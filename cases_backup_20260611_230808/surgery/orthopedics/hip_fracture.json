@@ -1,0 +1,18 @@
+{
+  "id": "surg_ortho_001",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Hip Pain After Fall - Femoral Neck Fracture",
+  "department": "Orthopedic Emergency",
+  "patient": { "age": 78, "gender": "female", "name": "Mrs. Zahra Ali", "persona": "elderly, hip pain, cannot walk" },
+  "chief_complaint": "78-year-old female slipped on rug at home. Now severe right hip pain, unable to bear weight. Right leg shortened and externally rotated. History of osteoporosis.",
+  "vitals": { "bp": "145/85 mmHg", "hr": 90, "rr": 18, "spo2": "97%", "temp": "36.5°C" },
+  "physical_exam": { "hip": "Right leg shortened and externally rotated, tenderness over hip, pain with any movement, unable to perform straight leg raise" },
+  "hidden_data": { "xray_hip": "Displaced right femoral neck fracture, Garden type IV", "cmp": "Normal", "ecg": "Normal sinus rhythm" },
+  "media": {},
+  "correct_diagnosis": "Displaced Femoral Neck Fracture (Garden IV)",
+  "differential_diagnoses": ["Intertrochanteric Fracture", "Subtrochanteric Fracture", "Pelvic Fracture", "Hip Dislocation"],
+  "key_learning_points": ["Shortened + externally rotated leg = hip fracture", "Hemiarthroplasty for displaced femoral neck in elderly", "Operate within 48h for best outcomes", "DVT prophylaxis essential", "Multidisciplinary: orthogeriatrics, PT, OT"],
+  "patient_responses": { "fall": "I slipped on a rug at home, fell on my right side", "pain": "Severe pain in my groin and hip", "walking": "I can't move my leg at all", "medical": "I have osteoporosis and high blood pressure" },
+  "hints": { "exam": "Shortened + externally rotated leg", "imaging": "X-ray confirms" },
+  "feedback": { "correct_message": "Well diagnosed! Femoral neck fracture needs prompt surgery.", "incorrect_message": "This is a femoral neck fracture. The shortened externally rotated leg + X-ray confirm it.", "test_evaluation": { "xray_hip": { "necessity": "essential", "comment": "Diagnostic." } }, "attending_note": "Femoral neck fracture: Hemiarthroplasty for displaced fracture in elderly. Operate within 48h. DVT prophylaxis (LMWH). Early mobilization with PT. Treat osteoporosis (bisphosphonates, vitamin D, calcium). Orthogeriatric co-management." }
+}

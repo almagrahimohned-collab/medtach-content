@@ -1,0 +1,88 @@
+{
+  "id": "hema_intermediate_aml",
+  "specialty": "hematology",
+  "difficulty": "intermediate",
+  "title": "Acute Myeloid Leukemia",
+  "department": "Hematology",
+  "patient": {
+    "age": 58,
+    "gender": "male",
+    "name": "David Chen",
+    "persona": "accountant, previously healthy, shocked by sudden illness"
+  },
+  "chief_complaint": "I've been feeling exhausted for a few weeks. I have bruises all over my body and I don't remember bumping into anything. My gums won't stop bleeding when I brush my teeth. Yesterday I had a fever and felt terrible.",
+  "vitals": {
+    "BP": "115/70",
+    "HR": "104",
+    "RR": "20",
+    "SpO2": "96%",
+    "Temp": "38.9°C"
+  },
+  "physical_exam": {
+    "General": "Pale, fatigued-appearing male, appears acutely ill",
+    "Skin": "Multiple ecchymoses on arms and legs, scattered petechiae on lower extremities. No purpura. No rash.",
+    "HEENT": "Gingival hypertrophy with active oozing. Pale conjunctiva. No lymphadenopathy.",
+    "Cardiac": "Tachycardia, regular, flow murmur (anemia). No rubs.",
+    "Lungs": "Clear bilaterally",
+    "Abdomen": "Mild hepatosplenomegaly (liver 2cm below costal margin, spleen tip palpable). No tenderness.",
+    "Extremities": "No edema. Petechiae on feet."
+  },
+  "hidden_data": {
+    "cbc": "WBC 42,000 (hyperleukocytosis), Hb 6.2 (severe anemia), Hct 18%, Platelets 18,000 (severe thrombocytopenia). Peripheral smear: 35% blasts with Auer rods. Neutropenia (ANC 200).",
+    "coagulation": "PT 14 (normal 11-13.5), INR 1.2, PTT 32 (normal 25-35), Fibrinogen 380. No DIC.",
+    "cmp": "Sodium 138, Potassium 4.8, BUN 22, Creatinine 1.3, Uric Acid 12.5 (hyperuricemia - tumor lysis risk), LDH 980, Calcium 8.5, Phosphorus 5.2",
+    "bone_marrow_biopsy": "Hypercellular marrow (95% cellularity). >20% blasts (myeloblasts with Auer rods). Myeloperoxidase (MPO) positive. Flow cytometry: CD34+, CD117+, CD13+, CD33+, HLA-DR+. Cytogenetics: Normal karyotype. NPM1 mutation positive, FLT3-ITD negative.",
+    "cxr": "Clear lungs. No infiltrates. No mediastinal lymphadenopathy.",
+    "blood_cultures": "Pending",
+    "uric_acid": "Uric acid 12.5 mg/dL (markedly elevated - high risk for tumor lysis syndrome)",
+    "ldh": "LDH 980 U/L (significantly elevated - high tumor burden)"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute Myeloid Leukemia (AML) with NPM1 Mutation, Normal Karyotype, presenting with Hyperleukocytosis and Tumor Lysis Risk",
+  "differential_diagnoses": [
+    "Acute Lymphoblastic Leukemia (ALL)",
+    "Myelodysplastic Syndrome (MDS) with excess blasts",
+    "Aplastic Anemia",
+    "Immune Thrombocytopenic Purpura (ITP)",
+    "Chronic Myeloid Leukemia (CML) in blast crisis",
+    "Leukemoid Reaction (severe infection)"
+  ],
+  "key_learning_points": [
+    "AML = clonal proliferation of myeloid blasts in bone marrow → marrow failure (anemia, neutropenia, thrombocytopenia) + organ infiltration",
+    "Diagnosis requires ≥20% blasts in bone marrow or peripheral blood, OR specific cytogenetic abnormalities [t(8;21), inv(16), t(15;17)]",
+    "Auer rods = cytoplasmic inclusions in myeloblasts = PATHOGNOMONIC for AML (or high-grade MDS). Never seen in ALL",
+    "Hyperleukocytosis (WBC >100,000 or >50,000 with symptoms) can cause leukostasis → pulmonary or CNS hemorrhage. Requires urgent leukapheresis or hydroxyurea",
+    "Tumor lysis syndrome risk: High WBC, elevated LDH, hyperuricemia → start allopurinol/rasburicase + aggressive IV hydration BEFORE chemotherapy"
+  ],
+  "patient_responses": {
+    "onset": "I thought I was just working too hard. About 3-4 weeks ago I noticed I was getting tired climbing stairs. Then the bruises started appearing - huge ones, on my thighs and arms. I don't remember hitting anything.",
+    "bleeding": "My gums bleed for 10 minutes after brushing. I had a nosebleed yesterday that wouldn't stop for 20 minutes. I'm scared to shave now.",
+    "fever": "Yesterday I spiked a fever of 102°F. I never get sick. I feel like I have the flu but worse - my whole body aches.",
+    "weight": "I've lost 15 pounds in the past 2 months without trying. No appetite.",
+    "medications": "Just a multivitamin. No prescription medications. I don't smoke, drink occasionally."
+  },
+  "hints": {
+    "history": "Constitutional symptoms (fatigue, weight loss, fevers) + pancytopenia symptoms (bruising, bleeding, infections) in previously healthy adult = leukemia until proven otherwise.",
+    "examination": "Look for pallor (anemia), petechiae/ecchymoses (thrombocytopenia), gingival hypertrophy (myelomonocytic subtypes), lymphadenopathy, hepatosplenomegaly.",
+    "labs": "CBC with peripheral smear: Pancytopenia or hyperleukocytosis + blasts. Auer rods = AML. Bone marrow biopsy with flow cytometry, cytogenetics, and molecular testing for definitive diagnosis and risk stratification.",
+    "imaging": "CXR for mediastinal mass (more common in ALL). CT if suspected chloroma or CNS involvement. LP if neurologic symptoms or high-risk for CNS disease."
+  },
+  "feedback": {
+    "correct_message": "Excellent diagnosis! You correctly identified AML from the pancytopenia with hyperleukocytosis, circulating blasts with Auer rods (pathognomonic), and bone marrow confirmation (>20% blasts). The NPM1 mutation without FLT3-ITD confers favorable prognosis. Management includes aggressive IV hydration, tumor lysis prophylaxis, and urgent hematology referral for induction chemotherapy.",
+    "partially_correct_message": "Good recognition of acute leukemia! The Auer rods on peripheral smear and bone marrow biopsy confirm this is AML, not ALL (Auer rods are never seen in ALL). The MPO positive and myeloid markers (CD13, CD33) further confirm myeloid lineage. This distinction is critical as chemotherapy regimens differ completely.",
+    "incorrect_message": "The pancytopenia, circulating blasts with Auer rods, and bone marrow showing >20% myeloblasts is diagnostic for AML. This is NOT ITP (would have normal WBC and Hb), NOT aplastic anemia (no blasts, no splenomegaly), and NOT infection (leukemoid reaction has mature WBCs, not blasts with Auer rods). This is a hematologic emergency requiring urgent oncology consultation and inpatient management.",
+    "clinical_pearls": [
+      "Auer rods are needle-like cytoplasmic inclusions in myeloblasts - pathognomonic for AML. If you see them, the diagnosis is AML until proven otherwise",
+      "NPM1 mutation without FLT3-ITD = favorable risk AML. These patients may not need allogeneic transplant in first remission",
+      "Start tumor lysis prophylaxis (IV fluids + Allopurinol/Rasburicase) BEFORE induction chemotherapy. TLS can cause fatal hyperkalemia, renal failure, and cardiac arrhythmias"
+    ],
+    "test_evaluation": {
+      "cbc": {"necessity": "essential", "comment": "WBC 42K with 35% blasts, Hb 6.2, PLT 18K = hyperleukocytosis with bone marrow failure. ANC 200 = severe neutropenia"},
+      "peripheral_smear": {"necessity": "essential", "comment": "Auer rods in blasts are pathognomonic for AML. Confirmed by bone marrow biopsy"},
+      "bone_marrow": {"necessity": "essential", "comment": ">20% blasts confirms AML. Flow cytometry shows myeloid phenotype. NPM1+/FLT3- = favorable prognosis"},
+      "uric_acid": {"necessity": "essential", "comment": "Uric acid 12.5 = high risk for tumor lysis syndrome. Needs aggressive management before chemotherapy"}
+    },
+    "missing_tests": ["Coagulation panel - DIC can accompany AML (especially APL subtype). HLA typing if considering allogeneic transplant. Echocardiogram before anthracycline chemotherapy"],
+    "attending_note": "Doctor, this is AML requiring urgent admission to hematology/oncology. Start aggressive IV hydration (D5½NS at 200mL/hr) + Allopurinol 300mg PO daily (or Rasburicase if uric acid >8 or renal dysfunction). Transfuse platelets if <10K or active bleeding. pRBC for Hb <7 or symptomatic. Broad-spectrum antibiotics for neutropenic fever (Cefepime 2g IV q8h). Consult hematology for induction chemotherapy ('7+3' regimen: Cytarabine + Daunorubicin). Discuss fertility preservation if applicable. Prognosis: Favorable risk with NPM1 mutation, 60-70% complete remission with induction."
+  }
+}

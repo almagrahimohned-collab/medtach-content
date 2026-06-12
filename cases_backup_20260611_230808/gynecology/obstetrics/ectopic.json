@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_007",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Abdominal Pain in Early Pregnancy - Ectopic Pregnancy",
+  "department": "OB/GYN Emergency",
+  "patient": { "age": 28, "gender": "female", "name": "Mrs. Nada (6 weeks)", "persona": "in pain, anxious" },
+  "chief_complaint": "28-year-old G2P1 at 6 weeks with left lower abdominal pain and spotting for 2 days. Pain worsening. Positive home pregnancy test. No prior ultrasound.",
+  "vitals": { "bp": "95/60 mmHg", "hr": 108, "rr": 20, "spo2": "97%", "temp": "36.8°C" },
+  "physical_exam": { "abdomen": "LLQ tenderness, mild guarding", "pelvic": "Left adnexal tenderness, cervical motion tenderness, uterus slightly enlarged" },
+  "hidden_data": { "bhcg": "Beta-hCG: 2,500 mIU/mL", "us_pelvis": "Empty uterus, left adnexal mass 3cm with ring of fire on Doppler, free fluid in pelvis", "progesterone": "5 ng/mL (low)" },
+  "media": {},
+  "correct_diagnosis": "Left Tubal Ectopic Pregnancy",
+  "differential_diagnoses": ["Threatened Abortion", "Corpus Luteum Cyst", "Ovarian Torsion", "Appendicitis"],
+  "key_learning_points": ["hCG >1500 + empty uterus = ectopic until proven", "Ring of fire on Doppler", "Methotrexate if: stable, mass <3.5cm, no cardiac activity, hCG <5000", "Surgery if unstable, failed MTX, or contraindications", "Rhogam if Rh-negative"],
+  "patient_responses": { "pain": "Sharp pain on left side, getting worse", "bleeding": "Light spotting", "pregnancy": "This is my second pregnancy" },
+  "hints": { "diagnosis": "hCG + ultrasound", "treatment": "Methotrexate vs surgery" },
+  "feedback": { "correct_message": "Excellent! Ectopic pregnancy needs urgent management.", "incorrect_message": "This is ectopic pregnancy. The empty uterus + hCG >2000 + adnexal mass confirm it.", "test_evaluation": { "bhcg": { "necessity": "essential", "comment": "Quantitative level." }, "us_pelvis": { "necessity": "essential", "comment": "Diagnostic." } }, "attending_note": "Ectopic: If stable + mass <3.5cm + no cardiac activity + hCG <5000: MTX 50mg/m² IM single dose. Follow hCG days 4 and 7. Surgery if unstable or MTX contraindicated. Rhogam if Rh-negative." }
+}

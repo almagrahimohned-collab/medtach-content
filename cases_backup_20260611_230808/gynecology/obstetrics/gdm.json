@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_006",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Elevated Glucose in Pregnancy - Gestational Diabetes",
+  "department": "OB/GYN Clinic",
+  "patient": { "age": 32, "gender": "female", "name": "Mrs. Rana (28 weeks)", "persona": "asymptomatic, positive screening" },
+  "chief_complaint": "32-year-old G2P1 at 28 weeks with elevated 1-hour glucose challenge test (165 mg/dL). 3-hour OGTT confirms gestational diabetes. BMI 32. Family history of diabetes.",
+  "vitals": { "bp": "130/80 mmHg", "hr": 85, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Gravid uterus at 28cm, fetal heart 148 bpm", "general": "Obese, BMI 32" },
+  "hidden_data": { "ogtt": "Fasting: 105, 1h: 195, 2h: 170, 3h: 145 (2 abnormal values = GDM)", "hba1c": "6.2%", "us_growth": "Fetus at 75th percentile" },
+  "media": {},
+  "correct_diagnosis": "Gestational Diabetes Mellitus (A2 - Requiring Medication)",
+  "differential_diagnoses": ["Type 2 Diabetes", "Impaired Glucose Tolerance", "Normal Pregnancy", "MODY"],
+  "key_learning_points": ["Screen at 24-28 weeks with 1h GCT", "OGTT diagnostic: 2+ abnormal values (Carpenter-Coustan)", "Dietary modification first-line", "Insulin if fasting >95 or 2h postprandial >120", "Metformin alternative", "Monitor fetal growth and amniotic fluid"],
+  "patient_responses": { "diet": "I eat a lot of sweets and rice", "exercise": "I don't exercise much", "family": "My mother has diabetes" },
+  "hints": { "diagnosis": "OGTT is diagnostic", "treatment": "Diet then insulin if needed" },
+  "feedback": { "correct_message": "Well diagnosed! GDM needs tight glucose control.", "incorrect_message": "This is GDM. The OGTT results confirm it.", "test_evaluation": { "ogtt": { "necessity": "essential", "comment": "Diagnostic." }, "hba1c": { "necessity": "essential", "comment": "Baseline." } }, "attending_note": "GDM: Dietary counseling (carbohydrate counting), glucose monitoring 4x/day (fasting + postprandial). Insulin if fasting >95 or 2h >120. Metformin alternative. Monitor fetal growth q4 weeks. Induction at 39-40 weeks if well-controlled." }
+}

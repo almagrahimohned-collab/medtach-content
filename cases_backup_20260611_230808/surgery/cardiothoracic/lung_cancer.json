@@ -1,0 +1,18 @@
+{
+  "id": "surg_ct_003",
+  "specialty": "surgery", "difficulty": "advanced",
+  "title": "Lung Mass - Lobectomy for NSCLC",
+  "department": "Cardiothoracic Surgery",
+  "patient": { "age": 60, "gender": "male", "name": "Mr. Nabil Qasim", "persona": "smoker, solitary lung nodule" },
+  "chief_complaint": "60-year-old heavy smoker (40 pack-years) with 3cm solitary right upper lobe mass on screening CT. PET-CT positive, no mediastinal involvement. Biopsy: adenocarcinoma. PFT adequate for resection.",
+  "vitals": { "bp": "135/85 mmHg", "hr": 80, "rr": 18, "spo2": "96%", "temp": "36.8°C" },
+  "physical_exam": { "chest": "Clear breath sounds", "general": "Good performance status" },
+  "hidden_data": { "ct_chest": "3cm RUL mass, no lymphadenopathy", "pet_ct": "SUVmax 8.5, no mediastinal or distant uptake", "pft": "FEV1: 2.2L (78% predicted), DLCO: 72%, predicted post-op FEV1: 1.5L (>40%)", "biopsy": "Invasive adenocarcinoma, EGFR wild-type, ALK negative" },
+  "media": {},
+  "correct_diagnosis": "Stage IA Non-Small Cell Lung Cancer (T1bN0M0) - Surgical Candidate",
+  "differential_diagnoses": ["SBRT", "Radiofrequency Ablation", "Wedge Resection", "Segmentectomy"],
+  "key_learning_points": ["Lobectomy = standard for stage I NSCLC", "Predicted post-op FEV1 >40% required", "Mediastinal staging: EBUS or mediastinoscopy", "VATS lobectomy preferred (less morbidity)", "Adjuvant chemotherapy if stage II+ or high risk"],
+  "patient_responses": { "smoking": "40 pack-years, still smoking", "symptoms": "No cough or chest pain, found on screening", "weight": "Stable" },
+  "hints": { "staging": "PET-CT for mediastinal staging", "resectability": "Post-op FEV1 >40% = adequate" },
+  "feedback": { "correct_message": "Excellent! Stage IA NSCLC - excellent candidate for lobectomy.", "incorrect_message": "This is stage I NSCLC. Lobectomy is standard of care.", "test_evaluation": { "pft": { "necessity": "essential", "comment": "Assesses surgical risk." }, "pet_ct": { "necessity": "essential", "comment": "Rules out metastases." } }, "attending_note": "NSCLC Stage IA: VATS right upper lobectomy with mediastinal lymph node sampling. 5-year survival >80% for stage I. Smoking cessation essential. Annual surveillance CT for 5 years." }
+}

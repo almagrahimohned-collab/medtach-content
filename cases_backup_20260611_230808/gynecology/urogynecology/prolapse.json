@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_uro_002",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Bulging Sensation - Pelvic Organ Prolapse",
+  "department": "Urogynecology Clinic",
+  "patient": { "age": 65, "gender": "female", "name": "Mrs. Zahra Nasser", "persona": "bulging sensation, discomfort" },
+  "chief_complaint": "65-year-old G5P5 with sensation of vaginal bulge and pressure for 1 year, worsens with prolonged standing. Feels like something is falling out. No urinary symptoms.",
+  "vitals": { "bp": "135/85 mmHg", "hr": 78, "rr": 16, "spo2": "99%", "temp": "36.6°C" },
+  "physical_exam": { "pelvic": "Stage 3 POP-Q: anterior vaginal wall prolapse (cystocele) to hymen +2cm, uterine descent to hymen (procidentia), small rectocele" },
+  "hidden_data": { "pvr": "Post-void residual: 50mL", "us_pelvis": "Normal uterus and ovaries" },
+  "media": {},
+  "correct_diagnosis": "Stage 3 Pelvic Organ Prolapse (Cystocele + Uterine Prolapse)",
+  "differential_diagnoses": ["Vaginal Cyst", "Urethral Diverticulum", "Cervical Elongation", "Enterocele"],
+  "key_learning_points": ["POP-Q system for staging (0-4)", "Parity = strongest risk factor", "Asymptomatic: no treatment needed", "Symptomatic: pessary or surgery", "Surgery: anterior colporrhaphy, hysterectomy, sacrocolpopexy", "Consider conservative first (pessary)"],
+  "patient_responses": { "bulge": "I feel a lump coming down, especially when I stand", "discomfort": "Pressure and heaviness", "urination": "No leaking" },
+  "hints": { "staging": "POP-Q system", "treatment": "Pessary vs surgery" },
+  "feedback": { "correct_message": "Well diagnosed! Stage 3 POP.", "incorrect_message": "This is pelvic organ prolapse. The POP-Q staging confirms it.", "test_evaluation": { "pvr": { "necessity": "essential", "comment": "Normal - no retention." } }, "attending_note": "Stage 3 POP: Offer pessary (ring or Gellhorn) as conservative option. If desires surgery: vaginal hysterectomy + anterior colporrhaphy. Sacrocolpopexy if younger and sexually active. Success rates >90%." }
+}

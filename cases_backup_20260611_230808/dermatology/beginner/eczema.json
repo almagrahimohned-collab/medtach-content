@@ -1,0 +1,18 @@
+{
+  "id": "derm_beginner_001",
+  "specialty": "dermatology", "difficulty": "beginner",
+  "title": "Itchy Rash - Atopic Dermatitis",
+  "department": "Dermatology Clinic",
+  "patient": { "age": 5, "gender": "male", "name": "Child Adam (5 years)", "persona": "itchy, irritable child" },
+  "chief_complaint": "Intensely itchy rash on flexural areas (elbows and behind knees) for 6 months. Worse at night. Mother has history of asthma and hay fever.",
+  "vitals": { "bp": "95/60 mmHg", "hr": 95, "rr": 20, "spo2": "99%", "temp": "36.8°C" },
+  "physical_exam": { "skin": "Erythematous, scaly patches with excoriations on antecubital and popliteal fossae, lichenification from chronic scratching, xerosis" },
+  "hidden_data": { "ige": "Total IgE: 850 IU/mL (elevated)", "skin_prick": "Positive for dust mites, pollen, and cat dander" },
+  "media": {},
+  "correct_diagnosis": "Moderate-Severe Atopic Dermatitis (Eczema)",
+  "differential_diagnoses": ["Contact Dermatitis", "Seborrheic Dermatitis", "Psoriasis", "Scabies"],
+  "key_learning_points": ["Flexural involvement = classic atopic dermatitis", "Associated with asthma and allergic rhinitis (atopic triad)", "Emollients are foundation of treatment", "Topical corticosteroids for flares, calcineurin inhibitors for maintenance"],
+  "patient_responses": { "itching": "He scratches all night, can't sleep", "family": "I have asthma and hay fever", "triggers": "It gets worse in winter and with wool clothing" },
+  "hints": { "history": "Personal or family history of atopy", "treatment": "Emollients + topical steroids" },
+  "feedback": { "correct_message": "Well diagnosed! Atopic dermatitis with classic flexural involvement.", "incorrect_message": "This is atopic dermatitis. The flexural rash + family history + pruritus are classic.", "test_evaluation": { "ige": { "necessity": "optional", "comment": "Elevated - supports atopy." }, "skin_prick": { "necessity": "optional", "comment": "Identifies triggers." } }, "attending_note": "Atopic dermatitis: Emollients liberally (at least twice daily), topical hydrocortisone for face, triamcinolone for body. Avoid triggers (wool, harsh soaps). Short lukewarm baths. Antihistamines for pruritus at night. Most children outgrow by adolescence." }
+}

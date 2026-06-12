@@ -1,0 +1,88 @@
+{
+  "id": "id_intermediate_tuberculosis",
+  "specialty": "infectious",
+  "difficulty": "intermediate",
+  "title": "Pulmonary Tuberculosis",
+  "department": "Infectious Disease",
+  "patient": {
+    "age": 38,
+    "gender": "male",
+    "name": "Carlos Ramirez",
+    "persona": "immigrant from Philippines, construction worker, worried about missing work"
+  },
+  "chief_complaint": "I've been coughing for a month. At first I thought it was a cold, but now I'm coughing up blood. I've lost weight, I sweat through my sheets at night, and I feel exhausted all the time.",
+  "vitals": {
+    "BP": "120/78",
+    "HR": "96",
+    "RR": "20",
+    "SpO2": "95%",
+    "Temp": "38.1°C"
+  },
+  "physical_exam": {
+    "General": "Thin male, appears chronically ill, cachectic appearance",
+    "Lungs": "Crackles and bronchial breath sounds in right upper lobe. Dullness to percussion. No wheezes.",
+    "Cardiac": "Regular rhythm, no murmurs",
+    "Lymphatic": "Bilateral cervical lymphadenopathy (firm, non-tender, matted)",
+    "Abdomen": "No hepatosplenomegaly",
+    "Skin": "No rashes. BCG scar on left deltoid."
+  },
+  "hidden_data": {
+    "cxr": "Right upper lobe infiltrate with cavitary lesion (2cm). Volume loss in right upper lobe. Hilar lymphadenopathy. No pleural effusion.",
+    "ct_chest": "Cavitary lesion in apical segment of right upper lobe with surrounding tree-in-bud opacities (endobronchial spread). Right hilar and mediastinal lymphadenopathy. Centrilobular nodules in right middle and lower lobes.",
+    "sputum_afb": "AFB smear: 3+ Acid-fast bacilli (numerous). M. tuberculosis PCR (GeneXpert): MTB detected, Rifampicin resistance NOT detected.",
+    "sputum_culture": "M. tuberculosis growth confirmed at 4 weeks (pending at time of diagnosis)",
+    "quantiferon": "QuantiFERON-TB Gold: Positive",
+    "hiv": "HIV antibody/antigen: Negative",
+    "cbc": "WBC 8,500, Hb 11.5 (anemia of chronic disease), Platelets 280,000",
+    "cmp": "Albumin 3.0 (malnutrition), normal electrolytes, Creatinine 0.9, AST 45, ALT 50",
+    "tst": "PPD (Tuberculin Skin Test): 22mm induration (strongly positive)"
+  },
+  "media": {},
+  "correct_diagnosis": "Active Pulmonary Tuberculosis (Cavitary, AFB Smear Positive) - Rifampicin Sensitive",
+  "differential_diagnoses": [
+    "Non-tuberculous Mycobacterial (NTM) Infection (MAC, kansasii)",
+    "Fungal Pneumonia (Histoplasmosis, Coccidioidomycosis, Aspergillosis)",
+    "Lung Abscess (anaerobic bacteria)",
+    "Bronchogenic Carcinoma (especially squamous cell - can cavitate)",
+    "Granulomatosis with Polyangiitis (Wegener's)",
+    "Sarcoidosis"
+  ],
+  "key_learning_points": [
+    "TB = airborne infection caused by Mycobacterium tuberculosis. Most common in immigrants from endemic areas, HIV+, and immunocompromised hosts",
+    "Classic symptoms: Chronic cough >3 weeks, hemoptysis, night sweats, weight loss, fever, and fatigue (consumptive symptoms)",
+    "CXR findings: Upper lobe infiltrates, cavitary lesions (reactivation TB), hilar/mediastinal lymphadenopathy, pleural effusion. Primary TB: Lower lobe infiltrates + hilar adenopathy (Ghon complex)",
+    "Diagnosis: AFB smear (rapid, identifies most infectious patients), NAAT/GeneXpert (rapid, detects MTB + rifampicin resistance), Culture (gold standard, 2-8 weeks for results)",
+    "Treatment (RIPE therapy): Rifampin + Isoniazid + Pyrazinamide + Ethambutol ×2 months (intensive phase), then Rifampin + Isoniazid ×4 months (continuation phase). Total 6 months for drug-sensitive TB."
+  ],
+  "patient_responses": {
+    "cough": "It started as a dry cough a month ago. Now it's productive with greenish sputum. Yesterday I saw streaks of blood. This morning there was more blood - maybe a teaspoon.",
+    "symptoms": "I've lost 20 pounds in 2 months without trying. I have no appetite. Every night I wake up drenched in sweat - I have to change my sheets. I'm so tired I can barely work.",
+    "background": "I moved here from the Philippines 3 years ago. I had a TB vaccine as a child (shows BCG scar). I live in a small apartment with my wife and 2 children.",
+    "contacts": "My wife has been coughing for 2 weeks. My children are 5 and 8 years old.",
+    "medications": "No regular medications. I've been taking cough syrup but it doesn't help."
+  },
+  "hints": {
+    "history": "Chronic cough >3 weeks + hemoptysis + night sweats + weight loss in immigrant from endemic area = TB until proven otherwise. Ask about TB exposure, HIV risk, and prior TB treatment.",
+    "examination": "Cavitary TB often has focal crackles in upper lobes. Look for lymphadenopathy, pleural effusion signs, and extrapulmonary TB (spine, CNS, abdomen).",
+    "labs": "AFB smear (rapid, identifies infectious patients). GeneXpert (NAAT) for rapid diagnosis + rifampicin resistance detection. Culture for definitive diagnosis and drug susceptibility. HIV test (all TB patients).",
+    "imaging": "CXR: Upper lobe cavitary disease is classic for reactivation TB. CT defines extent and identifies tree-in-bud (endobronchial spread). Normal CXR does NOT rule out TB."
+  },
+  "feedback": {
+    "correct_message": "Excellent diagnosis! You correctly identified active cavitary pulmonary TB based on chronic cough with hemoptysis, constitutional symptoms, immigrant from endemic area, positive QuantiFERON, and classic CXR findings (upper lobe cavity). The positive AFB smear and GeneXpert confirm the diagnosis. Airborne isolation, RIPE therapy, and contact tracing are essential.",
+    "partially_correct_message": "Good recognition of possible TB! The positive AFB smear and cavitary lesion on CXR confirm active pulmonary TB, not latent TB (would have normal CXR). Active TB requires full RIPE therapy and airborne isolation, not just INH prophylaxis. Contact investigation for family members is mandatory.",
+    "incorrect_message": "The chronic cough, hemoptysis, night sweats, weight loss, positive QuantiFERON, and CXR showing upper lobe cavity with AFB-positive sputum is diagnostic for active cavitary pulmonary TB. This is NOT latent TB (requires treatment with INH alone), NOT pneumonia (would have acute onset, different CXR), and NOT lung cancer (would have risk factors, different CT features). This requires immediate airborne isolation, 4-drug RIPE therapy, and public health notification.",
+    "clinical_pearls": [
+      "AFB smear 3+ = highly infectious. Patient requires NEGATIVE PRESSURE isolation room with HEPA filtration. Healthcare workers need N95 masks",
+      "Always test for HIV in TB patients - co-infection changes management (ART timing, drug interactions with Rifampin)",
+      "Rifampin is a potent CYP3A4 inducer - decreases efficacy of oral contraceptives, warfarin, antiretrovirals, and many other drugs"
+    ],
+    "test_evaluation": {
+      "cxr": {"necessity": "essential", "comment": "Upper lobe cavitary lesion with volume loss and hilar adenopathy = classic reactivation TB"},
+      "afb_smear": {"necessity": "essential", "comment": "AFB 3+ = highly infectious. Start airborne isolation immediately. GeneXpert confirms MTB and rules out rifampicin resistance"},
+      "quantiferon": {"necessity": "essential", "comment": "Positive IGRA confirms TB infection. PPD would be >15mm in this low-risk individual (BCG can cause false positive)"},
+      "hiv": {"necessity": "essential", "comment": "HIV testing mandatory in all TB patients - co-infection rate high. Negative here simplifies management"}
+    },
+    "missing_tests": ["Baseline LFTs before starting hepatotoxic RIPE therapy. Visual acuity and color discrimination before Ethambutol (optic neuritis risk). Baseline uric acid (Pyrazinamide causes hyperuricemia)"],
+    "attending_note": "Doctor, immediately place in airborne isolation (negative pressure room, N95 masks). Start RIPE therapy (weight-based): Rifampin 600mg PO daily + Isoniazid 300mg PO daily + Pyrazinamide 1500mg PO daily + Ethambutol 1200mg PO daily + Pyridoxine (B6) 50mg PO daily. 2 months intensive phase, then 4 months continuation (Rifampin + Isoniazid). Directly Observed Therapy (DOT) recommended. Baseline LFTs, CBC, creatinine, vision testing. Monitor LFTs monthly (risk of hepatotoxicity). Notify public health department. Contact investigation: PPD and CXR for wife and children. Consider window prophylaxis for children pending rule-out. Sputum AFB smear should convert to negative by 2 months (if not, assess for drug resistance or non-adherence)."
+  }
+}

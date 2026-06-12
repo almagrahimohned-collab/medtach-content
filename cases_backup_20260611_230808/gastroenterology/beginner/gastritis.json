@@ -1,0 +1,18 @@
+{
+  "id": "gastro_beginner_009",
+  "specialty": "gastroenterology", "difficulty": "beginner",
+  "title": "Epigastric Burning - Gastritis",
+  "department": "Gastroenterology Clinic",
+  "patient": { "age": 40, "gender": "male", "name": "Mr. Nasser Ali", "persona": "epigastric pain, stressed" },
+  "chief_complaint": "Epigastric burning pain for 1 month, worse with coffee and spicy foods, partially relieved by antacids. Occasional nausea. High stress job.",
+  "vitals": { "bp": "130/85 mmHg", "hr": 80, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "abdomen": "Mild epigastric tenderness, no rebound, no guarding, bowel sounds normal" },
+  "hidden_data": { "cbc": "Normal", "h_pylori_stool": "H. pylori antigen: Positive", "endoscopy": "Erythematous gastric mucosa, no ulcer, no malignancy, biopsy shows chronic active gastritis" },
+  "media": {},
+  "correct_diagnosis": "Chronic Gastritis (H. pylori-associated)",
+  "differential_diagnoses": ["Peptic Ulcer Disease", "GERD", "Functional Dyspepsia", "Gastric Cancer"],
+  "key_learning_points": ["H. pylori = most common cause of chronic gastritis", "Test and treat strategy", "Triple therapy: PPI + Amoxicillin + Clarithromycin", "Confirm eradication 4 weeks after treatment"],
+  "patient_responses": { "pain": "It burns in my stomach, especially after coffee", "stress": "I work long hours and eat irregularly", "antacids": "Tums help a little but not completely" },
+  "hints": { "testing": "Check for H. pylori", "treatment": "Triple therapy for H. pylori" },
+  "feedback": { "correct_message": "Well diagnosed! H. pylori gastritis.", "incorrect_message": "This is H. pylori gastritis. The positive stool antigen and biopsy confirm it.", "test_evaluation": { "h_pylori_stool": { "necessity": "essential", "comment": "Non-invasive diagnosis." }, "endoscopy": { "necessity": "essential", "comment": "Confirms gastritis and rules out ulcer/cancer." } }, "attending_note": "H. pylori gastritis: Triple therapy (PPI BID + Amoxicillin 1g BID + Clarithromycin 500mg BID) for 14 days. Confirm eradication with stool antigen 4 weeks after treatment. Counsel about triggers (coffee, spicy foods, stress)." }
+}

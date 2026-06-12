@@ -1,0 +1,18 @@
+{
+  "id": "surg_ct_001",
+  "specialty": "surgery", "difficulty": "advanced",
+  "title": "Multivessel CAD - Coronary Artery Bypass Grafting",
+  "department": "Cardiothoracic Surgery",
+  "patient": { "age": 65, "gender": "male", "name": "Mr. Faisal Omar", "persona": "angina, diabetic" },
+  "chief_complaint": "65-year-old diabetic male with progressive exertional angina for 6 months. Coronary angiography shows severe triple vessel disease (LAD 90%, LCx 80%, RCA 85%). LVEF 45%. Not a candidate for PCI due to SYNTAX score 35.",
+  "vitals": { "bp": "130/80 mmHg", "hr": 75, "rr": 18, "spo2": "98%", "temp": "36.7°C" },
+  "physical_exam": { "heart": "Normal S1 S2, no murmurs", "chest": "Clear", "extremities": "Adequate saphenous veins bilaterally" },
+  "hidden_data": { "angiography": "SYNTAX score 35, three-vessel disease, distal targets adequate for grafting", "echo": "LVEF 45%, mild MR, no AS", "carotid_doppler": "No significant carotid stenosis", "hba1c": "7.5%" },
+  "media": {},
+  "correct_diagnosis": "Severe Triple Vessel Coronary Artery Disease - CABG Indicated",
+  "differential_diagnoses": ["PCI with DES", "Medical Management", "Hybrid Procedure", "Transmyocardial Revascularization"],
+  "key_learning_points": ["CABG preferred over PCI for: triple vessel + diabetes, SYNTAX >33, LV dysfunction", "LIMA to LAD = gold standard graft", "Saphenous vein grafts for other vessels", "Pre-op: carotid doppler, HbA1c optimization, PFT", "Post-op: DAPT, statin, beta-blocker, cardiac rehab"],
+  "patient_responses": { "angina": "Chest pain with walking 2 blocks, relieved by rest", "medical": "I have diabetes and high cholesterol", "smoking": "Quit 5 years ago" },
+  "hints": { "indication": "SYNTAX >33 + diabetes = CABG", "grafts": "LIMA to LAD is critical" },
+  "feedback": { "correct_message": "Excellent! CABG is the right choice for this patient.", "incorrect_message": "This patient needs CABG. The triple vessel disease + diabetes + SYNTAX >33 are indications.", "test_evaluation": { "angiography": { "necessity": "essential", "comment": "Defines coronary anatomy." }, "echo": { "necessity": "essential", "comment": "LVEF important for risk." } }, "attending_note": "CABG: LIMA to LAD + saphenous vein grafts to LCx and RCA. On-pump vs off-pump based on surgeon preference. Pre-op aspirin continues, stop clopidogrel 5 days before. Post-op: aspirin + statin + beta-blocker + cardiac rehab. Excellent long-term outcomes." }
+}

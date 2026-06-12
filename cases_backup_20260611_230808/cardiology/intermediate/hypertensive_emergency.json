@@ -1,0 +1,18 @@
+{
+  "id": "cardio_intermediate_007",
+  "specialty": "cardiology", "difficulty": "intermediate",
+  "title": "Severe Hypertension - Hypertensive Emergency",
+  "department": "Emergency Department",
+  "patient": { "age": 55, "gender": "male", "name": "Mr. Fadi Nasser", "persona": "headache, blurred vision" },
+  "chief_complaint": "Severe headache, blurred vision, and confusion for 6 hours. Known hypertension, stopped medications 2 weeks ago.",
+  "vitals": { "bp": "220/130 mmHg", "hr": 95, "rr": 20, "spo2": "97%", "temp": "36.8°C" },
+  "physical_exam": { "neuro": "Alert but confused, fundoscopy shows papilledema and retinal hemorrhages", "heart": "S4 gallop, displaced PMI" },
+  "hidden_data": { "cmp": "Cr: 2.5 (elevated from baseline 1.0), BUN: 45", "ua": "Protein: 2+, RBC: 10-15/HPF", "ct_head": "No intracranial hemorrhage, no mass", "cxr": "Cardiomegaly, pulmonary vascular congestion" },
+  "media": {},
+  "correct_diagnosis": "Hypertensive Emergency with Acute Kidney Injury and Hypertensive Retinopathy",
+  "differential_diagnoses": ["Hypertensive Urgency", "Acute Stroke", "Pheochromocytoma", "Aortic Dissection"],
+  "key_learning_points": ["Lower BP by 25% in first hour, not to normal", "IV labetalol or nicardipine first-line", "Avoid rapid BP lowering (risk of cerebral hypoperfusion)", "Target BP 160/100-110 in first 24h"],
+  "patient_responses": { "medications": "I ran out of my blood pressure pills 2 weeks ago", "headache": "It's the worst headache of my life", "vision": "My vision is blurry, like looking through fog" },
+  "hints": { "fundoscopy": "Check for papilledema", "management": "IV antihypertensive, lower by 25% in first hour" },
+  "feedback": { "correct_message": "Excellent! Hypertensive emergency correctly identified.", "incorrect_message": "This is hypertensive emergency. The BP + end-organ damage (AKI, retinopathy) confirm it.", "test_evaluation": { "cmp": { "necessity": "essential", "comment": "Shows acute kidney injury." }, "ct_head": { "necessity": "essential", "comment": "Rules out intracranial hemorrhage." }, "ua": { "necessity": "essential", "comment": "Shows renal involvement." } }, "attending_note": "Hypertensive emergency: IV labetalol 20mg bolus then 1-2mg/min, or nicardipine 5mg/hr. Lower MAP by 25% in first hour. Target 160/100 in 24h. Do NOT lower to normal rapidly. Admit to ICU." }
+}

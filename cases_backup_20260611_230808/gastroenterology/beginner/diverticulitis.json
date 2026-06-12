@@ -1,0 +1,83 @@
+{
+  "id": "gastro_beginner_diverticulitis",
+  "specialty": "gastroenterology",
+  "difficulty": "beginner",
+  "title": "Acute Diverticulitis",
+  "department": "Gastroenterology",
+  "patient": {
+    "age": 58,
+    "gender": "male",
+    "name": "Robert Miller",
+    "persona": "retired office worker, low-fiber diet, concerned about cancer"
+  },
+  "chief_complaint": "I have constant pain in my left lower stomach for the past 2 days. It's getting worse. I also have a fever and chills. I haven't had a bowel movement since this started.",
+  "vitals": {
+    "BP": "128/78",
+    "HR": "96",
+    "RR": "18",
+    "SpO2": "97%",
+    "Temp": "38.3°C"
+  },
+  "physical_exam": {
+    "General": "Uncomfortable, lying still",
+    "Abdomen": "LLQ tenderness with localized guarding. Palpable, tender mass in LLQ. No rebound tenderness. Bowel sounds present but diminished.",
+    "Rectal": "Tenderness on left side. No masses. Hemoccult negative.",
+    "Cardiac": "Regular tachycardia"
+  },
+  "hidden_data": {
+    "ct_abdomen": "Sigmoid diverticulosis with segmental wall thickening and fat stranding (Hinchey Stage Ia - pericolic inflammation). Small pericolic abscess 2cm. No free air. No free fluid. No fistula.",
+    "cbc": "WBC 14,800 with 78% neutrophils, Hb 14.1, Platelets 310,000",
+    "cmp": "Normal electrolytes, Creatinine 1.0, normal LFTs",
+    "crp": "CRP 145 mg/L (significantly elevated)",
+    "urinalysis": "Normal, no pyuria",
+    "cxr": "No free air under diaphragm"
+  },
+  "media": {},
+  "correct_diagnosis": "Acute Sigmoid Diverticulitis, Hinchey Stage Ia (Pericolic Inflammation with Small Abscess)",
+  "differential_diagnoses": [
+    "Colon Cancer (perforated or obstructing)",
+    "Acute Appendicitis (atypical location)",
+    "Inflammatory Bowel Disease (Crohn's, Ulcerative Colitis)",
+    "Infectious Colitis",
+    "Ischemic Colitis",
+    "Nephrolithiasis (left ureteral stone)"
+  ],
+  "key_learning_points": [
+    "Diverticulitis = inflammation/infection of a colonic diverticulum, most commonly in the sigmoid colon (LLQ pain)",
+    "LLQ pain + fever + leukocytosis in a patient >50 with known diverticulosis = diverticulitis until proven otherwise",
+    "CT abdomen with IV contrast is the diagnostic gold standard: Wall thickening, fat stranding, abscess, free air (perforation)",
+    "Hinchey classification guides management: Ia (pericolic inflammation) = medical management, III/IV (peritonitis) = surgery",
+    "Uncomplicated diverticulitis (Hinchey Ia): Treated with antibiotics + bowel rest. Most patients improve in 48-72h."
+  ],
+  "patient_responses": {
+    "pain": "It's in my left lower side. Constant, dull ache. It hurts more when I move or press on it. Not going anywhere else.",
+    "bowels": "I've been constipated for a while. I usually don't eat much fiber. I haven't had a bowel movement in 2 days. No blood.",
+    "previous": "I had a colonoscopy last year that showed 'pockets' in my colon (diverticulosis). The doctor told me to eat more fiber but I never did.",
+    "diet": "I eat a lot of red meat, white bread, potatoes. Not many vegetables or fruits. I drink maybe 4 cups of coffee a day, not much water.",
+    "fever": "I've been feeling hot and cold, checking my temperature at home - it was 101.5°F (38.6°C) this morning."
+  },
+  "hints": {
+    "history": "LLQ pain in patient >50 with known diverticulosis. Ask about previous episodes, change in bowel habits, rectal bleeding (cancer).",
+    "examination": "Localized LLQ tenderness ± palpable mass. Peritoneal signs suggest perforation or abscess rupture.",
+    "labs": "CBC (leukocytosis), CRP (elevated, tracks treatment response). Blood cultures if septic. CEA if suspecting cancer.",
+    "imaging": "CT abdomen/pelvis with IV contrast is diagnostic. Shows extent of inflammation, abscess, free air, or fistula."
+  },
+  "feedback": {
+    "correct_message": "Well done! You correctly diagnosed acute diverticulitis (Hinchey Ia) based on LLQ pain, fever, leukocytosis, and CT findings. The small contained abscess can be managed conservatively with antibiotics. Colonoscopy should be performed 6-8 weeks after resolution to rule out underlying malignancy.",
+    "partially_correct_message": "Good thinking! The LLQ location and known diverticulosis point to diverticulitis, but the CT shows a small abscess which makes this complicated diverticulitis (Hinchey Ia), not just uncomplicated diverticulitis. Antibiotics and bowel rest are appropriate; surgical consultation for possible drainage if abscess enlarges.",
+    "incorrect_message": "The classic LLQ pain in a patient with known diverticulosis, fever, leukocytosis, and CT showing sigmoid inflammation with small abscess is classic acute diverticulitis Hinchey Ia. This requires IV antibiotics, bowel rest, and monitoring. Colonoscopy follow-up is essential to rule out cancer.",
+    "clinical_pearls": [
+      "Antibiotics for uncomplicated diverticulitis are now controversial - some guidelines support observation without antibiotics in select immunocompetent patients with Hinchey Ia",
+      "Colonoscopy should be delayed 6-8 weeks after acute episode to allow inflammation to resolve and reduce perforation risk",
+      "Recurrent diverticulitis: Consider elective sigmoidectomy after 2-3 confirmed episodes or single severe episode"
+    ],
+    "test_evaluation": {
+      "ct_abdomen": {"necessity": "essential", "comment": "Diagnostic gold standard. Hinchey Ia with small 2cm abscess guides conservative management"},
+      "cbc": {"necessity": "essential", "comment": "Leukocytosis confirms infection. Will trend to monitor treatment response"},
+      "crp": {"necessity": "essential", "comment": "CRP 145 indicates significant inflammation. Useful to trend for clinical improvement"},
+      "cmp": {"necessity": "essential", "comment": "Baseline renal function before starting nephrotoxic antibiotics"}
+    },
+    "missing_tests": ["CEA - Not urgent but should be checked. Diverticulitis can mimic colon cancer"],
+    "attending_note": "Doctor, admit for IV antibiotics (Ciprofloxacin 400mg IV q12h + Metronidazole 500mg IV q8h or Piperacillin-Tazobactam 3.375g IV q6h), NPO initially then clear liquids, IV fluids, analgesia. If abscess enlarges >3cm or patient deteriorates: IR-guided percutaneous drainage. Colonoscopy in 6-8 weeks. Discharge on oral antibiotics (Cipro + Metronidazole) for 7-10 days total. Recommend high-fiber diet, increased water intake, and smoking cessation."
+  }
+}

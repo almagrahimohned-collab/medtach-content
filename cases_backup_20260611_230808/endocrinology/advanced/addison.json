@@ -1,0 +1,18 @@
+{
+  "id": "endo_advanced_005",
+  "specialty": "endocrinology", "difficulty": "advanced",
+  "title": "Hypotension and Hyperpigmentation - Addison Disease",
+  "department": "Endocrinology Clinic",
+  "patient": { "age": 40, "gender": "female", "name": "Mrs. Sana Omar", "persona": "weak, dizzy, hyperpigmented" },
+  "chief_complaint": "Progressive fatigue, dizziness, weight loss, and darkening of skin over 6 months. Salt craving. Hypotension noted on multiple checks.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 105, "rr": 18, "spo2": "98%", "temp": "36.3°C" },
+  "physical_exam": { "general": "Hyperpigmentation of palmar creases, buccal mucosa, and scars", "skin": "Generalized bronze hyperpigmentation" },
+  "hidden_data": { "cortisol_am": "Cortisol (8 AM): 2.1 mcg/dL (very low, normal 5-25)", "acth": "ACTH: 580 pg/mL (markedly elevated)", "acth_stim": "No response to ACTH stimulation test", "cmp": "Na: 128, K: 5.8, Glucose: 65", "adrenal_antibodies": "Positive for 21-hydroxylase antibodies" },
+  "media": {},
+  "correct_diagnosis": "Primary Adrenal Insufficiency (Addison Disease)",
+  "differential_diagnoses": ["Secondary Adrenal Insufficiency", "Adrenal Hemorrhage", "Adrenal Metastases", "Congenital Adrenal Hyperplasia"],
+  "key_learning_points": ["↓Cortisol + ↑ACTH = primary adrenal insufficiency", "Hyperpigmentation from elevated ACTH/MSH", "Hydrocortisone + Fludrocortisone replacement", "Stress dose steroids for illness/surgery"],
+  "patient_responses": { "fatigue": "I can barely get out of bed", "dizziness": "I feel lightheaded when I stand up", "skin": "My skin has been getting darker, especially my scars and gums", "salt": "I crave salty foods constantly" },
+  "hints": { "labs": "Check morning cortisol and ACTH", "stim_test": "ACTH stimulation test confirms" },
+  "feedback": { "correct_message": "Excellent! Addison disease - the hyperpigmentation is a classic clue.", "incorrect_message": "This is Addison disease. The low cortisol, high ACTH, and hyperpigmentation are classic.", "test_evaluation": { "cortisol_am": { "necessity": "essential", "comment": "Very low - confirms adrenal insufficiency." }, "acth": { "necessity": "essential", "comment": "Elevated - confirms primary." }, "cmp": { "necessity": "essential", "comment": "Shows hyponatremia, hyperkalemia, hypoglycemia." } }, "attending_note": "Addison disease: Hydrocortisone 15-25mg/day divided (largest dose AM), Fludrocortisone 0.05-0.2mg/day. Stress dose steroids for illness/surgery. Medical alert bracelet. Well done identifying this rare condition." }
+}

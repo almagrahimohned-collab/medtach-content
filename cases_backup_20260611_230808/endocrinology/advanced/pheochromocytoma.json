@@ -1,0 +1,91 @@
+{
+  "id": "endo_advanced_pheochromocytoma",
+  "specialty": "endocrinology",
+  "difficulty": "advanced",
+  "title": "Pheochromocytoma",
+  "department": "Endocrinology",
+  "patient": {
+    "age": 42,
+    "gender": "female",
+    "name": "Elena Rodriguez",
+    "persona": "ER nurse, frustrated by 'panic attacks' that don't respond to treatment"
+  },
+  "chief_complaint": "I keep having these terrifying episodes. My heart pounds, my head feels like it's going to explode, I sweat through my clothes, and I feel like I'm going to die. They come out of nowhere and last about 15 minutes. It's not anxiety - I know what panic attacks feel like.",
+  "vitals": {
+    "BP": "198/112",
+    "HR": "104",
+    "RR": "18",
+    "SpO2": "98%",
+    "Temp": "37.1°C"
+  },
+  "physical_exam": {
+    "General": "Diaphoretic, anxious-appearing, tremulous during episode",
+    "Cardiac": "Tachycardia, regular, forceful apical impulse. No murmurs.",
+    "Lungs": "Clear",
+    "Skin": "Pale, cool, clammy during episode. Café-au-lait spots on trunk (6 spots >1.5cm - neurofibromatosis type 1).",
+    "Neurologic": "Tremor in both hands. No focal deficits.",
+    "Abdomen": "Soft, non-tender. No masses palpated.",
+    "Fundoscopic": "Grade 2 hypertensive retinopathy (AV nicking, copper wiring)"
+  },
+  "hidden_data": {
+    "plasma_metanephrines": "Metanephrine 4.5 nmol/L (normal <0.5), Normetanephrine 8.2 nmol/L (normal <0.9) - SEVERELY elevated ×9-10 upper limit",
+    "urinary_metanephrines": "24h urinary metanephrines: Metanephrine 3,200 mcg/24h (normal <400), Normetanephrine 5,800 mcg/24h (normal <900)",
+    "ct_adrenal": "Right adrenal mass 4.5cm × 3.8cm, heterogeneous enhancement, areas of cystic degeneration. Hounsfield units >25 on non-contrast CT. Left adrenal normal.",
+    "mri_adrenal": "Right adrenal mass with high signal intensity on T2-weighted imaging (classic 'light bulb' sign). No invasion of surrounding structures.",
+    "mibg_scan": "I-123 MIBG scan: Intense uptake in right adrenal mass. No extra-adrenal uptake. No metastases.",
+    "genetic_testing": "RET proto-oncogene: Negative. VHL gene: Negative. NF1: Clinically diagnosed (café-au-lait spots + axillary freckling). SDHB/SDHD: Pending.",
+    "cbc": "WBC 8,800, Hb 15.8 (hemoconcentration), Platelets 240,000",
+    "cmp": "Glucose 210 (catecholamine-induced insulin resistance), Potassium 3.3, Creatinine 1.0",
+    "ecg": "Sinus tachycardia 104 bpm. Left ventricular hypertrophy with strain pattern.",
+    "echo": "Moderate concentric LVH. EF 65%. No regional wall motion abnormalities."
+  },
+  "media": {},
+  "correct_diagnosis": "Pheochromocytoma of Right Adrenal Gland in Neurofibromatosis Type 1 (NF1)",
+  "differential_diagnoses": [
+    "Paraganglioma (extra-adrenal pheochromocytoma)",
+    "Anxiety/Panic Disorder",
+    "Hyperthyroidism",
+    "Carcinoid Syndrome",
+    "Renal Artery Stenosis",
+    "Malignant Hypertension"
+  ],
+  "key_learning_points": [
+    "Pheochromocytoma = catecholamine-secreting tumor of adrenal chromaffin cells. Paraganglioma = extra-adrenal chromaffin cell tumor",
+    "Classic triad: Paroxysmal hypertension + palpitations + headache + diaphoresis (Rule of 10s: 10% bilateral, 10% malignant, 10% extra-adrenal, 10% familial)",
+    "Diagnosis: Plasma free metanephrines (sensitivity 97%) or 24h urinary fractionated metanephrines. Levels >3-4× upper limit are diagnostic",
+    "Imaging: CT/MRI for localization. I-123 MIBG scan for functional confirmation, metastasis detection, and treatment planning",
+    "Pre-operative alpha-blockade (Phenoxybenzamine or Doxazosin) for 10-14 days BEFORE beta-blockade to prevent hypertensive crisis from unopposed alpha stimulation"
+  ],
+  "patient_responses": {
+    "episodes": "They happen 2-3 times a week. Suddenly I feel this wave of heat, my heart goes crazy, my head pounds so hard I can feel it in my ears. I'm drenched in sweat. Sometimes it happens after I bend over or lift something, sometimes just sitting still.",
+    "anxiety": "Doctors keep telling me it's anxiety but I know my body. Anxiety meds don't help. These episodes are different - they're physical, not psychological.",
+    "other_symptoms": "Between episodes I feel mostly fine, just tired. I've lost 15 pounds in 3 months without trying. I'm constipated which is new for me. Sometimes my vision blurs.",
+    "family_history": "My father had 'some kind of adrenal tumor' removed in his 40s. He also had those brown spots on his skin like I do. He died of a stroke at 52.",
+    "medications": "I take lisinopril 40mg, amlodipine 10mg, and hydrochlorothiazide for my blood pressure but it's never controlled. I also take sertraline for 'anxiety' but it doesn't help the episodes."
+  },
+  "hints": {
+    "history": "Paroxysmal triad of headache + palpitations + sweating in a patient with resistant HTN and NF1 stigmata. Ask about family history of MEN2, NF1, VHL, or SDH mutations.",
+    "examination": "Look for neurocutaneous syndromes (NF1: café-au-lait spots, neurofibromas, Lisch nodules). Hypertensive retinopathy indicates chronic uncontrolled HTN.",
+    "labs": "Plasma free metanephrines is the best initial test (highest sensitivity). 24h urinary metanephrines for confirmation. Genetic testing if <50 years old.",
+    "imaging": "CT adrenal (preferred initial imaging). MRI if CT inconclusive or radiation concern. I-123 MIBG scan for functional confirmation and metastasis evaluation."
+  },
+  "feedback": {
+    "correct_message": "Outstanding diagnosis! You correctly identified pheochromocytoma based on paroxysmal HTN triad, severely elevated plasma metanephrines (>9× ULN), adrenal mass on imaging, and MIBG confirmation. Recognizing the NF1 connection (café-au-lait spots) is excellent. Alpha-blockade must precede beta-blockade to prevent hypertensive crisis. Adrenalectomy is curative.",
+    "partially_correct_message": "Good recognition of an adrenal mass! However, the severely elevated metanephrines (>9× ULN) and classic paroxysmal symptoms confirm this is a functional pheochromocytoma, not a non-functional adrenal incidentaloma. Pre-operative alpha-blockade is mandatory before surgery to prevent intraoperative hypertensive crisis.",
+    "incorrect_message": "The paroxysmal triad (headache, palpitations, sweating) with resistant HTN, café-au-lait spots (NF1), metanephrines 9× ULN, and 4.5cm adrenal mass is classic pheochromocytoma. This is NOT anxiety - it's a catecholamine-secreting tumor. Alpha-blockade must be started immediately (Phenoxybenzamine 10mg BID, titrate up) followed by beta-blockade. Surgical resection is curative but requires meticulous pre-operative preparation.",
+    "clinical_pearls": [
+      "NEVER start beta-blocker before alpha-blocker in pheochromocytoma! This causes unopposed alpha stimulation → severe vasoconstriction → hypertensive crisis",
+      "Plasma free metanephrines sensitivity 97% - a normal result essentially rules out pheochromocytoma",
+      "All patients diagnosed <50 years should be offered genetic testing. 40% have a germline mutation (RET, VHL, NF1, SDHx)"
+    ],
+    "test_evaluation": {
+      "plasma_metanephrines": {"necessity": "essential", "comment": "Metanephrine 4.5 and Normetanephrine 8.2 (>9× ULN) are diagnostic for pheochromocytoma"},
+      "ct_adrenal": {"necessity": "essential", "comment": "4.5cm right adrenal mass with HU>25 on non-contrast CT. Heterogeneous with cystic degeneration typical of pheochromocytoma"},
+      "mibg_scan": {"necessity": "essential", "comment": "Confirms functional neuroendocrine tumor. No extra-adrenal disease or metastases - localized, resectable"},
+      "genetic_testing": {"necessity": "essential", "comment": "NF1 clinically diagnosed (café-au-lait spots). RET and VHL negative. SDHx pending"},
+      "echo": {"necessity": "essential", "comment": "LVH from chronic catecholamine excess. Assess cardiac function pre-operatively"}
+    },
+    "missing_tests": [],
+    "attending_note": "Doctor, start Phenoxybenzamine 10mg PO BID, titrate every 2-3 days by 10-20mg/day to target BP <130/80 and HR <90. Only after adequate alpha-blockade (10-14 days): add Propranolol 20mg TID. High-sodium diet to expand plasma volume (catecholamine-induced volume contraction). IVF 1-2L NS day before surgery. Refer to endocrine surgeon for laparoscopic adrenalectomy. Monitor for post-operative hypotension (needs IVF ± vasopressors) and hypoglycemia (rebound hyperinsulinism). Genetic counseling for NF1 and family screening."
+  }
+}

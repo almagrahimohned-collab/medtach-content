@@ -1,0 +1,18 @@
+{
+  "id": "neuro_advanced_007",
+  "specialty": "neurology", "difficulty": "advanced",
+  "title": "Optic Neuritis - Multiple Sclerosis",
+  "department": "Neurology Clinic",
+  "patient": { "age": 28, "gender": "female", "name": "Ms. Rawan Saad", "persona": "worried, eye pain" },
+  "chief_complaint": "Sudden loss of vision in left eye with pain on eye movement for 3 days. Had episode of leg numbness 6 months ago that resolved spontaneously.",
+  "vitals": { "bp": "115/70 mmHg", "hr": 78, "rr": 16, "spo2": "100%", "temp": "36.8°C" },
+  "physical_exam": { "neuro": "Left eye: decreased visual acuity (20/200), relative afferent pupillary defect (Marcus Gunn pupil), color desaturation. Fundoscopy: normal initially (retrobulbar neuritis)", "motor": "Mild right leg weakness (4+/5), hyperreflexia bilateral" },
+  "hidden_data": { "mri_brain": "Multiple periventricular white matter lesions (Dawson fingers), one enhancing with gadolinium, one in left optic nerve", "lumbar_puncture": "CSF: Oligoclonal bands positive (not in serum), IgG index elevated", "visual_evoked": "Delayed P100 latency left eye" },
+  "media": {},
+  "correct_diagnosis": "Multiple Sclerosis (Relapsing-Remitting) - Optic Neuritis",
+  "differential_diagnoses": ["Neuromyelitis Optica (NMO)", "Acute Disseminated Encephalomyelitis", "Ischemic Optic Neuropathy", "Sarcoidosis"],
+  "key_learning_points": ["Optic neuritis = most common first presentation of MS", "Dissemination in time and space", "Oligoclonal bands in CSF but not serum", "IV methylprednisolone for acute relapse", "Disease-modifying therapy for long-term"],
+  "patient_responses": { "vision": "My left eye went dark, like looking through frosted glass", "pain": "It hurts when I move my eye", "previous": "My right leg went numb 6 months ago, but it went away" },
+  "hints": { "imaging": "MRI brain with contrast", "csf": "Check for oligoclonal bands" },
+  "feedback": { "correct_message": "Excellent! MS diagnosed correctly - dissemination in time and space.", "incorrect_message": "This is MS. The optic neuritis + previous episode + MRI lesions + CSF oligoclonal bands confirm it.", "test_evaluation": { "mri_brain": { "necessity": "essential", "comment": "Shows Dawson fingers and enhancing lesion." }, "lumbar_puncture": { "necessity": "essential", "comment": "Oligoclonal bands confirm." }, "visual_evoked": { "necessity": "optional", "comment": "Confirms optic nerve involvement." } }, "attending_note": "MS acute relapse: IV methylprednisolone 1g daily for 3-5 days. Start disease-modifying therapy (ocrelizumab, natalizumab, fingolimod). Check anti-AQP4 to rule out NMO. Good job identifying the previous episode as relevant." }
+}

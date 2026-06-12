@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_obs_002",
+  "specialty": "gynecology", "difficulty": "intermediate",
+  "title": "Hypertension and Headache - Preeclampsia with Severe Features",
+  "department": "OB/GYN High Risk",
+  "patient": { "age": 32, "gender": "female", "name": "Mrs. Dalal (34 weeks)", "persona": "anxious, headache, blurred vision" },
+  "chief_complaint": "32-year-old G1P0 at 34 weeks with severe headache, blurred vision, and swelling in hands and face for 2 days. BP 160/100 mmHg on two readings 4 hours apart.",
+  "vitals": { "bp": "160/100 mmHg", "hr": 95, "rr": 20, "spo2": "97%", "temp": "36.8°C" },
+  "physical_exam": { "general": "Facial edema, hand edema 2+, brisk reflexes 3+, no clonus", "fundus": "Fundal height 34cm, fetal heart 140 bpm" },
+  "hidden_data": { "ua": "Proteinuria: 3+ (500mg/dL)", "cmp": "Cr: 1.2, AST: 45, ALT: 50, PLT: 180", "uric_acid": "Uric acid: 6.8 mg/dL", "nst": "Reactive, no decelerations" },
+  "media": {},
+  "correct_diagnosis": "Preeclampsia with Severe Features",
+  "differential_diagnoses": ["Gestational Hypertension", "HELLP Syndrome", "Eclampsia", "Chronic Hypertension"],
+  "key_learning_points": ["HTN + proteinuria after 20 weeks = preeclampsia", "Severe features: BP>160/110, HA, visual changes, RUQ pain", "MgSO4 for seizure prophylaxis", "Delivery is definitive treatment", "Steroids for fetal lung maturity if <37 weeks"],
+  "patient_responses": { "headache": "Worst headache of my life, painkillers don't help", "vision": "I see spots and flashing lights", "swelling": "My rings don't fit, face looks puffy" },
+  "hints": { "urine": "Check for proteinuria", "treatment": "MgSO4 + BP control + deliver" },
+  "feedback": { "correct_message": "Excellent! Preeclampsia with severe features - this is serious.", "incorrect_message": "This is preeclampsia. BP + proteinuria + symptoms confirm it.", "test_evaluation": { "ua": { "necessity": "essential", "comment": "Shows proteinuria." }, "cmp": { "necessity": "essential", "comment": "End-organ assessment." } }, "attending_note": "Preeclampsia: MgSO4 4-6g loading then 1-2g/hr. Labetalol or nifedipine for BP >160/110. Betamethasone for fetal lung maturity. Deliver after 34 weeks. Monitor for eclampsia and HELLP." }
+}

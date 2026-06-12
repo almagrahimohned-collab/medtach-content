@@ -1,0 +1,18 @@
+{
+  "id": "ped_gen_003",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Barking Cough - Croup (Laryngotracheobronchitis)",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 2, "gender": "male", "name": "Child Sami (2 years)", "persona": "stridor, barking cough" },
+  "chief_complaint": "2-year-old with 2 days of runny nose and low-grade fever, now with barking cough, hoarse voice, and inspiratory stridor worse at night. No drooling.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 135, "rr": 35, "spo2": "93%", "temp": "38.0°C" },
+  "physical_exam": { "chest": "Inspiratory stridor at rest, mild subcostal retractions", "neck": "No drooling, no tripod position", "voice": "Hoarse cry" },
+  "hidden_data": { "cxr_soft_tissue": "Steeple sign (subglottic narrowing) on AP neck X-ray", "cbc": "WBC: 9,500" },
+  "media": {},
+  "correct_diagnosis": "Croup (Moderate) - Parainfluenza Virus",
+  "differential_diagnoses": ["Epiglottitis", "Foreign Body Aspiration", "Bacterial Tracheitis", "Angioedema"],
+  "key_learning_points": ["Barking cough + stridor + hoarseness = croup", "Steeple sign on X-ray = subglottic narrowing", "Dexamethasone 0.6mg/kg PO/IM", "Nebulized epinephrine for severe cases", "Cool mist humidifier at home"],
+  "patient_responses": { "cough": "It sounds like a seal barking", "worse_at_night": "Yes, much worse when he lies down", "immunizations": "Up to date, including Hib" },
+  "hints": { "imaging": "Steeple sign is classic", "treatment": "Steroids are the mainstay" },
+  "feedback": { "correct_message": "Well diagnosed! Croup with classic barking cough.", "incorrect_message": "This is croup. The barking cough + stridor + steeple sign are diagnostic.", "test_evaluation": { "cxr_soft_tissue": { "necessity": "optional", "comment": "Shows steeple sign." } }, "attending_note": "Croup management: Dexamethasone 0.6mg/kg PO once (reduces severity and duration). Nebulized epinephrine if severe stridor at rest. Cool mist at home. Most cases are mild and self-limited. Parainfluenza is the most common cause." }
+}

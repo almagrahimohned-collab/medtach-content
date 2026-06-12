@@ -1,0 +1,18 @@
+{
+  "id": "endo_beginner_004",
+  "specialty": "endocrinology", "difficulty": "beginner",
+  "title": "Fatigue and Weight Gain - Hypothyroidism",
+  "department": "Endocrinology Clinic",
+  "patient": { "age": 45, "gender": "female", "name": "Mrs. Mona Adel", "persona": "tired, cold" },
+  "chief_complaint": "Progressive fatigue, weight gain (8 kg in 6 months), cold intolerance, constipation, and dry skin.",
+  "vitals": { "bp": "110/70 mmHg", "hr": 58, "rr": 14, "spo2": "99%", "temp": "36.1°C" },
+  "physical_exam": { "general": "Dry coarse skin, periorbital puffiness, delayed relaxation of deep tendon reflexes", "neck": "Diffusely enlarged thyroid, firm, non-tender" },
+  "hidden_data": { "tsh": "TSH: 35 mIU/L (severely elevated)", "t4": "Free T4: 0.4 ng/dL (low)", "tpo_antibodies": "Anti-TPO: 850 IU/mL (strongly positive)", "lipid": "LDL: 190, HDL: 40" },
+  "media": {},
+  "correct_diagnosis": "Primary Hypothyroidism (Hashimoto Thyroiditis)",
+  "differential_diagnoses": ["Secondary Hypothyroidism", "Subclinical Hypothyroidism", "Chronic Fatigue Syndrome", "Depression"],
+  "key_learning_points": ["↑TSH + ↓T4 = primary hypothyroidism", "Anti-TPO confirms Hashimoto", "Levothyroxine 1.6 mcg/kg/day", "Recheck TSH in 6-8 weeks"],
+  "patient_responses": { "fatigue": "I'm exhausted all the time, even after sleeping", "cold": "I feel cold when others are comfortable", "weight": "I'm gaining weight despite eating less" },
+  "hints": { "labs": "Check TSH and Free T4", "antibodies": "Anti-TPO confirms autoimmune cause" },
+  "feedback": { "correct_message": "Well diagnosed! Primary hypothyroidism from Hashimoto thyroiditis.", "incorrect_message": "This is Hashimoto hypothyroidism. The elevated TSH, low T4, and positive antibodies are diagnostic.", "test_evaluation": { "tsh": { "necessity": "essential", "comment": "Diagnostic - elevated in primary hypothyroidism." }, "t4": { "necessity": "essential", "comment": "Low - confirms overt hypothyroidism." }, "tpo_antibodies": { "necessity": "essential", "comment": "Confirms autoimmune cause." } }, "attending_note": "Hashimoto hypothyroidism: Levothyroxine 1.6 mcg/kg/day, take on empty stomach, recheck TSH in 6-8 weeks. Goal TSH: 0.5-2.5. Check lipids - may improve with treatment." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_cardio_002",
+  "specialty": "pediatrics", "difficulty": "advanced",
+  "title": "Cyanotic Spells - Tetralogy of Fallot",
+  "department": "Pediatric Cardiology",
+  "patient": { "age": 0, "gender": "male", "name": "Baby Ziad (4 months)", "persona": "cyanotic spells, irritable" },
+  "chief_complaint": "4-month-old with episodes of sudden cyanosis and irritability, especially when crying. Parents note he squats during episodes. Known heart murmur since birth.",
+  "vitals": { "bp": "85/55 mmHg", "hr": 150, "rr": 48, "spo2": "82%", "temp": "36.7°C" },
+  "physical_exam": { "heart": "Harsh systolic ejection murmur at left upper sternal border, single S2", "general": "Mildly cyanotic, clubbing of fingers" },
+  "hidden_data": { "echo": "Large malaligned VSD, overriding aorta, RVOT obstruction (infundibular + valvular), RVH - classic TOF anatomy", "cxr": "Boot-shaped heart (coeur en sabot), decreased pulmonary vascular markings", "ecg": "Right ventricular hypertrophy, right axis deviation", "abg": "pH: 7.32, PaO2: 48, PaCO2: 42, SpO2: 82%" },
+  "media": {},
+  "correct_diagnosis": "Tetralogy of Fallot with Hypercyanotic (Tet) Spells",
+  "differential_diagnoses": ["Transposition of Great Arteries", "Truncus Arteriosus", "Tricuspid Atresia", "Total Anomalous Pulmonary Venous Return"],
+  "key_learning_points": ["TOF = VSD + overriding aorta + RVOT obstruction + RVH", "Tet spells: knee-chest position, oxygen, morphine, beta-blockers", "Boot-shaped heart on CXR", "Surgical repair at 3-6 months", "Prostaglandin if ductal-dependent"],
+  "patient_responses": { "spells": "He turns blue when he cries, then squats and gets better", "feeding": "He gets tired during feeds", "growth": "He's gaining weight slowly" },
+  "hints": { "imaging": "Boot-shaped heart is classic", "spells": "Knee-chest position + morphine" },
+  "feedback": { "correct_message": "Excellent! TOF with tet spells - this is a pediatric cardiac emergency.", "incorrect_message": "This is Tetralogy of Fallot. The CXR + echo confirm the four components.", "test_evaluation": { "echo": { "necessity": "essential", "comment": "Diagnostic - shows all 4 components." }, "cxr": { "necessity": "essential", "comment": "Boot-shaped heart classic." }, "abg": { "necessity": "essential", "comment": "Shows hypoxemia." } }, "attending_note": "Tet spell management: Knee-chest position, oxygen, morphine 0.1mg/kg SC/IM, propranolol 0.1mg/kg IV. Volume expansion. Surgical repair at 3-6 months. Avoid dehydration and iron deficiency. Excellent prognosis after repair." }
+}

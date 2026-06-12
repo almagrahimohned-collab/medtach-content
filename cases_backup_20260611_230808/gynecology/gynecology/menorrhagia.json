@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_gyn_003",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Heavy Menstrual Bleeding - Menorrhagia",
+  "department": "Gynecology Clinic",
+  "patient": { "age": 35, "gender": "female", "name": "Mrs. Sahar Ali", "persona": "fatigued, pale" },
+  "chief_complaint": "35-year-old with heavy menstrual bleeding for 6 months, soaking pads every 2 hours, clots, fatigue. No intermenstrual bleeding.",
+  "vitals": { "bp": "100/65 mmHg", "hr": 95, "rr": 16, "spo2": "99%", "temp": "36.6°C" },
+  "physical_exam": { "general": "Pale conjunctivae", "pelvic": "Normal size uterus, no adnexal masses" },
+  "hidden_data": { "cbc": "Hb: 8.5, MCV: 68 (microcytic), PLT: 300", "iron_studies": "Ferritin: 5 ng/mL, Iron: 25, TIBC: 450", "us_pelvis": "Normal, endometrial thickness 8mm" },
+  "media": {},
+  "correct_diagnosis": "Menorrhagia with Iron Deficiency Anemia",
+  "differential_diagnoses": ["Uterine Fibroids", "Endometrial Hyperplasia", "Adenomyosis", "Coagulation Disorder"],
+  "key_learning_points": ["Assess for anemia", "Iron supplementation", "Tranexamic acid during menses", "Hormonal therapy: OCPs, LNG-IUS", "Endometrial biopsy if >45 or risk factors"],
+  "patient_responses": { "bleeding": "I soak through a pad every 2 hours", "clots": "Large clots", "fatigue": "I feel exhausted" },
+  "hints": { "labs": "CBC + iron studies", "treatment": "Iron + tranexamic acid + hormonal" },
+  "feedback": { "correct_message": "Well diagnosed! Menorrhagia with iron deficiency.", "incorrect_message": "This is menorrhagia. The microcytic anemia + low ferritin confirm it.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Shows anemia." }, "iron_studies": { "necessity": "essential", "comment": "Confirms iron deficiency." } }, "attending_note": "Menorrhagia: Ferrous sulfate 325mg TID, tranexamic acid 1g TID during menses, OCPs or LNG-IUS. Endometrial biopsy if >45 or refractory. Good response expected." }
+}

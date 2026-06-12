@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_uro_001",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Urine Leakage with Coughing - Stress Urinary Incontinence",
+  "department": "Urogynecology Clinic",
+  "patient": { "age": 52, "gender": "female", "name": "Mrs. Fatima Ali", "persona": "embarrassed, leaking urine" },
+  "chief_complaint": "52-year-old G4P4 postmenopausal female with involuntary urine leakage when coughing, sneezing, laughing, or exercising for 2 years. No urgency or frequency. Pad use 3-4 per day. Three vaginal deliveries.",
+  "vitals": { "bp": "130/85 mmHg", "hr": 78, "rr": 16, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "pelvic": "Cystocele grade 2, urethral hypermobility, positive cough stress test, no rectocele", "neuro": "Normal perineal sensation" },
+  "hidden_data": { "ua": "Normal, no infection", "pvr": "Post-void residual: 30mL (normal)", "urodynamics": "Urodynamic stress incontinence confirmed, no detrusor overactivity" },
+  "media": {},
+  "correct_diagnosis": "Stress Urinary Incontinence (Urethral Hypermobility)",
+  "differential_diagnoses": ["Urge Incontinence", "Mixed Incontinence", "Overflow Incontinence", "UTI"],
+  "key_learning_points": ["Leakage with ↑intra-abdominal pressure = stress incontinence", "Kegel exercises first-line (pelvic floor PT)", "Mid-urethral sling (TVT/TOT) = gold standard surgery", "Urodynamics for complex cases", "Vaginal estrogen for postmenopausal women"],
+  "patient_responses": { "leakage": "I leak when I cough or laugh, not when I feel urge", "pads": "I use 3-4 pads a day", "deliveries": "I had 3 vaginal deliveries, largest baby 4kg" },
+  "hints": { "diagnosis": "Cough stress test", "treatment": "Pelvic floor PT → sling" },
+  "feedback": { "correct_message": "Well diagnosed! Stress incontinence from urethral hypermobility.", "incorrect_message": "This is stress incontinence. The cough test + urodynamics confirm it.", "test_evaluation": { "ua": { "necessity": "essential", "comment": "Rules out infection." }, "urodynamics": { "necessity": "essential", "comment": "Confirms stress incontinence." } }, "attending_note": "SUI: Pelvic floor PT (Kegel exercises) for 3 months first. If inadequate, mid-urethral sling (TVT or TOT). Success rate 85-90%. Vaginal estrogen if postmenopausal. Avoid caffeine and weight loss if obese." }
+}

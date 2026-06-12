@@ -1,0 +1,18 @@
+{
+  "id": "rheum_beginner_001",
+  "specialty": "rheumatology", "difficulty": "beginner",
+  "title": "Bilateral Joint Pain - Rheumatoid Arthritis",
+  "department": "Rheumatology Clinic",
+  "patient": { "age": 45, "gender": "female", "name": "Mrs. Lina Mansour", "persona": "joint pain, morning stiffness" },
+  "chief_complaint": "Bilateral hand and wrist pain with swelling and morning stiffness lasting >1 hour for 3 months. Fatigue and low-grade fever.",
+  "vitals": { "bp": "125/80 mmHg", "hr": 82, "rr": 16, "spo2": "99%", "temp": "37.3°C" },
+  "physical_exam": { "joints": "Swelling and tenderness of MCP and PIP joints bilaterally, ulnar deviation, rheumatoid nodules on elbows", "hands": "Decreased grip strength, boutonniere deformities" },
+  "hidden_data": { "rf": "Rheumatoid Factor: 120 IU/mL (positive)", "anti_ccp": "Anti-CCP: 85 units (strongly positive)", "esr": "ESR: 65 mm/hr", "crp": "CRP: 35 mg/L", "xray_hands": "Periarticular osteopenia, joint space narrowing, marginal erosions at MCP joints" },
+  "media": {},
+  "correct_diagnosis": "Rheumatoid Arthritis (Seropositive, Erosive)",
+  "differential_diagnoses": ["Psoriatic Arthritis", "Systemic Lupus Erythematosus", "Osteoarthritis", "Gout"],
+  "key_learning_points": ["Symmetric polyarthritis + morning stiffness >1h", "Anti-CCP more specific than RF", "Early DMARD therapy prevents erosions", "Methotrexate first-line + folic acid"],
+  "patient_responses": { "morning": "I can't make a fist for at least an hour after waking up", "joints": "Both hands hurt, especially my knuckles", "fatigue": "I'm tired all the time, even after resting" },
+  "hints": { "antibodies": "Check RF and anti-CCP", "treatment": "Early DMARD therapy is crucial" },
+  "feedback": { "correct_message": "Well diagnosed! Seropositive RA with erosive changes.", "incorrect_message": "This is rheumatoid arthritis. The symmetric polyarthritis + anti-CCP + erosions are diagnostic.", "test_evaluation": { "anti_ccp": { "necessity": "essential", "comment": "Highly specific for RA." }, "rf": { "necessity": "essential", "comment": "Positive - supports diagnosis." }, "xray_hands": { "necessity": "essential", "comment": "Shows erosive changes." } }, "attending_note": "RA management: Methotrexate 15mg weekly + folic acid 1mg daily. Prednisone bridge for rapid symptom control. Monitor CBC, LFTs, creatinine every 3 months. Treat-to-target: remission or low disease activity. Refer to rheumatology." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_001",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Respiratory Distress in Preterm - RDS",
+  "department": "NICU",
+  "patient": { "age": 0, "gender": "male", "name": "Baby Adam (32 weeks)", "persona": "preterm, grunting" },
+  "chief_complaint": "Preterm male born at 32 weeks via emergency C-section for maternal preeclampsia. Birth weight 1800g. Grunting, nasal flaring, and retractions at 2 hours of life. Room air SpO2 82%.",
+  "vitals": { "bp": "55/30 mmHg", "hr": 165, "rr": 72, "spo2": "82%", "temp": "36.2°C" },
+  "physical_exam": { "chest": "Bilateral grunting, nasal flaring, severe intercostal and subcostal retractions, decreased air entry bilaterally", "general": "Cyanotic, lethargic" },
+  "hidden_data": { "cxr": "Diffuse reticulogranular pattern with air bronchograms, low lung volumes", "abg": "pH: 7.22, PaO2: 48, PaCO2: 62, HCO3: 18", "blood_culture": "Pending" },
+  "media": {},
+  "correct_diagnosis": "Respiratory Distress Syndrome (Surfactant Deficiency)",
+  "differential_diagnoses": ["Neonatal Sepsis", "Transient Tachypnea of Newborn", "Congenital Pneumonia", "Meconium Aspiration"],
+  "key_learning_points": ["Prematurity = surfactant deficiency", "CXR: reticulogranular + air bronchograms", "CPAP first-line, surfactant if FiO2 >0.4", "Antenatal steroids reduce RDS risk"],
+  "patient_responses": { "pregnancy": "Emergency C-section at 32 weeks for severe preeclampsia", "antenatal_steroids": "She received one dose of betamethasone 4 hours before delivery" },
+  "hints": { "imaging": "CXR shows classic RDS pattern", "treatment": "CPAP + surfactant replacement" },
+  "feedback": { "correct_message": "Excellent! Classic RDS in preterm infant.", "incorrect_message": "This is RDS. The prematurity + CXR findings are diagnostic.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Classic reticulogranular pattern." }, "abg": { "necessity": "essential", "comment": "Shows respiratory acidosis." } }, "attending_note": "RDS management: CPAP 5-8 cmH2O, surfactant replacement therapy if FiO2 >0.4. Maintain SpO2 90-95%. Caffeine for apnea of prematurity. Good catch on the antenatal steroid history." }
+}

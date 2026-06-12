@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_008",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Hyperactivity and Inattention - ADHD",
+  "department": "Pediatric Behavioral Clinic",
+  "patient": { "age": 8, "gender": "male", "name": "Child Karim (8 years)", "persona": "hyperactive, impulsive" },
+  "chief_complaint": "8-year-old boy with difficulty paying attention in school, easily distracted, fidgety, cannot sit still, interrupts others, and forgets instructions. Symptoms present for 2 years, affecting academic performance and social interactions.",
+  "vitals": { "bp": "100/65 mmHg", "hr": 88, "rr": 18, "spo2": "99%", "temp": "36.7°C" },
+  "physical_exam": { "neuro": "Normal neurological examination, no tics, no motor abnormalities", "general": "Fidgety during exam, but cooperative" },
+  "hidden_data": { "vanderbilt": "Vanderbilt Assessment: Positive - 7/9 inattention symptoms, 8/9 hyperactivity symptoms in multiple settings (home and school)", "hearing_test": "Normal", "vision_test": "Normal", "tsh": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Attention Deficit Hyperactivity Disorder (ADHD), Combined Type",
+  "differential_diagnoses": ["Learning Disability", "Anxiety Disorder", "Sleep Disorder", "Hearing Impairment"],
+  "key_learning_points": ["DSM-5: symptoms in 2+ settings for >6 months", "Vanderbilt scales from parents and teachers", "Behavioral therapy first-line for preschool", "Stimulants (methylphenidate) for school-age", "Monitor growth, appetite, sleep"],
+  "patient_responses": { "school": "Teacher says he can't stay in his seat, blurts out answers", "home": "He can't follow multi-step instructions, loses things", "social": "Other kids don't want to play because he's too rough" },
+  "hints": { "diagnosis": "Vanderbilt scales from multiple settings", "treatment": "Behavioral therapy + stimulant medication" },
+  "feedback": { "correct_message": "Well diagnosed! ADHD combined type with classic symptoms.", "incorrect_message": "This is ADHD. The Vanderbilt scales confirm symptoms in multiple settings.", "test_evaluation": { "vanderbilt": { "necessity": "essential", "comment": "Diagnostic tool." }, "tsh": { "necessity": "optional", "comment": "Rules out hypothyroidism." } }, "attending_note": "ADHD management: Behavioral parent training + classroom accommodations. Methylphenidate (Ritalin) 5mg BID starting dose, titrate up. Monitor growth (height, weight), appetite, sleep. Regular Vanderbilt follow-ups. Combined treatment (behavioral + medication) most effective." }
+}

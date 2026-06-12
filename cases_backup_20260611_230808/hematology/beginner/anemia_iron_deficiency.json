@@ -1,0 +1,18 @@
+{
+  "id": "hema_beginner_001",
+  "specialty": "hematology", "difficulty": "beginner",
+  "title": "Fatigue and Pallor - Iron Deficiency Anemia",
+  "department": "Hematology Clinic",
+  "patient": { "age": 35, "gender": "female", "name": "Mrs. Amal Ghazi", "persona": "fatigued, pale" },
+  "chief_complaint": "Progressive fatigue for 6 months, pale skin, shortness of breath on exertion, and brittle nails. Heavy menstrual periods.",
+  "vitals": { "bp": "100/65 mmHg", "hr": 100, "rr": 20, "spo2": "97%", "temp": "36.5°C" },
+  "physical_exam": { "general": "Pale conjunctivae and nail beds, koilonychia, angular cheilitis, smooth tongue" },
+  "hidden_data": { "cbc": "Hb: 7.5 g/dL, MCV: 68 fL (microcytic), MCH: 22 pg, RDW: 18% (high)", "iron_studies": "Ferritin: 4 ng/mL (very low), Iron: 20 mcg/dL, TIBC: 480 mcg/dL, Transferrin saturation: 4%", "stool_occult": "Negative" },
+  "media": {},
+  "correct_diagnosis": "Severe Iron Deficiency Anemia (Menorrhagia)",
+  "differential_diagnoses": ["Thalassemia Trait", "Anemia of Chronic Disease", "Sideroblastic Anemia", "Lead Poisoning"],
+  "key_learning_points": ["Microcytic + high RDW = iron deficiency until proven", "Low ferritin = most specific test", "Treat with ferrous sulfate 325mg TID", "Identify and treat underlying cause (menorrhagia)"],
+  "patient_responses": { "fatigue": "I'm exhausted, can barely climb stairs", "menses": "My periods are very heavy, 8-9 days with clots", "diet": "I don't eat much meat" },
+  "hints": { "labs": "Check ferritin - most specific", "cause": "Menorrhagia is likely the cause" },
+  "feedback": { "correct_message": "Well diagnosed! Severe iron deficiency from menorrhagia.", "incorrect_message": "This is iron deficiency anemia. The microcytosis + high RDW + low ferritin confirm it.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Shows microcytic anemia." }, "iron_studies": { "necessity": "essential", "comment": "Low ferritin diagnostic." }, "stool_occult": { "necessity": "essential", "comment": "Rules out GI bleeding." } }, "attending_note": "Iron deficiency: Ferrous sulfate 325mg TID (65mg elemental iron). Take with vitamin C for absorption. Expect Hb rise of 1g/dL every 2-3 weeks. Continue iron for 3-6 months after Hb normalizes. Address menorrhagia with gynecology." }
+}

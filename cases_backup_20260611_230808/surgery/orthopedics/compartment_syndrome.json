@@ -1,0 +1,40 @@
+{
+  "id": "surg_ortho_compartment",
+  "specialty": "surgery",
+  "difficulty": "orthopedics",
+  "title": "Acute Compartment Syndrome",
+  "patient": {
+    "age": 22,
+    "gender": "male",
+    "name": "Jake Morrison"
+  },
+  "chief_complaint": "I fractured my tibia playing soccer 8 hours ago. My cast was put on, but now my pain is getting worse - it's unbearable, much worse than a broken bone should feel. The pain medication isn't touching it. My foot feels numb and I can't move my toes.",
+  "vitals": {
+    "BP": "150/90",
+    "HR": "115",
+    "RR": "20",
+    "SpO2": "98%",
+    "Temp": "36.8\u00b0C"
+  },
+  "physical_exam": {
+    "Right_Leg": "Long leg cast in place. Severe pain on passive stretch of toes (pathognomonic - stretches ischemic muscles). Tense, swollen compartments on palpation. Foot pale, cool.",
+    "Neurologic": "Decreased sensation in first web space (deep peroneal nerve - first sign). Weak dorsiflexion of ankle and great toe. Dorsalis pedis pulse weakly palpable (pulselessness is LATE sign - do NOT rely on pulses to rule out compartment syndrome).",
+    "Compartments": "Anterior compartment: Tense, firm. Pain out of proportion to injury.",
+    "Labs": "CK 2,500 (rhabdomyolysis beginning). Compartment pressures: Anterior 65mmHg, Lateral 55mmHg, Deep posterior 48mmHg. Delta pressure (diastolic - compartment): 95-65 = 30 (<30 is diagnostic)."
+  },
+  "correct_diagnosis": "Acute Compartment Syndrome of Right Leg (Anterior and Lateral Compartments) from Tibial Fracture",
+  "key_learning_points": [
+    "Compartment syndrome = increased pressure within closed osteofascial compartment \u2192 capillary compression \u2192 tissue ischemia \u2192 muscle and nerve necrosis. IRREVERSIBLE damage after 6-8 hours",
+    "Classic 6 Ps: Pain out of proportion (EARLIEST, most sensitive), Pain with passive stretch (PATHOGNOMONIC), Paresthesia (first nerve sign), Paralysis (late), Pallor, Pulselessness (VERY LATE - do NOT wait for this!)",
+    "Most common causes: Tibial shaft fractures, forearm fractures, crush injuries, tight casts/dressings, burns, reperfusion injury. Most common sites: Lower leg (anterior compartment most common), forearm (volar compartment)",
+    "Diagnosis: CLINICAL. Compartment pressure measurements if equivocal exam (obtunded patient, pediatric). Delta pressure = diastolic BP - compartment pressure. Delta <30mmHg = compartment syndrome. Absolute pressure >30mmHg also diagnostic",
+    "Treatment: EMERGENCY FASCIOTOMY. Remove cast/splint, split all dressings down to skin. 4-compartment fasciotomy of leg (2 incisions: anterolateral + posteromedial). Forearm: Volar fasciotomy (carpal tunnel release + mobile wad). Leave wounds open, delayed primary closure or skin graft in 5-7 days. Monitor for rhabdomyolysis (IV fluids, monitor CK, renal function)"
+  ],
+  "hidden_data": {
+    "cbc": "WBC: 12,500 /\u00b5L | RBC: 4.5 M/\u00b5L | Hb: 13.8 g/dL | Hct: 41% | MCV: 88 fL | Platelets: 250,000 /\u00b5L",
+    "cmp": "Na: 140 mmol/L | K: 4.0 mmol/L | Cl: 103 mmol/L | HCO3: 24 mmol/L | BUN: 15 mg/dL | Cr: 1.0 mg/dL | Glucose: 100 mg/dL | Ca: 9.5 mg/dL | Alb: 4.2 g/dL | AST: 28 U/L | ALT: 32 U/L | ALP: 75 U/L | T.Bil: 0.7 mg/dL",
+    "compartment_pressure": "Anterior compartment: 65mmHg, Lateral: 55mmHg, Deep posterior: 48mmHg",
+    "ck": "CK: 2,500 U/L (elevated)",
+    "xray": "Comminuted tibial shaft fracture"
+  }
+}

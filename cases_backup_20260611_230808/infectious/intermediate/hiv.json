@@ -1,0 +1,18 @@
+{
+  "id": "id_intermediate_002",
+  "specialty": "infectious", "difficulty": "intermediate",
+  "title": "Weight Loss and Oral Thrush - HIV/AIDS",
+  "department": "Infectious Disease Clinic",
+  "patient": { "age": 35, "gender": "male", "name": "Mr. Hassan Naji", "persona": "fatigued, cachectic" },
+  "chief_complaint": "Unintentional weight loss of 12 kg in 3 months, chronic diarrhea, oral thrush, and persistent fever.",
+  "vitals": { "bp": "105/70 mmHg", "hr": 90, "rr": 18, "spo2": "98%", "temp": "38.0°C" },
+  "physical_exam": { "general": "Cachectic, temporal wasting", "oral": "White plaques on tongue and buccal mucosa (thrush)", "skin": "Purplish nodules on lower legs" },
+  "hidden_data": { "hiv_test": "HIV-1 antibody: Positive, confirmed with Western blot", "cd4": "CD4 count: 85 cells/mm³ (severely low)", "viral_load": "HIV RNA: 150,000 copies/mL", "cbc": "Hb: 9.5, WBC: 3,200, PLT: 120", "skin_biopsy": "Kaposi sarcoma (HHV-8 positive)" },
+  "media": {},
+  "correct_diagnosis": "AIDS (HIV Stage 3) with Oral Candidiasis and Kaposi Sarcoma",
+  "differential_diagnoses": ["Primary Immunodeficiency", "Malignancy", "Tuberculosis", "Malabsorption Syndrome"],
+  "key_learning_points": ["CD4 <200 = AIDS", "Oral thrush = most common OI", "Start ART immediately", "Prophylaxis: TMP-SMX for PCP if CD4 <200"],
+  "patient_responses": { "weight_loss": "I've been losing weight rapidly", "diarrhea": "Chronic, watery, for months", "sexual_history": "I have had multiple partners, unprotected" },
+  "hints": { "testing": "HIV test with CD4 count", "opportunistic": "Oral thrush suggests immunosuppression" },
+  "feedback": { "correct_message": "Well diagnosed. AIDS with classic opportunistic infections.", "incorrect_message": "This is AIDS. The CD4 <200 + oral thrush + Kaposi sarcoma are diagnostic.", "test_evaluation": { "hiv_test": { "necessity": "essential", "comment": "Diagnostic for HIV." }, "cd4": { "necessity": "essential", "comment": "Severely low - confirms AIDS." }, "skin_biopsy": { "necessity": "essential", "comment": "Confirms Kaposi sarcoma." } }, "attending_note": "AIDS management: Start ART immediately (tenofovir/emtricitabine/dolutegravir). Treat oral thrush with fluconazole. TMP-SMX prophylaxis for PCP. Kaposi sarcoma may improve with ART alone. Refer to oncology if extensive." }
+}

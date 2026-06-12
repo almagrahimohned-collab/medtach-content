@@ -1,0 +1,89 @@
+{
+  "id": "id_beginner_sepsis",
+  "specialty": "infectious",
+  "difficulty": "beginner",
+  "title": "Sepsis from Community-Acquired Pneumonia",
+  "department": "Infectious Disease",
+  "patient": {
+    "age": 72,
+    "gender": "female",
+    "name": "Margaret Johnson",
+    "persona": "nursing home resident, confused, previously high-functioning"
+  },
+  "chief_complaint": "She's not making sense today. She's been coughing for 3 days and now she's confused and won't get out of bed. She feels very hot.",
+  "vitals": {
+    "BP": "82/48",
+    "HR": "118",
+    "RR": "32",
+    "SpO2": "88%",
+    "Temp": "39.2°C"
+  },
+  "physical_exam": {
+    "General": "Elderly female, confused (GCS 13), tachypneic, using accessory muscles",
+    "Cardiac": "Tachycardia, regular, no murmurs",
+    "Lungs": "Crackles in right lower lobe, bronchial breath sounds, increased tactile fremitus",
+    "Abdomen": "Soft, non-tender",
+    "Extremities": "Cool, mottled. Capillary refill 4 seconds. No edema.",
+    "Neurologic": "Confused, oriented to name only. No focal deficits.",
+    "Skin": "Warm, flushed. No rashes. No pressure ulcers."
+  },
+  "hidden_data": {
+    "abg": "pH 7.29, PaCO2 35, PaO2 58, HCO3 17, SaO2 86%",
+    "lactate": "Lactate 4.8 mmol/L (elevated - tissue hypoperfusion)",
+    "cbc": "WBC 22,500 with 90% neutrophils and 12% bands (left shift), Hb 11.5, Platelets 130,000",
+    "cmp": "Sodium 142, Potassium 4.2, BUN 38, Creatinine 1.9 (AKI), Glucose 160",
+    "procalcitonin": "Procalcitonin 28 ng/mL (strongly elevated - bacterial infection)",
+    "blood_cultures": "2 sets drawn, pending",
+    "sputum_culture": "Gram-positive diplococci on Gram stain. Culture pending.",
+    "urinary_antigens": "Streptococcus pneumoniae urinary antigen: POSITIVE",
+    "cxr": "Right lower lobe consolidation with air bronchograms. No pleural effusion.",
+    "ecg": "Sinus tachycardia. No ST changes. No arrhythmia."
+  },
+  "media": {},
+  "correct_diagnosis": "Sepsis with Septic Shock secondary to Community-Acquired Pneumonia (Streptococcus pneumoniae)",
+  "differential_diagnoses": [
+    "Severe CAP without sepsis",
+    "Aspiration Pneumonia",
+    "Pulmonary Embolism with infarction",
+    "Acute Respiratory Distress Syndrome (ARDS)",
+    "Cardiogenic Pulmonary Edema",
+    "Atypical Pneumonia (Legionella, Mycoplasma)"
+  ],
+  "key_learning_points": [
+    "Sepsis = life-threatening organ dysfunction caused by dysregulated host response to infection. Identified by SOFA score increase ≥2 (or qSOFA ≥2 for screening)",
+    "Septic shock = sepsis + vasopressor requirement to maintain MAP ≥65 + lactate >2 mmol/L despite adequate fluid resuscitation",
+    "qSOFA criteria (bedside screening): RR ≥22, SBP ≤100, Altered mentation (GCS <15). Score ≥2 = high risk for poor outcome",
+    "Surviving Sepsis Campaign 1-hour bundle: Measure lactate, Obtain blood cultures, Administer broad-spectrum antibiotics, Start IV crystalloid 30mL/kg for hypotension/lactate ≥4, Apply vasopressors if refractory hypotension",
+    "Mortality increases 7-8% per hour of delayed antibiotics in septic shock. Antibiotics must be given within 1 hour of recognition."
+  ],
+  "patient_responses": {
+    "from_family": "She lives in a nursing home. She was fine 3 days ago. Then she started coughing and had a fever. Today she didn't recognize me when I came to visit. That's when I called 911.",
+    "past_medical": "She has diabetes, high blood pressure, and mild dementia but usually knows who we are. She's never been this confused before.",
+    "medications": "Metformin, lisinopril, donepezil. She got her pneumonia vaccine last year but not this year's COVID booster.",
+    "baseline": "Usually walks with a walker, feeds herself, recognizes family. This is a dramatic change in 24 hours."
+  },
+  "hints": {
+    "history": "Acute confusion in elderly patient with fever and respiratory symptoms = sepsis until proven otherwise. Ask about baseline function (key for recognizing delirium).",
+    "examination": "Assess for hypoperfusion: Capillary refill, mottling, mental status, urine output. Look for source of infection (lungs, urine, abdomen, skin).",
+    "labs": "Lactate (marker of tissue hypoperfusion, trend to monitor resuscitation). Blood cultures BEFORE antibiotics (but don't delay antibiotics). CBC, CMP, coagulation, procalcitonin. CXR. Urinary antigens for pneumococcus and legionella.",
+    "imaging": "CXR for pneumonia. CT if abscess, empyema, or alternative source suspected. Consider abdominal imaging if no clear pulmonary source."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You correctly identified sepsis with septic shock from CAP. The qSOFA score is 3 (RR 32, SBP 82, GCS 13), lactate is elevated at 4.8, and the patient has AKI. The 1-hour bundle must be initiated immediately: Blood cultures, antibiotics (Ceftriaxone + Azithromycin), 30mL/kg crystalloid, and vasopressors if refractory hypotension.",
+    "partially_correct_message": "Good recognition of severe pneumonia! However, the hypotension (SBP 82), elevated lactate (4.8), AKI (Cr 1.9), and altered mental status indicate septic shock, not just pneumonia. This requires aggressive fluid resuscitation (30mL/kg), vasopressors if needed, and antibiotics within 1 hour - not just 'admit for IV antibiotics'.",
+    "incorrect_message": "This patient has septic shock: Suspected infection (pneumonia) + qSOFA 3 (RR 32, SBP 82, AMS) + lactate 4.8 + organ dysfunction (AKI, AMS). This is NOT just 'pneumonia' - it's a life-threatening emergency requiring the full 1-hour sepsis bundle: Antibiotics within 1 hour, 30mL/kg IV fluids, vasopressors for MAP <65 after fluids, serial lactate monitoring.",
+    "clinical_pearls": [
+      "For every hour of delayed antibiotics in septic shock, mortality increases 7-8%. Antibiotics BEFORE CT scan, BEFORE admission orders, BEFORE leaving the ED",
+      "Initial fluid resuscitation: 30mL/kg IV crystalloid (balanced crystalloids like LR preferred over saline - SMART trial)",
+      "Norepinephrine is first-line vasopressor. Add Vasopressin as second-line. Avoid Dopamine (more arrhythmias, higher mortality in SOAP II trial)"
+    ],
+    "test_evaluation": {
+      "abg": {"necessity": "essential", "comment": "Type 1 respiratory failure (PaO2 58) with metabolic acidosis (HCO3 17, pH 7.29) and elevated lactate"},
+      "lactate": {"necessity": "essential", "comment": "Lactate 4.8 indicates severe tissue hypoperfusion. Serial lactates assess response to resuscitation (goal: clearance >20%/2h)"},
+      "blood_cultures": {"necessity": "essential", "comment": "Must draw BEFORE antibiotics but NEVER delay antibiotics for cultures"},
+      "cxr": {"necessity": "essential", "comment": "RLL consolidation with air bronchograms = typical bacterial pneumonia. Most common cause of sepsis in elderly"}
+    },
+    "missing_tests": ["Central venous catheter for CVP/ScvO2 monitoring if refractory shock. Echo if persistent shock despite fluids to assess cardiac function"],
+    "attending_note": "Doctor, this is septic shock requiring IMMEDIATE action: 1) Blood cultures ×2 sets, 2) Ceftriaxone 2g IV + Azithromycin 500mg IV within 60 minutes (CAP coverage), 3) IV LR 30mL/kg (approximately 2L) bolus now, 4) Norepinephrine infusion if MAP <65 after 2L fluids, titrate to MAP ≥65, 5) Serial lactate q2-4h to monitor resuscitation, 6) Foley catheter to monitor UOP (goal >0.5mL/kg/hr). Admit to ICU. Contact and droplet precautions. Repeat CXR in 24h to assess for improvement or complications (effusion, empyema)."
+  }
+}

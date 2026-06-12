@@ -1,0 +1,18 @@
+{
+  "id": "ped_gen_002",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Seizure with Fever - Febrile Seizure",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 2, "gender": "male", "name": "Child Ali (2 years)", "persona": "post-ictal, drowsy" },
+  "chief_complaint": "2-year-old with generalized tonic-clonic seizure lasting 3 minutes at home, now post-ictal. Temperature 39.8°C. No prior seizures. Normal development.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 140, "rr": 30, "spo2": "96%", "temp": "39.8°C" },
+  "physical_exam": { "neuro": "Post-ictal drowsiness, no focal deficits, no meningismus", "general": "Pharyngeal erythema, otherwise normal exam" },
+  "hidden_data": { "cbc": "WBC: 12,500", "glucose": "Glucose: 95 mg/dL", "electrolytes": "Normal", "cxr": "Normal", "rapid_strep": "Positive for Group A Streptococcus" },
+  "media": {},
+  "correct_diagnosis": "Simple Febrile Seizure (Secondary to Streptococcal Pharyngitis)",
+  "differential_diagnoses": ["Meningitis", "Epilepsy", "Electrolyte Imbalance", "Hypoglycemia"],
+  "key_learning_points": ["Age 6 months - 5 years = typical", "Simple: <15 min, generalized, once in 24h", "Reassure parents - benign prognosis", "Treat underlying cause of fever", "No routine EEG or anticonvulsants needed"],
+  "patient_responses": { "seizure": "He shook all over for about 3 minutes, then got sleepy", "fever": "He's had fever since yesterday", "development": "He's been completely normal, walked at 12 months" },
+  "hints": { "criteria": "Check if simple vs complex", "workup": "Rule out meningitis and metabolic causes" },
+  "feedback": { "correct_message": "Well diagnosed! Simple febrile seizure - reassuring prognosis.", "incorrect_message": "This is a simple febrile seizure. The age, fever, and normal neuro exam are key.", "test_evaluation": { "glucose": { "necessity": "essential", "comment": "Normal - rules out hypoglycemia." }, "rapid_strep": { "necessity": "essential", "comment": "Identifies cause of fever." } }, "attending_note": "Simple febrile seizure: Reassure parents - normal development, excellent prognosis, no increased epilepsy risk. Treat underlying infection. Antipyretics for comfort (do not prevent seizures). No anticonvulsants needed. Return precautions: seizure >5min or focal." }
+}

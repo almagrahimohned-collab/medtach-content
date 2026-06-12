@@ -1,0 +1,18 @@
+{
+  "id": "cardio_intermediate_005",
+  "specialty": "cardiology", "difficulty": "intermediate",
+  "title": "Syncope on Exertion - Aortic Stenosis",
+  "department": "Cardiology Clinic",
+  "patient": { "age": 75, "gender": "male", "name": "Mr. Hassan Omar", "persona": "elderly, concerned" },
+  "chief_complaint": "Three episodes of fainting during morning walks over the past month. Also feels short of breath with activity.",
+  "vitals": { "bp": "110/80 mmHg", "hr": 88, "rr": 18, "spo2": "96%", "temp": "36.6°C" },
+  "physical_exam": { "heart": "Harsh systolic ejection murmur at right 2nd ICS radiating to carotids, S2 diminished", "carotids": "Pulsus parvus et tardus" },
+  "hidden_data": { "ecg": "Left ventricular hypertrophy with strain pattern", "echo": "Severe aortic stenosis, valve area 0.7cm², mean gradient 55mmHg, LVEF 55%", "cxr": "Cardiomegaly, calcified aortic valve" },
+  "media": {},
+  "correct_diagnosis": "Severe Aortic Stenosis",
+  "differential_diagnoses": ["Hypertrophic Cardiomyopathy", "Mitral Regurgitation", "Vasovagal Syncope", "Carotid Artery Stenosis"],
+  "key_learning_points": ["Triad: syncope, angina, dyspnea = severe AS", "Valve area <1.0cm² = severe", "Surgical AVR or TAVR indicated", "Avoid vasodilators in severe AS"],
+  "patient_responses": { "syncope": "It happens when I walk uphill, I just black out", "chest_pain": "Sometimes I feel chest tightness with walking", "past_history": "I had rheumatic fever as a child" },
+  "hints": { "exam_hint": "Listen at the right upper sternal border", "echo_hint": "Calculate the aortic valve area" },
+  "feedback": { "correct_message": "Well diagnosed, Doctor! Severe aortic stenosis with classic triad.", "incorrect_message": "This is severe aortic stenosis. The harsh systolic murmur radiating to carotids is the key finding.", "test_evaluation": { "echo": { "necessity": "essential", "comment": "Diagnostic - shows valve area and gradients." }, "ecg": { "necessity": "essential", "comment": "Shows LVH with strain." }, "cxr": { "necessity": "optional", "comment": "Helpful but not diagnostic." } }, "attending_note": "Remember the triad: syncope, angina, dyspnea. Once symptoms appear in AS, prognosis worsens significantly without valve replacement." }
+}

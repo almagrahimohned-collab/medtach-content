@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "lastUpdated": "$(date -Iseconds)",
+  "categories": {
+    "hematology": { "label": "Hematology", "tests": [] },
+    "chemistry": { "label": "Chemistry", "tests": [] },
+    "cardiac": { "label": "Cardiac Markers", "tests": [] },
+    "coagulation": { "label": "Coagulation", "tests": [] },
+    "abg": { "label": "Arterial Blood Gas", "tests": [] },
+    "microbiology": { "label": "Microbiology", "tests": [] },
+    "endocrine": { "label": "Endocrine", "tests": [] }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "surg_gen_006",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Painful Swelling - Subcutaneous Abscess",
+  "department": "Surgery Clinic",
+  "patient": { "age": 30, "gender": "male", "name": "Mr. Bilal Hatem", "persona": "in pain, swollen area" },
+  "chief_complaint": "Painful red swelling on left forearm for 5 days, increasing in size. Now feels soft in the center. Low-grade fever.",
+  "vitals": { "bp": "125/80 mmHg", "hr": 88, "rr": 16, "spo2": "99%", "temp": "37.8°C" },
+  "physical_exam": { "skin": "5cm erythematous, warm, tender swelling on forearm with central fluctuance, surrounding induration" },
+  "hidden_data": { "cbc": "WBC: 11,500", "us_soft_tissue": "Subcutaneous fluid collection 4x3cm with surrounding hyperemia" },
+  "media": {},
+  "correct_diagnosis": "Subcutaneous Abscess (Left Forearm)",
+  "differential_diagnoses": ["Cellulitis", "Infected Sebaceous Cyst", "Hematoma", "Necrotizing Fasciitis"],
+  "key_learning_points": ["Fluctuance = abscess = needs drainage", "I&D is definitive treatment", "Antibiotics alone insufficient for abscess", "Pack larger abscesses, smaller ones heal by secondary intention"],
+  "patient_responses": { "onset": "Started as small red bump 5 days ago", "pain": "It's throbbing and tender", "trauma": "I don't recall any injury" },
+  "hints": { "exam": "Check for fluctuance", "treatment": "Incision and drainage" },
+  "feedback": { "correct_message": "Correct! Abscess needs I&D.", "incorrect_message": "This is an abscess. The fluctuance indicates pus that needs drainage.", "test_evaluation": { "us_soft_tissue": { "necessity": "optional", "comment": "Confirms fluid collection." } }, "attending_note": "Abscess: I&D with local anesthesia. Pack with iodoform gauze if >3cm. Remove packing in 24-48h. Warm compresses. Antibiotics only if cellulitis, immunocompromised, or systemic symptoms." }
+}

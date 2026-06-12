@@ -1,0 +1,18 @@
+{
+  "id": "surg_neuro_002",
+  "specialty": "surgery", "difficulty": "intermediate",
+  "title": "Confusion After Fall - Chronic Subdural Hematoma",
+  "department": "Neurosurgery Ward",
+  "patient": { "age": 78, "gender": "male", "name": "Mr. Omar Saeed", "persona": "elderly, confused, on warfarin" },
+  "chief_complaint": "78-year-old male with progressive confusion, headache, and left-sided weakness over 2 weeks. Minor fall 3 weeks ago. On warfarin for atrial fibrillation.",
+  "vitals": { "bp": "150/85 mmHg", "hr": 70, "rr": 16, "spo2": "96%", "temp": "36.6°C" },
+  "physical_exam": { "neuro": "Confused, GCS 13, left pronator drift, mild left hemiparesis (4/5), no papilledema" },
+  "hidden_data": { "ct_head": "Crescent-shaped (concave-convex) hypodense collection over right cerebral convexity, 14mm thickness, midline shift 8mm left", "inr": "INR: 4.5 (supratherapeutic)" },
+  "media": {},
+  "correct_diagnosis": "Chronic Subdural Hematoma with Mass Effect (Warfarin-related)",
+  "differential_diagnoses": ["Stroke", "Dementia", "Brain Tumor", "Normal Pressure Hydrocephalus"],
+  "key_learning_points": ["Elderly + anticoagulation + minor trauma = SDH risk", "Crescent-shaped on CT (crosses sutures)", "Burr hole evacuation for symptomatic", "Reverse anticoagulation", "Slow venous bleeding = gradual onset"],
+  "patient_responses": { "fall": "I slipped in the bathroom 3 weeks ago, didn't hit my head hard", "confusion": "My family says I've been more forgetful", "warfarin": "I take warfarin for my heart, 5mg daily" },
+  "hints": { "imaging": "Crescent-shaped collection = SDH", "anticoagulation": "Reverse warfarin" },
+  "feedback": { "correct_message": "Well diagnosed! Chronic SDH in elderly on anticoagulation.", "incorrect_message": "This is a chronic SDH. The crescent-shaped collection + INR confirm it.", "test_evaluation": { "ct_head": { "necessity": "essential", "comment": "Crescent-shaped - classic SDH." }, "inr": { "necessity": "essential", "comment": "Supratherapeutic - needs reversal." } }, "attending_note": "Chronic SDH: Reverse warfarin with vitamin K + PCC. Burr hole evacuation if symptomatic or thickness >10mm with mass effect. May recur - follow-up CT. Consider subdural drain post-op." }
+}

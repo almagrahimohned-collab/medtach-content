@@ -1,0 +1,18 @@
+{
+  "id": "ped_resp_001",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Sudden Choking - Foreign Body Aspiration",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 2, "gender": "male", "name": "Child Sami (2 years)", "persona": "coughing, wheezing" },
+  "chief_complaint": "2-year-old with acute onset coughing and choking while eating peanuts. Now has persistent cough, unilateral wheezing on right side, and decreased breath sounds right lung.",
+  "vitals": { "bp": "95/60 mmHg", "hr": 130, "rr": 36, "spo2": "91%", "temp": "36.8°C" },
+  "physical_exam": { "chest": "Decreased breath sounds right side, expiratory wheezing right, trachea slightly deviated to right" },
+  "hidden_data": { "cxr_inspiratory": "Hyperinflation of right lung on expiratory film, mediastinal shift to left on inspiration", "bronchoscopy": "Peanut fragment removed from right main bronchus" },
+  "media": {},
+  "correct_diagnosis": "Foreign Body Aspiration (Right Main Bronchus)",
+  "differential_diagnoses": ["Asthma Exacerbation", "Bronchiolitis", "Pneumonia", "Croup"],
+  "key_learning_points": ["Sudden onset choking + unilateral wheeze = foreign body until proven", "Expiratory CXR shows air trapping on affected side", "Rigid bronchoscopy for removal", "Most common in children 1-3 years", "Peanuts = most common aspirated food"],
+  "patient_responses": { "choking": "He was eating peanuts and suddenly started coughing and couldn't breathe", "now": "He's still coughing and making a whistling sound", "color": "He looked blue for a moment" },
+  "hints": { "history": "Sudden onset while eating", "imaging": "Expiratory CXR shows air trapping" },
+  "feedback": { "correct_message": "Excellent! Foreign body aspiration is a pediatric emergency.", "incorrect_message": "This is foreign body aspiration. The history + unilateral findings are classic.", "test_evaluation": { "cxr_inspiratory": { "necessity": "essential", "comment": "Shows air trapping on affected side." }, "bronchoscopy": { "necessity": "essential", "comment": "Diagnostic and therapeutic." } }, "attending_note": "Foreign body aspiration: Rigid bronchoscopy for removal. Do NOT do blind finger sweep. If complete obstruction with cyanosis: back blows/chest thrusts for infants, Heimlich for >1 year. Prevention: avoid peanuts and small objects in children <3 years." }
+}

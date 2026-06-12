@@ -1,0 +1,18 @@
+{
+  "id": "surg_vasc_002",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Leg Swelling After Surgery - DVT",
+  "department": "Vascular Surgery Consult",
+  "patient": { "age": 60, "gender": "female", "name": "Mrs. Nada Sami", "persona": "post-op, leg swelling" },
+  "chief_complaint": "60-year-old female 5 days post-total hip replacement with acute left leg swelling, pain, and warmth. No chest pain or dyspnea.",
+  "vitals": { "bp": "135/85 mmHg", "hr": 85, "rr": 18, "spo2": "97%", "temp": "37.1°C" },
+  "physical_exam": { "legs": "Left calf swelling 3cm > right, tenderness, warmth, Homan sign positive" },
+  "hidden_data": { "d_dimer": "D-Dimer: 850 ng/mL", "doppler_us": "Non-compressible thrombus in left popliteal and peroneal veins", "cbc": "Normal, PLT: 280" },
+  "media": {},
+  "correct_diagnosis": "Deep Vein Thrombosis (Left Popliteal-Peronial) - Postoperative",
+  "differential_diagnoses": ["Cellulitis", "Baker Cyst Rupture", "Muscle Strain", "Lymphedema"],
+  "key_learning_points": ["Orthopedic surgery = high risk for VTE", "Wells criteria for pre-test probability", "DOACs first-line (rivaroxaban, apixaban)", "No routine IVC filter", "Treat for 3 months provoked, 6+ unprovoked", "Early mobilization, compression stockings"],
+  "patient_responses": { "surgery": "I had a hip replacement 5 days ago", "leg": "My left calf is swollen and tender", "breathing": "No shortness of breath" },
+  "hints": { "risk": "Post-op + immobilization", "imaging": "Doppler US is diagnostic" },
+  "feedback": { "correct_message": "Well diagnosed! Postoperative DVT.", "incorrect_message": "This is DVT. Risk factors + positive Doppler confirm it.", "test_evaluation": { "doppler_us": { "necessity": "essential", "comment": "Diagnostic." }, "d_dimer": { "necessity": "optional", "comment": "Elevated." } }, "attending_note": "Provoked DVT: Treat with DOAC (rivaroxaban or apixaban) for 3 months. No LMWH bridge needed with DOACs. Compression stockings for symptoms. Early mobilization. Good prognosis with treatment." }
+}

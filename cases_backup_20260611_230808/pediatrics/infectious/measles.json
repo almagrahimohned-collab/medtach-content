@@ -1,0 +1,18 @@
+{
+  "id": "ped_id_001",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Fever and Rash - Measles (Rubeola)",
+  "department": "Pediatric Emergency",
+  "patient": { "age": 5, "gender": "female", "name": "Child Farah (5 years)", "persona": "febrile, conjunctivitis, rash" },
+  "chief_complaint": "5-year-old unvaccinated child with high fever 40°C, cough, coryza, conjunctivitis for 4 days, followed by maculopapular rash starting on face and spreading downward. Koplik spots noted on buccal mucosa.",
+  "vitals": { "bp": "95/60 mmHg", "hr": 140, "rr": 32, "spo2": "95%", "temp": "40.0°C" },
+  "physical_exam": { "eyes": "Bilateral conjunctivitis with photophobia", "mouth": "Koplik spots (white spots on red background) on buccal mucosa opposite molars", "skin": "Erythematous maculopapular rash, confluent on face and upper trunk, blanching" },
+  "hidden_data": { "cbc": "WBC: 4,500, Lymphocytes: 60%", "measles_igm": "Positive", "cxr": "No pneumonia" },
+  "media": {},
+  "correct_diagnosis": "Measles (Rubeola) - Unvaccinated Child",
+  "differential_diagnoses": ["Rubella", "Roseola", "Scarlet Fever", "Kawasaki Disease", "Drug Eruption"],
+  "key_learning_points": ["4 Cs: Cough, Coryza, Conjunctivitis + Koplik spots", "Koplik spots = pathognomonic (appear before rash)", "Rash spreads cephalocaudally", "Vitamin A supplementation reduces mortality", "MMR vaccine for prevention"],
+  "patient_responses": { "immunization": "She has not received any vaccines", "fever": "The fever has been very high for 4 days", "rash": "It started on her face and moved down her body", "sick_contacts": "Her cousin had similar symptoms 2 weeks ago" },
+  "hints": { "spots": "Look for Koplik spots", "prodrome": "4 Cs before rash" },
+  "feedback": { "correct_message": "Excellent! Classic measles with Koplik spots.", "incorrect_message": "This is measles. The 4Cs + Koplik spots + rash pattern are diagnostic.", "test_evaluation": { "measles_igm": { "necessity": "essential", "comment": "Confirms diagnosis." }, "cxr": { "necessity": "essential", "comment": "Rules out pneumonia." } }, "attending_note": "Measles management: Supportive care, vitamin A (200,000 IU for >1 year), monitor for complications (pneumonia, encephalitis, otitis media). Isolation (airborne) until 4 days after rash onset. Report to public health. This was preventable with vaccination." }
+}

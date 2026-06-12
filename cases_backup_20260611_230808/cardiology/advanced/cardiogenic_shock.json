@@ -1,0 +1,47 @@
+{
+  "id": "cardio_advanced_cardiogenic_shock",
+  "specialty": "cardiology",
+  "difficulty": "advanced",
+  "title": "Cardiogenic Shock post-STEMI",
+  "patient": { "age": 62, "gender": "male", "name": "John Mitchell" },
+  "chief_complaint": "Severe crushing chest pain for 4 hours. Now he's confused, cold, and clammy. Blood pressure is barely palpable.",
+  "vitals": { "BP": "78/50", "HR": "118", "RR": "30", "SpO2": "85%", "Temp": "35.8°C" },
+  "physical_exam": {
+    "General": "Confused (GCS 13), pale, diaphoretic, cold extremities, mottled skin",
+    "Cardiac": "Tachycardia, S3 gallop, new holosystolic murmur at apex, distant heart sounds",
+    "Lungs": "Diffuse crackles throughout both lung fields (flash pulmonary edema)",
+    "Extremities": "Cold, mottled, capillary refill >5 seconds, thready pulses",
+    "Neck": "JVD 12cm, Kussmaul sign absent"
+  },
+  "hidden_data": {
+    "ecg": "Sinus tachycardia 118 bpm. ST elevation 4mm in V1-V6, I, aVL (extensive anterior STEMI). ST depression in II, III, aVF (reciprocal changes). Pathologic Q waves forming in anterior leads.",
+    "echo_stat": "Severely reduced LV function (EF 20%). Anterior, septal, and apical akinesis. Inferior and lateral segments hyperdynamic. Severe functional mitral regurgitation. Moderate RV dysfunction.",
+    "cxr": "Pulmonary edema (bilateral alveolar infiltrates). Cardiomegaly. Kerley B lines.",
+    "abg": "pH 7.18, PaCO2 48, PaO2 52, HCO3 15, SaO2 82%. Severe metabolic acidosis with respiratory compensation failure.",
+    "lactate": "Lactate 8.5 mmol/L (severe tissue hypoperfusion)",
+    "troponin": "Troponin I 85 ng/mL (massive myocardial infarction)",
+    "cbc": "WBC 18,500, Hb 14.0, Platelets 190,000",
+    "cmp": "Creatinine 2.1 (AKI), BUN 45, K+ 5.6, AST 250, ALT 180 (shock liver)",
+    "cath": "100% proximal LAD occlusion (culprit). 70% RCA stenosis, 60% LCx stenosis.",
+    "hemodynamics": "Cardiac Index 1.6 L/min/m², PCWP 32 mmHg, Systemic Vascular Resistance 1800, SvO2 45% (severe cardiogenic shock)"
+  },
+  "media": {},
+  "correct_diagnosis": "Extensive Anterior STEMI with Cardiogenic Shock (SCAI Stage D - Deteriorating), Acute Pulmonary Edema, and Multi-Organ Dysfunction",
+  "differential_diagnoses": ["Septic Shock", "Hemorrhagic Shock", "Aortic Dissection with Tamponade", "Massive Pulmonary Embolism", "Stress Cardiomyopathy", "Myocarditis with Fulminant HF"],
+  "key_learning_points": [
+    "Cardiogenic shock = tissue hypoperfusion due to cardiac pump failure: SBP <90 for >30 min OR vasopressors needed + PCWP >15 + CI <2.2 L/min/m²",
+    "SCAI Shock Classification: A (At risk), B (Beginning), C (Classic), D (Deteriorating), E (Extremis). This patient is Stage D: requiring multiple vasopressors, worsening acidosis and lactate",
+    "Mortality in cardiogenic shock: 40-60% despite aggressive treatment. Early revascularization (PCI within 90 minutes) is the ONLY intervention proven to reduce mortality (SHOCK Trial)",
+    "Hemodynamic support: Norepinephrine (first-line vasopressor), Dobutamine or Milrinone (inotropes). Mechanical support: IABP (no mortality benefit, IABP-SHOCK II), Impella, or VA-ECMO for refractory shock",
+    "Right heart catheterization guides management: Low CI + high PCWP = LV failure. Norepinephrine for vasoplegia, diuretics/ultrafiltration for volume overload"
+  ],
+  "patient_responses": {
+    "EMS": "Chest pain started 4 hours ago. Patient thought it was indigestion. Called 911 when he collapsed. Aspirin 324mg given by EMS. Vitals deteriorating en route.",
+    "wife": "He was fine this morning. He complained of heartburn after breakfast. At noon he collapsed getting up from his chair. He's never had heart problems before.",
+    "risk": "He smokes 2 packs a day for 40 years. High blood pressure but doesn't take medications. Strong family history of heart disease."
+  },
+  "feedback": {
+    "correct_message": "Excellent assessment of a devastating condition. You correctly identified cardiogenic shock from massive anterior STEMI with SCAI Stage D severity (multi-organ failure, rising lactate, worsening acidosis). Urgent revascularization of the LAD is the only chance for survival. Mechanical circulatory support (Impella/VA-ECMO) should be considered given refractory shock.",
+    "attending_note": "Emergency PCI to LAD (door-to-balloon <90 min). Norepinephrine IV for MAP >65. Dobutamine 5mcg/kg/min for inotropy. Intubate for respiratory failure and airway protection. Impella CP for LV unloading if available (reduces myocardial work while maintaining cardiac output). Avoid beta-blockers acutely. IV Furosemide for pulmonary edema once perfusing. Serial lactate, ABG, and cardiac index to monitor response. ICU admission. If no improvement with PCI + mechanical support: VA-ECMO as bridge to recovery or transplant."
+  }
+}

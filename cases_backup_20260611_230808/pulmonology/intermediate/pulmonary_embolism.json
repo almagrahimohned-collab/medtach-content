@@ -1,0 +1,18 @@
+{
+  "id": "pulmo_intermediate_003",
+  "specialty": "pulmonology", "difficulty": "intermediate",
+  "title": "Sudden Dyspnea - Pulmonary Embolism",
+  "department": "Emergency Department",
+  "patient": { "age": 55, "gender": "female", "name": "Mrs. Laila Said", "persona": "anxious, breathless" },
+  "chief_complaint": "Sudden onset shortness of breath and right-sided chest pain for 3 hours. Recently returned from a long flight.",
+  "vitals": { "bp": "100/70 mmHg", "hr": 115, "rr": 30, "spo2": "88%", "temp": "37.0°C" },
+  "physical_exam": { "chest": "Clear breath sounds", "legs": "Right calf swelling and tenderness", "heart": "Tachycardic, loud P2" },
+  "hidden_data": { "d_dimer": "D-Dimer: 4500 ng/mL (severely elevated)", "ct_pe": "CTPA: Large filling defect in right main pulmonary artery", "ecg": "Sinus tachycardia, S1Q3T3 pattern", "abg": "pH: 7.46, PaO2: 62, PaCO2: 30, HCO3: 22", "troponin": "Troponin I: 0.8 ng/mL (elevated)" },
+  "media": {},
+  "correct_diagnosis": "Massive Pulmonary Embolism",
+  "differential_diagnoses": ["Pneumonia", "Acute Coronary Syndrome", "Pneumothorax", "Anxiety Attack"],
+  "key_learning_points": ["Wells criteria for pre-test probability", "CTPA is gold standard", "Thrombolysis for massive PE", "Start anticoagulation immediately"],
+  "patient_responses": { "onset": "It started suddenly 3 hours ago, I felt like I couldn't breathe", "travel": "I just came back from a 12-hour flight from Dubai", "leg_pain": "My right calf has been sore for a few days" },
+  "hints": { "risk_factors": "Recent long flight = immobility", "diagnostic": "Check D-Dimer first, then CTPA if positive" },
+  "feedback": { "correct_message": "Excellent diagnosis, Doctor! Massive PE requires immediate action.", "incorrect_message": "This presentation is classic for PE: sudden dyspnea + risk factors + right heart strain.", "test_evaluation": { "d_dimer": { "necessity": "essential", "comment": "High sensitivity - excellent screening test." }, "ct_pe": { "necessity": "essential", "comment": "Gold standard for diagnosis." }, "ecg": { "necessity": "essential", "comment": "Shows right heart strain." }, "troponin": { "necessity": "essential", "comment": "Risk stratifies PE severity." } }, "attending_note": "Massive PE is life-threatening. Start therapeutic anticoagulation immediately. Consider thrombolysis if hemodynamically unstable. Well done identifying the risk factors and ordering appropriate tests." }
+}

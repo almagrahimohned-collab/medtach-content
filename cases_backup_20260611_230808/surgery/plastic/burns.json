@@ -1,0 +1,18 @@
+{
+  "id": "surg_plastic_001",
+  "specialty": "surgery", "difficulty": "intermediate",
+  "title": "Burn Injury - Partial Thickness Burns",
+  "department": "Plastic Surgery / Burn Unit",
+  "patient": { "age": 30, "gender": "male", "name": "Mr. Karim Adel", "persona": "burn injury, severe pain" },
+  "chief_complaint": "30-year-old male with hot water scald burns to anterior chest and right arm. Severe pain. Burns are red, blistered, and wet. No respiratory distress.",
+  "vitals": { "bp": "120/80 mmHg", "hr": 105, "rr": 22, "spo2": "98%", "temp": "36.8°C" },
+  "physical_exam": { "skin": "Partial thickness burns to anterior chest (9%) and right arm (9%) = 18% TBSA. Blistered, moist, red, painful. No circumferential burns. No facial burns." },
+  "hidden_data": { "cbc": "Normal", "cmp": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Superficial Partial Thickness Burns (18% TBSA) - Scald",
+  "differential_diagnoses": ["Full Thickness Burns", "Chemical Burns", "Electrical Burns", "Stevens-Johnson Syndrome"],
+  "key_learning_points": ["Rule of 9s for TBSA estimation", "Parkland formula: 4mL x kg x %TBSA (half in first 8h)", "Partial thickness = blistered, moist, painful", "Silver sulfadiazine or bacitgras dressings", "Burn center referral: >10% TBSA partial thickness"],
+  "patient_responses": { "burn": "I spilled a pot of boiling water on myself", "pain": "Extremely painful", "breathing": "No breathing difficulty" },
+  "hints": { "assessment": "Calculate TBSA with rule of 9s", "fluids": "Parkland formula" },
+  "feedback": { "correct_message": "Well diagnosed! 18% TBSA partial thickness burns.", "incorrect_message": "These are partial thickness burns. Calculate TBSA and start fluid resuscitation.", "test_evaluation": { "cbc": { "necessity": "essential", "comment": "Baseline." }, "cmp": { "necessity": "essential", "comment": "Baseline renal function." } }, "attending_note": "18% TBSA burns: Parkland formula for fluid resuscitation. Silver sulfadiazine dressings. Analgesia. Tetanus prophylaxis. Burn center referral. Monitor for compartment syndrome if circumferential. Good healing expected in 2-3 weeks." }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "surg_gen_002",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "RUQ Pain After Meals - Acute Cholecystitis",
+  "department": "Surgical Emergency",
+  "patient": { "age": 45, "gender": "female", "name": "Mrs. Hala Mustafa", "persona": "obese, in severe pain" },
+  "chief_complaint": "Severe right upper quadrant pain for 6 hours after eating fatty meal. Nausea and vomiting. Known gallstones on previous ultrasound.",
+  "vitals": { "bp": "140/90 mmHg", "hr": 105, "rr": 22, "spo2": "97%", "temp": "38.5°C" },
+  "physical_exam": { "abdomen": "RUQ tenderness, Murphy sign positive, voluntary guarding" },
+  "hidden_data": { "cbc": "WBC: 15,500, Neutrophils: 85%", "lft": "ALT: 80, AST: 65, ALP: 180, Bilirubin: 2.1", "us_abd": "Gallstones, gallbladder wall thickened 5mm, pericholecystic fluid, sonographic Murphy sign positive" },
+  "media": {},
+  "correct_diagnosis": "Acute Cholecystitis with Cholelithiasis",
+  "differential_diagnoses": ["Choledocholithiasis", "Acute Pancreatitis", "Peptic Ulcer Disease", "Hepatitis"],
+  "key_learning_points": ["Murphy sign = inspiratory arrest on RUQ palpation", "Ultrasound: wall >3mm + stones + fluid", "Early laparoscopic cholecystectomy within 72h", "NPO, IV fluids, antibiotics, pain control"],
+  "patient_responses": { "pain_trigger": "I ate fried chicken and fries, then the pain started", "similar": "I've had milder pain before after heavy meals", "nausea": "I vomited twice" },
+  "hints": { "exam": "Murphy sign is key", "imaging": "Ultrasound is gold standard" },
+  "feedback": { "correct_message": "Well diagnosed! Acute cholecystitis - Murphy sign is classic.", "incorrect_message": "This is acute cholecystitis. The Murphy sign + ultrasound findings confirm it.", "test_evaluation": { "us_abd": { "necessity": "essential", "comment": "Diagnostic." }, "lft": { "necessity": "essential", "comment": "Obstructive pattern." } }, "attending_note": "Acute cholecystitis: NPO, IV fluids, antibiotics (ceftriaxone + metronidazole), early laparoscopic cholecystectomy within 72h. If high surgical risk, consider percutaneous cholecystostomy." }
+}

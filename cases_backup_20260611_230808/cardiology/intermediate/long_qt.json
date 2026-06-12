@@ -1,0 +1,45 @@
+{
+  "id": "cardio_intermediate_long_qt",
+  "specialty": "cardiology",
+  "difficulty": "intermediate",
+  "title": "Long QT Syndrome Type 2",
+  "patient": { "age": 22, "gender": "female", "name": "Emily Roberts" },
+  "chief_complaint": "I passed out while swimming yesterday. I was doing laps and suddenly everything went black. The lifeguard pulled me out. I woke up on the pool deck confused. This has happened before - once when I was startled by an alarm clock, and once during a swimming race in high school.",
+  "vitals": { "BP": "110/68", "HR": "62", "RR": "16", "SpO2": "98%", "Temp": "36.5°C" },
+  "physical_exam": {
+    "General": "Healthy young female, no distress",
+    "Cardiac": "Bradycardia 58 bpm. Regular. No murmurs. Soft S2. No clicks or gallops.",
+    "Lungs": "Clear",
+    "Neurologic": "Normal. No focal deficits. No tongue laceration (but could be absence seizure vs arrhythmia).",
+    "HEENT": "No congenital deafness (rules out Jervell-Lange-Nielsen)"
+  },
+  "hidden_data": {
+    "ecg": "Sinus bradycardia 58 bpm. QTc 520ms (Bazett formula) - severely prolonged (normal <460ms in females). T wave notching in lateral leads (V4-V6) - classic for LQT2. T wave alternans present.",
+    "stress_test": "Exercise: HR increases appropriately. QTc paradoxically lengthens during exercise recovery (classic for LQT2). No arrhythmias induced.",
+    "echo": "Structurally normal heart. EF 62%. No valvular abnormalities.",
+    "genetic_test": "KCNH2 mutation (HERG potassium channel) - pathogenic variant confirming LQT2",
+    "cbc": "Normal",
+    "cmp": "Normal. K+ 4.0, Mg 2.1, Ca 9.2",
+    "ecg_parents": "Mother: QTc 490ms (borderline prolonged). T wave morphology similar to daughter. Likely carrier."
+  },
+  "media": {},
+  "correct_diagnosis": "Long QT Syndrome Type 2 (KCNH2 Mutation) with Recurrent Cardiac Syncope (Torsades de Pointes)",
+  "differential_diagnoses": ["Vasovagal Syncope", "Seizure Disorder", "Catecholaminergic Polymorphic VT", "Brugada Syndrome", "Short QT Syndrome", "Acquired Long QT (drugs, electrolytes)"],
+  "key_learning_points": [
+    "Long QT syndrome = prolonged ventricular repolarization → risk of Torsades de Pointes (polymorphic VT) → syncope, seizures, or sudden cardiac death",
+    "QTc normal: <450ms males, <460ms females. QTc >500ms = high-risk",
+    "LQT2 (KCNH2) triggers: Sudden loud noises (alarm clock, phone ringing), emotional stress, swimming. This patient: syncope triggered by startle AND swimming = classic LQT2",
+    "T wave morphology can suggest subtype: LQT1 = broad-based T waves, LQT2 = notched/bifid T waves in lateral leads, LQT3 = late-peaked T waves",
+    "Treatment: Beta-blockers (Nadolol or Propranolol) are first-line. ICD for high-risk (prior cardiac arrest, syncope on beta-blocker). Left cardiac sympathetic denervation (LCSD) for refractory cases. Avoid QT-prolonging drugs (www.crediblemeds.org)"
+  ],
+  "patient_responses": {
+    "syncope": "Each time it happened with a sudden loud noise or during swimming. I don't convulse or bite my tongue. I wake up within 30 seconds feeling tired but normal. No confusion afterward.",
+    "swimming": "I'm a competitive swimmer. The first episode was during a race at age 16. Yesterday was my third episode. Each time was during or immediately after swimming.",
+    "family": "My mother has 'seizures' that started in her 30s. She takes medication for them. No one else in the family has heart problems that I know of.",
+    "medications": "None. I take a multivitamin."
+  },
+  "feedback": {
+    "correct_message": "Excellent! You identified LQT2 from the classic triggers (swimming + auditory startle), severely prolonged QTc (520ms), notched T waves in lateral leads, and confirmed KCNH2 mutation. The recurrent syncopal episodes are likely Torsades de Pointes. Nadolol is first-line; ICD may be warranted given recurrent symptoms on therapy.",
+    "attending_note": "Start Nadolol 40mg daily (or Propranolol LA 80mg), titrate to 2mg/kg/day. Avoid all QT-prolonging drugs (www.crediblemeds.org). No competitive swimming - LQT2 has highest risk during swimming. No swimming alone. ICD implantation if syncope recurs on adequate beta-blocker dose. Screen all first-degree relatives with ECG. Mother likely affected given QTc 490ms. Genetic cascade testing for family. Medical alert bracelet."
+  }
+}

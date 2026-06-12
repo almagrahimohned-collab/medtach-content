@@ -1,0 +1,18 @@
+{
+  "id": "ped_neuro_005",
+  "specialty": "pediatrics", "difficulty": "beginner",
+  "title": "Tachypnea After C-Section - TTN",
+  "department": "Nursery",
+  "patient": { "age": 0, "gender": "male", "name": "Baby Omar (2 hours)", "persona": "tachypneic, otherwise well" },
+  "chief_complaint": "Full-term male born via elective C-section (no labor) at 39 weeks. Tachypnea (RR 80) and mild retractions at 2 hours of life. SpO2 93% on room air. Otherwise active.",
+  "vitals": { "bp": "62/34 mmHg", "hr": 145, "rr": 80, "spo2": "93%", "temp": "36.9°C" },
+  "physical_exam": { "chest": "Tachypnea with mild subcostal retractions, clear breath sounds, no grunting", "general": "Active, good tone, no cyanosis" },
+  "hidden_data": { "cxr": "Prominent perihilar streaking, fluid in fissures, hyperinflation", "abg": "pH: 7.35, PaO2: 68, PaCO2: 42, HCO3: 22", "cbc": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Transient Tachypnea of the Newborn (TTN)",
+  "differential_diagnoses": ["Respiratory Distress Syndrome", "Neonatal Pneumonia", "Congenital Heart Disease", "Meconium Aspiration"],
+  "key_learning_points": ["C-section without labor = risk factor (no thoracic squeeze)", "Resolves within 24-48 hours", "Supportive care: oxygen, monitoring", "CXR: fluid in fissures + perihilar streaking"],
+  "patient_responses": { "delivery": "Elective repeat C-section, no labor", "breathing": "He's breathing fast but seems comfortable", "feeding": "He tried to breastfeed but got tired quickly" },
+  "hints": { "history": "C-section without labor", "imaging": "CXR shows classic findings" },
+  "feedback": { "correct_message": "Well diagnosed! TTN is self-limited and resolves within 48h.", "incorrect_message": "This is TTN. The C-section + CXR findings are classic.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Shows perihilar streaking and fissure fluid." }, "abg": { "necessity": "optional", "comment": "Mild hypoxemia." } }, "attending_note": "TTN management: Oxygen to maintain SpO2 >92%, monitor respiratory rate and work of breathing. Most resolve within 24-48h. IV fluids if tachypnea >80 (risk of aspiration). Reassure parents - this is benign and self-limited." }
+}

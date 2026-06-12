@@ -1,0 +1,37 @@
+{
+  "id": "surg_general_diverticulitis",
+  "specialty": "surgery",
+  "difficulty": "general",
+  "title": "Perforated Sigmoid Diverticulitis",
+  "patient": {
+    "age": 62,
+    "gender": "female",
+    "name": "Margaret Johnson"
+  },
+  "chief_complaint": "Severe left lower abdominal pain for 4 days with fever and chills. I've had diverticulosis diagnosed on colonoscopy before. The pain is constant and now my whole belly hurts.",
+  "vitals": {
+    "BP": "88/55",
+    "HR": "120",
+    "RR": "28",
+    "SpO2": "93%",
+    "Temp": "39.2\u00b0C"
+  },
+  "physical_exam": {
+    "Abdomen": "Diffuse peritonitis: Board-like rigidity, rebound tenderness throughout. Involuntary guarding. Absent bowel sounds. Maximal tenderness in LLQ.",
+    "Labs": "WBC 22,500 with bandemia, Lactate 5.2, Creatinine 2.1 (AKI). CT: Perforated sigmoid diverticulitis with pneumoperitoneum (free air). Fecal peritonitis. Large pelvic abscess 8cm."
+  },
+  "correct_diagnosis": "Perforated Sigmoid Diverticulitis - Hinchey Stage IV (Feculent Peritonitis)",
+  "key_learning_points": [
+    "Diverticulitis complications: Abscess (Hinchey I/II - contained), Purulent peritonitis (Hinchey III - perforation with pus), Feculent peritonitis (Hinchey IV - free perforation with stool). Hinchey IV is surgical emergency",
+    "Clinical: LLQ pain (sigmoid most common) with signs of peritonitis. CT with IV/PO/PR contrast is diagnostic: Shows diverticula, wall thickening, fat stranding, abscess, free air, or fistula",
+    "Treatment: Hinchey I/II: Antibiotics + Percutaneous drainage if abscess >3cm. Hinchey III: Surgical (laparoscopic lavage controversial - DILALA, LOLA trials). Hinchey IV: Emergency laparotomy",
+    "Surgery: Hartmann procedure (sigmoid resection + end colostomy + rectal stump) - standard for feculent peritonitis. Primary anastomosis with diverting loop ileostomy in select stable patients. Damage control surgery if unstable (temporary closure, planned re-operation)",
+    "Antibiotics: Piperacillin-Tazobactam or Meropenem (cover Gram-negatives + anaerobes). Add Vancomycin if MRSA risk. Post-op: NPO, NG decompression, IVF, ICU. Reversal of colostomy in 3-6 months"
+  ],
+  "hidden_data": {
+    "cbc": "WBC: 12,500 /\u00b5L | RBC: 4.5 M/\u00b5L | Hb: 13.8 g/dL | Hct: 41% | MCV: 88 fL | Platelets: 250,000 /\u00b5L",
+    "cmp": "Na: 140 mmol/L | K: 4.0 mmol/L | Cl: 103 mmol/L | HCO3: 24 mmol/L | BUN: 15 mg/dL | Cr: 1.0 mg/dL | Glucose: 100 mg/dL | Ca: 9.5 mg/dL | Alb: 4.2 g/dL | AST: 28 U/L | ALT: 32 U/L | ALP: 75 U/L | T.Bil: 0.7 mg/dL",
+    "ct_abdomen": "Perforated sigmoid diverticulitis with pneumoperitoneum and free fluid",
+    "lactate": "Lactate: 4.2 mmol/L"
+  }
+}

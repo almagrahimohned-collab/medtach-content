@@ -1,0 +1,18 @@
+{
+  "id": "id_beginner_001",
+  "specialty": "infectious", "difficulty": "beginner",
+  "title": "Fever After Travel - Malaria",
+  "department": "Infectious Disease Clinic",
+  "patient": { "age": 30, "gender": "male", "name": "Mr. Osama Khalil", "persona": "febrile, shaking chills" },
+  "chief_complaint": "High fever 40°C with shaking chills and sweating for 3 days. Returned from Nigeria 10 days ago. Did not take malaria prophylaxis.",
+  "vitals": { "bp": "100/65 mmHg", "hr": 110, "rr": 24, "spo2": "95%", "temp": "40.0°C" },
+  "physical_exam": { "general": "Diaphoretic, ill-appearing", "abdomen": "Splenomegaly palpable 3cm below costal margin" },
+  "hidden_data": { "cbc": "WBC: 4,500, Hb: 10.5, PLT: 75,000 (thrombocytopenia)", "blood_smear": "Plasmodium falciparum parasites, parasitemia 5%", "rapid_test": "P. falciparum HRP2 positive", "lft": "Bilirubin: 2.5, AST: 80" },
+  "media": {},
+  "correct_diagnosis": "Falciparum Malaria (Uncomplicated)",
+  "differential_diagnoses": ["Dengue Fever", "Typhoid Fever", "Leptospirosis", "Yellow Fever"],
+  "key_learning_points": ["Travel history is essential", "Thrombocytopenia common in malaria", "Artemisinin-based combination therapy (ACT)", "Check G6PD before primaquine for P. vivax/ovale"],
+  "patient_responses": { "travel": "I was in Lagos for 2 weeks, just got back", "fever_pattern": "Fever comes and goes, with shaking chills", "prophylaxis": "I didn't take any malaria pills" },
+  "hints": { "travel": "Recent travel to endemic area is key", "diagnosis": "Blood smear is gold standard" },
+  "feedback": { "correct_message": "Well diagnosed! Falciparum malaria - the travel history is critical.", "incorrect_message": "This is malaria. The travel history + thrombocytopenia + positive smear are diagnostic.", "test_evaluation": { "blood_smear": { "necessity": "essential", "comment": "Gold standard - shows parasites." }, "cbc": { "necessity": "essential", "comment": "Thrombocytopenia classic." }, "rapid_test": { "necessity": "essential", "comment": "Rapid confirmation." } }, "attending_note": "Falciparum malaria: Artemether-lumefantrine (Coartem) for 3 days. Monitor for severe malaria criteria (parasitemia >5%, altered consciousness, organ dysfunction). Always ask about travel history in febrile patients." }
+}

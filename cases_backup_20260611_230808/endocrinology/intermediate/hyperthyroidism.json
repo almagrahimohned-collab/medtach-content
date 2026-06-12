@@ -1,0 +1,28 @@
+{
+  "id": "endo_intermediate_001",
+  "specialty": "endocrinology",
+  "difficulty": "intermediate",
+  "title": "Palpitations and Weight Loss - Graves Disease",
+  "department": "Endocrinology Clinic",
+  "patient": { "age": 35, "gender": "female", "name": "Mrs. Sara", "persona": "anxious, tremulous" },
+  "chief_complaint": "Weight loss of 5 kg in 2 months despite increased appetite, palpitations, heat intolerance, and tremors",
+  "vitals": { "bp": "145/80 mmHg", "hr": 115, "rr": 18, "spo2": "98%", "temp": "37.4°C" },
+  "physical_exam": { "neck": "Diffusely enlarged thyroid, no nodules", "eyes": "Mild proptosis", "hands": "Fine tremor" },
+  "hidden_data": {
+    "tsh": "TSH: <0.01 (suppressed)",
+    "t4": "Free T4: 4.2 ng/dL (elevated)",
+    "t3": "Free T3: 8.5 pg/mL (elevated)",
+    "trab": "TRAb: 8.5 IU/L (positive)"
+  },
+  "media": {},
+  "correct_diagnosis": "Graves Disease (Primary Hyperthyroidism)",
+  "differential_diagnoses": ["Toxic Multinodular Goiter", "Subacute Thyroiditis", "Anxiety Disorder"],
+  "key_learning_points": ["Graves = hyperthyroidism + goiter + ophthalmopathy", "Check TRAb antibodies", "Treatment: Methimazole or RAI"],
+  "patient_responses": {
+    "weight_loss": "I lost 5 kg even though I'm eating more than usual",
+    "heat": "I feel hot all the time, even when others are cold",
+    "palpitations": "My heart races even when I'm resting",
+    "eyes": "People say my eyes look bigger"
+  },
+  "hints": { "thyroid": "Check TSH, free T4, free T3", "antibodies": "TRAb confirms Graves disease" }
+}

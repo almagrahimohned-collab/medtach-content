@@ -1,0 +1,18 @@
+{
+  "id": "pulmo_intermediate_007",
+  "specialty": "pulmonology", "difficulty": "intermediate",
+  "title": "Chronic Cough and Hemoptysis - Tuberculosis",
+  "department": "Pulmonology Clinic",
+  "patient": { "age": 42, "gender": "male", "name": "Mr. Khalid Omar", "persona": "cachectic, chronic cough" },
+  "chief_complaint": "Productive cough for 3 months with blood-streaked sputum, night sweats, weight loss of 8 kg, and low-grade fever. Originally from India, immigrated 1 year ago.",
+  "vitals": { "bp": "115/75 mmHg", "hr": 90, "rr": 20, "spo2": "94%", "temp": "37.8°C" },
+  "physical_exam": { "chest": "Right upper lobe crackles, bronchial breath sounds", "general": "Thin, temporal wasting", "lymph": "Cervical lymphadenopathy" },
+  "hidden_data": { "cxr": "Right upper lobe cavitary lesion with surrounding infiltrates and volume loss", "sputum_afb": "AFB smear: Positive (3+)", "sputum_pcr": "MTB PCR: Positive, rifampin sensitive", "quantiferon": "Positive", "cbc": "Hb: 10.5, WBC: 8,500" },
+  "media": {},
+  "correct_diagnosis": "Pulmonary Tuberculosis (Reactivation/Post-Primary)",
+  "differential_diagnoses": ["Nontuberculous Mycobacteria", "Lung Abscess", "Fungal Pneumonia", "Lung Cancer"],
+  "key_learning_points": ["Upper lobe cavitary lesion = TB until proven", "AFB smear + PCR confirm", "RIPE therapy: 2 months RIPE + 4 months RI", "Contact tracing essential", "Airborne isolation until 3 negative smears"],
+  "patient_responses": { "cough": "I've been coughing for months, sometimes with blood", "weight": "I lost weight without trying, about 8 kg", "sweats": "I wake up drenched in sweat every night", "travel": "I moved here from India last year" },
+  "hints": { "imaging": "Upper lobe cavity is classic for reactivation TB", "microbiology": "AFB smear and PCR confirm" },
+  "feedback": { "correct_message": "Well diagnosed! Reactivation TB with classic cavitary lesion.", "incorrect_message": "This is pulmonary TB. The upper lobe cavity + positive AFB are diagnostic.", "test_evaluation": { "cxr": { "necessity": "essential", "comment": "Classic upper lobe cavitary lesion." }, "sputum_afb": { "necessity": "essential", "comment": "Positive - confirms mycobacteria." }, "sputum_pcr": { "necessity": "essential", "comment": "Confirms TB and drug sensitivity." } }, "attending_note": "Active TB: Start RIPE (Rifampin, Isoniazid, Pyrazinamide, Ethambutol) for 2 months, then RI for 4 months. Airborne isolation. Contact tracing for close contacts. Monitor LFTs monthly. Pyridoxine with INH." }
+}

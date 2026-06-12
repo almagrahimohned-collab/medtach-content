@@ -1,0 +1,87 @@
+{
+  "id": "pulmo_intermediate_sleep_apnea",
+  "specialty": "pulmonology",
+  "difficulty": "intermediate",
+  "title": "Obstructive Sleep Apnea",
+  "department": "Pulmonology",
+  "patient": {
+    "age": 48,
+    "gender": "male",
+    "name": "Thomas Anderson",
+    "persona": "truck driver, BMI 38, resistant to medical advice"
+  },
+  "chief_complaint": "My wife made me come. She says I stop breathing at night and my snoring shakes the house. I'm exhausted all the time but I think I sleep fine.",
+  "vitals": {
+    "BP": "158/96",
+    "HR": "78",
+    "RR": "16",
+    "SpO2": "97%",
+    "Temp": "36.8°C"
+  },
+  "physical_exam": {
+    "General": "Obese male (BMI 38), neck circumference 46cm, drowsy-appearing",
+    "HEENT": "Crowded oropharynx, Mallampati class IV, enlarged tonsils, thick neck",
+    "Cardiac": "Regular, no murmurs",
+    "Lungs": "Clear",
+    "Extremities": "No edema"
+  },
+  "hidden_data": {
+    "psg": "Apnea-Hypopnea Index (AHI) 42 events/hour (severe OSA). Nadir SpO2 72%. Arousal index 38/hr. Sleep efficiency 65%. 80% of events are obstructive, 20% mixed. No central apneas. Severe oxygen desaturation during REM sleep.",
+    "ecg": "Sinus rhythm 78 bpm. Left atrial enlargement. No LVH.",
+    "echo": "Mild left atrial enlargement. Normal LV size and function. EF 60%. No right heart strain.",
+    "cbc": "WBC 8,500, Hb 16.8, Hct 51% (secondary polycythemia from chronic hypoxia), Platelets 260,000",
+    "cmp": "Glucose 128 fasting, Creatinine 1.0, normal electrolytes",
+    "lipid": "LDL 160, HDL 32, Triglycerides 240",
+    "tsh": "3.2 (normal)",
+    "ess": "Epworth Sleepiness Scale 18/24 (excessive daytime sleepiness)"
+  },
+  "media": {},
+  "correct_diagnosis": "Severe Obstructive Sleep Apnea (OSA) with Obesity Hypoventilation Syndrome",
+  "differential_diagnoses": [
+    "Obesity Hypoventilation Syndrome alone",
+    "Central Sleep Apnea",
+    "Narcolepsy",
+    "Hypothyroidism",
+    "Chronic Fatigue Syndrome",
+    "Depression"
+  ],
+  "key_learning_points": [
+    "OSA = recurrent upper airway collapse during sleep causing apnea/hypopnea, oxygen desaturation, and sleep fragmentation",
+    "AHI severity: Mild 5-15, Moderate 15-30, Severe >30 events/hour",
+    "Clinical features: Loud snoring, witnessed apneas, excessive daytime sleepiness (ESS >10), morning headaches, resistant HTN",
+    "Diagnostic gold standard: Polysomnography (PSG). Home sleep testing acceptable for uncomplicated high-risk patients",
+    "First-line treatment: CPAP (Continuous Positive Airway Pressure). Adjunctive: Weight loss, positional therapy, oral appliances for mild OSA"
+  ],
+  "patient_responses": {
+    "sleep": "I sleep 8-9 hours but wake up more tired than when I went to bed. I can fall asleep anywhere - watching TV, in meetings, even at red lights while driving.",
+    "snoring": "My wife says it sounds like a freight train. She's recorded it on her phone. She says I gasp and choke sometimes.",
+    "morning": "I wake up with a headache almost every day. Dry mouth. I never feel refreshed.",
+    "driving": "I drive a truck for a living. I've almost fallen asleep at the wheel twice. That's scary.",
+    "lifestyle": "I know I need to lose weight. I work long hours, eat fast food, don't exercise."
+  },
+  "hints": {
+    "history": "Ask about snoring, witnessed apneas, daytime sleepiness (Epworth scale), morning headaches, nocturia, and motor vehicle accidents.",
+    "examination": "BMI, neck circumference, Mallampati score, oropharyngeal crowding. Look for signs of right heart failure (cor pulmonale).",
+    "labs": "Polysomnography is diagnostic gold standard. CBC may show polycythemia. TSH to rule out hypothyroidism. ABG if suspecting OHS.",
+    "imaging": "Echo to evaluate for pulmonary hypertension and right heart strain. CXR if cor pulmonale suspected."
+  },
+  "feedback": {
+    "correct_message": "Excellent diagnosis! The severe AHI of 42, excessive daytime sleepiness (ESS 18), and witnessed apneas with desaturation to 72% confirm severe OSA. CPAP is urgently indicated, especially given his occupation as a truck driver. Weight loss and lifestyle modification are essential adjuncts.",
+    "partially_correct_message": "Good job identifying sleep-disordered breathing! However, the PSG clearly shows severe OSA (AHI 42) not just 'sleep apnea'. The severity, his occupation as a driver, and the polycythemia indicate this is a high-risk case requiring urgent CPAP initiation.",
+    "incorrect_message": "The clinical picture (loud snoring, witnessed apneas, excessive sleepiness, resistant hypertension) combined with PSG showing AHI 42 is classic severe OSA. This is not just 'snoring' or 'being tired'. Untreated severe OSA increases risk of MI, stroke, arrhythmias, and motor vehicle accidents. CPAP is mandatory.",
+    "clinical_pearls": [
+      "OSA is present in 50% of patients with resistant hypertension - think OSA in any patient with uncontrolled HTN",
+      "Perioperative risk: OSA patients have 3x increased risk of postoperative complications - screen before surgery",
+      "Commercial drivers with untreated severe OSA have 7x increased risk of motor vehicle accidents"
+    ],
+    "test_evaluation": {
+      "psg": {"necessity": "essential", "comment": "AHI 42, severe desaturation to 72%, REM-predominant events - diagnostic for severe OSA"},
+      "echo": {"necessity": "essential", "comment": "Left atrial enlargement suggests chronic pressure overload from OSA-related hypertension"},
+      "cbc": {"necessity": "essential", "comment": "Polycythemia (Hct 51%) from chronic nocturnal hypoxia - will improve with CPAP"},
+      "ess": {"necessity": "essential", "comment": "ESS 18/24 indicates severe excessive daytime sleepiness - safety concern for driving"},
+      "tsh": {"necessity": "essential", "comment": "Rules out hypothyroidism as cause of sleepiness and weight gain"}
+    },
+    "missing_tests": ["ABG - To evaluate for Obesity Hypoventilation Syndrome (PaCO2 >45) which may require BiPAP instead of CPAP"],
+    "attending_note": "Doctor, this severe OSA in a commercial driver is a medical emergency. Start CPAP immediately with auto-titrating device (APAP) set 5-20 cmH2O. Advise patient he must NOT drive until treated and symptoms controlled (medicolegal requirement). Aggressive weight loss target: 10% body weight (reduces AHI by 25%). Bariatric surgery referral if BMI >35. Follow-up sleep medicine in 1 month to check CPAP adherence and efficacy."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ped_resp_003",
+  "specialty": "pediatrics", "difficulty": "intermediate",
+  "title": "Recurrent Pneumonia and Poor Growth - Cystic Fibrosis",
+  "department": "Pediatric Pulmonology",
+  "patient": { "age": 3, "gender": "male", "name": "Child Omar (3 years)", "persona": "chronic cough, failure to thrive" },
+  "chief_complaint": "3-year-old with recurrent pneumonia (3 episodes in past year), chronic productive cough, foul-smelling greasy stools, and poor weight gain since birth. Parents report salty-tasting skin when kissing child.",
+  "vitals": { "bp": "90/55 mmHg", "hr": 105, "rr": 28, "spo2": "94%", "temp": "37.1°C" },
+  "physical_exam": { "chest": "Bilateral coarse crackles, mild hyperinflation, digital clubbing", "abdomen": "Distended, palpable fecal mass in LLQ", "growth": "Weight and height <3rd percentile" },
+  "hidden_data": { "sweat_chloride": "Sweat chloride: 98 mmol/L (diagnostic, normal <30, intermediate 30-59)", "cxr": "Hyperinflation, peribronchial thickening, bronchiectasis", "sputum_culture": "Pseudomonas aeruginosa (mucoid strain)", "fecal_elastase": "<50 mcg/g (severe pancreatic insufficiency)", "newborn_screen": "Elevated IRT (not reported to family)" },
+  "media": {},
+  "correct_diagnosis": "Cystic Fibrosis (CFTR Mutation) with Pancreatic Insufficiency and Chronic Pseudomonas Infection",
+  "differential_diagnoses": ["Primary Ciliary Dyskinesia", "Immunodeficiency", "Severe Asthma", "Recurrent Aspiration"],
+  "key_learning_points": ["Sweat chloride >60 mmol/L = diagnostic", "Salty sweat + recurrent pneumonia + steatorrhea = classic triad", "Pancreatic enzyme replacement therapy (PERT)", "Airway clearance techniques + mucolytics", "Pseudomonas eradication protocol"],
+  "patient_responses": { "cough": "He's had a cough since he was a baby", "stools": "His poop is greasy, floats, and smells very bad", "skin": "He tastes salty when we kiss him", "growth": "He eats a lot but doesn't gain weight" },
+  "hints": { "diagnosis": "Sweat chloride test", "triad": "Salty sweat + lung disease + steatorrhea" },
+  "feedback": { "correct_message": "Excellent! CF diagnosed - this explains all his symptoms.", "incorrect_message": "This is cystic fibrosis. The sweat chloride >60 + symptoms are diagnostic.", "test_evaluation": { "sweat_chloride": { "necessity": "essential", "comment": "Diagnostic - >60 mmol/L." }, "fecal_elastase": { "necessity": "essential", "comment": "Confirms pancreatic insufficiency." }, "sputum_culture": { "necessity": "essential", "comment": "Pseudomonas requires eradication." } }, "attending_note": "CF management: Pancreatic enzymes (Creon) with all meals/snacks, high-calorie diet, fat-soluble vitamins (ADEK). Airway clearance (chest PT, vest), dornase alfa, hypertonic saline. Pseudomonas eradication: inhaled tobramycin + oral ciprofloxacin. CF center multidisciplinary care." }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "cardio_advanced_tamponade",
+  "specialty": "cardiology",
+  "difficulty": "advanced",
+  "title": "Cardiac Tamponade",
+  "department": "Cardiology",
+  "patient": {
+    "age": 55,
+    "gender": "female",
+    "name": "Maria Gonzalez",
+    "persona": "dyspneic, anxious, recently diagnosed with lung cancer"
+  },
+  "chief_complaint": "I can't breathe. I feel like I'm drowning. My chest feels full and heavy. I had to sleep sitting up last night.",
+  "vitals": {
+    "BP": "88/60",
+    "HR": "118",
+    "RR": "28",
+    "SpO2": "92%",
+    "Temp": "37.2°C"
+  },
+  "physical_exam": {
+    "General": "Tachypneic, using accessory muscles, sitting upright, cyanotic lips",
+    "Cardiac": "Tachycardia 118 bpm, muffled heart sounds, no murmurs",
+    "Lungs": "Clear to auscultation bilaterally, dullness at bases",
+    "Neck": "JVD to angle of jaw at 45 degrees, Kussmaul sign (paradoxical rise in JVP with inspiration)",
+    "Extremities": "Cool, mottled. Pulsus paradoxus 18mmHg. Capillary refill 4 seconds.",
+    "Abdomen": "Hepatomegaly, tender"
+  },
+  "hidden_data": {
+    "ecg": "Sinus tachycardia 118 bpm. Low voltage QRS complexes in all leads. Electrical alternans. No ST elevation.",
+    "echo": "Large circumferential pericardial effusion (2.8cm). Right atrial collapse during diastole. Right ventricular diastolic collapse. Dilated IVC with <50% collapse on inspiration. Mitral inflow velocity variation >25% with respiration.",
+    "cxr": "Enlarged cardiac silhouette (water bottle heart). Clear lung fields. Bilateral pleural effusions, right > left.",
+    "cbc": "WBC 11,500, Hb 10.2, Platelets 195,000",
+    "cmp": "Creatinine 1.4, BUN 35, normal electrolytes, AST 85, ALT 72",
+    "troponin": "Troponin I 0.08 ng/mL (mildly elevated)",
+    "pericardial_fluid": "Bloody fluid, cytology positive for malignant cells (lung adenocarcinoma)",
+    "ct_chest": "Large pericardial effusion with findings consistent with tamponade. Right upper lobe mass 4cm. Mediastinal lymphadenopathy."
+  },
+  "media": {},
+  "correct_diagnosis": "Cardiac Tamponade secondary to Malignant Pericardial Effusion from Metastatic Lung Adenocarcinoma",
+  "differential_diagnoses": [
+    "Constrictive Pericarditis",
+    "Massive Pulmonary Embolism",
+    "Tension Pneumothorax",
+    "Cardiogenic Shock",
+    "Septic Shock",
+    "Pericarditis with Large Effusion"
+  ],
+  "key_learning_points": [
+    "Beck's Triad: Hypotension + Muffled heart sounds + JVD (present in only 30% of tamponade cases)",
+    "Pulsus paradoxus >10mmHg is highly suggestive but not specific (also seen in severe COPD, PE, tension pneumothorax)",
+    "Echo findings: RA collapse (early), RV diastolic collapse (specific), IVC plethora, respiratory variation in mitral inflow",
+    "Electrical alternans on ECG = swinging heart in large effusion (pathognomonic)",
+    "Treatment: Emergency pericardiocentesis. Pericardial window if recurrent. IV fluids as temporizing measure."
+  ],
+  "patient_responses": {
+    "onset": "It started gradually a week ago with some shortness of breath when I walked. Now I can't even lie flat. I haven't slept in 2 days.",
+    "cancer history": "I was diagnosed with lung cancer 3 months ago. I'm supposed to start chemotherapy next week. I've been feeling weaker.",
+    "symptoms": "Chest pressure, can't breathe, my heart is racing. I feel faint when I stand up. My neck feels swollen.",
+    "pain": "Dull ache in my chest, worse when I breathe in. Not sharp. My shoulders hurt too."
+  },
+  "hints": {
+    "history": "Subacute onset of dyspnea, orthopnea, and chest fullness in cancer patient. Tamponade can develop over days to weeks (subacute) or minutes (acute).",
+    "examination": "Look for Beck's Triad, pulsus paradoxus (>10mmHg is significant), Kussmaul sign, JVD. These are critical bedside findings.",
+    "labs": "ECG: Low voltage + electrical alternans. Echo is diagnostic gold standard and should be done emergently.",
+    "imaging": "CXR shows enlarged cardiac silhouette. Echo confirms effusion size, chamber collapse, and diastolic dysfunction. CT for underlying malignancy."
+  },
+  "feedback": {
+    "correct_message": "Outstanding diagnosis! You correctly identified cardiac tamponade from the classic Beck's Triad, pulsus paradoxus, and low voltage/electrical alternans on ECG. In the setting of known lung cancer, malignant pericardial effusion is the most likely cause. Emergency pericardiocentesis is life-saving.",
+    "partially_correct_message": "You recognized pericardial effusion but missed the tamponade physiology. The hypotension, JVD, muffled heart sounds, and pulsus paradoxus indicate the effusion is causing hemodynamic compromise. This requires emergency drainage, not just monitoring.",
+    "incorrect_message": "This is cardiac tamponade - a life-threatening emergency. The triad of hypotension, muffled heart sounds, and JVD (Beck's Triad) with pulsus paradoxus and electrical alternans is classic. Without immediate pericardiocentesis, this patient will develop obstructive shock and cardiac arrest.",
+    "clinical_pearls": [
+      "Pericardiocentesis: Insert needle at left xiphocostal angle, aim toward left shoulder at 15° angle. Aspirate fluid. 50mL removal can dramatically improve hemodynamics",
+      "Electrical alternans = alternating QRS amplitude beat-to-beat from heart swinging in fluid",
+      "Kussmaul sign (paradoxical JVP rise with inspiration) differentiates tamponade from other causes of shock"
+    ],
+    "test_evaluation": {
+      "ecg": {"necessity": "essential", "comment": "Low voltage + electrical alternans are pathognomonic for large effusion with tamponade"},
+      "echo": {"necessity": "essential", "comment": "Diagnostic gold standard. Shows effusion size, chamber collapse, respiratory flow variation"},
+      "cxr": {"necessity": "essential", "comment": "Enlarged cardiac silhouette (water bottle heart) suggests large effusion"},
+      "ct_chest": {"necessity": "essential", "comment": "Confirms effusion and identifies underlying malignancy"},
+      "pericardial_fluid": {"necessity": "essential", "comment": "Cytology positive for malignant cells - guides definitive management (pericardial window)"}
+    },
+    "missing_tests": [],
+    "attending_note": "Doctor, excellent recognition of this emergency. Immediate steps: 1) IV fluids 500mL bolus to temporize, 2) Urgent bedside echo to confirm, 3) Emergency pericardiocentesis - 50-100mL aspiration can be life-saving. Consult cardiology and cardiothoracic surgery. Pericardial window may be needed for recurrent effusion. Avoid positive pressure ventilation if possible (decreases venous return in tamponade). Admit to ICU."
+  }
+}

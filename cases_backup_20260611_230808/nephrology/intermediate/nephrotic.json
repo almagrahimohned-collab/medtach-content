@@ -1,0 +1,18 @@
+{
+  "id": "nephro_intermediate_002",
+  "specialty": "nephrology", "difficulty": "intermediate",
+  "title": "Edema and Proteinuria - Nephrotic Syndrome",
+  "department": "Nephrology Clinic",
+  "patient": { "age": 45, "gender": "male", "name": "Mr. Waleed Amin", "persona": "swollen, fatigued" },
+  "chief_complaint": "Progressive swelling of legs and around eyes for 2 weeks, foamy urine, weight gain of 6 kg.",
+  "vitals": { "bp": "140/85 mmHg", "hr": 82, "rr": 18, "spo2": "98%", "temp": "36.7°C" },
+  "physical_exam": { "general": "Periorbital edema, bilateral pitting edema to knees", "abdomen": "Mild ascites, no organomegaly" },
+  "hidden_data": { "ua": "Protein: 4+, No blood, No casts", "urine_protein": "24h urine protein: 5.2g (nephrotic range)", "cmp": "Albumin: 2.2 g/dL (low), Cr: 1.0", "lipid": "Cholesterol: 320, LDL: 220", "renal_biopsy": "Membranous nephropathy (thickened GBM, spike and dome on silver stain)" },
+  "media": {},
+  "correct_diagnosis": "Nephrotic Syndrome (Membranous Nephropathy)",
+  "differential_diagnoses": ["Minimal Change Disease", "FSGS", "Diabetic Nephropathy", "Amyloidosis"],
+  "key_learning_points": ["Nephrotic: >3.5g proteinuria + hypoalbuminemia + edema + hyperlipidemia", "Membranous = most common cause in adults", "Check anti-PLA2R antibodies", "ACEi/ARB for proteinuria, statins, diuretics"],
+  "patient_responses": { "swelling": "My shoes don't fit, my legs are huge", "urine": "It's really foamy, like beer foam", "weight": "I gained 6 kg in 2 weeks without eating more" },
+  "hints": { "criteria": "Check 24h urine protein", "biopsy": "Renal biopsy for definitive diagnosis" },
+  "feedback": { "correct_message": "Well diagnosed! Nephrotic syndrome from membranous nephropathy.", "incorrect_message": "This is nephrotic syndrome. The >3.5g proteinuria + hypoalbuminemia confirm it.", "test_evaluation": { "urine_protein": { "necessity": "essential", "comment": "Nephrotic range proteinuria." }, "cmp": { "necessity": "essential", "comment": "Shows hypoalbuminemia." }, "renal_biopsy": { "necessity": "essential", "comment": "Definitive diagnosis." } }, "attending_note": "Membranous nephropathy: ACEi/ARB for proteinuria, statins for hyperlipidemia, diuretics for edema. Check anti-PLA2R. Immunosuppression if progressive. Monitor for spontaneous remission (30%)." }
+}

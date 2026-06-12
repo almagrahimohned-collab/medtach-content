@@ -1,0 +1,18 @@
+{
+  "id": "surg_uro_002",
+  "specialty": "surgery", "difficulty": "beginner",
+  "title": "Flank Pain - Ureteral Stone",
+  "department": "Urology Emergency",
+  "patient": { "age": 40, "gender": "male", "name": "Mr. Omar Said", "persona": "severe flank pain, restless" },
+  "chief_complaint": "40-year-old male with acute severe left flank pain radiating to groin for 4 hours. Nausea, vomiting. Cannot find comfortable position. Hematuria noted.",
+  "vitals": { "bp": "145/90 mmHg", "hr": 100, "rr": 20, "spo2": "99%", "temp": "36.8°C" },
+  "physical_exam": { "abdomen": "Left flank tenderness, no rebound, no masses", "back": "Left CVA tenderness" },
+  "hidden_data": { "ua": "Hematuria: 3+, No infection", "ct_kub": "6mm stone at left UVJ (ureterovesical junction) with mild hydronephrosis", "cmp": "Cr: 1.0, Ca: 9.5, Uric acid: 6.0" },
+  "media": {},
+  "correct_diagnosis": "Left Ureteral Stone (6mm at UVJ) with Hydronephrosis",
+  "differential_diagnoses": ["Pyelonephritis", "Appendicitis", "AAA", "Musculoskeletal Pain"],
+  "key_learning_points": ["Flank to groin pain + hematuria = stone until proven", "CT KUB = gold standard", "<5mm: medical expulsive therapy (tamsulosin)", ">10mm or obstruction: ureteroscopy or ESWL", "Pain control: NSAIDs first-line, opioids if needed"],
+  "patient_responses": { "pain": "It comes in waves, worst pain of my life", "location": "Starts in my back and goes to my groin", "urine": "There was blood in my urine" },
+  "hints": { "imaging": "CT KUB is gold standard", "treatment": "MET for <10mm stones" },
+  "feedback": { "correct_message": "Well diagnosed! Ureteral stone at UVJ.", "incorrect_message": "This is a ureteral stone. The flank pain + hematuria + CT confirm it.", "test_evaluation": { "ct_kub": { "necessity": "essential", "comment": "Gold standard." }, "ua": { "necessity": "essential", "comment": "Shows hematuria." } }, "attending_note": "6mm UVJ stone: Medical expulsive therapy with tamsulosin 0.4mg daily. NSAIDs for pain. >90% pass spontaneously. Strain urine. Follow-up US in 2 weeks. Ureteroscopy if fails to pass in 4 weeks or obstructive symptoms worsen." }
+}

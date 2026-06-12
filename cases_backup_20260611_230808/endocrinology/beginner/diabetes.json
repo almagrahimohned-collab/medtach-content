@@ -1,0 +1,27 @@
+{
+  "id": "endo_beginner_001",
+  "specialty": "endocrinology",
+  "difficulty": "beginner",
+  "title": "Weight Loss and Thirst - Type 2 Diabetes",
+  "department": "Endocrinology Clinic",
+  "patient": { "age": 45, "gender": "male", "name": "Mr. Karim", "persona": "tired, concerned" },
+  "chief_complaint": "Increased thirst, frequent urination, and fatigue for 3 months. Lost 8 kg unintentionally.",
+  "vitals": { "bp": "140/88 mmHg", "hr": 78, "rr": 15, "spo2": "99%", "temp": "36.5°C" },
+  "physical_exam": { "general": "Obese, BMI 32, acanthosis nigricans", "feet": "Normal sensation, good pulses" },
+  "hidden_data": {
+    "glucose": "Fasting: 210 mg/dL (11.7 mmol/L)",
+    "hba1c": "HbA1c: 9.2% (severely elevated)",
+    "cmp": "Sodium: 136, Potassium: 4.3, Creatinine: 0.9"
+  },
+  "media": {},
+  "correct_diagnosis": "Type 2 Diabetes Mellitus - New Onset",
+  "differential_diagnoses": ["Type 1 Diabetes", "LADA", "Secondary Diabetes (steroid-induced)"],
+  "key_learning_points": ["Diagnostic: HbA1c ≥ 6.5% or fasting ≥ 126 mg/dL", "Start metformin + lifestyle changes", "Screen for complications at diagnosis"],
+  "patient_responses": {
+    "thirst": "I'm drinking water all day, maybe 5-6 liters",
+    "urination": "I wake up 3-4 times at night to urinate",
+    "diet": "I eat a lot of fast food and sweets",
+    "family_history": "My father has diabetes too"
+  },
+  "hints": { "labs": "Check HbA1c and fasting glucose", "symptoms": "Classic triad: polyuria, polydipsia, weight loss" }
+}

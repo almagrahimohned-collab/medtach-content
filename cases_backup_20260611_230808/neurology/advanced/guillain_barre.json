@@ -1,0 +1,26 @@
+{
+  "id": "neuro_advanced_001",
+  "specialty": "neurology",
+  "difficulty": "advanced",
+  "title": "Ascending Weakness - Guillain-Barré Syndrome",
+  "department": "Neurology ICU",
+  "patient": { "age": 42, "gender": "female", "name": "Mrs. Fatima", "persona": "worried, weak" },
+  "chief_complaint": "Progressive bilateral leg weakness and numbness ascending over 2 weeks, now difficulty walking. Had diarrheal illness 3 weeks ago.",
+  "vitals": { "bp": "130/80 mmHg", "hr": 90, "rr": 20, "spo2": "97%", "temp": "36.5°C" },
+  "physical_exam": { "neuro": "Bilateral lower limb weakness 3/5, absent DTRs, sensory loss in stocking distribution" },
+  "hidden_data": {
+    "cbc": "Hb: 13.5, WBC: 9.1, Platelets: 260",
+    "csf": "Protein: 180 mg/dL (elevated), WBC: 3 (normal) - Albuminocytologic dissociation",
+    "ncs": "Demyelinating polyneuropathy with conduction blocks"
+  },
+  "media": {},
+  "correct_diagnosis": "Guillain-Barré Syndrome (AIDP variant)",
+  "differential_diagnoses": ["CIDP", "Transverse Myelitis", "Botulism", "Myasthenia Gravis"],
+  "key_learning_points": ["Albuminocytologic dissociation = ↑protein + normal WBC in CSF", "Monitor FVC - may need ventilation", "IVIG or Plasmapheresis are treatments"],
+  "patient_responses": {
+    "weakness_start": "It started in my feet 2 weeks ago and now it's in my thighs too",
+    "diarrhea": "Yes, I had bad diarrhea 3 weeks ago after eating at a restaurant",
+    "breathing": "I feel a little short of breath when I walk"
+  },
+  "hints": { "csf": "Look for albuminocytologic dissociation", "respiratory": "Check respiratory function regularly" }
+}

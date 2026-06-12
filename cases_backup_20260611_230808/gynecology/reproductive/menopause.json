@@ -1,0 +1,18 @@
+{
+  "id": "obgyn_repro_002",
+  "specialty": "gynecology", "difficulty": "beginner",
+  "title": "Hot Flashes and Mood Changes - Menopause",
+  "department": "Gynecology Clinic",
+  "patient": { "age": 51, "gender": "female", "name": "Mrs. Amal Hassan", "persona": "hot flashes, mood swings" },
+  "chief_complaint": "51-year-old with hot flashes, night sweats, mood swings, vaginal dryness, and irregular periods for 8 months. Last menstrual period 4 months ago. No contraindications to HRT.",
+  "vitals": { "bp": "130/80 mmHg", "hr": 82, "rr": 16, "spo2": "99%", "temp": "37.0°C" },
+  "physical_exam": { "pelvic": "Atrophic vaginal mucosa, normal exam", "general": "BMI 26" },
+  "hidden_data": { "fsh": "FSH: 65 IU/L (postmenopausal range)", "estradiol": "Estradiol: <20 pg/mL (low)", "tsh": "Normal", "mammogram": "Normal", "cbc": "Normal" },
+  "media": {},
+  "correct_diagnosis": "Menopause (Vasomotor Symptoms)",
+  "differential_diagnoses": ["Perimenopause", "Thyroid Dysfunction", "Depression", "Premature Ovarian Insufficiency"],
+  "key_learning_points": ["Diagnosis: clinical + elevated FSH", "HRT: estrogen + progesterone (if uterus present)", "Lowest effective dose for shortest duration", "Contraindications: breast cancer, VTE, CVD", "Non-hormonal: SSRIs, gabapentin, clonidine"],
+  "patient_responses": { "flashes": "I get hot flashes 10-15 times a day", "sleep": "Night sweats wake me up", "mood": "I feel irritable and cry easily" },
+  "hints": { "diagnosis": "FSH >40 = menopause", "treatment": "HRT if appropriate" },
+  "feedback": { "correct_message": "Well diagnosed! Menopause with vasomotor symptoms.", "incorrect_message": "This is menopause. The FSH >40 + symptoms confirm it.", "test_evaluation": { "fsh": { "necessity": "essential", "comment": "Postmenopausal range." } }, "attending_note": "Menopause: HRT (estrogen + progesterone) for moderate-severe symptoms in women <60 without contraindications. Lowest effective dose, shortest duration. Vaginal estrogen for GSM. Non-hormonal options if HRT contraindicated." }
+}

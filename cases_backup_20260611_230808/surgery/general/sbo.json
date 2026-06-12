@@ -1,0 +1,18 @@
+{
+  "id": "surg_gen_003",
+  "specialty": "surgery", "difficulty": "intermediate",
+  "title": "Abdominal Distension - Small Bowel Obstruction",
+  "department": "Surgical Emergency",
+  "patient": { "age": 60, "gender": "female", "name": "Mrs. Amina Darwish", "persona": "in pain, distended" },
+  "chief_complaint": "Abdominal pain, distension, bilious vomiting, and constipation for 3 days. Previous abdominal surgery for hysterectomy.",
+  "vitals": { "bp": "110/75 mmHg", "hr": 100, "rr": 24, "spo2": "96%", "temp": "37.2°C" },
+  "physical_exam": { "abdomen": "Distended, tympanic, hyperactive bowel sounds (tinkling), diffuse tenderness, no rebound, surgical scar" },
+  "hidden_data": { "cxr": "No free air", "ct_abdomen": "Dilated small bowel loops with air-fluid levels, transition point at mid-ileum due to adhesive band, no ischemia" },
+  "media": {},
+  "correct_diagnosis": "Small Bowel Obstruction due to Adhesions",
+  "differential_diagnoses": ["Large Bowel Obstruction", "Ileus", "Mesenteric Ischemia", "Perforated Viscus"],
+  "key_learning_points": ["Adhesions = most common cause of SBO", "CT with contrast shows transition point", "NGT decompression + NPO + IV fluids", "Surgery if strangulation suspected or fails conservative"],
+  "patient_responses": { "pain": "It's crampy and comes in waves", "vomiting": "I vomit green fluid", "flatus": "I haven't passed gas in 3 days" },
+  "hints": { "imaging": "CT shows transition point", "management": "NPO, NGT, IV fluids" },
+  "feedback": { "correct_message": "Well diagnosed! SBO from adhesions in a patient with prior surgery.", "incorrect_message": "This is SBO. The prior surgery + CT findings confirm it.", "test_evaluation": { "ct_abdomen": { "necessity": "essential", "comment": "Shows level and cause." }, "cxr": { "necessity": "essential", "comment": "Rules out perforation." } }, "attending_note": "SBO: NPO, NGT decompression, IV fluids, serial abdominal exams. Surgery if signs of strangulation (fever, leukocytosis, peritonitis) or failure of conservative management after 48-72h." }
+}

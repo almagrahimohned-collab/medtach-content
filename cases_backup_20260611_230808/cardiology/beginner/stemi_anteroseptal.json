@@ -1,0 +1,51 @@
+{
+  "id": "cardio_beginner_001",
+  "specialty": "cardiology",
+  "difficulty": "beginner",
+  "title": "Acute Chest Pain - Anteroseptal STEMI",
+  "department": "Emergency Department",
+  "patient": { "age": 60, "gender": "male", "name": "Mr. Ahmed Hassan", "persona": "anxious, cooperative" },
+  "chief_complaint": "Central chest pain radiating to left arm for 2 hours, associated with shortness of breath and diaphoresis",
+  "vitals": { "bp": "160/95 mmHg", "hr": 110, "rr": 22, "spo2": "94% on room air", "temp": "37.1°C" },
+  "physical_exam": { "general": "Anxious, diaphoretic, clutching chest", "chest": "Clear breath sounds bilaterally", "heart": "Tachycardic, regular rhythm, no murmurs", "extremities": "Warm, no edema" },
+  "hidden_data": {
+    "cbc": "Hemoglobin: 13.5 g/dL\nWBC: 8.2 x10⁹/L\nPlatelets: 250 x10⁹/L",
+    "troponin": "Troponin I: 1.2 ng/mL (Elevated)\nNormal: < 0.04 ng/mL",
+    "cmp": "Sodium: 138\nPotassium: 4.1\nCreatinine: 1.1\nGlucose: 180",
+    "ecg": "Sinus tachycardia 110 bpm\nST elevation 3mm in V1-V4\nReciprocal ST depression in II, III, aVF",
+    "cxr": "Mild cardiomegaly\nNo pulmonary edema\nNo consolidation",
+    "ck_mb": "CK-MB: 15 ng/mL (Elevated)\nNormal: < 5 ng/mL"
+  },
+  "media": {},
+  "correct_diagnosis": "Anteroseptal ST-Elevation Myocardial Infarction (STEMI)",
+  "differential_diagnoses": ["Unstable Angina", "Aortic Dissection", "Acute Pericarditis", "Pulmonary Embolism"],
+  "key_learning_points": [
+    "ECG must be obtained within 10 minutes of chest pain presentation",
+    "ST elevation in V1-V4 = anteroseptal = LAD artery occlusion",
+    "Door-to-balloon time goal < 90 minutes",
+    "Check right-sided leads (V4R) if inferior STEMI suspected"
+  ],
+  "patient_responses": {
+    "pain_onset": "It started suddenly about 2 hours ago while watching TV",
+    "pain_character": "Heavy crushing weight on my chest, goes to left shoulder",
+    "smoking": "Yes, a pack a day for 30 years",
+    "past_history": "High blood pressure and sugar diabetes, meds not regular",
+    "family_history": "My father died of heart attack at 55",
+    "allergies": "No known drug allergies"
+  },
+  "hints": { "initial_approach": "ABCs, vitals, IV access, oxygen", "ecg_hint": "Look at anterior leads V1-V4", "troponin_hint": "May be normal in first 2-4 hours" },
+  "feedback": {
+    "correct_message": "Excellent work, Doctor. You correctly identified the anteroseptal STEMI. Recognizing ST elevation in V1-V4 and acting quickly is exactly what saves myocardium.",
+    "incorrect_message": "This was an anteroseptal STEMI, not what you diagnosed. The ST elevation in V1-V4 with reciprocal changes in inferior leads is the key finding. Remember: ST elevation = injury pattern that needs immediate reperfusion.",
+    "partially_correct_message": "You were on the right track identifying a cardiac cause, but the specific diagnosis is anteroseptal STEMI. The ST elevation in V1-V4 tells us this is an acute myocardial infarction needing immediate PCI.",
+    "test_evaluation": {
+      "ecg": { "necessity": "essential", "comment": "This is THE most important test for chest pain. You ordered it promptly - excellent clinical judgment." },
+      "troponin": { "necessity": "essential", "comment": "Confirms myocardial necrosis. While it may be normal in the first 2-4 hours, ordering it early is still appropriate." },
+      "cxr": { "necessity": "optional", "comment": "Can be deferred. While it helps rule out other causes like aortic dissection, it should not delay reperfusion." },
+      "cbc": { "necessity": "unnecessary", "comment": "Does not change acute STEMI management. This can be checked after PCI." },
+      "ck_mb": { "necessity": "unnecessary", "comment": "Troponin has largely replaced CK-MB. Ordering both is redundant." }
+    },
+    "missing_tests": ["Right-sided ECG (V4R)", "Echocardiogram (after stabilization)"],
+    "attending_note": "Doctor, you handled this case well. Your rapid ECG order likely saved myocardium. For future chest pain cases: always check right-sided leads if inferior involvement, and remember that the cath lab should be activated the moment you see ST elevation. Keep up the excellent work."
+  }
+}
