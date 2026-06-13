@@ -538,6 +538,552 @@
       ],
       "problems": "Tube, Inserted;Catheters, Indwelling;Consolidation;Airspace Disease;Atherosclerosis;Spine",
       "image_url": "https://openi.nlm.nih.gov/imgs/512/37/1240/CXR1240_IM-0162-2001.png"
+    },
+    {
+      "uid": "CXR1728",
+      "diagnosis": "After further review with staff radiologist there is a right upper lobe focal opacity XXXX reflecting pneumonia.",
+      "findings": [
+        "Opacity/lung/upper lobe/right/focal",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Opacity;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/124/1728/CXR1728_IM-0479-1001.png"
+    },
+    {
+      "uid": "CXR1728",
+      "diagnosis": "After further review with staff radiologist there is a right upper lobe focal opacity XXXX reflecting pneumonia.",
+      "findings": [
+        "Opacity/lung/upper lobe/right/focal",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Opacity;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/124/1728/CXR1728_IM-0479-2001.png"
+    },
+    {
+      "uid": "CXR3069",
+      "diagnosis": "Right upper lobe pneumonia.",
+      "findings": [
+        "Airspace Disease/lung/upper lobe/right",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Airspace Disease;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/262/3069/CXR3069_IM-1432-1001.png"
+    },
+    {
+      "uid": "CXR3069",
+      "diagnosis": "Right upper lobe pneumonia.",
+      "findings": [
+        "Airspace Disease/lung/upper lobe/right",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Airspace Disease;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/262/3069/CXR3069_IM-1432-2001.png"
+    },
+    {
+      "uid": "CXR3565",
+      "diagnosis": "1. Stable right middle lobe consolidation, most consistent with pneumonia.",
+      "findings": [
+        "Opacity/lung/middle lobe/right/severe",
+        "Consolidation/lung/middle lobe/right",
+        "Pneumonia/middle lobe/right"
+      ],
+      "problems": "Opacity;Consolidation;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/357/3565/CXR3565_IM-1750-1001.png"
+    },
+    {
+      "uid": "CXR3565",
+      "diagnosis": "1. Stable right middle lobe consolidation, most consistent with pneumonia.",
+      "findings": [
+        "Opacity/lung/middle lobe/right/severe",
+        "Consolidation/lung/middle lobe/right",
+        "Pneumonia/middle lobe/right"
+      ],
+      "problems": "Opacity;Consolidation;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/357/3565/CXR3565_IM-1750-2001.png"
+    },
+    {
+      "uid": "CXR245",
+      "diagnosis": "1. Left upper lobe pneumonia.",
+      "findings": [
+        "Pneumonia/upper lobe/left",
+        "Airspace Disease/lung/upper lobe/left"
+      ],
+      "problems": "Pneumonia;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/245/245/CXR245_IM-0985-1001.png"
+    },
+    {
+      "uid": "CXR245",
+      "diagnosis": "1. Left upper lobe pneumonia.",
+      "findings": [
+        "Pneumonia/upper lobe/left",
+        "Airspace Disease/lung/upper lobe/left"
+      ],
+      "problems": "Pneumonia;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/245/245/CXR245_IM-0985-2001.png"
+    },
+    {
+      "uid": "CXR1430",
+      "diagnosis": "1. Minimal patchy bibasilar opacities, XXXX evolving pneumonia or atelectasis 2. XXXX bilateral pleural effusions",
+      "findings": [
+        "Opacity/lung/base/bilateral/patchy/mild",
+        "Pulmonary Atelectasis",
+        "Pneumonia",
+        "Pleura/blunted/mild",
+        "Pleural Effusion/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Pneumonia;Pleura;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/227/1430/CXR1430_IM-0277-2001.png"
+    },
+    {
+      "uid": "CXR3078",
+      "diagnosis": "Right lower lobe pneumonia. Consider followup radiograph to document resolution. .",
+      "findings": [
+        "Pneumonia/lower lobe/right"
+      ],
+      "problems": "Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3078/CXR3078_IM-1438-1001.png"
+    },
+    {
+      "uid": "CXR3078",
+      "diagnosis": "Right lower lobe pneumonia. Consider followup radiograph to document resolution. .",
+      "findings": [
+        "Pneumonia/lower lobe/right"
+      ],
+      "problems": "Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3078/CXR3078_IM-1438-2001.png"
+    },
+    {
+      "uid": "CXR808",
+      "diagnosis": "1. Left lower lobe pneumonia and minimal scarring or subsegmental atelectasis in the right lung base.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Cicatrix/lung/base/right/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Pneumonia/lower lobe/left",
+        "Airspace Disease/lung/lower lobe/left",
+        "Spine/degenerative"
+      ],
+      "problems": "Lung;Cicatrix;Pulmonary Atelectasis;Pneumonia;Airspace Disease;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/6/808/CXR808_IM-2341-1001.png"
+    },
+    {
+      "uid": "CXR808",
+      "diagnosis": "1. Left lower lobe pneumonia and minimal scarring or subsegmental atelectasis in the right lung base.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Cicatrix/lung/base/right/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Pneumonia/lower lobe/left",
+        "Airspace Disease/lung/lower lobe/left",
+        "Spine/degenerative"
+      ],
+      "problems": "Lung;Cicatrix;Pulmonary Atelectasis;Pneumonia;Airspace Disease;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/6/808/CXR808_IM-2341-2001.png"
+    },
+    {
+      "uid": "CXR3567",
+      "diagnosis": "1. Right lower lobe airspace disease and small effusion probably representing pneumonia.",
+      "findings": [
+        "Implanted Medical Device",
+        "Airspace Disease/lung/lower lobe/right",
+        "Pleural Effusion/right/small",
+        "Pneumonia/lower lobe/right"
+      ],
+      "problems": "Implanted Medical Device;Airspace Disease;Pleural Effusion;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/359/3567/CXR3567_IM-1752-1001.png"
+    },
+    {
+      "uid": "CXR2859",
+      "diagnosis": "Opacity XXXX representing left upper lobe pneumonia. Recommend followup radiographically until cleared to ensure that there is no underlying mass.",
+      "findings": [
+        "Opacity/lung/upper lobe/left/round",
+        "Density/lung/upper lobe/left/round",
+        "Pneumonia/upper lobe/left/round"
+      ],
+      "problems": "Opacity;Density;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/52/2859/CXR2859_IM-1266-1001.png"
+    },
+    {
+      "uid": "CXR2859",
+      "diagnosis": "Opacity XXXX representing left upper lobe pneumonia. Recommend followup radiographically until cleared to ensure that there is no underlying mass.",
+      "findings": [
+        "Opacity/lung/upper lobe/left/round",
+        "Density/lung/upper lobe/left/round",
+        "Pneumonia/upper lobe/left/round"
+      ],
+      "problems": "Opacity;Density;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/52/2859/CXR2859_IM-1266-2001.png"
+    },
+    {
+      "uid": "CXR590",
+      "diagnosis": "Right middle lobe airspace disease may reflect atelectasis or pneumonia. .",
+      "findings": [
+        "Airspace Disease/lung/middle lobe/right",
+        "Diaphragm/right/elevated"
+      ],
+      "problems": "Airspace Disease;Diaphragm",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/590/CXR590_IM-2185-2001.png"
+    },
+    {
+      "uid": "CXR590",
+      "diagnosis": "Right middle lobe airspace disease may reflect atelectasis or pneumonia. .",
+      "findings": [
+        "Airspace Disease/lung/middle lobe/right",
+        "Diaphragm/right/elevated"
+      ],
+      "problems": "Airspace Disease;Diaphragm",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/590/CXR590_IM-2185-3001.png"
+    },
+    {
+      "uid": "CXR332",
+      "diagnosis": "Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.",
+      "findings": [
+        "Opacity/lung/lower lobe/left/streaky",
+        "Opacity/retrocardiac/streaky"
+      ],
+      "problems": "Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/332/332/CXR332_IM-1588-1001.png"
+    },
+    {
+      "uid": "CXR332",
+      "diagnosis": "Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.",
+      "findings": [
+        "Opacity/lung/lower lobe/left/streaky",
+        "Opacity/retrocardiac/streaky"
+      ],
+      "problems": "Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/332/332/CXR332_IM-1588-2001.png"
+    },
+    {
+      "uid": "CXR991",
+      "diagnosis": "Minimal perihilar opacity which could indicate an atypical pneumonia.",
+      "findings": [
+        "Opacity/lung/hilum/streaky/mild"
+      ],
+      "problems": "Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/991/CXR991_IM-2476-1001.png"
+    },
+    {
+      "uid": "CXR991",
+      "diagnosis": "Minimal perihilar opacity which could indicate an atypical pneumonia.",
+      "findings": [
+        "Opacity/lung/hilum/streaky/mild"
+      ],
+      "problems": "Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/991/CXR991_IM-2476-2001.png"
+    },
+    {
+      "uid": "CXR1240",
+      "diagnosis": "1. Stable left lung consolidation, possibly infectious pneumonia and/or aspiration. Recommend followup radiographs after treatment to ensure complete resolution. 2. Stable mild residual medial right basilar airspace disease.",
+      "findings": [
+        "Tube, Inserted/left",
+        "Catheters, Indwelling/left",
+        "Consolidation/lung/lower lobe/left",
+        "Airspace Disease/lung/base/right/mild",
+        "Atherosclerosis/aorta",
+        "Spine/degenerative/diffuse"
+      ],
+      "problems": "Tube, Inserted;Catheters, Indwelling;Consolidation;Airspace Disease;Atherosclerosis;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/37/1240/CXR1240_IM-0162-2001.png"
+    },
+    {
+      "uid": "CXR1728",
+      "diagnosis": "After further review with staff radiologist there is a right upper lobe focal opacity XXXX reflecting pneumonia.",
+      "findings": [
+        "Opacity/lung/upper lobe/right/focal",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Opacity;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/124/1728/CXR1728_IM-0479-1001.png"
+    },
+    {
+      "uid": "CXR1728",
+      "diagnosis": "After further review with staff radiologist there is a right upper lobe focal opacity XXXX reflecting pneumonia.",
+      "findings": [
+        "Opacity/lung/upper lobe/right/focal",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Opacity;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/124/1728/CXR1728_IM-0479-2001.png"
+    },
+    {
+      "uid": "CXR3069",
+      "diagnosis": "Right upper lobe pneumonia.",
+      "findings": [
+        "Airspace Disease/lung/upper lobe/right",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Airspace Disease;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/262/3069/CXR3069_IM-1432-1001.png"
+    },
+    {
+      "uid": "CXR3069",
+      "diagnosis": "Right upper lobe pneumonia.",
+      "findings": [
+        "Airspace Disease/lung/upper lobe/right",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Airspace Disease;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/262/3069/CXR3069_IM-1432-2001.png"
+    },
+    {
+      "uid": "CXR3565",
+      "diagnosis": "1. Stable right middle lobe consolidation, most consistent with pneumonia.",
+      "findings": [
+        "Opacity/lung/middle lobe/right/severe",
+        "Consolidation/lung/middle lobe/right",
+        "Pneumonia/middle lobe/right"
+      ],
+      "problems": "Opacity;Consolidation;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/357/3565/CXR3565_IM-1750-1001.png"
+    },
+    {
+      "uid": "CXR3565",
+      "diagnosis": "1. Stable right middle lobe consolidation, most consistent with pneumonia.",
+      "findings": [
+        "Opacity/lung/middle lobe/right/severe",
+        "Consolidation/lung/middle lobe/right",
+        "Pneumonia/middle lobe/right"
+      ],
+      "problems": "Opacity;Consolidation;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/357/3565/CXR3565_IM-1750-2001.png"
+    },
+    {
+      "uid": "CXR245",
+      "diagnosis": "1. Left upper lobe pneumonia.",
+      "findings": [
+        "Pneumonia/upper lobe/left",
+        "Airspace Disease/lung/upper lobe/left"
+      ],
+      "problems": "Pneumonia;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/245/245/CXR245_IM-0985-1001.png"
+    },
+    {
+      "uid": "CXR245",
+      "diagnosis": "1. Left upper lobe pneumonia.",
+      "findings": [
+        "Pneumonia/upper lobe/left",
+        "Airspace Disease/lung/upper lobe/left"
+      ],
+      "problems": "Pneumonia;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/245/245/CXR245_IM-0985-2001.png"
+    },
+    {
+      "uid": "CXR1430",
+      "diagnosis": "1. Minimal patchy bibasilar opacities, XXXX evolving pneumonia or atelectasis 2. XXXX bilateral pleural effusions",
+      "findings": [
+        "Opacity/lung/base/bilateral/patchy/mild",
+        "Pulmonary Atelectasis",
+        "Pneumonia",
+        "Pleura/blunted/mild",
+        "Pleural Effusion/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Pneumonia;Pleura;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/227/1430/CXR1430_IM-0277-2001.png"
+    },
+    {
+      "uid": "CXR3078",
+      "diagnosis": "Right lower lobe pneumonia. Consider followup radiograph to document resolution. .",
+      "findings": [
+        "Pneumonia/lower lobe/right"
+      ],
+      "problems": "Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3078/CXR3078_IM-1438-1001.png"
+    },
+    {
+      "uid": "CXR3078",
+      "diagnosis": "Right lower lobe pneumonia. Consider followup radiograph to document resolution. .",
+      "findings": [
+        "Pneumonia/lower lobe/right"
+      ],
+      "problems": "Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3078/CXR3078_IM-1438-2001.png"
+    },
+    {
+      "uid": "CXR808",
+      "diagnosis": "1. Left lower lobe pneumonia and minimal scarring or subsegmental atelectasis in the right lung base.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Cicatrix/lung/base/right/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Pneumonia/lower lobe/left",
+        "Airspace Disease/lung/lower lobe/left",
+        "Spine/degenerative"
+      ],
+      "problems": "Lung;Cicatrix;Pulmonary Atelectasis;Pneumonia;Airspace Disease;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/6/808/CXR808_IM-2341-1001.png"
+    },
+    {
+      "uid": "CXR808",
+      "diagnosis": "1. Left lower lobe pneumonia and minimal scarring or subsegmental atelectasis in the right lung base.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Cicatrix/lung/base/right/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Pneumonia/lower lobe/left",
+        "Airspace Disease/lung/lower lobe/left",
+        "Spine/degenerative"
+      ],
+      "problems": "Lung;Cicatrix;Pulmonary Atelectasis;Pneumonia;Airspace Disease;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/6/808/CXR808_IM-2341-2001.png"
+    },
+    {
+      "uid": "CXR3567",
+      "diagnosis": "1. Right lower lobe airspace disease and small effusion probably representing pneumonia.",
+      "findings": [
+        "Implanted Medical Device",
+        "Airspace Disease/lung/lower lobe/right",
+        "Pleural Effusion/right/small",
+        "Pneumonia/lower lobe/right"
+      ],
+      "problems": "Implanted Medical Device;Airspace Disease;Pleural Effusion;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/359/3567/CXR3567_IM-1752-1001.png"
+    },
+    {
+      "uid": "CXR2859",
+      "diagnosis": "Opacity XXXX representing left upper lobe pneumonia. Recommend followup radiographically until cleared to ensure that there is no underlying mass.",
+      "findings": [
+        "Opacity/lung/upper lobe/left/round",
+        "Density/lung/upper lobe/left/round",
+        "Pneumonia/upper lobe/left/round"
+      ],
+      "problems": "Opacity;Density;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/52/2859/CXR2859_IM-1266-1001.png"
+    },
+    {
+      "uid": "CXR2859",
+      "diagnosis": "Opacity XXXX representing left upper lobe pneumonia. Recommend followup radiographically until cleared to ensure that there is no underlying mass.",
+      "findings": [
+        "Opacity/lung/upper lobe/left/round",
+        "Density/lung/upper lobe/left/round",
+        "Pneumonia/upper lobe/left/round"
+      ],
+      "problems": "Opacity;Density;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/52/2859/CXR2859_IM-1266-2001.png"
+    },
+    {
+      "uid": "CXR590",
+      "diagnosis": "Right middle lobe airspace disease may reflect atelectasis or pneumonia. .",
+      "findings": [
+        "Airspace Disease/lung/middle lobe/right",
+        "Diaphragm/right/elevated"
+      ],
+      "problems": "Airspace Disease;Diaphragm",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/590/CXR590_IM-2185-2001.png"
+    },
+    {
+      "uid": "CXR590",
+      "diagnosis": "Right middle lobe airspace disease may reflect atelectasis or pneumonia. .",
+      "findings": [
+        "Airspace Disease/lung/middle lobe/right",
+        "Diaphragm/right/elevated"
+      ],
+      "problems": "Airspace Disease;Diaphragm",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/590/CXR590_IM-2185-3001.png"
+    },
+    {
+      "uid": "CXR332",
+      "diagnosis": "Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.",
+      "findings": [
+        "Opacity/lung/lower lobe/left/streaky",
+        "Opacity/retrocardiac/streaky"
+      ],
+      "problems": "Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/332/332/CXR332_IM-1588-1001.png"
+    },
+    {
+      "uid": "CXR332",
+      "diagnosis": "Streaky left retrocardiac airspace opacities, in the correct clinical setting this could represent a pneumonia.",
+      "findings": [
+        "Opacity/lung/lower lobe/left/streaky",
+        "Opacity/retrocardiac/streaky"
+      ],
+      "problems": "Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/332/332/CXR332_IM-1588-2001.png"
+    },
+    {
+      "uid": "CXR991",
+      "diagnosis": "Minimal perihilar opacity which could indicate an atypical pneumonia.",
+      "findings": [
+        "Opacity/lung/hilum/streaky/mild"
+      ],
+      "problems": "Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/991/CXR991_IM-2476-1001.png"
+    },
+    {
+      "uid": "CXR991",
+      "diagnosis": "Minimal perihilar opacity which could indicate an atypical pneumonia.",
+      "findings": [
+        "Opacity/lung/hilum/streaky/mild"
+      ],
+      "problems": "Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/189/991/CXR991_IM-2476-2001.png"
+    },
+    {
+      "uid": "CXR1240",
+      "diagnosis": "1. Stable left lung consolidation, possibly infectious pneumonia and/or aspiration. Recommend followup radiographs after treatment to ensure complete resolution. 2. Stable mild residual medial right basilar airspace disease.",
+      "findings": [
+        "Tube, Inserted/left",
+        "Catheters, Indwelling/left",
+        "Consolidation/lung/lower lobe/left",
+        "Airspace Disease/lung/base/right/mild",
+        "Atherosclerosis/aorta",
+        "Spine/degenerative/diffuse"
+      ],
+      "problems": "Tube, Inserted;Catheters, Indwelling;Consolidation;Airspace Disease;Atherosclerosis;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/37/1240/CXR1240_IM-0162-2001.png"
+    },
+    {
+      "uid": "CXR1728",
+      "diagnosis": "After further review with staff radiologist there is a right upper lobe focal opacity XXXX reflecting pneumonia.",
+      "findings": [
+        "Opacity/lung/upper lobe/right/focal",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Opacity;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/124/1728/CXR1728_IM-0479-2001.png"
+    },
+    {
+      "uid": "CXR3069",
+      "diagnosis": "Right upper lobe pneumonia.",
+      "findings": [
+        "Airspace Disease/lung/upper lobe/right",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Airspace Disease;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/262/3069/CXR3069_IM-1432-1001.png"
+    },
+    {
+      "uid": "CXR3069",
+      "diagnosis": "Right upper lobe pneumonia.",
+      "findings": [
+        "Airspace Disease/lung/upper lobe/right",
+        "Pneumonia/upper lobe/right"
+      ],
+      "problems": "Airspace Disease;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/262/3069/CXR3069_IM-1432-2001.png"
+    },
+    {
+      "uid": "CXR3565",
+      "diagnosis": "1. Stable right middle lobe consolidation, most consistent with pneumonia.",
+      "findings": [
+        "Opacity/lung/middle lobe/right/severe",
+        "Consolidation/lung/middle lobe/right",
+        "Pneumonia/middle lobe/right"
+      ],
+      "problems": "Opacity;Consolidation;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/357/3565/CXR3565_IM-1750-1001.png"
+    },
+    {
+      "uid": "CXR3565",
+      "diagnosis": "1. Stable right middle lobe consolidation, most consistent with pneumonia.",
+      "findings": [
+        "Opacity/lung/middle lobe/right/severe",
+        "Consolidation/lung/middle lobe/right",
+        "Pneumonia/middle lobe/right"
+      ],
+      "problems": "Opacity;Consolidation;Pneumonia",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/357/3565/CXR3565_IM-1750-2001.png"
     }
   ],
   "pleural effusion": [
@@ -1137,6 +1683,623 @@
       ],
       "problems": "Pleural Effusion;Pulmonary Atelectasis;Atherosclerosis",
       "image_url": "https://openi.nlm.nih.gov/imgs/512/390/1593/CXR1593_IM-0385-1001.png"
+    },
+    {
+      "uid": "CXR2348",
+      "diagnosis": "1. Moderate sized right pleural effusion appears smaller than the prior study. 2. Small left pleural effusion appears unchanged.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pleural Effusion/left/small",
+        "Deformity/abdomen"
+      ],
+      "problems": "Pleural Effusion;Pleural Effusion;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/343/2348/CXR2348_IM-0913-1001.png"
+    },
+    {
+      "uid": "CXR2348",
+      "diagnosis": "1. Moderate sized right pleural effusion appears smaller than the prior study. 2. Small left pleural effusion appears unchanged.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pleural Effusion/left/small",
+        "Deformity/abdomen"
+      ],
+      "problems": "Pleural Effusion;Pleural Effusion;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/343/2348/CXR2348_IM-0913-2001.png"
+    },
+    {
+      "uid": "CXR1649",
+      "diagnosis": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Pleural Effusion/bilateral/focal/moderate",
+        "Airspace Disease/lung/base/bilateral",
+        "Catheters, Indwelling/right",
+        "Spine/degenerative/mild"
+      ],
+      "problems": "Pleural Effusion;Airspace Disease;Catheters, Indwelling;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/45/1649/CXR1649_IM-0426-1001.png"
+    },
+    {
+      "uid": "CXR1649",
+      "diagnosis": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Pleural Effusion/bilateral/focal/moderate",
+        "Airspace Disease/lung/base/bilateral",
+        "Catheters, Indwelling/right",
+        "Spine/degenerative/mild"
+      ],
+      "problems": "Pleural Effusion;Airspace Disease;Catheters, Indwelling;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/45/1649/CXR1649_IM-0426-2001.png"
+    },
+    {
+      "uid": "CXR3846",
+      "diagnosis": "Recurrent moderate sized left pleural effusion.",
+      "findings": [
+        "Pleural Effusion/left/moderate",
+        "Density/lung/base/right/streaky/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Scoliosis/thoracic vertebrae/right"
+      ],
+      "problems": "Pleural Effusion;Density;Pulmonary Atelectasis;Scoliosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/237/3846/CXR3846_IM-1946-1001.png"
+    },
+    {
+      "uid": "CXR3846",
+      "diagnosis": "Recurrent moderate sized left pleural effusion.",
+      "findings": [
+        "Pleural Effusion/left/moderate",
+        "Density/lung/base/right/streaky/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Scoliosis/thoracic vertebrae/right"
+      ],
+      "problems": "Pleural Effusion;Density;Pulmonary Atelectasis;Scoliosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/237/3846/CXR3846_IM-1946-3001.png"
+    },
+    {
+      "uid": "CXR25",
+      "diagnosis": "1. Left lower lobe airspace disease and bilateral pleural effusions, left greater than right. This may be secondary to inhalational injury. Recommend followup to ensure complete resolution.",
+      "findings": [
+        "Sutures/lung/apex/right",
+        "Lung, Hyperlucent",
+        "Lung/hyperdistention",
+        "Pulmonary Emphysema",
+        "Airspace Disease/lung/lower lobe/left",
+        "Pleural Effusion/left/moderate",
+        "Pleural Effusion/right/small"
+      ],
+      "problems": "Sutures;Lung, Hyperlucent;Lung;Pulmonary Emphysema;Airspace Disease;Pleural Effusion;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/25/25/CXR25_IM-1024-2001.png"
+    },
+    {
+      "uid": "CXR25",
+      "diagnosis": "1. Left lower lobe airspace disease and bilateral pleural effusions, left greater than right. This may be secondary to inhalational injury. Recommend followup to ensure complete resolution.",
+      "findings": [
+        "Sutures/lung/apex/right",
+        "Lung, Hyperlucent",
+        "Lung/hyperdistention",
+        "Pulmonary Emphysema",
+        "Airspace Disease/lung/lower lobe/left",
+        "Pleural Effusion/left/moderate",
+        "Pleural Effusion/right/small"
+      ],
+      "problems": "Sutures;Lung, Hyperlucent;Lung;Pulmonary Emphysema;Airspace Disease;Pleural Effusion;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/25/25/CXR25_IM-1024-3001.png"
+    },
+    {
+      "uid": "CXR1383",
+      "diagnosis": "1. Improved right mid lung and right basilar consolidation. 2. Decreasing right pleural effusion.",
+      "findings": [
+        "Opacity/lung/middle lobe/right",
+        "Opacity/lung/lower lobe/right",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/right",
+        "Consolidation/lung/middle lobe/right",
+        "Consolidation/lung/base/right"
+      ],
+      "problems": "Opacity;Opacity;Pleural Effusion;Pulmonary Atelectasis;Consolidation;Consolidation",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/180/1383/CXR1383_IM-0245-1001.png"
+    },
+    {
+      "uid": "CXR1383",
+      "diagnosis": "1. Improved right mid lung and right basilar consolidation. 2. Decreasing right pleural effusion.",
+      "findings": [
+        "Opacity/lung/middle lobe/right",
+        "Opacity/lung/lower lobe/right",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/right",
+        "Consolidation/lung/middle lobe/right",
+        "Consolidation/lung/base/right"
+      ],
+      "problems": "Opacity;Opacity;Pleural Effusion;Pulmonary Atelectasis;Consolidation;Consolidation",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/180/1383/CXR1383_IM-0245-1002.png"
+    },
+    {
+      "uid": "CXR2752",
+      "diagnosis": "1. Cardiomegaly and central vascular congestion with perihilar opacities, possibly edema. 2. Large right pleural effusion.",
+      "findings": [
+        "Cardiac Shadow/enlarged/mild",
+        "Pulmonary Congestion",
+        "Pleural Effusion/right/large",
+        "Pulmonary Atelectasis/right",
+        "Opacity/lung/hilum/mild",
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiac Shadow;Pulmonary Congestion;Pleural Effusion;Pulmonary Atelectasis;Opacity;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/346/2752/CXR2752_IM-1202-0001-0001.png"
+    },
+    {
+      "uid": "CXR2752",
+      "diagnosis": "1. Cardiomegaly and central vascular congestion with perihilar opacities, possibly edema. 2. Large right pleural effusion.",
+      "findings": [
+        "Cardiac Shadow/enlarged/mild",
+        "Pulmonary Congestion",
+        "Pleural Effusion/right/large",
+        "Pulmonary Atelectasis/right",
+        "Opacity/lung/hilum/mild",
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiac Shadow;Pulmonary Congestion;Pleural Effusion;Pulmonary Atelectasis;Opacity;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/346/2752/CXR2752_IM-1202-0001-0002.png"
+    },
+    {
+      "uid": "CXR1868",
+      "diagnosis": "Small bilateral pleural effusions and right infrahilar infiltrate versus bronchovascular crowding.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Lung/hilum/interstitial/prominent",
+        "Infiltrate/lung/hilum/right",
+        "Markings/bronchovascular"
+      ],
+      "problems": "Pleural Effusion;Lung;Infiltrate;Markings",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/264/1868/CXR1868_IM-0561-1001.png"
+    },
+    {
+      "uid": "CXR1868",
+      "diagnosis": "Small bilateral pleural effusions and right infrahilar infiltrate versus bronchovascular crowding.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Lung/hilum/interstitial/prominent",
+        "Infiltrate/lung/hilum/right",
+        "Markings/bronchovascular"
+      ],
+      "problems": "Pleural Effusion;Lung;Infiltrate;Markings",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/264/1868/CXR1868_IM-0561-2001.png"
+    },
+    {
+      "uid": "CXR1043",
+      "diagnosis": "Interval improvement in aeration of lung bases and pleural effusions. Residual small left effusion and questionable small right pleural effusion.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Pulmonary Atelectasis/base/left"
+      ],
+      "problems": "Pleural Effusion;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/241/1043/CXR1043_IM-0035-0001-0001.png"
+    },
+    {
+      "uid": "CXR1043",
+      "diagnosis": "Interval improvement in aeration of lung bases and pleural effusions. Residual small left effusion and questionable small right pleural effusion.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Pulmonary Atelectasis/base/left"
+      ],
+      "problems": "Pleural Effusion;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/241/1043/CXR1043_IM-0035-0001-0002.png"
+    },
+    {
+      "uid": "CXR3090",
+      "diagnosis": "1. Right sided pleural effusion.",
+      "findings": [
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/283/3090/CXR3090_IM-1445-1001.png"
+    },
+    {
+      "uid": "CXR3090",
+      "diagnosis": "1. Right sided pleural effusion.",
+      "findings": [
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/283/3090/CXR3090_IM-1445-2001.png"
+    },
+    {
+      "uid": "CXR401",
+      "diagnosis": "Diffuse interstitial lung disease with pleural effusion.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Opacity/lung/interstitial",
+        "Lung Diseases, Interstitial/diffuse",
+        "Pleural Effusion"
+      ],
+      "problems": "Costophrenic Angle;Opacity;Lung Diseases, Interstitial;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/0/401/CXR401_IM-2051-1001.png"
+    },
+    {
+      "uid": "CXR401",
+      "diagnosis": "Diffuse interstitial lung disease with pleural effusion.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Opacity/lung/interstitial",
+        "Lung Diseases, Interstitial/diffuse",
+        "Pleural Effusion"
+      ],
+      "problems": "Costophrenic Angle;Opacity;Lung Diseases, Interstitial;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/0/401/CXR401_IM-2051-2001.png"
+    },
+    {
+      "uid": "CXR736",
+      "diagnosis": "Prominent hiatal hernia. Left basilar opacity compatible pleural effusion and atelectasis. XXXX right pleural effusion. No pulmonary edema / overt CHF identified. Stable senescent mediastinal contour.",
+      "findings": [
+        "Hernia, Hiatal/prominent",
+        "Opacity/lung/base/left",
+        "Pleural Effusion/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Hernia, Hiatal;Opacity;Pleural Effusion;Pulmonary Atelectasis;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/335/736/CXR736_IM-2295-1001-0001.png"
+    },
+    {
+      "uid": "CXR736",
+      "diagnosis": "Prominent hiatal hernia. Left basilar opacity compatible pleural effusion and atelectasis. XXXX right pleural effusion. No pulmonary edema / overt CHF identified. Stable senescent mediastinal contour.",
+      "findings": [
+        "Hernia, Hiatal/prominent",
+        "Opacity/lung/base/left",
+        "Pleural Effusion/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Hernia, Hiatal;Opacity;Pleural Effusion;Pulmonary Atelectasis;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/335/736/CXR736_IM-2295-1001-0002.png"
+    },
+    {
+      "uid": "CXR1593",
+      "diagnosis": "1. Moderate right pleural effusion.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pulmonary Atelectasis/lower lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Pleural Effusion;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/390/1593/CXR1593_IM-0385-1001.png"
+    },
+    {
+      "uid": "CXR2348",
+      "diagnosis": "1. Moderate sized right pleural effusion appears smaller than the prior study. 2. Small left pleural effusion appears unchanged.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pleural Effusion/left/small",
+        "Deformity/abdomen"
+      ],
+      "problems": "Pleural Effusion;Pleural Effusion;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/343/2348/CXR2348_IM-0913-1001.png"
+    },
+    {
+      "uid": "CXR2348",
+      "diagnosis": "1. Moderate sized right pleural effusion appears smaller than the prior study. 2. Small left pleural effusion appears unchanged.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pleural Effusion/left/small",
+        "Deformity/abdomen"
+      ],
+      "problems": "Pleural Effusion;Pleural Effusion;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/343/2348/CXR2348_IM-0913-2001.png"
+    },
+    {
+      "uid": "CXR1649",
+      "diagnosis": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Pleural Effusion/bilateral/focal/moderate",
+        "Airspace Disease/lung/base/bilateral",
+        "Catheters, Indwelling/right",
+        "Spine/degenerative/mild"
+      ],
+      "problems": "Pleural Effusion;Airspace Disease;Catheters, Indwelling;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/45/1649/CXR1649_IM-0426-1001.png"
+    },
+    {
+      "uid": "CXR1649",
+      "diagnosis": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Pleural Effusion/bilateral/focal/moderate",
+        "Airspace Disease/lung/base/bilateral",
+        "Catheters, Indwelling/right",
+        "Spine/degenerative/mild"
+      ],
+      "problems": "Pleural Effusion;Airspace Disease;Catheters, Indwelling;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/45/1649/CXR1649_IM-0426-2001.png"
+    },
+    {
+      "uid": "CXR3846",
+      "diagnosis": "Recurrent moderate sized left pleural effusion.",
+      "findings": [
+        "Pleural Effusion/left/moderate",
+        "Density/lung/base/right/streaky/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Scoliosis/thoracic vertebrae/right"
+      ],
+      "problems": "Pleural Effusion;Density;Pulmonary Atelectasis;Scoliosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/237/3846/CXR3846_IM-1946-1001.png"
+    },
+    {
+      "uid": "CXR3846",
+      "diagnosis": "Recurrent moderate sized left pleural effusion.",
+      "findings": [
+        "Pleural Effusion/left/moderate",
+        "Density/lung/base/right/streaky/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Scoliosis/thoracic vertebrae/right"
+      ],
+      "problems": "Pleural Effusion;Density;Pulmonary Atelectasis;Scoliosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/237/3846/CXR3846_IM-1946-3001.png"
+    },
+    {
+      "uid": "CXR25",
+      "diagnosis": "1. Left lower lobe airspace disease and bilateral pleural effusions, left greater than right. This may be secondary to inhalational injury. Recommend followup to ensure complete resolution.",
+      "findings": [
+        "Sutures/lung/apex/right",
+        "Lung, Hyperlucent",
+        "Lung/hyperdistention",
+        "Pulmonary Emphysema",
+        "Airspace Disease/lung/lower lobe/left",
+        "Pleural Effusion/left/moderate",
+        "Pleural Effusion/right/small"
+      ],
+      "problems": "Sutures;Lung, Hyperlucent;Lung;Pulmonary Emphysema;Airspace Disease;Pleural Effusion;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/25/25/CXR25_IM-1024-2001.png"
+    },
+    {
+      "uid": "CXR25",
+      "diagnosis": "1. Left lower lobe airspace disease and bilateral pleural effusions, left greater than right. This may be secondary to inhalational injury. Recommend followup to ensure complete resolution.",
+      "findings": [
+        "Sutures/lung/apex/right",
+        "Lung, Hyperlucent",
+        "Lung/hyperdistention",
+        "Pulmonary Emphysema",
+        "Airspace Disease/lung/lower lobe/left",
+        "Pleural Effusion/left/moderate",
+        "Pleural Effusion/right/small"
+      ],
+      "problems": "Sutures;Lung, Hyperlucent;Lung;Pulmonary Emphysema;Airspace Disease;Pleural Effusion;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/25/25/CXR25_IM-1024-3001.png"
+    },
+    {
+      "uid": "CXR1383",
+      "diagnosis": "1. Improved right mid lung and right basilar consolidation. 2. Decreasing right pleural effusion.",
+      "findings": [
+        "Opacity/lung/middle lobe/right",
+        "Opacity/lung/lower lobe/right",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/right",
+        "Consolidation/lung/middle lobe/right",
+        "Consolidation/lung/base/right"
+      ],
+      "problems": "Opacity;Opacity;Pleural Effusion;Pulmonary Atelectasis;Consolidation;Consolidation",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/180/1383/CXR1383_IM-0245-1001.png"
+    },
+    {
+      "uid": "CXR1383",
+      "diagnosis": "1. Improved right mid lung and right basilar consolidation. 2. Decreasing right pleural effusion.",
+      "findings": [
+        "Opacity/lung/middle lobe/right",
+        "Opacity/lung/lower lobe/right",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/right",
+        "Consolidation/lung/middle lobe/right",
+        "Consolidation/lung/base/right"
+      ],
+      "problems": "Opacity;Opacity;Pleural Effusion;Pulmonary Atelectasis;Consolidation;Consolidation",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/180/1383/CXR1383_IM-0245-1002.png"
+    },
+    {
+      "uid": "CXR2752",
+      "diagnosis": "1. Cardiomegaly and central vascular congestion with perihilar opacities, possibly edema. 2. Large right pleural effusion.",
+      "findings": [
+        "Cardiac Shadow/enlarged/mild",
+        "Pulmonary Congestion",
+        "Pleural Effusion/right/large",
+        "Pulmonary Atelectasis/right",
+        "Opacity/lung/hilum/mild",
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiac Shadow;Pulmonary Congestion;Pleural Effusion;Pulmonary Atelectasis;Opacity;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/346/2752/CXR2752_IM-1202-0001-0001.png"
+    },
+    {
+      "uid": "CXR2752",
+      "diagnosis": "1. Cardiomegaly and central vascular congestion with perihilar opacities, possibly edema. 2. Large right pleural effusion.",
+      "findings": [
+        "Cardiac Shadow/enlarged/mild",
+        "Pulmonary Congestion",
+        "Pleural Effusion/right/large",
+        "Pulmonary Atelectasis/right",
+        "Opacity/lung/hilum/mild",
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiac Shadow;Pulmonary Congestion;Pleural Effusion;Pulmonary Atelectasis;Opacity;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/346/2752/CXR2752_IM-1202-0001-0002.png"
+    },
+    {
+      "uid": "CXR1868",
+      "diagnosis": "Small bilateral pleural effusions and right infrahilar infiltrate versus bronchovascular crowding.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Lung/hilum/interstitial/prominent",
+        "Infiltrate/lung/hilum/right",
+        "Markings/bronchovascular"
+      ],
+      "problems": "Pleural Effusion;Lung;Infiltrate;Markings",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/264/1868/CXR1868_IM-0561-1001.png"
+    },
+    {
+      "uid": "CXR1868",
+      "diagnosis": "Small bilateral pleural effusions and right infrahilar infiltrate versus bronchovascular crowding.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Lung/hilum/interstitial/prominent",
+        "Infiltrate/lung/hilum/right",
+        "Markings/bronchovascular"
+      ],
+      "problems": "Pleural Effusion;Lung;Infiltrate;Markings",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/264/1868/CXR1868_IM-0561-2001.png"
+    },
+    {
+      "uid": "CXR1043",
+      "diagnosis": "Interval improvement in aeration of lung bases and pleural effusions. Residual small left effusion and questionable small right pleural effusion.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Pulmonary Atelectasis/base/left"
+      ],
+      "problems": "Pleural Effusion;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/241/1043/CXR1043_IM-0035-0001-0001.png"
+    },
+    {
+      "uid": "CXR1043",
+      "diagnosis": "Interval improvement in aeration of lung bases and pleural effusions. Residual small left effusion and questionable small right pleural effusion.",
+      "findings": [
+        "Pleural Effusion/bilateral/small",
+        "Pulmonary Atelectasis/base/left"
+      ],
+      "problems": "Pleural Effusion;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/241/1043/CXR1043_IM-0035-0001-0002.png"
+    },
+    {
+      "uid": "CXR3090",
+      "diagnosis": "1. Right sided pleural effusion.",
+      "findings": [
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/283/3090/CXR3090_IM-1445-1001.png"
+    },
+    {
+      "uid": "CXR3090",
+      "diagnosis": "1. Right sided pleural effusion.",
+      "findings": [
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/283/3090/CXR3090_IM-1445-2001.png"
+    },
+    {
+      "uid": "CXR401",
+      "diagnosis": "Diffuse interstitial lung disease with pleural effusion.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Opacity/lung/interstitial",
+        "Lung Diseases, Interstitial/diffuse",
+        "Pleural Effusion"
+      ],
+      "problems": "Costophrenic Angle;Opacity;Lung Diseases, Interstitial;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/0/401/CXR401_IM-2051-1001.png"
+    },
+    {
+      "uid": "CXR401",
+      "diagnosis": "Diffuse interstitial lung disease with pleural effusion.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Opacity/lung/interstitial",
+        "Lung Diseases, Interstitial/diffuse",
+        "Pleural Effusion"
+      ],
+      "problems": "Costophrenic Angle;Opacity;Lung Diseases, Interstitial;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/0/401/CXR401_IM-2051-2001.png"
+    },
+    {
+      "uid": "CXR736",
+      "diagnosis": "Prominent hiatal hernia. Left basilar opacity compatible pleural effusion and atelectasis. XXXX right pleural effusion. No pulmonary edema / overt CHF identified. Stable senescent mediastinal contour.",
+      "findings": [
+        "Hernia, Hiatal/prominent",
+        "Opacity/lung/base/left",
+        "Pleural Effusion/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Hernia, Hiatal;Opacity;Pleural Effusion;Pulmonary Atelectasis;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/335/736/CXR736_IM-2295-1001-0001.png"
+    },
+    {
+      "uid": "CXR736",
+      "diagnosis": "Prominent hiatal hernia. Left basilar opacity compatible pleural effusion and atelectasis. XXXX right pleural effusion. No pulmonary edema / overt CHF identified. Stable senescent mediastinal contour.",
+      "findings": [
+        "Hernia, Hiatal/prominent",
+        "Opacity/lung/base/left",
+        "Pleural Effusion/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Hernia, Hiatal;Opacity;Pleural Effusion;Pulmonary Atelectasis;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/335/736/CXR736_IM-2295-1001-0002.png"
+    },
+    {
+      "uid": "CXR1593",
+      "diagnosis": "1. Moderate right pleural effusion.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pulmonary Atelectasis/lower lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Pleural Effusion;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/390/1593/CXR1593_IM-0385-1001.png"
+    },
+    {
+      "uid": "CXR2348",
+      "diagnosis": "1. Moderate sized right pleural effusion appears smaller than the prior study. 2. Small left pleural effusion appears unchanged.",
+      "findings": [
+        "Pleural Effusion/right/moderate",
+        "Pleural Effusion/left/small",
+        "Deformity/abdomen"
+      ],
+      "problems": "Pleural Effusion;Pleural Effusion;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/343/2348/CXR2348_IM-0913-2001.png"
+    },
+    {
+      "uid": "CXR1649",
+      "diagnosis": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Pleural Effusion/bilateral/focal/moderate",
+        "Airspace Disease/lung/base/bilateral",
+        "Catheters, Indwelling/right",
+        "Spine/degenerative/mild"
+      ],
+      "problems": "Pleural Effusion;Airspace Disease;Catheters, Indwelling;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/45/1649/CXR1649_IM-0426-1001.png"
+    },
+    {
+      "uid": "CXR1649",
+      "diagnosis": "1. Partially loculated right pleural effusion, grossly stable. 2. Stable moderate layering left pleural effusion. 3. Bibasilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Pleural Effusion/bilateral/focal/moderate",
+        "Airspace Disease/lung/base/bilateral",
+        "Catheters, Indwelling/right",
+        "Spine/degenerative/mild"
+      ],
+      "problems": "Pleural Effusion;Airspace Disease;Catheters, Indwelling;Spine",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/45/1649/CXR1649_IM-0426-2001.png"
+    },
+    {
+      "uid": "CXR3846",
+      "diagnosis": "Recurrent moderate sized left pleural effusion.",
+      "findings": [
+        "Pleural Effusion/left/moderate",
+        "Density/lung/base/right/streaky/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Scoliosis/thoracic vertebrae/right"
+      ],
+      "problems": "Pleural Effusion;Density;Pulmonary Atelectasis;Scoliosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/237/3846/CXR3846_IM-1946-1001.png"
+    },
+    {
+      "uid": "CXR3846",
+      "diagnosis": "Recurrent moderate sized left pleural effusion.",
+      "findings": [
+        "Pleural Effusion/left/moderate",
+        "Density/lung/base/right/streaky/mild",
+        "Pulmonary Atelectasis/base/right",
+        "Scoliosis/thoracic vertebrae/right"
+      ],
+      "problems": "Pleural Effusion;Density;Pulmonary Atelectasis;Scoliosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/237/3846/CXR3846_IM-1946-3001.png"
     }
   ],
   "pneumothorax": [
@@ -1722,6 +2885,602 @@
       ],
       "problems": "Pneumothorax;Fractures, Bone",
       "image_url": "https://openi.nlm.nih.gov/imgs/512/170/3378/CXR3378_IM-1627-2001.png"
+    },
+    {
+      "uid": "CXR2448",
+      "diagnosis": "No significant change in right pneumothorax or pleural fluid.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/42/2448/CXR2448_IM-0983-1001.png"
+    },
+    {
+      "uid": "CXR2448",
+      "diagnosis": "No significant change in right pneumothorax or pleural fluid.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/42/2448/CXR2448_IM-0983-2001.png"
+    },
+    {
+      "uid": "CXR1691",
+      "diagnosis": "1. Probable XXXX residual left pneumothorax. 2. Stable streaky left basilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Airspace Disease/lung/base/left/streaky",
+        "Pneumothorax/left",
+        "Fractures, Bone/ribs/left"
+      ],
+      "problems": "Lung;Airspace Disease;Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/87/1691/CXR1691_IM-0453-1001.png"
+    },
+    {
+      "uid": "CXR1691",
+      "diagnosis": "1. Probable XXXX residual left pneumothorax. 2. Stable streaky left basilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Airspace Disease/lung/base/left/streaky",
+        "Pneumothorax/left",
+        "Fractures, Bone/ribs/left"
+      ],
+      "problems": "Lung;Airspace Disease;Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/87/1691/CXR1691_IM-0453-4001.png"
+    },
+    {
+      "uid": "CXR1339",
+      "diagnosis": "1. Small 3.3 mm right-sided pneumothorax.",
+      "findings": [
+        "Pneumothorax/right/small"
+      ],
+      "problems": "Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/1339/CXR1339_IM-0218-1001.png"
+    },
+    {
+      "uid": "CXR1339",
+      "diagnosis": "1. Small 3.3 mm right-sided pneumothorax.",
+      "findings": [
+        "Pneumothorax/right/small"
+      ],
+      "problems": "Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/1339/CXR1339_IM-0218-2001.png"
+    },
+    {
+      "uid": "CXR253",
+      "diagnosis": "No change in moderate left pneumothorax with left pleural drainage catheter again seen overlying the left upper lung.",
+      "findings": [
+        "Pneumothorax/left/moderate",
+        "Catheters, Indwelling/left"
+      ],
+      "problems": "Pneumothorax;Catheters, Indwelling",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/253/253/CXR253_IM-1045-1001.png"
+    },
+    {
+      "uid": "CXR253",
+      "diagnosis": "No change in moderate left pneumothorax with left pleural drainage catheter again seen overlying the left upper lung.",
+      "findings": [
+        "Pneumothorax/left/moderate",
+        "Catheters, Indwelling/left"
+      ],
+      "problems": "Pneumothorax;Catheters, Indwelling",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/253/253/CXR253_IM-1045-2001.png"
+    },
+    {
+      "uid": "CXR1874",
+      "diagnosis": "1. XXXX right apical pneumothorax measuring approximately 5 mm in thickness. 2. Multiple right-sided rib fractures involving at XXXX the right anterior 5th through 9th ribs with mild displacement. 3. Mild right basilar airspace disease, atelectasis versus contusion. .",
+      "findings": [
+        "Pneumothorax/apex/right/small",
+        "Subcutaneous Emphysema/thorax/right/severe",
+        "Subcutaneous Emphysema/neck/severe",
+        "Fractures, Bone/ribs/right/anterior/multiple",
+        "Airspace Disease/lung/base/right/streaky/mild",
+        "Hernia, Hiatal/small",
+        "Catheters, Indwelling/thoracic vertebrae",
+        "Pulmonary Atelectasis/base/right",
+        "Opacity/lung/base/right"
+      ],
+      "problems": "Pneumothorax;Subcutaneous Emphysema;Subcutaneous Emphysema;Fractures, Bone;Airspace Disease;Hernia, Hiatal;Catheters, Indwelling;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/270/1874/CXR1874_IM-0565-1001.png"
+    },
+    {
+      "uid": "CXR1874",
+      "diagnosis": "1. XXXX right apical pneumothorax measuring approximately 5 mm in thickness. 2. Multiple right-sided rib fractures involving at XXXX the right anterior 5th through 9th ribs with mild displacement. 3. Mild right basilar airspace disease, atelectasis versus contusion. .",
+      "findings": [
+        "Pneumothorax/apex/right/small",
+        "Subcutaneous Emphysema/thorax/right/severe",
+        "Subcutaneous Emphysema/neck/severe",
+        "Fractures, Bone/ribs/right/anterior/multiple",
+        "Airspace Disease/lung/base/right/streaky/mild",
+        "Hernia, Hiatal/small",
+        "Catheters, Indwelling/thoracic vertebrae",
+        "Pulmonary Atelectasis/base/right",
+        "Opacity/lung/base/right"
+      ],
+      "problems": "Pneumothorax;Subcutaneous Emphysema;Subcutaneous Emphysema;Fractures, Bone;Airspace Disease;Hernia, Hiatal;Catheters, Indwelling;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/270/1874/CXR1874_IM-0565-2001.png"
+    },
+    {
+      "uid": "CXR2831",
+      "diagnosis": "Persistent 8mm pneumothorax with small amount of pleural effusion. Heart size normal. Enteric tube tip in the stomach. Midline abdominal clips. XXXX in the right upper quadrant. Bullet overlies L3.",
+      "findings": [
+        "Pneumothorax",
+        "Pleural Effusion/small",
+        "Tube, Inserted/abdomen",
+        "Surgical Instruments/abdomen",
+        "Foreign Bodies/lumbar vertebrae"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion;Tube, Inserted;Surgical Instruments;Foreign Bodies",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/24/2831/CXR2831_IM-1249-1001.png"
+    },
+    {
+      "uid": "CXR2831",
+      "diagnosis": "Persistent 8mm pneumothorax with small amount of pleural effusion. Heart size normal. Enteric tube tip in the stomach. Midline abdominal clips. XXXX in the right upper quadrant. Bullet overlies L3.",
+      "findings": [
+        "Pneumothorax",
+        "Pleural Effusion/small",
+        "Tube, Inserted/abdomen",
+        "Surgical Instruments/abdomen",
+        "Foreign Bodies/lumbar vertebrae"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion;Tube, Inserted;Surgical Instruments;Foreign Bodies",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/24/2831/CXR2831_IM-1249-2001.png"
+    },
+    {
+      "uid": "CXR1021",
+      "diagnosis": "Recurrent right pneumothorax, complete collapse of the right lung, near 100%. Right-to-left mediastinal shift is present, suggesting XXXX physiology.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pulmonary Atelectasis/right",
+        "Shift/mediastinum"
+      ],
+      "problems": "Pneumothorax;Pulmonary Atelectasis;Shift",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/219/1021/CXR1021_IM-0017-1001-0001.png"
+    },
+    {
+      "uid": "CXR1021",
+      "diagnosis": "Recurrent right pneumothorax, complete collapse of the right lung, near 100%. Right-to-left mediastinal shift is present, suggesting XXXX physiology.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pulmonary Atelectasis/right",
+        "Shift/mediastinum"
+      ],
+      "problems": "Pneumothorax;Pulmonary Atelectasis;Shift",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/219/1021/CXR1021_IM-0017-1001-0002.png"
+    },
+    {
+      "uid": "CXR64",
+      "diagnosis": "Small to moderate right apical pneumothorax.",
+      "findings": [
+        "Technical Quality of Image Unsatisfactory ",
+        "Pneumothorax/apex/right/moderate"
+      ],
+      "problems": "Technical Quality of Image Unsatisfactory ;Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/64/CXR64_IM-2218-2001.png"
+    },
+    {
+      "uid": "CXR64",
+      "diagnosis": "Small to moderate right apical pneumothorax.",
+      "findings": [
+        "Technical Quality of Image Unsatisfactory ",
+        "Pneumothorax/apex/right/moderate"
+      ],
+      "problems": "Technical Quality of Image Unsatisfactory ;Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/64/CXR64_IM-2218-4004.png"
+    },
+    {
+      "uid": "CXR465",
+      "diagnosis": "1. Small right apical pneumothorax. 2. Right middle and lower lobe patchy opacities, XXXX residual atelectasis. 3. Near-complete resolution of right-sided pleural effusion with XXXX residual. .",
+      "findings": [
+        "Opacity/lung/lower lobe/right/patchy",
+        "Opacity/lung/middle lobe/right/patchy",
+        "Pneumothorax/apex/right/small",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/lower lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right"
+      ],
+      "problems": "Opacity;Opacity;Pneumothorax;Pleural Effusion;Pulmonary Atelectasis;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/465/CXR465_IM-2093-0001-0001.png"
+    },
+    {
+      "uid": "CXR465",
+      "diagnosis": "1. Small right apical pneumothorax. 2. Right middle and lower lobe patchy opacities, XXXX residual atelectasis. 3. Near-complete resolution of right-sided pleural effusion with XXXX residual. .",
+      "findings": [
+        "Opacity/lung/lower lobe/right/patchy",
+        "Opacity/lung/middle lobe/right/patchy",
+        "Pneumothorax/apex/right/small",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/lower lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right"
+      ],
+      "problems": "Opacity;Opacity;Pneumothorax;Pleural Effusion;Pulmonary Atelectasis;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/465/CXR465_IM-2093-0001-0002.png"
+    },
+    {
+      "uid": "CXR91",
+      "diagnosis": "Moderate sized right pneumothorax. There is minimal right-to-left cardiomediastinal shift, suggesting XXXX.",
+      "findings": [
+        "Pneumothorax/apex/right/moderate",
+        "Shift/mediastinum/mild"
+      ],
+      "problems": "Pneumothorax;Shift",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/91/91/CXR91_IM-2415-2001.png"
+    },
+    {
+      "uid": "CXR1326",
+      "diagnosis": "Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable postsurgical changes left axilla. Degenerative changes thoracic spine. Stable streaky opacities right base. XXXX opacity right midlung, question fluid level, incompletely evaluated, no recent XXXX for comparison.",
+      "findings": [
+        "Catheters, Indwelling/right",
+        "Opacity/lung/hilum/right",
+        "Diaphragm/right/elevated",
+        "Pneumothorax/apex/right",
+        "Thoracic Vertebrae/degenerative",
+        "Opacity/lung/base/right/streaky/multiple",
+        "Opacity/lung/middle lobe/right"
+      ],
+      "problems": "Catheters, Indwelling;Opacity;Diaphragm;Pneumothorax;Thoracic Vertebrae;Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/123/1326/CXR1326_IM-0210-0001-0001.png"
+    },
+    {
+      "uid": "CXR1326",
+      "diagnosis": "Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable postsurgical changes left axilla. Degenerative changes thoracic spine. Stable streaky opacities right base. XXXX opacity right midlung, question fluid level, incompletely evaluated, no recent XXXX for comparison.",
+      "findings": [
+        "Catheters, Indwelling/right",
+        "Opacity/lung/hilum/right",
+        "Diaphragm/right/elevated",
+        "Pneumothorax/apex/right",
+        "Thoracic Vertebrae/degenerative",
+        "Opacity/lung/base/right/streaky/multiple",
+        "Opacity/lung/middle lobe/right"
+      ],
+      "problems": "Catheters, Indwelling;Opacity;Diaphragm;Pneumothorax;Thoracic Vertebrae;Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/123/1326/CXR1326_IM-0210-0001-0002.png"
+    },
+    {
+      "uid": "CXR3378",
+      "diagnosis": "1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.",
+      "findings": [
+        "Pneumothorax/apex/right/moderate",
+        "Fractures, Bone/ribs/right/multiple"
+      ],
+      "problems": "Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/170/3378/CXR3378_IM-1627-1001.png"
+    },
+    {
+      "uid": "CXR3378",
+      "diagnosis": "1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.",
+      "findings": [
+        "Pneumothorax/apex/right/moderate",
+        "Fractures, Bone/ribs/right/multiple"
+      ],
+      "problems": "Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/170/3378/CXR3378_IM-1627-2001.png"
+    },
+    {
+      "uid": "CXR2448",
+      "diagnosis": "No significant change in right pneumothorax or pleural fluid.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/42/2448/CXR2448_IM-0983-1001.png"
+    },
+    {
+      "uid": "CXR2448",
+      "diagnosis": "No significant change in right pneumothorax or pleural fluid.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/42/2448/CXR2448_IM-0983-2001.png"
+    },
+    {
+      "uid": "CXR1691",
+      "diagnosis": "1. Probable XXXX residual left pneumothorax. 2. Stable streaky left basilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Airspace Disease/lung/base/left/streaky",
+        "Pneumothorax/left",
+        "Fractures, Bone/ribs/left"
+      ],
+      "problems": "Lung;Airspace Disease;Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/87/1691/CXR1691_IM-0453-1001.png"
+    },
+    {
+      "uid": "CXR1691",
+      "diagnosis": "1. Probable XXXX residual left pneumothorax. 2. Stable streaky left basilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Airspace Disease/lung/base/left/streaky",
+        "Pneumothorax/left",
+        "Fractures, Bone/ribs/left"
+      ],
+      "problems": "Lung;Airspace Disease;Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/87/1691/CXR1691_IM-0453-4001.png"
+    },
+    {
+      "uid": "CXR1339",
+      "diagnosis": "1. Small 3.3 mm right-sided pneumothorax.",
+      "findings": [
+        "Pneumothorax/right/small"
+      ],
+      "problems": "Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/1339/CXR1339_IM-0218-1001.png"
+    },
+    {
+      "uid": "CXR1339",
+      "diagnosis": "1. Small 3.3 mm right-sided pneumothorax.",
+      "findings": [
+        "Pneumothorax/right/small"
+      ],
+      "problems": "Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/1339/CXR1339_IM-0218-2001.png"
+    },
+    {
+      "uid": "CXR253",
+      "diagnosis": "No change in moderate left pneumothorax with left pleural drainage catheter again seen overlying the left upper lung.",
+      "findings": [
+        "Pneumothorax/left/moderate",
+        "Catheters, Indwelling/left"
+      ],
+      "problems": "Pneumothorax;Catheters, Indwelling",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/253/253/CXR253_IM-1045-1001.png"
+    },
+    {
+      "uid": "CXR253",
+      "diagnosis": "No change in moderate left pneumothorax with left pleural drainage catheter again seen overlying the left upper lung.",
+      "findings": [
+        "Pneumothorax/left/moderate",
+        "Catheters, Indwelling/left"
+      ],
+      "problems": "Pneumothorax;Catheters, Indwelling",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/253/253/CXR253_IM-1045-2001.png"
+    },
+    {
+      "uid": "CXR1874",
+      "diagnosis": "1. XXXX right apical pneumothorax measuring approximately 5 mm in thickness. 2. Multiple right-sided rib fractures involving at XXXX the right anterior 5th through 9th ribs with mild displacement. 3. Mild right basilar airspace disease, atelectasis versus contusion. .",
+      "findings": [
+        "Pneumothorax/apex/right/small",
+        "Subcutaneous Emphysema/thorax/right/severe",
+        "Subcutaneous Emphysema/neck/severe",
+        "Fractures, Bone/ribs/right/anterior/multiple",
+        "Airspace Disease/lung/base/right/streaky/mild",
+        "Hernia, Hiatal/small",
+        "Catheters, Indwelling/thoracic vertebrae",
+        "Pulmonary Atelectasis/base/right",
+        "Opacity/lung/base/right"
+      ],
+      "problems": "Pneumothorax;Subcutaneous Emphysema;Subcutaneous Emphysema;Fractures, Bone;Airspace Disease;Hernia, Hiatal;Catheters, Indwelling;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/270/1874/CXR1874_IM-0565-1001.png"
+    },
+    {
+      "uid": "CXR1874",
+      "diagnosis": "1. XXXX right apical pneumothorax measuring approximately 5 mm in thickness. 2. Multiple right-sided rib fractures involving at XXXX the right anterior 5th through 9th ribs with mild displacement. 3. Mild right basilar airspace disease, atelectasis versus contusion. .",
+      "findings": [
+        "Pneumothorax/apex/right/small",
+        "Subcutaneous Emphysema/thorax/right/severe",
+        "Subcutaneous Emphysema/neck/severe",
+        "Fractures, Bone/ribs/right/anterior/multiple",
+        "Airspace Disease/lung/base/right/streaky/mild",
+        "Hernia, Hiatal/small",
+        "Catheters, Indwelling/thoracic vertebrae",
+        "Pulmonary Atelectasis/base/right",
+        "Opacity/lung/base/right"
+      ],
+      "problems": "Pneumothorax;Subcutaneous Emphysema;Subcutaneous Emphysema;Fractures, Bone;Airspace Disease;Hernia, Hiatal;Catheters, Indwelling;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/270/1874/CXR1874_IM-0565-2001.png"
+    },
+    {
+      "uid": "CXR2831",
+      "diagnosis": "Persistent 8mm pneumothorax with small amount of pleural effusion. Heart size normal. Enteric tube tip in the stomach. Midline abdominal clips. XXXX in the right upper quadrant. Bullet overlies L3.",
+      "findings": [
+        "Pneumothorax",
+        "Pleural Effusion/small",
+        "Tube, Inserted/abdomen",
+        "Surgical Instruments/abdomen",
+        "Foreign Bodies/lumbar vertebrae"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion;Tube, Inserted;Surgical Instruments;Foreign Bodies",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/24/2831/CXR2831_IM-1249-1001.png"
+    },
+    {
+      "uid": "CXR2831",
+      "diagnosis": "Persistent 8mm pneumothorax with small amount of pleural effusion. Heart size normal. Enteric tube tip in the stomach. Midline abdominal clips. XXXX in the right upper quadrant. Bullet overlies L3.",
+      "findings": [
+        "Pneumothorax",
+        "Pleural Effusion/small",
+        "Tube, Inserted/abdomen",
+        "Surgical Instruments/abdomen",
+        "Foreign Bodies/lumbar vertebrae"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion;Tube, Inserted;Surgical Instruments;Foreign Bodies",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/24/2831/CXR2831_IM-1249-2001.png"
+    },
+    {
+      "uid": "CXR1021",
+      "diagnosis": "Recurrent right pneumothorax, complete collapse of the right lung, near 100%. Right-to-left mediastinal shift is present, suggesting XXXX physiology.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pulmonary Atelectasis/right",
+        "Shift/mediastinum"
+      ],
+      "problems": "Pneumothorax;Pulmonary Atelectasis;Shift",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/219/1021/CXR1021_IM-0017-1001-0001.png"
+    },
+    {
+      "uid": "CXR1021",
+      "diagnosis": "Recurrent right pneumothorax, complete collapse of the right lung, near 100%. Right-to-left mediastinal shift is present, suggesting XXXX physiology.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pulmonary Atelectasis/right",
+        "Shift/mediastinum"
+      ],
+      "problems": "Pneumothorax;Pulmonary Atelectasis;Shift",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/219/1021/CXR1021_IM-0017-1001-0002.png"
+    },
+    {
+      "uid": "CXR64",
+      "diagnosis": "Small to moderate right apical pneumothorax.",
+      "findings": [
+        "Technical Quality of Image Unsatisfactory ",
+        "Pneumothorax/apex/right/moderate"
+      ],
+      "problems": "Technical Quality of Image Unsatisfactory ;Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/64/CXR64_IM-2218-2001.png"
+    },
+    {
+      "uid": "CXR64",
+      "diagnosis": "Small to moderate right apical pneumothorax.",
+      "findings": [
+        "Technical Quality of Image Unsatisfactory ",
+        "Pneumothorax/apex/right/moderate"
+      ],
+      "problems": "Technical Quality of Image Unsatisfactory ;Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/64/CXR64_IM-2218-4004.png"
+    },
+    {
+      "uid": "CXR465",
+      "diagnosis": "1. Small right apical pneumothorax. 2. Right middle and lower lobe patchy opacities, XXXX residual atelectasis. 3. Near-complete resolution of right-sided pleural effusion with XXXX residual. .",
+      "findings": [
+        "Opacity/lung/lower lobe/right/patchy",
+        "Opacity/lung/middle lobe/right/patchy",
+        "Pneumothorax/apex/right/small",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/lower lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right"
+      ],
+      "problems": "Opacity;Opacity;Pneumothorax;Pleural Effusion;Pulmonary Atelectasis;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/465/CXR465_IM-2093-0001-0001.png"
+    },
+    {
+      "uid": "CXR465",
+      "diagnosis": "1. Small right apical pneumothorax. 2. Right middle and lower lobe patchy opacities, XXXX residual atelectasis. 3. Near-complete resolution of right-sided pleural effusion with XXXX residual. .",
+      "findings": [
+        "Opacity/lung/lower lobe/right/patchy",
+        "Opacity/lung/middle lobe/right/patchy",
+        "Pneumothorax/apex/right/small",
+        "Pleural Effusion/right/small",
+        "Pulmonary Atelectasis/lower lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right"
+      ],
+      "problems": "Opacity;Opacity;Pneumothorax;Pleural Effusion;Pulmonary Atelectasis;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/465/CXR465_IM-2093-0001-0002.png"
+    },
+    {
+      "uid": "CXR91",
+      "diagnosis": "Moderate sized right pneumothorax. There is minimal right-to-left cardiomediastinal shift, suggesting XXXX.",
+      "findings": [
+        "Pneumothorax/apex/right/moderate",
+        "Shift/mediastinum/mild"
+      ],
+      "problems": "Pneumothorax;Shift",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/91/91/CXR91_IM-2415-2001.png"
+    },
+    {
+      "uid": "CXR1326",
+      "diagnosis": "Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable postsurgical changes left axilla. Degenerative changes thoracic spine. Stable streaky opacities right base. XXXX opacity right midlung, question fluid level, incompletely evaluated, no recent XXXX for comparison.",
+      "findings": [
+        "Catheters, Indwelling/right",
+        "Opacity/lung/hilum/right",
+        "Diaphragm/right/elevated",
+        "Pneumothorax/apex/right",
+        "Thoracic Vertebrae/degenerative",
+        "Opacity/lung/base/right/streaky/multiple",
+        "Opacity/lung/middle lobe/right"
+      ],
+      "problems": "Catheters, Indwelling;Opacity;Diaphragm;Pneumothorax;Thoracic Vertebrae;Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/123/1326/CXR1326_IM-0210-0001-0001.png"
+    },
+    {
+      "uid": "CXR1326",
+      "diagnosis": "Stable right-sided subclavian central venous catheter with tip approximating the SVC. Stable right suprahilar opacity, compatible with history of right upper lobe mass. Elevation of the right hemidiaphragm. Right-sided pneumothorax noted measuring approximately 1.8 cm from the the right apex. Stable postsurgical changes left axilla. Degenerative changes thoracic spine. Stable streaky opacities right base. XXXX opacity right midlung, question fluid level, incompletely evaluated, no recent XXXX for comparison.",
+      "findings": [
+        "Catheters, Indwelling/right",
+        "Opacity/lung/hilum/right",
+        "Diaphragm/right/elevated",
+        "Pneumothorax/apex/right",
+        "Thoracic Vertebrae/degenerative",
+        "Opacity/lung/base/right/streaky/multiple",
+        "Opacity/lung/middle lobe/right"
+      ],
+      "problems": "Catheters, Indwelling;Opacity;Diaphragm;Pneumothorax;Thoracic Vertebrae;Opacity;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/123/1326/CXR1326_IM-0210-0001-0002.png"
+    },
+    {
+      "uid": "CXR3378",
+      "diagnosis": "1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.",
+      "findings": [
+        "Pneumothorax/apex/right/moderate",
+        "Fractures, Bone/ribs/right/multiple"
+      ],
+      "problems": "Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/170/3378/CXR3378_IM-1627-1001.png"
+    },
+    {
+      "uid": "CXR3378",
+      "diagnosis": "1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.",
+      "findings": [
+        "Pneumothorax/apex/right/moderate",
+        "Fractures, Bone/ribs/right/multiple"
+      ],
+      "problems": "Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/170/3378/CXR3378_IM-1627-2001.png"
+    },
+    {
+      "uid": "CXR2448",
+      "diagnosis": "No significant change in right pneumothorax or pleural fluid.",
+      "findings": [
+        "Pneumothorax/right",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Pneumothorax;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/42/2448/CXR2448_IM-0983-2001.png"
+    },
+    {
+      "uid": "CXR1691",
+      "diagnosis": "1. Probable XXXX residual left pneumothorax. 2. Stable streaky left basilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Airspace Disease/lung/base/left/streaky",
+        "Pneumothorax/left",
+        "Fractures, Bone/ribs/left"
+      ],
+      "problems": "Lung;Airspace Disease;Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/87/1691/CXR1691_IM-0453-1001.png"
+    },
+    {
+      "uid": "CXR1691",
+      "diagnosis": "1. Probable XXXX residual left pneumothorax. 2. Stable streaky left basilar airspace disease, possibly atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Airspace Disease/lung/base/left/streaky",
+        "Pneumothorax/left",
+        "Fractures, Bone/ribs/left"
+      ],
+      "problems": "Lung;Airspace Disease;Pneumothorax;Fractures, Bone",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/87/1691/CXR1691_IM-0453-4001.png"
+    },
+    {
+      "uid": "CXR1339",
+      "diagnosis": "1. Small 3.3 mm right-sided pneumothorax.",
+      "findings": [
+        "Pneumothorax/right/small"
+      ],
+      "problems": "Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/1339/CXR1339_IM-0218-1001.png"
+    },
+    {
+      "uid": "CXR1339",
+      "diagnosis": "1. Small 3.3 mm right-sided pneumothorax.",
+      "findings": [
+        "Pneumothorax/right/small"
+      ],
+      "problems": "Pneumothorax",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/1339/CXR1339_IM-0218-2001.png"
     }
   ],
   "cardiomegaly": [
@@ -2229,8 +3988,2690 @@
       ],
       "problems": "Cardiomegaly",
       "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-3001.png"
+    },
+    {
+      "uid": "CXR3273",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta, Thoracic/tortuous/mild"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/65/3273/CXR3273_IM-1554-1001.png"
+    },
+    {
+      "uid": "CXR3273",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta, Thoracic/tortuous/mild"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/65/3273/CXR3273_IM-1554-2001.png"
+    },
+    {
+      "uid": "CXR2702",
+      "diagnosis": "Cardiomegaly with XXXX right pleural effusion.",
+      "findings": [
+        "Cardiomegaly",
+        "Lung/hypoinflation",
+        "Costophrenic Angle/right/blunted/mild",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Cardiomegaly;Lung;Costophrenic Angle;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/296/2702/CXR2702_IM-1170-1001.png"
+    },
+    {
+      "uid": "CXR2702",
+      "diagnosis": "Cardiomegaly with XXXX right pleural effusion.",
+      "findings": [
+        "Cardiomegaly",
+        "Lung/hypoinflation",
+        "Costophrenic Angle/right/blunted/mild",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Cardiomegaly;Lung;Costophrenic Angle;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/296/2702/CXR2702_IM-1170-2001.png"
+    },
+    {
+      "uid": "CXR1923",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Lung/hyperdistention",
+        "Cardiomegaly"
+      ],
+      "problems": "Lung;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/319/1923/CXR1923_IM-0598-1001.png"
+    },
+    {
+      "uid": "CXR1923",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Lung/hyperdistention",
+        "Cardiomegaly"
+      ],
+      "problems": "Lung;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/319/1923/CXR1923_IM-0598-2001.png"
+    },
+    {
+      "uid": "CXR686",
+      "diagnosis": "Cardiomegaly. Clear lungs. .",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/285/686/CXR686_IM-2254-1001.png"
+    },
+    {
+      "uid": "CXR686",
+      "diagnosis": "Cardiomegaly. Clear lungs. .",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/285/686/CXR686_IM-2254-2001.png"
+    },
+    {
+      "uid": "CXR1139",
+      "diagnosis": "Cardiomegaly and increased interstitial opacities XXXX represent interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial",
+        "Pulmonary Edema/interstitial"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/337/1139/CXR1139_IM-0095-1001.png"
+    },
+    {
+      "uid": "CXR1139",
+      "diagnosis": "Cardiomegaly and increased interstitial opacities XXXX represent interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial",
+        "Pulmonary Edema/interstitial"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/337/1139/CXR1139_IM-0095-2001.png"
+    },
+    {
+      "uid": "CXR2183",
+      "diagnosis": "Cardiomegaly and mild interstitial pulmonary edema.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/base/bilateral",
+        "Opacity/lung/hilum/interstitial",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/178/2183/CXR2183_IM-0794-1001.png"
+    },
+    {
+      "uid": "CXR2183",
+      "diagnosis": "Cardiomegaly and mild interstitial pulmonary edema.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/base/bilateral",
+        "Opacity/lung/hilum/interstitial",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/178/2183/CXR2183_IM-0794-2001.png"
+    },
+    {
+      "uid": "CXR2208",
+      "diagnosis": "Stable cardiomegaly without acute abnormality.",
+      "findings": [
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/2208/CXR2208_IM-0815-1001.png"
+    },
+    {
+      "uid": "CXR2208",
+      "diagnosis": "Stable cardiomegaly without acute abnormality.",
+      "findings": [
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/2208/CXR2208_IM-0815-1002.png"
+    },
+    {
+      "uid": "CXR627",
+      "diagnosis": "Cardiomegaly and pulmonary vascular congestion.",
+      "findings": [
+        "Cardiomegaly",
+        "Atherosclerosis/aorta, thoracic",
+        "Pulmonary Congestion"
+      ],
+      "problems": "Cardiomegaly;Atherosclerosis;Pulmonary Congestion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/226/627/CXR627_IM-2207-1001.png"
+    },
+    {
+      "uid": "CXR627",
+      "diagnosis": "Cardiomegaly and pulmonary vascular congestion.",
+      "findings": [
+        "Cardiomegaly",
+        "Atherosclerosis/aorta, thoracic",
+        "Pulmonary Congestion"
+      ],
+      "problems": "Cardiomegaly;Atherosclerosis;Pulmonary Congestion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/226/627/CXR627_IM-2207-3001.png"
+    },
+    {
+      "uid": "CXR1261",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/58/1261/CXR1261_IM-0177-1001.png"
+    },
+    {
+      "uid": "CXR1261",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/58/1261/CXR1261_IM-0177-2001.png"
+    },
+    {
+      "uid": "CXR3880",
+      "diagnosis": "Stable cardiomegaly with mild pulmonary interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial/prominent/mild",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3880/CXR3880_IM-1968-1001.png"
+    },
+    {
+      "uid": "CXR3880",
+      "diagnosis": "Stable cardiomegaly with mild pulmonary interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial/prominent/mild",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3880/CXR3880_IM-1968-2001.png"
+    },
+    {
+      "uid": "CXR1170",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-1001.png"
+    },
+    {
+      "uid": "CXR1170",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-2001.png"
+    },
+    {
+      "uid": "CXR1170",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-3001.png"
+    },
+    {
+      "uid": "CXR3273",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta, Thoracic/tortuous/mild"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/65/3273/CXR3273_IM-1554-1001.png"
+    },
+    {
+      "uid": "CXR3273",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta, Thoracic/tortuous/mild"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/65/3273/CXR3273_IM-1554-2001.png"
+    },
+    {
+      "uid": "CXR2702",
+      "diagnosis": "Cardiomegaly with XXXX right pleural effusion.",
+      "findings": [
+        "Cardiomegaly",
+        "Lung/hypoinflation",
+        "Costophrenic Angle/right/blunted/mild",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Cardiomegaly;Lung;Costophrenic Angle;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/296/2702/CXR2702_IM-1170-1001.png"
+    },
+    {
+      "uid": "CXR2702",
+      "diagnosis": "Cardiomegaly with XXXX right pleural effusion.",
+      "findings": [
+        "Cardiomegaly",
+        "Lung/hypoinflation",
+        "Costophrenic Angle/right/blunted/mild",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Cardiomegaly;Lung;Costophrenic Angle;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/296/2702/CXR2702_IM-1170-2001.png"
+    },
+    {
+      "uid": "CXR1923",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Lung/hyperdistention",
+        "Cardiomegaly"
+      ],
+      "problems": "Lung;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/319/1923/CXR1923_IM-0598-1001.png"
+    },
+    {
+      "uid": "CXR1923",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Lung/hyperdistention",
+        "Cardiomegaly"
+      ],
+      "problems": "Lung;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/319/1923/CXR1923_IM-0598-2001.png"
+    },
+    {
+      "uid": "CXR686",
+      "diagnosis": "Cardiomegaly. Clear lungs. .",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/285/686/CXR686_IM-2254-1001.png"
+    },
+    {
+      "uid": "CXR686",
+      "diagnosis": "Cardiomegaly. Clear lungs. .",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/285/686/CXR686_IM-2254-2001.png"
+    },
+    {
+      "uid": "CXR1139",
+      "diagnosis": "Cardiomegaly and increased interstitial opacities XXXX represent interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial",
+        "Pulmonary Edema/interstitial"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/337/1139/CXR1139_IM-0095-1001.png"
+    },
+    {
+      "uid": "CXR1139",
+      "diagnosis": "Cardiomegaly and increased interstitial opacities XXXX represent interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial",
+        "Pulmonary Edema/interstitial"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/337/1139/CXR1139_IM-0095-2001.png"
+    },
+    {
+      "uid": "CXR2183",
+      "diagnosis": "Cardiomegaly and mild interstitial pulmonary edema.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/base/bilateral",
+        "Opacity/lung/hilum/interstitial",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/178/2183/CXR2183_IM-0794-1001.png"
+    },
+    {
+      "uid": "CXR2183",
+      "diagnosis": "Cardiomegaly and mild interstitial pulmonary edema.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/base/bilateral",
+        "Opacity/lung/hilum/interstitial",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/178/2183/CXR2183_IM-0794-2001.png"
+    },
+    {
+      "uid": "CXR2208",
+      "diagnosis": "Stable cardiomegaly without acute abnormality.",
+      "findings": [
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/2208/CXR2208_IM-0815-1001.png"
+    },
+    {
+      "uid": "CXR2208",
+      "diagnosis": "Stable cardiomegaly without acute abnormality.",
+      "findings": [
+        "Cardiomegaly"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/2208/CXR2208_IM-0815-1002.png"
+    },
+    {
+      "uid": "CXR627",
+      "diagnosis": "Cardiomegaly and pulmonary vascular congestion.",
+      "findings": [
+        "Cardiomegaly",
+        "Atherosclerosis/aorta, thoracic",
+        "Pulmonary Congestion"
+      ],
+      "problems": "Cardiomegaly;Atherosclerosis;Pulmonary Congestion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/226/627/CXR627_IM-2207-1001.png"
+    },
+    {
+      "uid": "CXR627",
+      "diagnosis": "Cardiomegaly and pulmonary vascular congestion.",
+      "findings": [
+        "Cardiomegaly",
+        "Atherosclerosis/aorta, thoracic",
+        "Pulmonary Congestion"
+      ],
+      "problems": "Cardiomegaly;Atherosclerosis;Pulmonary Congestion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/226/627/CXR627_IM-2207-3001.png"
+    },
+    {
+      "uid": "CXR1261",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/58/1261/CXR1261_IM-0177-1001.png"
+    },
+    {
+      "uid": "CXR1261",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta/tortuous"
+      ],
+      "problems": "Cardiomegaly;Aorta",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/58/1261/CXR1261_IM-0177-2001.png"
+    },
+    {
+      "uid": "CXR3880",
+      "diagnosis": "Stable cardiomegaly with mild pulmonary interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial/prominent/mild",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3880/CXR3880_IM-1968-1001.png"
+    },
+    {
+      "uid": "CXR3880",
+      "diagnosis": "Stable cardiomegaly with mild pulmonary interstitial edema.",
+      "findings": [
+        "Cardiomegaly",
+        "Opacity/lung/interstitial/prominent/mild",
+        "Pulmonary Edema/interstitial/mild"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Edema",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/271/3880/CXR3880_IM-1968-2001.png"
+    },
+    {
+      "uid": "CXR1170",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-1001.png"
+    },
+    {
+      "uid": "CXR1170",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-2001.png"
+    },
+    {
+      "uid": "CXR1170",
+      "diagnosis": "Mild cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/mild"
+      ],
+      "problems": "Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/368/1170/CXR1170_IM-0115-3001.png"
+    },
+    {
+      "uid": "CXR3273",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Cardiomegaly",
+        "Aorta, Thoracic/tortuous/mild"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/65/3273/CXR3273_IM-1554-2001.png"
+    },
+    {
+      "uid": "CXR2702",
+      "diagnosis": "Cardiomegaly with XXXX right pleural effusion.",
+      "findings": [
+        "Cardiomegaly",
+        "Lung/hypoinflation",
+        "Costophrenic Angle/right/blunted/mild",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Cardiomegaly;Lung;Costophrenic Angle;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/296/2702/CXR2702_IM-1170-1001.png"
+    },
+    {
+      "uid": "CXR2702",
+      "diagnosis": "Cardiomegaly with XXXX right pleural effusion.",
+      "findings": [
+        "Cardiomegaly",
+        "Lung/hypoinflation",
+        "Costophrenic Angle/right/blunted/mild",
+        "Pleural Effusion/right"
+      ],
+      "problems": "Cardiomegaly;Lung;Costophrenic Angle;Pleural Effusion",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/296/2702/CXR2702_IM-1170-2001.png"
+    },
+    {
+      "uid": "CXR1923",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Lung/hyperdistention",
+        "Cardiomegaly"
+      ],
+      "problems": "Lung;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/319/1923/CXR1923_IM-0598-1001.png"
+    },
+    {
+      "uid": "CXR1923",
+      "diagnosis": "Cardiomegaly without acute cardiopulmonary abnormality.",
+      "findings": [
+        "Lung/hyperdistention",
+        "Cardiomegaly"
+      ],
+      "problems": "Lung;Cardiomegaly",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/319/1923/CXR1923_IM-0598-2001.png"
     }
   ],
-  "atelectasis": [],
-  "normal chest": []
+  "atelectasis": [
+    {
+      "uid": "CXR2036",
+      "diagnosis": "1. Bibasilar airspace disease, greater on the right, either atelectasis or infiltrate. 2. Platelike right midlung atelectasis. .",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta, Thoracic/tortuous",
+        "Lung/hypoinflation",
+        "Diaphragm/right/elevated",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Airspace Disease/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Infiltrate/lung/base/bilateral"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic;Lung;Diaphragm;Pulmonary Atelectasis;Airspace Disease;Pulmonary Atelectasis;Infiltrate",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/31/2036/CXR2036_IM-0680-1001.png"
+    },
+    {
+      "uid": "CXR2036",
+      "diagnosis": "1. Bibasilar airspace disease, greater on the right, either atelectasis or infiltrate. 2. Platelike right midlung atelectasis. .",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta, Thoracic/tortuous",
+        "Lung/hypoinflation",
+        "Diaphragm/right/elevated",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Airspace Disease/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Infiltrate/lung/base/bilateral"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic;Lung;Diaphragm;Pulmonary Atelectasis;Airspace Disease;Pulmonary Atelectasis;Infiltrate",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/31/2036/CXR2036_IM-0680-4001.png"
+    },
+    {
+      "uid": "CXR586",
+      "diagnosis": "Probable left midlung and left basilar atelectasis. Cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/lingula",
+        "Pulmonary Atelectasis/lingula",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Opacity/lung/middle lobe/right",
+        "Spine/degenerative/mild",
+        "Atherosclerosis/severe"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Atelectasis;Opacity;Pulmonary Atelectasis;Opacity;Spine;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/185/586/CXR586_IM-2182-1001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0002.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-1001.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-2001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-1001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-2001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0002.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-1001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-2001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-3001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0002.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-1001.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-1001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-3001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0002.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-1001.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-2001.png"
+    },
+    {
+      "uid": "CXR2036",
+      "diagnosis": "1. Bibasilar airspace disease, greater on the right, either atelectasis or infiltrate. 2. Platelike right midlung atelectasis. .",
+      "findings": [
+        "Cardiomegaly/mild",
+        "Aorta, Thoracic/tortuous",
+        "Lung/hypoinflation",
+        "Diaphragm/right/elevated",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Airspace Disease/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Infiltrate/lung/base/bilateral"
+      ],
+      "problems": "Cardiomegaly;Aorta, Thoracic;Lung;Diaphragm;Pulmonary Atelectasis;Airspace Disease;Pulmonary Atelectasis;Infiltrate",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/31/2036/CXR2036_IM-0680-4001.png"
+    },
+    {
+      "uid": "CXR586",
+      "diagnosis": "Probable left midlung and left basilar atelectasis. Cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/lingula",
+        "Pulmonary Atelectasis/lingula",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Opacity/lung/middle lobe/right",
+        "Spine/degenerative/mild",
+        "Atherosclerosis/severe"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Atelectasis;Opacity;Pulmonary Atelectasis;Opacity;Spine;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/185/586/CXR586_IM-2182-1001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0002.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-1001.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-2001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-1001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-2001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0002.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-1001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-2001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-3001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0002.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-1001.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-1001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-3001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0002.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-1001.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-2001.png"
+    },
+    {
+      "uid": "CXR586",
+      "diagnosis": "Probable left midlung and left basilar atelectasis. Cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/lingula",
+        "Pulmonary Atelectasis/lingula",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Opacity/lung/middle lobe/right",
+        "Spine/degenerative/mild",
+        "Atherosclerosis/severe"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Atelectasis;Opacity;Pulmonary Atelectasis;Opacity;Spine;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/185/586/CXR586_IM-2182-1001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0002.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-1001.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-2001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-1001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-2001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0002.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-1001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-2001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-3001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0002.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-1001.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-1001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-3001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0002.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-1001.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-2001.png"
+    },
+    {
+      "uid": "CXR586",
+      "diagnosis": "Probable left midlung and left basilar atelectasis. Cardiomegaly.",
+      "findings": [
+        "Cardiomegaly/moderate",
+        "Opacity/lung/lingula",
+        "Pulmonary Atelectasis/lingula",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/left",
+        "Opacity/lung/middle lobe/right",
+        "Spine/degenerative/mild",
+        "Atherosclerosis/severe"
+      ],
+      "problems": "Cardiomegaly;Opacity;Pulmonary Atelectasis;Opacity;Pulmonary Atelectasis;Opacity;Spine;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/185/586/CXR586_IM-2182-1001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0002.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-1001.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-2001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-1001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-2001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0001.png"
+    },
+    {
+      "uid": "CXR3411",
+      "diagnosis": "1. Patchy left lower lobe airspace disease, possibly atelectasis or pneumonia. 2. Right mid lung subsegmental atelectasis.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/bronchovascular",
+        "Airspace Disease/lung/lower lobe/left/patchy",
+        "Opacity/lung/middle lobe/right",
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Atherosclerosis/aorta"
+      ],
+      "problems": "Lung;Markings;Airspace Disease;Opacity;Pulmonary Atelectasis;Atherosclerosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/203/3411/CXR3411_IM-1649-0001-0002.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-1001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-2001.png"
+    },
+    {
+      "uid": "CXR1000",
+      "diagnosis": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease.",
+      "findings": [
+        "Opacity/lung/upper lobe/right",
+        "Pulmonary Atelectasis/upper lobe/right",
+        "Opacity/lung/lingula"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/198/1000/CXR1000_IM-0003-3001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0001.png"
+    },
+    {
+      "uid": "CXR1348",
+      "diagnosis": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. .",
+      "findings": [
+        "Lung/hypoinflation",
+        "Markings/lung/base/bronchovascular/mild",
+        "Pulmonary Atelectasis/base/bilateral/mild",
+        "Fractures, Bone/ribs/left",
+        "Deformity/ribs/right"
+      ],
+      "problems": "Lung;Markings;Pulmonary Atelectasis;Fractures, Bone;Deformity",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/145/1348/CXR1348_IM-0226-4004-0002.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-1001.png"
+    },
+    {
+      "uid": "CXR2577",
+      "diagnosis": "XXXX XXXX atelectasis/airspace disease.",
+      "findings": [
+        "Opacity/lung",
+        "Pulmonary Atelectasis",
+        "Airspace Disease/lung"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/171/2577/CXR2577_IM-1077-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-1001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-2001.png"
+    },
+    {
+      "uid": "CXR3570",
+      "diagnosis": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality.",
+      "findings": [
+        "Pulmonary Atelectasis/middle lobe/right",
+        "Pulmonary Atelectasis/lower lobe/left",
+        "Cicatrix/lung/middle lobe/right/patchy",
+        "Cicatrix/lung/lower lobe/left/patchy",
+        "Lung/hypoinflation"
+      ],
+      "problems": "Pulmonary Atelectasis;Pulmonary Atelectasis;Cicatrix;Cicatrix;Lung",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/362/3570/CXR3570_IM-1754-3001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0001.png"
+    },
+    {
+      "uid": "CXR1360",
+      "diagnosis": "Bibasilar atelectasis. No pneumonia. .",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/157/1360/CXR1360_IM-0234-0001-0002.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-1001.png"
+    },
+    {
+      "uid": "CXR723",
+      "diagnosis": "Bibasilar atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Lung/hypoinflation",
+        "Calcinosis/lung/hilum/lymph nodes/right"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Lung;Calcinosis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/322/723/CXR723_IM-2283-2001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0001.png"
+    },
+    {
+      "uid": "CXR2165",
+      "diagnosis": "1. Low lung volumes. 2. XXXX XXXX opacities. Right base appears to represent atelectasis. Left base could be atelectasis or pneumonia.",
+      "findings": [
+        "Lung/hypoinflation",
+        "Opacity/lung/base/bilateral",
+        "Pulmonary Atelectasis/base/right"
+      ],
+      "problems": "Lung;Opacity;Pulmonary Atelectasis",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/160/2165/CXR2165_IM-0781-0001-0002.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-1001.png"
+    },
+    {
+      "uid": "CXR1704",
+      "diagnosis": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis.",
+      "findings": [
+        "Costophrenic Angle/left/blunted",
+        "Pleural Effusion/left/large",
+        "Opacity/lung/base/left",
+        "Pulmonary Atelectasis/base/right/mild",
+        "Catheters, Indwelling/bilateral",
+        "Pulmonary Atelectasis/left",
+        "Airspace Disease/lung/left"
+      ],
+      "problems": "Costophrenic Angle;Pleural Effusion;Opacity;Pulmonary Atelectasis;Catheters, Indwelling;Pulmonary Atelectasis;Airspace Disease",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/100/1704/CXR1704_IM-0464-2001.png"
+    },
+    {
+      "uid": "CXR3680",
+      "diagnosis": "Vague opacity in the right midlung, this could reflect a small focus of atelectasis or infiltrate. Bibasilar airspace opacities, XXXX atelectasis.",
+      "findings": [
+        "Opacity/lung/base/bilateral/streaky",
+        "Pulmonary Atelectasis/base/bilateral",
+        "Opacity/lung/middle lobe/right",
+        "Calcified Granuloma/scattered/multiple"
+      ],
+      "problems": "Opacity;Pulmonary Atelectasis;Opacity;Calcified Granuloma",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/71/3680/CXR3680_IM-1832-1001.png"
+    }
+  ],
+  "normal chest": [
+    {
+      "uid": "CXR1345",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/142/1345/CXR1345_IM-0223-1001.png"
+    },
+    {
+      "uid": "CXR1345",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/142/1345/CXR1345_IM-0223-2001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1002.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-1001.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-2001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-1001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-2001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-1001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-2001.png"
+    },
+    {
+      "uid": "CXR2388",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/383/2388/CXR2388_IM-0944-1001.png"
+    },
+    {
+      "uid": "CXR523",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/122/523/CXR523_IM-2134-2001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-1001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-2001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-1001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-3001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1002.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1001.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1002.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1001.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1002.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-1001.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-2001.png"
+    },
+    {
+      "uid": "CXR1588",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/385/1588/CXR1588_IM-0382-1001.png"
+    },
+    {
+      "uid": "CXR1345",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/142/1345/CXR1345_IM-0223-2001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1002.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-1001.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-2001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-1001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-2001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-1001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-2001.png"
+    },
+    {
+      "uid": "CXR2388",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/383/2388/CXR2388_IM-0944-1001.png"
+    },
+    {
+      "uid": "CXR523",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/122/523/CXR523_IM-2134-2001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-1001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-2001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-1001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-3001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1002.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1001.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1002.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1001.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1002.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-1001.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-2001.png"
+    },
+    {
+      "uid": "CXR1588",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/385/1588/CXR1588_IM-0382-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1002.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-1001.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-2001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-1001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-2001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-1001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-2001.png"
+    },
+    {
+      "uid": "CXR2388",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/383/2388/CXR2388_IM-0944-1001.png"
+    },
+    {
+      "uid": "CXR523",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/122/523/CXR523_IM-2134-2001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-1001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-2001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-1001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-3001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1002.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1001.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1002.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1001.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1002.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-1001.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-2001.png"
+    },
+    {
+      "uid": "CXR1588",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/385/1588/CXR1588_IM-0382-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1002.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-1001.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-2001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-1001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-2001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-1001.png"
+    },
+    {
+      "uid": "CXR2353",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/348/2353/CXR2353_IM-0918-2001.png"
+    },
+    {
+      "uid": "CXR2388",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/383/2388/CXR2388_IM-0944-1001.png"
+    },
+    {
+      "uid": "CXR523",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/122/523/CXR523_IM-2134-2001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-1001.png"
+    },
+    {
+      "uid": "CXR3037",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/230/3037/CXR3037_IM-1410-2001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-1001.png"
+    },
+    {
+      "uid": "CXR3938",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/329/3938/CXR3938_IM-2009-3001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1001.png"
+    },
+    {
+      "uid": "CXR2683",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/277/2683/CXR2683_IM-1156-1002.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1001.png"
+    },
+    {
+      "uid": "CXR3726",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/117/3726/CXR3726_IM-1862-1002.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1001.png"
+    },
+    {
+      "uid": "CXR3764",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/155/3764/CXR3764_IM-1884-1002.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-1001.png"
+    },
+    {
+      "uid": "CXR1304",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/101/1304/CXR1304_IM-0199-2001.png"
+    },
+    {
+      "uid": "CXR1588",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/385/1588/CXR1588_IM-0382-1001.png"
+    },
+    {
+      "uid": "CXR136",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/136/136/CXR136_IM-0233-1002.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-1001.png"
+    },
+    {
+      "uid": "CXR1415",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/212/1415/CXR1415_IM-0264-2001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-1001.png"
+    },
+    {
+      "uid": "CXR2069",
+      "diagnosis": "Normal chest",
+      "findings": [
+        "normal"
+      ],
+      "problems": "normal",
+      "image_url": "https://openi.nlm.nih.gov/imgs/512/64/2069/CXR2069_IM-0702-2001.png"
+    }
+  ]
 }
